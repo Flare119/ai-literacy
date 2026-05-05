@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Literacy for Production — Learning Hub</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YX2DD3PJ7N"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-YX2DD3PJ7N');
+    </script>
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --card: #1a1a1a;
+            --card-hover: #222;
+            --accent: #6366f1;
+            --accent-light: #818cf8;
+            --text: #e5e5e5;
+            --text-dim: #999;
+            --green: #22c55e;
+            --orange: #f59e0b;
+            --red: #ef4444;
+            --blue: #3b82f6;
+            --purple: #a855f7;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0 30px;
+            border-bottom: 1px solid #333;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        header p {
+            color: var(--text-dim);
+            font-size: 14px;
+        }
+        .progress-bar {
+            background: #333;
+            border-radius: 10px;
+            height: 8px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            background: linear-gradient(90deg, var(--accent), var(--purple));
+            height: 100%;
+            border-radius: 10px;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        .progress-text {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-top: 6px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            padding: 10px 0;
+            z-index: 100;
+        }
+        nav button {
+            background: var(--card);
+            border: 1px solid #333;
+            color: var(--text);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        nav button:hover, nav button.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        /* Sections */
+        .section { display: none; }
+        .section.active { display: block; }
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--text-dim);
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card);
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            background: var(--card-hover);
+            border-color: #444;
+        }
+        .card.expanded {
+            border-color: var(--accent);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .card-tag {
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        .tag-fundamental { background: #1e3a5f; color: #60a5fa; }
+        .tag-production { background: #1a3d1a; color: #4ade80; }
+        .tag-agentic { background: #3d1a3d; color: #c084fc; }
+        .tag-ops { background: #3d2e1a; color: #fbbf24; }
+
+        .card-subtitle {
+            color: var(--text-dim);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        .card-body {
+            display: none;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #333;
+        }
+        .card.expanded .card-body { display: block; }
+
+        .card-body h4 {
+            font-size: 13px;
+            color: var(--accent-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 16px 0 8px;
+        }
+        .card-body h4:first-child { margin-top: 0; }
+        .card-body p, .card-body li {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #ccc;
+        }
+        .card-body ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+        .card-body li { margin-bottom: 6px; }
+
+        .analogy {
+            background: #1a1a2e;
+            border-left: 3px solid var(--accent);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+        .analogy::before {
+            content: "🎬 Nói theo ngôn ngữ Production:";
+            display: block;
+            font-size: 11px;
+            color: var(--accent-light);
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+        .real-example {
+            background: #1a2e1a;
+            border-left: 3px solid var(--green);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+        .real-example::before {
+            content: "✅ Ví dụ thật (từ work của Nam):";
+            display: block;
+            font-size: 11px;
+            color: var(--green);
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .check-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 6px 14px;
+            background: #1a3d1a;
+            border: 1px solid var(--green);
+            color: var(--green);
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .check-btn:hover { background: var(--green); color: black; }
+        .check-btn.checked { background: var(--green); color: black; }
+
+        .arrow { transition: transform 0.2s; }
+        .card.expanded .arrow { transform: rotate(90deg); }
+
+        /* Quiz */
+        .quiz-box {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+        .quiz-box p { font-weight: 600; margin-bottom: 12px; }
+        .quiz-option {
+            display: block;
+            padding: 10px 16px;
+            margin: 6px 0;
+            background: var(--card);
+            border: 1px solid #333;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .quiz-option:hover { border-color: var(--accent); }
+        .quiz-option.correct { background: #1a3d1a; border-color: var(--green); color: var(--green); }
+        .quiz-option.wrong { background: #3d1a1a; border-color: var(--red); color: var(--red); }
+
+        .purpose-tag {
+            cursor: pointer;
+        }
+        .purpose-tag span {
+            display: inline-block;
+            padding: 6px 12px;
+            background: var(--card);
+            border: 1px solid #333;
+            border-radius: 16px;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .purpose-tag input:checked + span {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+        .purpose-tag:hover span {
+            border-color: #555;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            header h1 { font-size: 22px; }
+            nav button { padding: 6px 12px; font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🧠 AI Literacy for Production</h1>
+    <p>Kiến thức AI cho người làm sản xuất — từ bản chất đến vận hành</p>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-text" id="progressText">0 / 0 concepts learned</div>
+</header>
+
+<nav id="nav">
+    <button class="active" data-section="fundamentals">🧱 Nền tảng AI</button>
+    <button data-section="production">🎬 AI Production</button>
+    <button data-section="agentic">🤖 Agentic AI</button>
+    <button data-section="ops">⚙️ AI Ops & Tools</button>
+    <button data-section="quiz">📝 Quiz</button>
+</nav>
+
+<!-- SECTION 1: FUNDAMENTALS -->
+<div class="section active" id="sec-fundamentals">
+    <h2 class="section-title">Nền tảng AI</h2>
+    <p class="section-desc">Bản chất các loại AI model — hiểu đủ để biết nó làm gì, không cần biết code.</p>
+
+    <div class="card" data-id="llm">
+        <div class="card-header">
+            <div>
+                <div class="card-title">LLM — Large Language Model</div>
+                <div class="card-subtitle">ChatGPT, Claude, Gemini, GPT-4 đều là LLM</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Model được train trên hàng tỷ trang text. Nó học cách "từ này → từ tiếp theo nào có xác suất cao nhất". Không có ý thức, không hiểu — chỉ dự đoán cực kỳ giỏi.</p>
+            <div class="analogy">Như 1 biên kịch đã đọc mọi kịch bản trên đời. Khi bạn cho nó 1 đoạn mở đầu, nó viết tiếp theo pattern đã học. Không sáng tạo — nhưng recombine cực hay.</div>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li><strong>ChatGPT / GPT-4 / GPT-5</strong> — OpenAI, mạnh nhất ở conversational + image edit</li>
+                <li><strong>Claude</strong> — Anthropic, mạnh reasoning + code + văn bản dài</li>
+                <li><strong>Gemini</strong> — Google, multimodal (text + image + video)</li>
+            </ul>
+            <h4>Khi nào dùng</h4>
+            <p>Viết brief, brainstorm, dịch, phân tích, code, lên kế hoạch — mọi thứ liên quan text/logic.</p>
+            <div class="real-example">Dùng Claude để viết prompt, phân tích storyboard, quản lý kiến thức dự án — đó là LLM at work.</div>
+            <button class="check-btn" onclick="markLearned(this, 'llm')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="diffusion">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Diffusion Model</div>
+                <div class="card-subtitle">FLUX, Midjourney, Stable Diffusion, DALL-E đều là diffusion</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Model học cách "khử noise". Training: lấy ảnh đẹp → thêm noise dần cho đến khi thành static TV → model học cách đi ngược lại (từ noise → ảnh). Generation: bắt đầu từ noise ngẫu nhiên → dần dần "lọc" thành hình theo prompt.</p>
+            <div class="analogy">Như sculptor bắt đầu với khối đá (noise) rồi đục dần ra hình. Prompt là brief — "tôi muốn tượng người phụ nữ cầm hoa". Model đục dần cho đến khi ra hình.</div>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li>Mọi AI image gen (FLUX, NB2, Midjourney) đều dựa trên diffusion</li>
+                <li>AI video gen (Kling, Runway, Veo) = diffusion áp dụng cho video frames</li>
+                <li>Hiểu diffusion → hiểu tại sao AI "hallucinate" (thêm ngón tay, text sai) — vì nó "đoán" pixel, không "vẽ" có chủ đích</li>
+            </ul>
+            <h4>Giới hạn gốc</h4>
+            <ul>
+                <li>Không hiểu "ý nghĩa" — chỉ biết pattern pixel nào hay đi cùng nhau</li>
+                <li>Small objects (S Pen, chữ nhỏ) = khó control vì model nhìn big picture trước</li>
+                <li>Hands/fingers = vùng có nhiều variation trong training data → model confused</li>
+            </ul>
+            <div class="real-example">Trong 1 dự án TVC: bút stylus bị sai hình dáng liên tục = diffusion model không có "concept" về vật thể cụ thể, nó chỉ biết "vật dài nhỏ trong tay" → approximate.</div>
+            <button class="check-btn" onclick="markLearned(this, 'diffusion')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="transformer">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Transformer Architecture</div>
+                <div class="card-subtitle">Kiến trúc nền tảng đằng sau MỌI AI model hiện đại</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Transformer = cách organize thông tin bằng "attention" — model học được "từ/pixel này liên quan đến từ/pixel kia ở đâu trong input". Phát minh 2017 bởi Google ("Attention Is All You Need").</p>
+            <div class="analogy">Như đạo diễn xem toàn bộ footage cùng lúc và biết "frame này liên quan frame kia" thay vì xem tuần tự. Attention = khả năng nhìn mọi thứ cùng lúc và tìm connections.</div>
+            <h4>Tại sao EP cần biết</h4>
+            <ul>
+                <li><strong>Context window</strong> — model chỉ "nhìn" được X tokens cùng lúc (GPT-4: 128K, Claude: 200K). Quá dài → quên đầu.</li>
+                <li><strong>Attention</strong> — lý do prompt dài quá model bỏ qua details. Nó "chú ý" vào phần nổi bật nhất.</li>
+                <li>Không cần biết math — chỉ cần hiểu: model có giới hạn "bao nhiêu thứ nhìn cùng lúc"</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'transformer')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="training">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Training vs Fine-tuning vs Inference</div>
+                <div class="card-subtitle">3 giai đoạn của AI model — từ "sinh ra" đến "đi làm"</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>3 giai đoạn</h4>
+            <ul>
+                <li><strong>Training (Pre-training)</strong> — Dạy model từ zero. Tốn $10M-$100M+, hàng tháng, hàng ngàn GPU. Chỉ big tech làm (OpenAI, Google, Anthropic).</li>
+                <li><strong>Fine-tuning</strong> — Lấy model có sẵn, dạy thêm domain cụ thể. Rẻ hơn ($100-$10K), vài giờ-ngày. Ví dụ: Soul ID trên Higgsfield = fine-tune model nhận diện mặt bạn.</li>
+                <li><strong>Inference</strong> — Model đã train xong, giờ "đi làm". Mỗi lần bạn gen ảnh/video = 1 inference call. Tốn credit.</li>
+            </ul>
+            <div class="analogy">Training = đào tạo DP 4 năm đại học. Fine-tuning = DP học thêm style quay xe hơi. Inference = DP đi quay TVC thật — mỗi ngày quay = tốn tiền.</div>
+            <h4>Thuật ngữ liên quan</h4>
+            <ul>
+                <li><strong>LoRA</strong> — Low-Rank Adaptation. Cách fine-tune "nhẹ" — chỉ điều chỉnh 1-5% params thay vì toàn bộ model. Rẻ, nhanh. Soul ID dùng kỹ thuật tương tự.</li>
+                <li><strong>Checkpoint</strong> — "Snapshot" của model tại thời điểm training. Như save game.</li>
+                <li><strong>Weights</strong> — Các con số bên trong model (hàng tỷ). Đây là "kiến thức" của AI.</li>
+            </ul>
+            <div class="real-example">Train Soul ID cho nhân vật trong TVC = fine-tuning. Mỗi lần gen video = inference. Credits tốn = chi phí inference.</div>
+            <button class="check-btn" onclick="markLearned(this, 'training')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="multimodal">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Multimodal AI</div>
+                <div class="card-subtitle">Model hiểu nhiều loại input: text + image + video + audio</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Model "cũ" chỉ hiểu 1 loại (text HOẶC image). Multimodal = hiểu nhiều loại cùng lúc. GPT-4o, Gemini 2.5, Claude nhìn ảnh + đọc text + nghe audio.</p>
+            <h4>Tại sao quan trọng cho Production</h4>
+            <ul>
+                <li><strong>Vision</strong> — Model nhìn board/frame → hiểu composition, đề xuất prompt</li>
+                <li><strong>Image generation</strong> — Input text → output image (FLUX, NB2, GPT Image)</li>
+                <li><strong>Video generation</strong> — Input image+text → output video (Kling, Veo, Seedance)</li>
+                <li><strong>Audio</strong> — Veo 3.1 gen video CÓ audio. Sắp tới audio sẽ standard.</li>
+            </ul>
+            <div class="real-example">Gửi storyboard cho AI → nó "nhìn" hình + đọc mô tả → viết prompt. Đó là multimodal: image understanding + text generation.</div>
+            <button class="check-btn" onclick="markLearned(this, 'multimodal')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="tokens">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Tokens & Context Window</div>
+                <div class="card-subtitle">Đơn vị đo "dung lượng" của AI — tại sao nó quên</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <ul>
+                <li><strong>Token</strong> ≈ 3/4 từ English, ≈ 1/2 từ tiếng Việt. "Xin chào" = 2-3 tokens.</li>
+                <li><strong>Context window</strong> = bao nhiêu tokens model "nhìn" cùng lúc. Claude: 200K tokens ≈ 150K từ ≈ 300 trang sách.</li>
+                <li><strong>Input tokens</strong> = bạn gửi vào (prompt + context). <strong>Output tokens</strong> = AI trả lời.</li>
+            </ul>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li>Prompt quá dài → model "chú ý" phần đầu + phần cuối, bỏ qua giữa</li>
+                <li>Credit/cost tính theo tokens — prompt dài = tốn hơn</li>
+                <li>Image/video prompt: ngắn gọn + rõ ràng luôn tốt hơn dài dòng</li>
+            </ul>
+            <div class="analogy">Context window = "trí nhớ ngắn hạn" của AI. Giống DP chỉ nhớ được brief 5 trang — brief 50 trang sẽ bỏ sót detail.</div>
+            <button class="check-btn" onclick="markLearned(this, 'tokens')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="api">
+        <div class="card-header">
+            <div>
+                <div class="card-title">API — Application Programming Interface</div>
+                <div class="card-subtitle">"Cửa sau" để phần mềm nói chuyện với nhau</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>API = giao thức giao tiếp giữa 2 phần mềm. Thay vì mở web UI bấm nút, bạn gửi lệnh trực tiếp cho server.</p>
+            <div class="analogy">Web UI Higgsfield = đến quán order trực tiếp. API/MCP = gọi điện order delivery. Cùng món, khác cách gọi. API nhanh hơn, tự động được, nhưng ít options hơn (như MCP không có unlimited toggle).</div>
+            <h4>Thuật ngữ liên quan</h4>
+            <ul>
+                <li><strong>Endpoint</strong> — "Địa chỉ" cụ thể để gửi request. VD: `/generate_image`</li>
+                <li><strong>Token (auth)</strong> — "Chìa khóa" để API biết bạn là ai. Khác token (text unit).</li>
+                <li><strong>Rate limit</strong> — Server giới hạn bao nhiêu request/phút</li>
+                <li><strong>Webhook</strong> — Server "gọi lại" bạn khi xong (thay vì bạn hỏi liên tục)</li>
+            </ul>
+            <div class="real-example">Ví dụ: gọi API gen video = 1 API call. Auth token hết hạn 24h → phải re-auth. Rate limit = chỉ được X requests/phút.</div>
+            <button class="check-btn" onclick="markLearned(this, 'api')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="opensource">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Open Source vs Closed Source vs Open Weight</div>
+                <div class="card-subtitle">Ai sở hữu AI? Tại sao có model miễn phí?</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>3 loại</h4>
+            <ul>
+                <li><strong>Closed Source</strong> — Không ai thấy bên trong. Chỉ dùng qua API/web. GPT-4, Claude, Gemini, Kling, Runway.</li>
+                <li><strong>Open Weight</strong> — Công bố weights (model file) để ai cũng download chạy. Nhưng KHÔNG cho biết training data/code. LLaMA (Meta), Flux, Stable Diffusion.</li>
+                <li><strong>Open Source</strong> — Công bố TẤT CẢ: code + data + weights. Hiếm. Mistral (một phần).</li>
+            </ul>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li>Open weight = chạy trên máy riêng → không tốn API cost, không bị rate limit</li>
+                <li>Closed source = quality cao hơn (thường), nhưng phụ thuộc vendor</li>
+                <li>FLUX = open weight → Higgsfield host nó cho bạn dùng, hoặc tự host được</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'opensource')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 2: AI PRODUCTION -->
+<div class="section" id="sec-production">
+    <h2 class="section-title">AI Production</h2>
+    <p class="section-desc">Cách AI image/video models hoạt động — hiểu để prompt tốt hơn và biết giới hạn.</p>
+
+    <div class="card" data-id="i2i">
+        <div class="card-header">
+            <div>
+                <div class="card-title">txt2img vs img2img vs img2vid</div>
+                <div class="card-subtitle">3 pipeline chính trong AI visual generation</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>3 loại generation</h4>
+            <ul>
+                <li><strong>txt2img (Text-to-Image)</strong> — Chỉ dùng text prompt → gen ảnh. FLUX, Midjourney, NB2. Control ít nhất.</li>
+                <li><strong>img2img (Image-to-Image)</strong> — Input ảnh + prompt → edit/transform ảnh. Kontext, GPT Image. Control nhiều hơn.</li>
+                <li><strong>img2vid (Image-to-Video)</strong> — Input 1-2 frame + prompt → gen video clip. Kling, Veo, Seedance. Start/end frame = keyframes.</li>
+            </ul>
+            <div class="analogy">txt2img = brief miệng cho artist (ít control). img2img = đưa reference + brief (nhiều control hơn). img2vid = đưa storyboard frame + brief cho animator.</div>
+            <h4>Production workflow</h4>
+            <p>Gen character sheet (txt2img/img2img) → dùng làm start/end frame → gen video (img2vid). Đó là pipeline đang dùng.</p>
+            <div class="real-example">Ví dụ: ref nhân vật (img2img qua Kontext/GPT Image) → character sheet → start/end frame cho Kling 3.0 (img2vid).</div>
+            <button class="check-btn" onclick="markLearned(this, 'i2i')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="interpolation">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Frame Interpolation & Motion</div>
+                <div class="card-subtitle">Tại sao AI video gen bị tay di chuyển dù prompt nói "freeze"</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Khi cho start frame (A) + end frame (B) khác pose → model PHẢI interpolate (tạo frames giữa A→B). Nếu A = tay ở trên, B = tay ở dưới → model buộc phải animate tay di chuyển.</p>
+            <h4>Quy tắc</h4>
+            <ul>
+                <li>"Freeze" trong prompt = gợi ý, KHÔNG phải lệnh. Model vẫn interpolate nếu A≠B.</li>
+                <li>Muốn body freeze → start và end frame phải CÙNG body pose, chỉ khác camera angle/background.</li>
+                <li>Muốn chỉ camera move → cùng pose + khác framing.</li>
+            </ul>
+            <div class="real-example">Ví dụ: prompt "hands remain still" nhưng start frame = tay viết, end frame = tay cầm phone → Kling interpolate tay di chuyển. Solution: dùng cùng hand pose cả 2 frame.</div>
+            <button class="check-btn" onclick="markLearned(this, 'interpolation')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="consistency">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Character Consistency & Identity</div>
+                <div class="card-subtitle">Tại sao mặt bị đổi giữa các shot — và cách fix</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Vấn đề</h4>
+            <p>Mỗi lần gen = bắt đầu từ noise MỚI → kết quả khác nhau dù cùng prompt. Face drift = mặt thay đổi qua các shots.</p>
+            <h4>Giải pháp hiện tại</h4>
+            <ul>
+                <li><strong>Soul ID / Character Reference</strong> — Upload 5-20 ảnh mặt → model "nhớ" khuôn mặt. Higgsfield Soul ID, Kling Character Ref.</li>
+                <li><strong>img2img edit</strong> — Giữ nguyên ảnh gốc, chỉ edit 1 phần (Kontext, GPT Image). Consistency tốt hơn vì không gen từ zero.</li>
+                <li><strong>Seed</strong> — Con số random ban đầu. Cùng seed + cùng prompt = cùng kết quả (lý thuyết). Thực tế: hữu ích nhưng không 100%.</li>
+                <li><strong>Face swap post</strong> — Gen video xong → swap face bằng tool khác (insightface, roop). Brute force nhưng hiệu quả.</li>
+            </ul>
+            <div class="real-example">Thực tế: Kontext đổi outfit + angle + bg cùng lúc → face drift nghiêm trọng (7 tấm 7 mặt khác nhau). GPT Image edit từng bước nhỏ → giữ mặt tốt hơn.</div>
+            <button class="check-btn" onclick="markLearned(this, 'consistency')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="cfg">
+        <div class="card-header">
+            <div>
+                <div class="card-title">CFG Scale, Steps, Seed</div>
+                <div class="card-subtitle">Các "nút vặn" control output — khi nào cần quan tâm</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>3 params chính</h4>
+            <ul>
+                <li><strong>CFG Scale (Guidance)</strong> — Model "nghe" prompt bao nhiêu. Thấp (1-5) = tự do, sáng tạo. Cao (7-15) = bám sát prompt nhưng có thể "cứng".</li>
+                <li><strong>Steps</strong> — Bao nhiêu bước "khử noise". Nhiều hơn = chi tiết hơn nhưng chậm hơn. 20-30 là standard.</li>
+                <li><strong>Seed</strong> — Số random khởi đầu. Cùng seed = cùng "điểm bắt đầu" → output gần giống.</li>
+            </ul>
+            <div class="analogy">CFG = mức độ DP nghe brief (thấp = "em thích thì quay", cao = "quay đúng y brief"). Steps = bao nhiêu take. Seed = location (cùng location = cùng vibe).</div>
+            <h4>Khi nào EP cần biết</h4>
+            <p>Hầu hết platform (Kling, Higgsfield web) đã set tối ưu. Chỉ cần biết khi debug: "tại sao output quá generic?" → có thể CFG quá cao. "Tại sao không giống prompt?" → CFG quá thấp.</p>
+            <button class="check-btn" onclick="markLearned(this, 'cfg')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="video-models">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Video Models — Cách chúng hoạt động</div>
+                <div class="card-subtitle">Kling, Veo, Runway, Seedance — khác nhau ở đâu</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Cơ chế chung</h4>
+            <p>Video = chuỗi frames. AI gen video bằng 2 cách:</p>
+            <ul>
+                <li><strong>Temporal diffusion</strong> — Gen từng frame nhưng có "attention" liên kết giữa các frame → motion mượt. Kling, Runway dùng cách này.</li>
+                <li><strong>Autoregressive</strong> — Gen frame 1, dựa vào frame 1 gen frame 2, rồi frame 3... Consistent hơn nhưng chậm hơn.</li>
+            </ul>
+            <h4>So sánh nhanh (mid-2026)</h4>
+            <ul>
+                <li><strong>Kling 3.0</strong> — Motion mạnh, camera moves tốt, face adherence OK. 5-10s. Yếu: small objects.</li>
+                <li><strong>Veo 3.1</strong> — Cinematic quality cao nhất, có audio. Yếu: đắt, chậm, less control.</li>
+                <li><strong>Seedance 2.0</strong> — Dance/body motion tốt. Yếu: face drift ở clips dài.</li>
+                <li><strong>Runway Gen-4</strong> — Style consistency, artistic. Yếu: realistic faces.</li>
+                <li><strong>Kling O1</strong> — Edit video (thay bg, style transfer). Unique capability.</li>
+            </ul>
+            <div class="real-example">Trong TVC production: Kling 3.0 cho camera moves (orbit, pull-back). Kling O1 cho transform (replace bg). Veo cho high-quality hero shot.</div>
+            <button class="check-btn" onclick="markLearned(this, 'video-models')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="prompt-eng">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Prompt Engineering — Nguyên tắc core</div>
+                <div class="card-subtitle">Tại sao cùng ý mà prompt khác nhau ra kết quả khác nhau</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Nguyên tắc</h4>
+            <ul>
+                <li><strong>Specific > Generic</strong> — "woman in blue" (bad) vs "40-year-old East Asian woman in light blue sailor collar dress" (good)</li>
+                <li><strong>Structure matters</strong> — Model chú ý đầu prompt nhất. Đặt thứ quan trọng nhất lên đầu.</li>
+                <li><strong>Negative prompt</strong> — Nói model KHÔNG làm gì. Bổ sung, không thay thế prompt chính.</li>
+                <li><strong>Natural language > keyword</strong> — "cinematic, 4K, masterpiece" đang chết. Mô tả scene như brief DP.</li>
+            </ul>
+            <h4>Production-specific</h4>
+            <ul>
+                <li>Camera movement prompt: đặt riêng, rõ ràng ("Camera steadily pulls back")</li>
+                <li>Duration: match complexity. 5s = 1 action đơn. 7-10s = 2 actions hoặc camera move phức tạp.</li>
+                <li>Đừng prompt quá nhiều thứ cùng lúc → model "chia attention" → không cái nào tốt</li>
+            </ul>
+            <div class="real-example">Ví dụ: 1 action rõ (đứng→ngồi→đeo giày), static camera, 5s. Simple = AI handle tốt hơn.</div>
+            <button class="check-btn" onclick="markLearned(this, 'prompt-eng')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 3: AGENTIC AI -->
+<div class="section" id="sec-agentic">
+    <h2 class="section-title">Agentic AI</h2>
+    <p class="section-desc">AI không chỉ trả lời — mà tự hành động, dùng tools, lên kế hoạch. Đây là tương lai gần nhất.</p>
+
+    <div class="card" data-id="agent-concept">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Agent — Khái niệm cơ bản</div>
+                <div class="card-subtitle">Từ "chatbot trả lời" → "AI tự hành động"</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Chatbot vs Agent</h4>
+            <ul>
+                <li><strong>Chatbot</strong> — Bạn hỏi → nó trả lời. Hỏi tiếp → trả lời tiếp. Passive.</li>
+                <li><strong>Agent</strong> — Bạn giao MỤC TIÊU → nó tự lên kế hoạch, dùng tools, xử lý lỗi, hoàn thành. Active.</li>
+            </ul>
+            <h4>Ví dụ cụ thể</h4>
+            <ul>
+                <li><strong>ChatGPT (chatbot)</strong>: "Viết prompt cho Kling" → viết prompt → xong.</li>
+                <li><strong>Claw (agent)</strong>: "Gen character sheet Film 4" → upload ref → gen 7 tấm → poll status → download → QC → report. Tự chạy chuỗi actions.</li>
+            </ul>
+            <div class="analogy">Chatbot = assistant ngồi chờ bạn nói. Agent = producer assistant bạn giao brief rồi đi meeting, quay lại đã có deliverables.</div>
+            <h4>Thành phần của Agent</h4>
+            <ul>
+                <li><strong>LLM (Brain)</strong> — Suy nghĩ, lên kế hoạch</li>
+                <li><strong>Tools</strong> — Các "tay chân" (đọc file, chạy code, gọi API, gửi message)</li>
+                <li><strong>Memory</strong> — Nhớ context qua sessions (MEMORY.md, daily logs)</li>
+                <li><strong>Planning</strong> — Tự chia task lớn thành steps nhỏ</li>
+            </ul>
+            <div class="real-example">Một AI agent production có thể = LLM + tools (gen ảnh/video, gửi message, quản lý file) + persistent memory. Tự chạy pipeline, hỏi khi cần duyệt.</div>
+            <button class="check-btn" onclick="markLearned(this, 'agent-concept')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="mcp">
+        <div class="card-header">
+            <div>
+                <div class="card-title">MCP — Model Context Protocol</div>
+                <div class="card-subtitle">Chuẩn giao tiếp cho AI agents dùng tools bên ngoài</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>MCP = giao thức chuẩn (standard protocol) để AI agent "cắm vào" bất kỳ tool/service nào. Anthropic tạo ra, đang trở thành industry standard.</p>
+            <div class="analogy">USB cho AI. Trước đây mỗi device cần cable riêng. USB = 1 chuẩn cho tất cả. MCP = 1 chuẩn để AI nói chuyện với mọi service (Higgsfield, Slack, GitHub, databases...).</div>
+            <h4>Cách hoạt động</h4>
+            <ul>
+                <li><strong>MCP Server</strong> — Service cung cấp tools (Higgsfield expose generate_image, generate_video, etc.)</li>
+                <li><strong>MCP Client</strong> — AI agent gọi tools đó (Claw gọi Higgsfield qua MCP)</li>
+                <li><strong>Protocol</strong> — JSON-RPC 2.0 (format tin nhắn chuẩn giữa client↔server)</li>
+            </ul>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li>AI agent có thể dùng BẤT KỲ service nào có MCP server — không cần custom code mỗi integration</li>
+                <li>Higgsfield, Figma, GitHub, Slack, databases... đều có/đang build MCP server</li>
+                <li>Tương lai: 1 agent quản lý toàn bộ production pipeline qua MCP</li>
+            </ul>
+            <div class="real-example">AI agent gọi MCP của platform gen video → submit job → poll status → download kết quả. Không cần mở web UI. Nhưng MCP thường có ít options hơn web.</div>
+            <button class="check-btn" onclick="markLearned(this, 'mcp')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="coding-agents">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Coding Agents — Cursor, OpenClaw, Codex</div>
+                <div class="card-subtitle">AI tự viết code, tự debug, tự ship — developer-in-a-box</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Coding Agent là gì</h4>
+            <p>AI agent chuyên viết/sửa code. Không chỉ "gợi ý" (autocomplete) mà tự: đọc codebase → hiểu → plan → viết → test → fix bugs → commit.</p>
+            <h4>Các tools phổ biến</h4>
+            <ul>
+                <li><strong>Cursor</strong> — IDE (editor giống VS Code) + AI agent tích hợp. Bạn mô tả feature → nó code + tạo files + sửa bugs. Phổ biến nhất hiện tại cho developers.</li>
+                <li><strong>OpenClaw (Claw)</strong> — CLI agent chạy terminal. Có tools: đọc/viết file, chạy shell, browser, messaging. Versatile hơn — không chỉ code mà quản lý cả workflow.</li>
+                <li><strong>Codex (OpenAI)</strong> — Cloud-based coding agent. Chạy tasks trên cloud, trả kết quả. Mới ra.</li>
+                <li><strong>Devin</strong> — "AI software engineer" — tự clone repo, viết code, tạo PR. Đắt, controversial.</li>
+            </ul>
+            <div class="analogy">Trước: EP thuê developer build tool → 2 tuần + $5K. Giờ: mô tả cho coding agent → build trong 1-2 giờ. EP có thể tự build internal tools mà không cần biết code.</div>
+            <h4>Tại sao EP nên biết</h4>
+            <ul>
+                <li>Build internal tools nhanh (custom prompt generators, QC checkers)</li>
+                <li>Không cần hire developer cho prototype/MVP</li>
+                <li>Biết capability → brief đúng khi giao cho tech team</li>
+            </ul>
+            <div class="real-example">Coding agent có thể build internal tools (prompt generators, QC checkers, training decks) trong vài giờ thay vì thuê dev vài tuần.</div>
+            <button class="check-btn" onclick="markLearned(this, 'coding-agents')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="hermes">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Hermes, OpenHermes, NousResearch</div>
+                <div class="card-subtitle">Open-source fine-tuned models cho agent tasks</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Context</h4>
+            <p><strong>NousResearch</strong> = lab tạo ra các model open-weight fine-tuned cho agent use cases. <strong>Hermes</strong> = tên series model của họ.</p>
+            <h4>Tại sao thấy nhiều người nói</h4>
+            <ul>
+                <li>Hermes models được train đặc biệt cho <strong>function calling</strong> (gọi tools) và <strong>structured output</strong> (trả JSON chuẩn)</li>
+                <li>Open weight → ai cũng chạy được → community lớn</li>
+                <li>Dùng làm "brain" cho agent tự build (thay vì trả tiền GPT-4/Claude)</li>
+            </ul>
+            <h4>EP cần biết gì</h4>
+            <p>Không cần dùng trực tiếp. Chỉ cần biết: khi ai đó nói "chạy Hermes agent" = họ đang dùng open-source model (miễn phí, tự host) thay vì trả tiền cho OpenAI/Anthropic. Trade-off: rẻ hơn nhưng thường kém hơn GPT-4/Claude.</p>
+            <div class="analogy">Claude/GPT = thuê DP hàng đầu (đắt, consistent). Hermes = DP freelance tốt (rẻ hơn nhiều, đủ dùng cho nhiều tasks, nhưng cần monitor quality hơn).</div>
+            <button class="check-btn" onclick="markLearned(this, 'hermes')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="agentic-workflow">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Agentic Workflow Patterns</div>
+                <div class="card-subtitle">Cách agents phối hợp — single vs multi-agent</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Patterns</h4>
+            <ul>
+                <li><strong>Single Agent</strong> — 1 agent + nhiều tools. Đơn giản, dễ debug. (Claw = single agent dùng nhiều tools)</li>
+                <li><strong>Multi-Agent</strong> — Nhiều agents chuyên biệt, 1 "orchestrator" phân công. Phức tạp, mạnh hơn cho tasks lớn.</li>
+                <li><strong>Human-in-the-loop</strong> — Agent chạy nhưng cần human approve ở bước quan trọng. (Claw hỏi Nam duyệt trước khi gen paid credits)</li>
+                <li><strong>Autonomous</strong> — Agent chạy tự do không cần approve. Nguy hiểm hơn nhưng nhanh hơn.</li>
+            </ul>
+            <div class="analogy">Single agent = 1 producer senior handle all. Multi-agent = EP + Line Producer + Post Sup + Production Manager — mỗi người 1 domain, EP orchestrate.</div>
+            <h4>Ví dụ Multi-Agent trong production</h4>
+            <ul>
+                <li>Agent 1 (Claw/Main): Plan + brief + QC</li>
+                <li>Agent 2 (GenWorker): Chạy gen image/video + poll results</li>
+                <li>Agent 3 (Seegroup Bot): Handle external queries + team comms</li>
+                <li>Orchestrator: Main session phân công task cho sub-agents</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'agentic-workflow')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="rag">
+        <div class="card-header">
+            <div>
+                <div class="card-title">RAG — Retrieval-Augmented Generation</div>
+                <div class="card-subtitle">Cách cho AI "kiến thức mới" mà không cần train lại</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>LLM chỉ biết những gì được train (đến ngày X). Muốn nó biết thêm (data công ty, documents mới) → 2 cách:</p>
+            <ul>
+                <li><strong>Fine-tune</strong> — Train thêm data vào model. Đắt, chậm, cần expertise.</li>
+                <li><strong>RAG</strong> — KHÔNG train. Thay vào đó: search database/documents → lấy phần liên quan → nhét vào prompt → model đọc + trả lời. Rẻ, nhanh, update realtime.</li>
+            </ul>
+            <div class="analogy">Fine-tune = gửi DP đi học workshop 1 tháng. RAG = đưa DP cuốn sách reference trước mỗi buổi quay — DP đọc nhanh rồi apply. Không cần học thuộc, chỉ cần đọc đúng lúc.</div>
+            <h4>Áp dụng thực tế</h4>
+            <ul>
+                <li>Claw đọc MEMORY.md + memory/*.md trước khi trả lời = dạng RAG (retrieval from files)</li>
+                <li>Seegroup Bot đọc skills + research = RAG</li>
+                <li>Chatbot có "upload documents" rồi hỏi đáp = RAG</li>
+            </ul>
+            <div class="real-example">AI assistant đọc project files mỗi session → biết context dự án, quy tắc, bài học. Không train lại model — chỉ đọc tài liệu. Đó là RAG.</div>
+            <button class="check-btn" onclick="markLearned(this, 'rag')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 4: AI OPS & TOOLS -->
+<div class="section" id="sec-ops">
+    <h2 class="section-title">AI Ops & Tools</h2>
+    <p class="section-desc">Infrastructure, deployment, cách AI chạy trong thực tế — từ cloud đến local.</p>
+
+    <div class="card" data-id="local-vs-cloud">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Local vs Cloud vs Edge</div>
+                <div class="card-subtitle">AI chạy ở đâu — và tại sao quan trọng</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>3 nơi AI chạy</h4>
+            <ul>
+                <li><strong>Cloud</strong> — Chạy trên server xa (AWS, Google Cloud). Mạnh nhất, đắt nhất. GPT-4, Claude, Kling đều cloud.</li>
+                <li><strong>Local</strong> — Chạy trên máy mình. Miễn phí sau setup, riêng tư, offline. Cần GPU mạnh. Ví dụ: Ollama chạy LLaMA trên MacBook.</li>
+                <li><strong>Edge</strong> — Chạy trên device nhỏ (phone, IoT). Nhanh, offline, nhưng model nhỏ → kém hơn. Ví dụ: Apple Intelligence, on-device Gemini Nano.</li>
+            </ul>
+            <h4>Tại sao EP cần biết</h4>
+            <ul>
+                <li>Cloud = tốn credit/tiền mỗi lần dùng. Scale dễ nhưng phụ thuộc internet.</li>
+                <li>Local = đầu tư hardware 1 lần, chạy không giới hạn. Nhưng cần GPU $2K-$10K.</li>
+                <li>Hybrid: dùng local cho tasks lặp (draft, test) → cloud cho final quality (Kling Pro, Veo).</li>
+            </ul>
+            <div class="real-example">AI assistant chạy cloud (API). Gen ảnh/video = cloud. Nếu có GPU local → chạy FLUX locally = unlimited gen, không tốn credit.</div>
+            <button class="check-btn" onclick="markLearned(this, 'local-vs-cloud')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="gpu">
+        <div class="card-header">
+            <div>
+                <div class="card-title">GPU & VRAM — Tại sao AI cần card đồ họa</div>
+                <div class="card-subtitle">Phần cứng quyết định model nào chạy được</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <ul>
+                <li><strong>GPU (Graphics Processing Unit)</strong> — Xử lý song song hàng ngàn phép tính cùng lúc. AI cần tính toán ma trận khổng lồ → GPU nhanh hơn CPU 10-100x cho tasks này.</li>
+                <li><strong>VRAM</strong> — RAM trên GPU. Model càng lớn → cần càng nhiều VRAM. GPT-4 cần hàng trăm GB VRAM (chỉ datacenter). FLUX cần ~12-24GB (PC high-end).</li>
+                <li><strong>NVIDIA</strong> — Thống trị thị trường AI GPU. RTX 4090 (24GB) = consumer tốt nhất. H100/A100 = datacenter.</li>
+            </ul>
+            <div class="analogy">GPU = rendering farm cho CG. Cũng là lý do render farm tốn tiền — GPU mạnh = đắt. AI inference = real-time rendering.</div>
+            <h4>Mức VRAM cần</h4>
+            <ul>
+                <li>8GB — Chạy model nhỏ (7B params). Chat OK, gen ảnh basic.</li>
+                <li>12-16GB — Chạy FLUX local, model 13B. Decent quality.</li>
+                <li>24GB (RTX 4090) — Chạy hầu hết open-weight models. Sweet spot cho local AI.</li>
+                <li>48-80GB+ — Datacenter. Train models, run multiple large models.</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'gpu')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="docker">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Docker, Containers & Deployment</div>
+                <div class="card-subtitle">Cách "đóng gói" phần mềm AI để chạy ở đâu cũng được</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p><strong>Docker container</strong> = "hộp" chứa phần mềm + tất cả dependencies. Chạy trên máy nào cũng giống nhau, không conflict với phần mềm khác.</p>
+            <div class="analogy">Container = flight case cho equipment. Đóng gói camera + lens + accessories → ship đi đâu cũng mở ra dùng được ngay, không cần setup lại.</div>
+            <h4>Tại sao thấy nói nhiều</h4>
+            <ul>
+                <li>Deploy AI service (chatbot, API) → đóng Docker → upload lên cloud → chạy</li>
+                <li>"Works on my machine" problem → Docker fix</li>
+                <li>Scale: cần 10x capacity → spawn 10 containers</li>
+            </ul>
+            <h4>EP cần biết gì</h4>
+            <p>Không cần dùng. Chỉ biết: khi dev nói "deploy bằng Docker" = đóng gói app chạy trên server. Khi nghe "containerized" = app được đóng gói chuẩn, dễ scale.</p>
+            <button class="check-btn" onclick="markLearned(this, 'docker')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="gateway">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Gateway, Webhook, Cron</div>
+                <div class="card-subtitle">Cách AI agent chạy 24/7 và giao tiếp với thế giới ngoài</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Gateway</h4>
+            <p>Phần mềm "trung gian" nhận messages từ nhiều nguồn (Telegram, web, Signal) → route đến AI agent → trả kết quả về nguồn. Claw chạy qua OpenClaw gateway.</p>
+            <h4>Webhook</h4>
+            <p>"Khi xong thì gọi tôi." Thay vì bạn hỏi "xong chưa? xong chưa?" (polling) → đăng ký webhook = server tự gọi khi xong.</p>
+            <h4>Cron</h4>
+            <p>Lịch chạy tự động. "Mỗi ngày 9h sáng, check memory + báo cáo." Dùng cho: nhắc nhở, health checks, scheduled reports.</p>
+            <div class="analogy">Gateway = AD/PM nhận brief từ nhiều client → phân cho đúng team. Webhook = "xong thì gọi tôi" thay vì đến hỏi mỗi giờ. Cron = lịch quay đã setup sẵn, tự chạy đúng giờ.</div>
+            <div class="real-example">Gateway nhận message từ Telegram/webchat → route đến AI agent. Cron job: heartbeat mỗi X phút kiểm tra system health tự động.</div>
+            <button class="check-btn" onclick="markLearned(this, 'gateway')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ollama">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Ollama, LM Studio, ComfyUI</div>
+                <div class="card-subtitle">Tools chạy AI local — không cần internet, không tốn tiền</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>LLM Local</h4>
+            <ul>
+                <li><strong>Ollama</strong> — App đơn giản nhất để chạy LLM trên máy mình. 1 lệnh: `ollama run llama3` → có chatbot local. Free, offline, private.</li>
+                <li><strong>LM Studio</strong> — GUI app đẹp hơn, dễ hơn cho non-tech. Download model → chat. Như "ChatGPT trên máy mình".</li>
+            </ul>
+            <h4>Image/Video Gen Local</h4>
+            <ul>
+                <li><strong>ComfyUI</strong> — Node-based UI để chạy Stable Diffusion / FLUX local. Kéo thả workflow, rất flexible. Cần GPU 12GB+.</li>
+                <li><strong>Automatic1111</strong> — Web UI đơn giản hơn cho Stable Diffusion. Đang bị ComfyUI thay thế.</li>
+            </ul>
+            <h4>Tại sao relevant</h4>
+            <ul>
+                <li>Prototype/test prompts local → không tốn credit → khi satisfied mới gen final trên cloud (Kling Pro, Veo)</li>
+                <li>Private data (chưa ký NDA) → chạy local an toàn hơn</li>
+                <li>Unlimited generations = iterate nhanh hơn</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'ollama')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="version-control">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Git, GitHub, Version Control</div>
+                <div class="card-subtitle">Cách quản lý phiên bản code/files — "undo" for everything</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <ul>
+                <li><strong>Git</strong> — Hệ thống track mọi thay đổi trong files. Mỗi "save" = 1 commit. Quay lại bất kỳ version nào.</li>
+                <li><strong>GitHub</strong> — Platform online lưu Git repos. Collaboration + code sharing. Nơi open-source sống.</li>
+                <li><strong>Repository (repo)</strong> — 1 project folder được track bởi Git.</li>
+            </ul>
+            <div class="analogy">Git = track changes trong Word nhưng cho MỌI loại file, unlimited history. GitHub = Google Drive cho code — share, collaborate, version history.</div>
+            <h4>EP cần biết gì</h4>
+            <p>Khi nghe "push to GitHub", "clone repo", "pull request" → hiểu là workflow quản lý code. Không cần dùng trực tiếp, nhưng biết concept giúp communicate với dev team.</p>
+            <button class="check-btn" onclick="markLearned(this, 'version-control')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 5: QUIZ -->
+<div class="section" id="sec-quiz">
+    <h2 class="section-title">Quiz — Kiểm tra kiến thức</h2>
+    <p class="section-desc">Cho mình biết thêm về bạn trước khi bắt đầu quiz nhé!</p>
+
+    <div class="quiz-box" id="profileForm">
+        <p>🙋 Giới thiệu nhanh</p>
+        <div style="margin-bottom: 12px;">
+            <label style="font-size: 13px; color: var(--text-dim); display: block; margin-bottom: 4px;">Tên của bạn</label>
+            <input type="text" id="userName" placeholder="VD: Minh" style="width: 100%; padding: 10px 14px; background: var(--card); border: 1px solid #333; border-radius: 8px; color: var(--text); font-size: 14px; outline: none;">
+        </div>
+        <div style="margin-bottom: 12px;">
+            <label style="font-size: 13px; color: var(--text-dim); display: block; margin-bottom: 4px;">Bạn đang làm trong ngành nào?</label>
+            <select id="userIndustry" style="width: 100%; padding: 10px 14px; background: var(--card); border: 1px solid #333; border-radius: 8px; color: var(--text); font-size: 14px; outline: none; cursor: pointer;">
+                <option value="">— Chọn ngành —</option>
+                <option value="production">Film / Video Production</option>
+                <option value="advertising">Advertising / Marketing</option>
+                <option value="design">Design / Creative</option>
+                <option value="tech">Tech / Software</option>
+                <option value="media">Media / Content</option>
+                <option value="education">Education</option>
+                <option value="business">Business / Management</option>
+                <option value="freelance">Freelance / Independent</option>
+                <option value="other">Khác</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 12px;">
+            <label style="font-size: 13px; color: var(--text-dim); display: block; margin-bottom: 4px;">Bạn muốn dùng AI để làm gì? <span style="color:#666">(chọn nhiều được)</span></label>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px;">
+                <label class="purpose-tag"><input type="checkbox" value="content-creation" style="display:none;"><span>Tạo nội dung (ảnh/video)</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="automation" style="display:none;"><span>Tự động hóa công việc</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="research" style="display:none;"><span>Nghiên cứu / Phân tích</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="coding" style="display:none;"><span>Code / Build tools</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="writing" style="display:none;"><span>Viết / Biên tập</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="strategy" style="display:none;"><span>Chiến lược / Ra quyết định</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="learning" style="display:none;"><span>Học hỏi / Upskill</span></label>
+                <label class="purpose-tag"><input type="checkbox" value="client-work" style="display:none;"><span>Phục vụ khách hàng</span></label>
+            </div>
+        </div>
+        <button onclick="submitProfile()" style="width: 100%; padding: 12px; background: var(--accent); border: none; border-radius: 8px; color: white; font-size: 14px; font-weight: 600; cursor: pointer; margin-top: 8px;">Bắt đầu Quiz →</button>
+    </div>
+
+    <div id="quizContent" style="display: none;">
+    <p class="section-desc" style="margin-top: 20px;">Chọn đáp án đúng. Sai thì đọc lại — không ai chấm điểm.</p>
+
+    <div class="quiz-box">
+        <p>1. Tại sao AI video gen bị sai tay khi prompt "freeze hands"?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Model không hiểu tiếng Anh "freeze"</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">B. Start và end frame khác pose → model buộc phải interpolate</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. GPU không đủ mạnh để render tay đúng</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>2. MCP (Model Context Protocol) là gì?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Model AI mới của Anthropic</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">B. Cách compress video cho AI</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">C. Giao thức chuẩn để AI agent gọi tools/services bên ngoài</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>3. RAG khác Fine-tuning ở điểm nào?</p>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">A. RAG chỉ "đọc" tài liệu lúc cần, không thay đổi model</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">B. RAG mạnh hơn và đắt hơn Fine-tuning</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. RAG chỉ dùng cho image, Fine-tuning cho text</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>4. Diffusion model gen ảnh bằng cách nào?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Vẽ từng pixel từ trái qua phải</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">B. Bắt đầu từ noise → dần "lọc" thành hình theo prompt</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. Copy-paste từ database ảnh có sẵn</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>5. Cursor là gì?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Model AI gen video</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">B. IDE (code editor) có AI agent tích hợp, tự viết + sửa code</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. Tool chạy AI trên phone</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>6. "Open weight" model nghĩa là gì?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Model miễn phí hoàn toàn, công bố mọi thứ</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">B. Công bố weights (model file) để ai cũng download chạy, nhưng không cho biết training data</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. Model chỉ dùng được qua API trả tiền</div>
+    </div>
+
+    <div class="quiz-box">
+        <p>7. Tại sao img2img gen character sheet bị mỗi tấm một mặt khác?</p>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">A. Token auth hết hạn giữa chừng</div>
+        <div class="quiz-option" data-correct="true" onclick="checkAnswer(this)">B. Edit quá nhiều thứ cùng lúc (góc + outfit + bg) → model không giữ được face identity</div>
+        <div class="quiz-option" data-correct="false" onclick="checkAnswer(this)">C. Model không support Asian faces</div>
+    </div>
+    </div>
+</div>
+
+<script>
+    // State
+    const learned = JSON.parse(localStorage.getItem('ai-literacy-learned') || '{}');
+    const totalConcepts = document.querySelectorAll('.check-btn').length;
+
+    // Navigation
+    document.querySelectorAll('nav button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('sec-' + btn.dataset.section).classList.add('active');
+        });
+    });
+
+    // Card expand/collapse
+    document.querySelectorAll('.card').forEach(card => {
+        card.querySelector('.card-header').addEventListener('click', () => {
+            card.classList.toggle('expanded');
+        });
+    });
+
+    // Mark learned
+    function markLearned(btn, id) {
+        learned[id] = true;
+        localStorage.setItem('ai-literacy-learned', JSON.stringify(learned));
+        btn.classList.add('checked');
+        btn.textContent = '✓ Learned';
+        updateProgress();
+    }
+
+    // Update progress
+    function updateProgress() {
+        const count = Object.keys(learned).length;
+        const pct = Math.round((count / totalConcepts) * 100);
+        document.getElementById('progressFill').style.width = pct + '%';
+        document.getElementById('progressText').textContent = `${count} / ${totalConcepts} concepts learned`;
+    }
+
+    // Restore state
+    function restoreState() {
+        document.querySelectorAll('.check-btn').forEach(btn => {
+            const card = btn.closest('.card');
+            const id = card.dataset.id;
+            if (learned[id]) {
+                btn.classList.add('checked');
+                btn.textContent = '✓ Learned';
+            }
+        });
+        updateProgress();
+    }
+
+    // Quiz
+    function checkAnswer(el) {
+        const quiz = el.closest('.quiz-box');
+        if (quiz.classList.contains('answered')) return;
+        quiz.classList.add('answered');
+
+        const isCorrect = el.dataset.correct === 'true';
+        el.classList.add(isCorrect ? 'correct' : 'wrong');
+
+        if (!isCorrect) {
+            quiz.querySelector('[data-correct="true"]').classList.add('correct');
+        }
+    }
+
+    // Profile form
+    function submitProfile() {
+        const name = document.getElementById('userName').value.trim();
+        const industry = document.getElementById('userIndustry').value;
+        const purposes = [];
+        document.querySelectorAll('.purpose-tag input:checked').forEach(cb => {
+            purposes.push(cb.value);
+        });
+
+        // Send to GA as event
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'quiz_profile', {
+                'user_name': name || 'anonymous',
+                'industry': industry || 'not_selected',
+                'purposes': purposes.join(',') || 'none',
+                'event_category': 'engagement'
+            });
+        }
+
+        // Save locally
+        localStorage.setItem('ai-literacy-profile', JSON.stringify({
+            name, industry, purposes, timestamp: new Date().toISOString()
+        }));
+
+        // Show quiz
+        document.getElementById('profileForm').style.display = 'none';
+        document.getElementById('quizContent').style.display = 'block';
+    }
+
+    // Restore profile state
+    if (localStorage.getItem('ai-literacy-profile')) {
+        document.getElementById('profileForm').style.display = 'none';
+        document.getElementById('quizContent').style.display = 'block';
+    }
+
+    // Init
+    restoreState();
+</script>
+
+</body>
+</html>
