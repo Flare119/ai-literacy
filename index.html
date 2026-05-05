@@ -300,6 +300,7 @@
     <button data-section="production">🎬 AI Production</button>
     <button data-section="agentic">🤖 Agentic AI</button>
     <button data-section="ops">⚙️ AI Ops & Tools</button>
+    <button data-section="deep">🔬 Deep Dive</button>
     <button data-section="quiz">📝 Quiz</button>
 </nav>
 
@@ -992,7 +993,168 @@
     </div>
 </div>
 
-<!-- SECTION 5: QUIZ -->
+<!-- SECTION 5: DEEP DIVE -->
+<div class="section" id="sec-deep">
+    <h2 class="section-title">Deep Dive — Bên trong AI</h2>
+    <p class="section-desc">Đào sâu hơn vào bản chất hoạt động — hiểu TẠI SAO AI làm được (và không làm được) những gì nó làm.</p>
+
+    <div class="card" data-id="latent-space">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Latent Space — Không gian ẩn</div>
+                <div class="card-subtitle">Nơi AI "suy nghĩ" — tại sao nó có thể morph, interpolate, mix style</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Ảnh 1024×1024 = 1 triệu pixel — quá lớn để xử lý. Nên AI nén thành "latent" nhỏ hơn (64×64), giữ lại "bản chất" — rồi làm việc trên bản nén đó. Xong thì giải nén ra ảnh đầy đủ.</p>
+            <div class="analogy">Encoder = tóm tắt brief (50 trang → 2 trang key points). Decoder = triển khai brief (2 trang → storyboard đầy đủ). AI suy nghĩ bằng brief 2 trang, không phải 50 trang.</div>
+            <h4>Tại sao quan trọng</h4>
+            <ul>
+                <li><strong>Tốc độ:</strong> Làm việc trên latent nhỏ nhanh hơn 100x so với pixel</li>
+                <li><strong>Interpolation:</strong> Di chuyển từ điểm A→B trong latent = morph mượt giữa 2 ảnh. Đó là cơ sở video gen</li>
+                <li><strong>img2img giữ mặt tốt hơn:</strong> Bắt đầu từ latent CỦA ẢNH GỐC (đã có identity) thay vì noise random</li>
+                <li><strong>Style mixing:</strong> "Monet" và "Cyberpunk" = 2 vùng trong latent space. Đi giữa = style hybrid</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'latent-space')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="video-gen-deep">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Video Generation — Tại sao khó hơn Image</div>
+                <div class="card-subtitle">Temporal consistency, interpolation trap, và motion physics</div>
+            </div>
+            <span class="card-tag tag-production">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>2 cách gen video</h4>
+            <ul>
+                <li><strong>Temporal Diffusion:</strong> Gen từng frame nhưng có "temporal attention" — mỗi frame "nhìn" frame trước+sau. Kling, Runway dùng cách này.</li>
+                <li><strong>Autoregressive:</strong> Gen frame 1 → dựa frame 1 gen frame 2 → frame 3... Consistent hơn nhưng chậm.</li>
+            </ul>
+            <div class="analogy">Temporal diffusion = quay multi-cam rồi sync bằng timecode. Autoregressive = quay single-cam liên tục — frame sau phụ thuộc frame trước.</div>
+            <h4>Tại sao video gen khó hơn</h4>
+            <ul>
+                <li><strong>5 giây video = 120 ảnh</strong> phải giống nhau — image chỉ cần 1</li>
+                <li><strong>Physics:</strong> Tóc bay, vải rủ phải tuân vật lý</li>
+                <li><strong>Interpolation trap:</strong> Start frame pose A + End frame pose B → AI BUỘC tay di chuyển dù prompt nói "freeze"</li>
+                <li><strong>Face drift:</strong> Clip dài > 5s → mặt dần thay đổi</li>
+            </ul>
+            <h4>Production rules</h4>
+            <ul>
+                <li>Start + End frame phải cùng pose nếu muốn body static</li>
+                <li>5s = 1 action. Đừng nhồi nhiều action</li>
+                <li>Camera move HOẶC subject move — không cả 2 cùng lúc</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'video-gen-deep')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="lora-deep">
+        <div class="card-header">
+            <div>
+                <div class="card-title">LoRA & Embeddings — Customize AI không tốn $$</div>
+                <div class="card-subtitle">Cách dạy AI nhận diện mặt, học style mới bằng chi phí thấp</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>LoRA (Low-Rank Adaptation)</h4>
+            <p>Thay vì train lại toàn bộ model (tỷ tham số, tốn $$$), chỉ thêm 1 "lớp mỏng" adapter lên trên. File nhỏ (10-200MB), train trong phút-giờ, GPU consumer chạy được.</p>
+            <div class="analogy">LoRA = lens filter cho camera. Camera (model) giữ nguyên, chỉ đeo thêm filter để đổi look. Tháo filter = quay lại default. Đeo filter khác = look khác.</div>
+            <h4>Embeddings</h4>
+            <p>Biến mọi thứ (từ, ảnh, concept) thành 1 dãy số. Thứ giống nhau → số gần nhau. Đó là cách AI "biết" 2 ảnh có vibe giống nhau dù mô tả text khác.</p>
+            <div class="analogy">Embedding = thẻ tag thông minh cho mỗi asset. Thay vì tag thủ công "outdoor, sunset" — AI tự tạo tag dạng số. 2 ảnh có vibe giống → tag số gần nhau, dù text khác.</div>
+            <h4>Ứng dụng thực tế</h4>
+            <ul>
+                <li><strong>Face LoRA:</strong> Train mặt nhân vật → giữ consistent qua nhiều ảnh</li>
+                <li><strong>Style LoRA:</strong> Áp film grain, color palette cụ thể</li>
+                <li><strong>Soul ID (Higgsfield):</strong> Bản chất là LoRA-like — train mặt từ 5-15 ảnh</li>
+                <li><strong>RAG (search):</strong> Dùng embeddings tìm tài liệu liên quan trong database</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'lora-deep')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="attention-deep">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Attention Mechanism — Tại sao prompt structure quan trọng</div>
+                <div class="card-subtitle">Model "chú ý" có giới hạn — biết để prompt tốt hơn</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>Cách attention hoạt động</h4>
+            <p>Transformer nhìn MỌI CẶP TỪ cùng lúc và tính: "từ A quan trọng bao nhiêu với từ B?" Prompt "cô gái mặc áo xanh cầm phone" → model biết "áo xanh" thuộc "cô gái", "phone" liên quan "cầm".</p>
+            <div class="analogy">Attention = đạo diễn xem rushes. Thay vì xem tuần tự clip 1→2→3, đạo diễn nhìn tất cả clips trên bàn cùng lúc và thấy connections: "clip 3 nối clip 7 vì cùng location."</div>
+            <h4>Prompt rules từ attention</h4>
+            <ul>
+                <li><strong>Đầu prompt = attention cao nhất.</strong> Đặt thứ quan trọng nhất lên đầu</li>
+                <li><strong>Cuối prompt = quan trọng thứ 2.</strong> Chi tiết bổ sung</li>
+                <li><strong>Giữa prompt = ít attention nhất.</strong> Dễ bị bỏ qua</li>
+                <li><strong>Prompt quá dài = chia mỏng attention.</strong> 200 từ → không cái nào tốt. Ngắn + rõ = tốt hơn</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'attention-deep')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="multimodal-deep">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Multimodal — 1 model hiểu mọi thứ</div>
+                <div class="card-subtitle">Tại sao GPT-4o vừa đọc text, vừa nhìn ảnh, vừa nghe audio</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>Bí quyết</h4>
+            <p>Biến MỌI loại input thành cùng 1 format: tokens. Text → tokens. Ảnh → chia thành patches → tokens. Audio → chuyển sóng âm → tokens. Tất cả vào cùng 1 transformer xử lý chung.</p>
+            <div class="analogy">Multimodal = EP xem rushes. EP nhìn hình (image), đọc script (text), nghe guide track (audio) → hiểu tổng thể scene. Mọi thứ encode thành 1 ngôn ngữ chung: "storytelling."</div>
+            <h4>Tại sao thay đổi production</h4>
+            <ul>
+                <li>Upload board → AI phân tích (không cần describe bằng text)</li>
+                <li>Reference image + prompt = output tốt hơn pure text</li>
+                <li>QC tự động: AI nhìn output → đánh giá → suggest fix</li>
+                <li>Tương lai: Upload storyboard + brief → AI output pre-vis video</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'multimodal-deep')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="orchestration">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Agent Orchestration — Điều phối nhiều AI</div>
+                <div class="card-subtitle">Multi-agent, human-in-the-loop, và tương lai AI Studio</div>
+            </div>
+            <span class="card-tag tag-agentic">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>3 patterns</h4>
+            <ul>
+                <li><strong>Single agent:</strong> 1 brain + nhiều tools. Đơn giản, dễ debug. Phổ biến nhất hiện tại</li>
+                <li><strong>Multi-agent:</strong> Nhiều agents chuyên biệt, 1 orchestrator phân công. Mạnh hơn cho tasks lớn</li>
+                <li><strong>Human-in-the-loop:</strong> Agent chạy nhưng dừng hỏi ở bước quan trọng (duyệt credit, approve output)</li>
+            </ul>
+            <div class="analogy">Single agent = 1 producer senior handle all. Multi-agent = EP + Line Producer + Post Sup + PM — mỗi người 1 domain, EP orchestrate. Human-in-the-loop = client approval gate.</div>
+            <h4>Tương lai AI Studio</h4>
+            <ul>
+                <li>Agent 1 nhận brief + phân tích board</li>
+                <li>Agent 2 gen image/video batch</li>
+                <li>Agent 3 QC output</li>
+                <li>Agent 4 delivery + client comms</li>
+                <li>Human approve ở mỗi gate</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'orchestration')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 6: QUIZ -->
 <div class="section" id="sec-quiz">
     <h2 class="section-title">Quiz — Kiểm tra kiến thức</h2>
     <p class="section-desc">Cho mình biết thêm về bạn trước khi bắt đầu quiz nhé!</p>
