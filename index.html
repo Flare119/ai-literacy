@@ -150,6 +150,7 @@
         .tag-production { background: #1a3d1a; color: #4ade80; }
         .tag-agentic { background: #3d1a3d; color: #c084fc; }
         .tag-ops { background: #3d2e1a; color: #fbbf24; }
+        .tag-models { background: #1a2d3d; color: #38bdf8; }
 
         .card-subtitle {
             color: var(--text-dim);
@@ -196,6 +197,22 @@
             display: block;
             font-size: 11px;
             color: var(--accent-light);
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+        .biz-analogy {
+            background: #1a2020;
+            border-left: 3px solid #f59e0b;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+        .biz-analogy::before {
+            content: "💼 Nói theo ngôn ngữ Business:";
+            display: block;
+            font-size: 11px;
+            color: #fbbf24;
             margin-bottom: 4px;
             font-weight: 600;
         }
@@ -301,6 +318,7 @@
     <button data-section="agentic">🤖 Agentic AI</button>
     <button data-section="ops">⚙️ AI Ops & Tools</button>
     <button data-section="deep">🔬 Deep Dive</button>
+    <button data-section="models">📊 Model Updates</button>
     <button data-section="quiz">📝 Quiz</button>
 </nav>
 
@@ -1154,7 +1172,256 @@
     </div>
 </div>
 
-<!-- SECTION 6: QUIZ -->
+<!-- SECTION 6: MODEL UPDATES -->
+<div class="section" id="sec-models">
+    <h2 class="section-title">Đọc hiểu Model Updates</h2>
+    <p class="section-desc">Mỗi khi hãng AI ra model mới, bài so sánh toàn thuật ngữ — đây là cách đọc hiểu.</p>
+
+    <div class="card" data-id="benchmarks">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Benchmark — Bảng điểm AI</div>
+                <div class="card-subtitle">SWE-bench, ARC, MMLU, OSWorld... mỗi cái đo gì, số nào là tốt</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Benchmark là gì</h4>
+            <p>Bài kiểm tra chuẩn hóa cho AI — giống SAT, IELTS nhưng cho model. Mỗi benchmark đo 1 kỹ năng cụ thể. Hãng nào ra model mới cũng chạy benchmark rồi khoe điểm.</p>
+            <div class="biz-analogy">Benchmark = KPI đánh giá nhân viên. Bạn không thuê người chỉ vì "giỏi" — bạn hỏi: "giỏi cái gì? sales? quản lý? sáng tạo?" Benchmark cho AI cũng vậy — mỗi bài đo 1 năng lực khác nhau.</div>
+            <h4>Các benchmark quan trọng nhất (2026)</h4>
+            <ul>
+                <li><strong>SWE-bench Verified</strong> — Đo khả năng code. Cho AI 1 bug thật trên GitHub → tự sửa. <em>80%+ = rất giỏi. 87%+ = top thế giới.</em></li>
+                <li><strong>ARC AGI 2</strong> — Đo suy luận mới (novel reasoning). Bài toán AI chưa bao giờ thấy → test tư duy thật sự, không phải nhớ. <em>70%+ = breakthrough.</em></li>
+                <li><strong>MMLU</strong> — Kiến thức tổng hợp 57 chủ đề (lịch sử, khoa học, luật...). <em>90%+ = frontier.</em></li>
+                <li><strong>GPQA Diamond</strong> — Câu hỏi PhD-level (vật lý, hóa, sinh). <em>90%+ = rất mạnh.</em></li>
+                <li><strong>OSWorld</strong> — AI tự dùng máy tính (click, gõ, navigate GUI). <em>70%+ = production-ready.</em></li>
+                <li><strong>MCP Atlas</strong> — Phối hợp nhiều tools cùng lúc. Quan trọng cho AI agents. <em>75%+ = tốt.</em></li>
+                <li><strong>HumanEval / MATH</strong> — Code + toán. Cổ điển nhưng vẫn dùng nhiều.</li>
+            </ul>
+            <h4>Cách đọc benchmark</h4>
+            <ul>
+                <li><strong>Số % cao hơn = tốt hơn</strong> (đơn giản vậy thôi)</li>
+                <li><strong>+2-3% = cải tiến nhỏ</strong> (incremental). <strong>+7-10% = nhảy lớn</strong> (significant). <strong>+30%+ = bước ngoặt</strong> (breakthrough)</li>
+                <li><strong>So sánh cùng benchmark, cùng điều kiện</strong> — đừng so SWE-bench model A với MMLU model B</li>
+                <li><strong>Benchmark ≠ thực tế 100%</strong> — model điểm cao vẫn có thể fail use case cụ thể của bạn</li>
+            </ul>
+            <div class="biz-analogy">Đừng thuê nhân viên chỉ vì CV đẹp. Benchmark là CV — hữu ích để lọc, nhưng cuối cùng phải test thử với công việc thật của mình.</div>
+            <button class="check-btn" onclick="markLearned(this, 'benchmarks')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="tokenizer">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Tokenizer — Tại sao model mới "tốn" thêm tokens</div>
+                <div class="card-subtitle">Cùng câu hỏi, model mới có thể tính nhiều tokens hơn — ảnh hưởng giá</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Tokenizer là gì</h4>
+            <p>Bộ "cắt từ" của AI. Trước khi đọc câu, AI phải cắt text thành mảnh nhỏ (tokens). Mỗi model có cách cắt khác nhau.</p>
+            <ul>
+                <li>"Xin chào bạn" → Model A cắt: [Xin] [chào] [bạn] = 3 tokens</li>
+                <li>"Xin chào bạn" → Model B cắt: [Xin] [ch] [ào] [bạn] = 4 tokens</li>
+                <li>Cùng câu, model B tốn nhiều tokens hơn → tốn tiền hơn</li>
+            </ul>
+            <div class="biz-analogy">Tokenizer = cách tính giờ công. Cùng 1 task, công ty A tính 8 man-hours, công ty B tính 10 man-hours. Đơn giá/giờ giống nhau nhưng tổng bill khác nhau. Khi vendor đổi cách tính → kiểm tra lại tổng chi phí.</div>
+            <h4>Khi nào cần quan tâm</h4>
+            <ul>
+                <li>Model mới nói "new tokenizer" → kiểm tra xem token count tăng bao nhiêu %</li>
+                <li>Ví dụ: Claude Opus 4.7 dùng tokenizer v2 → tốn thêm 0-35% tokens so với 4.6</li>
+                <li>Giá/token không đổi nhưng cùng prompt → tổng bill cao hơn</li>
+                <li>Nếu dùng ít (vài chục USD/tháng) → không đáng lo. Nếu dùng nhiều ($1000+/tháng) → cần tính lại</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'tokenizer')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="thinking-modes">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Thinking Modes — AI "suy nghĩ" trước khi trả lời</div>
+                <div class="card-subtitle">Extended Thinking → Adaptive Thinking → Effort Levels — đang tiến hóa thế nào</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Vấn đề gốc</h4>
+            <p>AI trả lời ngay lập tức → hay sai với bài khó. Giải pháp: cho AI thời gian "suy nghĩ" trước khi trả lời — giống người cần thời gian phân tích vấn đề phức tạp.</p>
+            <h4>Tiến hóa</h4>
+            <ul>
+                <li><strong>Extended Thinking (cũ)</strong> — Bạn set thủ công: "cho AI suy nghĩ tối đa 32K tokens". Cứng nhắc — task dễ cũng tốn nhiều, task khó thì thiếu.</li>
+                <li><strong>Adaptive Thinking (hiện tại)</strong> — AI tự quyết định suy nghĩ bao nhiêu tùy độ khó. Bạn chỉ chọn "effort level".</li>
+                <li><strong>Effort Levels</strong> — low / medium / high / xhigh. Cao hơn = suy nghĩ nhiều hơn = chính xác hơn = chậm + tốn hơn.</li>
+            </ul>
+            <div class="biz-analogy">Extended Thinking = set deadline 1 tuần cho MỌI task, dù lớn hay nhỏ. Adaptive Thinking = để nhân viên tự đánh giá task cần bao lâu. Effort level = bạn nói "cái này cần kỹ" (high) hay "nhanh thôi không cần hoàn hảo" (low). Quản lý tốt hơn là cho nhân viên linh hoạt, chỉ set kỳ vọng.</div>
+            <h4>Thực tế</h4>
+            <ul>
+                <li>Hỏi nhanh (dịch, tóm tắt) → low/medium, trả lời nhanh rẻ</li>
+                <li>Phân tích phức tạp (chiến lược, debug) → high/xhigh, chậm nhưng chất lượng</li>
+                <li>Khi đọc "Extended Thinking removed" = tính năng cũ bị bỏ, chuyển sang Adaptive tốt hơn</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'thinking-modes')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="context-deep">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Context Window — Thực tế 200K vs 1M</div>
+                <div class="card-subtitle">Con số trên giấy vs thực tế dùng — và tại sao "dài hơn" chưa chắc tốt hơn</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Quy đổi thực tế</h4>
+            <ul>
+                <li><strong>200K tokens</strong> ≈ 150K từ ≈ 300 trang sách ≈ 1 cuốn tiểu thuyết</li>
+                <li><strong>1M tokens</strong> ≈ 750K từ ≈ 1500 trang ≈ 5 cuốn tiểu thuyết cùng lúc</li>
+            </ul>
+            <h4>Nhưng...</h4>
+            <ul>
+                <li><strong>Dài hơn ≠ tốt hơn tuyệt đối.</strong> Model "nhìn" 1M tokens nhưng "chú ý" đều ở mọi điểm thì cần model rất mạnh</li>
+                <li><strong>"Lost in the middle"</strong> — Model hay chú ý đầu + cuối, bỏ qua giữa. Đang cải thiện dần (4.6 tốt hơn hẳn 4.5)</li>
+                <li><strong>Tokens nhiều = tốn tiền.</strong> Nhét 1M tokens input = $5 MỖI câu hỏi (với Opus). Dùng thông minh.</li>
+            </ul>
+            <div class="biz-analogy">Context window = sức chứa phòng họp. Phòng 10 người (200K) vs sân vận động 50K người (1M). Phòng lớn hơn chưa chắc tốt hơn — nếu bạn chỉ cần meeting 5 người, booking sân vận động vừa tốn vừa khó tập trung. Chọn phòng đúng size.</div>
+            <h4>Khi nào cần 1M tokens?</h4>
+            <ul>
+                <li>Review toàn bộ codebase 1 lần</li>
+                <li>Phân tích hợp đồng/tài liệu dài (>100 trang)</li>
+                <li>Context conversation rất dài (agent chạy hàng giờ)</li>
+            </ul>
+            <p>Hầu hết use case thông thường: 200K đã quá đủ.</p>
+            <button class="check-btn" onclick="markLearned(this, 'context-deep')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="breaking-changes">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Breaking Changes — Khi model mới "phá" code cũ</div>
+                <div class="card-subtitle">Đọc changelog biết cái nào ảnh hưởng mình, cái nào bỏ qua</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Breaking change là gì</h4>
+            <p>Thay đổi khiến code/workflow cũ KHÔNG CHẠY được nữa. Phân biệt với "behavior change" = chạy được nhưng kết quả khác.</p>
+            <div class="biz-analogy">Breaking change = nhà cung cấp đổi quy cách đóng gói. Trước giao hàng bằng pallet chuẩn, giờ đổi sang kiện mới — xe tải cũ không chở vừa. Phải đổi xe (update code) hoặc yêu cầu giao kiểu cũ (nếu còn support).</div>
+            <h4>Ví dụ thật (Claude Opus 4.7)</h4>
+            <ul>
+                <li><strong>"temperature removed"</strong> → Nếu bạn chỉ dùng web/app chat = không ảnh hưởng. Nếu gọi API có set temperature = code sẽ lỗi 400.</li>
+                <li><strong>"Extended Thinking removed"</strong> → Code cũ dùng Extended Thinking phải đổi sang Adaptive.</li>
+                <li><strong>"New tokenizer"</strong> → Code vẫn chạy nhưng tốn thêm tokens → bill cao hơn.</li>
+            </ul>
+            <h4>Ai cần đọc breaking changes?</h4>
+            <ul>
+                <li><strong>Dùng web chat (ChatGPT, Claude.ai)</strong> → Hầu như không ảnh hưởng</li>
+                <li><strong>Dùng API / có dev team</strong> → PHẢI đọc, test trước khi upgrade</li>
+                <li><strong>Dùng tool build trên API (Claw, Cursor...)</strong> → Tool vendor lo, nhưng biết để debug nếu lỗi</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'breaking-changes')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="vision-resolution">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Vision Resolution — Tại sao "AI nhìn rõ hơn" quan trọng</div>
+                <div class="card-subtitle">Từ 1568px → 2576px — ảnh hưởng screenshot, document, QC</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>Model "nhìn" ảnh thế nào</h4>
+            <p>Gửi ảnh cho AI → nó resize xuống giới hạn max → xử lý. Ảnh 4K gửi cho model 1568px max → bị nén xuống → mất chi tiết nhỏ.</p>
+            <ul>
+                <li><strong>1568px (cũ)</strong> — ~1.15 megapixels. Nhìn OK tổng thể nhưng text nhỏ, icon, chi tiết = mờ</li>
+                <li><strong>2576px (mới)</strong> — ~3.75 megapixels (3.3x). Đọc được text nhỏ, phân biệt icon, thấy chi tiết</li>
+            </ul>
+            <div class="biz-analogy">Như upgrade camera giám sát từ SD lên Full HD. Trước chỉ thấy "có người đi qua". Giờ thấy rõ mặt, đọc được biển số. Cùng hệ thống, chỉ đổi "mắt" — nhưng thông tin thu được khác hẳn.</div>
+            <h4>Ảnh hưởng thực tế</h4>
+            <ul>
+                <li><strong>AI đọc document/screenshot</strong> → chính xác hơn, ít miss text nhỏ</li>
+                <li><strong>Computer use (AI dùng máy tính)</strong> → click đúng icon hơn, đọc UI rõ hơn</li>
+                <li><strong>QC output AI video</strong> → AI nhìn frame chi tiết hơn, phát hiện lỗi nhỏ</li>
+                <li><strong>Trade-off:</strong> Ảnh rõ hơn = tốn nhiều tokens hơn → tốn tiền hơn</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'vision-resolution')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="model-choosing">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Cách chọn model — Ma trận quyết định</div>
+                <div class="card-subtitle">Anthropic, OpenAI, Google — dùng gì cho việc gì, tránh mua thừa</div>
+            </div>
+            <span class="card-tag tag-models">Model Updates</span>
+        </div>
+        <div class="card-body">
+            <h4>3 hãng lớn nhất (mid-2026)</h4>
+
+            <h4>🟣 Anthropic (Claude)</h4>
+            <ul>
+                <li><strong>Opus 4.7</strong> — Flagship. Coding #1, agentic #1, vision tốt. $5/$25 per MTok. Dùng cho: tasks phức tạp, agent, phân tích dài.</li>
+                <li><strong>Sonnet 4.6</strong> — Nhanh, rẻ hơn 40%. $3/$15. Dùng cho: tasks thường, volume cao, draft.</li>
+                <li><strong>Haiku 4.5</strong> — Nhanh nhất, rẻ nhất. $1/$5. Dùng cho: phân loại, tóm tắt, chatbot đơn giản.</li>
+            </ul>
+
+            <h4>🟢 Google (Gemini)</h4>
+            <ul>
+                <li><strong>Gemini 3.1 Pro</strong> — Flagship mới nhất. Reasoning mạnh, 1M context. $2-4/$12. Rẻ hơn Opus nhiều! Dùng cho: phân tích tài liệu dài, nghiên cứu, agentic tasks.</li>
+                <li><strong>Gemini 3 Flash</strong> — Sweet spot. Gần bằng Pro mà rẻ 4x. $0.50/$3. Dùng cho: production apps, chatbot, content gen — mặc định tốt nhất cho đa số teams.</li>
+                <li><strong>Gemini 3.1 Flash-Lite</strong> — Siêu rẻ siêu nhanh. $0.25/$1.50. Dùng cho: real-time, high-volume, phân loại.</li>
+                <li><strong>Gemma 4</strong> — Open-weight, chạy local free. Dùng cho: self-host, prototype, data-sensitive.</li>
+                <li><strong>Veo 3.1</strong> — Video gen có audio. Cinematic quality cao nhất hiện tại.</li>
+                <li><strong>NB2 (Nano Banana 2)</strong> — Image gen (thực ra là Gemini 3.1 Flash Image). Chất lượng tốt, rẻ.</li>
+            </ul>
+
+            <h4>🔵 OpenAI (GPT)</h4>
+            <ul>
+                <li><strong>GPT-5.4</strong> — Flagship. Multimodal mạnh, image edit tốt nhất. $10/$30. Đắt hơn đối thủ nhưng mạnh ở image understanding + generation.</li>
+                <li><strong>GPT-5.4 mini</strong> — Rẻ hơn, nhanh hơn. Volume tasks.</li>
+                <li><strong>GPT Image</strong> — Image gen/edit tích hợp. Edit ảnh chi tiết tốt nhất (từng phần nhỏ).</li>
+                <li><strong>Codex</strong> — Cloud coding agent. Chạy tasks coding trên cloud.</li>
+            </ul>
+
+            <div class="biz-analogy">Chọn model = chọn vendor outsource. Không thuê agency $50K/tháng để làm social post. Không thuê freelancer $500 để làm rebranding. Match đúng vendor với đúng scope — AI cũng vậy. Task nhỏ → model rẻ. Task quan trọng → model flagship.</div>
+
+            <h4>Ma trận chọn nhanh</h4>
+            <ul>
+                <li>💬 <strong>Chat / hỏi đáp thường</strong> → Gemini 3 Flash ($0.50) hoặc Sonnet 4.6 ($3)</li>
+                <li>🧠 <strong>Phân tích phức tạp / chiến lược</strong> → Opus 4.7 ($5) hoặc Gemini 3.1 Pro ($2-4)</li>
+                <li>💻 <strong>Coding / agent tasks</strong> → Opus 4.7 (top benchmark) hoặc Gemini 3.1 Pro</li>
+                <li>📄 <strong>Đọc tài liệu dài (>100 trang)</strong> → Gemini 3.1 Pro (1M context, rẻ hơn Opus 2.5x)</li>
+                <li>🖼️ <strong>Edit ảnh chi tiết</strong> → GPT Image (tốt nhất cho từng phần nhỏ)</li>
+                <li>🎬 <strong>Gen video</strong> → Veo 3.1 (cinematic), Kling 3.0 (control), Seedance 2.0 (motion)</li>
+                <li>📊 <strong>Volume cao, budget thấp</strong> → Flash-Lite ($0.25) hoặc Haiku ($1)</li>
+                <li>🔒 <strong>Data nhạy cảm, tự host</strong> → Gemma 4 (open-weight, chạy local)</li>
+            </ul>
+
+            <h4>Giá so sánh (input / output per MTok)</h4>
+            <ul>
+                <li>Gemini 3.1 Flash-Lite: <strong>$0.25 / $1.50</strong> — rẻ nhất</li>
+                <li>Gemini 3 Flash: <strong>$0.50 / $3</strong></li>
+                <li>Claude Haiku 4.5: <strong>$1 / $5</strong></li>
+                <li>Gemini 3.1 Pro: <strong>$2-4 / $12</strong></li>
+                <li>Claude Sonnet 4.6: <strong>$3 / $15</strong></li>
+                <li>Claude Opus 4.7: <strong>$5 / $25</strong></li>
+                <li>GPT-5.4: <strong>$10 / $30</strong> — đắt nhất</li>
+            </ul>
+
+            <div class="real-example">CrawBot dùng Opus 4.7 làm main (tasks phức tạp, agentic). GenWorker dùng Sonnet 4.6 (gen tasks, volume). Seegroup Bot có thể dùng Gemini Flash nếu cần tiết kiệm. Mix & match theo đúng nhu cầu.</div>
+            <button class="check-btn" onclick="markLearned(this, 'model-choosing')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 7: QUIZ -->
 <div class="section" id="sec-quiz">
     <h2 class="section-title">Quiz — Kiểm tra kiến thức</h2>
     <p class="section-desc">Cho mình biết thêm về bạn trước khi bắt đầu quiz nhé!</p>
