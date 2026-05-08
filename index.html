@@ -2625,16 +2625,12 @@
     initOnboarding();
 
     // Make sections flex for ordering
-    document.querySelectorAll('.section').forEach(s => {
-        s.style.display === 'block' || s.classList.contains('active') ? null : null;
-        // Add flex container style for card ordering
+    if (!document.getElementById('persona-flex-style')) {
         const style = document.createElement('style');
+        style.id = 'persona-flex-style';
         style.textContent = '.section.active { display: flex; flex-direction: column; }';
-        if (!document.getElementById('persona-flex-style')) {
-            style.id = 'persona-flex-style';
-            document.head.appendChild(style);
-        }
-    });
+        document.head.appendChild(style);
+    }
 
 </script>
 
