@@ -587,15 +587,15 @@
         </div>
         <div class="onboard-step" id="onboardStep2">
             <h2>Gần xong rồi! 🎉</h2>
-            <p>Để lại thông tin nếu muốn nhận update mới nhất từ AI Studio</p>
-            <label class="onboard-input-label">Tên</label>
-            <input class="onboard-input" type="text" id="onboardName" placeholder="VD: Minh">
-            <label class="onboard-input-label">Email</label>
-            <input class="onboard-input" type="email" id="onboardEmail" placeholder="email@company.com">
+            <p>Điền thông tin để vào nội dung</p>
+            <label class="onboard-input-label">Tên <span style="color:var(--red)">*</span></label>
+            <input class="onboard-input" type="text" id="onboardName" placeholder="VD: Minh" required>
+            <label class="onboard-input-label">Email <span style="color:var(--red)">*</span></label>
+            <input class="onboard-input" type="email" id="onboardEmail" placeholder="email@company.com" required>
+            <div id="emailError" style="color:var(--red);font-size:12px;margin-top:-8px;margin-bottom:8px;display:none;">Vui lòng nhập email hợp lệ</div>
             <label class="onboard-input-label">Công ty <span style="color:#555">(không bắt buộc)</span></label>
             <input class="onboard-input" type="text" id="onboardCompany" placeholder="VD: Agency XYZ">
-            <button class="onboard-submit" onclick="finishOnboarding()">Bắt đầu học →</button>
-            <button class="onboard-skip" onclick="finishOnboarding()">Bỏ qua →</button>
+            <button class="onboard-submit" onclick="validateAndFinish()">Bắt đầu học →</button>
         </div>
     </div>
 </div>
@@ -2351,6 +2351,31 @@
         }, 300);
     }
 
+    function validateAndFinish() {
+        const name = document.getElementById('onboardName').value.trim();
+        const email = document.getElementById('onboardEmail').value.trim();
+        const emailError = document.getElementById('emailError');
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!name) {
+            document.getElementById('onboardName').style.borderColor = 'var(--red)';
+            document.getElementById('onboardName').focus();
+            return;
+        }
+        document.getElementById('onboardName').style.borderColor = '';
+
+        if (!email || !emailRegex.test(email)) {
+            document.getElementById('onboardEmail').style.borderColor = 'var(--red)';
+            emailError.style.display = 'block';
+            document.getElementById('onboardEmail').focus();
+            return;
+        }
+        document.getElementById('onboardEmail').style.borderColor = '';
+        emailError.style.display = 'none';
+
+        finishOnboarding();
+    }
+
     function finishOnboarding() {
         const name = document.getElementById('onboardName').value.trim();
         const email = document.getElementById('onboardEmail').value.trim();
@@ -2358,8 +2383,8 @@
 
         const profileData = {
             persona: currentPersona,
-            name: name || '',
-            email: email || '',
+            name: name,
+            email: email,
             company: company || '',
             timestamp: new Date().toISOString()
         };
