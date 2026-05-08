@@ -313,7 +313,8 @@
 </header>
 
 <nav id="nav">
-    <button class="active" data-section="fundamentals">🧱 Nền tảng AI</button>
+    <button class="active" data-section="overview">🌍 Overview</button>
+    <button data-section="fundamentals">🧱 Nền tảng AI</button>
     <button data-section="production">🎬 AI Production</button>
     <button data-section="agentic">🤖 Agentic AI</button>
     <button data-section="ops">⚙️ AI Ops & Tools</button>
@@ -322,8 +323,175 @@
     <button data-section="quiz">📝 Quiz</button>
 </nav>
 
+<!-- SECTION 0: OVERVIEW -->
+<div class="section active" id="sec-overview">
+    <h2 class="section-title">AI đang thay đổi mọi thứ</h2>
+    <p class="section-desc">Bức tranh toàn cảnh: AI đang ở đâu, đang thay đổi thế giới ra sao, và ảnh hưởng trực tiếp đến ngành của bạn thế nào.</p>
+
+    <div class="card" data-id="ai-now">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI đang ở đâu — Bức tranh 2025-2026</div>
+                <div class="card-subtitle">Không còn là tương lai — đang xảy ra ngay bây giờ</div>
+            </div>
+            <span class="card-tag tag-fundamental">Overview</span>
+        </div>
+        <div class="card-body">
+            <h4>Tốc độ thay đổi</h4>
+            <ul>
+                <li><strong>ChatGPT ra mắt 11/2022</strong> — 100 triệu user trong 2 tháng (nhanh nhất lịch sử)</li>
+                <li><strong>2023:</strong> AI viết text, gen ảnh cơ bản. Nhiều người nghĩ "đồ chơi"</li>
+                <li><strong>2024:</strong> AI gen video, code, dịch giọng nói, điều khiển máy tính</li>
+                <li><strong>2025-2026:</strong> AI agents tự chạy pipeline, gen TVC quality, quản lý dự án, phân tích tài chính. <strong>Không còn là đồ chơi.</strong></li>
+            </ul>
+            <div class="biz-analogy">Mỗi 6 tháng, AI tiến 1 bước mà trước đó người ta nghĩ cần 5 năm. Công ty nào không theo kịp sẽ thua không phải vì kém — mà vì chậm.</div>
+            <h4>Con số thực tế</h4>
+            <ul>
+                <li><strong>75%</strong> knowledge workers toàn cầu đã dùng AI trong công việc (Microsoft 2025)</li>
+                <li><strong>$200 tỷ+</strong> đầu tư vào AI năm 2025 — gấp 3 lần 2023</li>
+                <li><strong>40%</strong> tasks trong mọi ngành có thể bị AI hỗ trợ hoặc thay thế (McKinsey)</li>
+                <li><strong>300%</strong> tăng năng suất khi dùng AI cho coding, viết, phân tích (Harvard Business Review)</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'ai-now')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-jobs">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI thay đổi ngành nghề — Ai mất việc, ai lên giá</div>
+                <div class="card-subtitle">Không phải AI thay thế người — mà người dùng AI thay thế người không dùng</div>
+            </div>
+            <span class="card-tag tag-fundamental">Overview</span>
+        </div>
+        <div class="card-body">
+            <h4>Ngành bị ảnh hưởng mạnh nhất</h4>
+            <ul>
+                <li><strong>Marketing & Quảng cáo:</strong> AI gen content, viết copy, thiết kế, chạy ads, phân tích data — 1 người làm việc trước đây cần team 5 người</li>
+                <li><strong>Software Development:</strong> AI viết code, debug, review — developer năng suất gấp 3x. Junior developer bị ảnh hưởng nặng nhất</li>
+                <li><strong>Tài chính & Kế toán:</strong> AI phân tích báo cáo, dự báo, kiểm toán tự động — tasks lặp lại bị thay thế</li>
+                <li><strong>Luật:</strong> AI đọc hợp đồng, nghiên cứu case, soạn văn bản — 80% công việc junior lawyer</li>
+                <li><strong>Giáo dục:</strong> AI tutor cá nhân hóa, tạo giáo trình, chấm bài — thay đổi cách dạy và học</li>
+            </ul>
+            <h4>Ngành được tăng giá trị</h4>
+            <ul>
+                <li><strong>AI Operations / AI Engineers:</strong> Người biết vận hành, tối ưu, tích hợp AI vào workflow</li>
+                <li><strong>Creative Direction:</strong> AI gen được nội dung nhưng CẦN NGƯỜI quyết định "cái nào đúng". Taste, judgment, curation = giá trị tăng</li>
+                <li><strong>AI-first Producers:</strong> Người biết dùng AI trong production pipeline — tiết kiệm 50-80% budget, delivery nhanh gấp đôi</li>
+            </ul>
+            <div class="biz-analogy">Khi máy in ra đời, thợ chép sách mất việc. Nhưng ngành xuất bản BÙNG NỔ — nhiều việc hơn, khác việc. AI cũng vậy: việc cũ mất, việc mới ra đời. Câu hỏi không phải "AI có thay thế mình không?" mà là "mình có học cách dùng AI không?"</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-jobs')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-production">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI trong Production — Cuộc cách mạng đang diễn ra</div>
+                <div class="card-subtitle">Từ concept đến delivery, AI thay đổi mọi bước trong quy trình sản xuất</div>
+            </div>
+            <span class="card-tag tag-production">Overview</span>
+        </div>
+        <div class="card-body">
+            <h4>Trước AI (truyền thống)</h4>
+            <ul>
+                <li>Brief → Storyboard → PPM → Shoot (crew 20-50 người, 2-5 ngày) → Post (2-4 tuần) → Delivery</li>
+                <li>Budget TVC 30s: <strong>500M - 2 tỷ VND</strong></li>
+                <li>Timeline: <strong>6-12 tuần</strong></li>
+                <li>Thay đổi ý = quay lại, tốn thêm tiền + thời gian</li>
+            </ul>
+            <h4>Với AI (2025-2026)</h4>
+            <ul>
+                <li>Brief → AI gen storyboard → AI gen video → Iterate prompt → Post nhẹ → Delivery</li>
+                <li>Budget AI animatic/content: <strong>50-200M VND</strong> (giảm 70-90%)</li>
+                <li>Timeline: <strong>1-3 tuần</strong> (giảm 60-80%)</li>
+                <li>Thay đổi ý = sửa prompt, gen lại trong vài phút</li>
+                <li>1 EP + AI agents có thể output bằng team 10 người truyền thống</li>
+            </ul>
+            <h4>Cụ thể trong pipeline</h4>
+            <ul>
+                <li><strong>Pre-production:</strong> AI gen concept art, character sheet, storyboard visualization</li>
+                <li><strong>Production:</strong> AI gen video (Kling, Veo, Seedance), AI image (FLUX, Midjourney, GPT Image)</li>
+                <li><strong>Post-production:</strong> AI color grade, AI rotoscope, AI sound design, AI subtitle</li>
+                <li><strong>Delivery:</strong> AI resize/reformat cho multi-platform tự động</li>
+            </ul>
+            <div class="analogy">Giống như khi camera digital thay film — không phải DP mất việc, mà cách quay thay đổi hoàn toàn. AI không giết production — AI giết cách làm production CŨ.</div>
+            <h4>Case thật</h4>
+            <ul>
+                <li>AI animatic 3 films × 45s cho client FMCG — delivery trong 2 tuần, qua 3 rounds feedback</li>
+                <li>4 social films cho Samsung Mother's Day — AI gen + post composite, 1 EP handle toàn bộ</li>
+                <li>100 triệu tokens, 2000+ generations — pipeline 6 bước từ brief đến delivery</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'ai-production')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-business">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI trong Quản trị — CEO/EP cần biết gì</div>
+                <div class="card-subtitle">AI không chỉ là tool cho team kỹ thuật — nó thay đổi cách vận hành công ty</div>
+            </div>
+            <span class="card-tag tag-ops">Overview</span>
+        </div>
+        <div class="card-body">
+            <h4>AI thay đổi cách quản trị</h4>
+            <ul>
+                <li><strong>Ra quyết định:</strong> AI phân tích data, dự báo, đưa options — leadership quyết định nhanh hơn, dựa trên data thay vì gut feeling</li>
+                <li><strong>Vận hành:</strong> AI tự động hóa tasks lặp lại (báo cáo, theo dõi KPI, nhắc deadline, phân loại email) — team focus vào việc tạo giá trị</li>
+                <li><strong>Nhân sự:</strong> 1 người + AI = output 3-5 người. Team lean hơn, mỗi người giá trị hơn</li>
+                <li><strong>Chi phí:</strong> Giảm overhead, giảm outsource, giảm timeline → margin tăng</li>
+            </ul>
+            <h4>Rủi ro nếu KHÔNG dùng AI</h4>
+            <ul>
+                <li><strong>Thua cạnh tranh:</strong> Đối thủ delivery nhanh hơn, rẻ hơn, nhiều options hơn</li>
+                <li><strong>Mất talent:</strong> Nhân sự giỏi muốn làm ở nơi có tools hiện đại — không ai muốn làm thủ công khi có thể tự động</li>
+                <li><strong>Margin co lại:</strong> Client expect giá thấp hơn vì họ biết AI giảm chi phí SX. Không dùng AI = chi phí cao + giá bị ép</li>
+            </ul>
+            <div class="biz-analogy">10 năm trước, công ty nào không có website = "không tồn tại". 5 năm trước, không dùng social media = mất khách. Bây giờ, không tích hợp AI = mất lợi thế cạnh tranh. Không phải lựa chọn — là sống còn.</div>
+            <h4>Bắt đầu từ đâu</h4>
+            <ul>
+                <li><strong>Bước 1:</strong> Mọi người trong team hiểu AI cơ bản (đó là lý do bạn đang đọc cái này)</li>
+                <li><strong>Bước 2:</strong> Xác định 3-5 tasks tốn thời gian nhất → thử dùng AI</li>
+                <li><strong>Bước 3:</strong> Build workflow AI cho 1 dự án pilot → đo kết quả</li>
+                <li><strong>Bước 4:</strong> Scale ra toàn công ty dần dần</li>
+            </ul>
+            <button class="check-btn" onclick="markLearned(this, 'ai-business')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-vision">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Tương lai gần — 2026-2028</div>
+                <div class="card-subtitle">Những gì sẽ xảy ra trong 1-2 năm tới — không phải sci-fi</div>
+            </div>
+            <span class="card-tag tag-fundamental">Overview</span>
+        </div>
+        <div class="card-body">
+            <h4>Sẽ xảy ra</h4>
+            <ul>
+                <li><strong>AI Agents phổ biến:</strong> Mỗi người sẽ có AI assistant riêng — quản lý lịch, email, tasks, research. Giống có 1 PA riêng 24/7</li>
+                <li><strong>AI video = real-time:</strong> Gen video 4K trong vài phút thay vì hàng giờ. Quality gần bằng quay thật</li>
+                <li><strong>AI voice + video call:</strong> AI đại diện bạn trong meeting, trả lời thay, tóm tắt sau</li>
+                <li><strong>AI co-pilot cho mọi ngành:</strong> Bác sĩ có AI đọc film, luật sư có AI đọc hợp đồng, producer có AI gen animatic</li>
+                <li><strong>1-person company:</strong> 1 người + AI có thể vận hành business mà trước cần 20 người</li>
+            </ul>
+            <h4>Production cụ thể</h4>
+            <ul>
+                <li><strong>AI gen video photorealistic:</strong> Không phân biệt được AI vs quay thật (đã gần rồi)</li>
+                <li><strong>Real-time iteration:</strong> Client xem preview → sửa ngay trong meeting → gen lại 5 phút</li>
+                <li><strong>AI Director:</strong> Mô tả ý tưởng bằng text → AI tự chọn camera, lighting, blocking, gen scene</li>
+                <li><strong>Hybrid production mặc định:</strong> Mọi TVC sẽ kết hợp quay thật + AI, không còn "AI hay traditional"</li>
+            </ul>
+            <div class="biz-analogy">Câu hỏi không phải "AI có thay đổi ngành mình không?" — câu hỏi là "mình sẽ là người dẫn đầu hay người chạy theo?" Người đọc trang này đang ở bước 1. Đó đã là lợi thế.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-vision')">✓ Đã hiểu</button>
+        </div>
+    </div>
+</div>
+
 <!-- SECTION 1: FUNDAMENTALS -->
-<div class="section active" id="sec-fundamentals">
+<div class="section" id="sec-fundamentals">
     <h2 class="section-title">Nền tảng AI</h2>
     <p class="section-desc">Bản chất các loại AI model — hiểu đủ để biết nó làm gì, không cần biết code.</p>
 
