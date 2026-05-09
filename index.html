@@ -228,7 +228,7 @@
             font-size: 14px;
         }
         .real-example::before {
-            content: "✅ Ví dụ thật (từ work của Nam):";
+            content: "✅ Ví dụ thực tế:";
             display: block;
             font-size: 11px;
             color: var(--green);
@@ -771,7 +771,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="ai-business" data-persona="manager,producer">
+    <div class="card" data-id="ai-business" data-persona="producer,manager">
         <div class="card-header">
             <div>
                 <div class="card-title">AI trong Quản trị — CEO/EP cần biết gì</div>
@@ -863,37 +863,22 @@
     <div class="card" data-id="ai-seegroup" data-persona="producer,creative,manager,curious">
         <div class="card-header">
             <div>
-                <div class="card-title">AI tại Seegroup — Định hướng & Ứng dụng</div>
-                <div class="card-subtitle">Quan điểm lãnh đạo và những gì đang được xây dựng</div>
+                <div class="card-title">AI tại 1 Production House VN — Case study (anonymous)</div>
+                <div class="card-subtitle">Quan điểm và mô hình vận hành tham khảo</div>
             </div>
             <span class="card-tag tag-production">Overview</span>
         </div>
         <div class="card-body">
-            <h4>Quan điểm</h4>
+            <h4>Quan điểm chung</h4>
             <p>"AI không thay thế production house — AI thay đổi cách production house VẬN HÀNH. Công ty nào tích hợp AI sớm sẽ deliver nhanh hơn, chất lượng hơn, chi phí thấp hơn — và giành được client từ những công ty vẫn làm theo cách cũ."</p>
-            <h4>Định hướng</h4>
+            <h4>Định hướng tham khảo</h4>
             <ul>
-                <li><strong>AI-first Production Pipeline:</strong> Từ brief → storyboard → gen video → iterate → delivery — AI tham gia mọi bước, con người QC và quyết định</li>
-                <li><strong>Hybrid Production:</strong> Kết hợp quay thật + AI. Không phải "AI thay quay phim" mà "AI mở rộng khả năng sản xuất"</li>
-                <li><strong>AI Training:</strong> Toàn team hiểu AI cơ bản (mục đích của trang này). AI Producer = role mới trong pipeline</li>
-                <li><strong>AI Tools nội bộ:</strong> Tự build tools phục vụ workflow riêng của công ty</li>
+                <li><strong>AI-first Pipeline:</strong> Brief → storyboard → gen → iterate → delivery — AI tham gia mọi bước, con người QC và quyết định</li>
+                <li><strong>Hybrid Production:</strong> Kết hợp quay thật + AI. Không phải thay thế mà mở rộng khả năng</li>
+                <li><strong>AI Literacy team-wide:</strong> Mọi role hiểu AI cơ bản. AI Producer = role mới</li>
+                <li><strong>Internal tools:</strong> Tự build tools phục vụ workflow riêng — không phụ thuộc 1 vendor</li>
             </ul>
-            <h4>Tools đã xây dựng</h4>
-            <ul>
-                <li><strong>AI Literacy Hub:</strong> Training AI cho toàn team (trang bạn đang đọc)</li>
-                <li><strong>AI Prompt Generator:</strong> Viết prompt tối ưu cho AI image/video — cho AI Producer dùng</li>
-                <li><strong>EP Project Assessment:</strong> Đánh giá dự án — phân tích hiệu quả, timeline, rủi ro trước khi nhận</li>
-                <li><strong>AI Photo Director:</strong> 3D previsualization → camera match cho AI video</li>
-                <li><strong>AI Communication CoPilot:</strong> Trợ lý giao tiếp tam ngữ cho meetings đối tác quốc tế</li>
-                <li><strong>AI Agent nội bộ:</strong> Trợ lý AI riêng — quản lý knowledge, tư vấn, hỗ trợ production 24/7</li>
-            </ul>
-            <h4>Kết quả</h4>
-            <ul>
-                <li>Đã delivery nhiều dự án AI animatic & social film cho clients FMCG và tech hàng đầu</li>
-                <li>Pipeline 6 bước: Brief → Character Setup → AI Gen → QC → Post → Delivery</li>
-                <li>Đội ngũ lean + AI tools handle khối lượng trước đây cần team lớn hơn nhiều</li>
-            </ul>
-            <div class="biz-analogy">Seegroup không chỉ DÙNG AI — Seegroup TÍCH HỢP AI vào DNA vận hành. Mọi người trong team đều là một phần của quá trình chuyển đổi này.</div>
+            <div class="biz-analogy">Câu hỏi không phải "có dùng AI không" — câu hỏi là "tích hợp AI vào DNA vận hành ở mức nào". Mỗi PH có path riêng.</div>
             <button class="check-btn" onclick="markLearned(this, 'ai-seegroup')">✓ Đã hiểu</button>
         </div>
     </div>
@@ -926,6 +911,148 @@
             <button class="check-btn" onclick="markLearned(this, 'ai-vision')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: Manager-focused cards -->
+    <div class="card" data-id="ai-roi-framework" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI ROI Framework — Cách đo & justify đầu tư AI</div>
+                <div class="card-subtitle">Cho lãnh đạo, EP, founder đang cân nhắc invest AI</div>
+            </div>
+            <span class="card-tag tag-business">Strategy</span>
+        </div>
+        <div class="card-body">
+            <h4>4 dimensions để đo ROI của AI</h4>
+            <ul>
+                <li><strong>1. Cost saved per project:</strong> Traditional cost vs AI-integrated cost. Đo bằng man-days × rate, equipment rental, post time.</li>
+                <li><strong>2. Capacity expansion:</strong> 1 producer + AI handle bao nhiêu project song song so với trước. Đo bằng concurrent projects.</li>
+                <li><strong>3. Speed-to-deliver:</strong> Client brief → first cut. Rút ngắn từ 2 tuần xuống 2 ngày = bid được nhiều job hơn.</li>
+                <li><strong>4. Quality ceiling:</strong> Trước AI có làm được scene này không (orbit, VFX, transformation)? Nếu KHÔNG → AI mở thị trường mới.</li>
+            </ul>
+            <h4>Hidden costs đừng bỏ qua</h4>
+            <ul>
+                <li><strong>Training time:</strong> Team mất 1-3 tháng tích hợp. Productivity dip đầu kỳ là bình thường</li>
+                <li><strong>Retry cost:</strong> AI gen probabilistic — budget thêm 30-50% credits cho iterate</li>
+                <li><strong>QC time:</strong> AI nhanh nhưng QC manual. Thiếu QC = release artifact = brand risk lớn hơn cost saved</li>
+                <li><strong>Vendor risk:</strong> Platform tăng giá / thay policy → workflow gãy. Giữ optionality multi-vendor</li>
+            </ul>
+            <h4>System Thinking lens</h4>
+            <p>AI không phải "thay người" — AI là "amplifier". Người giỏi + AI = 10x. Người kém + AI = 10x kém hơn (giả tốc độ, mất QC, deliver junk fast). Đầu tư AI mà không đầu tư skill là leverage point sai.</p>
+            <div class="biz-analogy">ROI thật của AI không nằm ở "save tiền per project" — nằm ở "redefine business model". PH chỉ cắt cost với AI sẽ bị commoditize. PH dùng AI để mở dịch vụ mới (real-time iteration với client, AI-native series, infinite variations) sẽ tăng giá trị.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-roi-framework')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-moats" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Competitive Moats post-AI — AI commoditize, lấy gì khác biệt?</div>
+                <div class="card-subtitle">System Thinking: tools không phải moat</div>
+            </div>
+            <span class="card-tag tag-business">Strategy</span>
+        </div>
+        <div class="card-body">
+            <h4>Cái KHÔNG còn là moat nữa</h4>
+            <ul>
+                <li><strong>Tool access:</strong> Higgsfield, Kling, Veo — ai cũng dùng được với $39-99/tháng</li>
+                <li><strong>Speed:</strong> AI làm mọi người nhanh ngang nhau</li>
+                <li><strong>Technical execution:</strong> Skill prompt phổ biến hóa rất nhanh</li>
+                <li><strong>Model knowledge:</strong> 6 tháng nữa sẽ có model khác, kiến thức cũ đi</li>
+            </ul>
+            <h4>Moat THẬT post-AI</h4>
+            <ul>
+                <li><strong>Relationships & Trust:</strong> Client tin ai chứ không tin tool. PH 10 năm relationship khó replace</li>
+                <li><strong>Brand & Taste:</strong> Curation, judgment, "khi nào AI khi nào quay thật" — kinh nghiệm không gen được</li>
+                <li><strong>Proprietary Data:</strong> Insights từ 100 project past, retainer client behavior, market rhythm — competitor không có</li>
+                <li><strong>Speed-to-Insight:</strong> Không phải làm nhanh — biết NÊN làm gì nhanh. Pattern recognition</li>
+                <li><strong>Distribution:</strong> Network, PR, awards, social presence — AI không thay được</li>
+                <li><strong>Operating System:</strong> Process, culture, talent retention — AI khó copy</li>
+            </ul>
+            <h4>System Thinking — "AI raises tide, lifts all boats"</h4>
+            <p>AI làm mọi PH có baseline cao hơn. Khoảng cách giữa "tốt" và "trung bình" sẽ co lại — nhưng khoảng cách giữa "xuất sắc" và "tốt" sẽ giãn ra. Vì khi tool ngang nhau, taste/relationships/data làm phần còn lại.</p>
+            <div class="biz-analogy">Klarna sa thải vì AI replace work. Block cắt 4000 vì AI automate. Trong production, ngược lại: AI mở capacity để PH lean nhận nhiều project hơn — nếu giữ được taste & trust. Người cắt cost đua giá sẽ chết. Người dùng AI để premium-up sẽ thắng.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-moats')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-risk-mgmt" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Risk Management — Brand, Legal, Vendor</div>
+                <div class="card-subtitle">Risks thật khi tích hợp AI vào commercial work</div>
+            </div>
+            <span class="card-tag tag-business">Strategy</span>
+        </div>
+        <div class="card-body">
+            <h4>Brand Risk</h4>
+            <ul>
+                <li><strong>AI artifact released:</strong> Hand 6 ngón, face drift, text gibberish lọt vào TVC client = brand crisis. QC layer là bắt buộc</li>
+                <li><strong>Authenticity backlash:</strong> Audience phát hiện AI generated → brand mất "real" feel. Cần disclosure strategy</li>
+                <li><strong>Style copy:</strong> AI gen có thể giống style competitor brand. Similarity score check before release</li>
+            </ul>
+            <h4>Legal Risk</h4>
+            <ul>
+                <li><strong>Copyright:</strong> AI model train từ data internet. Output có thể chứa elements giống IP người khác. Lawsuit risk lớn cho FMCG/global brand</li>
+                <li><strong>Likeness rights:</strong> Gen người giống celebrity/real person mà chưa license = vi phạm. Cần AI Likeness Agreement với talent</li>
+                <li><strong>Disclosure law:</strong> EU AI Act bắt buộc gắn nhãn từ T8/2026. Luật AI VN 134/2025 hiệu lực 03/2026. Phải comply</li>
+                <li><strong>Deepfake risk:</strong> Face swap có khung pháp lý chặt — chỉ dùng với consent rõ ràng + commercial license</li>
+            </ul>
+            <h4>Vendor Risk</h4>
+            <ul>
+                <li><strong>Pricing shift:</strong> Platform có thể tăng credit cost 2-3x bất kỳ lúc nào. Có happen với mọi AI vendor</li>
+                <li><strong>Policy change:</strong> Hôm nay gen được children, mai bị block. Workflow gãy giữa project</li>
+                <li><strong>Service outage:</strong> Cloud AI down = không deliver được. Plan B mandatory</li>
+                <li><strong>Lock-in:</strong> Càng đầu tư workflow chuyên 1 platform → càng khó switch. Multi-vendor strategy</li>
+            </ul>
+            <h4>Operational Risk</h4>
+            <ul>
+                <li><strong>Probabilistic output:</strong> Gen lần 1 vs lần 2 khác kết quả. Deadline-sensitive cần buffer</li>
+                <li><strong>Skill atrophy:</strong> Team quá phụ thuộc AI → skill quay/edit truyền thống mất → khi cần manual không làm được</li>
+            </ul>
+            <div class="biz-analogy">Risk biggest không phải AI fail. Risk biggest là "no plan when AI fails" — không có backup vendor, không có manual fallback, không có legal review trước release. Production house chuyên nghiệp = preparedness, không phải tốc độ.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-risk-mgmt')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-team-transform" data-persona="producer,creative,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Team Transformation post-AI — Roles thay đổi thế nào</div>
+                <div class="card-subtitle">Hiring, upskilling, role redesign cho creative/production team</div>
+            </div>
+            <span class="card-tag tag-business">Strategy</span>
+        </div>
+        <div class="card-body">
+            <h4>Roles cũ → Roles mới</h4>
+            <ul>
+                <li><strong>Junior Designer → AI Art Director:</strong> Không còn execute pixel by pixel. Direct AI gen, curate output, refine prompt</li>
+                <li><strong>Junior Editor → AI Post Supervisor:</strong> AI gen rough cut, human polish + creative direction</li>
+                <li><strong>Junior Producer → AI Producer:</strong> Pipeline coordinator + prompt engineer + QC lead</li>
+                <li><strong>Animator → Motion Director:</strong> AI gen motion, animator refine timing/keyframes</li>
+                <li><strong>Generalist Designer:</strong> Vẫn cần — AI gen mass output cần human curate cho cái đẹp thật</li>
+            </ul>
+            <h4>Skills cần upskill</h4>
+            <ul>
+                <li><strong>Prompt engineering:</strong> Như scriptwriting cho AI. Skill nền tảng mọi role creative</li>
+                <li><strong>Critical eye:</strong> Spot AI artifact (hand, eye, text, physics) — quan trọng hơn execute</li>
+                <li><strong>Curation:</strong> Chọn 1 output đẹp từ 50 gen — taste matter hơn skill</li>
+                <li><strong>System thinking:</strong> Hiểu tool chain, optimize workflow, không chỉ làm 1 task</li>
+                <li><strong>Domain knowledge:</strong> Photography, cinematography, color theory — AI cần người biết "đẹp là gì"</li>
+            </ul>
+            <h4>Hiring strategy</h4>
+            <ul>
+                <li><strong>Senior:</strong> Vẫn quan trọng — judgment, taste, client relationship. AI làm họ 10x, không thay</li>
+                <li><strong>Mid:</strong> Risk cao nhất. Phải upskill thành AI lead role hoặc commodity</li>
+                <li><strong>Junior:</strong> Hire ít hơn nhưng cần hơn — AI literacy + sharp taste. Old "draftsman" role bị giảm</li>
+                <li><strong>Specialist mới:</strong> AI Producer, Pipeline Engineer, ML Ops cho creative</li>
+            </ul>
+            <h4>Compensation shift</h4>
+            <p>Trước: paid by hours/day. Sau AI: paid by output value, judgment, taste. Người làm 1 ngày deliver kết quả = giá trị cao hơn người làm 1 tuần.</p>
+            <div class="biz-analogy">Klarna sa thải 700 nhân viên. Block cắt 4000 (40%). Đây không phải "AI thay thế" — đây là "AI cho phép team nhỏ làm việc team lớn". Câu hỏi cho creative team: ai trong team là 10x với AI, ai là 0.5x? Đầu tư người thứ nhất, transition người thứ hai.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-team-transform')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 1: FUNDAMENTALS -->
@@ -958,7 +1085,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="diffusion" data-persona="curious,producer,creative">
+    <div class="card" data-id="diffusion" data-persona="producer,creative,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Diffusion Model</div>
@@ -1009,7 +1136,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="training" data-persona="curious,producer">
+    <div class="card" data-id="training" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Training vs Fine-tuning vs Inference</div>
@@ -1036,7 +1163,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="multimodal" data-persona="curious,producer,creative">
+    <div class="card" data-id="multimodal" data-persona="producer,creative,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Multimodal AI</div>
@@ -1059,7 +1186,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="tokens" data-persona="curious,producer">
+    <div class="card" data-id="tokens" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Tokens & Context Window</div>
@@ -1085,7 +1212,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="api" data-persona="curious,manager">
+    <div class="card" data-id="api" data-persona="manager,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">API — Application Programming Interface</div>
@@ -1133,6 +1260,75 @@
             <button class="check-btn" onclick="markLearned(this, 'opensource')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: AI History -->
+    <div class="card" data-id="ai-history" data-persona="producer,creative,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI History — Tại sao AI bùng nổ 2022-2026</div>
+                <div class="card-subtitle">Inflection points và lý do "bây giờ" chứ không phải sớm hơn</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>Timeline ngắn</h4>
+            <ul>
+                <li><strong>1950s-2010s:</strong> AI rule-based, expert systems. Thất bại nhiều, "AI winter" 2-3 lần</li>
+                <li><strong>2012:</strong> AlexNet thắng ImageNet bằng deep learning + GPU. AI bắt đầu hoạt động thật</li>
+                <li><strong>2017:</strong> Google ra paper "Attention Is All You Need" — Transformer architecture. Foundation cho GPT/BERT/Claude</li>
+                <li><strong>2020:</strong> GPT-3 ra đời, 175B params. Đầu tiên AI viết text như người</li>
+                <li><strong>2022 (Nov):</strong> ChatGPT public. 100M users trong 2 tháng — fastest adoption trong lịch sử tech</li>
+                <li><strong>2023:</strong> Stable Diffusion + DALL-E + Midjourney → AI image generation phổ biến</li>
+                <li><strong>2024:</strong> Sora, Veo, Kling → AI video generation production-ready</li>
+                <li><strong>2025-2026:</strong> Multimodal models, agentic AI, AI agents tự execute tasks. Production house tích hợp AI thật</li>
+            </ul>
+            <h4>Tại sao bây giờ chứ không phải sớm hơn?</h4>
+            <ul>
+                <li><strong>Compute:</strong> GPU đủ rẻ + đủ mạnh. Train model lớn cần $10M+ infrastructure</li>
+                <li><strong>Data:</strong> Internet có đủ data text/image/video để train (hậu quả: copyright issue)</li>
+                <li><strong>Algorithm:</strong> Transformer 2017 + diffusion 2020 mở khả năng mới</li>
+                <li><strong>Capital:</strong> $100B+ đổ vào AI infra 2023-2026 — cuộc đua giữa US/China/EU</li>
+            </ul>
+            <div class="biz-analogy">Cũng như internet: 1995 mọi người nói "viễn tưởng", 2005 mọi business phải có website, 2015 không có app là chết. AI đang ở giai đoạn 2005 của internet — bắt buộc có, chưa bắt buộc giỏi. 2-3 năm nữa sẽ là 2015.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-history')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: AI Limitations -->
+    <div class="card" data-id="ai-limitations" data-persona="producer,creative,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Limitations — Cái AI KHÔNG làm được (yet)</div>
+                <div class="card-subtitle">Quan trọng để không kỳ vọng quá → thất vọng</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <h4>1. Hallucination (bịa nhưng tự tin)</h4>
+            <p>LLM dự đoán token tiếp theo dựa trên xác suất, không "hiểu". Khi không biết → bịa. Citation, số liệu, link, fact đều có thể fake. Luôn verify khi quan trọng.</p>
+            <h4>2. Reasoning vs Pattern Matching</h4>
+            <p>AI giỏi pattern matching, kém logical reasoning sâu. Toán phức tạp, multi-step planning, edge case → fail. "Thinking modes" cải thiện nhưng chưa giải quyết hoàn toàn.</p>
+            <h4>3. True Understanding</h4>
+            <p>AI không "hiểu" thế giới. Không biết "tại sao" — chỉ biết "khả năng cao là". Nên không có judgment thật, không có common sense thật.</p>
+            <h4>4. Embodied Tasks</h4>
+            <p>AI không có body, không tương tác vật lý. Robotics + AI mới làm được, nhưng chậm hơn nhiều so với generative AI.</p>
+            <h4>5. Long-term Memory</h4>
+            <p>Mỗi conversation reset (trừ khi có RAG/memory layer). AI không "nhớ" từ session trước. Phải thiết kế memory system bên ngoài.</p>
+            <h4>6. Real-time Information</h4>
+            <p>Model có cutoff date training. Sau đó AI không biết. Cần web search tool để cập nhật.</p>
+            <h4>Trong production specifically</h4>
+            <ul>
+                <li><strong>Hand/finger artifacts:</strong> Đã giảm nhiều nhưng chưa zero</li>
+                <li><strong>Text rendering:</strong> GPT Image 2 + NB Pro tốt, nhưng vẫn fail edge case</li>
+                <li><strong>Long video coherence:</strong> 5-15s OK, 30s+ vẫn drift</li>
+                <li><strong>Specific brand product:</strong> AI không biết logo/packaging cụ thể trừ khi train/finetune</li>
+                <li><strong>Cultural specifics:</strong> Bias về data train (US/Europe heavy, Asian features đôi khi sai)</li>
+            </ul>
+            <div class="biz-analogy">AI là "intern xuất sắc nhưng cẩu thả" — làm nhanh, rộng, nhưng không reliable cho high-stakes nếu không có QC. Đừng giao việc final decision cho AI. Giao execute, người judge.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-limitations')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 2: AI PRODUCTION -->
@@ -1284,7 +1480,7 @@
             <button class="check-btn" onclick="markLearned(this, 'prompt-eng')">✓ Đã hiểu</button>
         </div>
     </div>
-    <div class="card" data-id="brand-ai-policy" data-persona="manager,producer">
+    <div class="card" data-id="brand-ai-policy" data-persona="producer,manager">
         <div class="card-header">
             <div>
                 <div class="card-title">Tại sao một số Brand chưa cho dùng AI?</div>
@@ -1341,6 +1537,283 @@
             <button class="check-btn" onclick="markLearned(this, 'brand-ai-policy')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: AI Production Pipeline conceptual -->
+    <div class="card" data-id="ai-pipeline-conceptual" data-persona="producer,creative,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Production Pipeline — End-to-end conceptual</div>
+                <div class="card-subtitle">6 bước tích hợp AI vào production workflow chuẩn</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>6 bước pipeline</h4>
+            <ul>
+                <li><strong>1. Brief & Concept:</strong> Nhận brief client → AI hỗ trợ research reference, mood board, concept variations. Output: treatment + visual direction</li>
+                <li><strong>2. Pre-production / Pre-vis:</strong> Storyboard với AI image gen. Test camera angles, blocking với 3D pre-vis. Lock keyframes</li>
+                <li><strong>3. Asset Setup:</strong> Train character (Soul ID hoặc tương đương). Gen master frames. Build reference library cho consistency</li>
+                <li><strong>4. Generation:</strong> AI gen video theo storyboard. Multiple iterations, multiple models (so sánh output). Routing model theo từng scene type</li>
+                <li><strong>5. QC & Selection:</strong> Human review — check artifact, drift, brand safety, legal. Chọn best take. Đây là layer KHÔNG bỏ được</li>
+                <li><strong>6. Post & Deliver:</strong> Edit, color, sound design, VFX hybrid. Master file + multi-format. Disclosure label nếu cần</li>
+            </ul>
+            <h4>Đặc điểm khác traditional pipeline</h4>
+            <ul>
+                <li><strong>Iteration faster:</strong> 5-10 phiên bản trong 1 ngày thay vì 1 tuần</li>
+                <li><strong>Front-loaded:</strong> Nhiều effort vào pre-vis & asset setup. Gen tự nhanh sau đó</li>
+                <li><strong>QC heavier:</strong> AI output không reliable 100% → QC time tăng, không giảm</li>
+                <li><strong>Hybrid layer:</strong> AI gen + traditional shoot ghép thường = best result</li>
+            </ul>
+            <h4>Common mistakes</h4>
+            <ul>
+                <li>Skip pre-vis → gen blind → tốn credit retry vô tận</li>
+                <li>Skip QC → release artifact → brand crisis</li>
+                <li>Lock 1 model → không có backup khi model fail scene</li>
+                <li>Promise client timeline traditional → realize AI iteration cần buffer</li>
+            </ul>
+            <div class="biz-analogy">Pipeline AI không phải "shorter pipeline" — là "different pipeline". Step nào cũng vẫn có, chỉ tỉ lệ effort khác. Producer giỏi là biết invest đúng step.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-pipeline-conceptual')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Working with Client on AI -->
+    <div class="card" data-id="ai-client-workflow" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Working with Client trên AI workflow</div>
+                <div class="card-subtitle">Brief, review, approval, expectation setting</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Brief stage</h4>
+            <ul>
+                <li>Hỏi rõ về AI policy của brand: cho dùng không, scope nào</li>
+                <li>Set expectation về tỉ lệ retry — AI = probabilistic, không 100% perfect lần đầu</li>
+                <li>Thống nhất "AI label" — sẽ disclose hay không, ai chịu trách nhiệm</li>
+                <li>Define scope rõ: full AI hay hybrid, scenes nào AI scenes nào quay</li>
+            </ul>
+            <h4>Review stage</h4>
+            <ul>
+                <li>Show 3-5 options thay vì 1 — AI gen variations rẻ, dùng làm điểm thuận lợi</li>
+                <li>Round 1 = direction lock (chọn approach), Round 2-3 = refinement</li>
+                <li>Demo limitations sớm — "AI không gen được X scene này, đề xuất hybrid"</li>
+                <li>Real-time iteration trong meeting = competitive advantage (rare PH làm được)</li>
+            </ul>
+            <h4>Approval stage</h4>
+            <ul>
+                <li>Sign-off cuối cùng PHẢI có legal review nếu có likeness/IP risk</li>
+                <li>Client cần ký AI Likeness Agreement nếu gen real person</li>
+                <li>Handoff disclosure label theo law (134/2025 VN, EU AI Act)</li>
+                <li>Lưu source files (prompt, ref images, gen settings) — audit trail nếu kiện sau này</li>
+            </ul>
+            <h4>Pricing model</h4>
+            <ul>
+                <li><strong>Fixed price:</strong> Risky cho PH — retry cost không control được. Chỉ dùng cho scope chuẩn</li>
+                <li><strong>Hour-based:</strong> Khó với client — "AI nhanh hơn sao bill nhiều giờ?"</li>
+                <li><strong>Hybrid:</strong> Fixed cho scope cố định + variable cho iteration extra. Common pattern</li>
+                <li><strong>Value-based:</strong> Price theo output value chứ không hours. Khó nhưng đúng nhất với AI era</li>
+            </ul>
+            <div class="biz-analogy">Client thông minh không trả ít vì "AI nhanh" — họ trả nhiều vì "PH này biết dùng AI để deliver tốt hơn". Pricing là phản ánh giá trị, không phải input cost.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-client-workflow')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Higgsfield Platform Tour -->
+    <div class="card" data-id="higgsfield-tour" data-persona="producer,creative">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Higgsfield Platform Tour — 30+ models, 1 subscription</div>
+                <div class="card-subtitle">Tour qua các features public của Higgsfield (cinematic, marketing, agentic)</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Models aggregator</h4>
+            <p>Higgsfield tích hợp 30+ AI models dưới 1 subscription: Kling 3.0, Seedance 2.0, Veo 3.1, Sora 2, Wan 2.7, Hailuo, Cinema Studio 3.5, Soul, Nano Banana Pro/2, GPT Image 2, FLUX, Seedream...</p>
+            <h4>Production tools</h4>
+            <ul>
+                <li><strong>Cinema Studio 3.5:</strong> Optical physics camera simulation. Virtual cameras (ARRI, RED, Sony), lens (Anamorphic, 16mm), multi-axis motion stack 3 movements, genre logic</li>
+                <li><strong>Soul ID 2.0:</strong> Character consistency — train từ 3-5 photos, stable qua 15+ clips</li>
+                <li><strong>Canvas:</strong> Node-based workflow (Figma-style). Chain prompts → models → outputs. Team collab real-time</li>
+                <li><strong>Marketing Studio:</strong> URL → ad video. 10+ modes (UGC, TV Spot, Tutorial, Product Review, Unboxing). 100+ avatars</li>
+                <li><strong>Lipsync Studio:</strong> Talking avatars, voice clone (ElevenLabs), multilingual</li>
+                <li><strong>Recast:</strong> Video character swap (full persona, not just face)</li>
+                <li><strong>Apps Library:</strong> 40+ apps — Angles, Shots, Skin Enhancer, Relight, Face Swap, Click-to-Ad...</li>
+            </ul>
+            <h4>Agentic integrations</h4>
+            <ul>
+                <li><strong>CLI + Skills:</strong> Command-line + agent skills. Gen từ OpenClaw, Cursor, Codex và các agents khác</li>
+                <li><strong>MCP:</strong> Model Context Protocol — connect Higgsfield vào AI agents bằng 1 URL</li>
+                <li><strong>Higgsfield Assist:</strong> GPT-5 prompt copilot — flag issues trước khi burn credits</li>
+            </ul>
+            <h4>Pricing reality (April 2026)</h4>
+            <ul>
+                <li>Free: 10 credits/day</li>
+                <li>Starter: $15/mo annual, 200 credits</li>
+                <li>Plus: $39/mo annual, 1000 credits → ~33-56 usable Kling clips after iteration</li>
+                <li>Ultra: $99/mo annual, 3000-9000 credits</li>
+                <li>"365-day unlimited" mostly cho image models, video unlimited chỉ Soul V2 (lowest quality)</li>
+            </ul>
+            <div class="biz-analogy">Đây là "all-in-one" platform — đổi lại là dependency. Pro: 1 bill, 30+ models, integration tốt. Con: lock-in, pricing có thể thay đổi. Decision: Higgsfield làm primary + giữ direct access các model quan trọng (Kling, Veo) làm backup.</div>
+            <button class="check-btn" onclick="markLearned(this, 'higgsfield-tour')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Legal Compliance -->
+    <div class="card" data-id="ai-legal-compliance" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Legal Compliance — VN AI Law 134/2025 & EU AI Act</div>
+                <div class="card-subtitle">Khung pháp lý production house cần comply</div>
+            </div>
+            <span class="card-tag tag-production">Production</span>
+        </div>
+        <div class="card-body">
+            <h4>Luật AI Việt Nam 134/2025/QH15</h4>
+            <ul>
+                <li><strong>Hiệu lực:</strong> 01/03/2026</li>
+                <li><strong>Phân loại rủi ro:</strong> 4 mức (cấm / cao / trung / thấp). AI commercial production thường mức trung-cao</li>
+                <li><strong>Gắn nhãn:</strong> Nội dung AI generated phải có nhãn rõ ràng cho người dùng</li>
+                <li><strong>Deepfake:</strong> Cấm tạo deepfake không có sự đồng ý. Vi phạm = hình sự</li>
+                <li><strong>Dữ liệu sinh trắc học:</strong> Khuôn mặt, giọng nói cần consent rõ ràng</li>
+                <li><strong>AI trong y tế/giáo dục:</strong> Mức rủi ro cao, quy định chặt</li>
+            </ul>
+            <h4>EU AI Act (relevance cho brand global)</h4>
+            <ul>
+                <li><strong>Hiệu lực:</strong> Phased từ 2024-2027. Disclosure label bắt buộc T8/2026</li>
+                <li><strong>Risk-based approach:</strong> Tương tự VN 4 mức rủi ro</li>
+                <li><strong>Transparency:</strong> Phải tuyên bố nội dung AI generated</li>
+                <li><strong>Penalty:</strong> Up to 7% global revenue cho vi phạm nghiêm trọng</li>
+            </ul>
+            <h4>Practical checklist cho Production House</h4>
+            <ul>
+                <li>✓ Tạo AI Likeness Agreement template — talent/người ký trước khi gen</li>
+                <li>✓ DPIA (Data Protection Impact Assessment) cho dự án AI có likeness</li>
+                <li>✓ Lưu audit trail: prompt, ref, gen settings, model version</li>
+                <li>✓ Disclosure label rõ ràng theo brand style guide</li>
+                <li>✓ Legal review trước public release với scope AI-heavy</li>
+                <li>✓ Vendor compliance check — Higgsfield/Kling có comply EU AI Act?</li>
+            </ul>
+            <div class="biz-analogy">Compliance không phải "tốn tiền" — compliance là "competitive moat". Production house comply tốt sẽ được brand global tin chọn. PH ẩu sẽ bị loại khỏi pitch list. Đầu tư legal layer sớm.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-legal-compliance')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Creative-focused cards -->
+    <div class="card" data-id="visual-taste-curation" data-persona="producer,creative">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Visual Taste & Curation — Skill quan trọng nhất post-AI</div>
+                <div class="card-subtitle">Khi AI gen 100 options, judgment chọn 1 mới là giá trị</div>
+            </div>
+            <span class="card-tag tag-production">Creative</span>
+        </div>
+        <div class="card-body">
+            <h4>Tại sao Curation = Skill mới quan trọng nhất</h4>
+            <p>Trước AI: Designer execute từng pixel. Skill = "làm được". Sau AI: AI execute, designer chọn. Skill = "biết cái nào đẹp". Curation thay thế execution như là core competency.</p>
+            <h4>Curation framework — How to evaluate AI output</h4>
+            <ul>
+                <li><strong>Brand fit:</strong> Output có đúng tone-of-voice brand? Mood, color palette, attitude</li>
+                <li><strong>Composition:</strong> Rule of thirds, leading lines, focal point — fundamentals photography vẫn matter</li>
+                <li><strong>Detail integrity:</strong> Hands, eyes, text, edges — common AI artifact zones</li>
+                <li><strong>Emotional resonance:</strong> Output có "chạm" không, hay chỉ technically correct?</li>
+                <li><strong>Originality:</strong> Output có "AI generic look" không? Có style identity riêng không?</li>
+                <li><strong>Cultural specificity:</strong> Đối tượng VN có thấy reflect không? AI default Western — cần fine-tune</li>
+            </ul>
+            <h4>Build Visual Taste — Cách rèn</h4>
+            <ul>
+                <li><strong>Reference library:</strong> Save 1000+ references đẹp theo category. Brain pattern-match khi review AI output</li>
+                <li><strong>Annotate why:</strong> Mỗi reference, ghi 1-2 dòng "tại sao đẹp". Force articulate taste</li>
+                <li><strong>Compare side-by-side:</strong> AI output vs 5 references. Train eye nhanh nhất</li>
+                <li><strong>Critique daily:</strong> Mỗi ngày review 10 outputs từ social, magazine, ads. Note patterns</li>
+                <li><strong>Get critiqued:</strong> Senior designer review work bạn — nhận signal blind spots</li>
+            </ul>
+            <h4>Anti-pattern: "Pick the prettiest"</h4>
+            <p>Designer junior thường pick output đẹp nhất. Senior pick output FIT NHẤT với brief — có thể không phải đẹp nhất. Curation = serve story, không serve aesthetic ego.</p>
+            <div class="biz-analogy">Trước: 1 designer làm 5 options trong 1 tuần. Giờ: AI gen 100 options trong 1 giờ. Bottleneck dịch chuyển từ EXECUTE → JUDGMENT. Tài năng mới của designer là speed-to-decide-which-one. Người chậm chọn sẽ chậm deliver dù AI nhanh.</div>
+            <button class="check-btn" onclick="markLearned(this, 'visual-taste-curation')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-moodboarding" data-persona="producer,creative">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Moodboarding — Ý tưởng đến treatment 10x nhanh</div>
+                <div class="card-subtitle">Workflow concept → mood → reference với AI</div>
+            </div>
+            <span class="card-tag tag-production">Creative</span>
+        </div>
+        <div class="card-body">
+            <h4>Traditional moodboard workflow</h4>
+            <ul>
+                <li>Brainstorm concept (1-2 ngày)</li>
+                <li>Search Pinterest, Behance, magazine archives (2-3 ngày)</li>
+                <li>Crop + assemble vào board (1 ngày)</li>
+                <li>Total: ~1 tuần cho 1 round mood</li>
+            </ul>
+            <h4>AI-augmented workflow</h4>
+            <ul>
+                <li><strong>Step 1 — Ideation:</strong> ChatGPT/Claude brainstorm 20 concept directions từ brief. 10 phút</li>
+                <li><strong>Step 2 — Visual exploration:</strong> AI image gen (Nano Banana Pro, GPT Image 2, Soul) gen 50 mood frames cho top 3 directions. 30 phút</li>
+                <li><strong>Step 3 — Curate:</strong> Chọn 8-12 best per direction. 30 phút</li>
+                <li><strong>Step 4 — Refine:</strong> Iterate prompt theo feedback. 1 giờ</li>
+                <li><strong>Step 5 — Assemble:</strong> Layout vào treatment deck. 30 phút</li>
+                <li>Total: ~3 giờ vs 1 tuần</li>
+            </ul>
+            <h4>Best practices</h4>
+            <ul>
+                <li><strong>Mix AI + real refs:</strong> AI mood KHÔNG thay reference thật. Best moodboard = 50% AI mood (concept) + 50% real refs (anchor reality)</li>
+                <li><strong>Tone consistency:</strong> Train Soul ID hoặc style reference để AI gen cùng aesthetic xuyên suốt board</li>
+                <li><strong>Annotate intent:</strong> Mỗi frame moodboard, ghi WHY chọn — director cần hiểu logic, không chỉ pretty pictures</li>
+                <li><strong>Avoid "AI generic":</strong> Default AI output có "AI feel". Mix với real references kéo về thực tế</li>
+            </ul>
+            <h4>Cảnh báo</h4>
+            <ul>
+                <li>Đừng dùng AI moodboard làm visual reference cho gen video sau — bias compounds</li>
+                <li>Client savvy nhận ra AI mood. Disclose nếu cần</li>
+                <li>Mood AI gen ≠ what AI có thể gen final. Test feasibility sớm</li>
+            </ul>
+            <div class="biz-analogy">Moodboard truyền thống = thợ săn (đi tìm references). AI moodboard = thợ gốm (tự tạo). Cả 2 đều cần skill — nhưng skill khác nhau. Designer giỏi 2026 dùng cả 2.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-moodboarding')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="prompt-cookbook-conceptual" data-persona="producer,creative">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Prompt Cookbook — 8 patterns universal</div>
+                <div class="card-subtitle">Patterns chung cho mọi AI image/video model</div>
+            </div>
+            <span class="card-tag tag-production">Creative</span>
+        </div>
+        <div class="card-body">
+            <h4>1. Subject + Action + Environment + Style (S.A.E.S.)</h4>
+            <p>Pattern foundation. "A young woman (S) walks through (A) a misty forest (E), shot on Kodak Portra 400 film (Style)."</p>
+            <h4>2. Camera Specification First</h4>
+            <p>Bắt đầu prompt với camera move giúp AI prioritize. "Slow push-in, eye-level. A figure stands in..." — camera move thường bị skip nếu không front-load.</p>
+            <h4>3. Anchor + Action</h4>
+            <p>Mô tả KHÔNG đổi (anchor) trước, hành động sau. "The phone stays fixed in her hand. Around her, the bedroom morphs into a Samsung store." Anchor giúp consistency.</p>
+            <h4>4. Negative Through Description (NOT negative words)</h4>
+            <p>Thay "no morphing" bằng "she stands perfectly still, frozen in place" — positive framing work tốt hơn negation cho hầu hết models.</p>
+            <h4>5. Show the Emotion, Don't Name It</h4>
+            <p>Thay "she's happy" bằng "her eyes crinkle at the corners, slight upward curl at lip edges" — AI render emotion qua physical detail, không qua label.</p>
+            <h4>6. Light Direction = Mood</h4>
+            <p>Lighting prompt control mood mạnh hơn color words. "Golden hour rim light from camera-right" cho warmth. "Single overhead spotlight" cho drama.</p>
+            <h4>7. Reference Style by Period, Not Brand</h4>
+            <p>"1970s editorial fashion photography" beats "Vogue style". Brand names có thể trigger copyright filter hoặc không hit consistent.</p>
+            <h4>8. Constraint = Coherence</h4>
+            <p>Càng nhiều constraints rõ ràng (1 character, 1 location, 1 time of day) → AI càng coherent. Open-ended prompt → output drift.</p>
+            <h4>Format universal</h4>
+            <pre style="background: rgba(255,255,255,0.04); padding: 12px; border-radius: 6px; font-size: 12px; white-space: pre-wrap;">[Camera] [Subject + appearance] performs [action] in [environment]. 
+[Lighting]. [Mood/style]. 
+[Constraints: anchors, what stays, what changes]
+[Format: aspect ratio, duration, resolution]</pre>
+            <div class="biz-analogy">Prompt = brief cho AI director. Brief mơ hồ → output mơ hồ. Brief rõ ràng + có constraint → output trúng. Skill prompt = skill viết brief — translatable từ traditional production.</div>
+            <button class="check-btn" onclick="markLearned(this, 'prompt-cookbook-conceptual')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 3: AGENTIC AI -->
@@ -1365,7 +1838,7 @@
             <h4>Ví dụ cụ thể</h4>
             <ul>
                 <li><strong>ChatGPT (chatbot)</strong>: "Viết prompt cho Kling" → viết prompt → xong.</li>
-                <li><strong>Claw (agent)</strong>: "Gen character sheet Film 4" → upload ref → gen 7 tấm → poll status → download → QC → report. Tự chạy chuỗi actions.</li>
+                <li><strong>Coding agent (e.g. OpenClaw, Cursor)</strong>: "Gen character sheet" → upload ref → gen 7 tấm → poll status → download → QC → report. Tự chạy chuỗi actions.</li>
             </ul>
             <div class="analogy">Chatbot = assistant ngồi chờ bạn nói. Agent = producer assistant bạn giao brief rồi đi meeting, quay lại đã có deliverables.</div>
             <h4>Thành phần của Agent</h4>
@@ -1395,7 +1868,7 @@
             <h4>Cách hoạt động</h4>
             <ul>
                 <li><strong>MCP Server</strong> — Service cung cấp tools (Higgsfield expose generate_image, generate_video, etc.)</li>
-                <li><strong>MCP Client</strong> — AI agent gọi tools đó (Claw gọi Higgsfield qua MCP)</li>
+                <li><strong>MCP Client</strong> — AI agent gọi tools đó (ví dụ: OpenClaw gọi Higgsfield qua MCP)</li>
                 <li><strong>Protocol</strong> — JSON-RPC 2.0 (format tin nhắn chuẩn giữa client↔server)</li>
             </ul>
             <h4>Tại sao quan trọng</h4>
@@ -1409,32 +1882,39 @@
         </div>
     </div>
 
-    <div class="card" data-id="coding-agents" data-persona="curious,manager">
+    <div class="card" data-id="coding-agents" data-persona="manager,curious">
         <div class="card-header">
             <div>
-                <div class="card-title">Coding Agents — Cursor, OpenClaw, Codex</div>
-                <div class="card-subtitle">AI tự viết code, tự debug, tự ship — developer-in-a-box</div>
+                <div class="card-title">Coding Agents — Landscape 2026</div>
+                <div class="card-subtitle">AI tự viết code, plan, test, ship — bản đồ tools 2026</div>
             </div>
             <span class="card-tag tag-agentic">Agentic</span>
         </div>
         <div class="card-body">
             <h4>Coding Agent là gì</h4>
             <p>AI agent chuyên viết/sửa code. Không chỉ "gợi ý" (autocomplete) mà tự: đọc codebase → hiểu → plan → viết → test → fix bugs → commit.</p>
-            <h4>Các tools phổ biến</h4>
+            <h4>IDE-based agents</h4>
             <ul>
-                <li><strong>Cursor</strong> — IDE (editor giống VS Code) + AI agent tích hợp. Bạn mô tả feature → nó code + tạo files + sửa bugs. Phổ biến nhất hiện tại cho developers.</li>
-                <li><strong>OpenClaw (Claw)</strong> — CLI agent chạy terminal. Có tools: đọc/viết file, chạy shell, browser, messaging. Versatile hơn — không chỉ code mà quản lý cả workflow.</li>
-                <li><strong>Codex (OpenAI)</strong> — Cloud-based coding agent. Chạy tasks trên cloud, trả kết quả. Mới ra.</li>
-                <li><strong>Devin</strong> — "AI software engineer" — tự clone repo, viết code, tạo PR. Đắt, controversial.</li>
+                <li><strong>Cursor / AnySphere</strong> ($29.3B valuation 2026) — IDE giống VS Code + AI agent tích hợp. Phổ biến nhất cho developers</li>
+                <li><strong>Google Antigravity</strong> — Google ra T11/2025 cùng Gemini 3. AI-first IDE với deep integration AgentKit 2.0. Free trong public preview, multi-platform (Linux T1/2026)</li>
+                <li><strong>GitHub Copilot Workspace</strong> — Microsoft, end-to-end agent từ issue → PR</li>
+                <li><strong>Cline, Aider</strong> — Open-source CLI/IDE agents, popular cho power users</li>
             </ul>
-            <div class="analogy">Trước: EP thuê developer build tool → 2 tuần + $5K. Giờ: mô tả cho coding agent → build trong 1-2 giờ. EP có thể tự build internal tools mà không cần biết code.</div>
-            <h4>Tại sao EP nên biết</h4>
+            <h4>CLI / Terminal agents</h4>
             <ul>
-                <li>Build internal tools nhanh (custom prompt generators, QC checkers)</li>
-                <li>Không cần hire developer cho prototype/MVP</li>
-                <li>Biết capability → brief đúng khi giao cho tech team</li>
+                <li><strong>OpenClaw (Claw)</strong> — CLI agent. Tools: file, shell, browser, messaging. Versatile — không chỉ code mà quản lý cả workflow + integrate được vào Higgsfield CLI, automation pipeline</li>
+                <li><strong>Anthropic OpenClaw</strong> — Official CLI từ Anthropic, terminal-based</li>
+                <li><strong>OpenAI Codex CLI</strong> — Cloud-based coding agent từ OpenAI</li>
+                <li><strong>Aider</strong> — Open-source, git-integrated</li>
             </ul>
-            <div class="real-example">Coding agent có thể build internal tools (prompt generators, QC checkers, training decks) trong vài giờ thay vì thuê dev vài tuần.</div>
+            <h4>Autonomous agents (full-stack)</h4>
+            <ul>
+                <li><strong>Devin / Cognition</strong> ($10.2B valuation) — "AI software engineer" tự clone repo, viết code, tạo PR. Async cloud workflow</li>
+                <li><strong>Manus</strong> ($2B acq Meta đầu 2026) — General-purpose agent, không chỉ code</li>
+            </ul>
+            <h4>Reality check</h4>
+            <p>88% enterprise AI agent projects KHÔNG reach production (TURION.AI 2026 data). Common failures: brittle với edge case, drift trong long task, debug khó hơn human code. Ở 2026: best practice = AI agent + human oversight, không full-autonomy.</p>
+            <div class="biz-analogy">Trước: EP thuê dev build tool → 2 tuần + $5K. Giờ: mô tả cho coding agent → build trong 1-2 giờ MVP. Nhưng production-grade vẫn cần human dev. Coding agent = leverage cho người biết, không thay thế người biết.</div>
             <button class="check-btn" onclick="markLearned(this, 'coding-agents')">✓ Đã hiểu</button>
         </div>
     </div>
@@ -1474,24 +1954,24 @@
         <div class="card-body">
             <h4>Patterns</h4>
             <ul>
-                <li><strong>Single Agent</strong> — 1 agent + nhiều tools. Đơn giản, dễ debug. (Claw = single agent dùng nhiều tools)</li>
+                <li><strong>Single Agent</strong> — 1 agent + nhiều tools. Đơn giản, dễ debug.</li>
                 <li><strong>Multi-Agent</strong> — Nhiều agents chuyên biệt, 1 "orchestrator" phân công. Phức tạp, mạnh hơn cho tasks lớn.</li>
-                <li><strong>Human-in-the-loop</strong> — Agent chạy nhưng cần human approve ở bước quan trọng. (Claw hỏi Nam duyệt trước khi gen paid credits)</li>
+                <li><strong>Human-in-the-loop</strong> — Agent chạy nhưng cần human approve ở bước quan trọng (ví dụ: confirm trước khi gen paid credits hoặc gửi external message).</li>
                 <li><strong>Autonomous</strong> — Agent chạy tự do không cần approve. Nguy hiểm hơn nhưng nhanh hơn.</li>
             </ul>
             <div class="analogy">Single agent = 1 producer senior handle all. Multi-agent = EP + Line Producer + Post Sup + Production Manager — mỗi người 1 domain, EP orchestrate.</div>
-            <h4>Ví dụ Multi-Agent trong production</h4>
+            <h4>Ví dụ Multi-Agent trong production pipeline</h4>
             <ul>
-                <li>Agent 1 (Claw/Main): Plan + brief + QC</li>
-                <li>Agent 2 (GenWorker): Chạy gen image/video + poll results</li>
-                <li>Agent 3 (Seegroup Bot): Handle external queries + team comms</li>
+                <li>Main agent: Plan + brief + QC</li>
+                <li>Gen agent: Chạy gen image/video + poll results</li>
+                <li>Comms agent: Handle external queries + team messaging</li>
                 <li>Orchestrator: Main session phân công task cho sub-agents</li>
             </ul>
             <button class="check-btn" onclick="markLearned(this, 'agentic-workflow')">✓ Đã hiểu</button>
         </div>
     </div>
 
-    <div class="card" data-id="rag" data-persona="curious,manager">
+    <div class="card" data-id="rag" data-persona="manager,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">RAG — Retrieval-Augmented Generation</div>
@@ -1509,14 +1989,178 @@
             <div class="analogy">Fine-tune = gửi DP đi học workshop 1 tháng. RAG = đưa DP cuốn sách reference trước mỗi buổi quay — DP đọc nhanh rồi apply. Không cần học thuộc, chỉ cần đọc đúng lúc.</div>
             <h4>Áp dụng thực tế</h4>
             <ul>
-                <li>Claw đọc MEMORY.md + memory/*.md trước khi trả lời = dạng RAG (retrieval from files)</li>
-                <li>Seegroup Bot đọc skills + research = RAG</li>
+                <li>AI assistant đọc memory/notes files trước khi trả lời = dạng RAG (retrieval from files)</li>
+                <li>Internal bot đọc skills + knowledge base = RAG</li>
                 <li>Chatbot có "upload documents" rồi hỏi đáp = RAG</li>
             </ul>
             <div class="real-example">AI assistant đọc project files mỗi session → biết context dự án, quy tắc, bài học. Không train lại model — chỉ đọc tài liệu. Đó là RAG.</div>
             <button class="check-btn" onclick="markLearned(this, 'rag')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: Computer-Use Agents -->
+    <div class="card" data-id="computer-use" data-persona="producer,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Computer-Use AI / Hands-on AI</div>
+                <div class="card-subtitle">AI tự click, type, navigate — không chỉ trả lời text</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Khái niệm</h4>
+            <p>Computer-Use AI = AI nhìn màn hình + tự điều khiển chuột/bàn phím như con người. Không cần API — AI dùng phần mềm như user thật.</p>
+            <h4>Players chính 2026</h4>
+            <ul>
+                <li><strong>Anthropic Computer Use</strong> — Claude xem screenshot, di chuyển chuột, gõ phím</li>
+                <li><strong>OpenAI Operator</strong> — Web-based agent tự book vé, mua hàng, fill form</li>
+                <li><strong>Manus</strong> — General-purpose agent, acquired by Meta $2B đầu 2026</li>
+                <li><strong>Google AgentKit / Gemini Computer Use</strong></li>
+            </ul>
+            <h4>Use cases thực tế</h4>
+            <ul>
+                <li>Tự book vé máy bay, đặt khách sạn cho travel plan</li>
+                <li>Fill form repetitive (đăng ký, báo cáo)</li>
+                <li>Browse + extract data từ website không có API</li>
+                <li>Operate phần mềm chuyên ngành (Excel, design tools, QA testing)</li>
+                <li>Cho production: tự download materials, organize files, submit gen jobs</li>
+            </ul>
+            <h4>Giới hạn hiện tại</h4>
+            <ul>
+                <li>Chậm hơn API 5-10x (vì phải xử lý screenshot)</li>
+                <li>Brittle — UI thay đổi nhỏ là agent fail</li>
+                <li>Security risk — agent có quyền click → cần sandbox cẩn thận</li>
+                <li>Không reliable cho high-stakes (financial, medical)</li>
+            </ul>
+            <div class="biz-analogy">Đây là "intern AI" thật sự — biết dùng máy tính như người mới. 2025 là proof of concept. 2026-2027 sẽ enterprise-ready cho specific tasks. Đáng theo dõi nhưng chưa nên bet workflow lớn.</div>
+            <button class="check-btn" onclick="markLearned(this, 'computer-use')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Enterprise Agent Landscape -->
+    <div class="card" data-id="enterprise-agents" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Enterprise AI Agent Landscape 2026</div>
+                <div class="card-subtitle">Map các player + ai mạnh ở đâu</div>
+            </div>
+            <span class="card-tag tag-business">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Foundation Layer (model providers)</h4>
+            <ul>
+                <li><strong>OpenAI</strong> ($300B valuation) — GPT-5, ChatGPT, strongest consumer brand + reasoning</li>
+                <li><strong>Anthropic</strong> — Claude, mạnh enterprise + safety positioning, fastest-growing enterprise revenue</li>
+                <li><strong>Google DeepMind</strong> — Gemini, full-stack với Cloud + Workspace + Antigravity</li>
+                <li><strong>Meta</strong> — Llama (open-weight), Manus (acquired)</li>
+            </ul>
+            <h4>Enterprise Platforms (where work happens)</h4>
+            <ul>
+                <li><strong>Microsoft Copilot</strong> — Lead horizontal productivity (Office, Outlook, Teams). Strongest distribution</li>
+                <li><strong>Salesforce Agentforce</strong> — CRM-anchored workflows, sales/service agents</li>
+                <li><strong>Google Agentspace + Workspace Studio</strong> — Cloud data + analytics + Workspace integration</li>
+                <li><strong>OpenAI Agent Builder</strong> — Developer + operator tools</li>
+                <li><strong>Anthropic Agent Skills</strong> — Engineering-focused agentic platform</li>
+            </ul>
+            <h4>Middleware / Coding Layer</h4>
+            <ul>
+                <li><strong>AnySphere/Cursor</strong> ($29.3B) — IDE coding agent</li>
+                <li><strong>Cognition/Devin</strong> ($10.2B) — Autonomous coding</li>
+                <li><strong>Manus</strong> ($2B acq Meta) — General-purpose</li>
+                <li><strong>Google Antigravity</strong> — AI-first IDE</li>
+            </ul>
+            <h4>Vertical Specialists</h4>
+            <ul>
+                <li><strong>Glean</strong> — Enterprise search agents</li>
+                <li><strong>Harvey</strong> — Legal AI</li>
+                <li><strong>Hippocratic AI</strong> — Healthcare</li>
+                <li>Còn nhiều vertical mới ra mỗi tháng (finance, real estate, recruiting...)</li>
+            </ul>
+            <h4>Market size & projection</h4>
+            <p>$199B by 2034 (RAYSolute 2026). Foundation layer hiện absorb lion's share capital, nhưng giá trị dài hạn dồn về application layer + vertical specialists.</p>
+            <div class="biz-analogy">Pattern giống cloud 2010-2020: AWS/Azure/GCP layer foundation, nhưng tiền lớn nhất kiếm được ở SaaS chạy trên đó (Salesforce, Workday, Slack). AI agents 2026-2030 = phase "build picks and shovels". 2030+ = phase "pick winners ở application layer".</div>
+            <button class="check-btn" onclick="markLearned(this, 'enterprise-agents')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Agent Frameworks & A2A -->
+    <div class="card" data-id="agent-frameworks" data-persona="manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Agent Frameworks & A2A Protocol</div>
+                <div class="card-subtitle">LangGraph, CrewAI, AutoGen + Google A2A protocol mới</div>
+            </div>
+            <span class="card-tag tag-agentic">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Frameworks build agent</h4>
+            <ul>
+                <li><strong>LangGraph</strong> (LangChain) — Graph-based, state management mạnh, popular nhất enterprise</li>
+                <li><strong>CrewAI</strong> — Role-based multi-agent (CEO/Engineer/QA mỗi agent role riêng)</li>
+                <li><strong>AutoGen</strong> (Microsoft) — Multi-agent conversation framework</li>
+                <li><strong>OpenAI Swarm</strong> — Lightweight multi-agent từ OpenAI</li>
+                <li><strong>Anthropic OpenClaw SDK</strong> — Anthropic's agent toolkit</li>
+            </ul>
+            <h4>Protocol layer</h4>
+            <ul>
+                <li><strong>MCP (Model Context Protocol)</strong> — Anthropic 2024. AI ↔ external tools chuẩn open</li>
+                <li><strong>A2A (Agent-to-Agent)</strong> — Google 2026 ⭐ NEW. Agents nói chuyện với agents khác</li>
+                <li>Khác biệt: MCP = AI dùng tools. A2A = AI làm việc với AI khác (chuyển task, negotiate, hand-off)</li>
+            </ul>
+            <h4>Khi nào dùng framework</h4>
+            <ul>
+                <li>Single agent simple task → không cần framework, gọi API trực tiếp</li>
+                <li>Multi-step workflow có state → LangGraph</li>
+                <li>Multi-agent với role rõ → CrewAI</li>
+                <li>Agent ↔ Agent giữa systems khác → A2A protocol</li>
+            </ul>
+            <div class="biz-analogy">Frameworks là Lego cho AI agents. Manager không cần build từ Lego, nhưng nên biết Lego nào tồn tại để brief đúng cho dev team / vendor. Hỏi "build trên LangGraph hay CrewAI?" = signal hiểu thị trường.</div>
+            <button class="check-btn" onclick="markLearned(this, 'agent-frameworks')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: 88% Reality Check -->
+    <div class="card" data-id="agent-reality" data-persona="producer,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">The 88% Reality — Tại sao đa số agent projects fail</div>
+                <div class="card-subtitle">System Thinking — balance hype với reality</div>
+            </div>
+            <span class="card-tag tag-business">Agentic</span>
+        </div>
+        <div class="card-body">
+            <h4>Số liệu 2026 (TURION.AI Enterprise Report)</h4>
+            <ul>
+                <li><strong>51%</strong> enterprise đang run AI agents trong production</li>
+                <li><strong>88%</strong> AI agent projects KHÔNG bao giờ reach production</li>
+                <li>Pilot → production gap là biggest barrier</li>
+            </ul>
+            <h4>Lý do agent projects fail</h4>
+            <ul>
+                <li><strong>Brittle với edge case:</strong> Demo đẹp 95% case, production gặp 5% edge → fail catastrophic</li>
+                <li><strong>Drift trong long task:</strong> Multi-step plan → step 3 lỗi → chuỗi sau hỏng hết. Compounding error</li>
+                <li><strong>Debug khó:</strong> Agent fail không log đủ → không biết tại sao. Reproduce khó</li>
+                <li><strong>Cost surprise:</strong> Token cost ở scale lớn vượt budget. POC dùng vài $$, production dùng vài $$$$</li>
+                <li><strong>Security/permissions:</strong> Agent có access nhiều tools → blast radius khi fail rất lớn</li>
+                <li><strong>No clear ROI:</strong> Build vì hype, không vì pain point cụ thể → ROI không justify maintain</li>
+                <li><strong>Hallucination at scale:</strong> 1% hallucination × 1000 tasks/ngày = 10 lỗi/ngày, customer thấy</li>
+            </ul>
+            <h4>Pattern projects thành công</h4>
+            <ul>
+                <li><strong>Narrow scope:</strong> Agent làm 1 task duy nhất, không "do everything"</li>
+                <li><strong>Human-in-the-loop:</strong> Approve gates ở mỗi quyết định quan trọng</li>
+                <li><strong>Observability:</strong> Log mọi action, có dashboard monitor</li>
+                <li><strong>Fallback ready:</strong> Agent fail → human pickup, không break user experience</li>
+                <li><strong>Clear ROI metric:</strong> Đo time saved, errors caught, throughput từ ngày 1</li>
+                <li><strong>Iterate:</strong> Start small, expand scope dần khi confidence build up</li>
+            </ul>
+            <h4>The Trust Cliff</h4>
+            <p>RAYSolute 2026 gọi là "Trust Cliff" — pilot demo wow ai cũng thích, deploy production thì user không trust kết quả → adoption fail dù tech work. Trust phải build qua: transparency, reliability, predictability.</p>
+            <div class="biz-analogy">88% fail rate không phải lý do KHÔNG dùng AI agents — là lý do dùng đúng cách. Học từ 12% thành công: narrow scope, human oversight, observability, clear metric. PH/agency đầu tư AI agents nên expect 6-12 tháng iteration trước khi reliable. Không phải "deploy and done".</div>
+            <button class="check-btn" onclick="markLearned(this, 'agent-reality')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 4: AI OPS & TOOLS -->
@@ -1611,7 +2255,7 @@
         </div>
         <div class="card-body">
             <h4>Gateway</h4>
-            <p>Phần mềm "trung gian" nhận messages từ nhiều nguồn (Telegram, web, Signal) → route đến AI agent → trả kết quả về nguồn. Claw chạy qua OpenClaw gateway.</p>
+            <p>Phần mềm "trung gian" nhận messages từ nhiều nguồn (Telegram, web, Signal) → route đến AI agent → trả kết quả về nguồn. Ví dụ: OpenClaw gateway routing AI agent qua nhiều surfaces.</p>
             <h4>Webhook</h4>
             <p>"Khi xong thì gọi tôi." Thay vì bạn hỏi "xong chưa? xong chưa?" (polling) → đăng ký webhook = server tự gọi khi xong.</p>
             <h4>Cron</h4>
@@ -1672,6 +2316,104 @@
             <button class="check-btn" onclick="markLearned(this, 'version-control')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: Cost Optimization (Manager-focused) -->
+    <div class="card" data-id="ai-cost-optimization" data-persona="producer,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Cost Optimization — Cắt 50-70% AI bill</div>
+                <div class="card-subtitle">Pattern thực tế giảm chi phí AI cho production / agency</div>
+            </div>
+            <span class="card-tag tag-business">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Hiểu cost driver</h4>
+            <ul>
+                <li><strong>Model tier:</strong> Premium model (Sora, Veo, GPT-5) đắt 3-10x model trung. Chỉ dùng khi thật cần</li>
+                <li><strong>Resolution:</strong> 1080p đắt 2x 720p. 4K đắt 4x. Default 720p draft, 1080p final</li>
+                <li><strong>Iteration count:</strong> 1 cú "perfect lần đầu" hiếm. Budget 3-5x retry</li>
+                <li><strong>Token volume (LLM):</strong> Long context, nhiều turns → token đốt nhanh</li>
+            </ul>
+            <h4>7 patterns optimize cost</h4>
+            <ul>
+                <li><strong>1. Tier ladder:</strong> Draft với cheap model → Final với premium. VD: Seedance draft → Kling final = save 50-70% credits</li>
+                <li><strong>2. Resolution staging:</strong> 720p iterate, 1080p chỉ cho final approved cut</li>
+                <li><strong>3. Prompt tested first:</strong> Test prompt trên cheap model trước khi commit premium model</li>
+                <li><strong>4. Batch generation:</strong> Gen 4-8 variations cùng prompt → curate = rẻ hơn iterate 8 lần riêng</li>
+                <li><strong>5. Cache aggressive:</strong> LLM responses giống nhau → cache, đừng call API lại</li>
+                <li><strong>6. Smaller context window:</strong> Cắt unnecessary context. 50K tokens prompt vs 200K → bill 1/4</li>
+                <li><strong>7. Off-peak gen:</strong> Một số platform giảm giá off-peak. Schedule batch jobs đêm</li>
+            </ul>
+            <h4>Vendor strategy</h4>
+            <ul>
+                <li><strong>Multi-vendor:</strong> Đừng all-in 1 platform. Higgsfield + direct Kling/Veo backup khi pricing shift</li>
+                <li><strong>Annual vs monthly:</strong> Annual save 40-60% nếu usage stable. Skip nếu usage uncertain</li>
+                <li><strong>Credits expiry:</strong> Higgsfield credits 90 ngày, monthly không roll over → plan production sprints theo billing date</li>
+                <li><strong>Tier switching:</strong> Plus → Ultra mỗi tháng theo workload. Đừng pay Ultra cho 2 tuần idle</li>
+            </ul>
+            <h4>Budget tracking</h4>
+            <ul>
+                <li>Track credit/token spent per project (excel hoặc tool đơn giản)</li>
+                <li>Calculate cost-per-deliverable: credits / final usable shots</li>
+                <li>Compare across projects: project nào đắt bất thường → debug workflow</li>
+                <li>Set alert khi monthly burn rate > X% budget</li>
+            </ul>
+            <div class="biz-analogy">AI cost giống điện thoại di động 2005 — không tracker → bill shock. Tracker + pattern hiểu rõ → optimize 50-70%. Đầu tư 1 tuần build cost dashboard = save tens of millions VND/năm cho PH dùng AI nhiều.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-cost-optimization')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <!-- NEW: Workflow Automation (Producer-focused) -->
+    <div class="card" data-id="workflow-automation" data-persona="producer,creative,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Workflow Automation — Zapier, n8n, Make cho production team</div>
+                <div class="card-subtitle">Tự động hóa task lặp lại — không cần code</div>
+            </div>
+            <span class="card-tag tag-production">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Tools no-code/low-code phổ biến</h4>
+            <ul>
+                <li><strong>Zapier:</strong> Phổ biến nhất. 6,000+ apps tích hợp. Đắt nhưng dễ dùng</li>
+                <li><strong>n8n:</strong> Open-source, self-host, mạnh mẽ hơn Zapier nhưng technical hơn</li>
+                <li><strong>Make (Integromat):</strong> Visual workflow builder, rẻ hơn Zapier</li>
+                <li><strong>Pipedream:</strong> Developer-friendly, có code step optional</li>
+                <li><strong>Airtable Automations:</strong> Built-in cho Airtable users</li>
+            </ul>
+            <h4>Use cases cho Production Team</h4>
+            <ul>
+                <li><strong>Project intake:</strong> Form client → tự create Notion page + Slack notify + Calendar event</li>
+                <li><strong>Asset delivery:</strong> Upload to Drive → tự rename theo convention + notify client + log Airtable</li>
+                <li><strong>Approval routing:</strong> Edit version uploaded → tự gửi link Frame.io review → Slack reminder sau 24h</li>
+                <li><strong>Invoice tracking:</strong> Project complete → tự tạo invoice draft + reminder client + log accounting</li>
+                <li><strong>AI gen pipeline:</strong> Brief approved → tự gen prompts via API → submit Higgsfield → notify when done</li>
+                <li><strong>Social posting:</strong> Final delivered → tự schedule post Instagram/Facebook + tag client</li>
+            </ul>
+            <h4>AI integrated automations</h4>
+            <ul>
+                <li><strong>Email summarize:</strong> Inbox → AI summarize daily digest</li>
+                <li><strong>Meeting notes:</strong> Zoom transcript → AI summary + action items → Slack</li>
+                <li><strong>Brief analysis:</strong> Client brief PDF → AI extract requirements + risks → fill template</li>
+                <li><strong>Asset tagging:</strong> Upload media → AI tag content + auto-organize folder</li>
+            </ul>
+            <h4>ROI math đơn giản</h4>
+            <ul>
+                <li>Producer save 1h/ngày × 22 ngày × $30/h = $660/tháng saved per person</li>
+                <li>Zapier Pro = $50-100/tháng → ROI 6-13x</li>
+                <li>Multi-team adoption: scales nhanh</li>
+            </ul>
+            <h4>Anti-pattern</h4>
+            <ul>
+                <li>Đừng automate process chưa stable — automate cái lộn xộn = lộn xộn nhanh hơn</li>
+                <li>Đừng over-engineer — Zapier 20 steps khó maintain. Giữ < 7 steps mỗi workflow</li>
+                <li>Đừng skip error handling — workflow fail im lặng = data loss</li>
+            </ul>
+            <div class="biz-analogy">Workflow automation = "production line" cho operations. Trước: handcraft mỗi task. Sau: setup line 1 lần, scale unlimited. PH 5 người + automation handle workload PH 15 người không có. Đầu tư time setup = compound saving.</div>
+            <button class="check-btn" onclick="markLearned(this, 'workflow-automation')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 5: DEEP DIVE -->
@@ -1679,7 +2421,7 @@
     <h2 class="section-title">Deep Dive — Bên trong AI</h2>
     <p class="section-desc">Đào sâu hơn vào bản chất hoạt động — hiểu TẠI SAO AI làm được (và không làm được) những gì nó làm.</p>
 
-    <div class="card" data-id="latent-space" data-persona="curious,producer">
+    <div class="card" data-id="latent-space" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Latent Space — Không gian ẩn</div>
@@ -1734,7 +2476,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="lora-deep" data-persona="curious,producer">
+    <div class="card" data-id="lora-deep" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">LoRA & Embeddings — Customize AI không tốn $$</div>
@@ -1760,7 +2502,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="attention-deep" data-persona="curious,producer,creative">
+    <div class="card" data-id="attention-deep" data-persona="producer,creative,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Attention Mechanism — Tại sao prompt structure quan trọng</div>
@@ -1783,7 +2525,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="multimodal-deep" data-persona="curious,producer">
+    <div class="card" data-id="multimodal-deep" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Multimodal — 1 model hiểu mọi thứ</div>
@@ -1806,7 +2548,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="orchestration" data-persona="manager,producer">
+    <div class="card" data-id="orchestration" data-persona="producer,manager">
         <div class="card-header">
             <div>
                 <div class="card-title">Agent Orchestration — Điều phối nhiều AI</div>
@@ -1833,6 +2575,44 @@
             <button class="check-btn" onclick="markLearned(this, 'orchestration')">✓ Đã hiểu</button>
         </div>
     </div>
+
+    <!-- NEW: AI Safety -->
+    <div class="card" data-id="ai-safety" data-persona="producer,creative,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">AI Safety, Alignment & Existential Risk</div>
+                <div class="card-subtitle">Tại sao Anthropic, DeepMind có safety team — và sao bạn nên quan tâm</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Dive</span>
+        </div>
+        <div class="card-body">
+            <h4>Alignment Problem</h4>
+            <p>Làm sao đảm bảo AI làm điều chúng ta MUỐN, không phải điều chúng ta YÊU CẦU? AI tối ưu hóa mục tiêu một cách literal — yêu cầu "tăng engagement" có thể tạo ra clickbait toxic. Đây là vấn đề kỹ thuật chưa giải quyết hoàn toàn.</p>
+            <h4>RLHF — Reinforcement Learning from Human Feedback</h4>
+            <p>Cách AI hiện tại được "dạy đạo đức": người đánh giá output AI → AI học theo preference. Nhược điểm: chỉ tốt bằng người đánh giá, có bias.</p>
+            <h4>Constitutional AI (Anthropic)</h4>
+            <p>AI được dạy theo bộ nguyên tắc rõ ràng (constitution) thay vì chỉ feedback. Ưu điểm: transparent, có thể audit. Claude được train theo cách này.</p>
+            <h4>Existential Risk concerns</h4>
+            <ul>
+                <li><strong>Misalignment ở scale lớn:</strong> AI siêu thông minh có mục tiêu lệch lạc → hậu quả nghiêm trọng</li>
+                <li><strong>Power concentration:</strong> Vài công ty kiểm soát AI mạnh → tập trung quyền lực</li>
+                <li><strong>Job displacement:</strong> Disruption nhanh hơn xã hội adapt được</li>
+                <li><strong>Autonomous weapons:</strong> AI trong quân sự — race condition giữa các quốc gia</li>
+            </ul>
+            <h4>Tổ chức quan tâm safety</h4>
+            <ul>
+                <li><strong>Anthropic:</strong> Founded 2021, focus safety. Tạo Constitutional AI, Claude</li>
+                <li><strong>DeepMind Safety:</strong> Google — interpretability research</li>
+                <li><strong>OpenAI:</strong> Có safety team (nhiều người rời 2024-2025)</li>
+                <li><strong>MIRI, FHI:</strong> Academic research existential risk</li>
+            </ul>
+            <h4>Practical relevance cho production</h4>
+            <p>Bạn không cần giải quyết alignment. Nhưng cần biết: AI có bias, AI có thể lạm dụng, AI có thể fail không ngờ tới. Build pipeline có human-in-the-loop, không trust AI 100% với high-stakes content.</p>
+            <div class="biz-analogy">Internet đầu 2000s mọi người chỉ thấy upside. 2010s mới thấy social media gây trầm cảm, fake news, election interference. AI đang ở năm 2000-2005 của internet — tận hưởng upside nhưng không nhắm mắt với downside dài hạn.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-safety')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 6: MODEL UPDATES -->
@@ -1874,7 +2654,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="tokenizer" data-persona="curious,manager">
+    <div class="card" data-id="tokenizer" data-persona="manager,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Tokenizer — Tại sao model mới "tốn" thêm tokens</div>
@@ -1902,7 +2682,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="thinking-modes" data-persona="curious,manager">
+    <div class="card" data-id="thinking-modes" data-persona="manager,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Thinking Modes — AI "suy nghĩ" trước khi trả lời</div>
@@ -1930,7 +2710,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="context-deep" data-persona="curious,producer">
+    <div class="card" data-id="context-deep" data-persona="producer,curious">
         <div class="card-header">
             <div>
                 <div class="card-title">Context Window — Thực tế 200K vs 1M</div>
@@ -1984,7 +2764,7 @@
             <ul>
                 <li><strong>Dùng web chat (ChatGPT, Claude.ai)</strong> → Hầu như không ảnh hưởng</li>
                 <li><strong>Dùng API / có dev team</strong> → PHẢI đọc, test trước khi upgrade</li>
-                <li><strong>Dùng tool build trên API (Claw, Cursor...)</strong> → Tool vendor lo, nhưng biết để debug nếu lỗi</li>
+                <li><strong>Dùng tool build trên API (OpenClaw, Cursor, Codex...)</strong> → Tool vendor lo, nhưng biết để debug nếu lỗi</li>
             </ul>
             <button class="check-btn" onclick="markLearned(this, 'breaking-changes')">✓ Đã hiểu</button>
         </div>
@@ -2017,7 +2797,7 @@
         </div>
     </div>
 
-    <div class="card" data-id="model-choosing" data-persona="manager,producer">
+    <div class="card" data-id="model-choosing" data-persona="producer,manager">
         <div class="card-header">
             <div>
                 <div class="card-title">Cách chọn model — Ma trận quyết định</div>
@@ -2078,7 +2858,7 @@
                 <li>GPT-5.4: <strong>$10 / $30</strong> — đắt nhất</li>
             </ul>
 
-            <div class="real-example">CrawBot dùng Opus 4.7 làm main (tasks phức tạp, agentic). GenWorker dùng Sonnet 4.6 (gen tasks, volume). Seegroup Bot có thể dùng Gemini Flash nếu cần tiết kiệm. Mix & match theo đúng nhu cầu.</div>
+            <div class="real-example">Pattern phổ biến: dùng model đắt nhất (Opus, GPT-5) cho task phức tạp/agentic, model trung (Sonnet 4.x) cho tasks volume cao, model nhanh-rẻ (Gemini Flash, Haiku) cho summarize/classify đơn giản. Mix & match theo đúng nhu cầu — không phải "dùng best model cho mọi task".</div>
             <button class="check-btn" onclick="markLearned(this, 'model-choosing')">✓ Đã hiểu</button>
         </div>
     </div>
