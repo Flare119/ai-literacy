@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="bingbot" content="noindex, nofollow">
     <title>AI Literacy for Production — Learning Hub</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BXZDPVFWGL"></script>
@@ -595,6 +598,13 @@
             <div id="emailError" style="color:var(--red);font-size:12px;margin-top:-8px;margin-bottom:8px;display:none;">Vui lòng nhập email hợp lệ</div>
             <label class="onboard-input-label">Công ty <span style="color:#555">(không bắt buộc)</span></label>
             <input class="onboard-input" type="text" id="onboardCompany" placeholder="VD: Agency XYZ">
+            <div style="margin-top:14px;padding:12px;background:rgba(255,255,255,0.04);border-radius:8px;font-size:12.5px;line-height:1.5;color:rgba(255,255,255,0.75);">
+                <label style="display:flex;align-items:flex-start;gap:8px;cursor:pointer;">
+                    <input type="checkbox" id="onboardTerms" style="margin-top:3px;flex-shrink:0;">
+                    <span>Tôi đồng ý không sao chép, phát tán, hoặc sử dụng nội dung trên trang này cho mục đích thương mại khi chưa được sự đồng ý của <strong>namth@seegroup.vn</strong>.</span>
+                </label>
+            </div>
+            <div id="termsError" style="color:var(--red);font-size:12px;margin-top:6px;display:none;">Vui lòng đồng ý điều khoản để tiếp tục</div>
             <button class="onboard-submit" onclick="validateAndFinish()">Bắt đầu học →</button>
         </div>
     </div>
@@ -2175,6 +2185,61 @@
     <div style="margin-top: 0.5rem; font-size: 0.78rem; opacity: 0.7;">Vui lòng không sao chép, phát tán, hoặc sử dụng nội dung cho mục đích thương mại khi chưa được sự đồng ý.</div>
 </footer>
 
+<!-- Watermark overlay (shows user email) -->
+<div id="userWatermark" style="position:fixed;bottom:8px;right:12px;font-size:10px;color:rgba(255,255,255,0.25);pointer-events:none;z-index:9998;font-family:monospace;letter-spacing:0.5px;user-select:none;"></div>
+
+<style>
+    body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+    input, textarea { -webkit-user-select: text; user-select: text; }
+    @media print { body { display: none !important; } }
+</style>
+
+<script>
+    // Anti-copy / anti-save protection
+    (function() {
+        // Set watermark from stored profile
+        try {
+            const profile = JSON.parse(localStorage.getItem('ai-literacy-profile') || '{}');
+            const wm = document.getElementById('userWatermark');
+            if (wm && profile.email) {
+                wm.textContent = profile.name + ' · ' + profile.email;
+            }
+        } catch(e) {}
+
+        // Disable right-click
+        document.addEventListener('contextmenu', e => e.preventDefault());
+
+        // Disable copy/cut/select-all/save/print/view-source/devtools
+        document.addEventListener('keydown', function(e) {
+            const k = e.key.toLowerCase();
+            // F12 -> devtools
+            if (e.key === 'F12') { e.preventDefault(); return false; }
+            // Ctrl/Cmd combos
+            if (e.ctrlKey || e.metaKey) {
+                if (['c','x','a','s','u','p'].indexOf(k) !== -1) {
+                    e.preventDefault();
+                    return false;
+                }
+                // Ctrl+Shift+I/J/C -> devtools
+                if (e.shiftKey && ['i','j','c'].indexOf(k) !== -1) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        });
+
+        // Block copy events
+        ['copy','cut','dragstart'].forEach(function(ev) {
+            document.addEventListener(ev, function(e) { e.preventDefault(); return false; });
+        });
+
+        // Block image drag/save
+        document.addEventListener('dragstart', e => {
+            if (e.target.tagName === 'IMG') e.preventDefault();
+        });
+    })();
+</script>
+
 <script>
     // State
     const learned = JSON.parse(localStorage.getItem('ai-literacy-learned') || '{}');
@@ -2378,6 +2443,15 @@
         document.getElementById('onboardEmail').style.borderColor = '';
         emailError.style.display = 'none';
 
+        const terms = document.getElementById('onboardTerms');
+        const termsError = document.getElementById('termsError');
+        if (!terms.checked) {
+            termsError.style.display = 'block';
+            terms.focus();
+            return;
+        }
+        termsError.style.display = 'none';
+
         finishOnboarding();
     }
 
@@ -2397,6 +2471,10 @@
         // Save to localStorage
         localStorage.setItem('ai-literacy-onboarded', 'true');
         localStorage.setItem('ai-literacy-profile', JSON.stringify(profileData));
+
+        // Update watermark immediately
+        const wm = document.getElementById('userWatermark');
+        if (wm) wm.textContent = name + ' · ' + email;
 
         // Send to GA
         if (typeof gtag !== 'undefined') {
