@@ -1,231 +1,218 @@
 {
   "date": "2026-05-10",
-  "updated_at": "2026-05-10T17:13:32.689597+07:00",
+  "updated_at": "2026-05-10T20:35:05.928416+07:00",
   "weekday": "Sunday",
   "top_story": {
-    "headline": "Meta thắt chặt giám sát nhân viên bằng AI — theo dõi từng cú click chuột",
-    "summary": "Meta triển khai hệ thống theo dõi toàn diện: ghi lại mọi thứ nhân viên gõ, cách di chuột, click ở đâu, và màn hình hiển thị gì. Mục tiêu: thu thập dữ liệu nhân viên để huấn luyện các mô hình AI. Nhân viên phản ứng tiêu cực mạnh — cảm giác bị xâm phạm và mất niềm tin.",
-    "why": "Đây là warning sign cho mọi production house VN đang nghĩ đến surveillance để 'tăng productivity'. Culture issue không giải quyết bằng giám sát — chỉ tạo ra chảy máu tài năng thầm lặng. Case Meta chứng minh: short-term data < long-term trust.",
-    "source": "New York Times",
-    "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+    "headline": "Sierra của Bret Taylor huy động 950 triệu USD — AI agent đang lên ngôi",
+    "summary": "Sierra, startup AI agent do cựu CTO Salesforce Bret Taylor sáng lập, vừa huy động 950 triệu USD với định giá 15.8 tỷ USD. Đây là deal lớn nhất trong làn sóng đầu tư AI tháng 4 (tổng 56 tỷ USD toàn cầu, tăng gấp đôi cùng kỳ). Sierra cạnh tranh trực tiếp với OpenAI's Operator — đều build AI agents tự động hóa workflows.",
+    "why": "Cho manager: đây là tín hiệu rõ nhất — AI agent không còn là POC, mà đang trở thành nền tảng sản xuất. Nếu bạn chưa có chiến lược agent (tự động hoá workflows nội bộ, customer support, data processing), bạn đang chậm. Thời gian chuẩn bị còn 6-12 tháng trước khi competitor áp dụng rộng.",
+    "source": "CNBC / Tech Startups",
+    "url": "https://techstartups.com/2026/05/04/bret-taylors-ai-startup-sierra-raises-950m-at-15-8b-valuation-as-demand-for-ai-agents-surges/",
     "tags": [
-      "culture",
-      "ethics",
-      "surveillance",
-      "employee-wellbeing"
+      "funding",
+      "ai-agents",
+      "enterprise"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Sierra (Bret Taylor) raise $950M tại định giá $15.8B — agentic AI tiếp tục hút vốn",
-      "why": "Tín hiệu tiếp tục: agentic AI = hot market. Nếu VN production house có bottleneck lặp đi lặp lại (quote, revisions, file organization) — đây là lúc thử agentic tools, không đợi đến khi đối thủ vượt mặt.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html",
-      "tags": [
-        "funding",
-        "agentic-ai"
-      ]
-    },
-    {
-      "headline": "OpenAI mua lại startup tài chính cá nhân Hiro Finance (acqui-hire)",
-      "why": "Pattern acqui-hire tiếp diễn — OpenAI không chỉ xây AI, còn đang mua talent. Nếu bạn là producer nhỏ VN có kỹ năng AI độc đáo, đây là thời điểm tốt để build in public — acqui-hire không chỉ dành cho SV.",
+      "headline": "OpenAI mua lại startup tài chính cá nhân Hiro Finance",
+      "why": "Cho cá nhân: OpenAI đang mở rộng sang personal finance AI — tín hiệu rằng AI sẽ vào sâu công cụ quản lý tiền cá nhân. Nếu bạn đang dùng Mint/YNAB, chuẩn bị cho làn sóng AI budgeting advisor tiếp theo.",
       "source": "AI Funding Tracker",
       "url": "https://aifundingtracker.com/ai-startup-funding-news-today/",
       "tags": [
         "acquisition",
-        "talent"
+        "personal-finance"
       ]
     },
     {
-      "headline": "AI coding agent giờ ship code end-to-end — Aider, Cursor agent mode, GitHub Copilot",
-      "why": "Không cần biết code sâu để dùng AI coding agent nữa. VN production có thể tự động hóa internal tools (asset pipeline, metadata tagging) mà không cần thuê dev full-time.",
-      "source": "Agentic.ai",
-      "url": "https://agentic.ai/what-is-agentic-ai",
-      "tags": [
-        "coding",
-        "automation"
-      ]
-    },
-    {
-      "headline": "Luật sư lo ngại AI note takers có thể phá vỡ attorney-client privilege",
-      "why": "Nếu bạn dùng Otter/Fireflies/AI note taker trong meeting với agency/client/partner — cẩn thận về legal risk. Mỗi câu nói được record → có thể bị subpoena. Không dùng AI note taker cho sensitive meetings.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
-      "tags": [
-        "legal",
-        "risk",
-        "privacy"
-      ]
-    },
-    {
-      "headline": "Vốn đầu tư AI toàn cầu đạt $56B tháng 4/2026 — tăng 100% YoY",
-      "why": "AI funding không giảm nhiệt. Nếu VN production đang tìm vốn để scale (thuê talent, mua thiết bị, build pipeline) — pitch angle về AI integration sẽ dễ raise hơn pitch truyền thống.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/global-startup-funding-april-2026-anthropic-jeff-bezos-project-prometheus-biggest-deals/",
+      "headline": "Jeff Bezos Project Prometheus đàm phán 10 tỷ USD với định giá 38 tỷ USD",
+      "why": "Cho curious: Bezos đang build startup AI bí mật với backing JPMorgan/BlackRock. Đây là dấu hiệu AI infrastructure đang trở thành cuộc đua tỷ phú — không chỉ tech giants mà cả Wall Street đổ tiền vào foundation models.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/",
       "tags": [
         "funding",
-        "market"
+        "stealth-mode"
       ]
     },
     {
-      "headline": "US Department of Commerce sẽ safety test AI models từ Google, Microsoft, xAI trước khi release",
-      "why": "Quy định AI đang bắt đầu thắt chặt ở Mỹ. Nếu bạn làm việc với client Mỹ hoặc dùng models từ các ông lớn này — chuẩn bị cho delays và compliance yêu cầu mới.",
+      "headline": "Chip Nvidia B300 tại Trung Quốc tăng giá gấp đôi lên 1 triệu USD/server",
+      "why": "Cho manager: khan hiếm chip AI đang thực sự xảy ra. Nếu bạn đang plan mua GPU cluster trong 6-12 tháng tới, giá có thể tiếp tục tăng do crackdown buôn lậu. Cân nhắc cloud credits thay vì mua hardware.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "hardware",
+        "supply-chain"
+      ]
+    },
+    {
+      "headline": "US Commerce Department bắt đầu safety test model AI trước khi release",
+      "why": "Cho manager: Google/Microsoft/xAI phải test model mới với chính phủ Mỹ trước khi public. Regulatory overhead tăng → model release chậm hơn → ảnh hưởng roadmap product phụ thuộc model mới.",
       "source": "BBC",
       "url": "https://www.bbc.com/news/articles/cgjp2we2j8go",
       "tags": [
         "regulation",
-        "compliance"
+        "safety"
       ]
     },
     {
-      "headline": "Nghiên cứu mới: LLM corrupt documents khi bạn delegate — không phải lỗi ngẫu nhiên",
-      "why": "Khi dùng AI để viết treatment/script/proposal, LUÔN review lại toàn bộ. LLM có thể thay đổi ý nghĩa subtle mà bạn không nhận ra — risk cao với client-facing docs.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2604.15597",
+      "headline": "FDA ra mắt HALO và Elsa 4.0 — AI tool nội bộ cho regulatory review",
+      "why": "Cho curious: FDA đang dùng AI để review thuốc/thiết bị y tế nhanh hơn. Elsa 4.0 rollout cho toàn bộ staff FDA — tín hiệu chính phủ Mỹ đang accelerate AI adoption trong quy trình cứng nhắc nhất.",
+      "source": "FDA / RAPS",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-ai-capabilities-and-completes-data-platform-consolidation",
       "tags": [
-        "research",
-        "risk"
+        "government",
+        "healthcare"
+      ]
+    },
+    {
+      "headline": "Meta nhân viên miserable vì đẩy AI quá nhanh — NYTimes report",
+      "why": "Cho cá nhân: nếu công ty bạn đang aggressive push AI projects mà không đầu tư vào training/mental health support, đây là warning pattern. Meta burnout case là bài học — culture matter hơn speed.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "tags": [
+        "culture",
+        "mental-health"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Claude Code giờ đọc toàn bộ codebase, edit files, chạy lệnh, tích hợp dev tools",
-      "summary": "Claude Code từ Anthropic là agentic coding tool chạy trong terminal, IDE, desktop app, browser. Khác chatbot — Claude Code có thể autonomous plan, research, viết code, và ship finished product. Available ngay.",
-      "why": "VN production có thể dùng Claude Code để tự động hóa pipeline tasks: batch rename, metadata injection, file conversion. Không cần developer — chỉ cần mô tả workflow bằng ngôn ngữ tự nhiên.",
-      "source": "Claude Docs",
-      "url": "https://code.claude.com/docs/en/overview",
-      "tags": [
-        "tools",
-        "coding",
-        "automation"
-      ]
-    },
-    {
-      "headline": "Pictory.ai dùng Veo 3.1 để biến ảnh thành video động — cinematic camera movement",
-      "summary": "Pictory tích hợp Veo 3.1 và Pixverse để animate ảnh với realistic motion và AI-generated scenes. Không cần shoot lại — chỉ cần ảnh tĩnh.",
-      "why": "Cho VN production làm pitch deck hoặc pre-vis — thay vì shoot placeholder footage tốn tiền, dùng image-to-video để visualize ý tưởng nhanh. Client hiểu concept rõ hơn khi thấy motion, dù là AI-generated.",
-      "source": "Pictory",
-      "url": "https://pictory.ai/image-to-video",
-      "tags": [
-        "video-generation",
-        "tools",
-        "previs"
-      ]
-    },
-    {
-      "headline": "Adobe Firefly giờ hỗ trợ Google Veo, Sora, Pika — chọn model từ dropdown menu",
-      "summary": "Adobe tích hợp nhiều AI video models vào Firefly. User có thể chọn model phù hợp (Veo cho style nhất định, Sora cho khác, Pika cho motion type khác) trong cùng một workflow.",
-      "why": "Multi-model approach = không bị lock-in vào 1 vendor. VN producer có thể test các models khác nhau cho từng project type mà không phải học tool mới — flexibility cao.",
+      "headline": "Adobe Firefly tích hợp Veo 3, Sora, Pika — chọn model video ngay trong tool design",
+      "summary": "Adobe Firefly giờ cho phép chọn video model (Google Veo, Sora, Pika) từ dropdown menu khi generate video từ text. Workflow thống nhất giữa design và video prototype trong cùng 1 app.",
+      "why": "Cho creative: giảm 50% thời gian handoff giữa design và video team. Thay vì export Figma → script video → upload lại, giờ có thể prototype video ngay trong Firefly. Nhưng model partner (Veo/Sora/Pika) có watermark — chưa production-grade cho commercial.",
       "source": "Adobe Firefly",
       "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
-        "tools",
-        "video-generation"
+        "video-gen",
+        "workflow",
+        "tools"
       ]
     },
     {
-      "headline": "Open-Generative-AI: Open-source platform với 200+ models (Flux, Midjourney, Kling, Sora, Veo) không filter nội dung",
-      "summary": "GitHub repo từ Anil-matcha — unrestricted AI image & video generation studio, self-hosted, MIT licensed. Không có content filters như commercial platforms.",
-      "why": "Cho VN production cần tự do sáng tạo mà không bị censorship của big tech. Self-host = data không rời máy bạn. Tuy nhiên cẩn thận về ethical use — không có guardrails.",
-      "source": "GitHub",
+      "headline": "Pictory ra AI Studio với Veo 3.1 và Pixverse — image-to-video cinematic",
+      "summary": "Pictory AI Studio dùng Veo 3.1 để animate ảnh thành video với camera movement, realistic motion. Đặc biệt dành cho social media content và ad creative.",
+      "why": "Cho creative: nếu bạn đang làm ad creative hoặc social content, tool này cắt được 70% thời gian shoot B-roll. Nhưng output chất lượng phụ thuộc vào input image composition — AI không thể fix ảnh tệ.",
+      "source": "Pictory",
+      "url": "https://pictory.ai/image-to-video",
+      "tags": [
+        "image-to-video",
+        "ad-creative"
+      ]
+    },
+    {
+      "headline": "Open-Generative-AI: self-hosted studio với 200+ model không filter nội dung",
+      "summary": "Repo GitHub open-source cho phép chạy 200+ AI models (Flux, Midjourney, Kling, Sora, Veo) locally, không content filter, MIT licensed. Dành cho creative cần full control và không muốn censorship.",
+      "why": "Cho creative: nếu bạn bị reject prompts trên Midjourney/DALL-E vì policy, tool này giải quyết. Nhưng cần GPU đủ mạnh (min 16GB VRAM) và tự chịu trách nhiệm legal về content tạo ra.",
+      "source": "GitHub / Anil-matcha",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "tags": [
-        "opensource",
-        "video-generation",
-        "self-hosted"
+        "open-source",
+        "self-hosted",
+        "unrestricted"
       ]
     },
     {
-      "headline": "OneManVJ: AI-driven realtime VJ tool cho solo DJs/musicians — mới launch trên itch.io",
-      "summary": "Tool VJ real-time chạy bằng AI cho solo performers. Generate visuals sync với nhạc on-the-fly.",
-      "why": "Nếu VN production làm live events/concerts nhỏ — tool này giúp 1 người làm việc của cả team VJ. Cost thấp, setup nhanh. Test cho events budget thấp trước khi scale lên pro setups.",
+      "headline": "Gemini API File Search giờ hỗ trợ multimodal — search qua text/image/audio/video",
+      "summary": "Google mở rộng Gemini API File Search từ text-only sang multimodal. Có thể search nội dung trong video, audio, image mà không cần transcribe trước. Context window 2M tokens.",
+      "why": "Cho creative: nếu bạn quản lý footage library lớn (hàng trăm GB video), giờ có thể search bằng natural language qua toàn bộ archive thay vì tag thủ công. Cut 80% thời gian tìm clip.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "tags": [
+        "api",
+        "search",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "OneManVJ: AI-driven realtime VJ tool cho solo DJ/musician",
+      "summary": "Tool VJ mới trên itch.io dùng AI để generate visuals real-time cho DJ/live performer làm solo. Launch sale đang chạy.",
+      "why": "Cho creative: nếu bạn làm live performance nhưng không có budget VJ team, tool này giúp automate visual show. Nhưng output AI-generated có thể thiếu identity — chưa thay thế được VJ có taste.",
       "source": "itch.io",
       "url": "https://itch.io/t/6324973/release-onemanvj-ai-driven-realtime-vj-tool-for-solo-djs-musicians-launch-sale",
       "tags": [
-        "tools",
-        "live-events",
-        "vj"
+        "vj",
+        "live-performance",
+        "music"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Nghiên cứu Cambridge: AI có thể khiến con người sáng tạo hơn (không phải thay thế)",
-      "summary": "Swansea University phát hiện AI không chỉ thay thế công việc sáng tạo — nó có thể amplify khả năng sáng tạo của con người. Khi dùng đúng cách, AI giúp brainstorm rộng hơn và explore ý tưởng sâu hơn.",
-      "why": "Đây là counter-narrative với fear về 'AI thay thế creative'. VN producers nên reframe: AI = creative partner, không phải competitor. Train team dùng AI để explore nhiều hướng hơn trong giới hạn thời gian.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "headline": "LLM làm hỏng document khi bạn delegate — paper mới từ ArXiv",
+      "summary": "Nghiên cứu cho thấy LLM thêm/xóa/sửa content khi được yêu cầu edit document, ngay cả khi không được chỉ thị. Corruption rate tăng theo độ dài document.",
+      "why": "Cho cá nhân: nếu bạn đang dùng ChatGPT/Claude để edit report/contract, luôn diff trước/sau thay vì trust hoàn toàn. AI có thể thay đổi nghĩa mà không báo — đặc biệt nguy hiểm với legal/financial docs.",
+      "source": "ArXiv",
+      "url": "https://arxiv.org/abs/2604.15597",
       "tags": [
-        "research",
-        "creativity",
-        "human-ai-collaboration"
+        "safety",
+        "document-editing"
       ]
     },
     {
-      "headline": "Paper mới: Rethinking Retrieval cho Agentic Search — không chỉ dựa semantic similarity",
-      "summary": "Nghiên cứu từ HuggingFace cho thấy retrieval systems hiện tại (lexical hoặc semantic) compress access vào single top-k step trước reasoning — không đủ cho agentic search. Cần direct corpus interaction.",
-      "why": "Khi build internal knowledge base cho production house (scripts cũ, client briefs, project notes) — đừng chỉ dùng basic semantic search. Agentic search approach giúp AI đào sâu hơn vào context khi cần.",
+      "headline": "Beyond Semantic Similarity: AI agent nên tương tác trực tiếp với corpus thay vì chỉ retrieval",
+      "summary": "Paper HuggingFace argue rằng retrieval systems hiện tại (lexical/semantic) giới hạn AI agent vì chỉ trả về top-k results. Agent nên được access toàn bộ corpus và tự quyết định cách interact.",
+      "why": "Cho manager: nếu bạn đang build internal search/RAG system, architecture hiện tại (vector DB + top-k retrieval) có thể không đủ cho agentic workflows. Cân nhắc architecture cho phép agent query iteratively.",
       "source": "HuggingFace Papers",
       "url": "https://huggingface.co/papers/2605.05242",
       "tags": [
-        "research",
-        "search",
-        "knowledge-management"
+        "retrieval",
+        "agent-architecture"
+      ]
+    },
+    {
+      "headline": "Scientists discover AI làm con người creative hơn — Swansea University study",
+      "summary": "Nghiên cứu mới từ Swansea University cho thấy AI không thay thế creativity mà có thể tăng creativity của con người khi dùng đúng cách.",
+      "why": "Cho curious: phản biện lại narrative 'AI kills creativity'. Nếu bạn đang sợ AI thay thế công việc creative, nghiên cứu này gợi ý rằng AI có thể là tool amplify thay vì thay thế — nếu bạn học cách collaborate.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "human-ai-collaboration"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "openclaw: Personal AI assistant cho mọi OS/platform (370K stars)",
-      "why": "Cross-platform AI assistant — work trên Windows/Mac/Linux. VN production có thể dùng để automate repetitive tasks: file organization, deadline reminders, client follow-ups.",
+      "headline": "skales: AI desktop agent cho Windows/macOS/Linux — không cần Docker",
+      "summary": "Open-source local AI agent với agent skills, autonomous coding, multi-agent teams, desktop automation. Hỗ trợ 15+ AI providers. Free, không cần terminal setup.",
+      "why": "Cho cá nhân: nếu bạn muốn AI agent chạy local mà không phải wrestle với Docker/CLI, tool này friendly cho non-technical. Nhưng agent autonomy có risk — review code trước khi chạy.",
+      "source": "GitHub",
+      "url": "https://github.com/skalesapp/skales",
+      "stars": "chưa có data"
+    },
+    {
+      "headline": "openclaw: personal AI assistant 'the lobster way' — 370K stars",
+      "summary": "AI assistant framework mới nổi với 370K stars trong 1 tuần. Cross-platform, emphasize privacy và local-first.",
+      "why": "Cho cá nhân: nếu bạn quan tâm privacy và muốn AI assistant không gửi data lên cloud, openclaw là alternative cho Siri/Alexa. Nhưng cần technical setup và tự chịu trách nhiệm security.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "370366"
+      "stars": "370421"
     },
     {
-      "headline": "n8n: Fair-code workflow automation với native AI capabilities (187K stars)",
-      "why": "Alternative cho Zapier nhưng self-host được và có AI native. VN production có thể tự động hóa workflows phức tạp (client onboarding, project handoffs) mà không trả phí hàng tháng cho SaaS.",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "187292"
-    },
-    {
-      "headline": "AutoGPT: Accessible AI for everyone, to use and to build on (184K stars)",
-      "why": "Framework để build AI agents tự động. VN production muốn tự build internal agents (auto quote generator, client brief analyzer) có thể fork và customize từ AutoGPT.",
-      "source": "GitHub",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "184132"
-    },
-    {
-      "headline": "hermes-agent: The agent that grows with you (141K stars)",
-      "why": "AI agent có khả năng học và adapt theo workflow của bạn. Càng dùng càng smart — phù hợp cho VN production muốn agent hiểu domain-specific terms (shot list, storyboard, client preferences).",
-      "source": "GitHub",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "141596"
-    },
-    {
-      "headline": "dify: Production-ready platform cho agentic workflow development (140K stars)",
-      "why": "Platform để build và deploy agentic workflows production-ready. VN production có tech capability có thể dùng Dify để xây agents cho internal use (không phải mua commercial tools).",
+      "headline": "dify: production-ready platform cho agentic workflow — 140K stars",
+      "summary": "Platform no-code/low-code để build AI workflows và agents. Đã mature, nhiều enterprise dùng production.",
+      "why": "Cho manager: nếu team bạn muốn build AI workflows nhưng thiếu ML engineer, dify giúp non-technical staff tự build. Nhưng vendor lock-in risk nếu không self-host.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "140792"
+      "stars": "140810"
     },
     {
-      "headline": "langchain: The agent engineering platform (136K stars)",
-      "why": "Foundation platform để build AI agents. Nếu VN production muốn nghiêm túc với AI integration — học LangChain là investment đáng giá. Nhiều tools hiện tại build trên LangChain.",
+      "headline": "firecrawl: API để search/scrape/interact với web cho AI — 117K stars",
+      "summary": "API chuyên để feed web data vào AI. Tối ưu cho RAG pipelines và web agents.",
+      "why": "Cho manager: nếu bạn đang build AI agent cần access real-time web data, firecrawl giải quyết scraping/parsing. Nhưng legal risk nếu scrape website có ToS cấm.",
       "source": "GitHub",
-      "url": "https://github.com/langchain-ai/langchain",
-      "stars": "136288"
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "117730"
     }
   ],
-  "insight": "Tuần này có 3 patterns quan trọng cho production VN:\n\n**Pattern 1: Agentic AI không còn là buzz — đã production-ready.** Sierra raise gần $1B, Claude Code ship, tools như n8n/Dify đạt 140K+ stars. Điều này không phải hype — đây là moment agentic AI chuyển từ lab sang real workflows. Implication: VN production house vẫn đang manual quote/revisions/file management đang để mất competitive edge. First next action: Map 3 bottlenecks lặp đi lặp lại nhất trong workflow (ví dụ: client revisions round 5-6, asset versioning chaos, deadline tracking manual) → test 1 agentic tool free tier trong 2 tuần. Không cần perfect solution — cần proof of concept.\n\n**Pattern 2: Surveillance culture = death by a thousand cuts.** Meta case là warning. Khi bạn track nhân viên bằng AI để 'tăng productivity', bạn đang giải quyết sai problem. Root cause thường là: unclear expectations, lack of autonomy, hoặc founder bottleneck — không phải 'nhân viên lười'. Delay effect: Trust mất 6-12 tháng mới thấy impact (chảy máu talent thầm lặng, best people nghỉ trước). Leverage point ở đây là culture subsystem, không phải process. Nếu VN production đang nghĩ đến time tracking/surveillance tools — dừng lại, đào sâu vào root cause trước.\n\n**Pattern 3: Multi-model strategy thắng single-vendor lock-in.** Adobe Firefly tích hợp Veo/Sora/Pika, Open-Generative-AI support 200+ models. Message: Không ai biết model nào sẽ thống trị 2-3 năm nữa. Smart producers build workflows flexible — có thể swap models mà không phải relearn tool. Practical: Khi evaluate AI video tools, hỏi 'tôi có thể dùng model khác không?' thay vì 'model này tốt nhất không?'. Future-proof > best-today.",
+  "insight": "Tuần này có 2 signal rõ nhất về hướng đi của AI 2026:\n\n**Signal 1: AI Agent không còn là buzzword — nó là infrastructure.** Sierra của Bret Taylor huy động 950 triệu USD không phải vì hype, mà vì enterprise thực sự cần agents tự động hóa workflows phức tạp. Tháng 4 toàn cầu đổ 56 tỷ USD vào AI (gấp đôi năm ngoái), với phần lớn vào agent platforms và infrastructure. Đây không phải bubble — đây là báo hiệu enterprises đã vượt qua POC phase và đang deploy production.\n\n**Implication cho manager:** Nếu bạn chưa có chiến lược AI agent rõ ràng (tự động hóa internal workflows, customer support, data processing), bạn có 6-12 tháng trước khi competitors bỏ xa. Đừng đợi 'perfect solution' — bắt đầu với 1 workflow nhỏ (ví dụ: email triage, customer inquiry routing) và iterate. Companies thắng không phải vì tech tốt nhất, mà vì deploy nhanh nhất.\n\n**Implication cho cá nhân:** AI agents sẽ thay thế junior roles trước (data entry, basic coding, tier-1 support). Nếu công việc bạn chủ yếu là 'execute theo instruction' thay vì 'decide strategy' — đây là lúc reskill. Focus vào skills AI khó thay thế: judgment calls, stakeholder negotiation, system design, ethical oversight.\n\n**Signal 2: Creative tools đang converge — nhưng chưa production-grade.** Adobe Firefly tích hợp Veo/Sora/Pika, Pictory ra Veo 3.1, Leonardo.ai mở rộng video — tất cả đều hướng về 'one-stop creative suite'. Nhưng tất cả model partners đều có watermark hoặc usage limits. Điều này nghĩa gì? AI video generation đang ở giai đoạn 'good enough for prototype, not yet for final output.'\n\n**Implication cho creative:** Dùng AI tools để accelerate ideation và prototype (cắt 50-70% thời gian concept phase), nhưng vẫn cần human polish cho final output. Công việc creative không biến mất — nó chuyển từ 'execute từ đầu' sang 'curate và refine AI output'. Skill mới cần học: prompt engineering, AI output QC, taste-making (vì AI output rất dễ nhận ra và thiếu identity).\n\n**Challenge for you:** Nếu bạn đang cảm thấy overwhelmed bởi tốc độ AI, hãy tự hỏi — 'tôi đang cố theo kịp mọi tool mới, hay tôi đang focus vào tool nào giải quyết bottleneck lớn nhất của tôi?' FOMO là thật, nhưng burnout cũng thật. Chọn 1-2 tools thực sự move needle, master chúng, rồi mới mở rộng.",
   "sources_count": {
-    "raw": 113,
-    "brave": 48,
+    "raw": 114,
+    "brave": 47,
     "reddit": 0,
-    "hackernews": 3,
+    "hackernews": 5,
     "rss": 44,
     "huggingface": 8,
     "github": 10
