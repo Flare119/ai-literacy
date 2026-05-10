@@ -619,7 +619,8 @@
 </header>
 
 <nav id="nav">
-    <button class="active" data-section="overview">🌍 Overview</button>
+    <button class="active" data-section="news">📰 AI News</button>
+    <button data-section="overview">🌍 Overview</button>
     <button data-section="fundamentals">🧱 Nền tảng AI</button>
     <button data-section="production">🎬 AI Production</button>
     <button data-section="agentic">🤖 Agentic AI</button>
@@ -643,7 +644,7 @@
 
 
 <!-- SECTION 0: OVERVIEW -->
-<div class="section active" id="sec-overview">
+<div class="section" id="sec-overview">
     <h2 class="section-title">AI đang thay đổi mọi thứ</h2>
     <p class="section-desc">Bức tranh toàn cảnh: AI đang ở đâu, đang thay đổi thế giới ra sao, và ảnh hưởng trực tiếp đến ngành của bạn thế nào.</p>
 
@@ -2863,6 +2864,544 @@
         </div>
     </div>
 </div>
+
+<!-- SECTION 6.5: AI NEWS (v6 NEW) -->
+<style>
+    /* AI News tab — Linear-inspired */
+    #sec-news {
+        --news-canvas: #010102;
+        --news-surface: #0f1011;
+        --news-surface-2: #141516;
+        --news-hairline: #23252a;
+        --news-hairline-strong: #34343a;
+        --news-accent: #5e6ad2;
+        --news-accent-soft: rgba(94, 106, 210, 0.12);
+        --news-ink: #f7f8f8;
+        --news-ink-muted: #d0d6e0;
+        --news-ink-subtle: #8a8f98;
+        --news-ink-tertiary: #62666d;
+    }
+    #sec-news .news-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 16px;
+        margin-bottom: 28px;
+        border-bottom: 1px solid var(--news-hairline);
+    }
+    #sec-news .news-header h2 {
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        color: var(--news-ink);
+        margin: 0 0 6px 0;
+    }
+    #sec-news .news-header .meta {
+        font-size: 12px;
+        color: var(--news-ink-subtle);
+        font-family: 'SF Mono', Menlo, monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    #sec-news .news-section {
+        margin-bottom: 36px;
+    }
+    #sec-news .news-section-label {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--news-ink-subtle);
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #sec-news .news-section-label::before {
+        content: "";
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: var(--news-accent);
+    }
+    /* Top story */
+    #sec-news .top-story {
+        background: var(--news-surface);
+        border: 1px solid var(--news-hairline);
+        border-left: 3px solid var(--news-accent);
+        border-radius: 12px;
+        padding: 28px 32px;
+        position: relative;
+    }
+    #sec-news .top-story .badge {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--news-accent);
+        background: var(--news-accent-soft);
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin-bottom: 14px;
+    }
+    #sec-news .top-story h3 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+        color: var(--news-ink);
+        margin: 0 0 14px 0;
+    }
+    #sec-news .top-story .summary {
+        font-size: 15px;
+        color: var(--news-ink-muted);
+        line-height: 1.6;
+        margin-bottom: 14px;
+    }
+    #sec-news .top-story .why {
+        font-size: 13px;
+        color: var(--news-ink-muted);
+        background: rgba(94, 106, 210, 0.06);
+        border-left: 2px solid var(--news-accent);
+        padding: 12px 16px;
+        border-radius: 0 6px 6px 0;
+        margin-bottom: 16px;
+    }
+    #sec-news .top-story .why::before {
+        content: "💡 Tại sao quan trọng: ";
+        font-weight: 600;
+        color: var(--news-accent);
+    }
+    #sec-news .top-story .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    #sec-news .top-story .source {
+        font-size: 12px;
+        color: var(--news-ink-subtle);
+        font-family: 'SF Mono', Menlo, monospace;
+    }
+    #sec-news .top-story .read-link {
+        font-size: 13px;
+        color: var(--news-accent);
+        text-decoration: none;
+        font-weight: 500;
+    }
+    #sec-news .top-story .read-link:hover {
+        text-decoration: underline;
+    }
+    #sec-news .top-story .tags, #sec-news .news-card .tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    #sec-news .tag-chip {
+        font-size: 10px;
+        color: var(--news-ink-tertiary);
+        border: 1px solid var(--news-hairline);
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-family: 'SF Mono', Menlo, monospace;
+        text-transform: lowercase;
+    }
+    /* Quick hits grid */
+    #sec-news .quick-hits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 14px;
+    }
+    #sec-news .news-card {
+        background: var(--news-surface);
+        border: 1px solid var(--news-hairline);
+        border-radius: 10px;
+        padding: 18px 20px;
+        transition: all 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #sec-news .news-card:hover {
+        background: var(--news-surface-2);
+        border-color: var(--news-hairline-strong);
+        transform: translateY(-2px);
+    }
+    #sec-news .news-card .headline {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: var(--news-ink);
+        text-decoration: none;
+        display: block;
+    }
+    #sec-news .news-card .headline:hover {
+        color: var(--news-accent);
+    }
+    #sec-news .news-card .why {
+        font-size: 12.5px;
+        color: var(--news-ink-muted);
+        line-height: 1.55;
+    }
+    #sec-news .news-card .summary {
+        font-size: 12px;
+        color: var(--news-ink-subtle);
+        line-height: 1.5;
+    }
+    #sec-news .news-card .meta-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        padding-top: 8px;
+        border-top: 1px solid var(--news-hairline);
+        font-size: 11px;
+        color: var(--news-ink-subtle);
+        font-family: 'SF Mono', Menlo, monospace;
+    }
+    #sec-news .news-card .source {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    #sec-news .news-card .read-arrow {
+        color: var(--news-accent);
+        text-decoration: none;
+    }
+    /* Production list (denser) */
+    #sec-news .production-list .news-card {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    #sec-news .production-list .news-card .body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    /* Vietnam list */
+    #sec-news .vn-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #sec-news .vn-list .news-card {
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 18px;
+    }
+    #sec-news .vn-list .news-card .headline {
+        font-size: 13px;
+        flex: 1;
+    }
+    /* Insight section */
+    #sec-news .insight-block {
+        background: linear-gradient(135deg, var(--news-surface) 0%, var(--news-surface-2) 100%);
+        border: 1px solid var(--news-hairline);
+        border-radius: 12px;
+        padding: 32px 36px;
+        position: relative;
+    }
+    #sec-news .insight-block::before {
+        content: "❝";
+        position: absolute;
+        top: 8px;
+        left: 20px;
+        font-size: 60px;
+        font-family: Georgia, serif;
+        color: var(--news-accent);
+        opacity: 0.3;
+        line-height: 1;
+    }
+    #sec-news .insight-block .insight-text {
+        font-size: 15px;
+        line-height: 1.75;
+        color: var(--news-ink-muted);
+        font-style: italic;
+        margin-bottom: 16px;
+        padding-left: 20px;
+    }
+    #sec-news .insight-block .insight-text strong {
+        color: var(--news-ink);
+        font-weight: 600;
+    }
+    #sec-news .insight-block .insight-byline {
+        font-size: 11px;
+        color: var(--news-ink-subtle);
+        font-family: 'SF Mono', Menlo, monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-align: right;
+    }
+    /* Archive */
+    #sec-news .archive-bar {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 16px;
+        background: var(--news-surface);
+        border: 1px solid var(--news-hairline);
+        border-radius: 10px;
+    }
+    #sec-news .archive-date {
+        font-size: 12px;
+        color: var(--news-ink-muted);
+        background: var(--news-surface-2);
+        border: 1px solid var(--news-hairline);
+        padding: 6px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'SF Mono', Menlo, monospace;
+        transition: all 0.15s;
+    }
+    #sec-news .archive-date:hover {
+        border-color: var(--news-accent);
+        color: var(--news-accent);
+    }
+    #sec-news .archive-date.active {
+        background: var(--news-accent-soft);
+        border-color: var(--news-accent);
+        color: var(--news-accent);
+    }
+    /* Loading + error */
+    #sec-news .news-loading {
+        text-align: center;
+        padding: 60px 20px;
+        color: var(--news-ink-subtle);
+        font-family: 'SF Mono', Menlo, monospace;
+        font-size: 12px;
+    }
+    #sec-news .news-error {
+        text-align: center;
+        padding: 40px 20px;
+        color: #ff6b6b;
+        background: rgba(255, 107, 107, 0.05);
+        border: 1px solid rgba(255, 107, 107, 0.2);
+        border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+        #sec-news .news-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+        #sec-news .news-header h2 { font-size: 28px; }
+        #sec-news .top-story { padding: 22px 24px; }
+        #sec-news .top-story h3 { font-size: 22px; }
+        #sec-news .quick-hits-grid { grid-template-columns: 1fr; }
+        #sec-news .insight-block { padding: 24px; }
+    }
+</style>
+<div class="section active" id="sec-news">
+    <div class="news-header">
+        <div>
+            <h2>📰 AI News</h2>
+            <div class="meta" id="newsMeta">Đang tải...</div>
+        </div>
+        <div style="font-size:11px;color:#62666d;font-family:'SF Mono',Menlo,monospace;">
+            Auto-update daily 8:00 AM
+        </div>
+    </div>
+
+    <div id="newsContent">
+        <div class="news-loading">Đang tải tin tức AI mới nhất...</div>
+    </div>
+
+    <!-- Archive -->
+    <div class="news-section">
+        <div class="news-section-label">Archive</div>
+        <div class="archive-bar" id="archiveBar">
+            <span style="color:#62666d;font-size:11px;font-family:'SF Mono',monospace;">Đang tải archive...</span>
+        </div>
+    </div>
+</div>
+
+<script>
+// AI News loader
+(function() {
+    let currentNewsDate = null;
+
+    async function loadNews(dateStr = null) {
+        const contentDiv = document.getElementById('newsContent');
+        const metaDiv = document.getElementById('newsMeta');
+        contentDiv.innerHTML = '<div class="news-loading">Đang tải tin tức...</div>';
+
+        const url = dateStr
+            ? `news/${dateStr.substring(0,4)}/${dateStr.substring(5,7)}/${dateStr.substring(8,10)}.json`
+            : 'news/latest.json';
+
+        try {
+            const r = await fetch(url + '?t=' + Date.now());
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            const data = await r.json();
+            renderNews(data);
+            currentNewsDate = data.date;
+            metaDiv.textContent = `Cập nhật ${formatDate(data.date)} · ${data.weekday || ''}`;
+        } catch (e) {
+            contentDiv.innerHTML = `<div class="news-error">⚠️ Không tải được tin tức: ${e.message}<br><span style="font-size:11px;color:#888;">Tin tức tự cập nhật 8:00 AM hàng ngày qua GitHub Actions.</span></div>`;
+        }
+    }
+
+    function formatDate(s) {
+        if (!s) return '';
+        const [y, m, d] = s.split('-');
+        return `${d}/${m}/${y}`;
+    }
+
+    function escapeHtml(s) {
+        return (s || '').replace(/[&<>"']/g, c => ({
+            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+        }[c]));
+    }
+
+    function renderTags(tags) {
+        if (!tags || !tags.length) return '';
+        return `<div class="tags">${tags.map(t => `<span class="tag-chip">${escapeHtml(t)}</span>`).join('')}</div>`;
+    }
+
+    function renderNews(data) {
+        const html = [];
+
+        // Top story
+        if (data.top_story) {
+            const ts = data.top_story;
+            html.push(`<div class="news-section">
+                <div class="news-section-label">Top story</div>
+                <div class="top-story">
+                    <div class="badge">🔥 Tin nổi bật</div>
+                    <h3>${escapeHtml(ts.headline)}</h3>
+                    ${ts.summary ? `<div class="summary">${escapeHtml(ts.summary)}</div>` : ''}
+                    ${ts.why ? `<div class="why">${escapeHtml(ts.why)}</div>` : ''}
+                    <div class="footer">
+                        <div class="source">${escapeHtml(ts.source || '')}</div>
+                        ${renderTags(ts.tags)}
+                        ${ts.url ? `<a class="read-link" href="${escapeHtml(ts.url)}" target="_blank" rel="noopener">Đọc đầy đủ →</a>` : ''}
+                    </div>
+                </div>
+            </div>`);
+        }
+
+        // Quick hits
+        if (data.quick_hits && data.quick_hits.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">⚡ Quick hits</div>
+                <div class="quick-hits-grid">
+                    ${data.quick_hits.map(h => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(h.url || '#')}" target="_blank" rel="noopener">${escapeHtml(h.headline)}</a>
+                            ${h.why ? `<div class="why">${escapeHtml(h.why)}</div>` : ''}
+                            ${renderTags(h.tags)}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(h.source || '')}</span>
+                                ${h.url ? `<a class="read-arrow" href="${escapeHtml(h.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
+        // Production
+        if (data.production && data.production.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">🎬 Production AI</div>
+                <div class="production-list quick-hits-grid">
+                    ${data.production.map(p => `
+                        <div class="news-card">
+                            <div class="body">
+                                <a class="headline" href="${escapeHtml(p.url || '#')}" target="_blank" rel="noopener">${escapeHtml(p.headline)}</a>
+                                ${p.summary ? `<div class="summary">${escapeHtml(p.summary)}</div>` : ''}
+                                ${p.why ? `<div class="why">${escapeHtml(p.why)}</div>` : ''}
+                                ${renderTags(p.tags)}
+                                <div class="meta-row">
+                                    <span class="source">${escapeHtml(p.source || '')}</span>
+                                    ${p.url ? `<a class="read-arrow" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
+        // Vietnam
+        if (data.vietnam && data.vietnam.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">🇻🇳 Vietnam AI</div>
+                <div class="vn-list">
+                    ${data.vietnam.map(v => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(v.url || '#')}" target="_blank" rel="noopener">${escapeHtml(v.headline)}</a>
+                            ${v.why ? `<div class="why" style="font-size:12px;color:#8a8f98;">${escapeHtml(v.why)}</div>` : ''}
+                            <span class="source" style="font-size:10px;color:#62666d;font-family:'SF Mono',monospace;">${escapeHtml(v.source || '')}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
+        // Insight
+        if (data.insight) {
+            const fmt = data.insight.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n\n/g, '</p><p>');
+            html.push(`<div class="news-section">
+                <div class="news-section-label">💡 Insight tuần</div>
+                <div class="insight-block">
+                    <div class="insight-text"><p>${fmt}</p></div>
+                    <div class="insight-byline">— Claude Sonnet · AI Mentor</div>
+                </div>
+            </div>`);
+        }
+
+        document.getElementById('newsContent').innerHTML = html.join('');
+    }
+
+    async function loadArchive() {
+        try {
+            const r = await fetch('news/archive-index.json?t=' + Date.now());
+            if (!r.ok) throw new Error('HTTP');
+            const data = await r.json();
+            const bar = document.getElementById('archiveBar');
+            const dates = (data.dates || []).slice(0, 30);
+            if (!dates.length) {
+                bar.innerHTML = '<span style="color:#62666d;font-size:11px;">Chưa có archive.</span>';
+                return;
+            }
+            bar.innerHTML = dates.map(d => {
+                const isActive = d === currentNewsDate;
+                return `<span class="archive-date${isActive ? ' active' : ''}" data-date="${d}">${formatDate(d)}</span>`;
+            }).join('');
+            bar.querySelectorAll('.archive-date').forEach(el => {
+                el.addEventListener('click', () => {
+                    bar.querySelectorAll('.archive-date').forEach(x => x.classList.remove('active'));
+                    el.classList.add('active');
+                    loadNews(el.dataset.date);
+                });
+            });
+        } catch (e) {
+            document.getElementById('archiveBar').innerHTML = '<span style="color:#62666d;font-size:11px;">Archive chưa khả dụng.</span>';
+        }
+    }
+
+    // Auto-load on page load (news = default tab)
+    function initNews() {
+        if (!document.getElementById('newsContent').dataset.loaded) {
+            loadNews();
+            loadArchive();
+            document.getElementById('newsContent').dataset.loaded = '1';
+        }
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initNews);
+    } else {
+        initNews();
+    }
+    // Also reload when user clicks tab (refresh)
+    document.addEventListener('DOMContentLoaded', () => {
+        const newsBtn = document.querySelector('nav button[data-section="news"]');
+        if (newsBtn) newsBtn.addEventListener('click', initNews);
+    });
+})();
+</script>
 
 <!-- SECTION 7: QUIZ -->
 <div class="section" id="sec-quiz">
