@@ -3324,6 +3324,46 @@
             </div>`);
         }
 
+        // Research papers
+        if (data.research && data.research.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">📄 Research & Papers</div>
+                <div class="quick-hits-grid">
+                    ${data.research.map(r => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(r.url || '#')}" target="_blank" rel="noopener">${escapeHtml(r.headline)}</a>
+                            ${r.summary ? `<div class="summary">${escapeHtml(r.summary)}</div>` : ''}
+                            ${r.why ? `<div class="why">${escapeHtml(r.why)}</div>` : ''}
+                            ${renderTags(r.tags)}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(r.source || '')}</span>
+                                ${r.url ? `<a class="read-arrow" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
+        // Open source repos (GitHub trending)
+        if (data.opensource && data.opensource.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">⭐ Open Source Trending</div>
+                <div class="quick-hits-grid">
+                    ${data.opensource.map(o => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(o.url || '#')}" target="_blank" rel="noopener">${escapeHtml(o.headline)}</a>
+                            ${o.why ? `<div class="why">${escapeHtml(o.why)}</div>` : ''}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(o.source || 'GitHub')}${o.stars ? ' · ⭐ ' + escapeHtml(String(o.stars)) : ''}</span>
+                                ${o.url ? `<a class="read-arrow" href="${escapeHtml(o.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
         // Vietnam
         if (data.vietnam && data.vietnam.length) {
             html.push(`<div class="news-section">

@@ -1,178 +1,267 @@
 {
   "date": "2026-05-10",
-  "updated_at": "2026-05-10T15:01:46.461801+07:00",
+  "updated_at": "2026-05-10T15:15:46.666481+07:00",
   "weekday": "Sunday",
   "top_story": {
-    "headline": "Cloudflare Cắt Giảm 1.100 Việc Làm Do Tăng Cường Sử Dụng AI",
-    "summary": "Cloudflare báo cáo mức tăng 600% trong việc sử dụng AI trong ba tháng qua, dẫn đến việc tái cấu trúc và sa thải 1.100 nhân viên. Đây là một phần của chiến lược chuyển đổi sang mô hình 'Agentic AI'.",
-    "why": "Các nhà quản lý cần chuẩn bị cho tác động của AI lên cơ cấu nhân sự và quy trình làm việc. Tin tức này cho thấy AI không chỉ tối ưu hóa mà còn có thể thay thế đáng kể, đòi hỏi kế hoạch chuyển đổi và đào tạo lại lực lượng lao động.",
+    "headline": "Cloudflare Tăng 600% Sử Dụng AI, Cắt Giảm 1.100 Việc Làm",
+    "summary": "Cloudflare báo cáo mức tăng đáng kể 600% trong việc sử dụng AI trong quý vừa qua, dẫn đến tái cấu trúc tổ chức và cắt giảm 1.100 vị trí. Đây là một phần của chiến lược chuyển dịch sang mô hình \"Agentic AI\".",
+    "why": "Các nhà quản lý và sản xuất cần lưu ý: việc áp dụng AI có thể tối ưu hóa vận hành nhưng cũng đòi hỏi tái cấu trúc nhân sự lớn. Điều này nhấn mạnh tầm quan trọng của việc lên kế hoạch chuyển đổi AI và đào tạo lại nhân viên để thích ứng với các vai trò mới.",
     "source": "r/singularity (CNBC)",
     "url": "https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html",
     "tags": [
-      "AI & Việc làm",
-      "Tái cấu trúc",
-      "Kinh doanh AI",
-      "Tác động xã hội"
+      "AI Adoption",
+      "Layoffs",
+      "Business Strategy",
+      "Agentic AI"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Qwen 3.6 27B Chạy Offline Gần Ngang Claude Opus",
-      "why": "Mở ra khả năng chạy các mô hình AI mạnh mẽ trên thiết bị cá nhân (local LLMs) mà không cần internet, giảm chi phí API và tăng cường bảo mật dữ liệu cho các team sáng tạo và sản xuất.",
+      "headline": "Qwen 3.6 27B Gần Đạt Hiệu Suất Claude Opus Ngay Cả Khi Offline",
+      "why": "Creative và developer có thể chạy các mô hình ngôn ngữ mạnh mẽ (gần bằng Claude Opus) trên thiết bị cá nhân mà không cần kết nối internet, mở rộng khả năng làm việc offline và bảo mật dữ liệu.",
       "source": "r/ClaudeAI",
-      "url": "https://i.redd.it/8kvx6mhm880h1.png",
+      "url": "https://i.redd.it/8kv5nahm880h1.png",
       "tags": [
-        "LLM cục bộ",
+        "Local LLM",
         "Qwen",
-        "Hiệu suất AI",
-        "Tiết kiệm chi phí"
+        "Offline AI",
+        "Performance"
       ]
     },
     {
-      "headline": "LLM Local Đạt Tốc Độ Cao, Context Lớn Trên GPU Phổ Thông",
-      "why": "Các team production/dev có thể triển khai LLM mạnh mẽ (128K context, 80+ tok/sec) trên các card đồ họa 12GB VRAM (như RTX 3090) với chi phí thấp hơn nhiều so với API, tối ưu hóa ngân sách và kiểm soát dữ liệu.",
+      "headline": "Qwen 3.6 35B Đạt 80 Tok/Giây Với 128K Context Trên 12GB VRAM",
+      "why": "Các kỹ sư và nhà phát triển AI có thể đạt được tốc độ xử lý token cao và context dài trên các GPU có VRAM hạn chế (12GB), giúp tối ưu hóa chi phí phần cứng cho các dự án LLM cục bộ.",
       "source": "r/LocalLLaMA",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t82zxv/80_toksec_and_128k_context_on_12gb_vram_with/",
       "tags": [
-        "LLM cục bộ",
-        "GPU",
-        "Hiệu suất AI",
-        "Phần cứng AI"
+        "Local LLM",
+        "Performance",
+        "VRAM Optimization",
+        "Qwen"
       ]
     },
     {
-      "headline": "Cảnh Báo: LLM Có Thể 'Làm Hỏng' Tài Liệu Khi Giao Việc",
-      "why": "Các nhà quản lý và sáng tạo cần cẩn trọng khi giao phó việc xử lý tài liệu quan trọng cho LLM, vì có nguy cơ mô hình thay đổi hoặc làm sai lệch nội dung gốc, đòi hỏi quy trình kiểm tra chặt chẽ.",
+      "headline": "Hiệu Quả Bất Ngờ Khi Dùng HTML Với Claude Code",
+      "why": "Các nhà phát triển và creative có thể tận dụng HTML để cấu trúc prompt cho Claude Code, giúp AI hiểu và tạo mã chính xác hơn, tiết kiệm thời gian gỡ lỗi và cải thiện chất lượng output.",
       "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2604.15597",
+      "url": "https://twitter.com/trq212/status/2052809885763747935",
       "tags": [
-        "Bảo mật dữ liệu",
-        "Quản lý",
-        "LLM",
-        "Rủi ro AI"
+        "Claude",
+        "Prompt Engineering",
+        "Code Generation",
+        "Developer Tools"
       ]
     },
     {
       "headline": "Apple Loại Bỏ Phiên Bản Mac Studio M3 Ultra 256GB VRAM",
-      "why": "Quyết định này của Apple có thể ảnh hưởng đến các chuyên gia sáng tạo và nhà phát triển AI đang tìm kiếm phần cứng mạnh mẽ để chạy các mô hình AI cục bộ, giới hạn lựa chọn cho các tác vụ nặng về VRAM.",
+      "why": "Quyết định này của Apple có thể ảnh hưởng đến các chuyên gia AI và creative đang tìm kiếm phần cứng mạnh mẽ cho các tác vụ LLM cục bộ, cho thấy xu hướng phần cứng có thể thay đổi và cần cân nhắc kỹ khi đầu tư.",
       "source": "r/LocalLLaMA",
       "url": "https://www.macobserver.com/news/apple-removes-256gb-m3-ultra-mac-studio-model-from-online-store/",
       "tags": [
-        "Phần cứng AI",
-        "Mac Studio",
-        "VRAM",
-        "LLM cục bộ"
+        "Hardware",
+        "Local LLM",
+        "Apple",
+        "VRAM"
       ]
     },
     {
-      "headline": "Claude Hiệu Quả Bất Ngờ Trong Việc Sắp Xếp Ý Tưởng Lộn Xộn",
-      "why": "Các creative và manager có thể tận dụng Claude như một công cụ hỗ trợ brainstorm, giúp cấu trúc lại các ý tưởng chưa hoàn chỉnh hoặc ghi chú lộn xộn thành nội dung mạch lạc, tiết kiệm thời gian tư duy.",
+      "headline": "Claude Giúp Sắp Xếp Suy Nghĩ Lộn Xộn Hiệu Quả Bất Ngờ",
+      "why": "Creative và manager có thể sử dụng Claude như một công cụ hỗ trợ tư duy, giúp tổ chức các ý tưởng chưa hoàn chỉnh thành cấu trúc rõ ràng, tăng hiệu suất trong giai đoạn lên kế hoạch và brainstorm.",
       "source": "r/ClaudeAI",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1t85f3i/claude_is_weirdly_good_at_helping_untangle_messy/",
       "tags": [
-        "Claude AI",
-        "Sáng tạo",
-        "Quản lý",
-        "Brainstorm"
+        "Productivity",
+        "Brainstorming",
+        "Claude",
+        "Creative Process"
       ]
     },
     {
-      "headline": "NVIDIA AI Ra Mắt Star Elastic: Mô Hình 'Một Cho Tất Cả'",
-      "why": "Star Elastic cho phép các team phát triển và triển khai AI linh hoạt hơn, có thể chọn kích thước mô hình (30B, 23B, 12B) từ một checkpoint duy nhất, tối ưu hóa hiệu suất và tài nguyên tùy theo nhu cầu dự án.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t8s83r/nvidia_ai_releases_star_elastic_one_checkpoint/",
+      "headline": "Claude Cải Thiện Hiệu Suất Agent Harness Hơn 40%",
+      "why": "Điều này cho thấy tiềm năng của việc sử dụng AI để tối ưu hóa các hệ thống AI khác (agent engineering), giúp các nhà phát triển đạt được hiệu suất cao hơn trong các ứng dụng tự động hóa phức tạp.",
+      "source": "r/ClaudeAI",
+      "url": "https://i.redd.it/6df3za62m50h1.png",
       "tags": [
-        "NVIDIA",
-        "Mô hình AI",
-        "Triển khai AI",
-        "Tối ưu hóa"
+        "Agentic AI",
+        "Claude",
+        "AI Optimization",
+        "Developer Tools"
       ]
     },
     {
       "headline": "DeepSeek Từ Chối Alibaba, Ưu Tiên Độc Lập Doanh Nghiệp",
-      "why": "Quyết định này cho thấy xu hướng các công ty AI nhỏ hơn muốn giữ quyền tự chủ chiến lược, tránh bị chi phối bởi các ông lớn công nghệ, điều này có thể thúc đẩy sự đa dạng và cạnh tranh trong thị trường AI.",
+      "why": "Quyết định này phản ánh xu hướng các công ty AI mới nổi muốn giữ quyền tự chủ chiến lược thay vì trở thành một phần của hệ sinh thái công nghệ lớn, ảnh hưởng đến cục diện cạnh tranh và đầu tư trong ngành AI.",
       "source": "r/LocalLLaMA",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t81u76/deepseek_rejects_alibaba_prioritizing_corporate/",
       "tags": [
+        "Industry News",
+        "Investment",
         "DeepSeek",
-        "Kinh doanh AI",
-        "Chiến lược",
-        "Thị trường AI"
+        "AI Strategy"
       ]
     },
     {
-      "headline": "Nhân Viên Meta Khốn Khổ Vì Áp Dụng AI Nội Bộ",
-      "why": "Các nhà quản lý cần rút kinh nghiệm từ Meta: việc áp dụng AI để theo dõi và tối ưu hóa hiệu suất nhân viên mà không có sự cân nhắc kỹ lưỡng về quyền riêng tư và văn hóa có thể gây ra sự bất mãn và giảm năng suất.",
-      "source": "NYTimes",
-      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "headline": "AI Đang Phá Vỡ Hai Văn Hóa Bảo Mật Lỗ Hổng",
+      "why": "Các nhà quản lý và đội ngũ an ninh mạng cần nhận thức rõ rằng AI đang tạo ra những thách thức mới về bảo mật, đòi hỏi phải thay đổi cách tiếp cận truyền thống để bảo vệ hệ thống và dữ liệu.",
+      "source": "Hacker News",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
       "tags": [
-        "Meta",
-        "Văn hóa doanh nghiệp",
-        "Quản lý",
-        "Tác động AI"
+        "AI Security",
+        "Cybersecurity",
+        "Vulnerability",
+        "Risk Management"
       ]
     }
   ],
   "production": [
     {
-      "headline": "AI Tạo Ảnh Siêu Thực Trên Card Đồ Họa Phổ Thông (RTX 2060)",
-      "summary": "Với các công cụ như Z-Image-Turbo, người dùng có thể tạo ra hình ảnh AI cực kỳ chân thực ngay trên các card đồ họa tầm trung như RTX 2060, bao gồm cả upscale chi tiết.",
-      "why": "Các team sáng tạo và production có thể giảm đáng kể chi phí phần cứng và thời gian render, cho phép thử nghiệm và lặp lại nhanh hơn trong quá trình tạo nội dung hình ảnh chất lượng cao.",
+      "headline": "Z-Image-Turbo: AI Tạo Ảnh Siêu Thực Trên Card Đồ Họa Cũ",
+      "summary": "Người dùng chia sẻ khả năng tạo ảnh cực kỳ chân thực bằng Z-Image-Turbo trên card đồ họa RTX 2060, cho thấy AI tạo sinh chất lượng cao ngày càng dễ tiếp cận.",
+      "why": "Creative/production team có thể tạo ra hình ảnh chất lượng cao mà không cần đầu tư phần cứng đắt đỏ, mở rộng khả năng thử nghiệm và sản xuất nội dung với chi phí thấp hơn, tăng tốc quy trình sáng tạo.",
       "source": "r/StableDiffusion",
       "url": "https://www.reddit.com/gallery/1t8ehyj",
       "tags": [
-        "Tạo ảnh AI",
+        "Image Generation",
         "Stable Diffusion",
-        "GPU",
-        "Tối ưu chi phí"
+        "Low-Cost Production",
+        "Creative Tools"
       ]
     },
     {
-      "headline": "Cảnh Matrix Tốn 40 Triệu USD Giờ AI Làm Trong Một Cuối Tuần",
-      "summary": "Một cảnh phim phức tạp như 'bullet time' trong Matrix từng tốn 40 triệu USD và gần một năm sản xuất, nay có thể được tái tạo bằng AI trong vài ngày.",
-      "why": "Đây là minh chứng rõ ràng cho khả năng AI cách mạng hóa ngành sản xuất video, giúp các team production giảm chi phí và thời gian đáng kể cho các hiệu ứng phức tạp, mở ra cơ hội cho các dự án quy mô nhỏ hơn.",
-      "source": "r/artificial",
-      "url": "https://v.redd.it/oos3e91ax50h1",
-      "tags": [
-        "Tạo video AI",
-        "Hiệu ứng hình ảnh",
-        "Sản xuất phim",
-        "Tiết kiệm thời gian"
-      ]
-    },
-    {
-      "headline": "Thảo Luận Về Hiệu Quả Của Booru Tags Trong Tạo Ảnh AI",
-      "summary": "Cộng đồng AI đang tranh luận về việc liệu Booru tags (thẻ mô tả ngắn gọn, cụ thể) có hiệu quả hơn ngôn ngữ tự nhiên trong việc tạo ảnh AI chất lượng cao hay không.",
-      "why": "Các creative và prompt engineer có thể cân nhắc sử dụng Booru tags để đạt được kết quả chính xác và nhất quán hơn khi tạo hình ảnh, tối ưu hóa quy trình làm prompt và giảm thời gian thử nghiệm.",
-      "source": "r/StableDiffusion",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1t8150y/why_did_we_move_away_from_booru_tags/",
-      "tags": [
-        "Prompt engineering",
-        "Tạo ảnh AI",
-        "Stable Diffusion",
-        "Kỹ thuật AI"
-      ]
-    },
-    {
-      "headline": "Workflow Wan 2.2 & LTX 2.3 ID-LoRA Cho Video AI Chất Lượng",
-      "summary": "Một workflow mới kết hợp Comfy Wan 2.2 (image-to-video) và Comfy LTX 2.3 ID-LoRA giúp tạo video AI với khả năng duy trì nhận diện nhân vật tốt hơn.",
-      "why": "Các team sản xuất video có thể áp dụng workflow này để tạo ra các đoạn phim AI chất lượng cao hơn, đặc biệt hữu ích cho việc giữ tính nhất quán của nhân vật trong các cảnh quay, tiết kiệm thời gian chỉnh sửa hậu kỳ.",
+      "headline": "Workflow Wan 2.2 + LTX 2.3 ID-LoRA: Tạo Video Từ Ảnh Hiệu Quả",
+      "summary": "Một workflow mới kết hợp Comfy Wan 2.2 (image-to-video) và Comfy LTX 2.3 ID-LoRA, giúp tạo video từ ảnh với khả năng giữ ID nhân vật nhất quán.",
+      "why": "Các nhà sản xuất video và creative có thể tạo ra các đoạn phim ngắn hoặc hoạt ảnh từ ảnh tĩnh nhanh chóng, duy trì nhận diện nhân vật, tiết kiệm thời gian và chi phí so với các phương pháp truyền thống.",
       "source": "r/StableDiffusion",
       "url": "https://www.reddit.com/r/StableDiffusion/comments/1t8qloh/wan_22_with_ltx_23_idlora/",
       "tags": [
-        "Tạo video AI",
-        "Workflow AI",
+        "Video Generation",
+        "Image-to-Video",
         "ComfyUI",
-        "Sản xuất video"
+        "LoRA",
+        "Creative Workflow"
+      ]
+    },
+    {
+      "headline": "Sesame x Gemini: AI Tạo Sinh Đa Phương Thức Siêu Thực, Độ Trễ Thấp",
+      "summary": "Sự kết hợp giữa Sesame và Gemini mang lại khả năng tạo sinh đa phương thức với độ trễ cực thấp và mức độ chân thực đáng kinh ngạc, thậm chí còn có khả năng tự cộng tác.",
+      "why": "Mở ra tiềm năng lớn cho các ứng dụng tương tác thời gian thực trong game, VR/AR, hoặc sản xuất nội dung động, nơi các creative có thể tạo ra trải nghiệm sống động và phản ứng nhanh.",
+      "source": "r/singularity",
+      "url": "https://v.redd.it/ywxhmtj5u70h1",
+      "tags": [
+        "Multimodal AI",
+        "Real-time AI",
+        "Generative AI",
+        "Gemini",
+        "Interactive Content"
+      ]
+    },
+    {
+      "headline": "AI Giảm Chi Phí Sản Xuất Hiệu Ứng Phim Từ Hàng Triệu Đô Xuống Cuối Tuần",
+      "summary": "Bình luận viên so sánh cảnh phim Matrix tốn 40 triệu USD và gần một năm sản xuất cách đây 23 năm, nay có thể được tái tạo bằng AI trong một cuối tuần.",
+      "why": "Điều này cho thấy AI đang cách mạng hóa ngành sản xuất phim và hiệu ứng hình ảnh, giúp các studio nhỏ hoặc creative độc lập có thể tạo ra nội dung chất lượng cao với ngân sách và thời gian cực kỳ hạn chế.",
+      "source": "r/artificial",
+      "url": "https://v.redd.it/oos3e91ax50h1",
+      "tags": [
+        "Film Production",
+        "VFX",
+        "Cost Reduction",
+        "Creative Empowerment"
       ]
     }
   ],
   "vietnam": [],
-  "insight": "Tuần này có một tín hiệu rất rõ: **AI đang chuyển từ thử nghiệm sang tái cấu trúc thật**. Cloudflare cắt 1.100 người vì tăng 600% sử dụng AI trong ba tháng, Meta làm nhân viên khốn khổ vì áp AI nội bộ thiếu cân nhắc, còn cảnh Matrix 40 triệu USD giờ làm trong một cuối tuần. Đây không phải trend \"AI sẽ thay đổi tương lai\" nữa—nó đang thay đổi *hôm nay*. Nhưng điều đáng chú ý hơn là **sự phân hóa giữa ai kiểm soát được công nghệ và ai bị công nghệ kiểm soát**: local LLMs (Qwen 3.6, RTX 3090 chạy 128K context) cho thấy con đường thứ ba giữa sa thải hàng loạt và lệ thuộc API đắt đỏ.\n\nVới production house và agency Việt Nam, **đây là lúc định hình chiến lược AI trong 6-12 tháng tới, không phải năm sau**. Nếu chỉ dùng AI để \"tối ưu quy trình hiện tại\" như Cloudflare hay Meta, bạn sẽ rơi vào bẫy cắt giảm chi phí ngắn hạn nhưng mất khả năng cạnh tranh. Câu hỏi thật không phải \"AI có thay thế team không?\" mà là \"Team mình có *kiểm soát* AI để tạo lợi thế riêng không?\". Cảnh báo về LLM làm hỏng tài liệu và câu chuyện Meta cũng nhắc nhở: áp dụng AI mù quáng gây thiệt hại thật, không phải lo xa vời.\n\n**Leverage point cụ thể**: Đầu tư thử nghiệm local LLM ngay tuần này—không cần mua server mới, bắt đầu với RTX 3090 hoặc card 12GB VRAM có sẵn. Chạy Qwen 3.6 27B hoặc các model tương đương cho script development, brainstorm concepts (như case Claude untangle ideas), hoặc xử lý subtitles/documentation. Mục tiêu là trong 1-2 tháng, team hiểu rõ đâu là công việc AI làm được 80% (để tự động hóa), đâu là 20% cần human judgment (để bảo vệ). Đừng để 6 tháng sau phải học bài này trong áp lực cắt giảm ngân sách.",
+  "research": [
+    {
+      "headline": "Nghiên Cứu: LLM Có Thể Làm Hỏng Tài Liệu Khi Được Giao Nhiệm Vụ",
+      "summary": "Một nghiên cứu cảnh báo rằng các mô hình ngôn ngữ lớn (LLM) có thể vô tình làm hỏng hoặc thay đổi dữ liệu trong tài liệu khi được giao các nhiệm vụ xử lý hoặc tổng hợp.",
+      "why": "Các nhà quản lý và đội ngũ phát triển AI cần đặc biệt chú ý đến tính toàn vẹn của dữ liệu khi sử dụng LLM cho các tác vụ tự động hóa tài liệu, yêu cầu quy trình kiểm soát chặt chẽ để tránh sai sót.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "tags": [
+        "LLM",
+        "Data Integrity",
+        "AI Safety",
+        "Agentic AI"
+      ]
+    },
+    {
+      "headline": "Anthropic Nghiên Cứu \"Dạy Claude Hiểu Lý Do\"",
+      "summary": "Anthropic đang nghiên cứu cách để các mô hình AI như Claude không chỉ đưa ra câu trả lời mà còn giải thích được \"tại sao\" chúng lại đưa ra câu trả lời đó.",
+      "why": "Việc AI có khả năng giải thích lý do sẽ cải thiện đáng kể độ tin cậy và khả năng gỡ lỗi cho các nhà phát triển, đồng thời giúp người dùng cuối hiểu rõ hơn về quyết định của AI, đặc biệt quan trọng trong các ứng dụng yêu cầu tính minh bạch cao.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "tags": [
+        "Explainable AI",
+        "LLM",
+        "Claude",
+        "AI Transparency"
+      ]
+    },
+    {
+      "headline": "Vượt Xa Tương Đồng Ngữ Nghĩa: Cách Tiếp Cận Mới Cho Tìm Kiếm Dựa Trên Agent",
+      "summary": "Bài nghiên cứu đề xuất một phương pháp mới cho hệ thống truy xuất thông tin, cho phép các AI agent tương tác trực tiếp với kho dữ liệu thay vì chỉ dựa vào tìm kiếm tương đồng ngữ nghĩa cố định.",
+      "why": "Điều này có thể giúp các AI agent thực hiện tìm kiếm thông tin chính xác và linh hoạt hơn, cải thiện hiệu quả của các ứng dụng AI cần truy cập và phân tích dữ liệu phức tạp trong sản xuất và nghiên cứu.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.05242",
+      "tags": [
+        "Retrieval Augmented Generation",
+        "Agentic AI",
+        "Information Retrieval",
+        "Research"
+      ]
+    },
+    {
+      "headline": "NVIDIA AI Ra Mắt Star Elastic: Mô Hình Suy Luận Đa Kích Thước Trong Một Checkpoint",
+      "summary": "NVIDIA AI giới thiệu Star Elastic, một checkpoint duy nhất chứa các mô hình suy luận 30B, 23B và 12B, cho phép \"cắt lát\" không cần huấn luyện lại để phù hợp với các yêu cầu tính toán khác nhau.",
+      "why": "Các nhà phát triển và kỹ sư có thể linh hoạt chọn kích thước mô hình phù hợp với tài nguyên phần cứng và hiệu suất mong muốn mà không cần quản lý nhiều checkpoint, tối ưu hóa triển khai AI trên nhiều nền tảng.",
+      "source": "NVIDIA AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t8s83r/nvidia_ai_releases_star_elastic_one_checkpoint/",
+      "tags": [
+        "LLM",
+        "Model Optimization",
+        "NVIDIA",
+        "Scalability"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n-io/n8n: Nền Tảng Tự Động Hóa Workflow Tích Hợp AI",
+      "why": "Các nhà quản lý và đội ngũ vận hành có thể tự động hóa các quy trình làm việc phức tạp, kết nối hơn 400 ứng dụng và tích hợp AI để tối ưu hóa hiệu suất, giảm công sức thủ công.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "187282"
+    },
+    {
+      "headline": "langgenius/dify: Nền Tảng Phát Triển Workflow Agentic Sẵn Sàng Sản Xuất",
+      "why": "Giúp các nhà phát triển dễ dàng xây dựng và triển khai các AI agent phức tạp vào môi trường sản xuất, đẩy nhanh quá trình đưa các giải pháp AI tự động hóa vào thực tế.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "140777"
+    },
+    {
+      "headline": "open-webui/open-webui: Giao Diện AI Thân Thiện Cho Ollama, OpenAI API",
+      "why": "Cung cấp một giao diện người dùng dễ sử dụng để tương tác với các mô hình AI cục bộ (Ollama) hoặc qua API (OpenAI), giúp các nhà phát triển và người dùng cuối dễ dàng thử nghiệm và triển khai LLM.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "136379"
+    },
+    {
+      "headline": "firecrawl/firecrawl: API Tìm Kiếm, Cào Dữ Liệu Web Cho AI",
+      "why": "Giúp các nhà phát triển AI dễ dàng thu thập và xử lý dữ liệu từ web, cung cấp nguồn dữ liệu phong phú và cập nhật cho việc huấn luyện hoặc tăng cường khả năng của các mô hình AI.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "117622"
+    }
+  ],
+  "insight": "Tuần này đánh dấu một điểm uốn quan trọng: **AI đã chuyển từ \"công cụ thử nghiệm\" sang \"lực lượng tái cấu trúc tổ chức\"**. Cloudflare không chỉ tăng 600% sử dụng AI mà còn cắt 1.100 người — đây không phải tin tức xa lạ nữa, mà là pattern đang lặp lại ở nhiều công ty tech. Điều đáng chú ý hơn là sự bùng nổ của **local AI mạnh mẽ với chi phí cực thấp**: Qwen 3.6 chạy gần ngang Claude Opus trên laptop, Z-Image-Turbo tạo ảnh photorealistic trên card đồ họa 2060 cũ. Khoảng cách giữa \"AI doanh nghiệp lớn\" và \"AI mà bất kỳ studio nhỏ nào cũng chạy được\" đang thu hẹp với tốc độ chóng mặt.\n\nVới production house/agency Việt Nam, đây là **cơ hội vàng để leap-frog**, nhưng cũng là cảnh báo đỏ về tốc độ hành động. Trong khi các công ty lớn đang tái cấu trúc toàn bộ quy trình, các studio VN vẫn đang trong giai đoạn \"thử AI xem sao\". Khoảng trống này sẽ không tồn tại lâu — client sẽ sớm kỳ vọng turnaround nhanh hơn, chi phí thấp hơn, và chất lượng không thay đổi. Các studio chưa biết leverage local LLM cho script development, chưa có pipeline image-to-video tự động, hay chưa dùng AI để structure brainstorm sẽ nhanh chóng mất competitive edge.\n\n**Hành động cụ thể ngay tuần này**: Chọn 1 khâu bottleneck trong production (script revision, mood board generation, hay client brief organization) và test local AI solution trong 2 tuần. Không cần đầu tư phần cứng mới — tools như Qwen 3.6 chạy ngon trên hardware hiện có. Quan trọng là xây dựng **internal knowledge** về cách prompt, cách integrate vào workflow thực tế, và đo lường thời gian tiết kiệm được. Vì 6 tháng nữa, đây sẽ không còn là competitive advantage mà là baseline requirement.",
   "sources_count": {
-    "raw": 102,
+    "raw": 169,
     "brave": 52,
-    "reddit": 44,
-    "hackernews": 6
+    "reddit": 42,
+    "hackernews": 6,
+    "rss": 51,
+    "huggingface": 8,
+    "github": 10
   }
 }

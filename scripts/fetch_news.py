@@ -66,6 +66,22 @@ REDDIT_SUBS = [
     "MachineLearning",
 ]
 
+# Tier 1 RSS feeds (authoritative real-time AI news)
+RSS_FEEDS = [
+    ("techcrunch_ai", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("verge_ai", "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"),
+    ("arstechnica_ai", "https://arstechnica.com/ai/feed/"),
+    ("venturebeat_ai", "https://venturebeat.com/category/ai/feed/"),
+    ("mit_tech_review", "https://www.technologyreview.com/feed/"),
+    ("arxiv_cs_ai", "http://export.arxiv.org/rss/cs.AI"),
+]
+
+# Vietnam tech RSS
+VN_RSS = [
+    ("vnexpress_tech", "https://vnexpress.net/rss/so-hoa.rss"),
+    ("genk", "https://genk.vn/rss/home.rss"),
+]
+
 HEADERS = {
     "User-Agent": "AILiteracyNewsBot/1.0 (+https://flare119.github.io/ai-literacy)"
 }
@@ -139,6 +155,105 @@ def fetch_reddit(sub, limit=15):
         return results
     except Exception as e:
         print(f"  [err] reddit r/{sub}: {e}")
+        return []
+
+
+def fetch_rss(name, url, limit=10, ai_filter=False):
+    """Fetch RSS/Atom feed. Pure stdlib XML parser."""
+    import xml.etree.ElementTree as ET
+    try:
+        raw = http_get(url, timeout=20)
+        root = ET.fromstring(raw)
+        # Strip namespaces
+        for elem in root.iter():
+            if '}' in elem.tag:
+                elem.tag = elem.tag.split('}', 1)[1]
+        items = root.findall('.//item') or root.findall('.//entry')
+        results = []
+        ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt",
+                       "claude", "gemini", "anthropic", "openai", "model", "chatbot",
+                       "neural", "deep learning", "agent", "trí tuệ nhân tạo"]
+        for it in items[:limit * 3]:
+            title = (it.findtext('title') or "").strip()
+            link = (it.findtext('link') or "").strip()
+            if not link:
+                link_el = it.find('link')
+                if link_el is not None:
+                    link = link_el.get('href', '') or (link_el.text or '')
+            desc = (it.findtext('description') or it.findtext('summary') or "").strip()
+            # Strip HTML tags from desc
+            import re
+            desc = re.sub(r'<[^>]+>', '', desc)[:400]
+            pub = (it.findtext('pubDate') or it.findtext('published') or "").strip()
+            if not title or not link:
+                continue
+            if ai_filter:
+                blob = (title + " " + desc).lower()
+                if not any(k in blob for k in ai_keywords):
+                    continue
+            results.append({
+                "title": title,
+                "url": link,
+                "snippet": desc,
+                "source": name.replace("_", " ").title(),
+                "published": pub,
+                "_origin": "rss"
+            })
+            if len(results) >= limit:
+                break
+        return results
+    except Exception as e:
+        print(f"  [err] rss {name}: {e}")
+        return []
+
+
+def fetch_huggingface_papers(limit=10):
+    """HuggingFace daily papers — research highlights."""
+    try:
+        data = json.loads(http_get("https://huggingface.co/api/daily_papers", timeout=20))
+        results = []
+        for p in data[:limit]:
+            paper = p.get("paper", {})
+            title = paper.get("title", "")
+            url = f"https://huggingface.co/papers/{paper.get('id', '')}"
+            summary = paper.get("summary", "")[:400]
+            results.append({
+                "title": title,
+                "url": url,
+                "snippet": summary,
+                "source": "HuggingFace Papers",
+                "published": paper.get("publishedAt", ""),
+                "score": paper.get("upvotes", 0),
+                "_origin": "huggingface"
+            })
+        return results
+    except Exception as e:
+        print(f"  [err] huggingface: {e}")
+        return []
+
+
+def fetch_github_trending_ai(limit=10):
+    """GitHub trending AI repos via search API (no auth needed)."""
+    try:
+        # Repos with AI topics, recently updated, sorted by stars
+        from datetime import timedelta as td
+        since = (NOW - td(days=7)).strftime("%Y-%m-%d")
+        url = f"https://api.github.com/search/repositories?q=topic:ai+pushed:>{since}&sort=stars&order=desc&per_page={limit}"
+        data = json.loads(http_get(url, headers={**HEADERS, "Accept": "application/vnd.github+json"}))
+        results = []
+        for r in data.get("items", [])[:limit]:
+            results.append({
+                "title": f"{r['full_name']}: {r.get('description', '')[:120]}",
+                "url": r.get("html_url", ""),
+                "snippet": r.get("description", "")[:300] + f" · ⭐ {r.get('stargazers_count', 0)} · {r.get('language', '')}",
+                "source": "GitHub Trending",
+                "published": r.get("updated_at", ""),
+                "score": r.get("stargazers_count", 0),
+                "_origin": "github"
+            })
+        return results
+    except Exception as e:
+        print(f"  [err] github: {e}")
         return []
 
 
@@ -237,8 +352,10 @@ Yêu cầu nội dung:
 1. Chọn 1 TOP STORY quan trọng nhất hôm nay (impact lớn nhất với ngành, hoặc tin breaking)
 2. Chọn 5-8 QUICK HITS — tin đáng đọc, mỗi tin headline punchy + why ngắn
 3. Chọn 2-4 PRODUCTION AI — tin về AI image/video/production tools (Higgsfield, Kling, Seedance, Veo, Sora, Runway, Midjourney, FLUX...)
-4. Chọn 0-3 VIETNAM — tin AI Việt Nam nếu có
-5. Loại tin trùng lặp, clickbait, low quality
+4. Chọn 0-3 VIETNAM — tin AI Việt Nam nếu có (ưu tiên tin từ vnexpress, genk, hoặc các tin về VinAI, FPT, Zalo, Viettel)
+5. Chọn 2-4 RESEARCH — papers/models nổi bật từ HuggingFace / arXiv (nếu có trong list, dùng "huggingface" hoặc "arxiv" trong _origin)
+6. Chọn 2-4 OPEN SOURCE — repos GitHub trending AI (nếu có _origin "github")
+7. Loại tin trùng lặp, clickbait, low quality
 
 Output CHÍNH XÁC theo schema JSON sau (không thêm text ngoài JSON):
 
@@ -260,6 +377,12 @@ Output CHÍNH XÁC theo schema JSON sau (không thêm text ngoài JSON):
   ],
   "vietnam": [
     {{"headline": "...", "why": "1 dòng ý nghĩa với thị trường VN", "source": "...", "url": "..."}}
+  ],
+  "research": [
+    {{"headline": "Tên paper/model bằng tiếng Việt", "summary": "1-2 dòng giải thích bằng ngôn ngữ đời thường (không jargon)", "why": "1 dòng implication thực tế cho production/creative", "source": "HuggingFace Papers OR arXiv", "url": "...", "tags": ["..."]}}
+  ],
+  "opensource": [
+    {{"headline": "Tên repo + 1 dòng mô tả", "why": "1 dòng tại sao đáng quan tâm", "source": "GitHub Trending", "url": "...", "stars": "số sao nếu có"}}
   ]
 }}
 
@@ -363,6 +486,30 @@ def main():
     all_articles.extend(hn)
     print(f"  HN: {len(hn)}")
 
+    print("\nFetching Tier-1 RSS feeds...")
+    for name, url in RSS_FEEDS:
+        articles = fetch_rss(name, url, limit=8, ai_filter=False)
+        all_articles.extend(articles)
+        print(f"  {name}: {len(articles)}")
+        time.sleep(0.5)
+
+    print("\nFetching Vietnam RSS...")
+    for name, url in VN_RSS:
+        articles = fetch_rss(name, url, limit=10, ai_filter=True)  # filter VN feeds for AI keyword
+        all_articles.extend(articles)
+        print(f"  {name}: {len(articles)} (AI-filtered)")
+        time.sleep(0.5)
+
+    print("\nFetching HuggingFace papers...")
+    hf = fetch_huggingface_papers(limit=8)
+    all_articles.extend(hf)
+    print(f"  HF papers: {len(hf)}")
+
+    print("\nFetching GitHub trending AI...")
+    gh = fetch_github_trending_ai(limit=10)
+    all_articles.extend(gh)
+    print(f"  GitHub: {len(gh)}")
+
     print(f"\nTotal raw: {len(all_articles)}")
     all_articles = dedupe(all_articles)
     print(f"After dedupe: {len(all_articles)}")
@@ -398,12 +545,17 @@ def main():
         "quick_hits": digest.get("quick_hits", []),
         "production": digest.get("production", []),
         "vietnam": digest.get("vietnam", []),
+        "research": digest.get("research", []),
+        "opensource": digest.get("opensource", []),
         "insight": insight,
         "sources_count": {
             "raw": len(all_articles),
             "brave": sum(1 for a in all_articles if a["_origin"] == "brave"),
             "reddit": sum(1 for a in all_articles if a["_origin"] == "reddit"),
             "hackernews": sum(1 for a in all_articles if a["_origin"] == "hackernews"),
+            "rss": sum(1 for a in all_articles if a["_origin"] == "rss"),
+            "huggingface": sum(1 for a in all_articles if a["_origin"] == "huggingface"),
+            "github": sum(1 for a in all_articles if a["_origin"] == "github"),
         }
     }
 
