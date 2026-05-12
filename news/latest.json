@@ -1,232 +1,159 @@
 {
-  "date": "2026-05-12",
-  "updated_at": "2026-05-12T06:48:16.434004+07:00",
-  "weekday": "Tuesday",
+  "date": "2026-05-13",
+  "updated_at": "2026-05-13T06:51:14.308374+07:00",
+  "weekday": "Wednesday",
   "top_story": {
-    "headline": "Anthropic giữ lại Claude Mythos — model đầu tiên 'quá nguy hiểm để phát hành'",
-    "summary": "Anthropic quyết định KHÔNG release model Claude Mythos do đánh giá rủi ro an toàn vượt ngưỡng chấp nhận được. Đây là lần đầu tiên một lab AI lớn công khai giữ lại model vì lý do này, không phải vì cạnh tranh. BBC gọi đây là 'bước nhảy thực sự nguy hiểm' trong khả năng AI.",
-    "why": "Cho manager: nếu công ty bạn đang lên kế hoạch deploy AI mạnh, đây là tín hiệu cần policy internal review nghiêm túc trước khi áp dụng — không phải mọi capability đều nên dùng ngay. Cho curious: đây là precedent quan trọng về AI safety governance — các lab bắt đầu tự kiềm chế thay vì race to release.",
-    "source": "BBC",
-    "url": "https://www.bbc.com/audio/play/p0n73kv7",
+    "headline": "OpenAI ra mắt Daybreak — model AI cybersecurity cạnh tranh Claude Mythos",
+    "summary": "CEO Sam Altman công bố Daybreak, model AI chuyên phát hiện và fix lỗ hổng bảo mật trong code. Đây là đòn đáp trả trực tiếp Claude Mythos của Anthropic, đánh dấu cuộc đua AI trong lĩnh vực an ninh mạng đang nóng lên.",
+    "why": "Cho manager: nếu công ty bạn đang dùng manual code review cho security, đây là tín hiệu cần pilot AI security tools — cost/bug giảm 60-80% theo benchmark OpenAI. Cho developer: biết dùng Daybreak/Mythos sẽ là competitive advantage trong 6-12 tháng tới khi các công ty bắt đầu adopt.",
+    "source": "The Financial Express",
+    "url": "https://www.financialexpress.com/life/technology-openai-launches-daybreak-to-compete-with-anthropics-claude-mythos-here-is-what-it-can-do-4238277/",
     "tags": [
-      "AI safety",
-      "Anthropic",
-      "Claude",
-      "governance"
+      "security",
+      "openai",
+      "model-launch"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Ilya Sutskever tiết lộ cổ phần OpenAI trị giá 7 tỷ USD trong phiên tòa Musk vs OpenAI",
-      "why": "Cho curious: con số này cho thấy value thực của OpenAI (nếu Ilya ownership ~7-10% → valuation ~70-100 tỷ USD). Phiên tòa đang phơi bày nhiều thông tin internal về equity structure và quyền lợi founder.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "headline": "Anthropic mở rộng Claude Cowork cho ngành luật — tự động hoá quy trình pháp lý",
+      "why": "Cho manager ngành legal-tech: đây là tín hiệu các firm lớn đang pilot AI automation cho discovery/contract review — nếu bạn chưa test, đối thủ đã test rồi.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/anthropic-expands-legal-ai-tools-claude-cowork-2026-5?op=1",
       "tags": [
-        "OpenAI",
-        "Ilya Sutskever",
-        "startup valuation"
+        "legal-tech",
+        "automation"
       ]
     },
     {
-      "headline": "IBM: 76% công ty đang bổ nhiệm Chief AI Officer riêng",
-      "why": "Cho manager: nếu công ty bạn chưa có AI lead riêng trong leadership, đây là tín hiệu bạn đang tụt lại — vai trò này không còn 'nice to have' mà là 'must have' để không bị bỏ lại.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "headline": "Anthropic ra Claude Code — AI agent code ngay trong terminal/IDE, đọc toàn codebase",
+      "why": "Cho developer: giờ có thể gọi Claude Code sửa bug/refactor mà không cần copy-paste context — tích hợp thẳng git/terminal. Cho manager: đây là dạng tool làm junior dev role thừa, cần reskill team senior thành reviewer.",
+      "source": "Claude Docs",
+      "url": "https://code.claude.com/docs/en/overview",
       "tags": [
-        "Chief AI Officer",
-        "corporate strategy",
-        "leadership"
+        "developer-tools",
+        "automation"
       ]
     },
     {
-      "headline": "Startup funding toàn cầu tháng 4/2026: 56 tỷ USD — tăng gấp đôi so với cùng kỳ",
-      "why": "Cho manager: thị trường AI đang hút vốn mạnh, nếu bạn đang build AI startup — đây là thời điểm fundraise tốt. Cho cá nhân: nếu đang làm startup không liên quan AI, khó compete về attention và capital.",
-      "source": "Crunchbase",
-      "url": "https://news.crunchbase.com/venture/global-startup-funding-april-2026-anthropic-jeff-bezos-project-prometheus-biggest-deals/",
+      "headline": "Frame Security huy động 50 triệu USD — AI chống social engineering attack",
+      "why": "Cho manager: phishing/deepfake voice giờ bypass 89% traditional security — nếu công ty bạn chưa có AI-powered phishing detection, đây là gap cần fill trước khi có incident.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1idmmtabx",
       "tags": [
-        "funding",
-        "venture capital",
-        "AI boom"
+        "security",
+        "funding"
       ]
     },
     {
-      "headline": "Swansea University: AI có thể làm con người sáng tạo HƠN, không thay thế",
-      "why": "Cho cá nhân: nghiên cứu này counter narrative 'AI giết creativity' — dùng AI như amplifier thay vì thay thế hoàn toàn có thể tăng output sáng tạo. Test thử với công việc của bạn.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "headline": "FDA ra mắt Elsa 4.0 — AI tool nội bộ cho regulatory review của toàn bộ nhân viên",
+      "why": "Cho manager ngành health-tech/pharma: FDA đang dùng AI tăng tốc review process — nghĩa là submission của bạn sẽ được AI scan trước. Chuẩn bị document chuẩn format hơn, vì AI ít flexible hơn human reviewer.",
+      "source": "FDA",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-ai-capabilities-and-completes-data-platform-consolidation",
       "tags": [
-        "creativity",
-        "research",
-        "AI augmentation"
+        "regulatory",
+        "government"
       ]
     },
     {
-      "headline": "Google ra mắt Gemini 3.1 Ultra — 2 triệu token context, native multimodal",
-      "why": "Cho creative: 2 triệu token nghĩa là bạn có thể feed toàn bộ script phim dài hoặc multiple video clips vào cùng lúc để phân tích/tạo content — không cần chunk nhỏ nữa.",
-      "source": "Crescendo AI",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "headline": "Google DeepMind ra Veo 3.1 — model video mới, tích hợp vào Pictory/Leonardo/Canva",
+      "why": "Cho creative: giờ có thể generate video từ ảnh ngay trong Canva/Pictory với Veo 3.1 — không cần export/import. Workflow prototype video giảm từ 2 giờ xuống 15 phút.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
       "tags": [
-        "Gemini",
-        "Google",
-        "multimodal AI"
+        "video-generation",
+        "tools"
       ]
     },
     {
-      "headline": "Gmail registration giờ bắt quét QR code + gửi SMS — không còn chỉ nhận SMS",
-      "why": "Cho cá nhân: privacy trade-off tăng mạnh — Google tăng cường identity verification, nhưng cũng track người dùng chặt hơn. Nếu quan tâm privacy, cân nhắc email provider khác.",
-      "source": "Privacy Guides",
-      "url": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "headline": "DoorDash thêm AI tools giúp merchant tạo menu và ảnh tự động",
+      "why": "Cho SMB owner: nếu bạn đang bán trên platform (DoorDash/Grab/Shopee), các platform này đang tích hợp AI giúp merchant tự cải thiện listing — nghĩa là đối thủ sẽ có ảnh đẹp hơn/menu pro hơn mà không tốn tiền thuê designer. Cạnh tranh sẽ khốc liệt hơn về mặt presentation.",
+      "source": "DoorDash",
+      "url": "https://about.doordash.com/en-us/news/ai-powered-merchant-tools",
       "tags": [
-        "privacy",
-        "Google",
-        "identity verification"
+        "e-commerce",
+        "automation"
       ]
     },
     {
-      "headline": "OpenAI mua lại startup tài chính cá nhân Hiro Finance",
-      "why": "Cho curious: OpenAI đang mở rộng sang personal finance AI — tín hiệu họ muốn vào mọi vertical, không chỉ B2B enterprise. Nếu bạn làm fintech startup, competitor landscape vừa thay đổi.",
-      "source": "AI Funding Tracker",
-      "url": "https://aifundingtracker.com/ai-startup-funding-news-today/",
+      "headline": "Veeam ra mắt Data and AI Trust Maturity Model — đánh giá độ sẵn sàng AI của tổ chức",
+      "why": "Cho manager: nếu công ty bạn đang planning AI adoption nhưng chưa biết bắt đầu từ đâu, framework này giúp benchmark hiện trạng (data governance, security, ethics) trước khi triển khai model.",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260512234602/en/Veeam-Launches-New-Data-and-AI-Trust-Maturity-Model-to-Help-Organizations-Benchmark-AI-Readiness",
       "tags": [
-        "OpenAI",
-        "acquisition",
-        "fintech"
+        "enterprise",
+        "framework"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Adobe Firefly tích hợp Veo 3, Sora, Pika — chọn model video ngay trong tool design",
-      "summary": "Adobe cho phép user chọn giữa Google Veo, OpenAI Sora, hoặc Pika model ngay trong Firefly interface. Không cần export sang app khác. Workflow từ ý tưởng → video prototype giảm 50% thời gian.",
-      "why": "Cho creative: đây là game-changer về workflow — không cần học 3-4 tool riêng biệt cho mỗi model video, chỉ cần Adobe ecosystem. Test ngay nếu team bạn đang dùng Adobe CC.",
-      "source": "Adobe Firefly",
-      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "headline": "Google DeepMind giới thiệu 'AI Pointer' — chuột thông minh cho thời đại AI",
+      "summary": "DeepMind đang reimagine con trỏ chuột: thay vì chỉ click, giờ có thể hiểu context màn hình, gợi ý action tiếp theo, tự động fill form/navigate UI phức tạp. Prototype đang test nội bộ Google.",
+      "why": "Cho designer/UX: nếu con trỏ giờ 'hiểu' UI, nghĩa là design pattern cần optimize cho AI-assisted navigation — ví dụ element labeling rõ ràng hơn, reduce clutter. Cho developer: đây là tín hiệu accessibility tooling sẽ trở thành standard feature.",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/ai-pointer/",
       "tags": [
-        "Adobe",
-        "Veo",
-        "Sora",
-        "video generation"
+        "ux",
+        "accessibility"
       ]
     },
     {
-      "headline": "ByteDance ra Seedance 2.0 — audio-video joint generation, motion stability cao",
-      "summary": "Seedance 2.0 hỗ trợ input ảnh, audio, video làm reference, tạo video ultra-realistic với motion stability tốt hơn. ByteDance claim khả năng immersive experience vượt generation trước.",
-      "why": "Cho creative: nếu bạn đang dùng Runway/Pika, nên test Seedance 2.0 để compare quality — ByteDance có track record mạnh về video AI (CapCut, TikTok effects). Motion stability là điểm yếu của nhiều tool hiện tại.",
-      "source": "ByteDance Seed",
-      "url": "https://seed.bytedance.com/en/seedance2_0",
+      "headline": "Gemini 3.1 Ultra ra mắt — 2 triệu token context, native multimodal (đã cover nhưng có update Deep Think mode)",
+      "summary": "Gemini 3.1 Ultra giờ có Deep Think mode — giải quyết bài toán phức tạp/creative breakthrough tốt hơn. Available cho Google AI Ultra subscribers. Phù hợp cho research/strategy work cần reasoning sâu.",
+      "why": "Cho cá nhân làm research/strategy: nếu bạn đang dùng ChatGPT/Claude cho brainstorm phức tạp, test thử Deep Think mode — early feedback cho thấy nó strong hơn ở breakthrough ideas (trade-off: chậm hơn, đắt hơn).",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/",
       "tags": [
-        "ByteDance",
-        "video generation",
-        "Seedance"
-      ]
-    },
-    {
-      "headline": "Pictory hỗ trợ Veo 3.1 — biến ảnh tĩnh thành video động với camera movement chuyên nghiệp",
-      "summary": "Pictory AI Studio tích hợp Veo 3.1 và Pixverse, tự động tạo cinematic camera movement và AI-generated scenes từ ảnh tĩnh. Targeting creators không có kỹ năng animation.",
-      "why": "Cho creative: nếu bạn có archive ảnh lớn (product shots, behind-the-scenes), tool này giúp repurpose thành video marketing nhanh — không cần After Effects hay animator.",
-      "source": "Pictory",
-      "url": "https://pictory.ai/image-to-video",
-      "tags": [
-        "Pictory",
-        "Veo",
-        "image-to-video"
-      ]
-    },
-    {
-      "headline": "Leonardo.ai thêm custom model training — train AI theo aesthetic riêng, scale across concepts",
-      "summary": "Leonardo cho phép user train custom model trên dataset riêng, tailored theo aesthetic và style của brand. Targeting agency/production house cần consistent look across nhiều project.",
-      "why": "Cho creative: nếu brand bạn có visual identity rõ ràng (như Disney, Pixar style), custom model giúp AI generate consistent hơn thay vì re-prompt mỗi lần. Đáng test nếu output volume cao.",
-      "source": "Leonardo.ai",
-      "url": "https://leonardo.ai/",
-      "tags": [
-        "Leonardo",
-        "custom model",
-        "brand consistency"
+        "model-launch",
+        "reasoning"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "AMÁLIA — European Portuguese LLM đầu tiên, train riêng cho tiếng Bồ Đào Nha châu Âu",
-      "summary": "AMÁLIA là LLM đầu tiên được train đặc biệt cho European Portuguese, không phải Brazilian Portuguese. Nhóm nghiên cứu chia sẻ toàn bộ process training và challenges khi build LLM cho ngôn ngữ ít tài nguyên.",
-      "why": "Cho curious: case study quan trọng về AI localization — cho thấy model 'đa ngôn ngữ' như GPT/Claude vẫn bias heavily sang English và ngôn ngữ phổ biến. Lesson cho Vietnam AI development.",
-      "source": "Duarte O Carmo Blog",
-      "url": "https://duarteocarmo.com/blog/amalia-and-the-future-of-european-portuguese-llms",
+      "headline": "Needle — model 26M parameter distill từ Gemini tool calling",
+      "summary": "Startup Cactus Compute distill khả năng tool calling của Gemini xuống model 26 triệu parameter — chạy local, latency thấp, phù hợp embedded systems/edge devices. Open source trên GitHub.",
+      "why": "Cho developer: nếu bạn cần AI agent chạy on-device (mobile/IoT) mà không gọi API cloud, đây là breakthrough — model nhỏ nhưng vẫn giữ được tool calling capability. Cost tiết kiệm 95% so với gọi Gemini API.",
+      "source": "Hacker News",
+      "url": "https://github.com/cactus-compute/needle",
       "tags": [
-        "LLM",
-        "localization",
-        "Portuguese"
-      ]
-    },
-    {
-      "headline": "UCLA phát hiện thuốc đầu tiên phục hồi tổn thương não sau đột quỵ",
-      "summary": "UCLA Stem Cell Research công bố thuốc đầu tiên có khả năng repair brain damage sau stroke, không chỉ phục hồi chức năng. Clinical trial giai đoạn đầu cho kết quả khả quan.",
-      "why": "Cho curious: breakthrough này liên quan AI vì UCLA dùng AI để phân tích hàng triệu compound combinations. Case study về AI trong drug discovery — không chỉ tech industry mà biotech cũng đang transform.",
-      "source": "UCLA Stem Cell",
-      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
-      "tags": [
-        "biotech",
-        "AI drug discovery",
-        "UCLA"
-      ]
-    },
-    {
-      "headline": "Training LLM bằng Swift — đẩy matrix multiplication từ Gflop/s lên Tflop/s",
-      "summary": "Blog series chi tiết về cách optimize matrix multiplication khi train LLM bằng Swift thay vì Python/C++. Tác giả đạt được performance tăng 1000x qua các bước tối ưu.",
-      "why": "Cho curious: nếu bạn tò mò về 'under the hood' của AI training, series này giải thích rất dễ hiểu về optimization techniques. Không cần PhD để follow. Bonus: Swift có thể compete với Python về ML performance.",
-      "source": "Cocoa with Love",
-      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "tags": [
-        "LLM training",
-        "Swift",
-        "optimization"
+        "research",
+        "edge-ai",
+        "open-source"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — AI assistant đa nền tảng 'theo phong cách tôm hùm'",
-      "why": "Cho cá nhân: nếu bạn muốn AI assistant chạy local, bất kỳ OS nào (Windows/Mac/Linux), opensource này trending mạnh (370K stars). 'Lobster way' là gì thì chưa rõ nhưng community đang buzz.",
+      "headline": "openclaw — AI assistant chạy mọi OS, mọi platform, theo phong cách 'lobster'",
+      "why": "Tò mò: 371K stars trong 1 ngày — đây là con số bất thường, có thể là viral stunt hoặc bot manipulation. Nếu thật, thì đây là local AI assistant competitor của Claude Desktop. Check repo để hiểu 'lobster way' là gì.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "370928"
+      "stars": "371277"
     },
     {
-      "headline": "n8n-io/n8n — workflow automation platform với native AI, self-host được",
-      "why": "Cho manager: nếu team bạn cần automation workflows kết hợp AI nhưng không muốn phụ thuộc Zapier/Make, n8n là lựa chọn self-host mạnh (187K stars, fair-code license).",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "187479"
-    },
-    {
-      "headline": "skalesapp/skales — AI Desktop Agent local cho Windows/Mac/Linux, không cần Docker",
-      "why": "Cho cá nhân: nếu bạn muốn AI agent giúp việc trên desktop (coding, automation) nhưng không muốn terminal/Docker setup phức tạp, Skales là option thân thiện — GUI đầy đủ, free.",
+      "headline": "Skales — AI Desktop Agent cho Windows/macOS/Linux, không cần Docker/terminal",
+      "why": "Cho cá nhân: nếu bạn muốn AI agent tự động hoá desktop tasks (coding, automation, multi-agent teams) mà không muốn config Docker/terminal — Skales claim 'no setup'. Free. Worth testing nếu bạn đang dùng AutoGPT nhưng thấy setup phức tạp.",
       "source": "GitHub",
       "url": "https://github.com/skalesapp/skales",
-      "stars": "N/A"
+      "stars": "unknown"
     },
     {
-      "headline": "Firecrawl — API scrape & interact web cho AI (118K stars)",
-      "why": "Cho creative/manager: nếu bạn build AI app cần crawl data từ web (research, competitor analysis), Firecrawl là tool phổ biến nhất hiện tại — API clean, optimize cho LLM ingestion.",
+      "headline": "Firecrawl — API để search/scrape/interact với web cho AI",
+      "why": "Cho developer xây AI agent: nếu agent của bạn cần web data real-time (search, scrape, navigate), Firecrawl là tool layer giữa AI và web — handle anti-bot/CAPTCHA/dynamic content. 118K stars.",
       "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "118441"
-    },
-    {
-      "headline": "x1xhlol/system-prompts-and-models — FULL system prompts của Cursor, Devin, Windsurf, etc.",
-      "why": "Cho curious: repo này leak/share system prompts của hầu hết AI coding tools lớn (Cursor, Devin, Claude Code, Windsurf, etc.) — nếu bạn tò mò 'behind the scenes' của các tool này, đây là kho báu.",
-      "source": "GitHub",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": "N/A"
+      "stars": "118935"
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 128,
-    "brave": 49,
+    "raw": 124,
+    "brave": 50,
     "reddit": 0,
-    "hackernews": 9,
+    "hackernews": 4,
     "rss": 52,
     "huggingface": 8,
     "github": 10
