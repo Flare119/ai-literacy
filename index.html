@@ -3301,6 +3301,33 @@
             </div>`);
         }
 
+        // Model Updates (OpenRouter catalog diff)
+        if (data.model_updates && data.model_updates.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">📊 Model Updates (OpenRouter)</div>
+                <div class="quick-hits-grid">
+                    ${data.model_updates.map(m => {
+                        const evt = m.event || '';
+                        const evtIcon = {new:'🆕', deprecated:'⚠️', price:'💲', expiring:'⏰'}[evt] || '📊';
+                        const evtColor = {new:'#34D399', deprecated:'#F87171', price:'#FBBF24', expiring:'#A78BFA'}[evt] || '#9CA3AF';
+                        return `
+                        <div class="news-card" style="border-left:3px solid ${evtColor};">
+                            <div style="font-size:10px;font-family:'SF Mono',monospace;color:${evtColor};text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px;">${evtIcon} ${escapeHtml(evt)}</div>
+                            <a class="headline" href="${escapeHtml(m.url || '#')}" target="_blank" rel="noopener">${escapeHtml(m.headline)}</a>
+                            ${m.summary ? `<div class="summary">${escapeHtml(m.summary)}</div>` : ''}
+                            ${m.why ? `<div class="why">${escapeHtml(m.why)}</div>` : ''}
+                            ${renderTags(m.tags)}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(m.source || 'OpenRouter')}</span>
+                                ${m.url ? `<a class="read-arrow" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                        `;
+                    }).join('')}
+                </div>
+            </div>`);
+        }
+
         // Production
         if (data.production && data.production.length) {
             html.push(`<div class="news-section">
