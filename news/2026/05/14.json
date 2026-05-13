@@ -1,0 +1,367 @@
+{
+  "date": "2026-05-14",
+  "updated_at": "2026-05-14T06:49:44.054683+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "Anthropic Mở Rộng Claude Cowork Cho Ngành Luật — Tự Động Hoá Review Hợp Đồng Và Học Cho Bar Exam",
+    "summary": "Anthropic ra mắt 2 tính năng mới trong Claude Cowork: 'commercial counsel' giúp review hợp đồng vendor tự động, và tool ôn thi bar exam. Đây là bước tiếp theo sau khi Claude Code ra mắt tuần trước, mở rộng từ coding sang legal workflows. Công ty cũng tích hợp với các phần mềm luật khác để Claude có thể đọc/viết trực tiếp vào hệ thống pháp lý.",
+    "why": "Cho manager: nếu team bạn có legal review bottleneck (chờ luật sư duyệt hợp đồng 2-3 tuần), đây là leverage point — automate 70-80% routine contract review, giữ luật sư cho edge cases. Cho cá nhân làm legal/compliance: upskill sang reviewer/negotiator role, vì AI sẽ đọc điều khoản nhanh hơn bạn.",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-expands-push-into-legal-industry-with-new-ai-tools",
+    "tags": [
+      "anthropic",
+      "claude",
+      "legal",
+      "automation",
+      "cowork"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "US Banks Sửa 'Scores Of IT Weaknesses' Sau Khi Anthropic Mythos Scan — Khách Hàng Có Thể Gặp Disruption",
+      "why": "Cho manager: Mythos scan ra lỗ hổng IT thật (không phải false positive) → ngân hàng đang urgent fix → nếu vendor/partner của bạn là bank, chuẩn bị cho downtime hoặc delay trong vài tuần tới.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "mythos",
+        "banking",
+        "security",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Driven By AI Are Rising — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho cá nhân: nếu bạn làm Wall Street hoặc finance ops, đây là leading indicator — update CV + diversify skill sang AI-augmented roles (data analyst → prompt engineer cho financial models). Delay effect: công ty nói 'AI là tool' hôm nay, 6-12 tháng sau cắt headcount.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "job-cuts",
+        "finance",
+        "wall-street",
+        "career"
+      ]
+    },
+    {
+      "headline": "MIT Open Learning Ra Chương Trình AI Education Mới — Miễn Phí, AI-Powered Personalization",
+      "why": "Cho cá nhân muốn học AI: khóa miễn phí từ MIT với personalized learning path (AI adapt theo tốc độ bạn). Nếu đang tự học lộn xộn, đây là structured starting point.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "education",
+        "mit",
+        "free",
+        "upskilling"
+      ]
+    },
+    {
+      "headline": "BBC Investigation: Misleading Fitness Ads Feature AI-Generated Characters",
+      "why": "Cho creative/marketer: nếu dùng AI-generated người mẫu cho ads, chuẩn bị cho backlash — BBC đang track case này, có thể dẫn đến regulation mới về disclosure.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "ethics",
+        "advertising",
+        "deepfake",
+        "regulation"
+      ]
+    },
+    {
+      "headline": "OpenAI Mua Lại Hiro Finance (Personal Finance AI Startup) — Acqui-Hire Rõ Ràng",
+      "why": "Cho curious: OpenAI đang expand sang fintech (sau healthcare với Rosalind). Pattern: acqui-hire talent thay vì build from scratch → ChatGPT sắp có personal finance feature.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-startup-funding-news-today/",
+      "tags": [
+        "openai",
+        "acquisition",
+        "fintech"
+      ]
+    },
+    {
+      "headline": "DoorDash Thêm AI Tools — Merchant Tạo Menu Và Ảnh Món Ăn Tự Động",
+      "why": "Cho manager SMB/F&B: nếu bạn quản lý nhà hàng trên platform, đây là must-use tool — photo enhancement đã giúp 'millions of photos' tăng conversion. Không dùng = mất competitive edge.",
+      "source": "DoorDash",
+      "url": "https://about.doordash.com/en-us/news/ai-powered-merchant-tools",
+      "tags": [
+        "doordash",
+        "smb",
+        "automation",
+        "f&b"
+      ]
+    },
+    {
+      "headline": "Veeam Ra Mắt Data And AI Trust Maturity Model — Benchmark AI Readiness Cho Tổ Chức",
+      "why": "Cho manager: nếu sếp hỏi 'chúng ta sẵn sàng AI chưa?', đây là framework để self-assess (thay vì mò mẫm). 12-dimension scorecard cover từ data quality đến governance.",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260512234602/en/Veeam-Launches-New-Data-and-AI-Trust-Maturity-Model-to-Help-Organizations-Benchmark-AI-Readiness",
+      "tags": [
+        "framework",
+        "enterprise",
+        "readiness",
+        "governance"
+      ]
+    },
+    {
+      "headline": "76% Công Ty Đang Bổ Nhiệm Chief AI Officer Riêng — IBM Report",
+      "why": "Cho manager: nếu công ty bạn chưa có AI lead, bạn đang lag behind 76% market. Không cần hire ngay, nhưng cần designate someone own AI strategy (có thể part-time từ CTO/VP Eng).",
+      "source": "IBM (via context)",
+      "url": "",
+      "tags": [
+        "leadership",
+        "enterprise",
+        "trend"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google DeepMind Ra Veo 3.1 — Model Video Mới, Tích Hợp Vào Pictory/Leonardo/Canva",
+      "summary": "Veo 3.1 là bản nâng cấp từ Veo 3 (đã cover tuần trước), giờ integrate vào Pictory AI Studio, Leonardo.ai, Canva. Pictory cho phép chọn giữa Veo 3.1, Pixverse để animate ảnh thành video với 'realistic motion, cinematic camera movement'. Leonardo và Canva cũng hỗ trợ text/image → video.",
+      "why": "Cho creative: nếu workflow bạn đang dùng Pictory/Leonardo/Canva, giờ có thêm Veo 3.1 option — test xem output nào fit style project (Veo thường cinematic hơn, Pika stylized hơn). Không cần đổi tool, chỉ đổi engine.",
+      "source": "Google DeepMind + Pictory + Leonardo",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "veo",
+        "video",
+        "google",
+        "pictory",
+        "leonardo",
+        "canva"
+      ]
+    },
+    {
+      "headline": "Sulphur-2-Base — Uncensored Free AI Video Model Chạy Local Trên Consumer Hardware",
+      "summary": "Sulphur-2-Base là open-source video generation model không bị censor, có thể chạy local (không cần cloud). Medium article nói đây là alternative cho các nền tảng cloud đắt đỏ, phù hợp cho creator muốn control data và không bị platform policy limit.",
+      "why": "Cho creative lo privacy/control: nếu project nhạy cảm (client NDA, nội dung mature), local model như Sulphur-2 giúp bạn tránh upload lên cloud. Trade-off: cần GPU mạnh + setup phức tạp hơn.",
+      "source": "Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/sulphur-2-base-uncensored-free-ai-video-generation-model-e6a75764a351",
+      "tags": [
+        "video",
+        "opensource",
+        "local",
+        "uncensored"
+      ]
+    },
+    {
+      "headline": "Adobe Firefly Tích Hợp Veo 3, Sora, Pika — Chọn Model Video Ngay Trong Tool Design",
+      "summary": "Đã cover tuần trước nhưng hôm nay có update chi tiết: Adobe Firefly giờ cho phép chọn giữa Veo 3, Sora, Pika ngay trong UI. Điều này nghĩa là designer không cần export → upload sang tool khác, giảm 50% thời gian handoff.",
+      "why": "Cho creative dùng Adobe: workflow giờ là design → pick video engine → preview → refine — tất cả trong 1 tool. Nếu chưa dùng Firefly, đây là lý do để upgrade (thay vì dùng After Effects + manual export).",
+      "source": "Context (already covered)",
+      "url": "",
+      "tags": [
+        "adobe",
+        "firefly",
+        "video",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Swansea University: AI Có Thể Làm Con Người Sáng Tạo HƠN, Không Thay Thế",
+      "summary": "Research từ Swansea University (UK) kết luận AI không thay thế creativity mà augment — khi dùng AI tool, người thử nghiệm tạo ra ý tưởng mới nhiều hơn, không chỉ copy output AI. Điều kiện: phải dùng AI như 'sparring partner' chứ không phải 'auto-complete'.",
+      "why": "Cho cá nhân lo AI thay thế: evidence cho thấy AI làm bạn creative hơn NẾU bạn dùng đúng cách (prompt → critique → iterate), không phải paste thẳng output. Mindset shift: AI = intern thông minh cần chỉ đạo, không phải thay thế bạn.",
+      "source": "Context (already covered)",
+      "url": "",
+      "tags": [
+        "research",
+        "creativity",
+        "augmentation"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant, Any OS, 'The Lobster Way' 🦞",
+      "why": "Open-source AI assistant cross-platform (Windows/Mac/Linux). Nếu muốn tự host assistant thay vì dùng ChatGPT/Claude, đây là starting point — 371K stars nghĩa là community active, nhiều plugins.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "371598"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform With Native AI Capabilities",
+      "why": "Alternative cho Zapier nhưng self-host được + tích hợp AI native. Nếu team bạn cần automate workflow mà lo vendor lock-in hoặc data privacy, n8n là top choice (187K stars).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "187721"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — Vision Of Accessible AI For Everyone, To Use And Build On",
+      "why": "AutoGPT là framework để build AI agents tự động làm multi-step tasks. Nếu bạn muốn thử agentic AI (như Claude Code nhưng DIY), đây là toolkit phổ biến nhất (184K stars).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184294"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Nếu n8n quá low-level, Dify là no-code platform để build AI agent workflows production-ready. Dùng cho prototyping → deploy nhanh mà không cần code (141K stars).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "141273"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
+      "why": "Self-host UI cho Ollama hoặc OpenAI API — nếu dùng local models (như Sulphur-2) nhưng muốn UI đẹp thay vì terminal, đây là top pick (136K stars).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "136941"
+    },
+    {
+      "headline": "firecrawl/firecrawl — 🔥 The API To Search, Scrape, And Interact With The Web For AI",
+      "why": "API để scrape web data cho AI training/RAG. Nếu bạn build AI app cần real-time web data (thay vì static dataset), Firecrawl giúp bạn tránh bị block bởi anti-bot (119K stars).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "119454"
+    },
+    {
+      "headline": "cactus-compute/needle — Distilled Gemini Tool Calling Into 26M Model",
+      "why": "Compression breakthrough: distill Gemini tool calling (model lớn) xuống 26M parameters — chạy được trên edge device. Nếu bạn cần AI agent chạy local (mobile/IoT), đây là direction mới.",
+      "source": "Hacker News",
+      "url": "https://github.com/cactus-compute/needle",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] AI21: Jamba Large 1.7",
+      "event": "new",
+      "summary": "Jamba Large 1.7 — hybrid SSM-Transformer với 256K context, cải thiện grounding + instruction-following.",
+      "why": "Cheaper alternative cho tasks cần long context (256K) — nếu đang dùng GPT-4 cho summarize docs dài, test Jamba xem cost/performance.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/ai21/jamba-large-1.7",
+      "tags": [
+        "openrouter",
+        "new",
+        "long-context"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] AionLabs: Aion-1.0",
+      "event": "new",
+      "summary": "Multi-model system built on DeepSeek-R1, optimized reasoning + coding.",
+      "why": "Nếu dùng DeepSeek-R1 nhưng thấy reasoning yếu, Aion-1.0 là augmented version (thêm Tree-of-Thought techniques).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/aion-labs/aion-1.0",
+      "tags": [
+        "openrouter",
+        "new",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] AionLabs: Aion-2.0",
+      "event": "new",
+      "summary": "DeepSeek V3.2 variant optimized cho roleplaying + storytelling — thêm tension/crisis vào narrative.",
+      "why": "Cho creative viết kịch bản/game narrative: model này train riêng để tạo conflict (thay vì generic happy story) — test cho script draft.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/aion-labs/aion-2.0",
+      "tags": [
+        "openrouter",
+        "new",
+        "creative"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Anthropic: Claude Opus 4.7 (Fast)",
+      "event": "new",
+      "summary": "Fast-mode variant của Opus 4.7 — 6x giá nhưng output nhanh hơn.",
+      "why": "Dùng cho real-time applications (chatbot khách hàng) nơi latency quan trọng hơn cost. Nếu dùng standard Opus 4.7 thấy chậm → upgrade.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-opus-4.7-fast",
+      "tags": [
+        "openrouter",
+        "new",
+        "fast-mode"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Amazon: Nova 2 Lite",
+      "event": "new",
+      "summary": "Fast, cost-effective reasoning model — xử lý text/image/video → text output.",
+      "why": "Cheaper alternative cho multimodal tasks (OCR, video analysis) — nếu dùng GPT-4V cho simple tasks, Nova 2 Lite rẻ hơn nhiều.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/amazon/nova-2-lite-v1",
+      "tags": [
+        "openrouter",
+        "new",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Arcee AI: Trinity Large Preview",
+      "event": "new",
+      "summary": "400B sparse MoE (13B active) — top creative writing performance.",
+      "why": "Cho writer/creative: model này rank cao nhất trong creative writing benchmarks — test cho novel/script generation.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-preview",
+      "tags": [
+        "openrouter",
+        "new",
+        "creative"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Baidu: ERNIE 4.5 300B A47B",
+      "event": "new",
+      "summary": "300B MoE (47B active) — Baidu flagship model.",
+      "why": "Nếu làm việc với Trung Quốc market hoặc cần Chinese language performance cao, ERNIE 4.5 là top choice (better than GPT-4 cho tiếng Trung).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/baidu/ernie-4.5-300b-a47b",
+      "tags": [
+        "openrouter",
+        "new",
+        "chinese"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] ByteDance Seed: Seed 1.6",
+      "event": "new",
+      "summary": "Multimodal với adaptive deep thinking, 256K context.",
+      "why": "ByteDance model ít người biết nhưng performance competitive với Claude/GPT — nếu muốn diversify vendor để tránh vendor lock-in.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/bytedance-seed/seed-1.6",
+      "tags": [
+        "openrouter",
+        "new",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] ByteDance: UI-TARS 7B",
+      "event": "new",
+      "summary": "Multimodal agent optimized cho GUI (desktop/web/mobile/games).",
+      "why": "Cho agentic automation: nếu cần AI control UI (RPA) — UI-TARS được train riêng cho click/type/navigate, better than general-purpose models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/bytedance/ui-tars-1.5-7b",
+      "tags": [
+        "openrouter",
+        "new",
+        "automation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Gemini Live API Models Shut Down 2025-12-09",
+      "event": "deprecated",
+      "summary": "Gemini-2.0-flash-live-001 và gemini-live-2.5-flash-preview sẽ shutdown 9/12/2025.",
+      "why": "Nếu app bạn dùng Gemini Live API → migrate trước deadline (còn ~7 tháng). Google đang consolidate models.",
+      "source": "Google AI Changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "tags": [
+        "openrouter",
+        "deprecated",
+        "gemini"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 489,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 364
+  }
+}
