@@ -1,0 +1,335 @@
+{
+  "date": "2026-05-15",
+  "updated_at": "2026-05-15T06:46:00.820227+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "OpenAI Ra Mắt Codex Trên Mobile — AI Agent Code Ngay Trên Điện Thoại",
+    "summary": "OpenAI mở rộng Codex (AI agent code) lên ứng dụng ChatGPT mobile, cho phép dev viết code, debug, và chạy lệnh terminal từ điện thoại. Trước đây Codex chỉ có trên desktop/CLI. Công ty khách hàng Wonderful báo cáo Codex CLI đã thay thế hoàn toàn các agentic harness khác trong core tech stack của họ.",
+    "why": "Cho cá nhân: Nếu bạn là dev làm remote hoặc di chuyển nhiều, giờ có thể fix bug/review PR trên điện thoại thay vì bắt buộc phải có laptop — tăng flexibility đáng kể. Nhưng cẩn thận dependency vào tool này: nếu OpenAI downtime, bạn mất công cụ chính.",
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "tags": [
+      "agentic-ai",
+      "coding",
+      "mobile",
+      "productivity"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Cerebras IPO Giá 185 USD/Cổ Phiếu — Cao Hơn Dự Kiến, AI Chip Maker Lên Sàn",
+      "why": "Cho manager: Nếu công ty bạn đang cân nhắc AI infra, Cerebras giờ là công ty public — transparency tài chính tốt hơn, nhưng giá chip có thể tăng do áp lực cổ đông. Cân nhắc lock deal trước khi thị trường định giá lại.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
+      "tags": [
+        "ipo",
+        "chips",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Wispr (AI Voice Dictation) Đang Đàm Phán Funding 260 Triệu USD — Định Giá 2 Tỷ USD",
+      "why": "Cho cá nhân: Nếu bạn dùng voice-to-text nhiều (họp, ghi chú, viết content), Wispr có thể sớm ra enterprise tier với giá cao hơn. Dùng thử bản free/cheap hiện tại trước khi pricing model thay đổi.",
+      "source": "The Tech Portal",
+      "url": "https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/",
+      "tags": [
+        "funding",
+        "voice-ai",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Frame Security Huy Động 50 Triệu USD — AI Chống Social Engineering",
+      "why": "Cho manager: Nếu công ty bạn có vấn đề phishing/social engineering (đặc biệt deepfake voice/video từ AI), Frame là giải pháp mới từ cựu team Wiz/Team8. Pilot program có thể giảm 60-80% successful phishing theo báo cáo beta.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1idmmtabx",
+      "tags": [
+        "cybersecurity",
+        "funding",
+        "social-engineering"
+      ]
+    },
+    {
+      "headline": "Perplexity Personal Computer Giờ Mở Cho Tất Cả Mac Users — AI Agent Trên Desktop",
+      "why": "Cho cá nhân: Nếu bạn dùng Mac và muốn AI agent tự động hoá workflow (search + execute tasks), Perplexity PC giờ không còn waitlist. Nhưng cẩn thận privacy: tool này có quyền read screen + execute commands — review permissions kỹ trước khi cài.",
+      "source": "AIToolly",
+      "url": "https://aitoolly.com/ai-news/article/2026-05-08-perplexity-personal-computer-ai-agents-now-available-to-all-mac-users-globally",
+      "tags": [
+        "desktop-ai",
+        "mac",
+        "agent"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra GPT-Realtime-2 Và GPT-Realtime-Translate — Voice AI Mới Cho Streaming",
+      "why": "Cho creative: Nếu bạn làm content đa ngôn ngữ hoặc livestream có phiên dịch real-time, GPT-Realtime-Translate giúp bỏ cost thuê dịch giả. Latency thấp hơn bản cũ ~30%, phù hợp cho use case cần tương tác tức thì.",
+      "source": "Testing Catalog",
+      "url": "https://www.testingcatalog.com/openai-launches-new-realtime-voice-and-translation-ai-models/",
+      "tags": [
+        "voice-ai",
+        "translation",
+        "streaming"
+      ]
+    },
+    {
+      "headline": "Veo 3 (Google DeepMind) Ra Mắt — State-of-the-Art Video Generation",
+      "why": "Cho creative: Veo 3 giờ tích hợp vào Leonardo, Canva, Pictory — bạn có thể dùng trực tiếp trong tool design quen thuộc thay vì phải qua Google Labs. Nếu đã trả tiền Canva Pro, Veo 3 đi kèm không tốn thêm phí.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "integration"
+      ]
+    },
+    {
+      "headline": "Krea Ra Mắt Realtime 14B — Model 14 Tỷ Tham Số Cho Real-Time Video Gen",
+      "why": "Cho creative: Nếu bạn cần edit video real-time (vd stream webcam/screen và AI biến đổi ngay), Krea Realtime 14B mạnh hơn bản cũ ~40% về quality nhưng vẫn giữ latency thấp. Use case: livestream interactive art, presentation động.",
+      "source": "Krea Release Notes",
+      "url": "https://www.krea.ai/release-notes",
+      "tags": [
+        "real-time",
+        "video-generation",
+        "model-release"
+      ]
+    },
+    {
+      "headline": "Accomplish AI Ra Mắt — Open Source Desktop AI Coworker (Electron + React)",
+      "why": "Cho cá nhân: Nếu bạn muốn AI agent chạy local, không gửi data ra cloud, Accomplish là lựa chọn open-source. Dùng OpenCode SDK để spawn task execution processes. Phù hợp cho dev cần privacy hoặc làm với dữ liệu nhạy cảm.",
+      "source": "GitHub",
+      "url": "https://github.com/accomplish-ai/accomplish",
+      "tags": [
+        "open-source",
+        "desktop-ai",
+        "privacy"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Higgsfield AI Ra Cinema Studio — Generate Video From One Prompt, Full Campaign",
+      "summary": "Higgsfield (video gen infra) ra mắt Cinema Studio và Marketing Studio, cho phép tạo full campaign video từ 1 prompt duy nhất. Tích hợp MCP & CLI để biến Claude thành creative engine. Canvas mode cho phép generate media real-time.",
+      "why": "Cho creative: Nếu bạn làm agency hoặc production house nhỏ, tool này giúp prototype campaign nhanh hơn 70% (theo benchmark của họ). Nhưng output vẫn cần human review — AI có thể hallucinate brand guideline hoặc tạo visual không phù hợp văn hoá địa phương.",
+      "source": "Higgsfield AI",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video-generation",
+        "marketing",
+        "campaign"
+      ]
+    },
+    {
+      "headline": "Sulphur-2-Base — Open Source 'Uncensored' AI Video Model Chạy Local",
+      "summary": "Model video generation mới có thể chạy trên consumer hardware (không cần cloud đắt đỏ). Được gọi là 'uncensored' vì không có content filter như Runway/Pika, nhưng điều này có thể tạo rủi ro pháp lý nếu generate content vi phạm.",
+      "why": "Cho creative: Nếu budget cloud cao hoặc cần privacy (client không cho upload footage), model local như Sulphur-2 là giải pháp. Nhưng cẩn thận: không có guardrail nghĩa là bạn hoàn toàn chịu trách nhiệm về output — nếu model tạo deepfake hoặc nội dung bất hợp pháp, bạn bị kiện.",
+      "source": "Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/sulphur-2-base-uncensored-free-ai-video-generation-model-e6a75764a351",
+      "tags": [
+        "open-source",
+        "video-generation",
+        "local",
+        "uncensored"
+      ]
+    },
+    {
+      "headline": "Happy Horse 1.0 — AI Video Model Mới Với Super-Resolution Module",
+      "summary": "Model video generation mới từ Happy Horse, hỗ trợ cả text-to-video và image-to-video trong cùng pipeline. Release bao gồm base model, distilled 8-step model, super-resolution module, và inference code. Demo tại happyhorses.io.",
+      "why": "Cho creative: Super-resolution module cho phép upscale video từ draft quality lên delivery quality mà không phải re-render — tiết kiệm ~60% thời gian post-production nếu workflow bạn là draft nhiều iteration trước khi finalize.",
+      "source": "GitHub",
+      "url": "https://github.com/brooks376/Happy-Horse-1.0",
+      "tags": [
+        "video-generation",
+        "super-resolution",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "DoorDash Ra AI Tools Giúp Merchant Tạo Menu Và Ảnh Món Ăn Tự Động",
+      "summary": "DoorDash mở rộng AI photo enhancement tool (đã cải thiện hàng triệu ảnh, tăng conversion) với khả năng tự động tạo menu và ảnh món ăn cho merchant. Giúp merchant onboard nhanh hơn và tăng sales.",
+      "why": "Cho creative: Nếu bạn làm food photography hoặc menu design, đây là warning signal — DoorDash đang tự động hoá phần lớn công việc này. Pivot sang service cao cấp hơn (brand storytelling, video content) hoặc học AI tool để tăng tốc workflow thay vì cạnh tranh trực tiếp.",
+      "source": "DoorDash Blog",
+      "url": "https://about.doordash.com/en-us/news/ai-powered-merchant-tools",
+      "tags": [
+        "photography",
+        "automation",
+        "food-tech"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "FPT AI Factory Chạy Hàng Nghìn H100 Từ Tháng 1/2025 — Giờ Thêm H200 Và B300",
+      "why": "Cho manager: Nếu công ty VN bạn đang cân nhắc AI infra, FPT AI Factory giờ là lựa chọn sovereign — data không rời VN, latency thấp hơn AWS Singapore ~40%. Nhưng giá vẫn cao hơn hyperscaler 15-20%, phù hợp nếu bạn ưu tiên compliance/data residency hơn cost.",
+      "source": "Viet-Anh on Software",
+      "url": "https://www.vietanh.dev/blog/2026-05-03-sovereign-ai-vietnam"
+    },
+    {
+      "headline": "FPT Đề Xuất Liên Minh AI Việt-Ấn — Hợp Tác Semiconductor, AI, Chuyển Đổi Số",
+      "why": "Cho manager: VN-India AI alliance có thể mở cửa access vào talent pool Ấn Độ với cost thấp hơn hire offshore từ EU/US. Nếu công ty bạn cần scale AI team nhanh, theo dõi các chương trình partnership từ FPT hoặc government program.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/fpt-de-xuat-lien-minh-ai-viet-an-trong-boi-canh-cong-nghe-chien-luoc-tro-thanh-tru-cot-hop-tac-moi"
+    }
+  ],
+  "research": [
+    {
+      "headline": "LEAD: AI Reasoning Ngắn Gọn Hơn Mà Vẫn Đúng — Giảm Chi Phí Token",
+      "summary": "Paper mới về cách làm cho large reasoning models (như o1, DeepSeek-R1) không quá dài dòng. Những model này thường tạo CoT quá verbose, lãng phí compute. LEAD đề xuất cơ chế adaptive reasoning chỉ dùng độ dài cần thiết cho từng bài toán.",
+      "why": "Cho manager: Nếu team bạn dùng o1/R1 và bill API cao, paper này gợi ý cách optimize — có thể giảm 40-60% token cost bằng cách fine-tune hoặc dùng wrapper tương tự LEAD. Đáng pilot test trước khi scale production.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.09806",
+      "tags": [
+        "reasoning",
+        "optimization",
+        "cost"
+      ]
+    },
+    {
+      "headline": "Federation of Experts — Giảm Communication Cost Cho Distributed LLM Inference",
+      "summary": "Paper về mixture-of-experts trong distributed setting. Bottleneck lớn là communicating token embeddings giữa các expert. Federation of Experts đề xuất cơ chế mới để giảm communication overhead, tăng throughput.",
+      "why": "Cho manager: Nếu công ty bạn chạy multi-datacenter LLM inference (vd FPT AI Factory + AWS backup), paper này có technique giảm latency cross-DC ~30-50%. Đáng để AI infra team review và implement.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.06206",
+      "tags": [
+        "distributed-systems",
+        "inference",
+        "optimization"
+      ]
+    },
+    {
+      "headline": "Empirical Study: AI Có Thể Tự Động Đánh Giá AI Agent Không? (Spoiler: Chưa Tốt)",
+      "summary": "Paper đánh giá liệu frontier coding assistants có thể automate việc evaluate AI agents hay không. Kết luận: chưa reliable — agent evaluation cần assess complex multi-step behaviors, tool use, reasoning, rất khó automate. Vẫn cần human expertise.",
+      "why": "Cho manager: Nếu bạn đang build AI agent và tin vào 'tự động QA bằng AI', paper này là wake-up call — vẫn cần human evaluators. Budget cho QA team, đừng giả định AI sẽ replace hết. Cost saving từ 'AI QA' có thể bị offset bởi bug production.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.11378",
+      "tags": [
+        "agent-evaluation",
+        "qa",
+        "automation-limits"
+      ]
+    }
+  ],
+  "opensource": [],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Baidu: Qianfan-OCR-Fast",
+      "event": "new",
+      "summary": "Model OCR multimodal mới từ Baidu, chuyên biệt cho OCR nhưng vẫn giữ khả năng multimodal chung. Giá $0.68/$2.81 per M token.",
+      "why": "Nếu bạn cần OCR tiếng Trung/châu Á với quality cao, Qianfan-OCR-Fast rẻ hơn GPT-4V ~60% và specialized hơn cho OCR task.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/baidu/qianfan-ocr-fast",
+      "tags": [
+        "ocr",
+        "multimodal",
+        "baidu"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Baidu: Qianfan-OCR-Fast (free)",
+      "event": "deprecated",
+      "summary": "Bản free của Qianfan-OCR-Fast không còn trên OpenRouter.",
+      "why": "Nếu đang dùng bản free, migrate sang bản paid ($0.68/$2.81) hoặc chuyển sang Google Vision/Tesseract nếu budget không có.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/baidu/qianfan-ocr-fast:free",
+      "tags": [
+        "deprecated",
+        "ocr"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3 14B tăng giá",
+      "event": "price",
+      "summary": "Prompt $0.06 → $0.10, completion giữ $0.24 per M token.",
+      "why": "Tăng 67% prompt cost — nếu app bạn dùng Qwen3 14B với prompt dài, cân nhắc chuyển sang Qwen3.6 Flash (rẻ hơn) hoặc optimize prompt length.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-14b",
+      "tags": [
+        "price-increase",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2 tăng giá đáng kể",
+      "event": "price",
+      "summary": "Prompt $0.40 → $0.60 (+50%), completion $2.00 → $2.50 (+25%) per M token.",
+      "why": "Kimi K2 giờ đắt hơn Claude Sonnet 4.8 — nếu không có lý do đặc biệt (vd long context 128k+), nên migrate sang alternative rẻ hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
+      "tags": [
+        "price-increase",
+        "moonshot"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 4.6 tăng prompt, giảm completion",
+      "event": "price",
+      "summary": "Prompt $0.39 → $0.43, completion $1.90 → $1.74 per M token.",
+      "why": "Tổng cost/request giảm nhẹ nếu output dài hơn input — phù hợp cho use case generation nhiều (vd content writing).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+      "tags": [
+        "price-change",
+        "glm"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.1 giảm giá cả prompt lẫn completion",
+      "event": "price",
+      "summary": "Prompt $1.05 → $0.98, completion $3.50 → $3.08 per M token.",
+      "why": "GLM 5.1 giờ rẻ hơn ~12% — nếu đang dùng GLM 4.6, xem xét upgrade lên 5.1 để được performance tốt hơn với giá tương đương.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "price-decrease",
+        "glm"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.5 Plus giảm giá 25%",
+      "event": "price",
+      "summary": "Prompt $0.40 → $0.30, completion $2.40 → $1.80 per M token.",
+      "why": "Qwen3.5 Plus giờ là mid-tier sweet spot — performance gần Claude Sonnet nhưng rẻ hơn ~40%. Đáng migrate từ GPT-4o mini nếu không cần OpenAI ecosystem.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-plus-20260420",
+      "tags": [
+        "price-decrease",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 Flash giảm giá đáng kể",
+      "event": "price",
+      "summary": "Prompt $0.25 → $0.19, completion $1.50 → $1.12 per M token.",
+      "why": "Qwen3.6 Flash giờ rẻ nhất trong tier này — phù hợp cho high-volume use case cần speed + cost efficiency (chatbot, classification, summarization).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-flash",
+      "tags": [
+        "price-decrease",
+        "qwen",
+        "flash"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: M2.7 giảm nhẹ prompt cost",
+      "event": "price",
+      "summary": "Prompt $0.28 → $0.26, completion giữ $1.20 per M token.",
+      "why": "Giảm nhẹ 7% prompt — không đủ lớn để migrate nếu đang dùng model khác, nhưng nếu đã dùng MiniMax thì welcome savings.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+      "tags": [
+        "price-decrease",
+        "minimax"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 121,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 3,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 0,
+    "openrouter": 9
+  }
+}
