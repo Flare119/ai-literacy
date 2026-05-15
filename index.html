@@ -1202,6 +1202,33 @@
                 <li><strong>Cost trade-off:</strong> context lớn = giá cao hơn / chậm hơn. Llama 4 Scout 10M nghe to nhưng quality thấp hơn Claude/Gemini ở task production.</li>
             </ul>
 
+            <h4>⚠️ Bẫy lớn: Context window to ≠ AI thông minh hơn</h4>
+            <p>Đây là hiểu lầm phổ biến nhất khi Producer chọn model. <strong>Context window càng to KHÔNG có nghĩa AI nhớ tốt hơn.</strong> Ngược lại, nhiều model còn tệ hơn khi context dài.</p>
+
+            <h4>Lost in the Middle — Vấn đề "quên giữa"</h4>
+            <p>Các benchmark độc lập (Anthropic Needle-in-Haystack, Stanford LongBench, Google RULER) đều confirm: <strong>khi context vượt 100K-200K tokens, hầu hết AI bắt đầu "trượt" thông tin nằm ở giữa</strong>. Phần đầu và phần cuối context được AI chú ý nhất, phần giữa bị skim qua.</p>
+            <ul>
+                <li><strong>Grok 4 Fast 2M tokens:</strong> dán nguyên cuốn sách vào — AI có thể không nhớ chương 3-7 dù chương 1 và chương cuối nó trả lời chuẩn.</li>
+                <li><strong>Gemini 3.1 Pro 1M:</strong> tốt hơn nhưng vẫn drop accuracy ~15-20% khi pass 500K tokens.</li>
+                <li><strong>Claude Opus 4.6/4.7 1M:</strong> giữ chất lượng đều nhất ở context dài (theo Anthropic benchmarks) — best-in-class cho long-context recall.</li>
+                <li><strong>Llama 4 Scout 10M:</strong> "kỷ lục industry" về số token nhưng <strong>chất lượng recall tệ</strong> ở context dài — Meta chưa publish needle benchmark đáng tin.</li>
+            </ul>
+
+            <div class="analogy">
+                <strong>Bàn rộng mà đọc lướt vs bàn vừa mà đọc kỹ.</strong><br><br>
+                Llama 4 Scout = bàn cực rộng (10M) nhưng người ngồi bàn đó đọc lướt qua, không chú tâm.<br>
+                Claude Opus = bàn vừa (1M) nhưng đọc kỹ từng trang, ghi nhớ chi tiết.<br><br>
+                Khi cần phân tích chính xác 1 brief 100 trang — chọn bàn vừa + đọc kỹ. Đừng chọn bàn rộng nhất.
+            </div>
+
+            <h4>Insight cho Producer khi chọn model</h4>
+            <ul>
+                <li><strong>Không tin số tokens marketing.</strong> Hỏi: "model này có giữ accuracy ở 500K tokens không?" Trả lời ở Anthropic Long-Context benchmark hoặc RULER score.</li>
+                <li><strong>Sweet spot 100-200K tokens:</strong> hầu hết model hoạt động tốt ở dải này. Vượt 500K — chỉ Claude Opus + Gemini 3.1 Pro giữ chất lượng đáng tin.</li>
+                <li><strong>Đặt info quan trọng ở đầu/cuối:</strong> nếu phải dùng context dài, cấu trúc lại tài liệu — brief chính ở đầu prompt, requirements ở cuối, reference middle.</li>
+                <li><strong>Cắt nhỏ + map-reduce:</strong> với task siêu dài, chia thành nhiều chat nhỏ rồi merge kết quả còn tốt hơn 1 chat siêu dài.</li>
+            </ul>
+
             <h4>Quy tắc thực chiến</h4>
             <ul>
                 <li>Task ngắn (&lt;50K tokens): bất kỳ model nào cũng được, chọn theo speed/cost</li>
