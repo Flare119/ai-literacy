@@ -1133,6 +1133,64 @@
         </div>
     </div>
 
+    <div class="card" data-id="context-window" data-persona="producer,creative,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Context Window — Bàn làm việc của AI</div>
+                <div class="card-subtitle">Bao nhiêu thông tin AI nhớ được trong 1 cuộc trò chuyện</div>
+            </div>
+            <span class="card-tag tag-fundamental">Khái niệm</span>
+        </div>
+        <div class="card-body">
+            <h4>Bản chất</h4>
+            <p>Context window = "bộ nhớ ngắn hạn" của AI trong 1 conversation. Đo bằng <strong>tokens</strong> (1 token ≈ 0.75 từ tiếng Anh, hoặc 1-2 ký tự tiếng Việt). Vượt giới hạn này → AI "quên" phần đầu cuộc nói chuyện.</p>
+            <div class="analogy">Như cái bàn làm việc của AI: bàn rộng thì để được nhiều tài liệu cùng lúc, cùng đọc cùng so sánh. Bàn hẹp thì phải bỏ giấy cũ đi mới đặt giấy mới — AI quên dần info đầu cuộc chat.</div>
+
+            <h4>So sánh các model (cập nhật 05/2026)</h4>
+            <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:0.92em">
+                <thead>
+                    <tr style="border-bottom:1px solid #2a3f5f;text-align:left">
+                        <th style="padding:6px 8px">Model</th>
+                        <th style="padding:6px 8px">Context</th>
+                        <th style="padding:6px 8px">Tương đương</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Llama 4 Scout</strong></td><td style="padding:6px 8px">10M tokens</td><td style="padding:6px 8px;color:#60a5fa">~15.000 trang A4 — kỷ lục industry</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Grok 4 Fast</strong></td><td style="padding:6px 8px">2M tokens</td><td style="padding:6px 8px;color:#60a5fa">~3.000 trang A4</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Gemini 3.1 Pro</strong></td><td style="padding:6px 8px">1M tokens</td><td style="padding:6px 8px">~1.500 trang A4</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Claude Opus 4.6/4.7</strong></td><td style="padding:6px 8px">1M tokens</td><td style="padding:6px 8px">~1.500 trang A4</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>GPT-5.4</strong></td><td style="padding:6px 8px">272K (mặc định) / 1M (extended)</td><td style="padding:6px 8px">~400 / ~1.500 trang — extended bị tính giá 2x</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Grok 4 (standard)</strong></td><td style="padding:6px 8px">256K tokens</td><td style="padding:6px 8px">~380 trang A4</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>DeepSeek V3.2</strong></td><td style="padding:6px 8px">128K tokens</td><td style="padding:6px 8px">~190 trang A4</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Llama 4 Maverick</strong></td><td style="padding:6px 8px">128K tokens</td><td style="padding:6px 8px">~190 trang A4</td></tr>
+                    <tr><td style="padding:6px 8px"><strong>Mistral Large 2</strong></td><td style="padding:6px 8px">128K tokens</td><td style="padding:6px 8px">~190 trang A4</td></tr>
+                </tbody>
+            </table>
+            <p style="font-size:0.85em;color:#94a3b8;margin-top:-6px"><em>Nguồn: OpenRouter, official docs (artificialanalysis.ai, developers.openai.com, ai.meta.com) — verify 15/05/2026.</em></p>
+
+            <h4>Tại sao Producer cần biết</h4>
+            <ul>
+                <li><strong>Project AI dài (treatment 50 trang + script 100 trang + brief 30 trang):</strong> chỉ Gemini/Claude/GPT-5.4 extended xử lý nổi 1 lần. ChatGPT default (272K) phải chia nhỏ.</li>
+                <li><strong>Brainstorm 1 phim cả ngày:</strong> conversation càng dài, AI càng "quên" đầu chat. Claude Opus 1M tokens = chat liên tục cả ngày không mất context.</li>
+                <li><strong>Phân tích storyboard 20+ frames + reference + brief client:</strong> cần model context lớn để giữ trọn vẹn.</li>
+                <li><strong>Cost trade-off:</strong> context lớn = giá cao hơn / chậm hơn. Llama 4 Scout 10M nghe to nhưng quality thấp hơn Claude/Gemini ở task production.</li>
+            </ul>
+
+            <h4>Quy tắc thực chiến</h4>
+            <ul>
+                <li>Task ngắn (&lt;50K tokens): bất kỳ model nào cũng được, chọn theo speed/cost</li>
+                <li>Task trung (50K-200K): GPT-5.4 default, Claude Sonnet, DeepSeek</li>
+                <li>Task dài (200K-1M): Claude Opus, Gemini 3.1 Pro, GPT-5.4 extended</li>
+                <li>Long-form research (1M+): chỉ Llama 4 Scout — nhưng chất lượng kém hơn cho production work</li>
+            </ul>
+
+            <div class="real-example">Khi review treatment Samsung Galaxy S26 + boards + 3 rounds client feedback (~150K tokens): em dùng Claude Opus 4.7 (1M context) — đủ giữ trọn brief + boards + feedback trong 1 chat, không phải nhắc lại context mỗi lần.</div>
+
+            <button class="check-btn" onclick="markLearned(this, 'context-window')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
     <div class="card" data-id="diffusion" data-persona="producer,creative,curious">
         <div class="card-header">
             <div>
