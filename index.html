@@ -1142,9 +1142,34 @@
             <span class="card-tag tag-fundamental">Khái niệm</span>
         </div>
         <div class="card-body">
-            <h4>Bản chất</h4>
-            <p>Context window = "bộ nhớ ngắn hạn" của AI trong 1 conversation. Đo bằng <strong>tokens</strong> (1 token ≈ 0.75 từ tiếng Anh, hoặc 1-2 ký tự tiếng Việt). Vượt giới hạn này → AI "quên" phần đầu cuộc nói chuyện.</p>
-            <div class="analogy">Như cái bàn làm việc của AI: bàn rộng thì để được nhiều tài liệu cùng lúc, cùng đọc cùng so sánh. Bàn hẹp thì phải bỏ giấy cũ đi mới đặt giấy mới — AI quên dần info đầu cuộc chat.</div>
+            <h4>Context window là gì?</h4>
+            <p>Context window = "bộ nhớ ngắn hạn" của AI trong MỘT cuộc trò chuyện. Đây là tất cả những gì AI có thể "nhìn thấy cùng lúc" để trả lời bạn: câu hỏi hiện tại + lịch sử chat trước đó + tài liệu bạn paste vào + ảnh đính kèm + system prompt.</p>
+            <p>Khi tổng số chữ vượt giới hạn này → AI <strong>bắt đầu quên phần đầu</strong> của cuộc trò chuyện. Nó không thông báo cho bạn, chỉ âm thầm bỏ qua.</p>
+
+            <h4>Token là gì?</h4>
+            <p>Token là đơn vị AI đo "số chữ". Không phải = 1 từ chính xác, mà là mảnh nhỏ của từ.</p>
+            <ul>
+                <li><strong>Tiếng Anh:</strong> 1 token ≈ 0.75 từ. Câu "The cat sat on the mat" = ~6 tokens.</li>
+                <li><strong>Tiếng Việt:</strong> 1 token ≈ 0.5 từ (vì có dấu, ký tự đặc biệt). Câu "Con mèo ngồi trên thảm" = ~10 tokens.</li>
+                <li><strong>Ước lượng nhanh:</strong> 1.000 tokens ≈ 750 chữ tiếng Anh / 500 chữ tiếng Việt / 1 trang A4 font 12.</li>
+                <li><strong>Code/HTML:</strong> tốn token gấp 2-3 lần text thường vì có nhiều dấu chấm, ngoặc, tab.</li>
+            </ul>
+
+            <h4>Ví von dễ nhớ</h4>
+            <div class="analogy">
+                <strong>Context window = cái bàn làm việc của AI.</strong><br><br>
+                Bàn rộng (Claude Opus 1M tokens) → đặt được nguyên cọc tài liệu treatment + brief + boards + reference cùng lúc, AI vừa đọc vừa so sánh chéo, không bỏ sót gì.<br><br>
+                Bàn hẹp (DeepSeek 128K) → phải dọn bớt giấy cũ mới đặt giấy mới được. AI quên đoạn đầu chat khi chat dài quá.<br><br>
+                Khi anh thấy AI "đột nhiên quên brief đã nói" hoặc "lặp lại câu hỏi đã trả lời" — thường là context window đã đầy.
+            </div>
+
+            <h4>Tại sao context window quan trọng</h4>
+            <ul>
+                <li><strong>Quyết định độ dài tài liệu xử lý 1 lần:</strong> review treatment 50 trang + brief 30 trang + boards = cần ≥500K tokens. Bàn nhỏ không kham nổi.</li>
+                <li><strong>Quyết định độ dài chat trước khi AI "lú":</strong> chat 4-5 tiếng về 1 project — chỉ bàn rộng giữ được context đầu chat.</li>
+                <li><strong>Quyết định khả năng analysis chéo:</strong> compare 10 reference cùng lúc cần bàn rộng. Bàn hẹp chỉ nhìn được 2-3 ref một lúc.</li>
+                <li><strong>Quyết định giá tiền:</strong> AI tính tiền theo TOKEN. Bàn rộng dùng nhiều token = tốn tiền. Đừng paste 200 trang vào nếu chỉ hỏi 1 câu đơn giản.</li>
+            </ul>
 
             <h4>So sánh các model (cập nhật 05/2026)</h4>
             <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:0.92em">
