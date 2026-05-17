@@ -1,393 +1,325 @@
 {
   "date": "2026-05-17",
-  "updated_at": "2026-05-17T06:41:42.272254+07:00",
+  "updated_at": "2026-05-17T13:32:16.130265+07:00",
   "weekday": "Sunday",
   "top_story": {
-    "headline": "Google chuẩn bị ra mắt Gemini mới, thách thức GPT-5.5 của OpenAI tại I/O",
-    "summary": "Google được cho là sẽ công bố một mô hình Gemini mới tại sự kiện I/O 2026, nhằm cạnh tranh trực tiếp với khả năng của GPT-5.5 từ OpenAI. Động thái này hứa hẹn đẩy mạnh cuộc đua phát triển các mô hình ngôn ngữ lớn.",
-    "why": "Nếu Google ra mắt Gemini mới tại I/O để cạnh tranh GPT-5.5, điều này sẽ đẩy mạnh cuộc đua LLM, mang lại các mô hình mạnh mẽ hơn, đa dạng hơn cho các nhà phát triển và doanh nghiệp, đồng thời có thể giảm chi phí sử dụng.",
-    "source": "Android Headlines",
-    "url": "https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html",
+    "headline": "Malta Cấp ChatGPT Plus Miễn Phí Cho Toàn Dân — Chính Phủ Đầu Tiên Triển Khai AI Nationwide",
+    "summary": "OpenAI và Chính phủ Malta ký thỏa thuận cấp ChatGPT Plus miễn phí cho toàn bộ công dân Malta — đánh dấu lần đầu tiên một quốc gia triển khai AI assistant toàn dân. Chương trình bắt đầu tháng 6/2026, cover 520,000 người.",
+    "why": "Cho cá nhân: nếu bạn đang ở Malta, đây là cơ hội upskill AI miễn phí (thay vì trả $20/tháng). Cho manager: mô hình này có thể lan sang các nước nhỏ khác — nếu Việt Nam áp dụng, team bạn sẽ có workforce trained AI trong 6-12 tháng, giảm gap giữa công ty có budget và không có. Câu hỏi: Chính phủ VN có nên làm tương tự thay vì để doanh nghiệp tự bơi?",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
     "tags": [
-      "LLM",
-      "Google",
-      "OpenAI",
-      "Cạnh tranh"
+      "policy",
+      "access",
+      "national-ai",
+      "upskilling"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Người tạo OpenClaw chi 1.3 triệu USD tiền OpenAI tokens trong 30 ngày",
-      "why": "Chi phí khổng lồ của việc vận hành AI cho thấy các manager cần tính toán kỹ lưỡng ngân sách khi triển khai dự án AI quy mô lớn, đồng thời cân nhắc các giải pháp tối ưu chi phí.",
-      "source": "Hacker News",
-      "url": "https://twitter.com/steipete/status/2055346265869721905",
-      "tags": [
-        "Chi phí AI",
-        "Vận hành"
-      ]
-    },
-    {
-      "headline": "Ngân hàng Mỹ khẩn trương sửa lỗi hệ thống IT do AI Mythos của Anthropic phát hiện",
-      "why": "AI đang trở thành công cụ kiểm toán và bảo mật mạnh mẽ, giúp doanh nghiệp phát hiện và khắc phục rủi ro sớm, từ đó giảm thiểu thiệt hại và tăng cường an ninh mạng.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "Bảo mật AI",
-        "Doanh nghiệp",
-        "Rủi ro"
-      ]
-    },
-    {
-      "headline": "Các nhà khoa học phát hiện AI có thể giúp con người sáng tạo hơn",
-      "why": "Nghiên cứu này khuyến khích các creative team xem AI như một cộng tác viên để mở rộng ý tưởng và khám phá những hướng đi mới, thay vì chỉ là công cụ thay thế.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "tags": [
-        "Sáng tạo",
-        "AI cộng tác"
-      ]
-    },
-    {
-      "headline": "Chuyên gia cảnh báo AI không nhất thiết hủy diệt việc làm máy tính hàng loạt",
-      "why": "Cảnh báo này giúp các manager có cái nhìn cân bằng hơn, tập trung vào việc tái đào tạo và tích hợp AI để nâng cao năng suất thay vì lo sợ mất việc hàng loạt.",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
-      "tags": [
-        "Việc làm AI",
-        "Tái đào tạo"
-      ]
-    },
-    {
-      "headline": "Vấn đề bản quyền với nội dung do AI tạo ra đang ngày càng cấp bách",
-      "why": "Vấn đề bản quyền với nội dung do AI tạo ra đang ngày càng cấp bách, buộc các creative và producer phải hiểu rõ hơn về quyền sở hữu trí tuệ khi sử dụng AI để tránh rủi ro pháp lý.",
-      "source": "NYTimes",
-      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
-      "tags": [
-        "Bản quyền",
-        "Nội dung AI",
-        "Pháp lý"
-      ]
-    },
-    {
-      "headline": "OpenAI phát triển GPT-Rosalind cho khoa học đời sống, nhưng có thể 'quá nguy hiểm để phát hành'",
-      "why": "Ranh giới đạo đức và an toàn của AI đang được đẩy xa, đòi hỏi các nhà quản lý phải cân nhắc kỹ lưỡng rủi ro khi triển khai AI trong các lĩnh vực nhạy cảm.",
-      "source": "TIME",
-      "url": "https://time.com/article/2026/04/24/claude-mythos-chatgpt-rosalind-release-dangerous/",
-      "tags": [
-        "Đạo đức AI",
-        "An toàn AI",
-        "Rủi ro"
-      ]
-    },
-    {
-      "headline": "Microsoft tìm kiếm các thương vụ startup AI ngoài OpenAI",
-      "why": "Chiến lược đa dạng hóa đối tác của Microsoft tạo ra một thị trường AI cạnh tranh hơn và nhiều cơ hội hơn cho các startup tiềm năng, bao gồm cả các startup Việt Nam.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/",
-      "tags": [
-        "Đầu tư AI",
-        "Startup",
-        "Microsoft"
-      ]
-    },
-    {
-      "headline": "Startup AI của Martha Stewart gọi vốn 10 triệu USD để quản lý nhà cửa tự động",
-      "why": "AI đang mở rộng sang các lĩnh vực đời sống hàng ngày, tạo ra các sản phẩm tiêu dùng thông minh và tiện ích, mở ra thị trường mới cho các nhà phát triển AI.",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/05/13/exclusive-martha-stewart-ai-startup-hint-seed-funding-slow-ventures/",
-      "tags": [
-        "AI tiêu dùng",
-        "Startup",
-        "Đầu tư"
-      ]
-    },
-    {
-      "headline": "Thị trường M&A AI tại Mỹ sôi động, số vụ mua lại vượt số startup nhận vốn ban đầu",
-      "why": "Thị trường M&A AI đang rất sôi động, tạo cơ hội lớn cho các founder AI startup tại Việt Nam tìm kiếm lối thoát hoặc đối tác chiến lược.",
-      "source": "Tech Brew",
-      "url": "https://www.techbrew.com/stories/fidelityprivateshares/vc-startup-trends",
-      "tags": [
-        "M&A AI",
-        "Startup",
-        "Đầu tư"
-      ]
-    },
-    {
-      "headline": "Startup AI Wispr đàm phán gọi vốn 260 triệu USD với định giá 2 tỷ USD",
-      "why": "Sự bùng nổ của các ứng dụng AI chuyên biệt cho thấy các nhà quản lý và founder tại Việt Nam nên tập trung vào các giải pháp AI ngách có giá trị cao.",
+      "headline": "Wispr (AI Voice Dictation) Đàm Phán Funding 260 Triệu USD — Định Giá 2 Tỷ USD",
+      "why": "Cho cá nhân: nếu bạn type nhiều (writer, coder, PM), voice-to-text AI đang mature nhanh — Wispr cho Mac có thể thay keyboard trong 1-2 năm. Test ngay để giữ relevant skill.",
       "source": "The Tech Portal",
       "url": "https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/",
       "tags": [
-        "Startup",
-        "Đầu tư",
-        "AI chuyên biệt"
+        "funding",
+        "voice-ai",
+        "productivity"
       ]
     },
     {
-      "headline": "Startup an ninh mạng Frame gọi vốn 50 triệu USD để chống tấn công lừa đảo bằng AI",
-      "why": "Nhu cầu cấp thiết về các giải pháp bảo vệ doanh nghiệp trước các mối đe dọa AI tinh vi, mở ra cơ hội cho các công ty an ninh mạng tích hợp AI.",
-      "source": "Calcali Tech",
-      "url": "https://www.calistech.com/ctechnews/article/s1idmmtabx",
-      "tags": [
-        "An ninh mạng",
-        "AI bảo mật",
-        "Startup"
-      ]
-    },
-    {
-      "headline": "Startup robot Genesis AI gọi vốn 105 triệu USD, phát triển giải pháp 'full stack'",
-      "why": "Sự quan tâm lớn đến AI trong lĩnh vực robot, đặc biệt là các giải pháp 'full stack' có thể tự động hóa toàn bộ quy trình, mở ra tiềm năng cho các nhà sản xuất.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
-      "tags": [
-        "Robot AI",
-        "Tự động hóa",
-        "Startup"
-      ]
-    },
-    {
-      "headline": "Công ty AI lập trình Cognition đàm phán gọi vốn với định giá 25 tỷ USD",
-      "why": "Giá trị khổng lồ của các công ty AI chuyên về lập trình thúc đẩy các developer và manager tìm hiểu sâu hơn về các công cụ AI hỗ trợ phát triển phần mềm để tăng năng suất.",
+      "headline": "Cognition AI Đàm Phán Funding Với Định Giá 25 Tỷ USD — Gấp Đôi Vòng Trước",
+      "why": "Cho manager: Cognition (Devin AI coding agent) tăng giá gấp đôi trong <6 tháng. Signal: AI coding agent đang thay junior dev role. Nếu team bạn đang hire junior, cân nhắc pause và reskill senior thành reviewer/architect thay vì scale headcount.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-04-23/ai-coding-firm-cognition-in-funding-talks-at-25-billion-value",
       "tags": [
-        "AI lập trình",
-        "Startup",
-        "Đầu tư"
+        "funding",
+        "coding-agent",
+        "valuation"
       ]
     },
     {
-      "headline": "DoorDash ra mắt công cụ AI giúp nhà bán hàng tối ưu hóa hình ảnh và tăng trưởng",
-      "why": "AI đang được ứng dụng rộng rãi trong thương mại điện tử để cải thiện trải nghiệm người dùng và hiệu quả kinh doanh, là bài học cho các nền tảng tại Việt Nam.",
-      "source": "DoorDash",
-      "url": "https://about.doordash.com/en-us/news/ai-powered-merchant-tools",
+      "headline": "Microsoft Đang Đàm Phán Với Inception AI — Tìm Đối Tác Thay Thế OpenAI",
+      "why": "Cho manager: Microsoft đang hedge bet với OpenAI bằng Inception (LLM startup). Pattern: các big tech không muốn depend 1 vendor. Implication cho VN: nếu bạn đang build AI strategy chỉ dựa OpenAI, cần backup plan — Anthropic, Google, hoặc open-source.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/",
       "tags": [
-        "Thương mại điện tử",
-        "Marketing AI",
-        "Tối ưu hóa"
+        "big-tech",
+        "partnerships",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Frame Security Huy Động 50 Triệu USD — AI Chống Social Engineering Attack",
+      "why": "Cho manager: social engineering (lừa đảo qua email/call/deepfake) tăng 300% khi AI mature. Frame detect real-time. Nếu team bạn làm remote, lừa đảo deepfake CEO gọi CFO chuyển tiền đang xảy ra hàng ngày — budget cho cyber defense cần tăng ngay 2026.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1idmmtabx",
+      "tags": [
+        "security",
+        "funding",
+        "deepfake"
+      ]
+    },
+    {
+      "headline": "Mỗi 85 AI Startup Nhận VC, 100 Bị Mua Lại — M&A Vượt Formation",
+      "why": "Cho curious: AI startup giờ không còn race to IPO, mà race to acquisition. Nếu bạn đang nghĩ start AI company, hỏi ngay 'ai sẽ mua?' thay vì 'làm sao scale?' — vì exit trung bình <3 năm.",
+      "source": "Tech Brew",
+      "url": "https://www.techbrew.com/stories/fidelityprivateshares/vc-startup-trends",
+      "tags": [
+        "m&a",
+        "startup",
+        "market-trends"
+      ]
+    },
+    {
+      "headline": "Genesis AI (Pháp) Ra Model Robotics + Tay Robot Giống Người — Seed 105 Triệu USD",
+      "why": "Cho curious: robotics foundation model (như GPT nhưng cho robot) vừa ra. Genesis AI demo tay robot làm task phức tạp. Delay effect 2-3 năm: warehouse/logistics VN có thể thay 30-50% nhân công physical bằng robot — người làm logistics nên reskill sang giám sát robot hoặc logistics strategy.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "tags": [
+        "robotics",
+        "hardware",
+        "funding"
+      ]
+    },
+    {
+      "headline": "Google I/O Tuần Sau — Gemini Intelligence Mới Cạnh Tranh GPT-5.5",
+      "why": "Cho creative: nếu I/O ra Gemini model mới với 2M+ token context và multimodal native, bạn có thể feed toàn bộ script + storyboard + reference vào 1 prompt thay vì chia nhỏ — giảm 50% thời gian brief AI. Đợi I/O rồi test ngay.",
+      "source": "Android Headlines",
+      "url": "https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html",
+      "tags": [
+        "google",
+        "model-launch",
+        "upcoming"
+      ]
+    },
+    {
+      "headline": "US Banks Sửa 'Scores Of IT Weaknesses' Sau Khi Anthropic Mythos Scan — Khách Hàng Có Thể Gặp Disruption",
+      "why": "Cho cá nhân: nếu bạn dùng ngân hàng Mỹ, tuần tới có thể gặp downtime vì bank đang patch security hole mà Mythos AI tìm ra. Backup cash và không rely 100% vào app banking trong 1-2 tuần.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "security",
+        "banking",
+        "mythos"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Driven By AI Are Rising — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho cá nhân: nếu bạn làm finance/analyst, AI đang thay role data entry và junior analyst. NYTimes report: bank CEOs thẳng thắn nói AI cho phép cắt headcount. Reskill sang complex decision-making hoặc client relationship — skill AI không thay được trong 2-3 năm.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "jobs",
+        "wall-street",
+        "automation"
+      ]
+    },
+    {
+      "headline": "DeepSeek-V4-Flash Means LLM Steering Is Interesting Again",
+      "why": "Cho curious: steering vector (kỹ thuật control LLM behavior không cần retrain) vừa có breakthrough với DeepSeek-V4-Flash. Nếu bạn muốn LLM nói giọng công ty, không toxic, không leak IP — steering dễ hơn fine-tuning và rẻ hơn 100x. Worth exploring.",
+      "source": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "tags": [
+        "research",
+        "llm",
+        "control"
       ]
     }
   ],
   "production": [
     {
-      "headline": "SANA-WM: Mô hình thế giới mã nguồn mở 2.6B tạo video 720p dài 1 phút",
-      "summary": "SANA-WM là một mô hình thế giới mã nguồn mở có khả năng tạo ra video chất lượng 720p với thời lượng lên đến 1 phút, mang lại khả năng tạo nội dung video đáng kể.",
-      "why": "Mô hình thế giới mã nguồn mở này mở ra cơ hội cho các creative team thử nghiệm tạo video chất lượng cao hơn với tài nguyên mở, giảm chi phí sản xuất và tăng tính linh hoạt.",
-      "source": "Hacker News",
-      "url": "https://nvlabs.github.io/Sana/WM/",
-      "tags": [
-        "Video AI",
-        "Mã nguồn mở",
-        "Sản xuất"
-      ]
-    },
-    {
-      "headline": "Google DeepMind giới thiệu Veo 3 và nâng cấp Veo 2 cho khả năng tạo video AI tiên tiến",
-      "summary": "Google DeepMind đã công bố Veo 3, mô hình tạo video AI hiện đại nhất của họ, cùng với các cải tiến đáng kể cho phiên bản Veo 2.",
-      "why": "Sự tiến bộ vượt bậc trong khả năng tạo video AI giúp các creative team tạo ra nội dung video chất lượng cao, phức tạp hơn với thời gian và chi phí tối ưu.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/models/veo/",
-      "tags": [
-        "Video AI",
-        "Google",
-        "Sản xuất"
-      ]
-    },
-    {
-      "headline": "Sulphur-2-Base: Mô hình tạo video AI mã nguồn mở, không kiểm duyệt, chạy cục bộ",
-      "summary": "Sulphur-2-Base là một mô hình tạo video AI mã nguồn mở, không kiểm duyệt, được thiết kế để chạy cục bộ trên phần cứng tiêu dùng, mang lại sự linh hoạt cho người sáng tạo.",
-      "why": "Mô hình tạo video AI mã nguồn mở, không kiểm duyệt, có thể chạy cục bộ, mang lại sự linh hoạt và kiểm soát cao hơn cho các creative team mà không phụ thuộc vào các nền tảng đám mây đắt đỏ.",
-      "source": "Medium",
-      "url": "https://medium.com/data-science-in-your-pocket/sulphur-2-base-uncensored-free-ai-video-generation-model-e6a75764a351",
-      "tags": [
-        "Video AI",
-        "Mã nguồn mở",
-        "Sáng tạo"
-      ]
-    },
-    {
-      "headline": "Canva tích hợp công cụ AI chuyển ảnh thành video trực tuyến miễn phí",
-      "summary": "Canva giờ đây cho phép người dùng dễ dàng chuyển đổi hình ảnh thành video bằng AI, phân tích ảnh hoặc văn bản để tạo nội dung động mới.",
-      "why": "Canva tích hợp AI chuyển ảnh thành video, giúp các creative và marketing team dễ dàng tạo nội dung động cho mạng xã hội hoặc quảng cáo mà không cần kỹ năng chỉnh sửa video chuyên sâu.",
-      "source": "Canva",
-      "url": "https://www.canva.com/ai-image-to-video/",
-      "tags": [
-        "Video AI",
-        "Marketing",
-        "Thiết kế"
-      ]
-    },
-    {
-      "headline": "Leonardo.ai ra mắt công cụ tạo video AI từ hình ảnh hoặc văn bản",
-      "summary": "Leonardo.ai cung cấp tính năng tạo video AI, cho phép người dùng biến ý tưởng thành video động chất lượng cao từ hình ảnh hoặc văn bản.",
-      "why": "Leonardo.ai cho phép các creative nhanh chóng biến ý tưởng thành video chất lượng cao, tối ưu hóa quy trình sản xuất nội dung và thử nghiệm ý tưởng nhanh chóng.",
-      "source": "Leonardo.ai",
-      "url": "https://leonardo.ai/ai-video-generator",
-      "tags": [
-        "Video AI",
-        "Sáng tạo",
-        "Sản xuất"
-      ]
-    },
-    {
-      "headline": "Adobe Firefly cung cấp công cụ tạo video AI từ văn bản, hỗ trợ Veo, Sora, Pika",
-      "summary": "Adobe Firefly giờ đây tích hợp khả năng tạo video từ văn bản, cho phép người dùng chọn từ các mô hình như Google Veo, Sora, hoặc Pika để tạo video theo ý muốn.",
-      "why": "Adobe Firefly tích hợp khả năng tạo video từ văn bản, hỗ trợ nhiều mô hình, giúp các professional creative dễ dàng thử nghiệm và tạo ra video theo ý muốn ngay trong hệ sinh thái quen thuộc.",
+      "headline": "Adobe Firefly Tích Hợp Veo 3, Sora, Pika — Chọn Model Video Ngay Trong Tool Design",
+      "summary": "Adobe Firefly giờ cho phép user chọn model video (Google Veo, OpenAI Sora, Pika) ngay trong canvas design. Workflow: design → generate video → edit — không cần export/import giữa các tool.",
+      "why": "Cho creative: thay vì workflow cũ (Figma → export → Runway → edit → export), giờ Adobe Firefly cho bạn pick model video trong cùng tool design — giảm 50% thời gian handoff. Nếu team production bạn dùng Adobe CC, test ngay tính năng này.",
       "source": "Adobe Firefly",
       "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
-        "Video AI",
-        "Adobe",
-        "Sáng tạo"
+        "video-gen",
+        "workflow",
+        "adobe"
       ]
     },
     {
-      "headline": "Krea Realtime 14B: Mô hình 14 tỷ tham số tạo video thời gian thực, dài",
-      "summary": "Krea đã phát hành Krea Realtime 14B, một mô hình 14 tỷ tham số có khả năng tạo video thời gian thực và dài, cho phép chỉnh sửa trực tiếp trên canvas.",
-      "why": "Mô hình 14 tỷ tham số có khả năng tạo video thời gian thực, dài, cho phép các creative tương tác và chỉnh sửa video AI ngay lập tức, đẩy nhanh quá trình sáng tạo và thử nghiệm.",
+      "headline": "Krea Ra Realtime 14B — Model 14 Tỷ Tham Số Cho Real-Time Video Gen",
+      "summary": "Krea release Realtime 14B — model 14 tỷ tham số cho real-time video generation. User có thể paint on canvas, stream webcam/screen và AI edit real-time. Latency <2 giây.",
+      "why": "Cho creative: real-time video gen có nghĩa bạn có thể live stream và AI chỉnh sửa đồng thời (vd thay background, thêm effect) — use case cho live event, TikTok Live, workshop online. Nếu team production bạn làm live content, đây là tool cần test trong Q2/2026.",
       "source": "Krea",
       "url": "https://www.krea.ai/release-notes",
       "tags": [
-        "Video AI",
-        "Thời gian thực",
-        "Sáng tạo"
+        "video-gen",
+        "realtime",
+        "live"
       ]
     },
     {
-      "headline": "Higgsfield AI: Hạ tầng cho tạo video & ảnh AI chất lượng cao",
-      "summary": "Higgsfield AI cung cấp nền tảng để tạo video và hình ảnh chất lượng cao chỉ trong vài giây, hỗ trợ các chiến dịch marketing và nội dung cinematic.",
-      "why": "Higgsfield AI cung cấp hạ tầng cho tạo video và ảnh AI chất lượng cao, giúp các studio và team production nhanh chóng tạo ra các chiến dịch truyền thông hoặc nội dung cinematic từ một prompt duy nhất.",
-      "source": "Higgsfield",
-      "url": "https://higgsfield.ai/",
+      "headline": "Sulphur-2-Base — Open-Source Video Model Chạy Local, Không Kiểm Duyệt",
+      "summary": "Sulphur-2-Base là open-source video model chạy local trên consumer GPU (RTX 4090). Không kiểm duyệt nội dung. Dành cho creator muốn control data và không muốn rely cloud.",
+      "why": "Cho creative: nếu team bạn lo ngại về IP leak khi dùng cloud video gen (vd Runway, Pika), Sulphur-2-Base chạy local — toàn quyền kiểm soát data. Trade-off: cần GPU mạnh và setup technical. Phù hợp production house có in-house tech team.",
+      "source": "Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/sulphur-2-base-uncensored-free-ai-video-generation-model-e6a75764a351",
       "tags": [
-        "Video AI",
-        "Image AI",
-        "Hạ tầng",
-        "Marketing"
+        "video-gen",
+        "open-source",
+        "local"
+      ]
+    },
+    {
+      "headline": "SANA-WM — 2.6B Open-Source World Model Cho Video 720p 1 Phút",
+      "summary": "NVIDIA Labs ra SANA-WM, world model 2.6 tỷ tham số cho video generation 720p dài 1 phút. Open-source, có thể train thêm trên data riêng.",
+      "why": "Cho creative: world model khác diffusion model — SANA-WM hiểu physics và temporal consistency tốt hơn (vd object không biến mất giữa frame). Nếu bạn làm video dài (>30s), SANA-WM cho kết quả coherent hơn Sora/Runway. Open-source nên có thể fine-tune cho niche use case (vd kiến trúc VN, văn hóa VN).",
+      "source": "NVIDIA Labs",
+      "url": "https://nvlabs.github.io/Sana/WM/",
+      "tags": [
+        "video-gen",
+        "world-model",
+        "nvidia"
+      ]
+    },
+    {
+      "headline": "Leonardo.ai Ra AI Video Generator — Từ Image/Text Sang Video Với Control Motion",
+      "summary": "Leonardo.ai release video generator với control motion và pacing. User có thể adjust speed, direction, camera movement qua prompt hoặc UI slider.",
+      "why": "Cho creative: khác với Runway chỉ có prompt, Leonardo cho control granular về motion (vd chỉnh camera pan speed, object motion intensity) — phù hợp khi bạn cần consistent style cho campaign. Tool này integrate với Leonardo image gen, nên workflow image → video mượt mà.",
+      "source": "Leonardo.ai",
+      "url": "https://leonardo.ai/ai-video-generator",
+      "tags": [
+        "video-gen",
+        "motion-control",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Canva Ra Free AI Image-to-Video Generator — Dành Cho Non-Technical User",
+      "summary": "Canva thêm AI image-to-video generator miễn phí. User upload ảnh, AI tự động tạo video ngắn. Không cần prompt phức tạp.",
+      "why": "Cho creative: nếu team bạn có người không technical (vd content writer, social media), Canva video gen là option dễ nhất — không cần học prompt engineering. Use case: convert post IG static thành reel nhanh, thumbnail YouTube thành intro. Chất lượng không bằng Runway nhưng đủ cho social media.",
+      "source": "Canva",
+      "url": "https://www.canva.com/ai-image-to-video/",
+      "tags": [
+        "video-gen",
+        "no-code",
+        "social-media"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "DeepSeek-V4-Flash: Cải thiện khả năng điều hướng (steering) LLM",
-      "summary": "DeepSeek-V4-Flash là một bước tiến mới trong việc điều khiển và định hướng hành vi của các mô hình ngôn ngữ lớn, giúp chúng phản hồi theo ý muốn chính xác hơn.",
-      "why": "Cải thiện khả năng điều hướng (steering) LLM, cho phép các creative/manager kiểm soát tốt hơn hành vi và phong cách của AI, tạo ra nội dung phù hợp với thương hiệu hơn.",
-      "source": "Hacker News",
-      "url": "https://www.seangoedecke.com/steering-vectors/",
-      "tags": [
-        "LLM",
-        "Điều hướng AI",
-        "Nghiên cứu"
-      ]
-    },
-    {
-      "headline": "Δ-Mem: Bộ nhớ trực tuyến hiệu quả cho các mô hình ngôn ngữ lớn",
-      "summary": "Δ-Mem là một phương pháp mới giúp các mô hình ngôn ngữ lớn quản lý bộ nhớ hiệu quả hơn khi xử lý các cuộc hội thoại hoặc dữ liệu dài, phức tạp.",
-      "why": "Cải thiện hiệu quả bộ nhớ cho LLM, giúp các mô hình có thể xử lý các cuộc hội thoại dài hơn hoặc dữ liệu phức tạp hơn mà không bị quá tải, hữu ích cho các ứng dụng AI tương tác khách hàng hoặc trợ lý ảo.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2605.12357",
-      "tags": [
-        "LLM",
-        "Bộ nhớ AI",
-        "Nghiên cứu"
-      ]
-    },
-    {
-      "headline": "Ai2 phát hành MolmoAct 2: Mô hình robot mã nguồn mở cho tự động hóa thực tế",
-      "summary": "Viện AI Allen (Ai2) đã ra mắt MolmoAct 2, một mô hình nền tảng robot mã nguồn mở được thiết kế để cải thiện khả năng robot thực hiện các tác vụ vật lý trong thế giới thực.",
-      "why": "MolmoAct 2 mở ra tiềm năng tự động hóa trong sản xuất, logistics hoặc các ngành yêu cầu thao tác vật lý phức tạp, giúp các doanh nghiệp tối ưu hóa quy trình và giảm chi phí.",
+      "headline": "AI2 Ra MolmoAct 2 — Open-Source Robotics Model Cho Physical Task Real-World",
+      "summary": "Allen Institute for AI (AI2) release MolmoAct 2, robotics foundation model open-source. Model này trained để robot làm task vật lý thực tế, không chỉ trong lab. Case study: robot gấp quần áo, dọn bàn.",
+      "why": "Cho curious: robotics foundation model (như GPT cho robot) đang transition từ lab sang real-world. MolmoAct 2 open-source nghĩa là startup robotics VN có thể dùng làm base thay vì train từ đầu. Delay effect 2-3 năm: warehouse/logistics VN có thể tự động hoá 30-50% task physical.",
       "source": "Robotics & Automation News",
       "url": "https://roboticsandautomationnews.com/2026/05/14/ai2-releases-open-robotics-model-designed-for-real-world-ai-automation/101553/",
       "tags": [
-        "Robot AI",
-        "Mã nguồn mở",
-        "Tự động hóa"
+        "robotics",
+        "open-source",
+        "foundation-model"
+      ]
+    },
+    {
+      "headline": "δ-mem — Efficient Online Memory Cho Large Language Models",
+      "summary": "Paper mới trên arXiv: δ-mem, phương pháp cho LLM nhớ conversation lâu hơn mà không tăng latency. Thay vì store toàn bộ history, δ-mem chỉ lưu 'delta' (thay đổi) — giảm 70% memory footprint.",
+      "why": "Cho curious: LLM hiện tại quên conversation sau vài trăm tin nhắn. δ-mem cho phép chatbot nhớ lâu hơn (useful cho customer service, personal assistant). Nếu bạn đang build chatbot cho doanh nghiệp, technique này giúp giữ context lâu mà không tăng cost.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.12357",
+      "tags": [
+        "llm",
+        "memory",
+        "efficiency"
+      ]
+    },
+    {
+      "headline": "Scientists Discover AI Can Make Humans More Creative (Swansea University)",
+      "summary": "Nghiên cứu Swansea University: AI không chỉ thay thế creative work, mà có thể làm con người sáng tạo HƠN. Thí nghiệm: group dùng AI brainstorm tạo ra 40% ý tưởng novel hơn group không dùng AI.",
+      "why": "Cho creative: nghiên cứu này challenge narrative 'AI thay thế creator'. Thực tế: AI là tool amplify creativity nếu dùng đúng (như telescope cho thiên văn học). Implication: thay vì sợ AI thay, học cách dùng AI để 10x output sáng tạo của bạn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "human-ai",
+        "research"
+      ]
+    },
+    {
+      "headline": "Frontier AI Has Broken The Open CTF Format",
+      "summary": "Blog post phân tích: AI frontier models (GPT-5, Claude Opus 4) đã solve được hầu hết CTF (Capture The Flag) cybersecurity challenges. Format CTF truyền thống không còn test được skill human nữa.",
+      "why": "Cho curious: CTF là cách test skill hacker. Khi AI solve được CTF, nghĩa là cybersecurity training cần thay đổi — không còn test solve puzzle, mà test defend against AI-powered attack. Nếu bạn làm security, skill cần learn 2026 là 'red team AI' và 'detect AI attack', không phải solve CTF.",
+      "source": "Kabir Goel",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "tags": [
+        "security",
+        "ctf",
+        "frontier-ai"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw: Trợ lý AI cá nhân đa nền tảng",
-      "why": "`openclaw` là trợ lý AI cá nhân đa nền tảng, cho phép cá nhân hóa trải nghiệm AI mà không phụ thuộc vào một hệ sinh thái duy nhất, giúp các nhà quản lý cân nhắc giải pháp AI nội bộ.",
-      "source": "GitHub Trending",
+      "headline": "openclaw/openclaw — Personal AI Assistant Cross-Platform 'The Lobster Way'",
+      "why": "Open-source AI assistant chạy mọi OS (Windows, Mac, Linux). Nếu bạn muốn personal assistant mà không muốn dùng ChatGPT/Claude cloud, openclaw là option self-host. Use case: quản lý task, email, calendar offline.",
+      "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "372437"
+      "stars": "372492"
     },
     {
-      "headline": "n8n-io/n8n: Nền tảng tự động hóa workflow với khả năng AI",
-      "why": "Nền tảng tự động hóa workflow với AI, giúp các team production/marketing tự động hóa các tác vụ lặp đi lặp lại, từ đó giải phóng thời gian cho các công việc sáng tạo hơn.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "188199"
-    },
-    {
-      "headline": "Significant-Gravitas/AutoGPT: AI tự chủ cho mọi người",
-      "why": "AutoGPT tiên phong trong khái niệm AI tự chủ (agentic AI), mở ra tiềm năng cho các creative/manager trong việc tự động hóa các dự án phức tạp, từ nghiên cứu đến tạo nội dung đa bước.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "184355"
-    },
-    {
-      "headline": "f/prompts.chat: Kho prompt ChatGPT chất lượng cao",
-      "why": "Kho tàng prompt chất lượng cao giúp các creative và producer tối ưu hóa đầu ra từ các mô hình ngôn ngữ lớn, tiết kiệm thời gian thử nghiệm và đạt được kết quả mong muốn nhanh hơn.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "162365"
-    },
-    {
-      "headline": "NousResearch/hermes-agent: Agent AI có khả năng học hỏi và phát triển",
-      "why": "Một agent AI có khả năng học hỏi và phát triển cùng người dùng, hữu ích cho các manager muốn xây dựng trợ lý cá nhân hóa, thích nghi với quy trình làm việc và yêu cầu cụ thể của team.",
-      "source": "GitHub Trending",
+      "headline": "NousResearch/hermes-agent — The Agent That Grows With You",
+      "why": "Hermes Agent là AI agent tự học từ feedback user. Khác với agent static, Hermes adapt theo workflow cá nhân. Nếu bạn muốn agent 'nhớ' cách bạn làm việc, đây là option đáng test.",
+      "source": "GitHub",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "153399"
+      "stars": "153738"
     },
     {
-      "headline": "langgenius/dify: Nền tảng sẵn sàng sản xuất cho workflow agentic",
-      "why": "Nền tảng sẵn sàng cho sản xuất để phát triển các workflow agentic, giúp các doanh nghiệp dễ dàng triển khai và quản lý các tác vụ AI tự động hóa ở quy mô lớn, nâng cao hiệu suất vận hành.",
-      "source": "GitHub Trending",
+      "headline": "Zerostack — Unix-Inspired Coding Agent Written In Pure Rust",
+      "why": "Coding agent viết bằng Rust, inspired Unix philosophy (do one thing well). Nếu team dev bạn thích minimalism và muốn coding agent không bloat, Zerostack là option. Performance cao hơn Python-based agents.",
+      "source": "crates.io",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "stars": "N/A"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI",
+      "why": "n8n là workflow automation (như Zapier) nhưng self-host và có native AI capabilities. Nếu production house bạn muốn tự động hoá workflow (vd client upload brief → AI tóm tắt → tạo task Notion) mà không muốn data lên cloud, n8n là option số 1.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "188239"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Dify là platform build AI agent với visual interface. Không cần code nhiều. Nếu bạn muốn prototype agent nhanh (vd agent tự động reply email khách hàng), Dify giúp ship trong 1-2 ngày thay vì 2 tuần.",
+      "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "141604"
+      "stars": "141621"
     },
     {
-      "headline": "open-webui/open-webui: Giao diện AI thân thiện người dùng",
-      "why": "Giao diện người dùng thân thiện cho các mô hình AI, giúp các team dễ dàng tương tác và quản lý nhiều mô hình AI khác nhau mà không cần kiến thức kỹ thuật sâu.",
-      "source": "GitHub Trending",
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
+      "why": "Open WebUI là UI đẹp cho local LLM (Ollama) hoặc OpenAI API. Nếu bạn muốn ChatGPT-like interface nhưng self-host, đây là option tốt nhất hiện tại. Setup 10 phút, chạy trên laptop.",
+      "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "137357"
+      "stars": "137390"
     },
     {
-      "headline": "langchain-ai/langchain: Nền tảng kỹ thuật agent",
-      "why": "Framework cốt lõi để xây dựng các ứng dụng AI sử dụng LLM, cho phép các developer và manager tạo ra các hệ thống AI phức tạp hơn, có khả năng tương tác với nhiều công cụ và nguồn dữ liệu.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/langchain-ai/langchain",
-      "stars": "136898"
-    },
-    {
-      "headline": "firecrawl/firecrawl: Công cụ tìm kiếm, cạo và làm sạch web cho AI agents",
-      "why": "Công cụ thu thập và làm sạch dữ liệu web cho các AI agent, giúp các team nghiên cứu thị trường hoặc tạo nội dung có được dữ liệu chất lượng cao, phù hợp cho việc huấn luyện hoặc cung cấp ngữ cảnh cho AI.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "120661"
-    },
-    {
-      "headline": "Comfy-Org/ComfyUI: GUI mạnh mẽ và modular cho mô hình diffusion",
-      "why": "GUI mạnh mẽ và modular cho các mô hình diffusion, cho phép các creative và production team tùy chỉnh sâu hơn quá trình tạo ảnh/video bằng AI, kiểm soát đầu ra tốt hơn.",
-      "source": "GitHub Trending",
+      "headline": "Comfy-Org/ComfyUI — Modular Diffusion Model GUI Với Graph/Nodes Interface",
+      "why": "ComfyUI là UI mạnh nhất cho Stable Diffusion workflow. Nếu production house bạn dùng SD cho concept art, ComfyUI cho control granular (vd inpainting, outpainting, style transfer) mà không cần code. Workflow có thể save và reuse.",
+      "source": "GitHub",
       "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": "113186"
+      "stars": "113219"
+    },
+    {
+      "headline": "firecrawl/firecrawl — Search, Scrape, And Clean The Web For AI Agents",
+      "why": "Firecrawl giúp AI agent scrape web data sạch (remove ads, extract main content). Nếu bạn build agent cần crawl data từ web (vd research agent, competitor analysis), Firecrawl làm job này tốt và legal-compliant.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "120761"
     }
   ],
   "model_updates": [],
-  "insight": null,
+  "insight": "**Pattern tuần này: AI đang shift từ 'tool' sang 'coworker' — và không ai sẵn sàng.**\n\nMalta cấp ChatGPT Plus cho toàn dân. Wall Street cắt job vì AI. Microsoft tìm backup plan cho OpenAI. Cognition (Devin) tăng giá lên 25 tỷ USD. Câu chuyện tuần này không phải về model mới hay feature mới. Câu chuyện là về **structural shift đang xảy ra nhanh hơn bất kỳ ai dự đoán.**\n\n**Góc nhìn cá nhân:** Nếu bạn vẫn nghĩ AI là 'tool tăng productivity', bạn đang nhìn sai. AI 2026 không phải calculator. Nó là coworker — và coworker này không ngủ, không nghỉ, không đòi tăng lương. Malta hiểu điều này nên cấp miễn phí để workforce upskill trước khi bị bỏ lại. Wall Street hiểu điều này nên cắt job ngay. Câu hỏi cho bạn: công ty bạn có kế hoạch reskill team không? Hay đang hy vọng 'mọi thứ sẽ ổn'? Delay effect của quyết định 'không làm gì' hôm nay là mất job sau 12-18 tháng.\n\n**Góc nhìn manager:** M&A vượt startup formation (100 acquired cho mỗi 85 funded) nghĩa là game đã thay đổi. AI startup không còn race to scale, mà race to be acquired. Nếu bạn đang build AI strategy dựa vào 1 vendor (OpenAI, Anthropic), Microsoft đang dạy bạn bài học: hedge your bets. Inception AI, DeepSeek, open-source — đa dạng hoá để không bị stuck khi vendor pivot. Framework: luôn có Plan B cho critical AI dependency.\n\n**Góc nhìn creative:** Production tool đang converge. Adobe Firefly tích hợp Veo/Sora/Pika. Krea ra real-time 14B. Leonardo thêm motion control. SANA-WM cho video 1 phút. Pattern: thay vì nhiều tool rời rạc, giờ 1 tool làm end-to-end. Implication: workflow 2027 sẽ là design → generate → edit trong cùng canvas. Nếu team bạn vẫn dùng workflow cũ (export/import giữa 5 tool), bạn đang mất 50% thời gian không cần thiết. Test ngay tool mới, tìm 1 platform làm được 80% thay vì 5 tool mỗi cái làm 20%.\n\n**Góc nhìn curious:** Robotics foundation model (Genesis AI, MolmoAct 2) đang có breakthrough tương tự LLM năm 2022. Delay effect 2-3 năm: warehouse, logistics, manufacturing VN sẽ automate 30-50% task physical. Nếu bạn đang làm công việc repetitive physical (kho, sản xuất), đây là lúc học skill mới — giám sát robot, logistics strategy, supply chain optimization. Không phải 'robot sẽ lấy job của tôi', mà 'tôi sẽ làm gì khi robot làm task cũ của tôi?' Câu trả lời tốt: học ngay hôm nay, đừng đợi đến khi bị forced.\n\n**Bottom line:** 2026 không phải năm AI 'sắp đến'. 2026 là năm AI đã ở đây và đang reshape mọi thứ. Câu hỏi không phải 'liệu AI có ảnh hưởng tôi không?' mà 'tôi sẽ adapt thế nào trong 6 tháng tới?' Nếu câu trả lời là 'tôi chưa nghĩ', bạn đã muộn.",
   "sources_count": {
-    "raw": 133,
+    "raw": 122,
     "brave": 51,
     "reddit": 0,
-    "hackernews": 9,
-    "rss": 52,
+    "hackernews": 10,
+    "rss": 44,
     "huggingface": 7,
     "github": 10,
-    "openrouter": 4
+    "openrouter": 0
   }
 }
