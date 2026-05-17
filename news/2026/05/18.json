@@ -1,0 +1,283 @@
+{
+  "date": "2026-05-18",
+  "updated_at": "2026-05-18T06:49:47.734084+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "Cognition AI Đàm Phán Funding Với Định Giá 25 Tỷ USD — Gấp Đôi Vòng Trước",
+    "summary": "Cognition AI Inc. đang đàm phán vòng gọi vốn mới với định giá $25 tỷ USD, gấp đôi vòng trước. Đây là startup AI coding agent cho phép AI viết code end-to-end, đáp ứng nhu cầu tăng cao của các công ty muốn tự động hoá phát triển phần mềm.",
+    "why": "Cho manager: định giá gấp đôi trong vài tháng signal rằng thị trường đang đặt cược mạnh vào AI thay thế junior dev role. Nếu công ty bạn chưa có chiến lược reskill team về code review/architect, đây là lúc chuẩn bị — không phải hire thêm junior, mà train senior làm việc với AI agent.",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-23/ai-coding-firm-cognition-in-funding-talks-at-25-billion-value",
+    "tags": [
+      "funding",
+      "AI agent",
+      "coding",
+      "valuation"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Anthropic Mở Rộng Claude Cowork Cho Ngành Luật — Tự Động Hoá Review Hợp Đồng",
+      "why": "Cho manager trong legal/compliance: Claude Cowork giờ tích hợp với các phần mềm luật phổ biến, giúp tự động hoá review hợp đồng quy mô lớn. Nếu team bạn đang dùng tool riêng, cần đánh giá integration — có thể giảm 50-70% workload manual review.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/anthropic-expands-legal-ai-tools-claude-cowork-2026-5",
+      "tags": [
+        "legal",
+        "automation",
+        "Claude"
+      ]
+    },
+    {
+      "headline": "US Banks Sửa 'Hàng Trăm IT Weaknesses' Sau Khi Anthropic Mythos Scan — Khách Hàng Có Thể Gặp Disruption",
+      "why": "Cho manager IT/security: Mythos AI tool của Anthropic đang expose hàng trăm lỗ hổng bảo mật tại các ngân hàng Mỹ, buộc họ upgrade system khẩn cấp. Nếu tổ chức bạn chưa audit bằng AI tool, đây là wake-up call — delay có thể nghĩa là bị breach trước khi biết.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "security",
+        "banking",
+        "risk"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Do AI Đang Tăng — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho cá nhân: nếu bạn đang làm junior analyst hoặc entry-level finance role tại ngân hàng, đây là tín hiệu cần pivot skill ngay. Wall Street đang thay thế các role repetitive bằng AI — focus vào judgment/relationship skill thay vì execution task.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "jobs",
+        "finance",
+        "layoffs"
+      ]
+    },
+    {
+      "headline": "Mỗi 85 AI Startup Nhận VC, 100 Bị Mua Lại — M&A Vượt Formation",
+      "why": "Cho curious: thị trường AI 2026 không còn về IPO hay unicorn — mà về acqui-hire và M&A. Nếu bạn đang cân nhắc startup, hiểu rằng exit path phổ biến giờ là bán cho big tech, không phải IPO.",
+      "source": "Tech Brew",
+      "url": "https://www.techbrew.com/stories/fidelityprivateshares/vc-startup-trends",
+      "tags": [
+        "M&A",
+        "startup",
+        "VC"
+      ]
+    },
+    {
+      "headline": "Frame Security Huy Động 50 Triệu USD — AI Chống Social Engineering Attack",
+      "why": "Cho manager security: social engineering attack giờ dùng AI để tạo deepfake voice/video — tấn công qua email/call fake CEO. Frame Security vừa huy động $50M để build tool phát hiện loại tấn công này real-time. Nếu công ty bạn chưa có giải pháp, đây là category mới cần evaluate.",
+      "source": "Calcalist",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1idmmtabx",
+      "tags": [
+        "cybersecurity",
+        "funding",
+        "social engineering"
+      ]
+    },
+    {
+      "headline": "Microsoft Đang Đàm Phán Với Inception AI — Tìm Đối Tác Thay Thế OpenAI",
+      "why": "Cho manager/cá nhân dùng Azure OpenAI: Microsoft đang tìm startup AI khác (như Inception) để giảm phụ thuộc OpenAI. Nếu team bạn đang build trên Azure OpenAI, theo dõi deal này — có thể ảnh hưởng pricing/access trong 6-12 tháng.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/",
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "partnership"
+      ]
+    },
+    {
+      "headline": "Wispr (AI Voice Dictation) Đàm Phán Funding 260 Triệu USD — Định Giá 2 Tỷ USD",
+      "why": "Cho cá nhân: Wispr cho phép dictate giọng nói thành text với accuracy cao hơn native keyboard — định giá $2B signal rằng thị trường tin voice input sẽ thay thế typing trong 3-5 năm. Nếu bạn đang làm việc remote/content creation nhiều, test tool này ngay để tăng tốc output.",
+      "source": "The Tech Portal",
+      "url": "https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/",
+      "tags": [
+        "voice AI",
+        "funding",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Martha Stewart Ra Mắt Hint — AI Startup Quản Lý Nhà Cửa Trước Khi Hỏng",
+      "why": "Cho curious: Hint dùng AI để predict khi nào thiết bị/hệ thống trong nhà sẽ hỏng (boiler, điện, nước) và tự động book thợ sửa. Seed funding $10M từ Slow Ventures. Đây là ví dụ AI áp dụng vào đời sống hàng ngày — không phải hype mà là practical utility.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/05/13/exclusive-martha-stewart-ai-startup-hint-seed-funding-slow-ventures/",
+      "tags": [
+        "home automation",
+        "consumer AI",
+        "funding"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google DeepMind Ra Veo 3 — State-of-the-Art Video Generation",
+      "summary": "Google DeepMind vừa ra mắt Veo 3, model video generation mới nhất, và nâng cấp Veo 2 với các tính năng mới. Veo 3 được tích hợp vào Pictory, Leonardo.ai, Canva.",
+      "why": "Cho creative: Veo 3 giờ có sẵn trong Canva (tool bạn đang dùng) — giúp prototype video từ image/text ngay trong workflow thiết kế, không cần export sang tool khác. Giảm 40-50% thời gian handoff giữa design và video production.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video generation",
+        "AI model",
+        "production tools"
+      ]
+    },
+    {
+      "headline": "Krea Ra Realtime 14B — Model 14 Tỷ Tham Số Cho Real-Time Video Gen",
+      "summary": "Krea release model Realtime 14B, model 14 tỷ parameters cho phép real-time video generation từ paint/webcam/screen. User có thể vẽ trên canvas và AI edit real-time.",
+      "why": "Cho creative: Realtime 14B cho phép bạn vẽ sketch và xem AI render video ngay lập tức — không cần render/wait. Phù hợp cho iterative creative process (brainstorm → test → refine). Tool này đang miễn phí trên Krea.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/release-notes",
+      "tags": [
+        "video generation",
+        "real-time",
+        "creative tools"
+      ]
+    },
+    {
+      "headline": "Sulphur-2-Base — Open-Source Video Model Chạy Local, Không Kiểm Duyệt",
+      "summary": "Sulphur 2 Base là open-source video generation model có thể chạy local trên consumer hardware, không kiểm duyệt nội dung. Đây là alternative cho các cloud platform đắt đỏ và có content moderation.",
+      "why": "Cho creative: nếu workflow của bạn bị giới hạn bởi content policy của Runway/Pika (không cho generate violence, nudity, politics), Sulphur-2-Base cho phép chạy local không kiểm duyệt. Trade-off: cần GPU mạnh và tự chịu trách nhiệm ethical output.",
+      "source": "Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/sulphur-2-base-uncensored-free-ai-video-generation-model-e6a75764a351",
+      "tags": [
+        "open-source",
+        "video generation",
+        "local model"
+      ]
+    },
+    {
+      "headline": "DoorDash Ra AI Tools — Merchant Tạo Menu Và Ảnh Món Ăn Tự Động",
+      "summary": "DoorDash thêm AI tools giúp merchant (nhà hàng) tạo menu text và ảnh món ăn tự động, giảm workload setup và update menu.",
+      "why": "Cho curious: DoorDash AI tool miễn phí cho merchant — nếu bạn biết ai chạy quán ăn/café, gợi ý họ dùng tool này để tạo menu description và ảnh professional mà không cần hire designer. Đây là ví dụ AI democratize capability trước đây chỉ brand lớn mới làm được.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2171038/everything-announced-at-android-show-google-io-2026/",
+      "tags": [
+        "AI tools",
+        "food tech",
+        "automation"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "AI2 Ra Mắt MolmoAct 2 — Model Robotics Mở Cho Tác Vụ Thực Tế",
+      "summary": "Allen Institute for AI (Ai2) release MolmoAct 2, open-source robotics foundation model giúp robot thực hiện tác vụ vật lý thực tế, không chỉ trong lab. Model được train trên data đa dạng từ môi trường real-world.",
+      "why": "Cho curious: đây là một trong những model robotics đầu tiên open-source có thể chạy trong môi trường thực tế (không chỉ simulation). Nếu bạn tò mò về tương lai robot trong nhà/văn phòng, đây là research direction đáng theo dõi — từ lab ra đời thực còn lâu, nhưng foundation đã có.",
+      "source": "Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/05/14/ai2-releases-open-robotics-model-designed-for-real-world-ai-automation/101553/",
+      "tags": [
+        "robotics",
+        "open-source",
+        "research"
+      ]
+    },
+    {
+      "headline": "Swansea University: AI Có Thể Làm Con Người Sáng Tạo HƠN, Không Thay Thế",
+      "summary": "Nghiên cứu từ Swansea University cho thấy AI có thể boost creativity của con người thay vì thay thế — khi dùng đúng cách, AI làm role của 'creative partner' thay vì 'replacement'.",
+      "why": "Cho cá nhân: nếu bạn đang lo AI sẽ thay thế vai trò sáng tạo của mình, research này gợi ý rằng AI có thể làm bạn sáng tạo HƠN nếu dùng như tool để brainstorm/iterate, không phải để outsource toàn bộ creative process. Mindset shift: AI là đồng nghiệp, không phải thợ.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "research",
+        "human-AI collaboration"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Đa Nền Tảng Theo Phong Cách 'Lobster'",
+      "why": "AI assistant cá nhân chạy trên bất kỳ OS/platform nào. Nếu bạn muốn tự host AI assistant local không phụ thuộc cloud, đây là option mới trending — 372K stars trong vài ngày signal community interest mạnh.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "372685"
+    },
+    {
+      "headline": "n8n-io/n8n — Workflow Automation Platform Với Native AI Capabilities",
+      "why": "n8n cho phép build workflow automation với AI native — alternative open-source cho Zapier/Make. Nếu bạn cần tự host workflow để integrate AI vào internal tools, n8n là lựa chọn phổ biến (188K stars).",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "188384"
+    },
+    {
+      "headline": "Comfy-Org/ComfyUI — GUI/API Mạnh Nhất Cho Diffusion Model",
+      "why": "ComfyUI là tool phổ biến nhất cho AI image generation với graph/nodes interface — nếu bạn muốn control chi tiết từng bước generation (không chỉ prompt → output), đây là standard tool. 113K stars.",
+      "source": "GitHub",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stars": "113315"
+    },
+    {
+      "headline": "Semble — Code Search Cho AI Agent, Dùng 98% Ít Token Hơn Grep",
+      "why": "Semble giúp AI agent search code hiệu quả hơn grep — giảm 98% token usage. Nếu bạn đang build AI coding agent hoặc dùng Claude Code/Cursor, tool này giúp giảm cost API khi agent cần search codebase lớn.",
+      "source": "Hacker News",
+      "url": "https://github.com/MinishLab/semble",
+      "stars": "N/A"
+    },
+    {
+      "headline": "Zerostack — Unix-Inspired Coding Agent Viết Bằng Pure Rust",
+      "why": "Zerostack là coding agent viết bằng Rust, inspired by Unix philosophy — minimal, composable, fast. Nếu bạn quan tâm architecture của AI agent và muốn tự build, đây là codebase tham khảo tốt (Rust performance + clean design).",
+      "source": "Hacker News",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: gpt-oss-120b ↓$0.04/↓$0.18 per M tok",
+      "event": "price",
+      "summary": "OpenAI gpt-oss-120b giảm giá completion token từ $0.19 → $0.18 per million tokens.",
+      "why": "Giảm giá nhỏ nhưng nếu bạn đang dùng model này cho high-volume use case (chatbot, batch processing), tiết kiệm ~5% cost completion.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "price drop",
+        "OpenAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA: Nemotron 3 Super ↓$0.09/↓$0.45 per M tok",
+      "event": "price",
+      "summary": "NVIDIA Nemotron 3 Super giảm giá prompt $0.10 → $0.09, completion $0.50 → $0.45 per million tokens.",
+      "why": "Giảm 10% prompt cost và 10% completion — nếu đang evaluate alternative cho GPT-4 class model, Nemotron 3 Super giờ rẻ hơn đáng kể.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
+      "tags": [
+        "price drop",
+        "NVIDIA"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Mistral: Mistral Nemo ↓$0.02/↓$0.03 per M tok",
+      "event": "price",
+      "summary": "Mistral Nemo giảm giá completion từ $0.04 → $0.03 per million tokens.",
+      "why": "Mistral Nemo giờ là một trong những model rẻ nhất trên OpenRouter cho mid-size task — nếu bạn cần balance giữa cost và quality, đây là option tốt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-nemo",
+      "tags": [
+        "price drop",
+        "Mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B ↓$0.06/↓$0.33 per M tok",
+      "event": "price",
+      "summary": "Google Gemma 4 26B A4B giảm giá prompt $0.07 → $0.06, completion $0.34 → $0.33 per million tokens.",
+      "why": "Gemma 4 26B vừa rẻ hơn ~10% — nếu bạn đang dùng Gemini API và muốn model nhỏ hơn nhưng vẫn mạnh, đây là good alternative cho use case không cần Ultra.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price drop",
+        "Google"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 120,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 44,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 4
+  }
+}
