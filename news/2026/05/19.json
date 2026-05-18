@@ -1,0 +1,216 @@
+{
+  "date": "2026-05-19",
+  "updated_at": "2026-05-19T06:56:36.732362+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Anthropic Mua Lại Stainless — Startup Tạo SDK, Cải Thiện Developer Experience",
+    "summary": "Anthropic thông báo mua lại Stainless, công ty chuyên tạo SDK tự động từ API specification. Đây là bước đi chiến lược giúp Anthropic cải thiện developer tooling, tương tự như OpenAI đã làm với các công ty con trước đó. Stainless trước đây đã giúp OpenAI, Anthropic, và nhiều AI company tạo SDK chất lượng cao.",
+    "why": "Cho manager: M&A trong AI đang shift từ model/product sang infrastructure — developer experience là moat mới. Nếu team bạn đang build AI product, đầu tư vào DX (docs, SDK, onboarding) giờ quan trọng hơn racing model performance. Cho cá nhân: nếu bạn là developer, học kỹ năng 'make complex tech accessible' (technical writing, SDK design) đang tăng giá trị — các AI company đang tranh nhau talent này.",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "tags": [
+      "M&A",
+      "developer-tools",
+      "anthropic",
+      "SDK"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Elon Musk Thua Kiện OpenAI — Toà Bác Yêu Cầu OpenAI Phải Mở Nguồn",
+      "why": "Cho curious: vụ kiện này kết thúc 1 narrative 'OpenAI phản bội sứ mệnh phi lợi nhuận'. Legally, OpenAI được xác nhận có quyền pivot sang for-profit. Implication: các founder AI startup khác có thể yên tâm hơn khi restructure, miễn là documented đúng từ đầu.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+      "tags": [
+        "openai",
+        "legal",
+        "elon-musk"
+      ]
+    },
+    {
+      "headline": "Linus Torvalds: Linux Security Mailing List 'Gần Như Không Quản Lý Nổi' Do AI Bug Hunters Spam",
+      "why": "Cho cá nhân: nếu bạn đang dùng AI tool tự động report bug/issue (GitHub Copilot, Cursor agent, etc.), hãy review trước khi submit — false positive rate cao đang làm overwhelm maintainer. Cho manager: cần policy về AI-generated issue/PR trong team repo.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
+      "tags": [
+        "linux",
+        "security",
+        "ai-spam",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Voice AI Có Thể Bị Tấn Công Bằng Hidden Audio — IEEE Spectrum Warning",
+      "why": "Cho cá nhân: nếu bạn dùng voice AI (ChatGPT Voice, Claude, Google Assistant) cho công việc nhạy cảm, hãy aware rằng audio đầu vào có thể bị inject lệnh ẩn. Tránh dùng voice AI trong môi trường public/untrusted audio source. Cho manager: nếu team dùng voice agent trong workflow, cần security audit.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
+      "tags": [
+        "security",
+        "voice-ai",
+        "attack"
+      ]
+    },
+    {
+      "headline": "US Banks Đang Vội Sửa 'Hàng Trăm Lỗ Hổng IT' Sau Khi Anthropic Mythos Scan — Khách Hàng Có Thể Gặp Gián Đoạn",
+      "why": "Cho cá nhân: nếu bạn dùng ngân hàng Mỹ, expect service disruption trong vài tuần tới do banks đang emergency patch. Cho manager: nếu công ty bạn đang dùng AI audit tool (như Mythos), chuẩn bị resources để fix findings ngay — delay effect của vulnerability có thể đến sau 1-3 năm, nhưng khi phát hiện thì phải act nhanh.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "banking",
+        "security",
+        "anthropic",
+        "mythos"
+      ]
+    },
+    {
+      "headline": "Google I/O 2026 Tuần Này — Gemini Intelligence Mới Cạnh Tranh GPT-5.5",
+      "why": "Cho creative: nếu workflow bạn đang depend vào OpenAI API, nên theo dõi I/O vì Google có thể ra model với cost/performance tốt hơn. Cho curious: I/O năm nay focus vào 'Gemini Intelligence' (giống Apple Intelligence) — AI agent tích hợp sâu vào OS, không chỉ chatbot.",
+      "source": "Android Headlines",
+      "url": "https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html",
+      "tags": [
+        "google",
+        "gemini",
+        "io-2026",
+        "model-release"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Krea Ra Realtime 14B — Model 14 Tỷ Tham Số Cho Video Generation Real-Time",
+      "summary": "Krea AI vừa release Krea Realtime 14B, model 14 billion parameters hỗ trợ real-time video generation. User có thể paint trên canvas, stream webcam/screen, và AI edit realtime. Đây là breakthrough về latency — trước đây các model lớn như Sora/Veo phải render minutes, giờ Krea 14B làm được frame-by-frame.",
+      "why": "Cho creative: nếu bạn làm video prototype/storyboard, Krea Realtime giúp iterate nhanh hơn 10x. Không cần render chờ đợi, vẽ sketch → thấy video ngay. Workflow phù hợp cho pre-production và client presentation. Cho production: chưa đủ chất lượng cho final delivery, nhưng đủ tốt cho animatic và temp edit.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/release-notes",
+      "tags": [
+        "video-generation",
+        "real-time",
+        "krea",
+        "model-release"
+      ]
+    },
+    {
+      "headline": "Adobe Firefly Giờ Tích Hợp Google Veo, Sora, Pika — All-In-One Video Gen Platform",
+      "summary": "Adobe Firefly AI video generator giờ cho user chọn model: Firefly native, Google Veo, OpenAI Sora, hoặc Pika. User nhập prompt, chọn model, và generate trong cùng 1 giao diện. Adobe đang định vị Firefly như 'platform' thay vì 'model', giống cách Canva tích hợp nhiều AI backend.",
+      "why": "Cho creative: nếu bạn đã subscribe Adobe Creative Cloud, giờ có access đến 4 video model khác nhau không cần chuyển tool. Tiện cho A/B test output của các model. Cho production: Adobe đang đánh cược vào 'best-of-breed aggregation' — họ không cần win model race, chỉ cần win distribution.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "adobe",
+        "video-generation",
+        "veo",
+        "sora",
+        "firefly"
+      ]
+    },
+    {
+      "headline": "Pollo AI — All-In-One Free AI Video & Image Generator",
+      "summary": "Pollo AI là platform mới cho phép tạo video/image từ text, image, hoặc video input. Free tier, high resolution, support multiple styles. Đang được mention như alternative cho Runway/Pika cho budget-conscious creators.",
+      "why": "Cho creative: nếu bạn cần quick video gen mà không muốn trả Runway $100/tháng, Pollo AI là option. Chất lượng chưa đến commercial-grade nhưng đủ cho social media content và concept pitch. Cho cá nhân: free tier rất generous, phù hợp cho learning và personal project.",
+      "source": "Pollo AI",
+      "url": "https://pollo.ai/",
+      "tags": [
+        "video-generation",
+        "free-tool",
+        "pollo-ai"
+      ]
+    },
+    {
+      "headline": "DoorDash Ra AI Tools — Merchant Tạo Menu Và Ảnh Món Ăn Tự Động",
+      "summary": "DoorDash thêm AI tool giúp restaurant merchant tự động tạo menu description và generate ảnh món ăn. Merchant nhập tên món, AI viết mô tả + tạo ảnh sản phẩm. Mục tiêu giảm friction onboarding cho small restaurant không có designer/photographer.",
+      "why": "Cho creative: nếu bạn làm food photography/styling, đây là signal về commoditization. DoorDash đang giảm dependency vào creative service bằng AI. Cần pivot sang high-end work (fine dining, brand campaign) hoặc learn AI tool để scale faster. Cho manager: nếu team bạn có SMB clients trong F&B, expect budget pressure — client có thể tự làm được phần basic với AI.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "doordash",
+        "food",
+        "ai-tools",
+        "automation"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Swansea University: AI Có Thể Làm Con Người Sáng Tạo HƠN, Không Thay Thế",
+      "summary": "Nghiên cứu từ Swansea University cho thấy AI không phải tool thay thế human creativity, mà là tool amplify. Participants dùng AI trong creative task có output đa dạng và original hơn control group. AI đóng vai trò như 'creative sparring partner', giúp break mental block và explore direction mới.",
+      "why": "Cho cá nhân: nếu bạn đang sợ AI thay thế creative job, nghiên cứu này cho thấy mindset đúng là 'collaborate with AI' thay vì 'compete with AI'. Learn prompt engineering và AI-assisted workflow để tăng creative output. Cho manager: đừng dùng AI để replace creative team, dùng để augment — team + AI sẽ beat pure AI hoặc pure human.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "human-ai-collaboration"
+      ]
+    },
+    {
+      "headline": "Allen Institute Ai2 Ra MolmoAct 2 — Open Robotics Model Cho Real-World Task",
+      "summary": "Ai2 release MolmoAct 2, open-source robotics foundation model được train để làm physical task trong môi trường real-world, không chỉ lab controlled. Model này là bước tiến quan trọng cho 'physical AI' — AI không chỉ suy nghĩ mà còn thao tác vật lý.",
+      "why": "Cho curious: robotics AI đang exit khỏi lab vào real world. MolmoAct 2 là signal về 'embodied AI' — AI có thể control robot arm, manipulate object, navigate space. Trong 1-3 năm, expect robot trong warehouse, kitchen, construction site. Cho manager: nếu business bạn có repetitive physical work (packing, sorting, assembly), giờ là lúc pilot automation — cost đang drop nhanh.",
+      "source": "Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/05/14/ai2-releases-open-robotics-model-designed-for-real-world-ai-automation/101553/",
+      "tags": [
+        "robotics",
+        "ai2",
+        "open-source",
+        "physical-ai"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Chạy Mọi OS, Open Source",
+      "why": "Cho cá nhân: nếu bạn muốn AI assistant không bị lock vào 1 vendor (OpenAI, Anthropic), openclaw là option self-host. Chạy được trên Windows/Mac/Linux. Phù hợp cho user cần privacy hoặc custom workflow. Cho manager: nếu team cần AI assistant nhưng không muốn data ra ngoài, đây là starting point để evaluate.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "372973"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI",
+      "why": "Cho cá nhân: nếu bạn đang dùng Zapier/Make nhưng thấy đắt, n8n là alternative self-host với 400+ integrations. Native AI capability nghĩa là bạn có thể chain AI tasks với business workflow. Cho manager: n8n giúp build automation mà không bị lock pricing — self-host = control cost.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "188583"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow",
+      "why": "Cho creative/developer: nếu bạn muốn build AI agent mà không code từ đầu, dify là low-code platform. Production-ready nghĩa là có monitoring, logging, version control. Phù hợp cho team muốn ship AI product nhanh.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "141805"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Support Ollama, OpenAI)",
+      "why": "Cho cá nhân: nếu bạn muốn self-host ChatGPT-like interface cho local model (Ollama) hoặc OpenAI API, open-webui là best option. UI đẹp, dễ dùng, không cần technical skill setup. Cho manager: deploy cho team để họ có private AI chat without SaaS subscription.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "137628"
+    },
+    {
+      "headline": "firecrawl/firecrawl — Search, Scrape, Clean Web Cho AI Agents",
+      "why": "Cho developer: nếu bạn đang build AI agent cần scrape web data (research, monitoring, data collection), firecrawl giúp clean data sẵn cho AI consume. Giảm preprocessing effort. Cho creative: nếu bạn cần gather competitor/trend data cho creative brief, tool này automate phần boring.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "121471"
+    },
+    {
+      "headline": "x1xhlol/system-prompts-and-models-of-ai-tools — FULL System Prompts Của 30+ AI Coding Tools",
+      "why": "Cho developer: repo này leak system prompt của Cursor, Claude Code, Devin, Windsurf, và 30+ AI coding tool. Nếu bạn muốn hiểu 'behind the scenes' của các tool này hoặc build custom agent, đây là goldmine. Cho curious: đọc system prompt giúp hiểu AI tool thật sự làm gì, không chỉ marketing claim.",
+      "source": "GitHub",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "156405"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 126,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 49,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 0
+  }
+}
