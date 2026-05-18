@@ -2424,6 +2424,74 @@
         </div>
     </div>
 
+    <div class="card" data-id="subscription-vs-api" data-persona="producer,manager,curious">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Subscription ≠ API</div>
+                <div class="card-subtitle">Vì sao mua ChatGPT Plus / Gemini Pro chưa chắc automate được</div>
+            </div>
+            <span class="card-tag tag-ops">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>4 thứ dễ bị nhầm</h4>
+            <ul>
+                <li><strong>Web subscription</strong> — Gói dùng trên website/app: ChatGPT Plus, Gemini Pro, Midjourney. Tốt cho người ngồi prompt thủ công.</li>
+                <li><strong>API key</strong> — Chìa khóa backend để app/tool gọi model tự động. Tính tiền theo usage, ổn định hơn cho production pipeline.</li>
+                <li><strong>OAuth token</strong> — Vé đăng nhập tạm thời sau khi user login. Không phải password, không phải API key. Dùng được hay không tùy provider có endpoint phù hợp không.</li>
+                <li><strong>Browser session</strong> — Trạng thái đã login trong Chrome/Safari. Agent có thể điều khiển web UI, nhưng dễ gãy khi UI đổi.</li>
+            </ul>
+            <div class="analogy">Web subscription = vé buffet vào nhà hàng. API = hợp đồng giao món thẳng vào bếp. OAuth token = thẻ ra vào tạm thời. Browser automation = nhờ trợ lý bấm món trên iPad giúp mình.</div>
+            <h4>Lesson thực tế</h4>
+            <ul>
+                <li>Có ChatGPT Plus/Gemini Pro không có nghĩa tool tự động gọi được image/video model.</li>
+                <li>OpenAI Codex có thể dùng OAuth để gọi image generation vì backend/tool phù hợp tồn tại.</li>
+                <li>Gemini Pro WebAuth hiện thường chỉ chắc chắn là login web; muốn gen ảnh không API thì phải đi qua browser automation nếu không có provider chính thức.</li>
+                <li>Production tool nên ưu tiên API/backend. Subscription web phù hợp thử nghiệm, research, hoặc automation cá nhân.</li>
+            </ul>
+            <div class="real-example">Ví dụ: một agent có thể tạo ảnh bằng GPT Image qua Codex OAuth, nhưng với Gemini/Nano Banana web subscription, nếu không có API/CLI chính thức thì agent phải mở Gemini web, paste prompt, chờ ảnh, rồi tải/screenshot kết quả.</div>
+            <button class="check-btn" onclick="markLearned(this, 'subscription-vs-api')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
+    <div class="card" data-id="ai-image-automation-levels" data-persona="producer,creative,manager">
+        <div class="card-header">
+            <div>
+                <div class="card-title">3 cấp độ automate AI Image</div>
+                <div class="card-subtitle">Manual Web UI → Browser Automation → API Backend</div>
+            </div>
+            <span class="card-tag tag-production">Ops</span>
+        </div>
+        <div class="card-body">
+            <h4>Level 1 — Manual Web UI</h4>
+            <ul>
+                <li>Người tự mở ChatGPT/Gemini/Midjourney/Higgsfield, paste prompt, download output.</li>
+                <li><strong>Ưu:</strong> nhanh để test, không cần dev, tận dụng subscription.</li>
+                <li><strong>Nhược:</strong> không scale, khó log/version, phụ thuộc người vận hành.</li>
+            </ul>
+            <h4>Level 2 — Browser Automation</h4>
+            <ul>
+                <li>Agent điều khiển browser đã login: upload reference, paste prompt, click generate, tải ảnh.</li>
+                <li><strong>Ưu:</strong> dùng được web subscription, không cần API key, hợp workflow cá nhân.</li>
+                <li><strong>Nhược:</strong> dễ vỡ khi UI đổi, chậm, khó chạy 24/7, cần session login sống.</li>
+            </ul>
+            <h4>Level 3 — API Backend</h4>
+            <ul>
+                <li>Tool gọi API trực tiếp: gửi prompt/reference → nhận file/output → lưu vào pipeline.</li>
+                <li><strong>Ưu:</strong> ổn định nhất, log được, retry được, scale được, phù hợp production.</li>
+                <li><strong>Nhược:</strong> cần API key/billing, có thể khác chất lượng/tính năng so với web app.</li>
+            </ul>
+            <h4>Chọn level nào?</h4>
+            <ul>
+                <li><strong>Research / moodboard:</strong> Level 1 đủ.</li>
+                <li><strong>Cá nhân muốn tiết kiệm API credit:</strong> Level 2 hợp lý.</li>
+                <li><strong>Production pipeline / client delivery:</strong> Level 3 là chuẩn.</li>
+                <li><strong>Hybrid tốt nhất:</strong> Level 1-2 để khám phá creative direction, Level 3 để chạy batch/final có kiểm soát.</li>
+            </ul>
+            <div class="biz-analogy">Giống production: tự bấm máy test shot = Manual. Nhờ assistant quay theo checklist = Browser Automation. Setup pipeline camera-control + ingest + backup = API Backend. Càng lên level cao càng ít phụ thuộc thao tác tay.</div>
+            <button class="check-btn" onclick="markLearned(this, 'ai-image-automation-levels')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
     <div class="card" data-id="ollama" data-persona="curious">
         <div class="card-header">
             <div>
