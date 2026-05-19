@@ -1,0 +1,227 @@
+{
+  "date": "2026-05-20",
+  "updated_at": "2026-05-20T06:54:44.890721+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "Andrej Karpathy Gia Nhập Anthropic — Cựu OpenAI Founder & Tesla AI Director Chuyển Phe",
+    "summary": "Andrej Karpathy, đồng sáng lập OpenAI và cựu Director of AI tại Tesla, thông báo gia nhập Anthropic. Đây là động thái talent acquisition đáng chú ý trong bối cảnh cuộc đua AI safety & capability đang nóng lên. Karpathy là một trong những tên tuổi có ảnh hưởng nhất trong cộng đồng AI — từng xây dựng Autopilot cho Tesla, đồng sáng lập OpenAI, và giảng dạy khóa CS231n nổi tiếng của Stanford.",
+    "why": "Cho cá nhân: nếu bạn đang theo AI career, động thái này signal Anthropic đang build long-term competitive moat về talent & culture. Cho manager: top talent chọn Anthropic over OpenAI/Google là dấu hiệu về văn hóa research-first vs product-first — xem xét khi hire hoặc partner.",
+    "source": "Twitter/HN",
+    "url": "https://twitter.com/karpathy/status/2056753169888334312",
+    "tags": [
+      "talent",
+      "anthropic",
+      "openai",
+      "ai-safety"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Google I/O 2026: Ra Mắt Gemini 3.5 Flash — Model Mới Thay Thế Gemini Flash Default Toàn Cầu",
+      "why": "Cho cá nhân & creative: từ hôm nay Gemini app và AI Mode dùng 3.5 Flash làm default — coding tốt hơn, hỗ trợ agent phức tạp hơn, tiết kiệm token. Nếu đang dùng Gemini, workflow của bạn vừa được upgrade miễn phí.",
+      "source": "Mashable",
+      "url": "https://mashable.com/article/google-io-2026-gemini-35-flash",
+      "tags": [
+        "gemini",
+        "google-io",
+        "model-launch"
+      ]
+    },
+    {
+      "headline": "Google Ra Gemini Omni — Model Video Generation Tích Hợp Vào Gemini, Tương Tác Qua Chat",
+      "why": "Cho creative: giờ có thể tạo & edit video bằng cách chat với Gemini Omni (image-to-video, video-to-video). Đây là competitor trực tiếp của Sora/Veo — nhưng tích hợp sẵn vào Gemini ecosystem, không cần tool riêng.",
+      "source": "Google DeepMind",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "video-gen",
+        "gemini",
+        "google-io"
+      ]
+    },
+    {
+      "headline": "OpenAI Áp Dụng Google SynthID Watermark Cho Ảnh AI — Ra Công Cụ Verification Miễn Phí",
+      "why": "Cho creative & manager: mọi ảnh từ DALL·E giờ có watermark SynthID (chuẩn Google). Công cụ verify miễn phí giúp phát hiện ảnh AI — quan trọng cho compliance, copyright, misinformation defense.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "tags": [
+        "watermark",
+        "synthid",
+        "content-provenance"
+      ]
+    },
+    {
+      "headline": "Mistral AI Mua Lại Emmi AI — Tạo 'Leading AI Stack' Kết Hợp Open Model & Enterprise Tools",
+      "why": "Cho manager: Mistral (open model champion châu Âu) mua Emmi (enterprise AI tooling) → tín hiệu open-source đang chuyển sang business model SaaS/enterprise. Nếu bạn đang bet on open models, watch Mistral stack evolution.",
+      "source": "Emmi AI",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "tags": [
+        "m&a",
+        "mistral",
+        "enterprise-ai"
+      ]
+    },
+    {
+      "headline": "314 Package NPM Bị Tấn Công 'Mini Shai-Hulud' Lần 2 — Supply Chain Attack Tiếp Diễn",
+      "why": "Cho manager & cá nhân: nếu team bạn dùng npm, scan dependencies ngay. Đây là lần thứ 2 attacker inject malicious code vào hàng trăm packages — CI/CD của bạn có dependency scanning chưa?",
+      "source": "SafeDep",
+      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "tags": [
+        "security",
+        "supply-chain",
+        "npm"
+      ]
+    },
+    {
+      "headline": "Guardrails Đưa Model 8B Từ 53% Lên 99% Accuracy Trên Agentic Tasks — Open-Source Forge",
+      "why": "Cho cá nhân & creative: nếu bạn đang dùng small model (8B) cho agent workflow, guardrails (Forge) có thể cải thiện accuracy gần gấp đôi. Đây là kỹ thuật constrain search space, không phải fine-tune.",
+      "source": "Hacker News",
+      "url": "https://github.com/antoinezambelli/forge",
+      "tags": [
+        "guardrails",
+        "agentic",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Copy Fail, Dirty Frag, Fragnesia — 3 Lỗ Hổng Kernel Mới Được Công Bố, Ảnh Hưởng Linux",
+      "why": "Cho manager: nếu infrastructure của bạn chạy Linux (đặc biệt on-premise hoặc cloud bare-metal), patch ngay. Đây là kernel vulnerabilities ảnh hưởng memory management — có thể bị exploit để privilege escalation.",
+      "source": "Gentoo",
+      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "tags": [
+        "security",
+        "linux",
+        "kernel"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Krea Ra Realtime 14B — Model 14 Tỷ Tham Số Cho Real-Time Video Gen, Chạy Trên Canvas",
+      "summary": "Krea công bố Realtime 14B, model video generation 14 tỷ tham số có khả năng real-time rendering. User có thể paint trên canvas, stream webcam/screen, và AI edit real-time. Đây là bước tiến từ image real-time (đã có) sang video real-time.",
+      "why": "Cho creative: nếu bạn làm video prototyping, Krea Realtime 14B giúp iterate nhanh hơn — không cần render queue. Use case: storyboard animation, live visual effects, interactive content.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/release-notes",
+      "tags": [
+        "video-gen",
+        "real-time",
+        "krea"
+      ]
+    },
+    {
+      "headline": "Google Veo 3.1 Ra Mắt — Tích Hợp Vào Pictory, Leonardo, Canva Qua Partnership",
+      "summary": "Google DeepMind ra Veo 3.1 (video generation model mới), đồng thời mở API cho các platform như Pictory, Leonardo.ai, Canva. User các platform này giờ có thể dùng Veo 3.1 trực tiếp trong workflow sẵn có.",
+      "why": "Cho creative: nếu bạn đang dùng Canva/Leonardo/Pictory, không cần chuyển tool để thử Veo 3.1. Đây là chiến lược distribution của Google — embedded vào existing creative tools thay vì standalone app.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video-gen",
+        "veo",
+        "partnerships"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên Cứu Swansea University: AI Có Thể Làm Con Người Sáng Tạo Hơn (Không Phải Thay Thế)",
+      "summary": "Nghiên cứu mới từ Swansea University cho thấy AI không chỉ thay thế công việc sáng tạo, mà còn có thể làm con người sáng tạo hơn khi được dùng đúng cách. Đây là góc nhìn ngược lại với narrative phổ biến về AI replacing creativity.",
+      "why": "Cho cá nhân & creative: thay vì sợ AI thay thế, học cách dùng AI như 'thinking partner' để mở rộng creative range. Nghiên cứu này support augmentation thay vì replacement thesis.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "human-ai-collaboration",
+        "research"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform With Native AI Capabilities, Self-Host Hoặc Cloud",
+      "why": "Cho cá nhân & manager: nếu bạn cần automation với AI tích hợp sẵn (400+ integrations), n8n là alternative open-source cho Zapier/Make. Fair-code license nghĩa là free self-host, chỉ trả phí khi dùng cloud.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "188743"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development, Open-Source",
+      "why": "Cho manager & creative: nếu team bạn cần orchestrate AI agents (không chỉ single prompt), Dify là framework production-ready. Alternative open-source cho LangChain nhưng focus UX.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "141914"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API, Self-Host Hoặc Cloud",
+      "why": "Cho cá nhân: nếu bạn muốn ChatGPT-like interface nhưng self-host hoặc dùng local model (Ollama), Open WebUI là option tốt nhất. Privacy-first, no cloud dependency.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "137811"
+    },
+    {
+      "headline": "Firecrawl — Search, Scrape & Clean Web Cho AI Agents, Open-Source",
+      "why": "Cho creative & cá nhân: nếu bạn build AI agent cần scrape web data (ví dụ research agent, competitor monitoring), Firecrawl giúp clean HTML thành markdown AI-friendly.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "121921"
+    },
+    {
+      "headline": "OpenClaw — Personal AI Assistant Chạy Trên Mọi OS/Platform, Open-Source 'The Lobster Way'",
+      "why": "Cho cá nhân: nếu bạn muốn AI assistant không bị lock vào một ecosystem (Windows/Mac/Linux đều chạy được), OpenClaw là option cross-platform hoàn toàn open-source.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "373257"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Google: Gemini 3.5 Flash",
+      "event": "new",
+      "summary": "Gemini 3.5 Flash giờ có trên OpenRouter — high-efficiency multimodal model, near-Pro coding/reasoning, Flash-tier cost. Optimized cho coding proficiency và parallel agentic execution.",
+      "why": "Alternative rẻ hơn cho coding tasks — nếu đang dùng GPT-4o cho agent workflow, thử Gemini 3.5 Flash tiết kiệm cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.5-flash",
+      "tags": [
+        "openrouter",
+        "gemini",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.1 Miễn Phí Hoàn Toàn ($0.00/$0.00)",
+      "event": "price",
+      "summary": "GLM 5.1 từ Z.ai giảm giá từ $0.98/$3.08 xuống $0.00/$0.00 per million tokens.",
+      "why": "Free model — test ngay nếu bạn cần alternative cho GPT-3.5 mà không muốn trả phí. Phù hợp cho experimentation hoặc high-volume low-stakes use cases.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemini Flash Latest Tăng Giá ($1.50/$9.00)",
+      "event": "price",
+      "summary": "Gemini Flash Latest tăng giá từ $0.50/$3.00 lên $1.50/$9.00 per million tokens.",
+      "why": "Giá tăng 3x — nếu đang dùng gemini-flash-latest alias, cost tăng đột biến. Migrate sang gemini-3.5-flash cụ thể hoặc review budget.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~google/gemini-flash-latest",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "gemini"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 135,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 10,
+    "rss": 53,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 3
+  }
+}
