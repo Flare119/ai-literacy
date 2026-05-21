@@ -1,0 +1,225 @@
+{
+  "date": "2026-05-22",
+  "updated_at": "2026-05-22T06:52:04.935508+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "OpenAI Chứng Minh Giả Thuyết Hình Học Rời Rạc 80 Năm — AI Giải Toán Vượt Con Người",
+    "summary": "Model AI của OpenAI đã bác bỏ một giả thuyết trung tâm trong hình học rời rạc tồn tại 80 năm chưa có lời giải. Đây là cột mốc về khả năng AI reasoning trong toán học thuần túy, vượt xa ứng dụng thực tế.",
+    "why": "Cho curious + cá nhân: AI không chỉ viết code hay làm video nữa — nó bắt đầu đóng góp vào tri thức nền tảng. Nếu bạn nghĩ 'AI chỉ là tool hỗ trợ', tin này là wake-up call: AI đang trở thành collaborator ở cấp độ nghiên cứu.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+    "tags": [
+      "research",
+      "reasoning",
+      "breakthrough"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Sam Altman Mời Y Combinator Startups Đổi Equity Lấy 2 Triệu USD Token OpenAI",
+      "why": "Cho manager: OpenAI đang xây ecosystem lock-in sớm — startup dùng token free giờ, phụ thuộc sau này. Nếu bạn đang chọn cloud vendor, hãy tính toán vendor lock-in cost trước khi cam kết.",
+      "source": "ECIKS",
+      "url": "https://eciks.org/4792-34308-y-combinator-startups-offered-2m-in-openai-tokens-for-equity-by-sam-altman",
+      "tags": [
+        "business",
+        "funding",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Stability AI Ra Stability Audio 3.0 — Tạo Nhạc 6 Phút Từ Prompt",
+      "why": "Cho creative: công cụ tạo nhạc nền/sound design prototype trong 6 phút thay vì thuê nhạc sĩ freelance. Lưu ý bản quyền — model này training trên dữ liệu gì chưa rõ.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "tags": [
+        "audio",
+        "tools",
+        "creative"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Do AI Tăng — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho cá nhân: ngân hàng đang cắt vị trí trung gian (analyst, junior banker). Nếu job bạn là 'tổng hợp data + báo cáo' — đây là lúc upskill sang decision-making role hoặc pivot career.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "jobs",
+        "finance",
+        "career"
+      ]
+    },
+    {
+      "headline": "Mỗi 85 AI Startup Nhận VC, 100 Bị Mua Lại — M&A Vượt Formation",
+      "why": "Cho manager: thị trường AI đang consolidate nhanh. Build vs Buy decision giờ nghiêng về Buy — thay vì xây in-house, có thể chờ mua startup nhỏ sau 1-2 năm rẻ hơn.",
+      "source": "Tech Brew",
+      "url": "https://www.techbrew.com/stories/fidelityprivateshares/vc-startup-trends",
+      "tags": [
+        "ma",
+        "market",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "DoorDash Ra AI Tools Tạo Menu + Ảnh Món Ăn Tự Động Cho Merchant",
+      "why": "Cho manager nhà hàng/F&B: tool miễn phí giúp chủ quán tự chụp ảnh rồi AI làm đẹp + viết menu. Giảm chi phí thuê photographer, nhưng aesthetic AI đồng nhất — cân nhắc brand differentiation.",
+      "source": "DoorDash",
+      "url": "https://about.doordash.com/en-us/news/ai-powered-merchant-tools",
+      "tags": [
+        "tools",
+        "vietnam-relevant",
+        "small-business"
+      ]
+    },
+    {
+      "headline": "Microsoft Power Platform Có Canvas Authoring MCP Server — Migrate InfoPath Forms Bằng AI Agent",
+      "why": "Cho manager IT: nếu công ty còn InfoPath legacy forms, giờ có thể dùng GitHub Copilot/Claude Code migrate tự động sang Power Apps Canvas. Giảm 70% effort manual rewrite.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/14/whats-new-in-power-platform-may-2026-feature-update/",
+      "tags": [
+        "enterprise",
+        "tools",
+        "migration"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google Gemini Omni — Biến Hình Ảnh, Audio, Text Thành Video Qua Chat",
+      "summary": "Gemini Omni là model 'world model' của Google — input đa phương tiện (ảnh, âm thanh, text), output video. Phiên bản Flash ra hôm nay, integrated vào Gemini chat interface.",
+      "why": "Cho creative: thay vì pipeline Photoshop → After Effects → Premiere, giờ prototype video từ chat. Lưu ý control sẽ kém hơn manual edit, nhưng tốc độ tăng 5-10x cho concept stage.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
+      "tags": [
+        "video",
+        "production",
+        "tools"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 (Google DeepMind) Ra Mắt — Leading Video Generation Model",
+      "summary": "Google cập nhật Veo lên version 3.1 cùng với Veo 2 có thêm tính năng mới. Veo 3.1 là flagship video gen model của Google, cạnh tranh Sora.",
+      "why": "Cho creative: nếu đang chờ Sora 2, Veo 3.1 là alternative. Google tích hợp vào Adobe Firefly (đã announce trước đó) — nghĩa là có thể dùng trong workflow Adobe luôn.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video",
+        "model",
+        "production"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Scientists Discover AI Can Make Humans More Creative",
+      "summary": "Nghiên cứu từ Swansea University cho thấy AI không thay thế sáng tạo con người mà có thể khuếch đại. Khi dùng AI như collaborator (không phải replacement), output sáng tạo của con người tăng.",
+      "why": "Cho creative + cá nhân: framing 'AI vs human' sai — framing đúng là 'human + AI'. Nghiên cứu này support pattern: dùng AI brainstorm, human refine, output tốt hơn human solo hay AI solo.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "human-ai"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Chạy Mọi OS, Mọi Platform 'The Lobster Way'",
+      "why": "Cho cá nhân: personal AI assistant tự host, cross-platform. Nếu không muốn data lên cloud, đây là option thay ChatGPT desktop. 373K stars = hype cao, test trước khi production.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "373762"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Cho manager + creative: alternative self-host cho Zapier + Airtable Automations. 'Fair-code' nghĩa là mở nguồn nhưng không phải free-for-all — đọc license trước khi dùng commercial.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "189088"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Cho manager: nếu cần build AI agent workflow (multi-step tasks) mà không muốn code từ đầu, Dify là framework visual. 142K stars = mature, có community support lớn.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142175"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "why": "Cho cá nhân: self-host UI cho Ollama (local models) hoặc OpenAI API. Nếu muốn tự quản privacy + customize UI, đây là option phổ biến nhất (138K stars).",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "138126"
+    },
+    {
+      "headline": "System Prompts And Models Of AI Tools — Full Dump Augment Code, Cursor, Devin, Manus, Replit...",
+      "why": "Cho creative + manager: repo leak system prompts của 20+ AI coding tools. Đọc để hiểu cách các tool này hoạt động behind the scenes, học prompt engineering patterns từ pro tools.",
+      "source": "GitHub",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Qwen: Qwen3.7 Max",
+      "event": "new",
+      "summary": "Flagship model Qwen3.7 series từ Alibaba, designed cho agent-centric workloads, mạnh coding + office tasks. Giá $2.50/$7.50 per M tokens.",
+      "why": "Cheaper alternative cho coding agent workflows nếu đang dùng GPT-4 Turbo. Test trước khi migrate production.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.7-max",
+      "tags": [
+        "model",
+        "coding",
+        "agent"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Arcee AI: Trinity Large Preview",
+      "event": "deprecated",
+      "summary": "Model arcee-ai/trinity-large-preview không còn trên OpenRouter.",
+      "why": "Nếu đang dùng model này trong production, migrate ngay sang alternative. Check docs OpenRouter để tìm replacement.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-preview",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.1 — Tăng Giá $0.98/$3.08",
+      "event": "price",
+      "summary": "Giá từ $0.00 → $0.98 (prompt), $0.00 → $3.08 (completion) per million tokens.",
+      "why": "Model này trước đây free beta, giờ charge. Nếu đang test GLM 5.1, review budget trước khi scale.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "price",
+        "budget"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] StepFun: Step 3.5 Flash — Giảm Giá $0.09/$0.30",
+      "event": "price",
+      "summary": "Giá từ $0.10 → $0.09 (prompt), $0.30 → $0.30 (completion) per million tokens.",
+      "why": "Giá giảm nhẹ prompt side. Nếu workload heavy prompt, Step 3.5 Flash giờ tiết kiệm hơn 10%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/stepfun/step-3.5-flash",
+      "tags": [
+        "price",
+        "optimization"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 129,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 53,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
