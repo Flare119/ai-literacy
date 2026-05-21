@@ -1,227 +1,272 @@
 {
-  "date": "2026-05-20",
-  "updated_at": "2026-05-20T06:54:44.890721+07:00",
-  "weekday": "Wednesday",
+  "date": "2026-05-21",
+  "updated_at": "2026-05-21T07:00:57.957927+07:00",
+  "weekday": "Thursday",
   "top_story": {
-    "headline": "Andrej Karpathy Gia Nhập Anthropic — Cựu OpenAI Founder & Tesla AI Director Chuyển Phe",
-    "summary": "Andrej Karpathy, đồng sáng lập OpenAI và cựu Director of AI tại Tesla, thông báo gia nhập Anthropic. Đây là động thái talent acquisition đáng chú ý trong bối cảnh cuộc đua AI safety & capability đang nóng lên. Karpathy là một trong những tên tuổi có ảnh hưởng nhất trong cộng đồng AI — từng xây dựng Autopilot cho Tesla, đồng sáng lập OpenAI, và giảng dạy khóa CS231n nổi tiếng của Stanford.",
-    "why": "Cho cá nhân: nếu bạn đang theo AI career, động thái này signal Anthropic đang build long-term competitive moat về talent & culture. Cho manager: top talent chọn Anthropic over OpenAI/Google là dấu hiệu về văn hóa research-first vs product-first — xem xét khi hire hoặc partner.",
-    "source": "Twitter/HN",
-    "url": "https://twitter.com/karpathy/status/2056753169888334312",
+    "headline": "OpenAI Giải Được Bài Toán Hình Học 80 Năm Chưa Có Lời Giải — Lần Này Là Thật",
+    "summary": "Model reasoning của OpenAI đã bác bỏ một giả thuyết hình học rời rạc tồn tại từ 1946. Lần này, các nhà toán học — những người từng vạch trần claim sai của OpenAI trước đây — xác nhận kết quả là chính xác.",
+    "why": "Cho curious + cá nhân: đây là dấu hiệu AI đã vượt khỏi 'party trick' sang giải quyết vấn đề thực sự khó. Nếu AI có thể disprove conjecture toán học, nó đang gần hơn với việc làm công việc nghiên cứu chuyên sâu — nghĩa là vai trò 'research assistant' không còn xa vời.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
     "tags": [
-      "talent",
-      "anthropic",
-      "openai",
-      "ai-safety"
+      "research",
+      "reasoning",
+      "breakthrough"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Google I/O 2026: Ra Mắt Gemini 3.5 Flash — Model Mới Thay Thế Gemini Flash Default Toàn Cầu",
-      "why": "Cho cá nhân & creative: từ hôm nay Gemini app và AI Mode dùng 3.5 Flash làm default — coding tốt hơn, hỗ trợ agent phức tạp hơn, tiết kiệm token. Nếu đang dùng Gemini, workflow của bạn vừa được upgrade miễn phí.",
-      "source": "Mashable",
-      "url": "https://mashable.com/article/google-io-2026-gemini-35-flash",
+      "headline": "xAI Lỗ 6.4 Tỷ USD Năm 2025 — SpaceX IPO Filing Tiết Lộ Tham Vọng Grok Mở Rộng",
+      "why": "Cho manager + curious: lần đầu có số liệu công khai về tài chính xAI. Lỗ 6.4 tỷ USD/năm nhưng vẫn mở rộng — pattern này giống OpenAI 2023. Nếu công ty bạn cân nhắc partnership với xAI, biết họ đang đốt tiền nhanh như thế nào là risk assessment quan trọng.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
       "tags": [
-        "gemini",
-        "google-io",
-        "model-launch"
+        "xai",
+        "financials",
+        "spacex"
       ]
     },
     {
-      "headline": "Google Ra Gemini Omni — Model Video Generation Tích Hợp Vào Gemini, Tương Tác Qua Chat",
-      "why": "Cho creative: giờ có thể tạo & edit video bằng cách chat với Gemini Omni (image-to-video, video-to-video). Đây là competitor trực tiếp của Sora/Veo — nhưng tích hợp sẵn vào Gemini ecosystem, không cần tool riêng.",
-      "source": "Google DeepMind",
-      "url": "https://gemini.google/overview/video-generation/",
+      "headline": "Anthropic Trả xAI 1.25 Tỷ USD/Tháng Để Thuê Compute",
+      "why": "Cho manager: Anthropic — đối thủ xAI — giờ phải trả xAI 1.25 tỷ USD/tháng để thuê compute. Đây là deal lớn nhất trong lịch sử AI compute. Implication: nếu bạn cần GPU scale lớn, giá đang leo thang nhanh và vendor lock-in nguy hiểm hơn bao giờ hết.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
       "tags": [
-        "video-gen",
-        "gemini",
-        "google-io"
+        "compute",
+        "anthropic",
+        "xai"
       ]
     },
     {
-      "headline": "OpenAI Áp Dụng Google SynthID Watermark Cho Ảnh AI — Ra Công Cụ Verification Miễn Phí",
-      "why": "Cho creative & manager: mọi ảnh từ DALL·E giờ có watermark SynthID (chuẩn Google). Công cụ verify miễn phí giúp phát hiện ảnh AI — quan trọng cho compliance, copyright, misinformation defense.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/advancing-content-provenance/",
+      "headline": "Nvidia Báo Cáo Quý Kỷ Lục Nhưng Dự Báo Tăng Trưởng Chậm Lại — Nắm Giữ 43 Tỷ USD Trong Startup",
+      "why": "Cho manager + curious: Nvidia vẫn thống trị AI infrastructure nhưng growth forecasted slow down. Họ cũng đầu tư 43 tỷ USD vào startup — nếu Nvidia chậm lại, funding AI startup sẽ bị ảnh hưởng. Signal: AI infrastructure đang bão hòa.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
       "tags": [
-        "watermark",
-        "synthid",
-        "content-provenance"
+        "nvidia",
+        "earnings",
+        "infrastructure"
       ]
     },
     {
-      "headline": "Mistral AI Mua Lại Emmi AI — Tạo 'Leading AI Stack' Kết Hợp Open Model & Enterprise Tools",
-      "why": "Cho manager: Mistral (open model champion châu Âu) mua Emmi (enterprise AI tooling) → tín hiệu open-source đang chuyển sang business model SaaS/enterprise. Nếu bạn đang bet on open models, watch Mistral stack evolution.",
-      "source": "Emmi AI",
-      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "headline": "OpenAI Chuẩn Bị IPO — Có Thể Diễn Ra Tháng 9/2026",
+      "why": "Cho manager + curious: nếu OpenAI IPO tháng 9, đây là cột mốc lớn nhất ngành AI từ trước đến nay. Công ty bạn nếu đang dùng OpenAI API cần theo dõi: IPO thường kéo theo thay đổi pricing, SLA, và priority support.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
       "tags": [
-        "m&a",
-        "mistral",
-        "enterprise-ai"
+        "openai",
+        "ipo",
+        "funding"
       ]
     },
     {
-      "headline": "314 Package NPM Bị Tấn Công 'Mini Shai-Hulud' Lần 2 — Supply Chain Attack Tiếp Diễn",
-      "why": "Cho manager & cá nhân: nếu team bạn dùng npm, scan dependencies ngay. Đây là lần thứ 2 attacker inject malicious code vào hàng trăm packages — CI/CD của bạn có dependency scanning chưa?",
-      "source": "SafeDep",
-      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "headline": "xAI Bị Kiện Vì Máy Phát Điện Data Center — Vẫn Mua Thêm 2.8 Tỷ USD Turbine",
+      "why": "Cho curious: Musk xây data center xAI bằng cách dùng máy phát khí tự nhiên, giờ bị kiện — nhưng vẫn đặt mua thêm 2.8 tỷ USD turbine. Pattern: xây infrastructure AI bằng mọi giá, bất chấp pháp lý. Lesson về rủi ro ESG khi scale nhanh.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
       "tags": [
-        "security",
-        "supply-chain",
-        "npm"
+        "xai",
+        "infrastructure",
+        "legal"
       ]
     },
     {
-      "headline": "Guardrails Đưa Model 8B Từ 53% Lên 99% Accuracy Trên Agentic Tasks — Open-Source Forge",
-      "why": "Cho cá nhân & creative: nếu bạn đang dùng small model (8B) cho agent workflow, guardrails (Forge) có thể cải thiện accuracy gần gấp đôi. Đây là kỹ thuật constrain search space, không phải fine-tune.",
-      "source": "Hacker News",
-      "url": "https://github.com/antoinezambelli/forge",
+      "headline": "Google Sẽ Làm Lại Search Với Agentic AI Năm 2026 — Ars Technica",
+      "why": "Cho cá nhân + manager: Google đang chuyển search sang agentic AI — nghĩa là thay vì 10 blue links, bạn sẽ có agent làm task thay bạn. Implication: SEO cũ sắp chết, content marketing cần pivot sang 'AI-findable' thay vì 'Google-findable'.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026/",
       "tags": [
-        "guardrails",
-        "agentic",
-        "open-source"
+        "google",
+        "search",
+        "agentic-ai"
       ]
     },
     {
-      "headline": "Copy Fail, Dirty Frag, Fragnesia — 3 Lỗ Hổng Kernel Mới Được Công Bố, Ảnh Hưởng Linux",
-      "why": "Cho manager: nếu infrastructure của bạn chạy Linux (đặc biệt on-premise hoặc cloud bare-metal), patch ngay. Đây là kernel vulnerabilities ảnh hưởng memory management — có thể bị exploit để privilege escalation.",
-      "source": "Gentoo",
-      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "headline": "IrisGo (Backed By Andrew Ng) Ra AI Desktop Buddy Tự Học Task",
+      "why": "Cho cá nhân: IrisGo watch màn hình bạn và tự học cách làm task lặp lại — giống Perplexity Personal Computer nhưng focus automation. Nếu bạn làm admin work nhiều (data entry, copy-paste, email template), đây là tool cần thử.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
       "tags": [
-        "security",
-        "linux",
-        "kernel"
+        "productivity",
+        "automation",
+        "desktop"
+      ]
+    },
+    {
+      "headline": "Anna's Archive Bị Phạt 19.5 Triệu USD — Toà Ra Lệnh Takedown Domain Toàn Cầu",
+      "why": "Cho curious: Anna's Archive (thư viện sách lậu lớn nhất thế giới) bị default judgment 19.5 triệu USD. Đây là case nghiêm khắc nhất về piracy content trong thời AI — ngầm báo hiệu các model train trên scraped data sẽ bị kiện tương tự.",
+      "source": "TorrentFreak",
+      "url": "https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/",
+      "tags": [
+        "legal",
+        "copyright",
+        "piracy"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Krea Ra Realtime 14B — Model 14 Tỷ Tham Số Cho Real-Time Video Gen, Chạy Trên Canvas",
-      "summary": "Krea công bố Realtime 14B, model video generation 14 tỷ tham số có khả năng real-time rendering. User có thể paint trên canvas, stream webcam/screen, và AI edit real-time. Đây là bước tiến từ image real-time (đã có) sang video real-time.",
-      "why": "Cho creative: nếu bạn làm video prototyping, Krea Realtime 14B giúp iterate nhanh hơn — không cần render queue. Use case: storyboard animation, live visual effects, interactive content.",
-      "source": "Krea",
-      "url": "https://www.krea.ai/release-notes",
+      "headline": "Gemini Omni (Google) — Tạo Video Từ Image/Audio/Text, Tích Hợp Vào Gemini Chat",
+      "summary": "Google ra Gemini Omni — model video generation mới cho phép user tạo video từ image, audio, và text prompt ngay trong Gemini chat. Omni Flash (phiên bản đầu tiên) ra tuần này cho YouTube Shorts và YouTube Create app, miễn phí.",
+      "why": "Cho creative: thay vì dùng Runway/Pika riêng lẻ, giờ bạn generate video trong cùng tool chat với Gemini. Workflow giảm friction — prototype video concept trong 1 tool thay vì 3-4 tool. Miễn phí cho YouTube Shorts là lợi thế lớn nếu bạn produce short-form content.",
+      "source": "Mashable / TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
       "tags": [
-        "video-gen",
-        "real-time",
-        "krea"
+        "video-generation",
+        "gemini",
+        "google"
       ]
     },
     {
-      "headline": "Google Veo 3.1 Ra Mắt — Tích Hợp Vào Pictory, Leonardo, Canva Qua Partnership",
-      "summary": "Google DeepMind ra Veo 3.1 (video generation model mới), đồng thời mở API cho các platform như Pictory, Leonardo.ai, Canva. User các platform này giờ có thể dùng Veo 3.1 trực tiếp trong workflow sẵn có.",
-      "why": "Cho creative: nếu bạn đang dùng Canva/Leonardo/Pictory, không cần chuyển tool để thử Veo 3.1. Đây là chiến lược distribution của Google — embedded vào existing creative tools thay vì standalone app.",
+      "headline": "Veo 3.1 (Google DeepMind) Ra Mắt — Model Video Generation Dẫn Đầu",
+      "summary": "Google DeepMind ra Veo 3.1 — model video generation state-of-the-art, nâng cấp từ Veo 2. Tích hợp vào Google AI ecosystem và Gemini Omni.",
+      "why": "Cho creative: Veo 3.1 là competitor trực tiếp Sora 2. Nếu bạn đang dùng Sora, test Veo 3.1 để so sánh quality/cost. Google có lợi thế tích hợp sâu với YouTube — nếu bạn produce content cho YouTube, Veo có thể smooth hơn về workflow.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/models/veo/",
       "tags": [
-        "video-gen",
+        "video-generation",
         "veo",
-        "partnerships"
+        "deepmind"
+      ]
+    },
+    {
+      "headline": "Stability AI Ra Stability Audio 3.0 — Tạo Bài Hát 6 Phút",
+      "summary": "Stability AI (công ty đằng sau Stable Diffusion) ra Stability Audio 3.0 — model audio generation tạo được bài hát dài đến 6 phút.",
+      "why": "Cho creative: nếu bạn cần music background cho video nhưng không có budget license track thương mại, Stability Audio 3.0 giúp generate custom music. 6 phút là đủ dài cho hầu hết short film hoặc commercial video.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "tags": [
+        "audio-generation",
+        "stability-ai",
+        "music"
+      ]
+    },
+    {
+      "headline": "Clouted — Startup Giúp Clip Video Viral Dễ Hơn, Nhận 7 Triệu USD Seed",
+      "summary": "Clouted — startup video clipping giúp creator đoán video nào sẽ viral — nhận 7 triệu USD seed từ Slow Ventures.",
+      "why": "Cho creative: nếu bạn produce TikTok/Reels/Shorts nhiều, Clouted hứa hẹn giảm guesswork. Tool phân tích pattern viral và suggest edit. Nhưng cẩn thận: tool này optimize cho engagement, không phải cho brand safety — có thể lead sang clickbait nếu không cẩn thận.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+      "tags": [
+        "video-editing",
+        "social-media",
+        "startup"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Nghiên Cứu Swansea University: AI Có Thể Làm Con Người Sáng Tạo Hơn (Không Phải Thay Thế)",
-      "summary": "Nghiên cứu mới từ Swansea University cho thấy AI không chỉ thay thế công việc sáng tạo, mà còn có thể làm con người sáng tạo hơn khi được dùng đúng cách. Đây là góc nhìn ngược lại với narrative phổ biến về AI replacing creativity.",
-      "why": "Cho cá nhân & creative: thay vì sợ AI thay thế, học cách dùng AI như 'thinking partner' để mở rộng creative range. Nghiên cứu này support augmentation thay vì replacement thesis.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "headline": "Interactive Evaluation Requires a Design Science — Paper Mới Về Cách Đánh Giá AI Agent",
+      "summary": "Paper mới lập luận: đánh giá AI agent cần design science riêng, không thể dùng cách đánh giá LLM cũ. Vì agent act over time qua tools, environments, users — evaluation cần interactive, không chỉ static benchmark.",
+      "why": "Cho manager: nếu team bạn đang evaluate AI agent cho production, đừng chỉ nhìn benchmark score. Cần test trong môi trường real-world với user thật. Paper này đề xuất framework mới — đọc nếu bạn đang build evaluation process.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.17829",
       "tags": [
-        "creativity",
-        "human-ai-collaboration",
+        "evaluation",
+        "agents",
         "research"
+      ]
+    },
+    {
+      "headline": "Base Models Look Human To AI Detectors — Nghiên Cứu Mới Vạch Trần Lỗ Hổng Detector",
+      "summary": "Nghiên cứu mới phát hiện: AI detector (như GPTZero, Turnitin) đang đánh giá SAI — base model output được flag là 'human-written'. Nghĩa là detector không detect AI, chỉ detect 'text không giống output fine-tuned model'.",
+      "why": "Cho manager + curious: nếu công ty/trường học bạn dùng AI detector để check plagiarism, cẩn thận — tool này unreliable. False positive rate cao nghĩa là người viết thật có thể bị buộc tội dùng AI. Cần rethink policy.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.19516",
+      "tags": [
+        "detection",
+        "education",
+        "ethics"
+      ]
+    },
+    {
+      "headline": "Mid-Training With Self-Generated Data Improves RL In LLMs — Paper Mới Về Kỹ Thuật Train",
+      "summary": "Paper mới cho thấy: train LLM bằng cách cho model tự generate data giữa chừng (mid-training) làm tăng hiệu quả Reinforcement Learning, đặc biệt với reasoning tasks.",
+      "why": "Cho curious: đây là insight về cách train model — nếu bạn đang tò mò 'tại sao model reasoning ngày càng giỏi', đây là một phần lý do. Self-generated data giúp model explore nhiều cách giải quyết vấn đề hơn.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.08472",
+      "tags": [
+        "training",
+        "reinforcement-learning",
+        "reasoning"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "n8n — Fair-Code Workflow Automation Platform With Native AI Capabilities, Self-Host Hoặc Cloud",
-      "why": "Cho cá nhân & manager: nếu bạn cần automation với AI tích hợp sẵn (400+ integrations), n8n là alternative open-source cho Zapier/Make. Fair-code license nghĩa là free self-host, chỉ trả phí khi dùng cloud.",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "188743"
-    },
-    {
-      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development, Open-Source",
-      "why": "Cho manager & creative: nếu team bạn cần orchestrate AI agents (không chỉ single prompt), Dify là framework production-ready. Alternative open-source cho LangChain nhưng focus UX.",
-      "source": "GitHub",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "141914"
-    },
-    {
-      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API, Self-Host Hoặc Cloud",
-      "why": "Cho cá nhân: nếu bạn muốn ChatGPT-like interface nhưng self-host hoặc dùng local model (Ollama), Open WebUI là option tốt nhất. Privacy-first, no cloud dependency.",
-      "source": "GitHub",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "137811"
-    },
-    {
-      "headline": "Firecrawl — Search, Scrape & Clean Web Cho AI Agents, Open-Source",
-      "why": "Cho creative & cá nhân: nếu bạn build AI agent cần scrape web data (ví dụ research agent, competitor monitoring), Firecrawl giúp clean HTML thành markdown AI-friendly.",
-      "source": "GitHub",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "121921"
-    },
-    {
-      "headline": "OpenClaw — Personal AI Assistant Chạy Trên Mọi OS/Platform, Open-Source 'The Lobster Way'",
-      "why": "Cho cá nhân: nếu bạn muốn AI assistant không bị lock vào một ecosystem (Windows/Mac/Linux đều chạy được), OpenClaw là option cross-platform hoàn toàn open-source.",
-      "source": "GitHub",
+      "headline": "openclaw/openclaw — AI Assistant 'The Lobster Way', Cross-Platform",
+      "why": "AI assistant cá nhân chạy mọi OS. 373K stars trong 1 ngày (trending spike) — đáng thử nếu bạn muốn tự host assistant thay vì dùng cloud. TypeScript nên dễ customize.",
+      "source": "GitHub Trending",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "373257"
+      "stars": "373547"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform With Native AI",
+      "why": "n8n là alternative self-host cho Zapier/Make, giờ có native AI capabilities. 188K stars — nếu công ty bạn cần automation nhưng không muốn data ra khỏi infra, n8n là lựa chọn vững.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "188898"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "AI agent từ Nous Research (team open-source model nổi tiếng). 159K stars — agent học theo usage của user, không phải one-size-fits-all. Đáng test nếu bạn muốn agent cá nhân hóa.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "159597"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Dify là platform build agentic workflow production-ready. 142K stars — nếu team bạn cần tool orchestrate multi-agent system, Dify là starting point tốt. Self-host hoặc cloud.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142045"
+    },
+    {
+      "headline": "firecrawl/firecrawl — Search, Scrape, Clean The Web For AI Agents",
+      "why": "Tool scrape web dành riêng cho AI agent — clean data sẵn, không phải xử lý HTML thô. 122K stars — nếu agent của bạn cần fetch data từ web, Firecrawl giảm 80% công sức preprocessing.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "122350"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Google: Gemini 3.5 Flash",
+      "headline": "[OpenRouter] Gemini 3.5 Flash Trở Thành Default Model Toàn Cầu",
       "event": "new",
-      "summary": "Gemini 3.5 Flash giờ có trên OpenRouter — high-efficiency multimodal model, near-Pro coding/reasoning, Flash-tier cost. Optimized cho coding proficiency và parallel agentic execution.",
-      "why": "Alternative rẻ hơn cho coding tasks — nếu đang dùng GPT-4o cho agent workflow, thử Gemini 3.5 Flash tiết kiệm cost.",
+      "summary": "Google ra Gemini 3.5 Flash, model mới thay thế Gemini Flash làm default cho Gemini app và AI Mode worldwide. Cải thiện coding, agent support, token efficiency.",
+      "why": "Nếu bạn dùng Gemini API qua OpenRouter, giờ default model đã nâng cấp — kiểm tra lại workflow nếu có hardcode model name cũ.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/google/gemini-3.5-flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
       "tags": [
-        "openrouter",
         "gemini",
-        "new-model"
+        "google",
+        "model-update"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.1 Miễn Phí Hoàn Toàn ($0.00/$0.00)",
-      "event": "price",
-      "summary": "GLM 5.1 từ Z.ai giảm giá từ $0.98/$3.08 xuống $0.00/$0.00 per million tokens.",
-      "why": "Free model — test ngay nếu bạn cần alternative cho GPT-3.5 mà không muốn trả phí. Phù hợp cho experimentation hoặc high-volume low-stakes use cases.",
+      "headline": "[OpenRouter] Qwen3.7-Max — The Agent Frontier",
+      "event": "new",
+      "summary": "Alibaba Cloud ra Qwen3.7-Max — model focus agent tasks. Đây là flagship mới của Qwen series.",
+      "why": "Qwen series là open alternative cho GPT/Claude ở Trung Quốc. Qwen3.7-Max cạnh tranh GPT-5.5 về agent capability — đáng test nếu bạn build agent và cần model rẻ hơn OpenAI.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "url": "https://qwen.ai/blog?id=qwen3.7",
       "tags": [
-        "openrouter",
-        "price-drop",
-        "free"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Google Gemini Flash Latest Tăng Giá ($1.50/$9.00)",
-      "event": "price",
-      "summary": "Gemini Flash Latest tăng giá từ $0.50/$3.00 lên $1.50/$9.00 per million tokens.",
-      "why": "Giá tăng 3x — nếu đang dùng gemini-flash-latest alias, cost tăng đột biến. Migrate sang gemini-3.5-flash cụ thể hoặc review budget.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~google/gemini-flash-latest",
-      "tags": [
-        "openrouter",
-        "price-increase",
-        "gemini"
+        "qwen",
+        "agent",
+        "alibaba"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 135,
-    "brave": 51,
+    "raw": 128,
+    "brave": 47,
     "reddit": 0,
-    "hackernews": 10,
+    "hackernews": 8,
     "rss": 53,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 3
+    "openrouter": 2
   }
 }
