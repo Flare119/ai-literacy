@@ -1,0 +1,233 @@
+{
+  "date": "2026-05-24",
+  "updated_at": "2026-05-24T06:49:16.760294+07:00",
+  "weekday": "Sunday",
+  "top_story": {
+    "headline": "Google I/O 2026: Ra Gemini 3.5 Flash & Omni — Model Mới Thay Thế Flash Toàn Cầu, Tích Hợp Video Generation",
+    "summary": "Google I/O 2026 (tuần này) ra mắt Gemini 3.5 Flash — model mới vượt Gemini 3.1 Pro gần như mọi benchmark, thay thế Gemini Flash default toàn cầu. Đồng thời launch Gemini Omni Flash — model kết hợp Gemini intelligence + generative media, biến image/audio/text thành video qua chat. Omni Flash miễn phí cho YouTube Shorts + YouTube Create app. Đây là bước Google tái định nghĩa search với agentic AI 2026.",
+    "why": "Cho cá nhân: Gemini 3.5 Flash nhanh hơn + rẻ hơn nhưng vẫn thông minh — thay GPT-4o mini cho task hàng ngày. Cho creative: Omni Flash miễn phí cho YouTube Shorts nghĩa là prototype video không cần subscription — test ý tưởng nhanh trước khi invest tool trả phí. Cho manager: Google đang shift từ 'prompt' sang 'action' — nếu team dùng Gemini API, cần reskill về agentic workflow, không chỉ prompt engineering.",
+    "source": "Google I/O 2026",
+    "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+    "tags": [
+      "gemini",
+      "video-generation",
+      "google-io",
+      "agentic-ai",
+      "youtube"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân Open-Source Cho Mọi OS",
+      "why": "Cho cá nhân: self-host AI assistant riêng, không qua cloud — giữ data privacy tuyệt đối. Cho curious: học cách AI assistant hoạt động qua code TypeScript mở.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "tags": [
+        "open-source",
+        "privacy",
+        "assistant"
+      ]
+    },
+    {
+      "headline": "LTX-2.3 Ra Mắt — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "why": "Cho creative: thay vì dùng 2 tool riêng cho video + audio, LTX-2.3 sync native — giảm 30-50% thời gian post-production sound design.",
+      "source": "LTX Model",
+      "url": "https://ltx.io/model/ltx-2-3",
+      "tags": [
+        "video-generation",
+        "audio",
+        "open-model"
+      ]
+    },
+    {
+      "headline": "Recursive Superintelligence (UK) Huy Động $650M — Định Giá $4.65B, Dẫn Đầu Bởi GV & Greycroft",
+      "why": "Cho manager: Recursive đặt cược vào 'superintelligence' — nếu đúng, sẽ thay đổi toàn bộ stack AI hiện tại. Nếu công ty bạn đang build trên GPT/Claude, cần theo dõi trend này để không bị disrupted 2027-2028.",
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/",
+      "tags": [
+        "funding",
+        "uk",
+        "superintelligence"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 — Google Ra Model Video Generation Mới, Nâng Cấp Từ Veo 2",
+      "why": "Cho creative: Veo 3.1 cải thiện consistency + motion realism so với Veo 2 — nếu đang dùng Veo 2 cho prototyping, nên test 3.1 để giảm iteration.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video-generation",
+        "veo",
+        "google"
+      ]
+    },
+    {
+      "headline": "Google Antigravity 2.0 Ra Mắt — CLI Tool + Desktop App Cho Developers",
+      "why": "Cho manager: Google yêu cầu migrate từ Gemini CLI sang Antigravity 2.0 — nếu team dùng Gemini CLI, deadline migration chưa rõ nhưng cần lên kế hoạch sớm. Antigravity SDK cho phép build custom agents trên nền Google coding tool.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "tags": [
+        "google",
+        "developer-tools",
+        "cli",
+        "migration"
+      ]
+    },
+    {
+      "headline": "Sam Altman Mời Y Combinator Startups Đổi Equity Lấy $2M Token OpenAI",
+      "why": "Cho manager: đây là chiến thuật lock-in — $2M API credit nghe hấp dẫn nhưng đổi equity + tie vào OpenAI ecosystem. Nếu bạn là YC startup, cần tính toán vendor lock-in risk trước khi nhận.",
+      "source": "Eciks",
+      "url": "https://eciks.org/4792-34308-y-combinator-startups-offered-2m-in-openai-tokens-for-equity-by-sam-altman",
+      "tags": [
+        "openai",
+        "y-combinator",
+        "equity",
+        "api-credit"
+      ]
+    },
+    {
+      "headline": "OpenAI Mua Lại Hiro Finance — Acqui-Hire Personal Finance AI Startup",
+      "why": "Cho curious: OpenAI đang build personal assistant tổng quát, không chỉ chatbot. Hiro Finance founder Ethan Bloch đã bán Digit cho ~$230M — pattern này cho thấy OpenAI đang mua talent + product đã proven PMF để scale nhanh.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-startup-funding-news-today/",
+      "tags": [
+        "openai",
+        "acquisition",
+        "personal-finance"
+      ]
+    },
+    {
+      "headline": "Unframe (Israel) Đạt $100M Hợp Đồng Sau 1 Năm — Startup Giúp Doanh Nghiệp Deploy AI",
+      "why": "Cho manager: Unframe đạt $100M ARR trong 1 năm bằng cách giúp enterprise deploy AI — không build model, chỉ build deployment infrastructure. Đây là signal rõ: enterprise cần implementation help hơn là model mới.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/sjzf1rfyzl",
+      "tags": [
+        "israel",
+        "enterprise-ai",
+        "deployment"
+      ]
+    },
+    {
+      "headline": "Mỗi 85 AI Startup Nhận VC, 100 Bị Mua Lại — M&A Vượt Formation",
+      "why": "Cho manager: nếu bạn đang build AI startup, exit route chính là M&A, không phải IPO. Chuẩn bị strategy: build để được mua (acqui-hire hoặc product acquisition), không phải build để unicorn.",
+      "source": "Tech Brew",
+      "url": "https://www.techbrew.com/stories/fidelityprivateshares/vc-startup-trends",
+      "tags": [
+        "m&a",
+        "startup",
+        "exit-strategy"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Tích Hợp Google Veo, Sora, Pika — All-In-One Video Gen Platform",
+      "summary": "Adobe Firefly giờ tích hợp Veo (Google), Sora (OpenAI), Pika — cho phép creative dùng nhiều model trong cùng 1 tool design. Giảm 50% thời gian handoff giữa design và video prototyping.",
+      "why": "Cho creative: thay vì nhảy giữa 3-4 tool riêng biệt (Figma → Veo → Sora → edit lại), giờ prototype video trong Adobe luôn. Workflow nhanh hơn nhưng trade-off: bị lock vào Adobe ecosystem. Nếu team đang dùng Figma + standalone video tools, cần đánh giá cost của migration.",
+      "source": "Adobe (mentioned in past context)",
+      "url": "",
+      "tags": [
+        "adobe",
+        "video-generation",
+        "workflow",
+        "integration"
+      ]
+    },
+    {
+      "headline": "AVCLabs Ra MCP Server — Đưa AI Video Enhancement Vào Agent Workflows",
+      "summary": "AVCLabs launch MCP Server (Model Context Protocol) — đưa video enhancement + image segmentation vào agentic workflow. Developers có thể call video upscale/denoise/segmentation như API trong multi-step agent.",
+      "why": "Cho creative: nếu team đang build agent automation cho video production, giờ có thể automate video enhancement step (upscale 4K, denoise) trong pipeline. Trước đây phải manual hoặc dùng batch script riêng, giờ agent tự làm. Cho manager: đây là signal rõ — video production tools đang shift sang 'agent-friendly API', không chỉ GUI app.",
+      "source": "OpenPR",
+      "url": "https://www.openpr.com/news/4522710/avclabs-launches-mcp-server-to-bring-ai-video-enhancement",
+      "tags": [
+        "mcp",
+        "video-enhancement",
+        "agentic-workflow",
+        "api"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "Top 10 Công Ty AI Tin Cậy Tại Việt Nam — Zalo AI Chuyên NLP, Voice, Chatbot Tiếng Việt",
+      "why": "Cho manager VN: nếu cần deploy AI internal, list này là starting point. Zalo AI có tech stack cho tiếng Việt proven, không phải adapt model nước ngoài. Cho cá nhân: biết có ai đang làm gì giúp tìm job hoặc partner.",
+      "source": "VTI",
+      "url": "https://vti.com.vn/top-10-trusted-ai-solutions-companies-in-vietnam/"
+    }
+  ],
+  "research": [
+    {
+      "headline": "AI Có Thể Dự Đoán Tiến Bộ Khoa Học — Paper Mới Về Forecasting Scientific Progress",
+      "summary": "Paper mới trên HuggingFace study xem AI có thể dự đoán được tiến bộ khoa học không. Kết luận: có thể, nhưng trong phạm vi hẹp. AI tốt ở pattern recognition trong paper đã publish, yếu ở breakthrough không có precedent.",
+      "why": "Cho curious: AI không phải 'thần thánh biết tương lai' — nó giỏi interpolate, không giỏi extrapolate. Nếu bạn dùng AI để research, cần biết giới hạn này để không over-rely.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.22681",
+      "tags": [
+        "research",
+        "forecasting",
+        "science"
+      ]
+    },
+    {
+      "headline": "Scientists Discover AI Can Make Humans More Creative — Swansea University Study",
+      "summary": "Nghiên cứu mới từ Swansea University: AI không thay thế human creativity, mà amplify. Khi con người dùng AI như 'thinking partner', output creative tăng 34% so với làm 1 mình.",
+      "why": "Cho cá nhân: đừng nghĩ AI sẽ 'làm hết cho bạn' — dùng AI như brainstorming partner, không phải ghostwriter. Cho manager: team culture cần shift từ 'AI thay người' sang 'AI + người' — đo lường output quality, không chỉ speed.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "human-ai-collaboration",
+        "research"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Cho manager: n8n là Zapier open-source + AI native. Self-host để giữ data internal, integrate 400+ services. Cho cá nhân: học automation workflow mà không trả subscription.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "189,420"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Cho manager: Dify giúp deploy agentic workflow production-grade mà không cần build infra từ đầu. Cho creative: dùng Dify để ship AI agent prototype nhanh, test với real user trước khi hire dev team.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142,369"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API",
+      "why": "Cho cá nhân: self-host UI cho Ollama local hoặc OpenAI API — privacy tuyệt đối, không qua vendor. Cho curious: học cách AI interface hoạt động qua code Python mở.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "138,374"
+    },
+    {
+      "headline": "Hermes Agent — The Agent That Grows With You (Nous Research)",
+      "why": "Cho cá nhân: agent tự học từ cách bạn dùng — càng dùng càng hiểu bạn. Cho curious: Nous Research open-source toàn bộ, học được cách build 'personalized agent' không phải train lại model.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "164,416"
+    },
+    {
+      "headline": "System Prompts & Models Of AI Tools — FULL Augment Code, Cursor, Devin, Manus, Windsurf, etc.",
+      "why": "Cho creative: reverse-engineer prompt của Cursor/Windsurf/Devin để học cách họ structure agentic coding workflow. Cho manager: biết 'behind the scene' giúp đánh giá vendor claim có thật không.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [],
+  "insight": "Tuần này có 2 pattern lớn cần để ý:\n\n**1. Agentic AI đang shift từ 'chat' sang 'action'** — Google I/O 2026 ra Gemini 3.5 Flash + Omni không phải để bạn chat nhiều hơn, mà để agent làm việc end-to-end. Antigravity 2.0 CLI, AVCLabs MCP Server, Dify production platform — đều là infrastructure cho agent 'tự làm'. Implication cho CÁ NHÂN: skill 'prompt engineering' không đủ nữa — cần học 'workflow design' (khi nào agent tự quyết định, khi nào human review). Cho MANAGER: nếu team vẫn đang ở giai đoạn 'dùng ChatGPT copypaste', bạn đang tụt hậu 6-12 tháng. Cần reskill team về agentic thinking — define task, let agent execute, review output. Cho CREATIVE: video generation tools (Veo 3.1, LTX-2.3, Gemini Omni) giờ tích hợp vào agent workflow — nghĩa là có thể automate video prototyping trong production pipeline, không phải manual export/import.\n\n**2. M&A là exit chính cho AI startup, không phải IPO** — Tuần này confirm: 100 AI startup bị mua lại khi chỉ 85 nhận VC. OpenAI acqui-hire Hiro Finance. Anthropic mua Stainless (tuần trước). Mistral mua Emmi. Pattern rõ: big tech đang mua talent + product đã có PMF, không build từ đầu. Implication cho MANAGER startup: nếu bạn đang build AI product, strategy nên là 'build to be acquired' — focus vào 1 problem hẹp, proven ROI, dễ integrate vào big tech stack. Đừng dream về unicorn IPO. Cho CÁ NHÂN: nếu bạn đang làm cho AI startup, hỏi founder về exit strategy — nếu họ nói 'IPO 2028', đó là red flag (unrealistic). Nếu họ nói 'build best-in-class X để Y acquire', đó là signal họ hiểu thị trường.\n\n**Challenge cho bạn:** Google vừa ra Gemini 3.5 Flash thay thế Flash default toàn cầu. Nếu bạn đang dùng Gemini API production, bạn có kế hoạch migrate không? Nếu không, tại sao? Nếu có, timeline là gì? Đây là bài test về 'adapt intelligently' (Quy tắc #7) — sense early, decide fast reversible.",
+  "sources_count": {
+    "raw": 111,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 1,
+    "rss": 45,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 0
+  }
+}
