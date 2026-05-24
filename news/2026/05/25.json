@@ -1,0 +1,244 @@
+{
+  "date": "2026-05-25",
+  "updated_at": "2026-05-25T06:51:46.460456+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "DeepSeek Giảm Giá V4 Pro Vĩnh Viễn — Model Trung Quốc Cạnh Tranh Trực Diện GPT-4o",
+    "summary": "DeepSeek công bố giảm giá model V4 Pro từ tạm thời sang vĩnh viễn, củng cố vị thế cạnh tranh với GPT-4o và Gemini Flash trong phân khúc reasoning cost-effective. Động thái này theo sau thành công của V4 Flash và phản ánh chiến lược pricing aggressive của các model Trung Quốc.",
+    "why": "Cho manager: nếu bạn đang dùng GPT-4o cho reasoning tasks, đây là lúc benchmark DeepSeek V4 Pro — tiết kiệm 40-60% cost mà quality tương đương. Cho cá nhân: alternative rẻ hơn để chạy personal projects yêu cầu reasoning mà không cần OpenAI subscription.",
+    "source": "DeepSeek API Docs",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "tags": [
+      "pricing",
+      "deepseek",
+      "reasoning",
+      "cost-optimization"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Memory Chiếm Gần 2/3 Chi Phí Component Của AI Chip — Epoch AI Report",
+      "why": "Cho manager: nếu bạn đang tự build AI infra, memory cost là bottleneck lớn nhất — không phải GPU. Tối ưu batch size và caching strategy trước khi mua thêm hardware.",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "tags": [
+        "hardware",
+        "cost",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Constraint Decay: AI Agent Fail Khi Generate Backend Code — ArXiv Paper",
+      "why": "Cho creative/manager: coding agent như Cursor/Codex vẫn có lỗ hổng khi handle complex constraints (security, performance). Review code agent-generated kỹ hơn, đặc biệt backend logic.",
+      "source": "ArXiv",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "tags": [
+        "research",
+        "coding-agents",
+        "backend",
+        "quality"
+      ]
+    },
+    {
+      "headline": "AI Có Thể Làm Con Người Sáng Tạo Hơn — Swansea University Research",
+      "why": "Cho cá nhân/creative: nghiên cứu mới cho thấy AI không chỉ thay thế mà còn augment creativity — nếu dùng đúng cách (như brainstorming partner, không phải autopilot).",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "human-ai-collaboration"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Do AI Đang Tăng — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho cá nhân: nếu bạn làm ngân hàng/finance, đây là warning sign rõ — các bank đang thẳng thắn hơn về AI thay thế jobs. Reskill về AI oversight/governance hoặc pivot sang role khác.",
+      "source": "NYTimes / Reuters",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "job-market",
+        "finance",
+        "automation"
+      ]
+    },
+    {
+      "headline": "Google Antigravity 2.0 — CLI Tool + Desktop App Mới Cho Developers",
+      "why": "Cho creative/developer: Google ra coding tool cạnh tranh Cursor/Codex CLI, có SDK để build custom agents. Nếu bạn đang trong Google Cloud ecosystem, đây là alternative miễn phí.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "tags": [
+        "google",
+        "coding-tools",
+        "developer-tools"
+      ]
+    },
+    {
+      "headline": "Google Pics — AI Design App Miễn Phí Cho Google Workspace",
+      "why": "Cho creative/manager: Google tung tool design AI tích hợp Workspace (như Canva AI nhưng native). Nếu team bạn đang dùng Workspace, test thử trước khi mua Canva Pro.",
+      "source": "TechCrunch / Mashable",
+      "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-battleground-and-google-is-going-all-in-at-io-2026/",
+      "tags": [
+        "google",
+        "design",
+        "workspace",
+        "free-tools"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Giờ Tích Hợp Google Veo, Sora, Pika — All-In-One Video Gen Platform",
+      "summary": "Adobe Firefly video generator bây giờ cho phép chọn model từ dropdown: Firefly native, Google Veo, OpenAI Sora, hoặc Pika. Một platform, nhiều engine — giảm context switching cho creative workflows.",
+      "why": "Cho creative/production: thay vì nhảy giữa 4 tool riêng (Firefly, Veo, Sora, Pika), giờ bạn test/compare 4 model trong cùng UI. Tiết kiệm 50% thời gian prototype video.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-generation",
+        "adobe",
+        "workflow",
+        "multi-model"
+      ]
+    },
+    {
+      "headline": "LTX-2.3 — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "summary": "LTX-2.3 (diffusion transformer) có thể generate video và audio sync trong cùng 1 inference. Trước đây cần 2 model riêng (video rồi audio), giờ 1 model làm cả 2.",
+      "why": "Cho creative: nếu bạn làm video có audio (TVC, explainer), model này giảm pipeline từ 2 bước xuống 1. Tuy nhiên vẫn early — test chất lượng audio trước khi dùng production.",
+      "source": "LTX",
+      "url": "https://ltx.io/model/ltx-2-3",
+      "tags": [
+        "video-generation",
+        "audio",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "Gemini Omni Flash — Google Ra Model Video Generation Tích Hợp Vào Chat",
+      "summary": "Gemini Omni Flash (phiên bản lightweight của Omni) cho phép tạo video từ image/audio/text qua chat interface. Ra tuần này, miễn phí cho YouTube Shorts và YouTube Create app.",
+      "why": "Cho creative: nếu bạn làm YouTube Shorts, tool này miễn phí và native trong YouTube ecosystem — không cần export/import. Suitable cho rapid prototyping, chưa đủ chất lượng cho TVC.",
+      "source": "Google DeepMind / Mashable",
+      "url": "https://mashable.com/article/gemini-omni-flash-ai-video-generation-google-io-2026",
+      "tags": [
+        "google",
+        "video-generation",
+        "youtube",
+        "free-tools"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 — Google Nâng Cấp Model Video Generation Từ Veo 2",
+      "summary": "Google ra Veo 3.1, iteration nhỏ của Veo 2 (không phải major release). Cải thiện consistency và control, chưa rõ benchmark cụ thể vs Sora 2.",
+      "why": "Cho creative: nếu bạn đang dùng Veo 2, upgrade miễn phí. Nếu chưa dùng, đợi independent benchmark trước khi migrate từ Sora — Veo vẫn yếu hơn về motion quality theo report trước đây.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "google",
+        "video-generation",
+        "veo"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "AI Agent Backend Code Generation Dễ Mất Constraint — Constraint Decay Paper",
+      "summary": "Paper mới từ ArXiv chỉ ra AI coding agents (Cursor, Codex, etc.) dễ vi phạm constraints khi generate backend code: quên validate input, bỏ qua security checks, performance bottlenecks. Gọi là 'constraint decay' — agent focus vào functional correctness mà bỏ non-functional requirements.",
+      "why": "Cho manager: nếu team dùng coding agent cho backend, bắt buộc phải có code review process — agent chưa đủ tin cậy để ship trực tiếp. Cho developer: treat agent output như junior dev code, không phải senior.",
+      "source": "ArXiv",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "tags": [
+        "research",
+        "coding-agents",
+        "quality",
+        "backend"
+      ]
+    },
+    {
+      "headline": "Memory Chiếm 66% Chi Phí AI Chip Component — Epoch AI Analysis",
+      "summary": "Phân tích mới từ Epoch AI cho thấy memory (HBM) chiếm gần 2/3 cost của AI chip, vượt xa compute logic. Đây là lý do Nvidia H200 đắt gấp đôi H100 (nhiều HBM hơn) mà compute chỉ tăng 20%.",
+      "why": "Cho manager build AI infra: tối ưu memory usage (batch size, caching, quantization) quan trọng hơn mua thêm GPU. 1 đồng tiết kiệm memory = 2 đồng tiết kiệm total cost.",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "tags": [
+        "research",
+        "hardware",
+        "cost",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "AI Có Thể Làm Con Người Sáng Tạo Hơn — Swansea University Study",
+      "summary": "Nghiên cứu từ Swansea University (published March 2026) cho thấy AI không chỉ thay thế creativity mà có thể augment — nếu dùng như brainstorming partner thay vì autopilot. Participants dùng AI như sounding board tăng 23% originality score so với control group.",
+      "why": "Cho creative: thay vì dùng AI để 'làm hộ', dùng để challenge ý tưởng của bạn — hỏi 'còn cách nào khác?', 'nếu tôi sai thì sao?'. Đây là cách extract creativity tốt hơn từ AI.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "human-ai-collaboration"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với AI Capabilities",
+      "why": "Cho developer/manager: alternative self-host cho Zapier, có native AI integrations (400+ connectors). Nếu bạn cần automation workflow nhưng không muốn vendor lock-in, n8n là top choice.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "189550"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho developer: nếu bạn build AI agents, Dify cung cấp visual builder + orchestration + monitoring. Suitable cho team không muốn code from scratch.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142475"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
+      "why": "Cho cá nhân/manager: self-host UI cho local LLMs (Ollama) hoặc OpenAI API. Nếu bạn muốn ChatGPT-like interface nhưng tự control data, đây là tool phổ biến nhất.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "138491"
+    },
+    {
+      "headline": "OpenClaw — Personal AI Assistant Open-Source Cho Mọi OS",
+      "why": "Cho cá nhân: AI assistant có thể chạy cross-platform (Windows/Mac/Linux). Nếu bạn muốn Siri/Alexa nhưng open-source và tự control, OpenClaw là option mới nổi.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "374408"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform",
+      "why": "Cho developer: framework phổ biến nhất cho build AI agents. Nếu bạn mới bắt đầu agent development, LangChain là starting point standard.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "137546"
+    },
+    {
+      "headline": "Hermes Agent — The Agent That Grows With You (Nous Research)",
+      "why": "Cho developer: agent framework từ Nous Research (team build Hermes model). Focus vào personalization — agent học từ interaction với bạn theo thời gian.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "165648"
+    },
+    {
+      "headline": "Prompts.chat — Share & Discover Prompts, Self-Host For Organization",
+      "why": "Cho manager/team: nếu team bạn dùng nhiều prompts, tool này giúp centralize + share + version control. Self-host để giữ prompts internal.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "162769"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 115,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 45,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 0
+  }
+}
