@@ -1,0 +1,298 @@
+{
+  "date": "2026-05-26",
+  "updated_at": "2026-05-26T06:56:29.701717+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Gemini Omni Flash — Google Ra Model Video Multimodal Mới, Tạo Video Từ Ảnh/Audio/Text Qua Chat",
+    "summary": "Google vừa release Gemini Omni Flash tại I/O 2026 — model đầu tiên trong dòng Omni, biến ảnh/audio/text thành video ngay trong chat. Khác với Veo (pure video gen), Omni là conversational: user có thể chat để edit, remix, thay đổi style frame-by-frame. Model tích hợp vào Flow (Google's video editor) và sẽ có trên YouTube Shorts + YouTube Create app miễn phí trong tuần này.",
+    "why": "Cho creative: đây là bước chuyển từ 'prompt → video' sang 'chat → iterate → video'. Thay vì re-prompt 10 lần, giờ bạn chat như với editor thật. Workflow giảm friction lớn — đặc biệt cho rapid prototyping content social. Miễn phí trên YouTube Create nghĩa là barrier-to-entry = 0, production house nhỏ có công cụ ngang startup funded.",
+    "source": "TechCrunch + Google Blog",
+    "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
+    "tags": [
+      "video-generation",
+      "multimodal",
+      "google",
+      "free-tool"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Google Antigravity 2.0 — CLI Tool + Desktop App + SDK Cho Developers Build Custom Coding Agents",
+      "why": "Cho manager/individual: nếu team bạn đang dùng Cursor/Claude Code, Antigravity giờ có SDK để build agent riêng trên infra Google Cloud. Google Cloud customers có thể self-host coding agent thay vì phụ thuộc third-party SaaS — giảm vendor lock-in và kiểm soát code security tốt hơn.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "tags": [
+        "coding-agent",
+        "google",
+        "developer-tools"
+      ]
+    },
+    {
+      "headline": "Google Pics — AI Design App Miễn Phí Cho Google Workspace, Object Segmentation + Text Translation",
+      "why": "Cho creative/individual: tool miễn phí trong Workspace để edit ảnh với object segmentation (chọn và sửa từng element riêng lẻ) + dịch text trong ảnh. Giảm phụ thuộc Photoshop cho basic design tasks — đặc biệt hữu ích cho marketer/content creator cần tốc độ hơn độ tinh xảo.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "tags": [
+        "design-tool",
+        "google-workspace",
+        "free-tool"
+      ]
+    },
+    {
+      "headline": "Stability Audio 3.0 — Tạo Nhạc 6 Phút Từ Prompt, Mở Rộng Từ 90 Giây Bản Trước",
+      "why": "Cho creative: model trước chỉ generate 90 giây, giờ lên 6 phút — đủ cho 1 track hoàn chỉnh. Quan trọng cho video editor cần background music custom mà không muốn bị claim copyright. Chất lượng còn phải test thực tế, nhưng độ dài này là game-changer về workflow.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "tags": [
+        "audio-generation",
+        "stability-ai",
+        "music"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 Launch — Google Nâng Cấp Video Gen Model, Cải Thiện Physics + Temporal Consistency",
+      "why": "Cho creative: Veo 3.1 fix các lỗi physics/temporal mà Veo 2 vẫn còn (object morphing, inconsistent lighting qua frame). Nếu bạn đang dùng Veo 2 và gặp artifact, đây là lý do để re-test workflow. Google chưa công bố benchmark cụ thể, nhưng changelog focus vào 'real-world physics simulation' — tín hiệu tốt cho product demo video.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": [
+        "video-generation",
+        "google",
+        "model-update"
+      ]
+    },
+    {
+      "headline": "OpenAI Mua Lại Hiro Finance — Acqui-Hire Personal Finance AI Startup",
+      "why": "Cho curious: OpenAI không mua tech, mua talent. Founder Ethan Bloch (sold Digit for $230M) giờ vào OpenAI — có thể tín hiệu OpenAI sẽ ra consumer finance product. Nếu bạn là developer/PM trong fintech, đây là moment để watch — pattern này (big lab acqui-hire vertical experts) đang lặp lại (Anthropic/Stainless, Mistral/Emmi tuần trước).",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-startup-funding-news-today/",
+      "tags": [
+        "acquisition",
+        "openai",
+        "fintech"
+      ]
+    },
+    {
+      "headline": "Unframe Đạt $100M Hợp Đồng Sau 1 Năm — Israel Startup Giúp Doanh Nghiệp Deploy AI",
+      "why": "Cho manager: nếu công ty bạn đang struggle với 'deploy AI into production', Unframe là case study về tốc độ execution. $100M contracts trong 12 tháng không phải may mắn — họ focus vào 'implementation services', không bán model. Bài học: nhiều doanh nghiệp trả tiền cho 'help us use AI', không phải 'give us better AI'.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/sjzf1rfyzl",
+      "tags": [
+        "enterprise-ai",
+        "israel",
+        "deployment"
+      ]
+    },
+    {
+      "headline": "4 Labs, 4 Acquisitions Trong 5 Ngày — Anthropic/Mistral/Google/Meta Đồng Loạt Mua Startup",
+      "why": "Cho manager/curious: đây không phải trùng hợp. Anthropic mua Stainless (SDK), Mistral mua Emmi (enterprise tools), Google mua (chưa công bố), Meta mua (chưa công bố). Pattern: big labs đang mua 'vertical integration' — SDK, dev tools, enterprise infra — thay vì chỉ cạnh tranh model quality. Nếu bạn là founder AI startup, exit window đang mở rộng cho tooling/infra, không chỉ model.",
+      "source": "StartupHub.ai",
+      "url": "https://www.startuphub.ai/ai-news/ai-news/2026/four-labs-four-acquisitions-ai-consolidation-may-2026",
+      "tags": [
+        "acquisition",
+        "consolidation",
+        "trend"
+      ]
+    },
+    {
+      "headline": "Jeff Bezos Gần Hoàn Tất Vòng $10B Cho AI Lab 'Physical World Understanding' — FT Report",
+      "why": "Cho curious: Bezos đang bet vào 'AI hiểu physical world' (giống Omni/Veo direction nhưng ở tầm khác). $10B là vòng lớn thứ 3 năm nay (sau OpenAI $40B, Anthropic $7.3B). Nếu bạn quan tâm robotics/logistics/autonomous systems — đây là startup cần follow, vì Amazon infra + Bezos capital = potential disruptor.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/jeff-bezos-nears-10-billion-funding-round-for-ai-lab-ft-says",
+      "tags": [
+        "funding",
+        "bezos",
+        "robotics"
+      ]
+    },
+    {
+      "headline": "Wall Street Job Cuts Do AI Đang Tăng — 'AI Gives Us Places We Haven't Gone'",
+      "why": "Cho individual/manager: banks đang thẳng thắn hơn về AI replacing jobs. Quote từ NYT: 'AI gives us places to go we haven't gone' — nghĩa là họ đang mở rộng sang lĩnh vực mới (automated trading, risk modeling) thay vì hire thêm. Nếu bạn làm finance/analyst, đây là tín hiệu reskill — focus vào oversight/strategy roles, không phải execution.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "job-market",
+        "finance",
+        "automation"
+      ]
+    },
+    {
+      "headline": "AI Có Thể Làm Con Người Sáng Tạo Hơn — Swansea University Research",
+      "why": "Cho curious: nghiên cứu mới challenge narrative 'AI kills creativity'. Kết quả: khi dùng AI như brainstorming partner (không phải replacement), participants generate ideas đa dạng hơn 23% và novel hơn 31%. Takeaway: framing AI as 'collaborator' thay vì 'tool' hoặc 'threat' tạo mindset khác — và output khác.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "psychology"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "LTX-2.3 Ra Mắt — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "summary": "LTX (Lightricks) vừa release LTX-2.3, model Diffusion Transformer (DiT) đầu tiên generate cả video và audio đồng bộ từ cùng 1 architecture. Khác với pipeline riêng (gen video → add audio), LTX-2.3 hiểu correlation giữa visual và sound ngay từ latent space — ví dụ: footstep sync với chuyển động, dialogue lip-sync tự nhiên hơn.",
+      "why": "Cho creative/producer: đây giải quyết pain point lớn của AI video — audio luôn bị 'patched on' sau. Model này mở cửa cho rapid prototyping animatic có sound design đồng bộ — giảm vòng iteration giữa video editor và sound designer. Open-source và có tooling sẵn, có thể integrate vào pipeline ngay.",
+      "source": "LTX",
+      "url": "https://ltx.io/model",
+      "tags": [
+        "video-generation",
+        "audio-generation",
+        "open-source",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "Higgsfield Soul Cinema — Culture-Native Photo Model Cho AI Video Generation",
+      "summary": "Higgsfield ra tính năng 'Soul Cinema' — model photo-to-video được train trên cultural-specific data (not just Western stock footage). User upload ảnh chân dung, model generate video với facial expression/gesture/context phù hợp văn hoá. Có gallery community showcase stunning generations.",
+      "why": "Cho creative: nếu bạn làm content cho thị trường địa phương (VN/SEA), đây là alternative cho Runway/Pika vốn bias về Western aesthetics. 'Culture-native' không chỉ là buzzword — model hiểu gesture như cúi chào, eye contact, personal space khác nhau giữa văn hoá. Test xem output có phù hợp audience VN không.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video-generation",
+        "cultural-ai",
+        "character"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "DeepSeek Reasonix — Native Coding Agent With High Caching, Low Cost",
+      "summary": "DeepSeek release Reasonix, coding agent được thiết kế từ đầu cho high caching efficiency. Khác với wrapper agent (dùng GPT-4/Claude bên dưới), Reasonix là native model optimize cho code context reuse — cache hit rate 78% (vs 23% baseline). Cost giảm 4.2x cho typical coding session.",
+      "why": "Cho developer/manager: nếu team bạn dùng coding agent nhiều (Cursor, Copilot), cost compute là vấn đề. Reasonix là proof-of-concept về 'design model for caching from scratch' thay vì patch sau. Chưa production-ready nhưng architecture đáng học — especially cho ai muốn self-host coding agent.",
+      "source": "ESEngine",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "tags": [
+        "coding-agent",
+        "research",
+        "deepseek",
+        "efficiency"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân Open-Source Cho Mọi OS",
+      "why": "Cross-platform personal AI assistant (MacOS/Windows/Linux) — không phụ thuộc cloud. Nếu bạn muốn AI assistant mà control data 100%, đây là option. Setup phức tạp hơn commercial tool nhưng privacy = tuyệt đối.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "374621",
+      "tags": [
+        "assistant",
+        "privacy",
+        "cross-platform"
+      ]
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Alternative cho Zapier/Make nhưng self-host được + native AI nodes. Nếu team bạn cần automation workflow phức tạp kết hợp AI mà không muốn phụ thuộc SaaS, n8n là choice tốt. 400+ integrations.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "189686",
+      "tags": [
+        "automation",
+        "workflow",
+        "self-host"
+      ]
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Framework để build và deploy AI agent workflow production-grade. Nếu bạn đang nghĩ 'chuyển POC agent sang production', Dify giải quyết monitoring/logging/version control/deployment. Cộng đồng lớn, doc đầy đủ.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142612",
+      "tags": [
+        "agent-framework",
+        "production",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Support Ollama, OpenAI API",
+      "why": "UI đẹp cho self-hosted LLM (Ollama) hoặc cloud API (OpenAI/Anthropic). Nếu team bạn muốn ChatGPT-like interface nhưng data không ra khỏi server, đây là solution. Setup đơn giản, customize được branding.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "138622",
+      "tags": [
+        "ui",
+        "self-host",
+        "ollama"
+      ]
+    },
+    {
+      "headline": "Hermes Agent — The Agent That Grows With You (Nous Research)",
+      "why": "Agent framework từ Nous Research, focus vào 'learning from user over time'. Khác với stateless agent, Hermes build memory/preference model cá nhân. Early stage nhưng direction thú vị — AI assistant thật sự 'học' thói quen user.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "167206",
+      "tags": [
+        "agent",
+        "personalization",
+        "research"
+      ]
+    },
+    {
+      "headline": "Prompts.chat — Share, Discover Prompts Từ Community, Self-Host Cho Tổ Chức",
+      "why": "Repository prompt open-source lớn nhất (f.k.a. Awesome ChatGPT Prompts). Nếu team bạn cần internal prompt library với privacy, có thể self-host. Hữu ích cho onboarding người mới vào AI workflow — học từ prompt có sẵn.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "162811",
+      "tags": [
+        "prompts",
+        "community",
+        "self-host"
+      ]
+    },
+    {
+      "headline": "System Prompts And Models Of AI Tools — FULL Collection Cursor, Claude Code, Devin, Windsurf, etc.",
+      "why": "Repo leak system prompts của hầu hết coding agent commercial (Cursor, Claude Code, Devin, Windsurf, Replit...). Nếu bạn tò mò 'tool X dùng prompt gì', hoặc muốn học cách prompt cho coding agent riêng — đây là goldmine. Legal gray area nhưng public.",
+      "source": "GitHub",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A",
+      "tags": [
+        "prompts",
+        "coding-agent",
+        "reverse-engineering"
+      ]
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Alibaba Tongyi DeepResearch 30B A3B",
+      "event": "deprecated",
+      "summary": "Model alibaba/tongyi-deepresearch-30b-a3b không còn available trên OpenRouter.",
+      "why": "Nếu bạn đang dùng model này, migrate sang alternative (Qwen 2.5 hoặc DeepSeek V3) trước khi endpoint chết hoàn toàn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/alibaba/tongyi-deepresearch-30b-a3b",
+      "tags": [
+        "deprecated",
+        "alibaba",
+        "openrouter"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V3 Giảm Prompt $0.32→$0.23, Tăng Completion $0.89→$0.91",
+      "event": "price",
+      "summary": "DeepSeek V3 điều chỉnh giá: prompt token rẻ hơn 28%, completion đắt hơn 2%.",
+      "why": "Net benefit cho use case long context/RAG (nhiều prompt token, ít completion). Nếu bạn dùng DeepSeek V3 cho summarization/analysis — cost giảm. Nếu dùng cho code generation (ít prompt, nhiều completion) — cost tăng nhẹ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-chat",
+      "tags": [
+        "price-change",
+        "deepseek",
+        "openrouter"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 126,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 2
+  }
+}
