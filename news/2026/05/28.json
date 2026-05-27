@@ -1,0 +1,239 @@
+{
+  "date": "2026-05-28",
+  "updated_at": "2026-05-28T06:54:16.880770+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "DuckDuckGo Tăng 28% Lượt Truy Cập Sau Khi Google Nói 'Người Dùng Yêu AI Mode'",
+    "summary": "Một tuần sau khi Google khẳng định 'mọi người yêu thích AI mode' trong search, DuckDuckGo (không có AI) ghi nhận lượt truy cập tăng 28%. Đây là phản ứng thực tế từ người dùng khi họ có lựa chọn.",
+    "why": "Cho cá nhân: nếu bạn cảm thấy mệt mỏi với AI answers trả lời không đúng trọng tâm, bạn không đơn độc — 28% người dùng đã vote bằng chân khi có lựa chọn. Cho manager: forced AI adoption không đồng nghĩa với user adoption — measure actual usage behavior, không chỉ feature launch metrics.",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+    "tags": [
+      "search",
+      "user-behavior",
+      "AI-fatigue"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "YouTube Bắt Buộc Label Video AI-Generated — Creator Phải Khai Báo",
+      "why": "Cho creative: từ nay, nếu dùng AI gen video (Sora, Veo, Pika...) trên YouTube phải tick 'synthetic content' — YouTube sẽ tự label. Không khai báo = vi phạm policy.",
+      "source": "YouTube Official Blog",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "tags": [
+        "youtube",
+        "policy",
+        "disclosure"
+      ]
+    },
+    {
+      "headline": "Simon Willison: 'Tôi Nghĩ Anthropic Và OpenAI Đã Tìm Được Product-Market Fit'",
+      "why": "Cho curious: veteran developer Simon Willison (Django co-creator) confirm rằng Claude Code + ChatGPT đã vượt qua 'toy stage' — anh dùng hàng ngày cho production work. Signal mạnh về maturity của coding agents.",
+      "source": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "tags": [
+        "PMF",
+        "coding-agents",
+        "adoption"
+      ]
+    },
+    {
+      "headline": "Tech CEOs Bị Chẩn Đoán 'AI Psychosis' — TechCrunch Báo Cáo",
+      "why": "Cho manager: khi CEO bị cuốn vào hype cycle đến mức mất khả năng đánh giá rủi ro thực tế, đây không phải strategic vision — đây là psychosis. Nếu công ty bạn pivot toàn bộ sang AI mà không test assumption, đây là red flag.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
+      "tags": [
+        "leadership",
+        "hype",
+        "risk"
+      ]
+    },
+    {
+      "headline": "81% Venture Funding Toàn Cầu Q1/2026 Đổ Vào AI — $240B",
+      "why": "Cho manager: nếu startup bạn không phải AI hoặc không có AI story, khả năng raise vòng sau giảm 81%. Hoặc bạn pivot story (nếu genuine), hoặc accept bootstrapping.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+      "tags": [
+        "VC",
+        "funding",
+        "market"
+      ]
+    },
+    {
+      "headline": "'Tôi Mệt Mỏi Với Việc Nói Chuyện Với AI' — Essay Viral",
+      "why": "Cho cá nhân: nếu bạn cảm thấy AI chatbot trả lời generic, thiếu empathy, và tốn thời gian hơn search truyền thống — bài viết này nói ra điều bạn đang nghĩ. AI fatigue là thật, không phải bạn kỳ quặc.",
+      "source": "Orchid Files",
+      "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+      "tags": [
+        "AI-fatigue",
+        "UX",
+        "user-sentiment"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Tích Hợp Google Veo, Sora, Pika — All-In-One Video Gen Platform",
+      "summary": "Adobe Firefly giờ cho phép chọn model video từ dropdown: Firefly, Google Veo, Sora, hoặc Pika. Không cần nhảy qua lại giữa các platform.",
+      "why": "Cho creative: nếu đã dùng Adobe ecosystem, giờ prototype video không cần export sang app khác — giảm 50% handoff time. Nhưng cẩn thận vendor lock-in: mỗi model có copyright terms khác nhau.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "adobe",
+        "video-gen",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Gemini Omni Flash — Google Ra Model Video Multimodal Mới, Tạo Video Từ Ảnh/Audio/Text",
+      "summary": "Gemini Omni Flash là model đầu tiên trong dòng 'anything-to-anything' của Google, hiện chỉ output video. Tích hợp sẵn trong platform Flow.",
+      "why": "Cho creative: Omni Flash cho phép input ảnh + audio + text prompt → output video. Khác Sora (text-only), Veo (text/image). Nếu bạn có asset sẵn (ảnh/audio), đây là shortcut.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "tags": [
+        "google",
+        "video-gen",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "LTX-2.3 Ra Mắt — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "summary": "LTX Studio release model LTX-2.3, generate đồng thời video và audio trong một lần chạy (không phải tách rời như các model khác). Open weights.",
+      "why": "Cho creative: nếu cần video + sound design sync (vd action match với audio cue), LTX-2.3 tránh được phase mismatch khi generate riêng rẽ. Open weights → có thể fine-tune nếu cần.",
+      "source": "LTX Model",
+      "url": "https://ltx.io/model",
+      "tags": [
+        "video-gen",
+        "audio",
+        "open-source"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên Cứu Swansea University: AI Có Thể Làm Con Người Sáng Tạo Hơn",
+      "summary": "Khác với narrative 'AI thay thế sáng tạo', nghiên cứu mới cho thấy khi dùng AI đúng cách (như brainstorming partner), con người output ideas đa dạng và novel hơn. Không phải AI làm thay — AI mở rộng khả năng.",
+      "why": "Cho cá nhân: nếu bạn sợ AI giết chết creativity, nghiên cứu này suggest điều ngược lại — nếu bạn dùng AI như tool to think with, không phải tool to replace thinking. Cho manager: đừng đo productivity bằng 'bao nhiêu task AI làm thay' — đo bằng 'team có generate insights mới không'.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "research",
+        "cognition"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân Open-Source Cho Mọi OS",
+      "why": "Cho cá nhân: nếu bạn muốn AI assistant như Claude Desktop nhưng open-source, chạy local, không gửi data về cloud — OpenClaw là option. Cross-platform (Windows/Mac/Linux).",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "375K",
+      "tags": [
+        "assistant",
+        "privacy",
+        "cross-platform"
+      ]
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho manager: nếu team cần build agent workflow nhưng không muốn viết từ đầu, Dify cung cấp platform visual + code. 142K stars — proven adoption.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "142K",
+      "tags": [
+        "agent",
+        "workflow",
+        "platform"
+      ]
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Supports Ollama, OpenAI API...)",
+      "why": "Cho cá nhân: nếu muốn self-host ChatGPT-like interface, connect với Ollama local hoặc OpenAI API, Open WebUI là solution phổ biến nhất (138K stars).",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "138K",
+      "tags": [
+        "UI",
+        "self-host",
+        "Ollama"
+      ]
+    },
+    {
+      "headline": "LangChain — The Agent Engineering Platform",
+      "why": "Cho creative/manager: nếu build agent workflow, LangChain vẫn là de facto standard (137K stars). Ecosystem lớn, nhiều tutorial.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "137K",
+      "tags": [
+        "agent",
+        "framework",
+        "ecosystem"
+      ]
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] MoonshotAI: Kimi K2.6 (free)",
+      "event": "new",
+      "summary": "Kimi K2.6 là model multimodal mới từ Moonshot AI, thiết kế cho long-horizon coding, coding-driven UI/UX generation, multi-agent orchestration. Hỗ trợ Python, Rust, Go end-to-end.",
+      "why": "Free tier cho coding tasks phức tạp — thử nghiệm không tốn tiền.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6:free",
+      "tags": [
+        "new",
+        "coding",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Baidu Qianfan: CoBuddy (free) Removed",
+      "event": "deprecated",
+      "summary": "Model baidu/cobuddy:free không còn available trên OpenRouter. Người dùng cần migrate sang model khác.",
+      "why": "Nếu đang dùng CoBuddy trong workflow, cần switch model ngay — không còn endpoint.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/baidu/cobuddy:free",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 27B ↓$0.29/↑$3.20 per M tok",
+      "event": "price",
+      "summary": "Qwen3.6 27B giảm giá prompt từ $0.30 → $0.29, nhưng tăng completion từ $2.00 → $3.20 per million tokens.",
+      "why": "Completion đắt hơn 60% — nếu use case generate dài (vd report, code), cost tăng đáng kể. Cân nhắc switch sang model khác nếu output token nhiều.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "price",
+        "cost"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 35B A3B ↓$0.14/↓$1.00 per M tok",
+      "event": "price",
+      "summary": "Qwen3.6 35B A3B giảm giá prompt từ $0.15 → $0.14, completion giữ nguyên $1.00 per million tokens.",
+      "why": "Model lớn hơn 27B nhưng rẻ hơn về completion ($1 vs $3.2) — nếu cần output dài, đây là option tiết kiệm hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
+      "tags": [
+        "price",
+        "cost"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 130,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 4
+  }
+}
