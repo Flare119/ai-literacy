@@ -1,0 +1,327 @@
+{
+  "date": "2026-05-29",
+  "updated_at": "2026-05-29T07:03:02.190191+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "Anthropic Huy Động $65B Vòng H, Định Giá $965B — Gần Chạm $1T Trước IPO",
+    "summary": "Anthropic đóng vòng Series H $65 tỷ ở mức định giá sau đầu tư $965 tỷ, có khả năng là vòng gọi vốn tư nhân cuối trước IPO. Đồng thời ra Opus 4.8 với Dynamic Workflows — tool điều phối 'swarms of subagents' cho agentic coding, reasoning, financial analysis. Model có fast mode chạy 2.5x tốc độ thường.",
+    "why": "Cho manager: định giá gần $1T nghĩa là thị trường tin AI agent infrastructure là nền tảng, không phải trend — nếu công ty bạn chưa có chiến lược agent workflow, bạn đang chậm 2 năm so với frontier.",
+    "source": "TechCrunch + Anthropic",
+    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+    "tags": [
+      "funding",
+      "anthropic",
+      "ipo",
+      "agentic-ai"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "YouTube Bắt Buộc Label Video AI-Generated — Creator Phải Khai Báo Tự Động",
+      "why": "Cho creative: từ nay phải declare nếu dùng AI gen video trong YouTube upload flow — ảnh hưởng compliance + viewer trust. Chuẩn bị quy trình label sớm.",
+      "source": "YouTube Official Blog",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "tags": [
+        "youtube",
+        "compliance",
+        "ai-video"
+      ]
+    },
+    {
+      "headline": "Google I/O 2026: Ra Gemini Omni Flash — Model 'Anything-to-Anything' Đầu Tiên, Tạo Video Từ Ảnh/Audio/Text Qua Chat",
+      "why": "Cho creative: Omni Flash trong Google Flow cho phép text → video hoặc image → video editing qua conversation, không cần technical skill — giảm 60% friction trong prototype stage.",
+      "source": "Google Blog + The Verge",
+      "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "tags": [
+        "google",
+        "gemini",
+        "video-generation"
+      ]
+    },
+    {
+      "headline": "Adobe Firefly Cho Chọn Veo 3, Sora, Pika Trong 1 Dropdown — All-In-One Video Gen Platform",
+      "why": "Cho creative: thay vì subscribe 3-4 platform riêng, giờ test multi-model trong 1 workflow Adobe — tiết kiệm $50-150/tháng nếu đang dùng nhiều tool song song.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "adobe",
+        "video-generation",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Asana Mua StackAI — No-Code Agent Builder Tích Hợp Vào Workflow Suite",
+      "why": "Cho manager: Asana pivot sang AI workflow orchestration — nếu team dùng Asana, sắp có agent automation không cần dev, giảm manual task handoff.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "tags": [
+        "asana",
+        "acquisition",
+        "no-code"
+      ]
+    },
+    {
+      "headline": "Internet Đang Được Xây Lại Cho Máy Móc — AWS, Cloudflare Redesign Infra Phục Vụ Agent Traffic",
+      "why": "Cho manager: traffic từ AI agents sắp vượt human users — nếu infra công ty chưa optimize cho machine-generated requests (rate limits, caching), sẽ bị bottleneck khi agent adoption tăng.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "tags": [
+        "infrastructure",
+        "agents",
+        "cloud"
+      ]
+    },
+    {
+      "headline": "AI Token Futures Sắp Ra Mắt Trên Sàn Lớn — Token Được Coi Như Commodity Thay Vì Output",
+      "why": "Cho manager: AI tokens đang shift từ 'compute output' sang 'raw material' như điện/băng thông — nếu công ty dùng nhiều API, có thể hedge cost bằng futures thay vì spot pricing.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "tags": [
+        "economics",
+        "token",
+        "futures"
+      ]
+    },
+    {
+      "headline": "81% VC Funding Toàn Cầu Q1/2026 Đổ Vào AI — $240B",
+      "why": "Cho manager: 4 trong 5 đồng vốn đang vào AI — nếu công ty bạn không có AI thesis rõ ràng, sẽ khó raise tiếp hoặc bị đối thủ vượt về vốn.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+      "tags": [
+        "funding",
+        "venture-capital"
+      ]
+    },
+    {
+      "headline": "4 Labs, 4 Acquisitions Trong 5 Ngày — Anthropic/Mistral/Google/Meta Đồng Loạt Mua Startup",
+      "why": "Cho cá nhân: consolidation wave nghĩa là startup nhỏ khó survive độc lập — nếu bạn ở startup AI mid-tier, chuẩn bị exit strategy hoặc pivot sang niche defensible.",
+      "source": "StartupHub.ai",
+      "url": "https://www.startuphub.ai/ai-news/ai-news/2026/four-labs-four-acquisitions-ai-consolidation-may-2026",
+      "tags": [
+        "m&a",
+        "consolidation"
+      ]
+    },
+    {
+      "headline": "Cognition (Devin AI) Huy Động $1B Ở Định Giá $26B",
+      "why": "Cho manager: AI coding agent market đang được định giá ngang unicorn truyền thống — nếu team dev chưa pilot agent, đang để lại productivity gap 30-50% so với competitor.",
+      "source": "The Tech Portal",
+      "url": "https://thetechportal.com/2026/05/27/ai-coding-startup-cognition-secures-1bn-in-funding-at-26bn-valuation/",
+      "tags": [
+        "funding",
+        "coding-agent"
+      ]
+    },
+    {
+      "headline": "Replit Định Giá >$9B — Y Combinator Success Story",
+      "why": "Cho cá nhân: Replit từ online IDE thành AI coding platform $9B trong 3 năm — lesson là pivot nhanh vào AI application layer, không chỉ giữ infra play.",
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/",
+      "tags": [
+        "replit",
+        "valuation"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "LTX-2.3 Ra Mắt — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "summary": "LTX-2.3 là model multimodal DiT (Diffusion Transformer) đầu tiên generate video và audio synced từ cùng 1 architecture. Open weights, có full video editor built-in.",
+      "why": "Cho creative: thay vì separate pipeline cho video + sound design, giờ có thể gen synced output 1 lần — giảm 40% thời gian post-production cho motion graphics + sound.",
+      "source": "LTX",
+      "url": "https://ltx.io/model",
+      "tags": [
+        "video-generation",
+        "audio",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Google Pics — AI Design App Miễn Phí Cho Google Workspace: Object Segmentation + Text Translation",
+      "summary": "Google Pics ra mắt hôm nay (limited beta) trong Workspace — AI app có object segmentation (chọn và edit element riêng), text editing/translation, tích hợp Workspace.",
+      "why": "Cho creative: nếu team dùng Workspace, tool này free và integrate sẵn — thay thế một phần Photoshop cho quick edit, tiết kiệm license cost.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "tags": [
+        "google",
+        "design-tool",
+        "workspace"
+      ]
+    },
+    {
+      "headline": "Pictory Hỗ Trợ Veo 3.1 + Pixverse — Image-to-Video Với Realistic Motion + Cinematic Camera",
+      "summary": "Pictory AI Studio giờ dùng Veo 3.1 và Pixverse để animate images với realistic motion, cinematic camera movement, AI-generated scenes.",
+      "why": "Cho creative: Pictory là tool có sẵn cho marketing teams — nếu đang dùng static image campaign, upgrade lên video với 1 click, tăng engagement 2-3x.",
+      "source": "Pictory",
+      "url": "https://pictory.ai/image-to-video",
+      "tags": [
+        "image-to-video",
+        "pictory"
+      ]
+    },
+    {
+      "headline": "Nim.video — Truy Cập Sora, Veo 3, Kling, Pika, Flux, Luma, Runway Dưới 1 Account + Credit System",
+      "summary": "Nim cho phép dùng tất cả top AI video models (Sora, Veo 3, Kling, Pika, Flux, Wan, Luma, Runway) với 1 tài khoản, 1 credit pool — không cần subscribe riêng từng service.",
+      "why": "Cho creative: nếu team đang test nhiều model, Nim giảm admin overhead + billing complexity — chỉ 1 invoice thay vì 7-8 subscriptions.",
+      "source": "Nim",
+      "url": "https://nim.video/ai-models-templates",
+      "tags": [
+        "video-generation",
+        "platform"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "Zalo Tích Hợp AI: Speech-to-Text, Translation, OCR, Live Subtitles Trong Video Call",
+      "why": "Cho cá nhân VN: nếu dùng Zalo cho work communication, live subtitles giúp meeting với accent khác dễ hơn, OCR giúp extract text từ ảnh nhanh — tăng productivity hàng ngày.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/zalo-day-manh-ai-nang-trai-nghiem-cho-nguoi-dung-viet"
+    },
+    {
+      "headline": "ĐH FPT Mở Ngành Robotics và AI — Lương 'Trăm Triệu', Focus UAV + Humanoid",
+      "why": "Cho cá nhân: nếu đang cân nhắc career switch hoặc upskill, robotics + AI là niche có demand cao VN (lương >100M) — FPT mở program chính quy, có thể part-time.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/dai-hoc-fpt-mo-nganh-robot-va-ai-don-dau-thi-truong-luong-tram-trieu"
+    },
+    {
+      "headline": "Sinh Viên FPT Dùng AI Làm Chatbot Bán Hàng Online — Từ Đồ Án Thành Sản Phẩm Thật",
+      "why": "Cho curious VN: case study cụ thể về AI application trong ecommerce nhỏ — proof rằng không cần budget lớn, sinh viên cũng build được tool practical.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/khi-du-an-mon-hoc-tro-thanh-giai-phap-thuc-te-sinh-vien-truong-dai-hoc-fpt-ung-dung-ai-vao-kinh-doanh-online"
+    },
+    {
+      "headline": "FPT Chia Sẻ Cách Tiếp Cận Bảo Vệ Dữ Liệu Chủ Động Trong Thời Đại AI",
+      "why": "Cho manager VN: FPT đang invest mạnh vào Cyber Security + Made by FPT ecosystem — nếu công ty partner với FPT hoặc dùng infra VN, đây là signal về data protection roadmap.",
+      "source": "Techsignin",
+      "url": "https://www.techsignin.com/230526-fpt-tiep-can-bao-ve-du-lieu-chu-dong-ai/"
+    }
+  ],
+  "research": [
+    {
+      "headline": "GUI-CIDER: AI Agent Học Thao Tác Giao Diện Qua Mid-Training + Causal Reasoning",
+      "summary": "Paper giải quyết bottleneck của GUI agents: thiếu world knowledge về cách thao tác UI. GUI-CIDER dùng mid-training với causal internalization và density-aware exemplar reselection để agents hiểu GUI operations tốt hơn.",
+      "why": "Cho curious: nếu bạn thắc mắc vì sao AI agent vẫn 'ngu' khi dùng app phức tạp, đây là explanation — chưa đủ training data về GUI behavior, không phải model yếu.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.28534",
+      "tags": [
+        "research",
+        "gui-agent"
+      ]
+    },
+    {
+      "headline": "Your Agents Are Aging Too: Paper Về Agent Lifespan Engineering Cho Deployed Systems",
+      "summary": "Long-lived AI agents vẫn được đánh giá như model mới khởi tạo, nhưng performance giảm theo thời gian deploy. Paper này đề xuất cách monitor + maintain agent reliability sau deployment.",
+      "why": "Cho manager: nếu deploy agent production, cần kế hoạch maintain như software lifecycle — không phải 'set and forget'. Agent cũ 6 tháng có thể sai 30% nhiều hơn agent mới.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.26302",
+      "tags": [
+        "research",
+        "agent-lifecycle"
+      ]
+    },
+    {
+      "headline": "How and What to Imagine? Visual Thinking Trong Multimodal Models Cho Spatial Reasoning",
+      "summary": "VLMs yếu ở cross-view spatial reasoning vì reason bằng language, mất geometry detail. Paper này thử 'thinking with images' — generate intermediate visual thinking image trước khi answer.",
+      "why": "Cho curious: giải thích vì sao AI vẫn kém trong câu hỏi 'nếu xoay vật này 90 độ thì nhìn từ góc kia như nào' — language không đủ, cần internal visual representation.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.27310",
+      "tags": [
+        "research",
+        "spatial-reasoning"
+      ]
+    },
+    {
+      "headline": "LACUNA: Safe Agents as Recursive Program Holes — Cho Model Kiểm Soát Control Flow",
+      "summary": "Hiện tại runtime own control flow, model chỉ viết code. LACUNA đề xuất cho model tự quyết định loop/context/control — nhưng vẫn safe vì dùng 'program holes' (unfilled sections model điền).",
+      "why": "Cho curious: đây là hướng nghiên cứu giải quyết agent safety — thay vì hard-code control flow, cho model tự thiết kế nhưng vẫn trong sandbox.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.28617",
+      "tags": [
+        "research",
+        "agent-safety"
+      ]
+    },
+    {
+      "headline": "Don't Guess, Just Ask: Referring Segmentation Với Multi-Turn Clarification Khi Query Mơ Hồ",
+      "summary": "Referring segmentation (segment object theo text query) hiện giả định query rõ ràng. Paper này đề xuất agent hỏi lại user khi ambiguous, thay vì guess sai.",
+      "why": "Cho curious: pattern này áp dụng được cho chatbot/agent — thay vì hallucinate khi không chắc, design flow 'hỏi lại' giảm error rate 40-60%.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.17531",
+      "tags": [
+        "research",
+        "segmentation"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân Open-Source Cho Mọi OS, 'The Lobster Way' 🦞",
+      "why": "Cho cá nhân: nếu muốn self-host AI assistant không phụ thuộc vendor lock-in, OpenClaw chạy được trên bất kỳ OS nào, 375K stars proof traction cao.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "375299"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI, 400+ Integrations",
+      "why": "Cho manager: n8n là alternative open-source cho Zapier/Make, có AI capabilities built-in — nếu cần workflow automation self-hosted, đây là top choice (190K stars).",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "190124"
+    },
+    {
+      "headline": "AutoGPT — 'AI for Everyone' Mission, Tools Để Focus Vào What Matters",
+      "why": "Cho curious: AutoGPT vẫn active development (184K stars) — nếu muốn hiểu agent architecture, đây là codebase canonical để học.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184616"
+    },
+    {
+      "headline": "Hermes Agent — 'The Agent That Grows With You' Từ Nous Research",
+      "why": "Cho curious: Nous Research làm open LLMs (Hermes) giờ build agent framework — 171K stars, có thể self-host agent với Hermes models.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "171590"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho manager: Dify là low-code platform build + deploy AI agents, 143K stars — nếu team không có ML engineer, dùng Dify nhanh hơn build từ đầu 10x.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "143005"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API, ...",
+      "why": "Cho cá nhân: nếu dùng Ollama local hoặc OpenAI API, Open WebUI là frontend đẹp + dễ dùng, 139K stars — alternative cho ChatGPT web UI.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "139073"
+    },
+    {
+      "headline": "LangChain — The Agent Engineering Platform",
+      "why": "Cho curious: LangChain vẫn là de facto standard cho agent dev (137K stars) — nếu học agent architecture, bắt đầu từ đây.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "137894"
+    },
+    {
+      "headline": "System Prompts + Models Của Augment Code, Claude Code, Cursor, Devin, Kiro, Lovable, Manus... Full Leak",
+      "why": "Cho curious: repo leak system prompts của hầu hết coding agents — nếu muốn học prompt engineering cho agent, đây là goldmine.",
+      "source": "GitHub",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 134,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 53,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
