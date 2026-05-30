@@ -1,389 +1,321 @@
 {
-  "date": "2026-05-30",
-  "updated_at": "2026-05-30T07:02:28.260304+07:00",
-  "weekday": "Saturday",
+  "date": "2026-05-31",
+  "updated_at": "2026-05-31T06:53:11.959076+07:00",
+  "weekday": "Sunday",
   "top_story": {
-    "headline": "Cognition Huy Động $1B, Định Giá $26B — Startup AI Coding Vượt Mặt Replit Và Modal",
-    "summary": "Cognition, startup đằng sau coding agent Devin, vừa huy động >$1 tỷ USD với định giá $26 tỷ — cao gấp gần 3 lần Replit ($9B) và gấp 73 lần Modal Labs ($355M). Vòng funding do Lux Capital đồng dẫn dắt, đánh dấu sự kiện M&A/funding lớn nhất trong tuần AI coding bùng nổ. Đây là tín hiệu rõ ràng: agentic coding không còn là demo — nó đã trở thành battlefield tỷ đô với 4 mô hình mới ra mắt chỉ trong 48 giờ (GPT-5.3-Codex, Opus 4.8, Microsoft in-house model, Mistral Vibe).",
-    "why": "Cho manager: định giá $26B của Cognition nghĩa là thị trường tin junior dev role sẽ giảm mạnh 12-18 tháng tới — đây là lúc reskill team junior thành reviewer/architect, không phải hire thêm. Cho cá nhân dev: nếu skill của bạn là 'viết boilerplate code', đây là warning shot — pivot sang system design, debugging phức tạp, hoặc domain expertise ngay.",
-    "source": "The Tech Portal",
-    "url": "https://thetechportal.com/2026/05/27/ai-coding-startup-cognition-secures-1bn-in-funding-at-26bn-valuation/",
+    "headline": "OpenRouter Huy Động $113M Series B — Đối Thủ OpenAI Giúp Devs So Sánh 500+ Models Cùng Lúc",
+    "summary": "OpenRouter — nền tảng cho phép developers access 500+ AI models qua 1 API duy nhất — vừa hoàn tất vòng Series B $113M. Thay vì lock-in vào OpenAI hoặc Anthropic, OpenRouter cho user chọn model tốt nhất cho từng task (vd GPT-5 cho reasoning, Claude cho code review, Gemini cho multimodal). Platform đã xử lý 18 tỷ requests trong 12 tháng qua.",
+    "why": "Cho developer/manager: Đây là tín hiệu rõ ràng multi-model strategy đang thắng single-vendor lock-in. Nếu team bạn đang build AI features, OpenRouter giúp test nhiều models nhanh (cost arbitrage + quality comparison) thay vì commit cứng với 1 lab. Vòng funding này cũng nghĩa OpenRouter sẽ còn lâu dài — safe để integrate vào production.",
+    "source": "OpenRouter",
+    "url": "https://openrouter.ai/announcements/series-b",
     "tags": [
       "funding",
-      "coding",
-      "valuation",
-      "agentic"
+      "infrastructure",
+      "API"
     ]
   },
   "quick_hits": [
     {
-      "headline": "OpenAI Ra GPT-5.3-Codex — Model Coding Đầu Tiên Kết Hợp Codex + GPT-5 Stack",
-      "why": "Cho cá nhân dev: GPT-5.3-Codex là model đầu tiên merge general reasoning (GPT-5) với code generation (Codex legacy) — nghĩa là code suggestion giờ hiểu business logic, không chỉ syntax. Thử ngay nếu bạn đang dùng Copilot.",
+      "headline": "GPT-5.3-Codex Launch — OpenAI Kết Hợp Codex + GPT-5 Stack Cho Agentic Coding",
+      "why": "Cho creative/developer: Model đầu tiên từ OpenAI kết hợp code generation (Codex) + reasoning (GPT-5). Nếu bạn đang dùng Copilot hoặc Cursor, expect quality jump trong vài tuần tới khi IDE integrate model này.",
       "source": "OpenAI Help Center",
       "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
       "tags": [
-        "model_launch",
-        "coding",
-        "openai"
+        "model_release",
+        "coding"
       ]
     },
     {
-      "headline": "Anthropic Ra Opus 4.8 — Model Coding Flagship Mới, Cải Thiện Agentic Task Execution",
-      "why": "Cho manager tech team: Opus 4.8 được thiết kế cho agentic coding (tự execute task end-to-end) — nếu team đang dùng Claude cho code review, test version này để tự động hoá PR triage. Bloomberg confirm launch hôm 28/5.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding",
+      "headline": "Anthropic Ra Opus 4.8 — Flagship Model Mới Tập Trung Agentic Coding",
+      "why": "Cho developer: Opus 4.8 có 'fast mode' chạy 2.5x nhanh hơn mà vẫn giữ chất lượng. Anthropic claim model này handle bad data/uncertain input tốt hơn — quan trọng khi AI agent phải deal với legacy codebase hoặc incomplete specs.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
       "tags": [
-        "model_launch",
-        "coding",
-        "anthropic"
+        "model_release",
+        "coding"
       ]
     },
     {
-      "headline": "Microsoft Sắp Ra AI Coding Model Riêng Tại Build Conference — Cắt Phụ Thuộc OpenAI",
-      "why": "Cho manager: Microsoft pivot sang in-house coding model nghĩa là GitHub Copilot sẽ không còn 100% dựa OpenAI — giá có thể giảm hoặc tính năng tách biệt. Nếu bạn đang negotiate enterprise contract với GitHub, đợi sau Build (chưa rõ ngày cụ thể) để có leverage.",
-      "source": "India Today",
-      "url": "https://www.indiatoday.in/technology/news/story/microsoft-ai-coding-model-github-copilot-build-openai-anthropic-business-2918990-2026-05-29",
+      "headline": "Claude Code Launch — Anthropic Ra Agentic Coding Tool Cho Terminal/IDE/Desktop",
+      "why": "Cho developer: Claude Code đọc toàn bộ codebase, edit files, run commands, integrate với dev tools. Available ở terminal, IDE, desktop app, browser — competitor trực tiếp với GitHub Copilot và Cursor.",
+      "source": "Claude",
+      "url": "https://code.claude.com/docs/en/overview",
       "tags": [
-        "model_launch",
-        "coding",
-        "microsoft"
+        "tool",
+        "coding"
       ]
     },
     {
-      "headline": "Mistral Đổi Tên Le Chat Thành 'Vibe' — Thêm Coding Agent Vào Chat Interface",
-      "why": "Cho cá nhân: Mistral Vibe (free tier vẫn có) giờ có coding agent tích hợp — alternative châu Âu cho ChatGPT Code Interpreter. Nếu lo data residency (GDPR), test Vibe thay Cursor.",
+      "headline": "Gemini Omni Flash Launch — Google Ra Model Video 'Anything-to-Anything' Đầu Tiên",
+      "why": "Cho creative: Model tạo video từ ảnh/audio/text qua chat interface. Hiện available trong Google Flow (platform video editing). Pattern này — chat interface thay vì timeline editor — sẽ là standard trong 12-18 tháng tới.",
+      "source": "Gemini",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "model_release",
+        "video"
+      ]
+    },
+    {
+      "headline": "Mistral Đổi Tên Le Chat Thành 'Vibe' — Thêm Coding Agent Vào Interface",
+      "why": "Cho developer: Mistral pivot từ chat app sang 'AI agent for work and code'. Signal rõ: chat-only AI đang chết, agentic workflow đang lên.",
       "source": "Mistral AI",
       "url": "https://mistral.ai/products/vibe/",
       "tags": [
-        "product_launch",
+        "product",
+        "coding"
+      ]
+    },
+    {
+      "headline": "Kiro.dev Launch — Agentic Coding Platform Với IDE/CLI/Web Interface",
+      "why": "Cho developer: Startup mới với approach 'engineering rigor for agentic development'. Nổi bật vì có cả IDE lẫn CLI — cho phép team adopt từ từ thay vì all-in.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "tool",
         "coding",
-        "mistral"
-      ]
-    },
-    {
-      "headline": "Liquid AI Ra LFM2.5-8B-A1B — MoE Model 8B Trained Trên 38 Trillion Tokens",
-      "why": "Cho curious: Liquid AI (startup từ MIT) vừa train model 8B parameter trên 38T tokens — gấp đôi dataset GPT-4 ước tính. Đây là proof rằng 'smaller model + more data' vẫn competitive với frontier labs. Open weight chưa rõ.",
-      "source": "Liquid AI Blog",
-      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-      "tags": [
-        "model_launch",
-        "research",
-        "liquid"
-      ]
-    },
-    {
-      "headline": "KOG.AI Đạt 3,000 Tokens/Giây Inference Trên GPU Thường — Real-Time LLM Không Cần H100",
-      "why": "Cho manager infra: nếu team đang chờ H100 để chạy LLM real-time (chatbot, voice agent), KOG.AI claim 3k tok/s trên GPU standard (chưa rõ loại) — đọc blog để verify, có thể giảm 70% hardware cost.",
-      "source": "KOG.AI Blog",
-      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
-      "tags": [
-        "infrastructure",
-        "performance",
-        "llm"
-      ]
-    },
-    {
-      "headline": "4 Labs Mua 4 Startups Trong 5 Ngày — Anthropic, Mistral, Google, Meta Đồng Loạt Acqui-Hire",
-      "why": "Cho cá nhân: nếu bạn làm AI startup nhỏ (<50 người), acqui-hire giờ là exit path phổ biến hơn IPO. Anthropic/Mistral/Google/Meta đang mua talent thay vì compete — update LinkedIn profile với skill niche (agent tooling, multimodal, safety) để tăng visibility.",
-      "source": "StartupHub.ai",
-      "url": "https://www.startuphub.ai/ai-news/ai-news/2026/four-labs-four-acquisitions-ai-consolidation-may-2026",
-      "tags": [
-        "acquisition",
-        "consolidation",
         "startup"
       ]
     },
     {
-      "headline": "OpenAI Mua io ($6.5B) Và Statsig ($1.1B) Năm 2025 — Wikipedia Cập Nhật Acquisition History",
-      "why": "Cho curious: OpenAI đã chi $7.6B mua 2 công ty năm ngoái (io - hardware với Jony Ive, Statsig - A/B testing). Pattern: OpenAI đang build vertical stack từ chip đến product testing, không chỉ model.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "headline": "81% VC Funding Toàn Cầu Q1/2026 Đổ Vào AI — $240B",
+      "why": "Cho manager: Context quan trọng khi negotiate với investor hoặc quyết định pivot. 81% = gần như toàn bộ venture capital đang đổ vào AI. Nếu startup bạn không có AI angle, funding sẽ CỰC khó.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
       "tags": [
-        "acquisition",
-        "openai",
-        "context"
+        "funding",
+        "industry"
+      ]
+    },
+    {
+      "headline": "Cognition Huy Động $1B Series, Định Giá $26B — AI Coding Startup Vượt Replit/Modal",
+      "why": "Cho developer/manager: Cognition (maker của Devin AI coding agent) giờ định giá cao hơn Replit + Modal cộng lại. Signal: market tin agentic coding sẽ thay thế junior devs trong 2-3 năm. Nếu bạn là manager, đây là lúc reskill junior devs thành reviewer/architect.",
+      "source": "The Tech Portal",
+      "url": "https://thetechportal.com/2026/05/27/ai-coding-startup-cognition-secures-1bn-in-funding-at-26bn-valuation/",
+      "tags": [
+        "funding",
+        "coding"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Gemini Omni — Google Ra Model 'Anything-to-Anything', Tạo Video Từ Ảnh/Audio/Text Qua Chat",
-      "summary": "Gemini Omni (công bố I/O 2026) là model multimodal đầu tiên cho phép generate + edit video trực tiếp trong chat interface — input có thể là text prompt, ảnh tĩnh, hoặc audio. Khác với Sora/Veo chỉ text-to-video, Omni làm image-to-video và video-to-video editing. Google marketing: 'Create & edit videos as easy as having a conversation'.",
-      "why": "Cho creative: Omni giúp prototype video concept nhanh (storyboard → animatic) mà không cần After Effects. Nhưng output vẫn là 'draft quality' — dùng cho pre-viz, không phải final delivery. Test với project nhỏ trước khi tin vào deadline lớn.",
-      "source": "Gemini Overview",
-      "url": "https://gemini.google/overview/video-generation/",
+      "headline": "Adobe Firefly Tích Hợp Veo 3, Sora, Pika — All-In-One Video Gen Platform",
+      "summary": "Adobe Firefly giờ cho phép user chọn giữa Google Veo 3.1, OpenAI Sora, Pika qua 1 dropdown menu. Thay vì subscribe riêng 3 platforms, creative teams giờ có thể test/compare models trong cùng 1 workflow. Adobe position Firefly như 'orchestration layer' cho video generation.",
+      "why": "Cho creative/producer: Đây là game-changer. Thay vì mất 3 subscriptions ($60-150/tháng mỗi cái), giờ bạn trả Adobe 1 lần và có access tất cả. Quan trọng hơn: so sánh output giữa models trở nên instant (cùng prompt, 3 results cạnh nhau) — giúp pick model tốt nhất cho từng shot.",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
       "tags": [
-        "video_generation",
-        "multimodal",
-        "google",
-        "gemini"
+        "tool",
+        "video",
+        "integration"
       ]
     },
     {
-      "headline": "Pictory Tích Hợp Veo 3.1 + Pixverse — Image-to-Video Tool Dùng 2 Model Cùng Lúc",
-      "summary": "Pictory (tool SaaS image-to-video) giờ cho user chọn giữa Veo 3.1 (Google) và Pixverse trong cùng 1 dropdown. Veo 3.1 mạnh về camera movement + physics realistic, Pixverse nhanh hơn (chưa rõ giá chi tiết).",
-      "why": "Cho creative: nếu đang dùng Runway/Pika cho image animation, test Pictory — có Veo 3.1 access mà không cần waitlist Google. Lưu ý: Veo 3.1 vẫn chậm (30s-2min/clip), chỉ dùng khi cần chất lượng cao.",
+      "headline": "Pictory Tích Hợp Veo 3.1 + Pixverse — Image-to-Video Với Camera Movement AI",
+      "summary": "Pictory (AI video platform cho marketers) vừa integrate Veo 3.1 và Pixverse vào image-to-video pipeline. Điểm mới: AI tự generate camera movement (pan, zoom, tracking shot) thay vì static animation. User chỉ cần upload ảnh + describe motion intent.",
+      "why": "Cho creative: Nếu công việc bạn là tạo video ads/social content từ stills, tool này cut 70% thời gian. Thay vì animate manually trong After Effects, giờ AI generate realistic camera movement. Case use: product shots, testimonial videos, social ads.",
       "source": "Pictory",
       "url": "https://pictory.ai/image-to-video",
       "tags": [
-        "video_generation",
-        "image_to_video",
-        "veo",
-        "tool"
-      ]
-    },
-    {
-      "headline": "Nim.video Ra Mắt — Nền Tảng Tổng Hợp Sora, Veo 3, Kling, Pika, Runway Trong 1 Account",
-      "summary": "Nim.video là aggregator cho phép dùng 7 video gen models (Sora, Veo 3, Kling, Pika, Flux, Luma, Runway) qua 1 credit system, không cần subscribe riêng từng service. Giá chưa công bố, nhưng claim 'no switching tabs'.",
-      "why": "Cho creative/producer: nếu bạn đang dùng 3+ tools video gen và mất thời gian quản lý subscription, Nim có thể giảm 50% admin overhead. Nhưng verify pricing trước — aggregator thường đắt hơn direct subscription 20-30%.",
-      "source": "Nim.video",
-      "url": "https://nim.video/ai-models-templates",
-      "tags": [
-        "video_generation",
-        "aggregator",
         "tool",
-        "workflow"
+        "video",
+        "image-to-video"
       ]
     },
     {
-      "headline": "LTX-2.3 Ra Mắt — Model DiT Generate Video + Audio Đồng Bộ Từ Cùng 1 Architecture",
-      "summary": "LTX-2.3 (từ LTX Studio) là model Diffusion Transformer (DiT) đầu tiên generate cả video VÀ audio sync từ cùng 1 model weights. Open-source, có video editor built-in. Cộng đồng đang test temporal consistency + lip-sync quality.",
-      "why": "Cho creative tech-savvy: nếu bạn cần video có audio sync (lip-sync dialogue, foley tự động), LTX-2.3 là alternative open-source cho ElevenLabs + Runway combo. Setup phức tạp hơn (cần GPU local hoặc Replicate), nhưng free + customizable.",
-      "source": "LTX Model Page",
+      "headline": "LTX-2.5 Launch — DiT Model Generate Video + Audio Đồng Bộ Từ Cùng 1 Model",
+      "summary": "LTX Studio ra LTX-2.5 — model DiT (Diffusion Transformer) đầu tiên generate cả video lẫn audio từ 1 model duy nhất. Không phải pipeline riêng cho video rồi add sound sau, mà 1 pass ra cả hình + tiếng. Model weights + code open-source.",
+      "why": "Cho creative/developer: Quan trọng vì hiện tại video gen models (Sora, Veo) chỉ tạo silent video, rồi bạn phải add sound riêng. LTX-2.5 làm cả 2 cùng lúc = giảm pipeline steps. Open-source nghĩa bạn có thể self-host nếu cần full control.",
+      "source": "LTX",
       "url": "https://ltx.io/model",
       "tags": [
-        "video_generation",
-        "audio",
-        "multimodal",
-        "opensource"
+        "model_release",
+        "video",
+        "open_source"
       ]
     },
     {
-      "headline": "ByteDance Seedance 2.0 Dẫn Đầu Text-to-Video Leaderboard — Ra Ngày 12/2/2026, #1 Elo Score",
-      "summary": "Seedance 2.0 (phần mềm Doubao 2.0 của ByteDance) hiện đứng #1 Artificial Analysis Text-to-Video leaderboard với 1213 Elo, vượt Sora và Veo 3. Launch 12/2/2026 — đã 3.5 tháng nhưng chưa available ngoài Trung Quốc.",
-      "why": "Cho manager: Seedance 2.0 chứng minh ByteDance (TikTok parent) đang dẫn đầu video gen, nhưng geoblocked. Nếu bạn có nhu cầu Trung Quốc market, partner với agency có access Doubao — quality tốt hơn Runway 30%.",
-      "source": "Pinggy Blog",
+      "headline": "Google Pics Launch — AI Design App Miễn Phí Cho Workspace (Object Segmentation + Text Translation)",
+      "summary": "Google ra Pics — AI design app miễn phí trong Workspace. Features: object segmentation (select + edit từng element riêng), text editing/translation trong ảnh, integrations với Docs/Slides. Hiện giới hạn cho trusted testers.",
+      "why": "Cho creative: Nếu team bạn dùng Google Workspace, Pics sẽ thay thế 50% use cases của Photoshop cho design đơn giản (remove background, translate text trong poster, swap objects). Miễn phí = không cần Adobe subscription cho non-designers.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "tags": [
+        "tool",
+        "design",
+        "workspace"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 Dẫn Đầu Text-to-Video Leaderboard — ByteDance Model #1 Trên Artificial Analysis",
+      "summary": "Seedance 2.0 (ByteDance) vừa đạt #1 trên Artificial Analysis Text-to-Video Leaderboard với 1213 Elo. Model ra ngày 12/2/2026 (3 tháng trước), nhưng giờ mới được đo benchmark đầy đủ. Bỏ xa Veo, Sora, Pika về chất lượng physics simulation.",
+      "why": "Cho creative/producer: Seedance 2.0 chưa có API public (chỉ có qua Doubao app của ByteDance ở Trung Quốc). Nhưng nếu ByteDance mở API ra toàn cầu, đây sẽ là competitor mạnh nhất của Sora/Veo. Keep watching nếu bạn cần physics-heavy shots (water, fabric, smoke).",
+      "source": "Pinggy",
       "url": "https://pinggy.io/blog/best_video_generation_ai_models/",
       "tags": [
-        "video_generation",
-        "bytedance",
-        "china",
-        "leaderboard"
+        "benchmark",
+        "video",
+        "ByteDance"
       ]
     },
     {
-      "headline": "Higgsfield AI Ra Soul Cinema — Culture-Native Photo Model Cho Video Generation",
-      "summary": "Higgsfield (startup video gen) vừa ra 'Soul Cinema' — model trained đặc biệt trên 'culture-native aesthetics' (chưa rõ dataset cụ thể). Có tính năng 'Photodump' tự build character từ ảnh user upload. Community gallery public.",
-      "why": "Cho creative: nếu output từ Sora/Runway quá 'generic Western aesthetics', test Higgsfield Soul Cinema — claim hiểu cultural context tốt hơn. Nhưng chưa có review độc lập, có thể là marketing fluff.",
-      "source": "Higgsfield",
-      "url": "https://higgsfield.ai/",
+      "headline": "FlexClip Ra 'AI Long to Shorts' — Auto-Extract Highlights Từ Long-Form Video",
+      "summary": "FlexClip (video editor platform) vừa thêm feature 'AI Long to Shorts'. AI analyze speech, pacing, visual transitions trong long-form video, tự động extract highlights thành short clips. Target use case: podcast → TikTok, webinar → reels.",
+      "why": "Cho creative/producer: Nếu bạn làm content repurposing (vd 1 video dài thành 10 clips ngắn cho social), tool này cut thời gian từ 3 giờ xuống 15 phút. AI pick moments có engagement potential cao (joke punchlines, key quotes, visual peaks).",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
       "tags": [
-        "video_generation",
-        "culture",
-        "character",
-        "tool"
-      ]
-    },
-    {
-      "headline": "CogVideoX-5B — Open-Source Video Model 6 Giây, 720x480, Hỗ Trợ Quantization",
-      "summary": "CogVideoX-5B là lighter version của CogVideo, generate 6-second clips ở 720x480. Chạy được trên GPU consumer (RTX 3090 trở lên) với bfloat16 hoặc quantization. Không phù hợp cinematic dài, tốt cho short-form social.",
-      "why": "Cho creative/indie: nếu bạn cần AI video cho TikTok/Reels mà không muốn trả Runway $100/tháng, CogVideoX-5B là alternative open-source. Setup qua Replicate hoặc self-host. Output quality ~70% Runway, nhưng free + controllable.",
-      "source": "Pixazo Blog",
-      "url": "https://www.pixazo.ai/blog/best-open-source-ai-video-generation-models",
-      "tags": [
-        "video_generation",
-        "opensource",
-        "short_form",
-        "tool"
+        "tool",
+        "video",
+        "repurposing"
       ]
     }
   ],
   "vietnam": [],
-  "research": [],
+  "research": [
+    {
+      "headline": "Swansea University: AI Có Thể Làm Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu mới từ Swansea University (công bố 15/3/2026) cho thấy AI không chỉ thay thế con người, mà còn kích thích sáng tạo. Thí nghiệm: nhóm có AI support tạo ra nhiều ý tưởng độc đáo hơn nhóm không có AI. Cơ chế: AI gợi ý các hướng mà con người không nghĩ tới, mở rộng không gian khám phá.",
+      "why": "Cho cá nhân/curious: Nếu bạn lo AI sẽ thay thế sáng tạo của mình, research này nói ngược lại — AI là công cụ mở rộng khả năng sáng tạo. Điều kiện: bạn phải dùng AI như 'sparring partner' (challenge ý tưởng), không phải 'ghost writer' (copy output). Pattern này consistent với Quy Tắc #1 AI Mentor: Build Systems, Not Just Products — AI là tool trong creative system của bạn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity"
+      ]
+    },
+    {
+      "headline": "Northwestern: Suy Giảm Trí Nhớ Sau Mãn Kinh Liên Quan Mất Estrogen Trong Não",
+      "summary": "Nghiên cứu Northwestern phát hiện suy giảm trí nhớ sau mãn kinh không chỉ do hormone giảm trong máu, mà do mất khả năng sản xuất estrogen TẠI não. Phát hiện này mở đường cho liệu pháp mới (thay vì HRT toàn thân).",
+      "why": "Không liên quan trực tiếp AI, nhưng đây là reminder về Quy Tắc #10 AI Mentor: Take Care of Yourself. Nếu bạn hoặc team member đang trải qua mãn kinh + thấy memory/focus decline, đây là biological issue có solution — không phải 'lười' hay 'mất tập trung'. Seek professional support.",
+      "source": "Northwestern News",
+      "url": "https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue",
+      "tags": [
+        "health",
+        "research"
+      ]
+    }
+  ],
   "opensource": [
     {
-      "headline": "OpenClaw — AI Assistant Cá Nhân Open-Source Cho Mọi OS, 375K Stars GitHub",
-      "why": "Cho cá nhân tech-savvy: OpenClaw là alternative open-source cho ChatGPT desktop app — chạy được trên mọi OS, tự host data, không gửi lên cloud. Nếu lo privacy hoặc muốn customize prompt system, fork repo này.",
-      "source": "GitHub",
-      "url": "https://github.com/openclaw/openclaw",
-      "stars": "375514",
-      "tags": [
-        "opensource",
-        "assistant",
-        "privacy"
-      ]
-    },
-    {
-      "headline": "n8n — Workflow Automation Platform With Native AI, 190K Stars, Self-Host Hoặc Cloud",
-      "why": "Cho manager/automation enthusiast: n8n giống Zapier nhưng open-source + có AI capabilities native (LLM nodes, vector DB integration). Nếu đang trả Zapier >$50/tháng và có dev resource, migrate sang n8n self-host — save 80% cost.",
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với AI Capabilities (190K Stars)",
+      "why": "Cho developer/manager: n8n là alternative open-source cho Zapier/Make.com, giờ có native AI support. Self-host được = full control data. 190K stars nghĩa community active, nhiều integrations. Use case: automate workflows có AI steps (vd webhook → GPT analysis → Slack post).",
       "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "190266",
-      "tags": [
-        "opensource",
-        "automation",
-        "workflow",
-        "ai"
-      ]
+      "stars": "190376"
     },
     {
-      "headline": "AutoGPT — Vision Of Accessible AI For Everyone, 184K Stars, Agentic Framework",
-      "why": "Cho curious/developer: AutoGPT là framework đầu tiên cho autonomous agent (2023), giờ vẫn active development. Nếu bạn muốn hiểu agentic AI hoạt động như thế nào, đọc codebase AutoGPT — architecture đơn giản hơn LangChain nhưng powerful.",
-      "source": "GitHub",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "184643",
-      "tags": [
-        "opensource",
-        "agentic",
-        "framework"
-      ]
-    },
-    {
-      "headline": "Prompts.chat (f.k.a Awesome ChatGPT Prompts) — Community Prompt Library, Self-Host, 163K Stars",
-      "why": "Cho cá nhân: nếu bạn đang viết prompt từ đầu mỗi lần, clone repo này — 163K stars, có prompt template cho mọi use case (writing, coding, marketing). Self-host để share trong team mà không lo leak IP.",
+      "headline": "prompts.chat — Community Prompts Repository (163K Stars)",
+      "why": "Cho creative/developer: Repo open-source chứa prompts được community đóng góp. Self-host được cho tổ chức muốn internal prompt library. 163K stars = chất lượng prompts được verify bởi nhiều người.",
       "source": "GitHub",
       "url": "https://github.com/f/prompts.chat",
-      "stars": "163030",
-      "tags": [
-        "opensource",
-        "prompts",
-        "community"
-      ]
+      "stars": "163072"
     },
     {
-      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development, 143K Stars",
-      "why": "Cho manager/dev team: Dify là low-code platform để build agentic workflow (tương tự LangChain nhưng có UI). Nếu team không phải AI specialists nhưng cần deploy agent vào production, test Dify — giảm 60% dev time so với code từ đầu.",
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow (143K Stars)",
+      "why": "Cho developer: Platform open-source để build + deploy agentic workflows. Production-ready nghĩa có monitoring, logging, version control built-in. Alternative cho LangChain nhưng focus agentic use cases.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "143118",
-      "tags": [
-        "opensource",
-        "agentic",
-        "low_code",
-        "platform"
-      ]
+      "stars": "143191"
     },
     {
-      "headline": "Open-WebUI — User-Friendly AI Interface Support Ollama, OpenAI API, 139K Stars",
-      "why": "Cho cá nhân: Open-WebUI là ChatGPT-like interface cho local LLMs (Ollama) hoặc API. Nếu bạn muốn UI đẹp cho self-host LLM mà không code, deploy Open-WebUI — 1-click Docker setup.",
+      "headline": "Open WebUI — User-Friendly Interface Cho Ollama/OpenAI API (139K Stars)",
+      "why": "Cho cá nhân/developer: Nếu bạn muốn ChatGPT-like interface nhưng dùng local models (Ollama) hoặc OpenAI API riêng, Open WebUI là solution. Self-host = full privacy.",
       "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "139195",
-      "tags": [
-        "opensource",
-        "ui",
-        "ollama",
-        "local"
-      ]
+      "stars": "139296"
     },
     {
-      "headline": "LangChain — The Agent Engineering Platform, 137K Stars",
-      "why": "Cho developer: LangChain là standard framework cho agentic app (RAG, tool-calling, memory). Nếu bạn mới bắt đầu build với AI, học LangChain trước — ecosystem lớn nhất, nhiều tutorial + community support.",
+      "headline": "LangChain — Agent Engineering Platform (138K Stars)",
+      "why": "Cho developer: De facto standard cho building AI agents. 138K stars = mature, nhiều examples. Nếu bạn mới bắt đầu agent development, đây là starting point.",
       "source": "GitHub",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": "137989",
-      "tags": [
-        "opensource",
-        "framework",
-        "agentic",
-        "langchain"
-      ]
+      "stars": "138055"
     },
     {
-      "headline": "Firecrawl — API To Search, Scrape, Interact With Web At Scale, 126K Stars",
-      "why": "Cho developer: Firecrawl là tool scrape + index web content cho RAG hoặc research agent. Nếu bạn đang build agent cần real-time web data (không chỉ static docs), integrate Firecrawl — API đơn giản hơn Beautiful Soup + Selenium combo.",
+      "headline": "OpenClaw — Personal AI Assistant Cho Mọi OS (375K Stars)",
+      "why": "Cho cá nhân: Open-source AI assistant chạy được trên bất kỳ OS nào. 375K stars = project rất active. Use case: alternative cho Siri/Cortana nhưng customizable + privacy-first.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "375691"
+    },
+    {
+      "headline": "AutoGPT — Accessible AI For Everyone (184K Stars)",
+      "why": "Cho curious/developer: AutoGPT là pioneer của agentic AI (2023). Giờ project mature hơn, focus 'accessible AI for everyone'. Use case: học cách agent hoạt động bằng cách đọc code.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184657"
+    },
+    {
+      "headline": "Hermes Agent (Nous Research) — Agent Tự Học Theo Bạn (173K Stars)",
+      "why": "Cho developer: Agent từ Nous Research với tagline 'the agent that grows with you'. Nghĩa là agent học từ interaction với bạn theo thời gian. Open-source = có thể fork + customize learning mechanism.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "173704"
+    },
+    {
+      "headline": "Firecrawl — API Scrape + Interact Web At Scale (126K Stars)",
+      "why": "Cho developer: API để scrape web content at scale (cho RAG pipelines, agent data gathering). 126K stars = proven reliable. Use case: agent cần research info từ web trước khi answer.",
       "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "126148",
-      "tags": [
-        "opensource",
-        "scraping",
-        "api",
-        "rag"
-      ]
+      "stars": "126511"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] StepFun: Step 3.7 Flash — $0.20/$1.15 Per M Tokens",
-      "event": "new",
-      "summary": "Step 3.7 Flash là MoE model 196B params (activate ~11B) từ StepFun, có vision encoder native. Multimodal (image + video understanding).",
-      "why": "Cheaper alternative cho GPT-4o vision tasks — $0.20 input vs $2.5 GPT-4o. Test nếu bạn cần batch process ảnh/video mà budget tight.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/stepfun/step-3.7-flash",
-      "tags": [
-        "model_update",
-        "openrouter",
-        "multimodal",
-        "moe"
-      ]
-    },
-    {
-      "headline": "[OpenRouter DEPRECATED] DeepSeek: DeepSeek V3.2 Speciale — Model Removed",
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral 7B Instruct v0.1",
       "event": "deprecated",
-      "summary": "Model deepseek/deepseek-v3.2-speciale không còn trên OpenRouter.",
-      "why": "Migrate ngay nếu code của bạn hardcode model này — DeepSeek V4 Pro là replacement (giá tương đương).",
+      "summary": "Mistral 7B Instruct v0.1 không còn available trên OpenRouter.",
+      "why": "Nếu bạn đang dùng model này qua OpenRouter API, migrate sang Mistral 7B Instruct v0.3 hoặc newer versions trước khi code break.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-speciale",
+      "url": "https://openrouter.ai/models/mistralai/mistral-7b-instruct-v0.1",
       "tags": [
-        "model_update",
-        "openrouter",
-        "deprecated",
-        "deepseek"
+        "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] OpenAI: GPT-4o Audio Preview — Model Removed",
+      "headline": "[OpenRouter DEPRECATED] Upstage: Solar Pro 3",
       "event": "deprecated",
-      "summary": "Model openai/gpt-4o-audio-preview không còn trên OpenRouter.",
-      "why": "Migrate sang GPT-4o standard hoặc GPT-5.3-Codex (nếu cần audio + code). Audio preview đã được merge vào main GPT-4o từ tháng 4.",
+      "summary": "Upstage Solar Pro 3 không còn available trên OpenRouter.",
+      "why": "Nếu đang dùng Solar Pro 3, check Upstage docs để tìm replacement model (có thể là Solar Pro 4 hoặc newer version).",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/openai/gpt-4o-audio-preview",
+      "url": "https://openrouter.ai/models/upstage/solar-pro-3",
       "tags": [
-        "model_update",
-        "openrouter",
-        "deprecated",
-        "openai"
+        "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi Latest — Giảm Xuống $0.68/$3.42 Per M Tokens",
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3 235B A22B Thinking 2507 ↓$0.10/↓$0.10",
       "event": "price",
-      "summary": "Kimi Latest (MoonshotAI) giảm giá: prompt $0.73 → $0.68, completion $3.49 → $3.42.",
-      "why": "Kimi có context window 200K+ tokens — nếu bạn đang dùng Claude Opus cho long-context tasks, test Kimi (rẻ hơn 60%).",
+      "summary": "Giá giảm: prompt $0.15 → $0.10, completion $1.50 → $0.10 per million tokens.",
+      "why": "Đây là drop giá khủng (completion giảm 93%). Nếu bạn cần reasoning model, Qwen3 giờ rẻ hơn GPT-4 rất nhiều. Test xem quality có đủ cho use case của bạn không.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
       "tags": [
-        "model_update",
-        "openrouter",
-        "price",
-        "moonshotai"
+        "price"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.6 — Giảm Xuống $0.68/$3.42 Per M Tokens",
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.7 ↓$0.26/↓$1.20",
       "event": "price",
-      "summary": "Kimi K2.6 giảm giá: prompt $0.73 → $0.68, completion $3.49 → $3.42 (cùng giá với Kimi Latest).",
-      "why": "Kimi K2.6 stable hơn Latest (không auto-update) — dùng cho production nếu cần long-context + giá rẻ.",
+      "summary": "Giá prompt giảm nhẹ: $0.28 → $0.26 per million tokens (completion giữ nguyên $1.20).",
+      "why": "Drop nhỏ, không significant. Nhưng nếu bạn đang so sánh cost giữa models, update spreadsheet.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
       "tags": [
-        "model_update",
-        "openrouter",
-        "price",
-        "moonshotai"
+        "price"
       ]
     }
   ],
-  "insight": null,
+  "insight": "**Pattern tuần này: Coding Agents không còn là thí nghiệm — chúng đang thành infrastructure.**\n\nOpenAI ra GPT-5.3-Codex (kết hợp code + reasoning), Anthropic ra Opus 4.8 + Claude Code (agentic tool cho terminal/IDE), Mistral đổi Le Chat thành Vibe (pivot sang coding agent), Cognition huy động $1B định giá $26B (cao hơn Replit + Modal cộng lại). Pattern rõ ràng: **chat-only AI đang chết, agentic coding đang lên.**\n\n**Implication cho 4 góc nhìn:**\n\n**Cho cá nhân:** Nếu bạn là developer, skill 'viết code từ đầu' đang devalue nhanh. Skill mới là 'review code AI sinh ra' + 'architect systems AI không làm được'. Nếu bạn vẫn chỉ ngồi viết code line-by-line không dùng AI, trong 12-18 tháng nữa bạn sẽ chậm gấp 3-5 lần đồng nghiệp. Đây không phải về 'AI thay thế con người' — đây về 'người dùng AI tốt thay thế người không dùng'.\n\n**Cho manager:** Junior dev role đang thu hẹp. Cognition $26B valuation nghĩa market tin agentic coding sẽ automate 70-80% công việc junior dev trong 2-3 năm. Chiến lược: **reskill junior devs thành reviewer/QA/architect**, không hire thêm junior. Senior devs giờ quản lý 3-5 AI agents thay vì 2-3 junior devs. ROI tốt hơn (agents không burnout, không nghỉ việc, scale instant).\n\n**Cho creative/producer:** Video generation giờ có orchestration layer (Adobe Firefly cho chọn Veo/Sora/Pika trong 1 UI). Pattern tương tự sẽ xảy ra với coding: thay vì subscribe riêng GitHub Copilot, Cursor, Replit, sẽ có platforms cho bạn pick agent tốt nhất cho từng task. **Multi-agent strategy > single-tool lock-in.**\n\n**Cho curious:** Nếu bạn không phải developer nhưng tò mò AI, tuần này cho thấy AI không chỉ là chatbot. AI agents giờ có thể read codebase, edit files, run tests, deploy code — toàn bộ software development lifecycle. Điều này không chỉ ảnh hưởng tech industry — mọi ngành có 'process lặp đi lặp lại' sẽ bị agent hóa (legal doc review, financial analysis, medical diagnosis). **Câu hỏi không phải 'AI có thay thế công việc tôi không' mà là 'tôi sẽ dùng AI như thế nào để làm công việc tốt hơn'.**\n\n**Challenge for you:** Quy Tắc #7 AI Mentor nói 'Adapt or Die — But Adapt Intelligently'. Cognition huy động $1B, nhưng 65% AI startups sẽ chết trong 2 năm tới vì adapt sai hướng. Nếu bạn đang cân nhắc pivot sang AI, hỏi thẳng: **'Domain expertise của tôi là gì, và AI amplify nó như thế nào?'** Không phải 'tôi sẽ làm AI startup' mà 'tôi sẽ dùng AI để làm X tốt hơn ai khác'. Domain expertise + AI = moat. AI alone = commodity.",
   "sources_count": {
-    "raw": 134,
+    "raw": 121,
     "brave": 49,
     "reddit": 0,
-    "hackernews": 9,
-    "rss": 53,
+    "hackernews": 6,
+    "rss": 44,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 5
+    "openrouter": 4
   }
 }
