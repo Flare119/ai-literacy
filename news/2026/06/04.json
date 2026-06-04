@@ -1,0 +1,263 @@
+{
+  "date": "2026-06-04",
+  "updated_at": "2026-06-04T07:25:17.246897+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "Cognition Huy Động $1B, Định Giá $26B — 89% Code Công Ty Do AI Devin Viết",
+    "summary": "Cognition, startup đứng sau AI coding agent Devin, công bố vòng funding $1B với định giá $26B. Con số gây sốc: 89% code commit tại Cognition hiện do chính Devin viết — đây là case đầu tiên một công ty AI 'tự ăn thịt chính mình' ở quy mô này. Tổng vốn huy động vượt $2.5B.",
+    "why": "Cho manager: nếu 89% code của công ty AI hàng đầu do AI viết, junior dev role đang mất giá trị nhanh hơn dự kiến. Cho cá nhân: nếu bạn code thuần tay, đây là tín hiệu reskill sang reviewer/architect/prompt engineer — hoặc cập nhật CV trước khi công ty bạn cũng làm như Cognition.",
+    "source": "AI Funding Tracker",
+    "url": "https://aifundingtracker.com/",
+    "tags": [
+      "funding",
+      "coding",
+      "jobs",
+      "agentic"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Microsoft Ra MAI-Thinking-1 — Model Reasoning Đầu Tiên, 35B Params, Cạnh Tranh OpenAI o1",
+      "why": "Cho manager: Microsoft giảm phụ thuộc OpenAI, mở cửa multi-vendor strategy. Cho developer: model reasoning mới có thể rẻ hơn o1 khi ra API public.",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/next/2026/06/03/microsoft-launches-its-own-ai-models-to-take-on-openai-and-anthropic",
+      "tags": [
+        "model",
+        "reasoning",
+        "microsoft"
+      ]
+    },
+    {
+      "headline": "Google Ra Gemma 4 12B — Model Multimodal Unified, Encoder-Free, Nhỏ Nhưng Mạnh",
+      "why": "Cho developer: model 12B chạy được local, tiết kiệm cost khi không cần cloud. Cho creative: multimodal nghĩa là input ảnh/text/video cùng lúc không cần pipeline riêng.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "tags": [
+        "model",
+        "multimodal",
+        "google"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra Rosalind Biodefense — GPT Cho Chính Phủ Mỹ Và Đồng Minh, Ứng Dụng Y Tế Quốc Phòng",
+      "why": "Cho curious: OpenAI đang pivot sang B2G (business-to-government) — signal về chiến lược monetize ngoài B2C. Cho manager: nếu bạn trong healthcare/defense, đây là cơ hội vetted access.",
+      "source": "Releasebot",
+      "url": "https://releasebot.io/updates/openai",
+      "tags": [
+        "openai",
+        "biodefense",
+        "government"
+      ]
+    },
+    {
+      "headline": "DDR5 32GB Giá $375 — AI Shortage Đẩy Giá RAM PC Lên 2.5 Lần So Với 2025",
+      "why": "Cho cá nhân: nếu bạn build PC cho local AI (Stable Diffusion, local LLM), delay mua RAM đến Q4 2026 khi supply tăng. Cho manager: cost infra tăng 150% — review budget cloud vs on-premise.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "tags": [
+        "hardware",
+        "cost",
+        "shortage"
+      ]
+    },
+    {
+      "headline": "Uber Giới Hạn AI Tool $1,500/Tháng/Nhân Viên — Signal Pricing AI Tools 2026",
+      "why": "Cho manager: nếu Uber (100k+ nhân viên) cap AI cost ở $1,500/người, đây là benchmark để negotiate với vendor. Cho cá nhân: nếu công ty bạn không cap, bạn đang trong văn hóa 'spend first, measure later' — red flag.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "tags": [
+        "pricing",
+        "enterprise",
+        "policy"
+      ]
+    },
+    {
+      "headline": "Mathematicians Cảnh Báo AI Đang 'Chiếm Lĩnh Nhanh' — Science Journal Report",
+      "why": "Cho curious: cộng đồng toán học lo AI thay thế suy luận con người. Cho researcher: nếu bạn làm academia, đây là tín hiệu pivot sang 'human-AI collaboration' thay vì pure theory.",
+      "source": "Science.org",
+      "url": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
+      "tags": [
+        "research",
+        "academia",
+        "ethics"
+      ]
+    },
+    {
+      "headline": "Mistral Vibe (Cũ: Le Chat) Tích Hợp Coding Agent — Chat Interface Giờ Làm Code End-to-End",
+      "why": "Cho developer: coding agent vào chat nghĩa là non-dev có thể code đơn giản. Junior dev cần upskill review/debug thay vì chỉ code thuần.",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/products/vibe/",
+      "tags": [
+        "coding",
+        "agent",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "CNBC: 'Pre-ChatGPT AI Startups Đang Disrupted Or Dead' — VC Funding Chảy 81% Vào AI",
+      "why": "Cho manager: nếu startup bạn build pre-2022 mà chưa pivot AI, exit khả thi nhất là acqui-hire giá thấp. Cho cá nhân: nếu công ty không có AI roadmap rõ, đây là lúc nhảy việc.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html",
+      "tags": [
+        "startup",
+        "funding",
+        "pivot"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google Gemini Omni Flash — Video Gen 'Anything-to-Anything': Ảnh/Audio/Text → Video Qua Chat",
+      "summary": "Google ra Gemini Omni Flash tại I/O 2026 — model đầu tiên tạo video từ bất kỳ input nào (ảnh, audio, text) qua chat interface. Không cần pipeline riêng. Tích hợp vào Workspace.",
+      "why": "Cho creative: prototype video từ audio draft trong cùng tool thiết kế — giảm 50% thời gian handoff giữa team. Cho production house: workflow end-to-end từ concept → video draft trong 1 tab.",
+      "source": "Gemini Google",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "video",
+        "multimodal",
+        "google"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 Launch — Google Nâng Cấp Video Gen, Cải Thiện Physics + Temporal Consistency",
+      "summary": "Google nâng cấp Veo lên 3.1 với focus physics realism và temporal consistency (object không nhảy frame). Tích hợp vào Adobe Firefly và Gemini Omni.",
+      "why": "Cho creative: ít cần manual fix frame-by-frame khi AI render. Cho producer: budget QA giảm khi output stable hơn.",
+      "source": "Google AI",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "tags": [
+        "video",
+        "veo",
+        "google"
+      ]
+    },
+    {
+      "headline": "Higgsfield AI Ra 'Photodump' — Build Character 1 Click, Video Gen Native Với Culture Trend",
+      "summary": "Higgsfield (startup video gen) ra feature 'Photodump' — 1 click build character, tạo video theo culture-native trend. Target GenZ workflow.",
+      "why": "Cho creative: nếu bạn làm social content, tool này giảm setup time character từ 2h xuống 5 phút. Cho production house: test market fit idea nhanh trước khi invest full production.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video",
+        "character",
+        "social"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 Giữ #1 Text-to-Video Leaderboard — ByteDance Doubao 2.0 Release Tháng 2/2026",
+      "summary": "Seedance 2.0 (ByteDance) giữ #1 Artificial Analysis Text-to-Video leaderboard với audio tích hợp (1213 Elo). Ra ngày 12/2/2026 trong Doubao 2.0.",
+      "why": "Cho creative: nếu bạn cần video với audio sync chính xác (music video, ads), Seedance beat Sora về độ chính xác âm thanh. Cho production: consider multi-vendor khi Sora không độc quyền nữa.",
+      "source": "Pinggy Blog",
+      "url": "https://pinggy.io/blog/best_video_generation_ai_models/",
+      "tags": [
+        "video",
+        "leaderboard",
+        "bytedance"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên Cứu Swansea University: AI Giúp Con Người Sáng Tạo Hơn, Không Thay Thế",
+      "summary": "Nghiên cứu mới từ Swansea University (UK) cho thấy AI không thay thế sáng tạo con người mà augment (tăng cường). Người dùng AI tạo ra nhiều ý tưởng mới hơn nhóm control.",
+      "why": "Cho cá nhân: nếu bạn sợ AI 'cướp việc sáng tạo', nghiên cứu này cho thấy role mới là 'creative director' với AI làm assistant. Cho manager: invest vào training 'AI-augmented creativity' thay vì training 'làm tay thuần'.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "productivity"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI, 400+ Integrations, Self-Host",
+      "why": "Cho developer: build AI workflow không cần code — drag-drop + custom code. Cho manager: self-host = data không rời infra, comply GDPR/local law.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "190976"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho developer: build agentic workflow (multi-step AI task) với UI visual. Cho startup: launch AI product nhanh không cần hire ML engineer.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "143739"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API, Chạy Local",
+      "why": "Cho cá nhân: dùng LLM local (Ollama) qua UI đẹp như ChatGPT nhưng data không rời máy. Cho developer: integrate multi-provider (OpenAI + local) 1 chỗ.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "139878"
+    },
+    {
+      "headline": "Firecrawl — API Search, Scrape, Interact Web At Scale",
+      "why": "Cho developer: scrape web cho training data hoặc research không bị block. Cho researcher: crawl paper/data từ web quy mô lớn.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "128250"
+    },
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân, Hỗ Trợ Mọi OS/Platform 'The Lobster Way'",
+      "why": "Cho cá nhân: AI assistant local, cross-platform, không bị khóa vendor. Cho developer: fork để custom theo workflow riêng.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "376582"
+    },
+    {
+      "headline": "AutoGPT — Vision AI Accessible For Everyone: Use & Build On",
+      "why": "Cho curious: học cách AI agent hoạt động qua code open-source. Cho developer: fork để build agent tự động cho task lặp đi lặp lại.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184736"
+    },
+    {
+      "headline": "Hermes Agent — The Agent That Grows With You (Nous Research)",
+      "why": "Cho developer: agent tự học từ usage pattern của bạn — càng dùng càng fit workflow. Cho curious: xem cách AI 'học' từ user behavior.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "179090"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Qwen: Qwen3.7 Plus",
+      "event": "new",
+      "summary": "Qwen3.7-Plus — model cost-effective trong Qwen3.7 series. Hỗ trợ text + image input, text output. $0.40/$1.60 per M tok.",
+      "why": "Cheaper alternative cho Gemini Flash khi cần multimodal light tasks (OCR, image caption).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.7-plus",
+      "tags": [
+        "openrouter",
+        "qwen",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5 ↓ Completion Price",
+      "event": "price",
+      "summary": "GLM 5 giảm giá completion token từ $2.08 → $1.92 per M tok. Prompt giữ nguyên $0.60.",
+      "why": "Chi phí output rẻ hơn 7.7% — consider nếu app bạn generate nhiều text dài (summary, report).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5",
+      "tags": [
+        "openrouter",
+        "glm",
+        "price"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 127,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 2
+  }
+}
