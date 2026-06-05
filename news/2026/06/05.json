@@ -1,0 +1,277 @@
+{
+  "date": "2026-06-05",
+  "updated_at": "2026-06-05T06:59:13.227602+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "Microsoft Build 2026: Ra 7 Model MAI Mới — MAI-Thinking-1 Reasoning Model Đầu Tiên Từ Microsoft",
+    "summary": "Microsoft vừa công bố 7 model AI mới tại Build 2026, đánh dấu lần đầu tiên Microsoft có reasoning model riêng (MAI-Thinking-1) để cạnh tranh OpenAI o1. Bên cạnh đó có MAI-Code-1-Flash (5B params cho Copilot), MAI-Image-2.5, MAI-Voice-2 (15 ngôn ngữ), MAI-Transcribe-1.5 (43 ngôn ngữ). Đây là động thái Microsoft cắt dần phụ thuộc OpenAI, tự build in-house models.",
+    "why": "Cho manager + cá nhân: Microsoft có reasoning model riêng nghĩa là giá Azure AI sẽ thay đổi (không phụ thuộc OpenAI pricing nữa). Nếu công ty bạn đang dùng Azure OpenAI Service, đánh giá lại cost structure 2026 — MAI models có thể rẻ hơn hoặc lock-in khác. Cho developer: MAI-Code-1-Flash 5B có thể chạy on-device (Copilot+ PC), giảm latency + cost cho coding assistant.",
+    "source": "Microsoft AI Blog, Thurrott, ZDNET",
+    "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+    "tags": [
+      "microsoft",
+      "reasoning",
+      "build2026",
+      "azure",
+      "mai"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "xAI Ra Grok Imagine Video 1.5 Preview API — Inference Video Model Mới Từ xAI",
+      "why": "Cho creative: Grok Imagine Video 1.5 vừa drop API ngày 4/6/2026, cạnh tranh Veo 3.1/Sora. Nếu bạn đang so sánh video gen models, thêm Grok vào danh sách test — xAI thường aggressive về pricing để tranh thị phần.",
+      "source": "BASENOR",
+      "url": "https://www.basenor.com/blogs/news/grok-imagine-video-1-5-7-things-developers-need-to-know",
+      "tags": [
+        "xai",
+        "video-gen",
+        "grok",
+        "api"
+      ]
+    },
+    {
+      "headline": "UC Berkeley CS: Tỷ Lệ Fail Tăng Vọt Do Sinh Viên Dùng AI — Kỹ Năng Toán Suy Giảm",
+      "why": "Cho cá nhân (đặc biệt junior dev/sinh viên): Báo động đỏ về over-reliance AI. UC Berkeley thấy failing grades tăng đột biến khi sinh viên dùng AI làm bài tập mà không hiểu bản chất. Nếu bạn học qua AI, verify bằng cách làm từ đầu không có AI — nếu không làm được thì bạn chưa học được gì.",
+      "source": "Daily Californian",
+      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "tags": [
+        "education",
+        "skills",
+        "warning",
+        "berkeley"
+      ]
+    },
+    {
+      "headline": "Anthropic Research: 'When AI Builds Itself' — Tiến Trình Hướng Tới Recursive Self-Improvement",
+      "why": "Cho curious: Anthropic Institute công bố nghiên cứu về khả năng AI tự cải thiện chính mình (recursive self-improvement) — một trong những milestone quan trọng nhất về AGI. Đây là reading material để hiểu frontier AI đang đi đâu, không phải hype.",
+      "source": "Anthropic Institute",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "tags": [
+        "anthropic",
+        "agi",
+        "research",
+        "recursive"
+      ]
+    },
+    {
+      "headline": "Anthropic Mở Source Framework Tìm Lỗ Hổng Bảo Mật Bằng AI — GitHub Repo 'Defending Code'",
+      "why": "Cho developer: Anthropic vừa release open-source harness để dùng AI (Claude) tìm vulnerabilities trong code. Nếu team bạn đang làm security audit, đây là tool thử nghiệm miễn phí thay vì chỉ dựa SonarQube/Snyk.",
+      "source": "Anthropic GitHub",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "tags": [
+        "anthropic",
+        "security",
+        "opensource",
+        "claude"
+      ]
+    },
+    {
+      "headline": "Huawei Ra KVarN — Native vLLM Backend Cho KV-Cache Quantization, Tăng Throughput LLM",
+      "why": "Cho developer/infra: KVarN là backend mới cho vLLM (thay thế PagedAttention) giúp quantize KV-cache, giảm VRAM usage và tăng throughput. Nếu bạn đang tự host LLM bằng vLLM, đây là optimization đáng thử — đặc biệt với long-context inference.",
+      "source": "Huawei CSL GitHub",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "tags": [
+        "huawei",
+        "vllm",
+        "inference",
+        "optimization"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Cho Chọn Veo 3.1, Sora, Pika Trong 1 Dropdown — Video Gen All-In-One",
+      "summary": "Adobe Firefly giờ tích hợp Google Veo 3.1, OpenAI Sora, Pika trong cùng 1 interface. User chọn model từ dropdown, nhập prompt, Firefly route request tới model tương ứng. Đây là bước Adobe consolidate video gen workflow — không cần nhảy qua 3 platform khác nhau.",
+      "why": "Cho creative/producer: Nếu bạn đã subscribe Adobe Creative Cloud, giờ có thể test Veo/Sora/Pika ngay trong Firefly mà không cần account riêng. Tiết kiệm thời gian handoff giữa các tool — prototype video trong cùng môi trường design. Trade-off: mất control chi tiết (advanced settings của từng model), nhưng đổi lại được tốc độ.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "adobe",
+        "firefly",
+        "video-gen",
+        "veo",
+        "sora",
+        "pika"
+      ]
+    },
+    {
+      "headline": "Google Gemini Omni Flash — Model 'Anything-to-Anything' Video, Tạo Từ Ảnh/Audio/Text Qua Chat",
+      "summary": "Google ra Gemini Omni Flash — model multimodal có khả năng tạo video từ ảnh + audio + text trong 1 prompt. Khác với Veo 3 (text-to-video thuần), Omni Flash hiểu và blend nhiều loại input. Ví dụ: upload 1 ảnh + audio background music + text prompt về style → output video.",
+      "why": "Cho creative: Omni Flash phù hợp workflow prototype nhanh khi bạn đã có asset rời (ảnh, nhạc nền, rough script). Thay vì chạy qua 3 bước (text-to-video, add music, adjust timing), Omni Flash làm 1 lần. Trade-off: control timeline/camera chưa fine như Veo 3.1, nhưng faster iteration.",
+      "source": "Google Gemini",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "google",
+        "gemini",
+        "omni",
+        "multimodal",
+        "video-gen"
+      ]
+    },
+    {
+      "headline": "Higgsfield AI Photodump — Model Ảnh 'Culture-Native', Build Character 1 Click",
+      "summary": "Higgsfield AI vừa ra Photodump — model gen ảnh tập trung vào 'culture-native aesthetics' (aesthetic đặc trưng của từng nền văn hóa). Feature 'Build Your Character, One Click Does the Rest' giúp tạo character consistent qua nhiều scene mà không cần describe lại.",
+      "why": "Cho creative: Nếu bạn làm content localized (VD: series video cho thị trường Việt), Photodump có thể gen character/scene phù hợp văn hóa hơn Midjourney/DALL-E (vốn bias về Western aesthetics). Test với Vietnamese cultural context — nếu output đúng hơn thì đáng switch.",
+      "source": "Higgsfield AI",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "higgsfield",
+        "image-gen",
+        "character",
+        "culture"
+      ]
+    },
+    {
+      "headline": "FlexClip Ra AI Long to Shorts — Tự Động Tách Highlight Từ Video Dài, Phân Tích Speech + Pacing",
+      "summary": "FlexClip launch feature AI Long to Shorts — phân tích video dài (speech, visual transitions, pacing) để extract highlight clips ngắn. Dùng AI chọn những đoạn 'engaging' nhất dựa trên tempo, hook points.",
+      "why": "Cho producer: Nếu bạn sản xuất podcast/webinar/livestream dài, AI Long to Shorts giúp repurpose content thành shorts cho YouTube/TikTok. Tiết kiệm thời gian manual editing — nhưng vẫn phải QC kỹ vì AI chưa hiểu context editorial đầy đủ (có thể cắt mất punchline).",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "tags": [
+        "flexclip",
+        "video-editing",
+        "shorts",
+        "repurpose"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Anthropic Institute: Nghiên Cứu Về Recursive Self-Improvement — AI Tự Build Chính Mình",
+      "summary": "Anthropic Institute công bố nghiên cứu về 'recursive self-improvement' — khả năng AI tự cải thiện code/model của chính nó qua nhiều vòng iteration. Đây là một trong những bước quan trọng về AGI. Paper phân tích risks và safeguards cần thiết khi AI có khả năng tự evolve.",
+      "why": "Cho curious + manager: Đây là reading material để hiểu frontier AI đang đi đâu. Recursive self-improvement có thể đến sớm hơn dự đoán — nếu công ty bạn có AI-critical infrastructure, cần policy cho 'AI-generated AI code' ngay từ bây giờ (audit trail, rollback mechanism).",
+      "source": "Anthropic Institute",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "tags": [
+        "anthropic",
+        "agi",
+        "research",
+        "recursive",
+        "safety"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw Launch — Personal AI Assistant Cross-Platform 'The Lobster Way' 🦞",
+      "why": "OpenClaw là AI assistant open-source chạy được trên mọi OS (Windows, macOS, Linux). Trending GitHub hôm nay với 376K stars — mới launch nên chưa rõ stability, nhưng đáng theo dõi nếu bạn muốn self-host AI assistant thay vì dùng ChatGPT/Claude.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "376859"
+    },
+    {
+      "headline": "NousResearch Hermes Agent — 'The Agent That Grows With You', 180K GitHub Stars",
+      "why": "Hermes Agent từ NousResearch (team đằng sau Hermes fine-tunes) là agent framework tập trung vào 'learning from user feedback over time'. Trending hôm nay với 180K stars — nếu bạn cần agent customize theo workflow riêng, Hermes đáng thử thay vì dùng Langchain generic.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "180939"
+    },
+    {
+      "headline": "Anthropic Defending Code Harness — Open-Source Framework Tìm Vulnerabilities Bằng AI",
+      "why": "Anthropic vừa open-source harness để dùng Claude tìm security vulnerabilities trong code. Nếu team bạn đang làm security audit, đây là tool miễn phí để test — alternative cho commercial tools như Snyk/Veracode.",
+      "source": "GitHub",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "stars": "N/A"
+    },
+    {
+      "headline": "Huawei KVarN — Native vLLM Backend Cho KV-Cache Quantization, Tăng Throughput",
+      "why": "KVarN là backend mới cho vLLM (Python inference server phổ biến nhất) giúp quantize KV-cache, giảm VRAM và tăng throughput. Nếu bạn self-host LLM bằng vLLM, đây là optimization đáng thử — đặc biệt với long-context inference (>32K tokens).",
+      "source": "GitHub",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] NVIDIA Nemotron 3 Ultra",
+      "event": "new",
+      "summary": "NVIDIA Nemotron 3 Ultra — 55B active params (550B total MoE), hybrid Transformer-Mamba architecture. Frontier reasoning model từ NVIDIA.",
+      "why": "Cho developer dùng OpenRouter: Nemotron 3 Ultra là alternative cho GPT-4o/Claude Opus khi cần reasoning + orchestration. Giá $0.50/$2.50 per M tokens — rẻ hơn Opus 4.8 (~$15/$75). Test nếu use case không cần 'best-in-class' mà cần cost-effective reasoning.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+      "tags": [
+        "nvidia",
+        "nemotron",
+        "reasoning",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] NVIDIA Nemotron 3 Ultra (free)",
+      "event": "new",
+      "summary": "Free tier của NVIDIA Nemotron 3 Ultra — 55B active params, $0.00 per M tokens.",
+      "why": "Free tier Nemotron 3 Ultra cho developer test mà không tốn tiền. Rate limit chưa rõ — nếu dùng được thì đây là reasoning model miễn phí mạnh nhất trên OpenRouter hiện tại.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "tags": [
+        "nvidia",
+        "nemotron",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] NVIDIA Nemotron 3.5 Content Safety (free)",
+      "event": "new",
+      "summary": "NVIDIA Nemotron 3.5 Content Safety — 4B params, fine-tuned từ Gemma-3-4B. Guardrail model để moderate input/output của LLM/VLM.",
+      "why": "Content moderation model miễn phí — dùng để filter toxic/NSFW content trước khi pass vào main LLM hoặc sau khi nhận output. Nhỏ (4B) nên latency thấp, phù hợp production pipeline.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-content-safety:free",
+      "tags": [
+        "nvidia",
+        "safety",
+        "moderation",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] OpenAI GPT-4 (v0314) bị xóa",
+      "event": "deprecated",
+      "summary": "Model openai/gpt-4-0314 không còn trên OpenRouter. Migrate user sang version mới.",
+      "why": "Nếu app bạn đang hardcode model ID 'gpt-4-0314', sẽ bị lỗi. Update sang 'gpt-4-turbo' hoặc 'gpt-4o' trước khi deploy.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-4-0314",
+      "tags": [
+        "openai",
+        "gpt4",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.1 8B Instruct giảm giá",
+      "event": "price",
+      "summary": "Llama 3.1 8B Instruct: prompt $0.02 (không đổi), completion $0.05 → $0.03 (giảm 40%).",
+      "why": "Completion cost giảm 40% — nếu app bạn dùng Llama 3.1 8B cho generation-heavy tasks (chatbot, summarization), monthly bill sẽ giảm đáng kể. Recheck budget forecast.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+      "tags": [
+        "llama",
+        "meta",
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 30B A3B Instruct 2507 tăng giá",
+      "event": "price",
+      "summary": "Qwen3 30B A3B Instruct 2507: prompt $0.04 → $0.05 (+25%), completion $0.17 → $0.19 (+12%).",
+      "why": "Qwen3 30B tăng giá — nếu dùng model này vì rẻ, cân nhắc switch sang Llama 3.1 8B (vừa giảm giá) hoặc Gemma-3 nếu task không cần 30B params.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b-instruct-2507",
+      "tags": [
+        "qwen",
+        "price-increase"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 132,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 6
+  }
+}
