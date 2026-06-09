@@ -3618,6 +3618,27 @@
             </div>`);
         }
 
+        // Society / Economy / Policy
+        if (data.society && data.society.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">🌐 AI & Xã hội / Kinh tế</div>
+                <div class="quick-hits-grid">
+                    ${data.society.map(s => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(s.url || '#')}" target="_blank" rel="noopener">${escapeHtml(s.headline)}</a>
+                            ${s.summary ? `<div class="summary">${escapeHtml(s.summary)}</div>` : ''}
+                            ${s.why ? `<div class="why">${escapeHtml(s.why)}</div>` : ''}
+                            ${renderTags(s.tags)}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(s.source || '')}</span>
+                                ${s.url ? `<a class="read-arrow" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
         // Open source repos (GitHub trending)
         if (data.opensource && data.opensource.length) {
             html.push(`<div class="news-section">
