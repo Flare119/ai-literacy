@@ -3597,6 +3597,27 @@
             </div>`);
         }
 
+        // Business / AI economy
+        if (data.business && data.business.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">💼 Business & Thị trường AI</div>
+                <div class="quick-hits-grid">
+                    ${data.business.map(b => `
+                        <div class="news-card">
+                            <a class="headline" href="${escapeHtml(b.url || '#')}" target="_blank" rel="noopener">${escapeHtml(b.headline)}</a>
+                            ${b.summary ? `<div class="summary">${escapeHtml(b.summary)}</div>` : ''}
+                            ${b.why ? `<div class="why">${escapeHtml(b.why)}</div>` : ''}
+                            ${renderTags(b.tags)}
+                            <div class="meta-row">
+                                <span class="source">${escapeHtml(b.source || '')}</span>
+                                ${b.url ? `<a class="read-arrow" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`);
+        }
+
         // Open source repos (GitHub trending)
         if (data.opensource && data.opensource.length) {
             html.push(`<div class="news-section">
