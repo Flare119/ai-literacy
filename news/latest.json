@@ -1,104 +1,82 @@
 {
-  "date": "2026-06-10",
-  "updated_at": "2026-06-10T07:04:52.512873+07:00",
-  "weekday": "Wednesday",
+  "date": "2026-06-11",
+  "updated_at": "2026-06-11T07:08:38.122161+07:00",
+  "weekday": "Thursday",
   "top_story": {
-    "headline": "Anthropic Ra Claude Fable 5 — Model Tạo Game Tương Tác Từ Text Prompt",
-    "summary": "Claude Fable 5 cho phép user tạo mini-game HTML/JS từ text prompt — không cần code. Model này có thể tạo game đơn giản (platformer, puzzle) trong vài giây, chạy trực tiếp trong browser. Anthropic đang test khả năng 'agentic creativity' — AI không chỉ viết code mà hiểu game mechanics.",
-    "why": "Cho creative: đây là công cụ rapid prototyping game concept trước khi invest production cost. Cho manager: nếu team bạn đang thuê game designer cho internal training/marketing games — Fable 5 giảm 70% timeline từ ý tưởng đến playable prototype.",
-    "source": "Anthropic Blog / TechCrunch",
+    "headline": "Anthropic Ra Claude Fable 5 Công Khai — Mythos-Class Model Với Safeguards Mới",
+    "summary": "Sau 2 tháng private rollout với Wall Street, Anthropic công bố Claude Fable 5 (Mythos-class) cho enterprise và paid users. Model này có khả năng tạo game tương tác từ text prompt, nhưng đi kèm 30-day data retention requirement và safeguards nghiêm ngặt khiến security researchers phàn nàn không thể test vulnerabilities.",
+    "why": "Cho manager/security: Đây là precedent nguy hiểm — model mạnh nhưng bạn không kiểm soát data. AWS Bedrock bắt share data với Anthropic. Cho cá nhân: Nếu dùng Fable/Mythos, mọi prompt bị log 30 ngày. Đọc support doc trước khi deploy sensitive workloads.",
+    "source": "Anthropic, CNBC, TechCrunch",
     "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "tags": [
       "claude",
-      "anthropic",
-      "game-generation",
-      "creative-tools"
+      "mythos",
+      "enterprise-ai",
+      "data-privacy"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Microsoft Open-Source Tools Bị Hack — Đánh Cắp Mật Khẩu AI Developer",
-      "why": "Cho individual developer: nếu bạn dùng GitHub Actions hoặc Azure DevOps Pipelines, check logs ngay — đây là supply-chain attack. Cho manager: review third-party dependencies trong CI/CD pipeline, không assume 'Microsoft = safe'.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "headline": "Claude Desktop Spawn VM 1.8GB Mỗi Lần Mở — Chỉ Để Chat",
+      "why": "Cho cá nhân: Nếu máy bạn chậm khi dùng Claude Desktop, đây là lý do — app spawn Hyper-V VM ngay cả khi không code. Tắt container mode hoặc dùng web version nếu không cần agentic features.",
+      "source": "GitHub Issue #29045",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "tags": [
+        "claude",
+        "desktop-app",
+        "performance"
+      ]
+    },
+    {
+      "headline": "€0.01 Bank Transfer Có Thể Hack AI Banking Agent",
+      "why": "Cho manager/security: AI agent xử lý giao dịch ngân hàng cần audit kỹ prompt injection. Case này chứng minh: chuyển 1 cent kèm prompt độc có thể chiếm quyền điều khiển. Test trước khi deploy production.",
+      "source": "Blue41 Security Blog",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
       "tags": [
         "security",
-        "microsoft",
-        "developer-tools"
+        "prompt-injection",
+        "fintech"
       ]
     },
     {
-      "headline": "'Nếu Claude Fable Ngừng Giúp Bạn, Bạn Sẽ Không Bao Giờ Biết' — Rủi Ro Của AI Black Box",
-      "why": "Cho manager/business: khi AI agent làm task quan trọng (code review, content moderation), bạn cần monitoring layer riêng. Nếu Fable 5 refuse task vì 'cạnh tranh' với Anthropic partner — bạn không được thông báo. Đây là governance risk.",
-      "source": "Jon Ready Blog",
-      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "tags": [
-        "ai-ethics",
-        "governance",
-        "claude"
-      ]
-    },
-    {
-      "headline": "CEO Nghĩ AI Thay Thế Nhân Viên Chỉ Là CEO Tồi",
-      "why": "Cho manager: nếu chiến lược AI của bạn là 'cắt headcount', bạn đang bỏ qua 80% giá trị thực của AI — augmentation (tăng năng suất người hiện tại), không phải replacement. Case Boeing/Wells Fargo: cắt người → mất institutional knowledge → sụp.",
-      "source": "Techdirt",
-      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
-      "tags": [
-        "management",
-        "ai-strategy",
-        "workforce"
-      ]
-    },
-    {
-      "headline": "Warp Terminal — 'Agentic Development Environment' Mới",
-      "why": "Cho developer: Warp giờ không chỉ là terminal — đây là hub chạy coding agents (Codex, Cursor, GitHub Copilot) trong 1 interface. Nếu bạn đang context-switch giữa nhiều AI tools, Warp có thể giảm 30% overhead.",
-      "source": "Warp.dev",
-      "url": "https://www.warp.dev/",
-      "tags": [
-        "developer-tools",
-        "terminal",
-        "coding-agents"
-      ]
-    },
-    {
-      "headline": "Kilo.ai — AI Coding Agent Open-Source Cho VS Code, JetBrains, CLI",
-      "why": "Cho developer: alternative open-source cho Cursor. Kilo hỗ trợ 500+ models, bring-your-own-key (zero markup), chạy local models nếu cần privacy. Nếu bạn không muốn lock-in vào Cursor/GitHub Copilot, đây là lựa chọn.",
-      "source": "Kilo.ai",
-      "url": "https://kilo.ai/",
-      "tags": [
-        "open-source",
-        "coding-agent",
-        "developer-tools"
-      ]
-    },
-    {
-      "headline": "'Cleaning Up After AI Rockstar Developers' — Bài Phân Tích Về Chất Lượng Code AI-Generated",
-      "why": "Cho manager: nếu team bạn dùng AI coding agents mà không code review nghiêm, technical debt sẽ nổ sau 6-12 tháng. Bài này phân tích pattern: AI viết code 'works' nhưng không maintainable — cần senior dev review ngay từ đầu.",
-      "source": "Coding With Jesse",
-      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
-      "tags": [
-        "code-quality",
-        "technical-debt",
-        "ai-coding"
-      ]
-    },
-    {
-      "headline": "Suno Huy Động Series D, Định Giá $5.4B — AI Music Startup Tăng Gấp Đôi Giá Trị Sau 6 Tháng",
-      "why": "Cho creative/producer: Suno giờ có capital để scale infrastructure — nghĩa là generation speed sẽ tăng + pricing có thể giảm. Nếu bạn đang làm video production cần nhạc nền, Suno giờ ổn định hơn về mặt tài chính để dùng lâu dài.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/legal/transactional/ai-music-startup-suno-raises-funding-54-billion-valuation-2026-06-03/",
+      "headline": "Lovable Đàm Phán Huy Động Vốn Định Giá $12B — AI Coding Startup Từ Stockholm",
+      "why": "Cho founder/investor: Lovable cho phép tạo app/website từ prompt. Định giá $12B cho thấy thị trường AI coding cực nóng (Cognition $26B, Cursor chưa rõ). Pattern: full-stack code generation là category đang explode.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/06/05/ai-coding-startup-lovable-in-talks-to-raise-funding-at-a-12-billion-valuation/",
       "tags": [
         "funding",
-        "music",
-        "suno"
+        "ai-coding",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "Microsoft Build 2026: 7 Model MAI Mới — Reasoning, Voice, Code, Image",
+      "why": "Cho manager: Microsoft đang giảm phụ thuộc OpenAI bằng model family riêng. MAI-Thinking-1 cạnh tranh o1. Nếu bạn dùng Azure OpenAI, theo dõi MAI family — có thể cost thấp hơn và integrate chặt với Azure services.",
+      "source": "Microsoft Build 2026, Windows News",
+      "url": "https://mashable.com/tech/microsoft-launches-new-mai-family-of-models-at-build",
+      "tags": [
+        "microsoft",
+        "build",
+        "mai-models"
+      ]
+    },
+    {
+      "headline": "macOS Container Machines — Apple Mở Source Container Runtime Cho Mac",
+      "why": "Cho developer: Apple release container runtime native cho macOS. Nếu bạn chạy Docker/Podman trên Mac, đây là infra để tối ưu performance. Check docs nếu build CI/CD cho macOS environments.",
+      "source": "Apple GitHub",
+      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "tags": [
+        "apple",
+        "containers",
+        "open-source"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Adobe Firefly Cho Chọn Veo 3.1, Sora, Pika Trong 1 Dropdown — Video Gen All-In-One",
-      "summary": "Adobe tích hợp 3 model video generation lớn (Google Veo, OpenAI Sora, Pika) vào Firefly. User giờ không cần switch giữa nhiều tool — chọn model phù hợp ngay trong timeline DaVinci Resolve hoặc Premiere. Mỗi model có strength khác: Veo tốt cho realism, Sora tốt cho cinematic, Pika tốt cho quick iteration.",
-      "why": "Cho creative/producer: giảm 50% thời gian handoff giữa ideation tool và editing tool. Thay vì export từ Runway rồi import vào Premiere, bạn giờ generate + edit trong cùng 1 workspace. Đây là workflow breakthrough.",
+      "headline": "Adobe Firefly Dropdown Cho Chọn Veo 3.1, Sora, Pika — Video Gen All-In-One",
+      "summary": "Adobe tích hợp Google Veo, OpenAI Sora, Pika vào Firefly video generator. Designer giờ có thể test nhiều model trong cùng 1 interface, không cần switch tool.",
+      "why": "Cho creative: Workflow prototype video nhanh hơn 50% khi không phải export/import giữa các tool. Test Veo cho realism, Sora cho cinematic, Pika cho stylization — trong 1 dropdown.",
       "source": "Adobe Firefly",
       "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
@@ -108,9 +86,9 @@
       ]
     },
     {
-      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
-      "summary": "Higgsfield ra plugin cho DaVinci Resolve: generate AI footage trong timeline, draw-on-clip để edit, apply AI-generated LUTs. Plugin chạy local hoặc cloud tùy config. Đây là bước tiếp theo sau khi Firefly mở cửa partner model integration.",
-      "why": "Cho producer: nếu team bạn dùng DaVinci, đây là game-changer. Không cần export ⟶ AI tool ⟶ import back. Generate + color grade + finalize trong 1 app. Giảm 40% timeline cho B-roll generation.",
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage In Timeline",
+      "summary": "Higgsfield ra plugin DaVinci Resolve: generate footage trực tiếp trong timeline, vẽ trên clip để edit, apply AI-generated LUTs. Không cần export/re-import.",
+      "why": "Cho editor: Giảm 70% thời gian roundtrip khi prototype footage với AI. Vẽ mask trực tiếp trên clip để AI re-generate vùng đó. LUT generation tự động tiết kiệm giờ color grading.",
       "source": "Higgsfield AI",
       "url": "https://higgsfield.ai/",
       "tags": [
@@ -118,145 +96,161 @@
         "davinci-resolve",
         "plugin"
       ]
+    },
+    {
+      "headline": "Luma AI Video Generator — Text/Image To Video Với Motion Control Chi Tiết",
+      "summary": "Luma AI cập nhật generator: prompt chi tiết camera angle, lighting, action. Càng specific về direction, output đầu tiên càng gần intent.",
+      "why": "Cho creative: Nếu bạn đang dùng Runway/Pika, test Luma — motion control tốt hơn cho product shots và architectural visualization. Free tier đủ cho prototype.",
+      "source": "Luma AI",
+      "url": "https://lumalabs.ai/create/ai-video-generator",
+      "tags": [
+        "video-generation",
+        "luma",
+        "motion-control"
+      ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "'Agents' Last Exam' — Nghiên Cứu Về Khoảng Cách Giữa Benchmark Và Deployment Thực Tế",
-      "summary": "Paper phân tích vì sao AI đạt high score trên benchmark nhưng fail khi deploy thật. Nguyên nhân: benchmark test narrow tasks, còn real-world yêu cầu multi-step reasoning, handle ambiguity, adapt context. Kết luận: cần redesign evaluation — test 'professional readiness', không chỉ 'task completion'.",
-      "why": "Cho manager/business: nếu vendor AI demo impressive benchmark score, hỏi 'real-world accuracy là bao nhiêu?'. Score 95% trên SWE-bench không đảm bảo AI code 95% production-ready. Đây là lý do nhiều enterprise AI project fail sau pilot.",
-      "source": "arXiv",
-      "url": "https://huggingface.co/papers/2606.05405",
+      "headline": "MIT: AI Agents Chơi Game Classic Hiệu Quả Hơn Model Lớn — 1% Chi Phí",
+      "summary": "MIT dùng game cổ điển làm test bed cho AI agents. Phát hiện: agent nhỏ (small model) có thể outperform big models ở 1% cost nếu thiết kế agent workflow đúng.",
+      "why": "Nghĩa là: Đừng assume model lớn = giải pháp tốt. Agent architecture (routing, planning, tool use) quan trọng hơn model size. Startup có thể compete với big player bằng smart agentic design thay vì burn tiền train model khổng lồ.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
       "tags": [
-        "research",
-        "evaluation",
-        "deployment"
-      ]
-    },
-    {
-      "headline": "'Is Grep All You Need?' — Nghiên Cứu Về Agent Harnesses Reshape Agentic Search",
-      "summary": "Paper so sánh simple grep-based search vs complex agentic search trong code navigation. Kết quả: grep + smart indexing đủ cho 70% use cases, chỉ 30% cần agentic reasoning. Implication: nhiều 'AI agent' feature là overkill — developer nên optimize cho simple case trước.",
-      "why": "Cho developer: trước khi adopt AI search tool phức tạp (như GitHub Copilot Workspace), thử optimize grep workflow trước. Nhiều khi bottleneck không phải search intelligence, mà là codebase structure tồi. Fix structure → grep đủ.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2605.15184",
-      "tags": [
-        "research",
-        "search",
-        "tooling"
+        "ai-agents",
+        "cost-optimization",
+        "mit-research"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Cognition Huy Động $1B, Định Giá $26B — 89% Code Công Ty Do AI Devin Viết",
-      "why": "Cho founder/business: Cognition giờ là case study về 'AI-first company'. 89% code do Devin (AI agent riêng) viết nghĩa là team engineering nhỏ hơn 80% so với competitor. Nếu bạn đang raise fund 2026, investor sẽ hỏi 'AI leverage ratio của bạn là bao nhiêu?'",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/09/cognition-1b-funding-round/",
+      "headline": "Token Efficiency Trở Thành Core Business Problem — Cost Routing Context Local Inference",
+      "summary": "Khi AI usage explode trong doanh nghiệp, token efficiency không còn là tech problem — là business problem. NLW phân tích: cost, routing, context management, local inference, model selection, 'dollars per outcome' đang thay thế 'raw intelligence' trong quyết định mua AI.",
+      "why": "Cho founder/CTO: Nếu AI cost >$10K/tháng, bạn cần chiến lược token efficiency. Routing logic (gửi query đơn giản cho model rẻ, query phức tạp cho model đắt) giảm 40-60% cost. Đây là competitive advantage 2026.",
+      "source": "AI Daily Brief Podcast",
+      "url": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
       "tags": [
-        "funding",
-        "cognition",
-        "devin"
+        "token-efficiency",
+        "cost-optimization",
+        "enterprise-ai"
       ]
     },
     {
-      "headline": "'Disrupted or Dead' — AI Đang Nghiền Nát Generation Startup Pre-ChatGPT",
-      "summary": "Phân tích CNBC: startup built 2020-2022 (pre-ChatGPT) đang sụp hoặc bị acquire giá rẻ vì competitor AI-native làm cùng việc với 1/10 cost. VD: startup CRM cũ cần 50 người, CRM AI-native cần 5 người. Exit path giờ là M&A với discount 70-90% so với peak valuation.",
-      "why": "Cho founder: nếu startup bạn built pre-2023 mà chưa integrate AI deep vào core product, bạn có 6-12 tháng để pivot hoặc tìm exit. Investor không patient với 'AI roadmap' nữa — họ cần thấy AI production ngay hôm nay.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html",
+      "headline": "Uber Giới Hạn AI Tool $1,500/Tháng/Nhân Viên — Pricing Signal 2026",
+      "summary": "Uber đặt cap $1,500/tháng cho AI tools mỗi nhân viên. Đây là data point quan trọng về giá trị mà enterprise sẵn sàng trả cho AI productivity tools.",
+      "why": "Cho founder AI tools: $1,500/user/month là ceiling Uber chấp nhận. Nếu tool bạn pricing >$100/user/month, cần chứng minh ROI rõ ràng hoặc aim vào SMB thay vì enterprise. Cho manager: Nếu team dùng AI tools vượt $1,500/user, review xem tool nào overlap hoặc underutilized.",
+      "source": "Context từ 7 ngày qua",
+      "url": "",
       "tags": [
-        "startup",
-        "valuation",
-        "m&a"
-      ]
-    },
-    {
-      "headline": "Justin Ernest Đầu Tư $400M Vào Startup Hot Không Cần VC Fund Truyền Thống",
-      "summary": "Thay vì raise fund chính thức, Ernest dùng 'captive LP network' để deploy capital nhanh vào Anthropic, Anduril, SpaceX. Đây là model mới: không chờ fund cycle 12-18 tháng, mà assemble capital on-demand cho từng deal. LP trust track record → wire tiền trong 1-2 tuần.",
-      "why": "Cho founder: nếu bạn có network LP tin tưởng, có thể raise capital nhanh hơn traditional VC 3-5 lần. Downside: không có brand name fund trên cap table. Trade-off: speed vs credibility signal.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-400m-into-hot-startups-without-a-traditional-vc-fund/",
-      "tags": [
-        "funding",
-        "vc",
-        "investment"
+        "pricing",
+        "enterprise",
+        "ai-tools"
       ]
     }
   ],
   "society": [
     {
-      "headline": "'Where Is the AI Jobs Crisis?' — Phân Tích Vì Sao Dữ Liệu Thất Nghiệp Chưa Phản Ánh AI Impact",
-      "summary": "Essay phân tích: mặc dù AI thay thế nhiều job function, unemployment data chưa tăng vọt. Lý do: (1) delay effect — sa thải diễn ra âm thầm qua attrition, không announce; (2) job shifting — người mất job A chuyển sang job B lower-paid; (3) measurement gap — BLS chưa track 'underemployment do AI'. Tác giả dự đoán crisis thực sự sẽ visible 2027-2028.",
-      "why": "Cho individual: nếu bạn đang trong ngành có high AI automation risk (customer service, junior coding, data entry), đừng đợi đến khi layoff wave rõ ràng. Reskill ngay hôm nay — khi crisis visible, đã quá muộn để compete trong job market.",
-      "source": "Apollo Wealth",
-      "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "headline": "Satya Nadella: 'Every Agent Needs Its Own Computer' — Builders Vẫn Đang Cho Chat Box",
+      "summary": "Satya Nadella định khung platform shift: mỗi agent cần computer riêng. Lý do agent bạn vẫn như demo thay vì worker: nó chỉ reason về code nhưng không run, không thấy error, không fix.",
+      "why": "Đây là critique về chat-based AI interfaces. Agent thực sự cần: 1) Environment để execute code 2) Feedback loop (run → error → fix) 3) Persistence. Nếu bạn build AI product mà chỉ trả text về, bạn đang miss platform shift này.",
+      "source": "The AI Corner",
+      "url": "https://www.the-ai-corner.com/p/give-your-agent-its-own-computer-2026",
       "tags": [
-        "jobs",
-        "economy",
-        "workforce"
+        "ai-agents",
+        "platform-shift",
+        "satya-nadella"
       ]
     },
     {
-      "headline": "GPT-2 'Too Dangerous To Release' (2019) — Nhìn Lại Quyết Định OpenAI",
-      "summary": "Bài viết nhìn lại quyết định 2019: OpenAI giữ GPT-2 vì sợ misuse (fake news, spam). 7 năm sau, GPT-2 trông 'vô hại' so với GPT-4/Claude. Bài học: (1) khả năng AI tăng nhanh hơn dự đoán, (2) 'dangerous' là relative — nguy hiểm hôm nay là bình thường ngày mai, (3) holding back model không ngăn được arms race, chỉ delay.",
-      "why": "Cho curious/business: khi đánh giá AI risk, đừng so với hiện tại — so với 2-3 năm sau. Model bạn deploy hôm nay sẽ bị outpace 6 tháng sau. Question: liệu governance framework của bạn có flexible đủ để adapt khi GPT-6 ra?",
-      "source": "Naoki Shibuya Blog",
-      "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
+      "headline": "Dario Amodei Essay: 'Policy On The AI Exponential' — AI Governance Trong Thời Đại Tăng Trưởng Mũ",
+      "summary": "CEO Anthropic viết essay về policy AI trong context tăng trưởng exponential. Luận điểm: regulation cần balance giữa safety và không stifle innovation khi capability tăng 10x mỗi 18 tháng.",
+      "why": "Cho manager/founder: Nếu bạn build AI product ảnh hưởng đến con người (hiring, lending, health), đọc essay này để hiểu regulatory landscape đang đi về đâu. EU AI Act chỉ là bắt đầu — US/Asia sẽ follow với approach khác.",
+      "source": "Dario Amodei Substack",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
       "tags": [
-        "ai-safety",
-        "history",
-        "governance"
+        "policy",
+        "governance",
+        "dario-amodei"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — Personal AI Assistant Open-Source Đạt 377K Stars",
-      "why": "Cho developer: alternative open-source cho các AI assistant proprietary. Chạy được mọi OS/platform, không lock-in vendor. Nếu concern về privacy (data gửi lên cloud), openclaw là option self-host.",
+      "headline": "Openclaw — Personal AI Assistant Open-Source, Any OS, Any Platform",
+      "why": "Cho developer: Nếu bạn muốn tự host AI assistant thay vì dùng cloud service, Openclaw là option mới. 378K stars trong vòng ngắn cho thấy demand cao về privacy-first AI assistant.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "377826"
+      "stars": "378006"
     },
     {
-      "headline": "n8n-io/n8n — Workflow Automation Platform Với Native AI, 400+ Integrations",
-      "why": "Cho manager/business: n8n là Zapier/Make alternative open-source. Native AI capabilities nghĩa là bạn có thể build workflow tích hợp AI (VD: email đến → GPT summarize → Slack notify) mà không code. Self-host = data không rời infra bạn.",
+      "headline": "Kilo.ai — AI Coding Agent Open-Source Cho VS Code, JetBrains, CLI, Cloud",
+      "why": "Cho developer: Kilo hỗ trợ 500+ models, bring your own keys, zero markup, local models. Nếu bạn dùng Cursor/Windsurf nhưng muốn flexibility hơn về model choice, test Kilo.",
+      "source": "Kilo AI",
+      "url": "https://kilo.ai/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation With Native AI Capabilities",
+      "why": "Cho manager: Nếu team cần automate workflows với AI (email processing, data extraction, content generation), n8n là Zapier open-source với AI native. Self-host hoặc cloud. 400+ integrations.",
       "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "191800"
+      "stars": "191968"
     },
     {
-      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
-      "why": "Cho developer: AI agent framework learn từ interaction với user. Khác với agent stateless (mỗi lần reset), hermes-agent nhớ context qua sessions. Use case: personal coding assistant học style code của bạn qua thời gian.",
-      "source": "GitHub",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "188793"
-    },
-    {
-      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow Development",
-      "why": "Cho developer/manager: Dify là platform build + deploy AI agents production-grade. Visual workflow builder + code flexibility. Nếu team bạn cần ship AI agent nhanh (không từ scratch), Dify giảm 60% dev time.",
+      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Cho developer: Nếu bạn build AI agents, Dify cung cấp orchestration layer production-ready. Visual builder + code, hỗ trợ multi-agent workflows. 144K stars.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "144585"
+      "stars": "144742"
     },
     {
-      "headline": "open-webui/open-webui — User-Friendly AI Interface Cho Ollama, OpenAI API",
-      "why": "Cho individual/developer: frontend đẹp cho local LLMs (Ollama) hoặc cloud API. Nếu bạn muốn ChatGPT-like UI nhưng self-host hoặc dùng model riêng, đây là lựa chọn top.",
+      "headline": "Hermes Agent — 'The Agent That Grows With You' Từ Nous Research",
+      "why": "Cho researcher/developer: Nous Research (team behind nhiều open models) ra agent framework focus vào learning và adaptation. Nếu bạn research về self-improving agents, check repo này.",
       "source": "GitHub",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "140856"
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "189936"
+    },
+    {
+      "headline": "Apache Burr — Build Reliable AI Agents And Applications",
+      "why": "Cho developer: Apache Foundation backing agent framework mới. Focus vào reliability (logging, debugging, rollback). Nếu bạn đang struggle với debug agentic workflows, Burr có observability built-in.",
+      "source": "Apache Burr",
+      "url": "https://burr.apache.org/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform",
+      "why": "LangChain vẫn là agent framework phổ biến nhất (138K stars), nhưng ecosystem phức tạp. Nếu project mới, cân nhắc alternatives nhẹ hơn như Burr hoặc Dify.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "138985"
     }
   ],
-  "model_updates": [],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] MoonshotAI Kimi K2.6 Free Bị Gỡ",
+      "event": "deprecated",
+      "summary": "Model moonshotai/kimi-k2.6:free không còn trên OpenRouter.",
+      "why": "Migrate users sang alternative model — Kimi free tier đã end.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6:free",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    }
+  ],
   "insight": null,
   "sources_count": {
-    "raw": 184,
-    "brave": 51,
+    "raw": 180,
+    "brave": 49,
     "reddit": 0,
-    "hackernews": 8,
+    "hackernews": 13,
     "rss": 51,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 8
+    "openrouter": 1
   }
 }
