@@ -1,0 +1,256 @@
+{
+  "date": "2026-06-11",
+  "updated_at": "2026-06-11T07:08:38.122161+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "Anthropic Ra Claude Fable 5 Công Khai — Mythos-Class Model Với Safeguards Mới",
+    "summary": "Sau 2 tháng private rollout với Wall Street, Anthropic công bố Claude Fable 5 (Mythos-class) cho enterprise và paid users. Model này có khả năng tạo game tương tác từ text prompt, nhưng đi kèm 30-day data retention requirement và safeguards nghiêm ngặt khiến security researchers phàn nàn không thể test vulnerabilities.",
+    "why": "Cho manager/security: Đây là precedent nguy hiểm — model mạnh nhưng bạn không kiểm soát data. AWS Bedrock bắt share data với Anthropic. Cho cá nhân: Nếu dùng Fable/Mythos, mọi prompt bị log 30 ngày. Đọc support doc trước khi deploy sensitive workloads.",
+    "source": "Anthropic, CNBC, TechCrunch",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "tags": [
+      "claude",
+      "mythos",
+      "enterprise-ai",
+      "data-privacy"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Claude Desktop Spawn VM 1.8GB Mỗi Lần Mở — Chỉ Để Chat",
+      "why": "Cho cá nhân: Nếu máy bạn chậm khi dùng Claude Desktop, đây là lý do — app spawn Hyper-V VM ngay cả khi không code. Tắt container mode hoặc dùng web version nếu không cần agentic features.",
+      "source": "GitHub Issue #29045",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "tags": [
+        "claude",
+        "desktop-app",
+        "performance"
+      ]
+    },
+    {
+      "headline": "€0.01 Bank Transfer Có Thể Hack AI Banking Agent",
+      "why": "Cho manager/security: AI agent xử lý giao dịch ngân hàng cần audit kỹ prompt injection. Case này chứng minh: chuyển 1 cent kèm prompt độc có thể chiếm quyền điều khiển. Test trước khi deploy production.",
+      "source": "Blue41 Security Blog",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "tags": [
+        "security",
+        "prompt-injection",
+        "fintech"
+      ]
+    },
+    {
+      "headline": "Lovable Đàm Phán Huy Động Vốn Định Giá $12B — AI Coding Startup Từ Stockholm",
+      "why": "Cho founder/investor: Lovable cho phép tạo app/website từ prompt. Định giá $12B cho thấy thị trường AI coding cực nóng (Cognition $26B, Cursor chưa rõ). Pattern: full-stack code generation là category đang explode.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/06/05/ai-coding-startup-lovable-in-talks-to-raise-funding-at-a-12-billion-valuation/",
+      "tags": [
+        "funding",
+        "ai-coding",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "Microsoft Build 2026: 7 Model MAI Mới — Reasoning, Voice, Code, Image",
+      "why": "Cho manager: Microsoft đang giảm phụ thuộc OpenAI bằng model family riêng. MAI-Thinking-1 cạnh tranh o1. Nếu bạn dùng Azure OpenAI, theo dõi MAI family — có thể cost thấp hơn và integrate chặt với Azure services.",
+      "source": "Microsoft Build 2026, Windows News",
+      "url": "https://mashable.com/tech/microsoft-launches-new-mai-family-of-models-at-build",
+      "tags": [
+        "microsoft",
+        "build",
+        "mai-models"
+      ]
+    },
+    {
+      "headline": "macOS Container Machines — Apple Mở Source Container Runtime Cho Mac",
+      "why": "Cho developer: Apple release container runtime native cho macOS. Nếu bạn chạy Docker/Podman trên Mac, đây là infra để tối ưu performance. Check docs nếu build CI/CD cho macOS environments.",
+      "source": "Apple GitHub",
+      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "tags": [
+        "apple",
+        "containers",
+        "open-source"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Dropdown Cho Chọn Veo 3.1, Sora, Pika — Video Gen All-In-One",
+      "summary": "Adobe tích hợp Google Veo, OpenAI Sora, Pika vào Firefly video generator. Designer giờ có thể test nhiều model trong cùng 1 interface, không cần switch tool.",
+      "why": "Cho creative: Workflow prototype video nhanh hơn 50% khi không phải export/import giữa các tool. Test Veo cho realism, Sora cho cinematic, Pika cho stylization — trong 1 dropdown.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-generation",
+        "adobe",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage In Timeline",
+      "summary": "Higgsfield ra plugin DaVinci Resolve: generate footage trực tiếp trong timeline, vẽ trên clip để edit, apply AI-generated LUTs. Không cần export/re-import.",
+      "why": "Cho editor: Giảm 70% thời gian roundtrip khi prototype footage với AI. Vẽ mask trực tiếp trên clip để AI re-generate vùng đó. LUT generation tự động tiết kiệm giờ color grading.",
+      "source": "Higgsfield AI",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video-editing",
+        "davinci-resolve",
+        "plugin"
+      ]
+    },
+    {
+      "headline": "Luma AI Video Generator — Text/Image To Video Với Motion Control Chi Tiết",
+      "summary": "Luma AI cập nhật generator: prompt chi tiết camera angle, lighting, action. Càng specific về direction, output đầu tiên càng gần intent.",
+      "why": "Cho creative: Nếu bạn đang dùng Runway/Pika, test Luma — motion control tốt hơn cho product shots và architectural visualization. Free tier đủ cho prototype.",
+      "source": "Luma AI",
+      "url": "https://lumalabs.ai/create/ai-video-generator",
+      "tags": [
+        "video-generation",
+        "luma",
+        "motion-control"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Agents Chơi Game Classic Hiệu Quả Hơn Model Lớn — 1% Chi Phí",
+      "summary": "MIT dùng game cổ điển làm test bed cho AI agents. Phát hiện: agent nhỏ (small model) có thể outperform big models ở 1% cost nếu thiết kế agent workflow đúng.",
+      "why": "Nghĩa là: Đừng assume model lớn = giải pháp tốt. Agent architecture (routing, planning, tool use) quan trọng hơn model size. Startup có thể compete với big player bằng smart agentic design thay vì burn tiền train model khổng lồ.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "ai-agents",
+        "cost-optimization",
+        "mit-research"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Token Efficiency Trở Thành Core Business Problem — Cost Routing Context Local Inference",
+      "summary": "Khi AI usage explode trong doanh nghiệp, token efficiency không còn là tech problem — là business problem. NLW phân tích: cost, routing, context management, local inference, model selection, 'dollars per outcome' đang thay thế 'raw intelligence' trong quyết định mua AI.",
+      "why": "Cho founder/CTO: Nếu AI cost >$10K/tháng, bạn cần chiến lược token efficiency. Routing logic (gửi query đơn giản cho model rẻ, query phức tạp cho model đắt) giảm 40-60% cost. Đây là competitive advantage 2026.",
+      "source": "AI Daily Brief Podcast",
+      "url": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
+      "tags": [
+        "token-efficiency",
+        "cost-optimization",
+        "enterprise-ai"
+      ]
+    },
+    {
+      "headline": "Uber Giới Hạn AI Tool $1,500/Tháng/Nhân Viên — Pricing Signal 2026",
+      "summary": "Uber đặt cap $1,500/tháng cho AI tools mỗi nhân viên. Đây là data point quan trọng về giá trị mà enterprise sẵn sàng trả cho AI productivity tools.",
+      "why": "Cho founder AI tools: $1,500/user/month là ceiling Uber chấp nhận. Nếu tool bạn pricing >$100/user/month, cần chứng minh ROI rõ ràng hoặc aim vào SMB thay vì enterprise. Cho manager: Nếu team dùng AI tools vượt $1,500/user, review xem tool nào overlap hoặc underutilized.",
+      "source": "Context từ 7 ngày qua",
+      "url": "",
+      "tags": [
+        "pricing",
+        "enterprise",
+        "ai-tools"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Satya Nadella: 'Every Agent Needs Its Own Computer' — Builders Vẫn Đang Cho Chat Box",
+      "summary": "Satya Nadella định khung platform shift: mỗi agent cần computer riêng. Lý do agent bạn vẫn như demo thay vì worker: nó chỉ reason về code nhưng không run, không thấy error, không fix.",
+      "why": "Đây là critique về chat-based AI interfaces. Agent thực sự cần: 1) Environment để execute code 2) Feedback loop (run → error → fix) 3) Persistence. Nếu bạn build AI product mà chỉ trả text về, bạn đang miss platform shift này.",
+      "source": "The AI Corner",
+      "url": "https://www.the-ai-corner.com/p/give-your-agent-its-own-computer-2026",
+      "tags": [
+        "ai-agents",
+        "platform-shift",
+        "satya-nadella"
+      ]
+    },
+    {
+      "headline": "Dario Amodei Essay: 'Policy On The AI Exponential' — AI Governance Trong Thời Đại Tăng Trưởng Mũ",
+      "summary": "CEO Anthropic viết essay về policy AI trong context tăng trưởng exponential. Luận điểm: regulation cần balance giữa safety và không stifle innovation khi capability tăng 10x mỗi 18 tháng.",
+      "why": "Cho manager/founder: Nếu bạn build AI product ảnh hưởng đến con người (hiring, lending, health), đọc essay này để hiểu regulatory landscape đang đi về đâu. EU AI Act chỉ là bắt đầu — US/Asia sẽ follow với approach khác.",
+      "source": "Dario Amodei Substack",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "tags": [
+        "policy",
+        "governance",
+        "dario-amodei"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "Openclaw — Personal AI Assistant Open-Source, Any OS, Any Platform",
+      "why": "Cho developer: Nếu bạn muốn tự host AI assistant thay vì dùng cloud service, Openclaw là option mới. 378K stars trong vòng ngắn cho thấy demand cao về privacy-first AI assistant.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "378006"
+    },
+    {
+      "headline": "Kilo.ai — AI Coding Agent Open-Source Cho VS Code, JetBrains, CLI, Cloud",
+      "why": "Cho developer: Kilo hỗ trợ 500+ models, bring your own keys, zero markup, local models. Nếu bạn dùng Cursor/Windsurf nhưng muốn flexibility hơn về model choice, test Kilo.",
+      "source": "Kilo AI",
+      "url": "https://kilo.ai/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation With Native AI Capabilities",
+      "why": "Cho manager: Nếu team cần automate workflows với AI (email processing, data extraction, content generation), n8n là Zapier open-source với AI native. Self-host hoặc cloud. 400+ integrations.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "191968"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Cho developer: Nếu bạn build AI agents, Dify cung cấp orchestration layer production-ready. Visual builder + code, hỗ trợ multi-agent workflows. 144K stars.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "144742"
+    },
+    {
+      "headline": "Hermes Agent — 'The Agent That Grows With You' Từ Nous Research",
+      "why": "Cho researcher/developer: Nous Research (team behind nhiều open models) ra agent framework focus vào learning và adaptation. Nếu bạn research về self-improving agents, check repo này.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "189936"
+    },
+    {
+      "headline": "Apache Burr — Build Reliable AI Agents And Applications",
+      "why": "Cho developer: Apache Foundation backing agent framework mới. Focus vào reliability (logging, debugging, rollback). Nếu bạn đang struggle với debug agentic workflows, Burr có observability built-in.",
+      "source": "Apache Burr",
+      "url": "https://burr.apache.org/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform",
+      "why": "LangChain vẫn là agent framework phổ biến nhất (138K stars), nhưng ecosystem phức tạp. Nếu project mới, cân nhắc alternatives nhẹ hơn như Burr hoặc Dify.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "138985"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] MoonshotAI Kimi K2.6 Free Bị Gỡ",
+      "event": "deprecated",
+      "summary": "Model moonshotai/kimi-k2.6:free không còn trên OpenRouter.",
+      "why": "Migrate users sang alternative model — Kimi free tier đã end.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6:free",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 180,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 13,
+    "rss": 51,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 1
+  }
+}
