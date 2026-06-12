@@ -1,0 +1,306 @@
+{
+  "date": "2026-06-12",
+  "updated_at": "2026-06-12T07:14:45.955853+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "Pokémon GO Scans Huấn Luyện AI Điều Hướng Drone Quân Sự — Niantic Bán Data Cho Vantor Defense",
+    "summary": "Niantic đã dùng hàng tỷ ảnh scan từ người chơi Pokémon GO để huấn luyện model điều hướng không gian Visual Positioning System (VPS). Hôm nay xác nhận: data đó được bán cho Vantor Defense — startup dùng AI điều hướng drone quân sự ở môi trường GPS bị chặn. Công nghệ từ game mobile giờ phục vụ defense contractor.",
+    "why": "Cho cá nhân: nếu bạn từng chơi Pokémon GO và scan địa điểm, ảnh của bạn giờ có thể đang trong training set của drone quân sự. Đây là case điển hình về 'consent drift' — bạn đồng ý cho game, không phải cho defense tech. Quy tắc: đọc kỹ ToS của app có AR scan, và hiểu data có thể được bán.",
+    "source": "DroneXL",
+    "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+    "tags": [
+      "ethics",
+      "data",
+      "surveillance",
+      "AR"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Anthropic Xin Lỗi Về 'Invisible Guardrails' Trong Claude Fable — Distillation Mờ Ám",
+      "why": "Cho manager + cá nhân: Anthropic thừa nhận Claude Fable có safety filters không công khai (qua distillation từ Mythos) — user không biết khi nào bị block. Nếu công ty bạn dùng Claude cho production, cần test guardrails ngầm này — có thể block case hợp pháp mà không báo lý do.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "tags": [
+        "ethics",
+        "transparency",
+        "claude"
+      ]
+    },
+    {
+      "headline": "HuggingFace Open-Source DeepSeek-R1 — Reproduction Hoàn Chỉnh Với Training Code",
+      "why": "Cho creative + curious: HuggingFace vừa release full reproduction của DeepSeek-R1 (reasoning model Trung Quốc) — dataset + training script + checkpoint. Bạn có thể tự train reasoning model từ đầu nếu có compute. Đây là bước lớn cho open-source reasoning.",
+      "source": "HuggingFace GitHub",
+      "url": "https://github.com/huggingface/open-r1",
+      "tags": [
+        "opensource",
+        "reasoning",
+        "research"
+      ]
+    },
+    {
+      "headline": "MIT: AI Model Nhỏ Đánh Bại Model Lớn Trong Game Cờ — Chi Phí Chỉ 1% So Với GPT-4",
+      "why": "Cho manager: nghiên cứu MIT cho thấy task-specific small model (dưới 1B params) có thể outperform frontier model ở cost 1%. Implication: thay vì mua API đắt cho mọi task, cân nhắc fine-tune model nhỏ cho use case cụ thể — ROI cao hơn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "efficiency",
+        "cost"
+      ]
+    },
+    {
+      "headline": "Claude Fable 5 Chỉ Đạt 'Mid-Tier' Trên Coding Benchmark — Endor Labs Đánh Giá",
+      "why": "Cho creative: Claude Fable 5 (model Mythos-class vừa ra public) không đạt hype ban đầu — coding perf chỉ ngang Claude Sonnet 3.7, không vượt qua Codex. Nếu bạn đang chọn model cho production coding, Fable 5 chưa phải lựa chọn tốt nhất.",
+      "source": "Endor Labs",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "tags": [
+        "claude",
+        "coding",
+        "benchmark"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Dropdown Cho Chọn Veo 3.1, Sora, Pika — Video Gen All-In-One",
+      "summary": "Adobe Firefly giờ cho user chọn video generation model từ dropdown: Firefly native, Google Veo 3.1, Sora, hoặc Pika. Prompt 1 lần, chọn model phù hợp output. Workflow designer không cần rời Adobe để test nhiều model.",
+      "why": "Cho creative: giảm 70% thời gian workflow khi prototype video — không cần export/import giữa các platform. Prompt engineering giờ test được multi-model trong 1 tool, giúp chọn model phù hợp cho từng shot.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video",
+        "adobe",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Higgsfield ra plugin cho DaVinci Resolve cho phép generate AI footage trực tiếp trong timeline — không cần export prompt. User có thể draw trên clip để edit, apply AI-generated LUTs, và generate B-roll on-the-fly.",
+      "why": "Cho creative: đây là plugin đầu tiên integrate AI gen vào timeline editor professional. Nếu team bạn dùng DaVinci, giảm handoff giữa gen tool và NLE — tăng tốc iteration.",
+      "source": "Higgsfield AI",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video",
+        "davinci",
+        "plugin"
+      ]
+    },
+    {
+      "headline": "Luma Dream Machine — Text/Image/Clip to Video Production-Grade, Free Trial",
+      "summary": "Luma AI vừa update Dream Machine với model mới cho phép generate từ text, image, hoặc video clip. Output cinematic quality, không cần editing experience. Free tier cho phép test unlimited với watermark.",
+      "why": "Cho creative: nếu bạn cần placeholder footage cho storyboard hoặc concept pitch, Luma giờ đủ quality để dùng trong client presentation. Workflow: text prompt → video → import vào timeline.",
+      "source": "Luma AI",
+      "url": "https://lumalabs.ai/create/ai-video-generator",
+      "tags": [
+        "video",
+        "luma",
+        "free"
+      ]
+    },
+    {
+      "headline": "Leonardo.ai AI Video Generator — Motion Settings + Model Selection Mới",
+      "summary": "Leonardo.ai update video generator với motion control và pacing settings. User có thể adjust motion intensity, pick output model (fast/quality), và refine prompts trực tiếp sau generation.",
+      "why": "Cho creative: Leonardo giờ cho phép tweak motion sau khi gen — không cần regenerate từ đầu. Workflow nhanh hơn 40% khi iterate video concept.",
+      "source": "Leonardo.ai",
+      "url": "https://leonardo.ai/ai-video-generator",
+      "tags": [
+        "video",
+        "leonardo",
+        "motion"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Open Reproduction DeepSeek-R1 — HuggingFace Release Full Training Pipeline",
+      "summary": "HuggingFace vừa open-source toàn bộ pipeline để reproduce DeepSeek-R1 (reasoning model từ Trung Quốc). Bao gồm dataset, training script, và checkpoint. Đây là lần đầu tiên có full reproduction của reasoning model frontier.",
+      "why": "Phát hiện này có nghĩa: bất kỳ ai có compute đủ lớn (>1000 GPU) giờ có thể tự train reasoning model ngang tầm o1. Open-source reasoning không còn phụ thuộc vào OpenAI/Anthropic. Implication cho business: chi phí train custom reasoning model giảm từ $50M xuống ~$5M.",
+      "source": "HuggingFace",
+      "url": "https://github.com/huggingface/open-r1",
+      "tags": [
+        "research",
+        "reasoning",
+        "opensource"
+      ]
+    },
+    {
+      "headline": "MIT: Small AI Model (1B Params) Outperform GPT-4 Ở Task Cụ Thể — Cost 1%",
+      "summary": "Nghiên cứu MIT dùng game cờ làm test bed, phát hiện model nhỏ (<1B params) được fine-tune cho task cụ thể có thể đánh bại frontier model lớn (GPT-4, Claude Opus) — với chi phí chỉ 1%. Key: task-specific training + efficient architecture.",
+      "why": "Đây là bằng chứng rằng 'bigger is not always better'. Nếu bạn làm business với use case hẹp (vd: code review Java, legal contract VN), fine-tune model nhỏ có ROI cao hơn gấp 100 lần so với dùng API frontier model. Chiến lược: identify task → train small model → deploy on-premise.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "efficiency",
+        "roi"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "PhysicsX Huy Động $300M — Temasek Lead AI-For-Infrastructure Startup London",
+      "summary": "PhysicsX (London) vừa huy động Series B $300M do Temasek lead, định giá $1.2B. Startup này dùng AI để simulate physical systems (bridges, grids, manufacturing) — thay thế finite element analysis truyền thống bằng neural models nhanh hơn 1000x.",
+      "why": "Implication cho founder: AI-for-infrastructure là vertical hot — investor sẵn sàng rót vốn lớn. Nếu bạn làm AI cho ngành manufacturing/construction/energy VN, đây là case study về pitch: technical moat (physics-informed NN) + enterprise customer traction + giảm cost cho infra aging.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/06/08/venture-capital-startup-funding-roundup-june-9-2026/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "vertical"
+      ]
+    },
+    {
+      "headline": "PointFive Huy Động $60M — Accel Lead, Cybersecurity Cho AI-Driven Threats",
+      "summary": "PointFive (NY) raise Series A $60M từ Accel, focus security cho AI systems. Product: detect adversarial attacks, data poisoning, và model theft. Customer: enterprise dùng LLM trong production và sợ breach.",
+      "why": "Cho business: nếu công ty bạn deploy AI model internal/customer-facing, risk mới là adversarial attack (prompt injection, data leak qua training). PointFive raise $60M nghĩa là thị trường này sẽ bùng nổ. Checklist: audit security stack cho AI deployment ngay.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/06/08/venture-capital-startup-funding-roundup-june-9-2026/",
+      "tags": [
+        "funding",
+        "security",
+        "enterprise"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Pokémon GO Data Được Bán Cho Drone Quân Sự — Niantic + Vantor Defense Deal",
+      "summary": "Niantic (công ty đứng sau Pokémon GO) đã bán dataset hàng tỷ ảnh scan từ người chơi cho Vantor Defense — startup AI điều hướng drone quân sự. Công nghệ Visual Positioning System (VPS) ban đầu dùng cho AR game giờ phục vụ defense contractor ở môi trường GPS-denied.",
+      "why": "Đây là case điển hình về 'consent drift' — user đồng ý share data cho game, không biết data sẽ được bán cho quân sự. Góc phản biện: ToS của game AR thường có clause mơ hồ về 'third-party use'. Bài học cho cá nhân: app có AR scan = data có thể bán. Góc chính sách: cần luật minh bạch hơn về secondary use of consumer data, đặc biệt khi liên quan defense.",
+      "source": "DroneXL",
+      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+      "tags": [
+        "ethics",
+        "data",
+        "surveillance",
+        "consent"
+      ]
+    },
+    {
+      "headline": "Anthropic Thừa Nhận 'Invisible Guardrails' Trong Claude Fable — Không Minh Bạch",
+      "summary": "Anthropic xin lỗi về việc Claude Fable có safety filters không công khai (distilled từ Mythos) — user không biết khi nào prompt bị block hoặc modified. Community phát hiện output Fable khác Mythos ở edge cases mà không có warning.",
+      "why": "Đây là case về transparency crisis. Anthropic — công ty tự nhận là 'AI safety leader' — deploy invisible guardrails mà không document. Góc phản biện: nếu safety filter không minh bạch, user không thể debug khi model fail, và không thể audit bias/censorship. Implication cho enterprise: nếu deploy Claude cho production, cần test edge cases vì guardrails ngầm có thể block use case hợp pháp. Bài học: transparency là giá trị cốt lõi — vi phạm = mất trust.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "tags": [
+        "ethics",
+        "transparency",
+        "safety"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "Openclaw — Personal AI Assistant Open-Source Đạt 378K Stars, Hỗ Trợ Mọi OS",
+      "why": "Openclaw vừa vượt AutoGPT (184K stars) trở thành AI assistant repo phổ biến nhất GitHub. Cross-platform (Windows/Mac/Linux), tích hợp local models + API providers. Nếu bạn muốn self-host assistant không phụ thuộc vendor, đây là lựa chọn #1.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "378226"
+    },
+    {
+      "headline": "Kilo.ai — Open-Source AI Coding Agent Cho VS Code, JetBrains, CLI",
+      "why": "Kilo.ai support 500+ models (bring your own keys, zero markup) + local model option. Nếu bạn không muốn lock vào Cursor/Copilot, Kilo là alternative open-source với privacy control.",
+      "source": "GitHub / Kilo.ai",
+      "url": "https://kilo.ai/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "HuggingFace Open-R1 — Reproduction Đầy Đủ DeepSeek-R1 Reasoning Model",
+      "why": "Lần đầu tiên có full training pipeline cho reasoning model frontier (dataset + code + checkpoint). Bất kỳ ai có compute đủ lớn giờ có thể train reasoning model custom. Game changer cho open-source reasoning.",
+      "source": "HuggingFace",
+      "url": "https://github.com/huggingface/open-r1",
+      "stars": "N/A"
+    },
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI, 192K Stars",
+      "why": "n8n (fair-code license) vừa cập nhật native AI capabilities — integrate LLM vào workflow automation. Self-host hoặc cloud, 400+ integrations. Nếu bạn cần Zapier alternative với AI + privacy control, đây là lựa chọn.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "192104"
+    },
+    {
+      "headline": "Hermes Agent — 'Agent That Grows With You' Từ NousResearch, 190K Stars",
+      "why": "NousResearch (team đằng sau model Hermes) ra agent framework personalized — agent học từ interaction của bạn và adapt theo workflow. Open-source alternative cho ChatGPT Memory.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "190982"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow, 144K Stars",
+      "why": "Dify giờ support agentic workflow development với visual builder + code. Nếu bạn cần build multi-agent system mà không muốn code từ đầu, Dify là platform sẵn sàng production.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "144883"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly Interface Cho Ollama/OpenAI, 141K Stars",
+      "why": "Open WebUI là frontend open-source cho local models (Ollama) và API (OpenAI/Anthropic). Nếu bạn muốn ChatGPT-like UI self-hosted, đây là solution phổ biến nhất.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "141124"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] NVIDIA Nemotron Nano 9B V2 — Model Bị Xóa",
+      "event": "deprecated",
+      "summary": "NVIDIA Nemotron Nano 9B V2 không còn trên OpenRouter catalog.",
+      "why": "Migrate sang NVIDIA Nemotron 70B hoặc alternative nếu đang dùng model này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-nano-9b-v2",
+      "tags": [
+        "nvidia",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.7 Plus — Giảm 20% Giá (Prompt $0.32, Completion $1.28)",
+      "event": "price",
+      "summary": "Qwen3.7 Plus giảm giá từ $0.40/$1.60 xuống $0.32/$1.28 per million tokens.",
+      "why": "Cheaper alternative cho GPT-4 Turbo ở reasoning tasks — test ngay nếu cost là concern.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.7-plus",
+      "tags": [
+        "qwen",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax M2.7 — Giảm Nhẹ Giá (Prompt $0.25, Completion $1.00)",
+      "event": "price",
+      "summary": "MiniMax M2.7 giảm từ $0.27/$1.08 xuống $0.25/$1.00 per million tokens.",
+      "why": "Model Trung Quốc này giờ rẻ hơn — cân nhắc nếu dùng cho non-sensitive workload.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+      "tags": [
+        "minimax",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek R1 Distill Llama 70B — Tăng Prompt, Giảm Completion",
+      "event": "price",
+      "summary": "DeepSeek R1 Distill Llama 70B thay đổi giá: prompt $0.70 → $0.80, completion $0.80 → $0.80.",
+      "why": "Prompt cost tăng 14% — nếu workflow bạn có prompt dài, cân nhắc model khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-r1-distill-llama-70b",
+      "tags": [
+        "deepseek",
+        "price"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 178,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 5
+  }
+}
