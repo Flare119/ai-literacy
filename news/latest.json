@@ -1,316 +1,312 @@
 {
-  "date": "2026-06-13",
-  "updated_at": "2026-06-13T07:13:16.349132+07:00",
-  "weekday": "Saturday",
+  "date": "2026-06-14",
+  "updated_at": "2026-06-14T06:58:40.317909+07:00",
+  "weekday": "Sunday",
   "top_story": {
-    "headline": "Terry Tao — Toán Học Đỉnh Cao Nhận AI Vào 'Đội' Vì Lý Do Bất Ngờ",
-    "summary": "Giáo sư Fields Medal Terry Tao (UCLA) từng hoài nghi AI nhưng giờ dùng GPT-4 + Claude hàng ngày. Lý do không phải AI thay toán học gia, mà là AI giúp 'test nhanh hypotheses tồi' trước khi đầu tư thời gian chứng minh. Pattern: công cụ tốt không thay thế chuyên môn, nó tăng tốc phần 'grunt work' để chuyên gia focus vào phần sâu. Áp dụng production: nếu Terry Tao — người không thiếu IQ — vẫn cần AI để filter bad ideas nhanh, team bạn cũng cần AI để filter bad cuts/shots/scripts trước khi đốt ngày render.",
-    "why": "Cho manager: Nếu người đỉnh cao như Terry Tao dùng AI để 'fail fast', team bạn cũng nên. Tool không thay chuyên môn, nó giải phóng thời gian cho decision chất lượng cao. Cho cá nhân: Học cách dùng AI như Terry Tao — test giả thuyết nhanh, không phải tin AI mù quáng.",
-    "source": "Quanta Magazine",
-    "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+    "headline": "Amazon CEO Đàm Phán Với Chính Phủ Mỹ Kích Hoạt Cấm Anthropic Models — Quyền Lực Đằng Sau Màn",
+    "summary": "CEO Amazon Andy Jassy đã có cuộc đàm phán với quan chức Mỹ dẫn đến việc các cơ quan chính phủ bị cấm sử dụng model Anthropic (Claude Mythos/Fable). WSJ tiết lộ động thái này có thể liên quan đến lợi ích cạnh tranh — Amazon đang đầu tư mạnh vào Anthropic nhưng cũng phát triển AI riêng cho AWS. Quyết định chặn model của đối tác chính mình cho thấy đường ranh mỏng giữa 'national security' và chiến lược kinh doanh.",
+    "why": "Cho business/founder: đây là case study về conflict of interest khi đầu tư vào đối tác đồng thời cạnh tranh. Cho manager: minh chứng vendor lock-in risk — nếu bạn đặt cược vào 1 model, policy shift bất ngờ có thể phá vỡ roadmap. Cho cá nhân: nhắc nhở rằng 'AI an toàn' đôi khi là cớ cho lợi ích thương mại — skepticism cần thiết.",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
     "tags": [
-      "research",
-      "productivity",
-      "critical-thinking"
+      "anthropic",
+      "amazon",
+      "regulation",
+      "conflict-of-interest",
+      "enterprise-ai"
     ]
   },
   "quick_hits": [
     {
-      "headline": "AI Agent Phá Sản Chủ Nhân Khi Quét DN42 Network — Chi Phí Ngoài Tầm Kiểm Soát",
-      "why": "Cho manager: Agent autonomy cần hard limit về cost/resource — không có guardrail = thảm hoạ tài chính. Cho cá nhân: Nếu dùng agent tự động, luôn set spending cap.",
-      "source": "Hacker News",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "headline": "TensorZero — OSS AI Tool Đóng Repo Đêm Sau Khi Raise $7.3M Seed",
+      "why": "Startup AI dev tool đóng repo GitHub sau 1 đêm không rõ lý do — có thể pivot sang closed-source hoặc nội bộ. Signal: funding không guarantee open-source commitment. Nếu bạn build trên OSS tool của startup, luôn chuẩn bị plan B.",
+      "source": "GitHub/HN",
+      "url": "https://github.com/tensorzero/tensorzero",
       "tags": [
-        "agent",
-        "risk",
-        "cost-control"
+        "open-source",
+        "startup",
+        "funding"
       ]
     },
     {
-      "headline": "Palantir Thua Kiện Tạp Chí Thụy Sĩ — Công Ty Giám Sát Không Chặn Được Báo Chí Điều Tra",
-      "why": "Cho manager: Transparency thắng opacity. Nếu model kinh doanh bạn dựa vào giấu thông tin, prepare for legal/PR crisis. Cho cá nhân: Khi chọn employer, check ethical track record — Palantir-style company = red flag dài hạn.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979",
+      "headline": "Cảnh Sát Anh Dùng AI Tạo 'Chứng Cứ' Trong Nhiều Vụ Án — Đang Bị Điều Tra",
+      "why": "Cho manager/cá nhân: cảnh báo về ethics AI trong law enforcement. Nếu công ty bạn build AI tool cho government/legal, guardrails phải cực kỳ chặt — một sai lầm thành scandal toàn quốc. Cost of AI hallucination ở đây: người vô tội vào tù.",
+      "source": "Sky News",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
       "tags": [
         "ethics",
-        "transparency",
-        "legal"
+        "law-enforcement",
+        "ai-misuse"
       ]
     },
     {
-      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Giống GPS Làm Giảm Sense Of Direction",
-      "why": "Cho cá nhân: Nếu bạn outsource fact-checking cho AI, bạn đang yếu đi khả năng phê phán. Train bản thân verify trước khi tin AI. Cho manager: Không nên để team rely hoàn toàn vào AI moderation — human judgment vẫn cần maintain.",
+      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Như GPS Giảm Sense Of Direction",
+      "why": "Cho cá nhân: cảnh báo về 'cognitive offloading' — càng dựa vào AI verify info, bạn càng mất skill tự phán đoán. Rủi ro lâu dài: generation không biết suy nghĩ phản biện. Action: chủ động luyện critical thinking dù có AI.",
       "source": "MIT News",
       "url": "https://news.mit.edu/topic/artificial-intelligence2",
       "tags": [
-        "society",
+        "cognitive-offloading",
         "critical-thinking",
-        "skill-decay"
+        "fake-news"
       ]
     },
     {
-      "headline": "Claude Fable 5 'Relentlessly Proactive' — Simon Willison Phân Tích Tính Năng Mới",
-      "why": "Cho creative: Fable 5 tự động đề xuất next steps không cần prompt — tốt cho brainstorm, nhưng cần kiểm soát khi execute. Dễ bị cuốn theo suggestion không phù hợp context.",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "headline": "Nghiên Cứu: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "why": "Cho creative: nghiên cứu Swansea University chứng minh AI augment creativity thay vì kill it — khi dùng đúng cách. Counter-narrative với doom narrative 'AI thay thế artist'. Key: dùng AI như tool expand idea, không phải outsource thinking.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "tags": [
-        "tool-review",
-        "claude",
-        "workflow"
+        "creativity",
+        "augmentation",
+        "creative-work"
       ]
     },
     {
-      "headline": "'Bạn Chỉ Cần Upload Lên ChatGPT Thôi Mà?' — Essay Về Hiểu Lầm Công Việc Trí Tuệ",
-      "why": "Cho cá nhân: Nếu sếp/khách hàng nghĩ công việc bạn = 'upload lên ChatGPT', bạn chưa communicate được value thật. Explain process, không chỉ output. Cho manager: Educate stakeholder về complexity — tránh undervalue team.",
+      "headline": "Satya Nadella: 'Mỗi AI Agent Cần Máy Tính Riêng' — Không Phải Chatbox",
+      "why": "Cho manager/developer: Nadella frame lại platform shift — agent cần environment execute code/see error/fix, không chỉ chat. Nếu team bạn đang build AI product mà chỉ có chat UI, bạn đang build demo, không phải worker. Rethink architecture.",
+      "source": "The AI Corner",
+      "url": "https://www.the-ai-corner.com/p/give-your-agent-its-own-computer-2026",
+      "tags": [
+        "ai-agents",
+        "architecture",
+        "microsoft"
+      ]
+    },
+    {
+      "headline": "Kiro.dev — AI Agent Trigger Trên File Save, Tự Động Generate Docs/Tests",
+      "why": "Cho developer: tool mới cho agentic development — agent chạy background khi bạn save file, auto generate test/doc theo prompt. Khác với Copilot (sync), đây là async workflow. Tiết kiệm thời gian cho repetitive tasks. Free trial có.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "dev-tools",
+        "automation",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Show HN: Paca — Jira Alternative Nhẹ Cho Human-AI Collaboration",
+      "why": "Cho manager: nếu team bạn thấy Jira quá nặng và muốn integrate AI vào task management, đây là open-source option. Lightweight, focus collaboration giữa người và AI agent. Worth test nếu đang rethink PM tool.",
       "source": "Hacker News",
-      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "url": "https://github.com/Paca-AI/paca",
       "tags": [
-        "career",
-        "communication",
-        "value"
-      ]
-    },
-    {
-      "headline": "Guide: Setup Local Coding Agent Trên macOS — Self-Hosted AI Dev Environment",
-      "why": "Cho creative/cá nhân: Nếu bạn code side project hoặc automation, local agent giúp avoid monthly subscription + giữ data private. Tutorial này cover setup từ đầu.",
-      "source": "Hacker News",
-      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
-      "tags": [
-        "tutorial",
-        "self-hosted",
-        "privacy"
-      ]
-    },
-    {
-      "headline": "Giảm 'Sloppiness' Của AI-Generated Front-End — Quick Fixes Practical",
-      "why": "Cho creative: AI code UI thường sloppy (spacing lỗi, naming inconsistent). Bài này list quick fixes để clean up trước khi ship — giúp output pro hơn 30%.",
-      "source": "Hacker News",
-      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "tags": [
-        "code-quality",
-        "workflow",
-        "ui"
+        "project-management",
+        "collaboration",
+        "open-source"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Kling 3.0 Launch — Video 3.0 Omni, Image 3.0 Omni Cho 'Everyone Can Be Director'",
-      "summary": "Kling (Kuaishou) vừa ra 4 model mới (Video 3.0, Video 3.0 Omni, Image 3.0, Image 3.0 Omni) hôm 12/6/2026. Omni = multimodal input (text/image/audio → video). Marketing angle là 'mọi người đều có thể làm đạo diễn' — nhưng chất lượng output chưa rõ so với Sora/Veo.",
-      "why": "Cho creative: Thêm 1 lựa chọn video gen — test nếu cần alternative cho Sora/Veo. Nhưng chưa có review độc lập, nên treat như beta. Cho manager: Chưa nên pivot workflow vào Kling cho đến khi có case study thực tế.",
-      "source": "OpenPR",
-      "url": "https://www.openpr.com/news/4547050/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can",
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Plugin AI video gen tích hợp vào DaVinci Resolve, cho phép generate footage ngay trong timeline, draw on clip để edit, apply AI-generated LUTs. Workflow không cần export sang tool khác.",
+      "why": "Cho creative/producer: giảm friction giữa AI gen và editing workflow. Nếu bạn đang dùng Resolve, test plugin này — có thể giảm 30-50% thời gian round-trip giữa gen tool và NLE. Production-grade integration đang arrive.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
       "tags": [
-        "video-generation",
-        "new-tool",
-        "multimodal"
+        "video-production",
+        "davinci-resolve",
+        "workflow"
       ]
     },
     {
-      "headline": "Leonardo.ai Video Generator — Text/Image To Video, Social/Presentation/Production Workflows",
-      "summary": "Leonardo.ai (nổi tiếng với image gen) giờ có video generator. Workflow: chọn model → adjust motion/pacing via prompt → download. Marketing angle là 'production-grade' nhưng chưa có benchmark với Sora/Veo/Kling.",
-      "why": "Cho creative: Nếu bạn đã dùng Leonardo cho image, giờ có video trong cùng platform — giảm context switching. Nhưng test trước khi commit project lớn. Cho manager: Consolidate tools nếu quality đủ tốt — giảm số subscription.",
-      "source": "Leonardo.ai",
-      "url": "https://leonardo.ai/ai-video-generator",
+      "headline": "Adobe Firefly Dropdown Chọn Google Veo, Sora, Pika — Video Gen All-In-One",
+      "summary": "Adobe Firefly giờ cho phép chọn model từ dropdown: Firefly native, Google Veo 3.1, Sora, Pika. Prompt 1 lần, switch model để compare kết quả. All-in-one platform.",
+      "why": "Cho creative: Adobe đang aggregate models thay vì lock vào 1 vendor. Bạn có thể test nhiều model trong cùng UI, giảm context switch. Nhưng cũng là lock-in vào Adobe ecosystem — cân nhắc vendor dependency.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
         "video-generation",
-        "tool-consolidation"
+        "adobe",
+        "multi-model"
+      ]
+    },
+    {
+      "headline": "OpenArt Suite — AI Creator Studio Cho Video/Image/Character/Audio Một Chỗ",
+      "summary": "Platform all-in-one: create video, image, character, audio. Consistency engine giúp giữ character/style/world coherent qua creations. Powered by Google Veo, Kling, Nano Banana.",
+      "why": "Cho creative studio: nếu team bạn cần consistency cross-asset (character design → video → audio), đây là tool worth test. Alternative cho setup nhiều tool riêng lẻ. Trade-off: less control vs more convenience.",
+      "source": "OpenArt",
+      "url": "https://openart.ai/home",
+      "tags": [
+        "creative-tools",
+        "consistency",
+        "multi-modal"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 — ByteDance Đứng #1 Text-to-Video Leaderboard Với Audio",
+      "summary": "Seedance 2.0 (phần Doubao 2.0 của ByteDance) launch 12/2/2026, đạt #1 Artificial Analysis Text-to-Video leaderboard với audio (1213 Elo). Vượt Sora/Veo.",
+      "why": "Cho creative: ByteDance (công ty TikTok) giờ có model text-to-video tốt nhất. Nếu bạn làm short-form content, theo dõi — có thể integrate vào TikTok workflow sau này. Cạnh tranh video gen đang nóng.",
+      "source": "Pinggy",
+      "url": "https://pinggy.io/blog/best_video_generation_ai_models/",
+      "tags": [
+        "bytedance",
+        "video-generation",
+        "leaderboard"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Nghiên Cứu MIT: AI Làm Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
-      "summary": "Swansea University (phối hợp MIT) nghiên cứu cho thấy AI làm con người 'more creative', không phải replace creativity. Cơ chế: AI giúp explore idea space nhanh hơn, người dùng có thời gian suy nghĩ sâu hơn về solution tốt nhất. Pattern tương tự Terry Tao case.",
-      "why": "Cho cá nhân: Nếu bạn sợ AI thay thế sáng tạo, nghiên cứu này cho thấy ngược lại — dùng AI đúng cách tăng output sáng tạo. Cho manager: Invest vào training 'AI-assisted creativity', không phải 'AI replacement'.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "headline": "Gemma 3n — Google Model Mới Natively Multilingual & Multimodal (Text/Image/Video/Audio)",
+      "summary": "Google ra Gemma 3n — model nhỏ hơn Gemini nhưng native hỗ trợ đa ngôn ngữ và đa modal (text, image, video, audio). Optimize cho developer muốn self-host hoặc edge deployment.",
+      "why": "Cho developer: nếu bạn cần model nhẹ mà vẫn handle được tiếng Việt + multimodal, Gemma 3n là option. Không cần GPT-4 scale nếu use case đơn giản. Giảm cost + latency khi deploy local.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
       "tags": [
-        "creativity",
-        "human-ai-collaboration",
-        "productivity"
+        "google",
+        "gemma",
+        "multilingual",
+        "multimodal"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Recursive Superintelligence Huy Động $650M Định Giá $4.65B — Stealth AI Lab Từ London",
-      "summary": "Recursive Superintelligence (London, stealth mode) vừa công bố $650M funding led by GV (Google Ventures) + Greycroft, định giá $4.65B. Focus: self-improving AI systems. Nvidia cũng tham gia round này. Đây là lab 'pursuit AGI', tương tự DeepMind giai đoạn đầu.",
-      "why": "Cho business/founder: $4.65B valuation cho startup chưa ra product = investor tin vào team + vision lớn. Nếu bạn raise vốn, cần narrative dài hạn rõ ràng + pedigree strong. Cho đầu tư: Stealth AI lab với GV backing = high risk/high reward — track theo.",
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/",
+      "headline": "Intellectible Raise $3M Seed — AI Startup Tự Động Workflow Cho Service Companies",
+      "summary": "Intellectible (Austin, Texas) huy động $3M seed để build AI automation cho service companies (dọn dẹp, sửa chữa, tư vấn) — focus customer acquisition và workflow.",
+      "why": "Cho founder/business: vertical AI đang hot (không chỉ horizontal tool). Nếu bạn làm service business (plumbing, cleaning, consulting), AI automation cho workflow + lead gen có thể tăng 2-3x revenue. Market đang shift từ 'AI cho mọi người' sang 'AI cho ngành cụ thể'.",
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/intellectible-raises-3m-seed/",
       "tags": [
-        "funding",
-        "valuation",
-        "AGI",
-        "stealth"
+        "vertical-ai",
+        "service-industry",
+        "funding"
       ]
     },
     {
-      "headline": "AWS Activate Credits: Lên Tới $200K Cho Startups — Cover Infrastructure + AI/ML Models",
-      "summary": "AWS program 'Activate' offer credit lên tới $200,000 cho startup cover chi phí infrastructure, data services, AI/ML models. Apply-based, không phải tự động. Dành cho startup giai đoạn đầu cần scale nhanh.",
-      "why": "Cho founder: Nếu bạn đang burn cash vào AWS, apply Activate Credits ngay — $200K = runway thêm 3-6 tháng cho infra. Cho business: Cloud credit programs = cách tốt negotiate leverage với vendor — check GCP/Azure có program tương tự.",
-      "source": "AWS",
-      "url": "https://aws.amazon.com/startups/",
+      "headline": "Q1 2026: AI Chiếm 57% Tất Cả Venture Capital — 130-155 Startup Raise Mỗi Tuần",
+      "summary": "Báo cáo Q1 2026: AI startup chiếm 57% toàn bộ VC funding. Mỗi tuần có 130-155 công ty close funding, phần lớn spend trong 90 ngày đầu sau round (go-to-market nhanh).",
+      "why": "Cho founder: nếu bạn không phải AI startup, bạn đang cạnh tranh với 57% capital flow vào AI. Nếu bạn LÀ AI startup — market đông nghẹt, differentiation cực quan trọng. Investor FOMO đang peak — cơ hội raise cao nhưng cũng là bubble signal.",
+      "source": "FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/abnewswire-2026-6-10-q1-2026-startup-funding-report-ai-takes-57-of-all-capital",
       "tags": [
-        "funding",
+        "venture-capital",
+        "funding-trends",
+        "bubble-risk"
+      ]
+    },
+    {
+      "headline": "Venture Capital Roundup 9/6: PhysicsX $300M, PointFive $60M — AI-For-Infrastructure Theme",
+      "summary": "Tuần này: Temasek lead PhysicsX (London) $300M, Accel back PointFive (NY) $60M. Theme chung: AI for infrastructure (simulation, optimization). Cybersecurity AI (A Security, InfoHawk) cũng raise hàng chục triệu để tackle AI threats.",
+      "why": "Cho founder/đầu tư: trend shift từ 'AI consumer app' sang 'AI infrastructure' (physics simulation, cloud optimization, cybersecurity). Nếu bạn build B2B AI cho enterprise infra, đây là timing tốt để pitch. Market đang mature khỏi hype về chatbots.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/06/08/venture-capital-startup-funding-roundup-june-9-2026/",
+      "tags": [
+        "venture-capital",
         "infrastructure",
-        "startup-resources"
-      ]
-    },
-    {
-      "headline": "Apple WWDC 2026: Siri AI — 'Entirely New Version' Của Siri Ra Mắt",
-      "summary": "Apple công bố 'Siri AI' tại WWDC 2026 hôm 13/6 — 'entirely new version' với Apple Intelligence gen 2. Chi tiết chưa rõ nhưng likely integration sâu hơn với on-device model + privacy-first approach (Apple style). Release timeline: likely iOS 19 fall 2026.",
-      "why": "Cho business: Nếu bạn build app iOS, prepare cho Siri AI API mới — có thể là opportunity tích hợp voice agent. Cho cá nhân: Apple vào cuộc AI assistant muộn hơn Google/Amazon nhưng ecosystem lock-in mạnh — đáng theo dõi adoption.",
-      "source": "Apple Newsroom",
-      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
-      "tags": [
-        "apple",
-        "voice-assistant",
-        "ecosystem"
-      ]
-    },
-    {
-      "headline": "Token Efficiency = Core Business Problem — Chi Phí Token Tăng Khi AI Usage Explodes",
-      "summary": "The AI Daily Brief podcast (13/6) phân tích: khi AI usage bùng nổ trong doanh nghiệp, token efficiency trở thành vấn đề kinh doanh cốt lõi. Metric mới: 'dollars per outcome' thay vì chỉ nhìn 'intelligence'. Cost, routing, context, local inference, model selection = 5 lever để optimize.",
-      "why": "Cho business/manager: Nếu team bạn dùng AI nhiều, bắt đầu track cost per outcome (vd $/completed task) thay vì chỉ nhìn total spend. Routing request tới model rẻ hơn khi task đơn giản = low-hanging fruit. Cho founder: Token cost = COGS mới — optimize hoặc margin sụp.",
-      "source": "Apple Podcasts - The AI Daily Brief",
-      "url": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
-      "tags": [
-        "cost-optimization",
-        "token-efficiency",
-        "metrics"
+        "cybersecurity"
       ]
     }
   ],
   "society": [
     {
-      "headline": "Satya Nadella: 'Every Agent Needs Its Own Computer' — Nhưng Hầu Hết Builder Vẫn Đưa Cho Agent Cái Chat Box",
-      "summary": "The AI Corner phân tích phát ngôn của Satya Nadella tại Build 2026: 'every agent needs its own computer'. Vấn đề: hầu hết agent hiện tại chỉ là chatbot fancy — không có khả năng run code, see error, fix it. Agent thực sự cần environment riêng (container, VM) để execute task end-to-end. Đây là platform shift lớn — tương tự shift từ desktop app sang web app.",
-      "why": "Cho curious/manager: Hiểu 'agent' không phải chatbot — agent thật cần compute environment để làm việc độc lập. Nếu vendor bán 'agent' nhưng chỉ là chat wrapper, đó không phải agentic platform. Cho business: Đầu tư vào agent infrastructure (containers, sandboxes) là next wave — không chỉ model.",
-      "source": "The AI Corner",
-      "url": "https://www.the-ai-corner.com/p/give-your-agent-its-own-computer-2026",
+      "headline": "'Open Source AI Must Win' — Manifesto Về Tầm Quan Trọng Của AI Mở",
+      "summary": "Bài viết manifesto lập luận vì sao open-source AI phải thắng: tránh vendor lock-in, minh bạch về bias/safety, phân quyền thay vì tập trung vào Big Tech, cho phép innovation tự do. Phản biện với trend closed-source models (OpenAI, Anthropic).",
+      "why": "Cho curious/manager: đây là debate lớn trong AI — open vs closed. Nếu bạn build trên closed model (GPT/Claude), bạn phụ thuộc vendor. Nếu dùng open (Llama, Mistral), bạn control nhưng phải tự host/tune. Long-term: open-source AI có thể ngăn monopoly, nhưng cũng có rủi ro misuse. Đọc để hiểu trade-offs.",
+      "source": "opensourceaimustwin.com",
+      "url": "https://opensourceaimustwin.com/?share=v2",
       "tags": [
-        "agent-architecture",
-        "platform-shift",
-        "infrastructure"
+        "open-source",
+        "vendor-lock-in",
+        "ai-governance"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "n8n — Fair-Code Workflow Automation Với Native AI Capabilities",
-      "why": "Cho creative/manager: n8n cho phép build automation workflow (giống Zapier) nhưng self-host + tích hợp AI native. Nếu cần automate production pipeline mà giữ data in-house, đây là lựa chọn tốt. 192K stars = mature.",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "192228"
-    },
-    {
-      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
-      "why": "Cho business/founder: Nếu bạn build product có agentic workflow (multi-step AI tasks), Dify là platform ready-made. 145K stars = proven. Giảm time-to-market so với build from scratch.",
-      "source": "GitHub",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "144995"
-    },
-    {
-      "headline": "Open WebUI — User-Friendly AI Interface Support Ollama, OpenAI API",
-      "why": "Cho cá nhân: Nếu bạn dùng Ollama (local LLM) hoặc OpenAI API, Open WebUI là front-end đẹp + dễ dùng. Self-host được, không cần pay subscription ChatGPT UI.",
-      "source": "GitHub",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "141272"
-    },
-    {
-      "headline": "Openclaw — Personal AI Assistant Open-Source Đạt 378K Stars",
-      "why": "Cho cá nhân: Personal AI assistant cross-platform (Any OS). 378K stars = hype lớn — nhưng check commit activity trước khi rely (có thể là fork/aggregator repo).",
+      "headline": "openclaw/openclaw — Personal AI Assistant Cross-Platform 'The Lobster Way' 🦞",
+      "why": "AI assistant self-host cho mọi OS. Nếu bạn muốn control data/privacy thay vì dùng ChatGPT cloud, đây là OSS option. 378K stars — hype cao, nhưng check roadmap trước khi invest time.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "378393"
+      "stars": "378569"
     },
     {
-      "headline": "NousResearch Hermes Agent — 'The Agent That Grows With You'",
-      "why": "Cho curious/developer: Hermes Agent từ NousResearch (team behind Hermes models) — agent learn from user over time. 192K stars = worth exploring nếu bạn quan tâm personalized agent.",
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "AI agent framework từ Nous Research (team open-source model Hermes). Focus 'learning agent' — agent improve theo thời gian từ user feedback. Nếu bạn build custom agent, worth explore. 192K stars.",
       "source": "GitHub",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "191972"
+      "stars": "192751"
     },
     {
-      "headline": "System Prompts & Models Của 20+ AI Coding Tools — Reverse-Engineered Collection",
-      "why": "Cho developer/curious: Repo này collect system prompts + models của Cursor, Devin, Lovable, Windsurf, v.v. — giúp hiểu cách các tool này hoạt động. Useful cho học prompt engineering hoặc build tool tương tự.",
+      "headline": "n8n-io/n8n — Workflow Automation Platform Với Native AI, Self-Host Hoặc Cloud",
+      "why": "Fair-code workflow tool (giữa open-source và proprietary), 400+ integrations, native AI capabilities. Alternative cho Zapier nhưng self-host được. Nếu team bạn cần automation + AI + data privacy, test n8n. 192K stars.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "192389"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — Vision Of Accessible AI For Everyone",
+      "why": "AutoGPT — pioneer của autonomous AI agent movement. Giờ focus 'AI for everyone to use and build on'. Nếu bạn mới vào AI agents, đây là starting point tốt. 184K stars, mature codebase.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184930"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Platform build AI agent workflows production-ready. Visual builder + custom code. Nếu team bạn muốn deploy agents không cần code from scratch, Dify là OSS option mature. 145K stars.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "145086"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Hỗ Trợ Ollama, OpenAI API)",
+      "why": "Web UI cho local AI models (Ollama) + cloud API (OpenAI). Nếu bạn muốn ChatGPT-like interface nhưng self-host, đây là best option. 141K stars. Easy setup.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "141393"
+    },
+    {
+      "headline": "x1xhlol/system-prompts-and-models-of-ai-tools — FULL System Prompts Của Mọi AI Coding Tool",
+      "why": "Leak/reverse-engineer system prompts của Cursor, Devin, Lovable, Windsurf, Replit, v.v. Nếu bạn muốn hiểu 'magic' đằng sau AI coding tools hoặc build tool riêng, đây là gold mine. Ethical gray zone nhưng educational value cao.",
       "source": "GitHub",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
       "stars": "N/A"
+    },
+    {
+      "headline": "langchain-ai/langchain — The Agent Engineering Platform",
+      "why": "LangChain — framework phổ biến nhất cho build AI agents/chains. 139K stars. Nếu bạn làm AI app, khả năng cao bạn sẽ dùng LangChain hoặc competitor (LlamaIndex). Mature ecosystem.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "139211"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] MoonshotAI: Kimi K2.7 Code",
-      "event": "new",
-      "summary": "Coding-focused model trong Kimi K2 family, built cho end-to-end programming tasks over long contexts. Native multimodal mixture-of-experts.",
-      "why": "Alternative coding model cho production — test nếu cần long-context code generation (vd refactor codebase lớn).",
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Giảm Giá ↓$0.09/↓$0.18 per M Tokens",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash giảm từ $0.10/$0.20 xuống $0.09/$0.18 (prompt/completion). Model fast inference từ DeepSeek.",
+      "why": "Cheaper alternative cho GPT-3.5 Turbo tier. Nếu workload bạn cần speed > quality, test DeepSeek V4 Flash — giờ rẻ hơn 10%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "price-drop",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Kimi K2.7 Code Giảm Giá ↓$0.75/↓$3.50 per M Tokens",
+      "event": "price",
+      "summary": "MoonshotAI Kimi K2.7 Code giảm từ $0.95/$4.00 xuống $0.75/$3.50 (prompt/completion). Model code với 30% ít reasoning tokens hơn K2.6.",
+      "why": "Coding model giá tốt hơn — nếu bạn dùng OpenRouter cho code generation, Kimi K2.7 Code vừa rẻ hơn vừa hiệu quả token hơn. Switch để save cost.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
       "tags": [
+        "price-drop",
         "coding",
-        "long-context"
-      ]
-    },
-    {
-      "headline": "[OpenRouter DEPRECATED] Llama Guard 3 8B Removed",
-      "event": "deprecated",
-      "summary": "Meta Llama Guard 3 8B không còn available trên OpenRouter. Migrate sang alternative moderation model.",
-      "why": "Nếu bạn dùng Llama Guard cho content moderation, tìm replacement ngay (vd Anthropic Constitutional AI hoặc OpenAI Moderation API).",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/meta-llama/llama-guard-3-8b",
-      "tags": [
-        "moderation",
-        "deprecation"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Instruct ↑220% Prompt, ↑33% Completion",
-      "event": "price",
-      "summary": "Qwen vision-language model tăng giá mạnh: prompt $0.25 → $0.80 (+220%), completion $0.75 → $1.00 (+33%).",
-      "why": "Nếu bạn dùng Qwen2.5 VL cho vision tasks, cost tăng đột biến — cân nhắc switch sang alternative (vd GPT-4o, Claude 3.5 Sonnet) hoặc optimize prompt.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
-      "tags": [
-        "pricing",
-        "vision-language"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Qwen3.6 27B Completion ↑32%",
-      "event": "price",
-      "summary": "Qwen3.6 27B completion cost tăng $2.40 → $3.17 (+32%), prompt giữ nguyên $0.29.",
-      "why": "Completion cost tăng = ảnh hưởng generation tasks (vd long-form content). Nếu dùng Qwen3.6 cho generation nhiều, track cost spike.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
-      "tags": [
-        "pricing"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.5 Giảm Prompt 5%, Tăng Completion 6%",
-      "event": "price",
-      "summary": "Kimi K2.5 điều chỉnh giá nhẹ: prompt $0.40 → $0.38 (-5%), completion $1.90 → $2.02 (+6%).",
-      "why": "Net impact nhỏ — chủ yếu ảnh hưởng workload generation-heavy. Monitor nếu bạn dùng Kimi K2.5.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
-      "tags": [
-        "pricing"
+        "moonshotai"
       ]
     }
   ],
-  "insight": null,
+  "insight": "Tuần này có 2 pattern đáng chú ý — một về quyền lực, một về skill.\n\n**Pattern 1: Quyền lực đằng sau AI policy.** Tin top (Amazon CEO trigger cấm Anthropic models) là case study hoàn hảo cho Quy tắc #5 AI Mentor: 'Your biggest risk is what you're not seeing.' Khi chính phủ Mỹ cấm model AI vì 'national security', câu hỏi không phải 'có an toàn không' mà là 'ai được lợi'. Andy Jassy đàm phán với chính phủ, model của Anthropic (đối tác mà Amazon đầu tư $4B) bị cấm — đồng thời AWS đang build AI riêng cạnh tranh. Đây không phải conspiracy theory; đây là conflict of interest cấu trúc. Nếu bạn là founder/manager build trên 1 model duy nhất (vendor lock-in), policy shift bất ngờ có thể phá roadmap. Delay effect: bạn sẽ không thấy rủi ro cho đến khi quá muộn. **Action:** Diversify model dependency. Nếu production stack phụ thuộc 100% vào Claude hoặc GPT, đầu tư vào fallback plan (open-source model, multi-provider setup). Cost thêm 10-20% infrastructure ngày hôm nay tốt hơn mất 3 tháng migrate khi vendor bị cấm.\n\n**Pattern 2: AI đang erode cognitive skills — và chúng ta chưa nhận ra.** MIT research (AI làm giảm khả năng detect fake news) + Satya Nadella ('agent cần máy tính riêng, không phải chatbox') cùng point về 1 vấn đề: chúng ta đang offload thinking cho AI mà không train replacement skill. GPS giết sense of direction. AI sẽ giết critical thinking nếu ta chỉ accept output mà không question. Đây là case cho Quy tắc #10: Take Care of Yourself — nhưng mở rộng: take care of your *cognitive health*. Nếu bạn dùng AI code/write/decide mỗi ngày mà không chủ động luyện skill suy luận, 2-3 năm sau bạn sẽ phụ thuộc hoàn toàn. **Action cho cá nhân:** Mỗi tuần, làm ít nhất 1 task hoàn toàn manual — code không Copilot, viết không ChatGPT, research không AI summary. Giữ 'muscle memory' của skill core. **Action cho manager:** Đừng measure productivity chỉ bằng output speed. Nếu team bạn ship code nhanh gấp đôi nhờ AI nhưng không ai hiểu architecture — đó là technical debt sẽ nổ sau 1 năm.\n\n**Cuối tuần, 1 reflection question:** Bạn có skill nào đang dần 'teo' vì AI thay thế mà bạn chưa nhận ra? Và nếu AI tool đó biến mất ngày mai, bạn còn làm được công việc của mình không?",
   "sources_count": {
-    "raw": 173,
-    "brave": 52,
+    "raw": 144,
+    "brave": 51,
     "reddit": 0,
-    "hackernews": 8,
-    "rss": 42,
-    "huggingface": 6,
+    "hackernews": 6,
+    "rss": 34,
+    "huggingface": 7,
     "github": 10,
-    "openrouter": 5
+    "openrouter": 2
   }
 }
