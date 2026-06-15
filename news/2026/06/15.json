@@ -1,0 +1,234 @@
+{
+  "date": "2026-06-15",
+  "updated_at": "2026-06-15T07:01:43.068946+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "KPMG Rút Báo Cáo Về AI Vì Hallucination — Big 4 Đầu Tiên Thừa Nhận Lỗi Công Khai",
+    "summary": "KPMG đã rút một báo cáo về sử dụng AI sau khi phát hiện các dấu hiệu hallucination rõ ràng. Đây là lần đầu tiên một công ty Big 4 phải công khai thừa nhận lỗi do AI tạo thông tin sai lệch trong tài liệu chính thức.",
+    "why": "Cho manager: đây là warning về việc áp AI vào báo cáo/tài liệu công ty mà không có review process chặt chẽ. KPMG có hàng nghìn chuyên gia vẫn lọt lỗi này — văn hoá 'ship fast' với AI đang tạo systemic risk. Cần human-in-the-loop cho mọi deliverable quan trọng, đặc biệt tài liệu pháp lý/tài chính.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+    "tags": [
+      "hallucination",
+      "enterprise",
+      "risk"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Rio de Janeiro Tạo LLM Riêng — Hóa Ra Merge Model Có Sẵn, Không 'Homegrown'",
+      "why": "Cho manager: case study về marketing AI washing. Chính quyền Rio claim 'homegrown LLM' nhưng GitHub issue phơi bày đây chỉ là merge Qwen + open models. Khi vendor claim proprietary AI, yêu cầu technical proof.",
+      "source": "GitHub/Hacker News",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "tags": [
+        "ai-washing",
+        "government",
+        "transparency"
+      ]
+    },
+    {
+      "headline": "Anthropic Tắt Model Cao Cấp Sau Lệnh Mỹ Hạn Chế Truy Cập Nước Ngoài",
+      "why": "Cho business: export control AI đang leo thang. Nếu dùng Claude Fable/Mythos-class cho production, cần plan B ngay vì geopolitical risk có thể cut access bất cứ lúc nào — đặc biệt nếu serve khách ngoài Mỹ.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
+      "tags": [
+        "geopolitics",
+        "regulation",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "Jeff Bezos AI Startup 'Prometheus' Định Giá $41 Tỷ USD Sau Vòng Gọi Vốn Mới",
+      "why": "Cho business: Bezos pivot từ e-commerce sang AI với định giá ngang Anthropic trước khi Claude boom — signal về AI infrastructure play dài hạn. Nếu đang raise capital cho AI startup, đây là comp data mới nhất cho deep-tech valuation.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+      "tags": [
+        "funding",
+        "valuation",
+        "bezos"
+      ]
+    },
+    {
+      "headline": "MIT: AI Làm Người Dùng Mất Khả Năng Phát Hiện Fake News — Như GPS Giảm Khả Năng Định Hướng",
+      "why": "Cho cá nhân: over-reliance vào AI fact-checking đang làm yếu critical thinking skill. Cơ chế tương tự GPS làm suy giảm navigation sense — nếu dùng AI verify tin tức, cần maintain routine tự kiểm chứng thủ công để giữ skill.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "cognitive-bias",
+        "critical-thinking",
+        "research"
+      ]
+    },
+    {
+      "headline": "New York Bắt Buộc Quảng Cáo Phải Ghi Nhãn 'AI-Generated Synthetic Performers'",
+      "why": "Cho creative: nếu dùng AI avatar/deepfake cho quảng cáo ở Mỹ, luật mới NY yêu cầu disclosure rõ ràng. Ảnh hưởng production workflow — cần legal review trước khi ship content có AI-generated human likeness.",
+      "source": "AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "tags": [
+        "regulation",
+        "disclosure",
+        "advertising"
+      ]
+    },
+    {
+      "headline": "Anthropic Cam Kết $200M Nghiên Cứu Tác Động Kinh Tế AI — CEO Gợi Ý Giải Pháp Thất Nghiệp",
+      "why": "Cho manager: Anthropic đang hedge reputation risk về job displacement bằng research fund. Signal rằng các AI lab lớn đang chuẩn bị cho backlash xã hội — nếu công ty bạn đang deploy AI thay thế nhân viên, cần comms strategy về reskilling/transition.",
+      "source": "AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "tags": [
+        "jobs",
+        "research",
+        "anthropic"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Cho Chọn Google Veo, Sora, Pika — Video Gen Tất Cả Trong 1 Tool",
+      "summary": "Adobe Firefly text-to-video giờ có dropdown chọn model: Firefly native, Google Veo 3.1, Sora, Pika. User không cần nhảy giữa nhiều platform — tất cả video generation workflow trong cùng 1 interface Creative Cloud.",
+      "why": "Cho creative: giảm 50% thời gian context switching khi prototype video. Thay vì login 4 tool khác nhau, giờ chỉ cần 1 Adobe account. Trade-off: bị lock vào ecosystem Adobe, nhưng nếu đã dùng Premiere/After Effects thì integration này tiết kiệm effort đáng kể.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-gen",
+        "adobe",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Plugin mới cho phép generate AI footage ngay trong DaVinci Resolve timeline, draw trên clip để edit, apply AI-generated LUTs. Không cần export/import giữa tools.",
+      "why": "Cho creative: tích hợp AI vào timeline editor thực sự (không phải demo). Hữu ích cho placeholder shots hoặc rapid prototype. Cẩn thận về IP ownership nếu dùng cho client work — check license model Higgsfield trước khi ship commercial.",
+      "source": "Higgsfield AI",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "davinci-resolve",
+        "plugin",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 Từ ByteDance Đứng #1 Text-to-Video Leaderboard — Ra Ngày 12/2/2026",
+      "summary": "Seedance 2.0 là phần của Doubao 2.0 release từ ByteDance, hiện đứng #1 trên Artificial Analysis Text-to-Video leaderboard với audio (1213 Elo), vượt Veo 3.1 và Sora.",
+      "why": "Cho creative: ByteDance (TikTok owner) đang lead video gen — signal họ có data moat lớn nhất thế giới về short-form video. Nếu Seedance public API, đây có thể là tool mạnh nhất cho social media content. Follow release notes để early access.",
+      "source": "Pinggy",
+      "url": "https://pinggy.io/blog/best_video_generation_ai_models/",
+      "tags": [
+        "video-gen",
+        "bytedance",
+        "benchmark"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu mới từ Swansea University (published via MIT News) cho thấy AI làm tăng creativity của con người, không phải thay thế. Cơ chế: AI giúp explore nhiều hướng suy nghĩ hơn, giảm fixation vào 1 giải pháp duy nhất.",
+      "why": "Cho curious: nghiên cứu này counter narrative 'AI kills creativity'. Phát hiện: khi dùng AI như brainstorming partner (không phải auto-generate), người dùng ra được ý tưởng đa dạng hơn 40% so với làm 1 mình. Gợi ý: dùng AI cho divergent thinking phase, tự làm convergent phase.",
+      "source": "ScienceDaily/MIT News",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "research",
+        "cognitive"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Moonshot AI (Trung Quốc) Huy Động Vốn Lớn — Startup Đằng Sau Kimi K2.7-Code",
+      "summary": "Moonshot AI, công ty đằng sau model Kimi K2.7-Code (claim giảm 30% reasoning token vs K2.6), vừa huy động vòng funding mới với backing từ Alphabet và nhà đầu tư toàn cầu, theo Intellizence report tháng 5/2026.",
+      "why": "Cho business: Moonshot đang scale fast với modified MIT license — signal Trung Quốc đang đuổi kịp về efficiency (30% token reduction = 30% cost saving cho inference). Nếu serve thị trường châu Á, đây là competitor phải theo dõi về pricing pressure.",
+      "source": "Intellizence",
+      "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-may-2026-ai-infrastructure-and-robotics/",
+      "tags": [
+        "funding",
+        "china",
+        "efficiency"
+      ]
+    },
+    {
+      "headline": "Intellectible (Austin) Huy Động $3M Seed — Tự Động Hóa Workflow Cho Service Companies",
+      "summary": "Startup AI từ Austin raise $3M seed để automate workflows và enhance customer acquisition cho các công ty dịch vụ (service companies).",
+      "why": "Cho business: vertical AI play cho service industry — không phải generic chatbot. Nếu bạn chạy agency/consulting/service firm, đây là case study về AI automation cho sales/ops. Check xem approach của họ có applicable cho business model bạn không.",
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/intellectible-raises-3m-seed/",
+      "tags": [
+        "funding",
+        "vertical-ai",
+        "automation"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Gabriel Weinberg: 'Không Phải Ai Cũng Dùng AI Cho Mọi Thứ' — Phân Tích Adoption Thực Tế",
+      "summary": "CEO DuckDuckGo viết bài phân tích về cách người dùng thực sự consume AI — không phải hype cycle 'AI everywhere', mà selective adoption based on trust và use case fit.",
+      "why": "Cho manager: bài này counter narrative 'nếu không AI hóa mọi thứ thì bị tụt hậu'. Data cho thấy user chọn lọc tool — dùng AI cho task rõ ràng (draft email, summarize), nhưng vẫn giữ human judgment cho decision quan trọng. Implication: đừng forced AI vào mọi process, focus vào high-leverage use cases.",
+      "source": "Gabriel Weinberg Blog",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "tags": [
+        "adoption",
+        "user-behavior",
+        "skepticism"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant Mọi OS, Đạt 378K Stars GitHub",
+      "why": "Open-source AI assistant cross-platform (Any OS). 378K stars = một trong những repo AI trending mạnh nhất hiện nay. Nếu cần self-host alternative cho Claude/ChatGPT, đây là option đáng test.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "378711"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Với Native AI, 192K Stars",
+      "why": "Alternative cho Zapier/Make.com với native AI capabilities. 192K stars. Self-host được, 400+ integrations. Nếu đang build internal automation và muốn control data, n8n là choice phổ biến nhất trong OSS community.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "192525"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — 184K Stars, Vision: Accessible AI For Everyone",
+      "why": "AutoGPT vẫn trending (184K stars) dù nhiều tool mới ra. Mission: provide tools để user focus vào 'what matters'. Nếu mới tìm hiểu autonomous agents, đây là starting point canonical.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184940"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow, 145K Stars",
+      "why": "Platform để build agentic workflows production-ready. 145K stars. Alternative cho LangChain với focus vào deployment. Nếu cần ship agent-based app, Dify có UI builder + infra sẵn.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "145202"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Ollama, OpenAI API), 141K Stars",
+      "why": "Self-host web UI cho local LLMs (Ollama) hoặc OpenAI API. 141K stars. Nếu muốn ChatGPT-like interface nhưng self-host với data privacy, đây là tool phổ biến nhất.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "141516"
+    },
+    {
+      "headline": "langchain-ai/langchain — The Agent Engineering Platform, 139K Stars",
+      "why": "LangChain vẫn dominant trong agent engineering (139K stars). Nếu build AI app phức tạp với multi-step reasoning, đây vẫn là de facto standard dù có nhiều competitor.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "139280"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 150,
+    "brave": 52,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 43,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 0
+  }
+}
