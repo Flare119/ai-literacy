@@ -1,0 +1,370 @@
+{
+  "date": "2026-06-16",
+  "updated_at": "2026-06-16T07:23:27.676301+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Xài Grok 4.20 Multi-Agent Giảm Giá 58% — xAI Hạ $1.25/$2.50 Per Million Tokens",
+    "summary": "xAI vừa cắt giá Grok 4.20 Multi-Agent từ $2/$6 xuống $1.25/$2.50 per million tokens — giảm 37.5% prompt, 58% completion. Model multi-agent từng đắt nhất bây giờ rẻ hơn GPT-4o Turbo.",
+    "why": "Cho manager + cá nhân: nếu đang dùng GPT-4o cho multi-agent workflows, test Grok 4.20 ngay — tiết kiệm 40-50% chi phí API khi scale. Nếu project bị block vì budget inference, đây là cơ hội mở lại.",
+    "source": "OpenRouter Catalog",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent",
+    "tags": [
+      "pricing",
+      "multi-agent",
+      "xAI",
+      "cost-optimization"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Anthropic Tắt Model Cao Cấp Sau Lệnh Mỹ Hạn Chế Truy Cập Nước Ngoài",
+      "why": "Cho manager: nếu team có người nước ngoài đang dùng Claude Mythos/Fable, họ sẽ bị mất access. Backup plan ngay — chuyển sang Gemini hoặc GPT-4o cho phần workflow đó. Delay 1 tuần có thể dừng production.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
+      "tags": [
+        "policy",
+        "access",
+        "Anthropic",
+        "compliance"
+      ]
+    },
+    {
+      "headline": "Anthropic Ra Claude Fable 5 Công Khai — Mythos-Class Model Giờ Ai Cũng Dùng Được",
+      "why": "Cho creative + curious: model từng bị giới hạn 2 tháng giờ mở cho paid subscribers. Fable 5 tạo game tương tác từ text — test ngay nếu làm prototype interactive content hoặc gamification.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model",
+      "tags": [
+        "model-launch",
+        "Anthropic",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "DeepSeek V4 Flash Tăng Giá 11-12% — $0.09→$0.10 Prompt, $0.18→$0.20 Completion",
+      "why": "Cho cá nhân + manager: nếu đang dùng DeepSeek V4 Flash vì rẻ, chuẩn bị tăng 11% chi phí. Vẫn rẻ hơn GPT-4o nhưng margin giảm — review lại cost forecast nếu scale lớn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "pricing",
+        "DeepSeek",
+        "cost-increase"
+      ]
+    },
+    {
+      "headline": "Google Ra DiffusionGemma — Tốc Độ Tăng 4x, Không Chạy Theo Kiểu Linear",
+      "why": "Cho curious + creative: DiffusionGemma (Gemma 4 family) generate image không linear như model khác — kiến trúc mới 4x nhanh. Nếu quan tâm image gen optimization, đọc paper để hiểu cách làm.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "tags": [
+        "image-generation",
+        "Google",
+        "Gemma",
+        "optimization"
+      ]
+    },
+    {
+      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Giống GPS Làm Mất Khả Năng Định Hướng",
+      "why": "Cho cá nhân: nếu bạn dùng AI tóm tắt tin tức hàng ngày, cảnh giác — research MIT chỉ ra AI làm giảm critical thinking về fake news. Giống GPS làm bạn không còn nhớ đường. Train lại skill verify nguồn thủ công thường xuyên.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "critical-thinking",
+        "fake-news",
+        "cognitive-impact"
+      ]
+    },
+    {
+      "headline": "Jeff Bezos AI Startup 'Prometheus' Định Giá $41 Tỷ USD Sau Vòng Gọi Vốn $12B",
+      "why": "Cho business/founder: Prometheus raise series B $12B ở định giá $41B — đây là mức tăng trưởng nhanh nhất từ seed đến series B trong lịch sử AI. Pattern: founder star + timing đúng = valuation phi lý. Nếu bạn raise 2026, đừng anchor vào case này.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+      "tags": [
+        "funding",
+        "valuation",
+        "Bezos",
+        "Prometheus"
+      ]
+    },
+    {
+      "headline": "Apple Ra Core AI Framework — Architecture Mới Xoay Quanh Google Gemini",
+      "why": "Cho manager + creative: Apple không tự build LLM mà partner Google Gemini — nghĩa là workflow iOS/macOS sẽ integration Gemini native. Nếu team dùng Apple ecosystem, chuẩn bị migrate prompt từ GPT sang Gemini format.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "tags": [
+        "Apple",
+        "Gemini",
+        "framework",
+        "platform-shift"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Dropdown Cho Chọn Veo 3.1, Sora, Pika — Video Gen All-In-One",
+      "summary": "Adobe Firefly giờ có dropdown menu chọn model: Firefly native, Google Veo, Sora, Pika. Generate video trong cùng 1 tool, không cần switch app. Prompt viết 1 lần, test 4 model.",
+      "why": "Cho creative: giảm 50% thời gian prototype video — viết prompt 1 lần, chạy 4 model song song, chọn output tốt nhất. Không phải export/import giữa các tool. Nếu làm production video, test ngay.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-generation",
+        "Adobe",
+        "Firefly",
+        "workflow-optimization"
+      ]
+    },
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Higgsfield ra plugin DaVinci Resolve: generate AI footage ngay trong timeline, vẽ trên clip để edit, apply AI-generated LUTs. Không cần export/import.",
+      "why": "Cho creative/producer: nếu dùng Resolve, plugin này giảm 70% friction giữa AI gen và edit. Generate B-roll hoặc VFX shots in-place, không cần roundtrip qua web tool. Đây là workflow mới cho production pipeline.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video-production",
+        "DaVinci-Resolve",
+        "plugin",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "OpenArt Suite — Tạo Video, Image, Character, Audio Trong 1 Tool, Giữ Consistent",
+      "summary": "OpenArt Suite: all-in-one AI creator studio — image, video, character, audio. Giữ character/world/style consistent across creations. Powered by Veo, Kling, Nano Banana.",
+      "why": "Cho creative: nếu bạn làm series content cần character consistency (mascot, nhân vật phim), đây là giải pháp. Trước đây phải manual match style giữa Midjourney/Runway/ElevenLabs — giờ 1 tool sync hết.",
+      "source": "OpenArt",
+      "url": "https://openart.ai/home",
+      "tags": [
+        "creative-suite",
+        "consistency",
+        "character-design"
+      ]
+    },
+    {
+      "headline": "Kiro.dev — AI Agent Trigger Trên File Save, Tự Động Generate Docs/Tests",
+      "summary": "Kiro: AI agent chạy background, trigger khi file save. Pre-defined prompts để generate docs, unit tests, hoặc optimize code — không cần manual run.",
+      "why": "Cho creative/producer code content pipeline: nếu bạn code tool nội bộ (script Premiere, After Effects automation), Kiro giúp auto-document và test. Giảm technical debt khi prototype nhanh.",
+      "source": "Kiro.dev",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "automation",
+        "developer-tools",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Làm Người Dùng Mất Khả Năng Phát Hiện Fake News — Như GPS Giảm Khả Năng Định Hướng",
+      "summary": "Nghiên cứu MIT chỉ ra: dùng AI tóm tắt tin tức làm giảm khả năng phát hiện fake news của con người, tương tự GPS làm giảm sense of direction. Càng dùng AI verify, càng mất skill verify thủ công.",
+      "why": "Cho curious + cá nhân: nếu bạn dùng AI tóm tắt tin hàng ngày, đây là warning — train lại skill critical thinking thủ công thường xuyên, không outsource hoàn toàn cho AI. Long-term risk: mất khả năng judge độ tin cậy nguồn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "cognitive-science",
+        "fake-news",
+        "skill-atrophy"
+      ]
+    },
+    {
+      "headline": "Swansea University: AI Làm Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu Swansea University: AI không thay thế sáng tạo, mà làm con người sáng tạo hơn khi dùng đúng cách. Phát hiện: AI giúp explore nhiều ý tưởng hơn, tăng divergent thinking.",
+      "why": "Cho creative + curious: nếu sợ AI thay thế, research này chỉ ra rằng AI là tool augmentation, không phải replacement. Cách dùng: brainstorm với AI để expand ý tưởng, nhưng decision cuối vẫn là bạn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "augmentation",
+        "research"
+      ]
+    },
+    {
+      "headline": "Google DiffusionGemma — Kiến Trúc Non-Linear Tăng Tốc Image Gen 4x",
+      "summary": "Google DeepMind ra DiffusionGemma (Gemma 4 family) — model image gen không chạy linear như DALL-E/Midjourney. Kiến trúc mới cho phép inference 4x nhanh hơn, multimodal (text/image/video/audio).",
+      "why": "Cho curious + creative: đây là breakthrough về architecture — nếu quan tâm how AI works, đọc paper để hiểu non-linear generation. Practical: nếu bạn chạy image gen batch lớn (thousands/day), DiffusionGemma giảm cost inference đáng kể.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "tags": [
+        "architecture",
+        "image-generation",
+        "optimization"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Jeff Bezos AI Startup 'Prometheus' Định Giá $41B Sau Vòng Gọi Vốn $12B Series B",
+      "summary": "Prometheus (Jeff Bezos) raise series B $12B ở định giá $41B — tăng từ $0 lên $41B trong <2 năm. Đây là mức tăng trưởng valuation nhanh nhất lịch sử AI, vượt OpenAI/Anthropic giai đoạn đầu.",
+      "why": "Cho founder/business: đừng anchor vào case này khi pitch investor. Prometheus là outlier vì founder = Bezos + timing perfect + capital efficiency cao. Nếu bạn raise 2026, benchmark với Anthropic series A ($300M at $4B) hoặc Cohere ($270M at $2.2B) thực tế hơn.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+      "tags": [
+        "funding",
+        "valuation",
+        "outlier"
+      ]
+    },
+    {
+      "headline": "AI Startup Funding Boom Không Phải Toàn Cầu — 80% Vốn Đổ Vào Mỹ",
+      "summary": "Crunchbase data: 80% funding AI seed-growth stage năm 2026 vào startup Mỹ. Trước AI boom, tỷ lệ này ~60%. EU và châu Á bị bỏ lại phía sau — regulatory, talent, infra không theo kịp.",
+      "why": "Cho founder Việt Nam: nếu muốn raise từ VC nước ngoài, cân nhắc incorporate tại Mỹ hoặc Singapore. VC đang tập trung vào US market vì regulatory clarity + talent pool. Raise ở VN 2026 khó hơn 2024.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
+      "tags": [
+        "funding-trends",
+        "geography",
+        "venture-capital"
+      ]
+    },
+    {
+      "headline": "Intellectible Raise $3M Seed — AI Workflow Automation Cho Service Companies",
+      "summary": "Austin startup Intellectible raise $3M seed để automate workflows và customer acquisition cho service companies (legal, consulting, accounting). Target SMB thay vì enterprise.",
+      "why": "Cho founder: niche play thành công — thay vì đánh enterprise AI (crowded), Intellectible target SMB service companies (underserved). Lesson: vertical AI cho SMB vẫn có margin, không cần chase AGI dream.",
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/intellectible-raises-3m-seed/",
+      "tags": [
+        "funding",
+        "SMB",
+        "vertical-AI"
+      ]
+    },
+    {
+      "headline": "Q2 2026 AI M&A Multiples: 156 Deals Phân Tích Theo Funding Stage",
+      "summary": "Finrofca research: 156 AI M&A deals Q2 2026, multiples khác nhau rất lớn theo category — model infra, cybersecurity, legal AI, marketing AI được định giá qua lens hoàn toàn khác. Buyers nhìn risk, integration, strategic value khác nhau.",
+      "why": "Cho founder chuẩn bị exit: đừng benchmark valuation theo headline. Model infra company vs legal AI workflow tool có multiples khác 3-5x. Đọc report để hiểu buyer mindset cho vertical của bạn.",
+      "source": "Finrofca",
+      "url": "https://www.finrofca.com/news/ai-ma-multiples-by-funding-stage-q2-2026",
+      "tags": [
+        "M&A",
+        "valuation",
+        "exit-strategy"
+      ]
+    },
+    {
+      "headline": "Apple Core AI Framework — Partnership Google Gemini Thay Vì Tự Build LLM",
+      "summary": "Apple công bố Core AI Framework built around Google Gemini — không tự train LLM như dự đoán. Free Private Cloud Compute cho small devs, multi-agent workflows, integration Claude/Gemini/others.",
+      "why": "Cho business: Apple chọn partner thay vì build — lesson cho startup: đừng forced build everything. Nếu Google/Anthropic đã build tốt, integration thôi. Focus vào differentiation layer (UX, vertical use case), không phải infra.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "tags": [
+        "platform",
+        "partnership",
+        "strategy"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Anthropic Tắt Model Cao Cấp Sau Lệnh Mỹ Hạn Chế Truy Cập Nước Ngoài",
+      "summary": "Chính phủ Mỹ yêu cầu Anthropic block foreign access vào Claude Mythos/Fable — lệnh có hiệu lực ngay. Đây là lần đầu model AI bị government mandate cut off theo quốc tịch.",
+      "why": "Cho curious + manager: đây là precedent nguy hiểm — AI model giờ chịu kiểm soát chính phủ như weapons. Nếu bạn dùng cloud AI, có backup plan cho scenario vendor bị forced shutdown. Long-term: AI balkanization (Mỹ vs Trung vs EU) sẽ tăng.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
+      "tags": [
+        "policy",
+        "geopolitics",
+        "access-control"
+      ]
+    },
+    {
+      "headline": "MIT: AI Làm Người Dùng Mất Khả Năng Phát Hiện Fake News — Như GPS Giảm Khả Năng Định Hướng",
+      "summary": "Research MIT: AI summarization làm giảm critical thinking về fake news. Người dùng AI verify càng nhiều, khả năng judge độ tin cậy nguồn càng giảm — tương tự GPS làm mất sense of direction.",
+      "why": "Cho curious + individual: đây là warning về cognitive atrophy. Nếu bạn outsource fact-checking cho AI, bạn đang mất skill verify nguồn. Giải pháp: train thủ công thường xuyên, không full delegate. Long-term: society mất collective ability to discern truth.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "cognitive-impact",
+        "fake-news",
+        "critical-thinking"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Chạy Mọi OS, 'The Lobster Way'",
+      "why": "Cho cá nhân: personal AI assistant cross-platform (Windows/Mac/Linux). 378K stars trong <1 tuần — viral vì marketing ('lobster way') + timing (post Claude Fable hype). Test nếu cần local assistant.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "378,882"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "Cho developer + creative: agent framework adaptive, không static prompt. 194K stars — NousResearch known for Hermes models. Nếu build agent workflow, check architecture này.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "194,439"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation + Native AI, Self-Host or Cloud",
+      "why": "Cho manager + creative: workflow automation như Zapier nhưng self-host được, 400+ integrations, native AI. 192K stars. Nếu cần automation pipeline không muốn lock-in SaaS, đây là choice.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "192,672"
+    },
+    {
+      "headline": "AutoGPT — 'AI for Everyone' Mission, Focus on Tools Not Hype",
+      "why": "Cho developer: AutoGPT shift từ hype sang practical tools. 185K stars, still active. Nếu build agent workflow, framework này mature + community lớn.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "184,960"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho manager + developer: platform build agent workflows production-grade. 145K stars, TypeScript. Nếu đang prototype agent workflow, Dify giúp ship faster thay vì build infra from scratch.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "145,349"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API",
+      "why": "Cho cá nhân: UI chat AI self-host, support Ollama + OpenAI. 141K stars. Nếu muốn private ChatGPT-like interface chạy local model, đây là option tốt nhất.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "141,664"
+    },
+    {
+      "headline": "x1xhlol/system-prompts-and-models-of-ai-tools — FULL System Prompts Của Cursor, Devin, Lovable, Manus, etc.",
+      "why": "Cho developer + curious: repo leak system prompts của 20+ AI coding tools (Cursor, Devin, Lovable, Manus, Windsurf, etc.). Nếu muốn hiểu cách tool yêu thích của bạn work, đọc repo này.",
+      "source": "GitHub",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] xAI: Grok 4.20 Multi-Agent ↓$1.25/↓$2.50 per M tok",
+      "event": "price",
+      "summary": "Price change: prompt $2.00 → $1.25 (37.5% cut), completion $6.00 → $2.50 (58% cut).",
+      "why": "Cheaper alternative cho GPT-4o multi-agent workflows — test ngay nếu cost là bottleneck.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent",
+      "tags": [
+        "price-drop",
+        "multi-agent",
+        "xAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash ↑$0.10/↑$0.20 per M tok",
+      "event": "price",
+      "summary": "Price change: prompt $0.09 → $0.10 (+11%), completion $0.18 → $0.20 (+11%).",
+      "why": "Chi phí tăng 11% — review cost forecast nếu đang scale DeepSeek V4 Flash.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "price-increase",
+        "DeepSeek"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 178,
+    "brave": 52,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 5,
+    "github": 10,
+    "openrouter": 2
+  }
+}
