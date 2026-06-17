@@ -1,0 +1,270 @@
+{
+  "date": "2026-06-17",
+  "updated_at": "2026-06-17T07:09:26.913059+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "Trung Quốc Chạy Đua AI — Zhipu GLM-5.2 Open-Source Đẩy Cổ Phiếu Tăng Vọt",
+    "summary": "Zhipu AI công bố GLM-5.2 — model mạnh nhất từ trước đến nay của họ — sẽ open-source cuối tuần này. Cổ phiếu công ty tăng mạnh ngay sau thông báo. Động thái này đánh dấu chiến lược aggressive của Trung Quốc: không chỉ đuổi kịp Mỹ về capability, mà còn đánh chiếm developer mindshare bằng cách cho không công nghệ đắt đỏ.",
+    "why": "Cho manager: Open-source từ Trung Quốc nghĩa là cost giảm mạnh cho inference/fine-tuning, nhưng đi kèm rủi ro compliance (export control Mỹ) và dependency vào ecosystem không minh bạch. Nếu team đang dùng closed-source Western models, đây là lúc evaluate fallback options — nhưng phải có governance rõ ràng về data sovereignty.",
+    "source": "South China Morning Post",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3357115/zhipu-ais-stock-rockets-after-chinese-firm-makes-glm-52-open-source",
+    "tags": [
+      "china",
+      "open-source",
+      "geopolitics",
+      "business"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Chính Phủ Mỹ 'Sợ' Claude Fable 5 Chỉ Vì Prompt 'Fix This Code' — Không Phải Jailbreak",
+      "why": "Cho curious: Media thổi phồng 'AI nguy hiểm' khi thực tế là misunderstanding về cách model hoạt động. Nhắc nhở: đọc technical details trước khi tin headline.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "tags": [
+        "policy",
+        "misunderstanding",
+        "claude"
+      ]
+    },
+    {
+      "headline": "Microsoft MAI-Thinking-1 — Model Reasoning Đầu Tiên Của MAI Family Ra Mắt Build 2026",
+      "why": "Cho creative: Microsoft đang làm competitor trực tiếp với OpenAI o1/o3 — nếu integrate Azure vào workflow, đây là option mới để test complex tasks (script debug, multi-step planning).",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/microsoft-launches-new-mai-family-of-models-at-build",
+      "tags": [
+        "microsoft",
+        "reasoning",
+        "build2026"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra GPT-5.3 Instant Mini — Rollout Ads Cho Free/Go Users ở Úc, New Zealand, Canada",
+      "why": "Cho cá nhân: OpenAI bắt đầu kiếm tiền từ ads. Nếu dùng free tier và không muốn bị disturb, đây là thời điểm cân nhắc upgrade hoặc migrate sang alternative (Claude free vẫn chưa có ads).",
+      "source": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "tags": [
+        "openai",
+        "monetization",
+        "ads"
+      ]
+    },
+    {
+      "headline": "Local Models 'Đã Tốt' — Bài Viết Về Trải Nghiệm Chạy AI Không Cần Cloud",
+      "why": "Cho cá nhân: Nếu lo privacy hoặc chi phí API tích lũy, local inference (Ollama, LM Studio) giờ đủ tốt cho nhiều use case hàng ngày. Đánh giá có nên đầu tư hardware 1 lần thay vì trả subscription.",
+      "source": "Vicki Boykis",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "tags": [
+        "local",
+        "privacy",
+        "self-hosted"
+      ]
+    },
+    {
+      "headline": "Qwen-Robot Suite — Foundation Model Cho Robot Vật Lý (Embodied AI)",
+      "why": "Cho curious: Đây là bước từ text/image AI sang world của robot thật. Qwen (Alibaba) đang đầu tư mạnh vào robotics — trend này sẽ thay đổi manufacturing/logistics 2-5 năm tới.",
+      "source": "Qwen AI",
+      "url": "https://qwen.ai/blog?id=qwen-robotsuite",
+      "tags": [
+        "robotics",
+        "embodied-ai",
+        "qwen"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Seedance 2.0 — Text/Image to Video Với Motion Synthesis 'Cinematic'",
+      "summary": "Platform mới cho phép tạo video từ text hoặc image, focus vào motion control chất lượng cao. Website claim 'professional quality' — cần test thực tế để verify.",
+      "why": "Cho creative: Nếu đang dùng Runway/Pika, đây là competitor mới để benchmark. Check pricing + output quality trước khi commit — 'cinematic' là marketing term, quality thật phụ thuộc vào use case cụ thể.",
+      "source": "Seedance",
+      "url": "https://seedance2.ai/",
+      "tags": [
+        "video-gen",
+        "new-tool",
+        "motion"
+      ]
+    },
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Plugin tích hợp AI video gen vào DaVinci Resolve: vẽ trực tiếp lên clip để edit, apply AI-generated LUTs. Hướng tới professional workflow thay vì standalone tool.",
+      "why": "Cho creative: Đây là trend quan trọng — AI không còn là separate app, mà tích hợp vào tool quen thuộc (Resolve, Premiere, After Effects). Giảm friction giữa ideation và execution. Nếu team dùng Resolve, đáng test ngay.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "davinci-resolve",
+        "plugin",
+        "workflow-integration"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Google DiffusionGemma — Tốc Độ Tăng 4x Nhờ Bỏ Generation Tuyến Tính",
+      "summary": "DiffusionGemma là model đầu tiên trong Gemma 4 family không generate output theo kiểu linear (token-by-token). Thay vào đó dùng diffusion process, cho tốc độ nhanh gấp 4 lần với chất lượng tương đương.",
+      "why": "Cho curious: Đây là innovation về architecture — không phải chỉ scale up parameters. Diffusion (cách Stable Diffusion làm ảnh) giờ áp dụng cho text/multimodal. Nếu thành công, sẽ thay đổi cách build model tiếp theo — speed improvement mà không trade-off quality là Holy Grail.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "tags": [
+        "google",
+        "architecture",
+        "diffusion",
+        "gemma"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "80% Vốn Đầu Tư AI Toàn Cầu Đổ Vào Mỹ — Chênh Lệch Kỷ Lục So Với Trước AI Boom",
+      "summary": "2026 YTD, startup Mỹ nhận gần 80% tổng vốn seed-to-growth-stage toàn cầu. Trước AI boom, tỷ lệ này thường chỉ 50-60%. Divergence này cho thấy AI không phải 'global phenomenon' về capital allocation.",
+      "why": "Cho founder: Nếu base ngoài Mỹ (đặc biệt châu Á/Âu), raise vốn cho AI startup khó hơn đáng kể. Cân nhắc: (1) relocate entity sang US để tiếp cận VC, (2) pivot sang business model ít vốn hơn (SaaS thay vì infra), (3) target local/regional market thay vì compete global. Trend này sẽ tạo 'AI funding desert' ngoài US/China trong 1-2 năm tới.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
+      "tags": [
+        "funding",
+        "geopolitics",
+        "vc",
+        "startup"
+      ]
+    },
+    {
+      "headline": "AI M&A Q2 2026: 156 Thương Vụ Cho Thấy Multiples Khác Nhau Theo Funding Stage",
+      "summary": "Báo cáo Finro phân tích 156 thương vụ M&A AI Q2/2026: multiples (giá mua / revenue hoặc ARR) khác biệt lớn tùy stage (seed vs growth) và category (infra vs application). Model infra và cybersecurity AI được định giá cao nhất.",
+      "why": "Cho founder: Nếu đang build với ý định exit (không phải IPO), hiểu buyer mindset quan trọng. Infra/security AI có premium vì integration risk thấp + strategic value cao. Marketing AI và legal AI bị định giá thấp hơn vì commoditization nhanh. Data point này giúp quyết định pivot hoặc positioning trước khi raise Series A.",
+      "source": "Finro",
+      "url": "https://www.finrofca.com/news/ai-ma-multiples-by-funding-stage-q2-2026",
+      "tags": [
+        "m&a",
+        "valuation",
+        "exit",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Moonshot AI Trung Quốc Nhận Vốn Mạnh Từ Alphabet — Drug Discovery AI Gần Commercial",
+      "summary": "Startup AI Trung Quốc trong lĩnh vực drug discovery nhận backing từ Alphabet và investors quốc tế, đẩy nhanh nghiên cứu đa therapeutic areas. Công ty claim AI-driven discovery sắp có impact thương mại.",
+      "why": "Cho đầu tư: Alphabet đầu tư vào AI Trung Quốc trong bối cảnh tension Mỹ-Trung → signal rằng biotech/pharma AI ít bị ảnh hưởng export control hơn general-purpose AI. Sector này có moat cao (regulatory, data) và timeline dài (5-10 năm) — phù hợp patient capital, không phải quick flip.",
+      "source": "Intellizence",
+      "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-may-2026-ai-infrastructure-and-robotics/",
+      "tags": [
+        "biotech",
+        "drug-discovery",
+        "china",
+        "alphabet"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw — Personal AI Assistant 'The Lobster Way', Cross-Platform",
+      "why": "Cho cá nhân: Self-hosted AI assistant chạy trên mọi OS. Nếu muốn control hoàn toàn data và customize workflow, đây là option thay thế ChatGPT/Claude desktop. 379K stars → community active, đáng theo dõi.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "379052"
+    },
+    {
+      "headline": "hermes-agent (NousResearch) — 'The Agent That Grows With You'",
+      "why": "Cho creative: Agent framework focus vào learning theo thời gian. NousResearch có track record tốt (Hermes models) — nếu đang build custom agent, đây là base đáng xem.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "195339"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Với Native AI Capabilities",
+      "why": "Cho manager: Alternative cho Zapier/Make với AI integration sẵn. Self-host được → control data + cost. 400+ integrations. Nếu team cần automation mà lo vendor lock-in, n8n là top choice.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "192832"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho manager: Platform để build + deploy agent workflows không cần code nhiều. 145K stars → proven scale. Nếu team non-technical cần tạo AI workflows, đây là infra đáng đầu tư.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "145501"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly Interface Hỗ Trợ Ollama, OpenAI API",
+      "why": "Cho cá nhân: Frontend đẹp cho local models (Ollama) hoặc API. Nếu chạy local mà muốn UX giống ChatGPT, đây là go-to solution.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "141871"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Z.ai GLM-5.2 — $1.40/$4.40 Per M Tokens",
+      "event": "new",
+      "summary": "Model flagship của Z.ai cho long-horizon tasks, context window 1M tokens thật sự dùng được — xử lý project-level engineering context.",
+      "why": "Alternative cho Claude hoặc Gemini khi cần context dài. Giá rẻ hơn Claude Sonnet ($3/$15) nhưng cần verify quality trước khi production.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "new",
+        "long-context",
+        "z-ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] DeepSeek R1 Distill Qwen 32B Removed",
+      "event": "deprecated",
+      "summary": "Model deepseek/deepseek-r1-distill-qwen-32b không còn available trên OpenRouter.",
+      "why": "Migrate users sang DeepSeek V4 hoặc alternative reasoning model khác (MAI-Thinking-1, Claude Fable).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-r1-distill-qwen-32b",
+      "tags": [
+        "deprecated",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Giảm 10-11% — $0.09/$0.18 Per M Tokens",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.09, completion $0.20 → $0.18.",
+      "why": "DeepSeek tiếp tục aggressive pricing — rẻ nhất trong reasoning models. Tốt cho high-volume inference mà budget chặt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "price-down",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA Nemotron 3 Ultra Giảm Completion 12% — $0.50/$2.20",
+      "event": "price",
+      "summary": "Completion $2.50 → $2.20 per M tokens.",
+      "why": "NVIDIA cạnh tranh giá với GPT-4 tier models. Nếu workflow cần NVIDIA ecosystem (TensorRT-LLM, Triton), đây là lúc test.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+      "tags": [
+        "price-down",
+        "nvidia"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Tencent Hy3 Preview Tăng 17-24% — $0.07/$0.26",
+      "event": "price",
+      "summary": "Prompt $0.06 → $0.07, completion $0.21 → $0.26 per M tokens.",
+      "why": "Preview model tăng giá gần stable release — signal Tencent sắp GA. Nếu đang test Hy3, chuẩn bị budget tăng hoặc lock pricing trước khi official launch.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3-preview",
+      "tags": [
+        "price-up",
+        "tencent"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 183,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 50,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 5
+  }
+}
