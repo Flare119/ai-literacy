@@ -649,6 +649,57 @@
     <h2 class="section-title">✍️ Blog — Góc phân tích</h2>
     <p class="section-desc">Không phải kiến thức vỡ lòng — đây là những bài phân tích chuyên sâu từ các nghiên cứu, xu hướng và cuộc thảo luận thật quanh AI. Mỗi bài là một góc nhìn được đọc kỹ, nghĩ kỹ, viết ra để chia sẻ. Đọc chậm.</p>
 
+    <article class="card" data-id="blog-engineering-discipline" data-persona="producer,curious,manager" style="display:block;">
+        <div class="card-header">
+            <div>
+                <div class="card-title">🛠️ Khi làm ra thứ gì đó trở nên miễn phí, giá trị chạy đi đâu?</div>
+                <div class="card-subtitle">AI không khiến nghề dễ đi — nó dời điểm tựa của sự nghiêm túc sang một chỗ ta vẫn quen xem nhẹ</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Read · 18/06/2026</span>
+        </div>
+        <div class="card-body">
+            <p style="color:#9aa0a6;font-style:italic;margin-bottom:18px;">Dựa trên bài "AI demands more engineering discipline, not less" của Charity Majors — CTO Honeycomb, người dành cả sự nghiệp lo việc giữ cho hệ thống thật chạy được trong thế giới thật. Bài gốc viết cho dân lập trình, nhưng điều nó chạm tới thì rộng hơn code rất nhiều: nó nói về chuyện gì xảy ra với một nghề khi cái phần khó nhất của nghề ấy bỗng nhiên rẻ đi.</p>
+
+            <h4>I. Cái đắt hôm qua, miễn phí hôm nay</h4>
+            <p>Suốt gần như toàn bộ lịch sử phần mềm, viết ra một dòng code là việc chậm, khó và tốn kém. Vì đắt, nên code được nâng niu. Người ta tái sử dụng nó, chăm nó, ngại đụng vào nó. Một dòng code cũ nằm trong hệ thống mười năm được đối xử như một món đồ gia bảo — không phải vì nó hay, mà vì làm lại nó tốn quá nhiều công.</p>
+            <p>Rồi đến cuối năm 2025, một thứ lặng lẽ đảo chiều. Không phải chất lượng AI — cái đó ai cũng thấy. Thứ đảo chiều là <strong>kinh tế của việc sản xuất</strong>. Làm ra code từ chỗ chậm-và-đắt trở thành gần như tức-thì-và-miễn-phí. Và khi một thứ chuyển từ quý hiếm sang vô tận chỉ trong vài tháng, mọi thói quen ta xây quanh sự quý hiếm của nó đều phải xét lại.</p>
+            <p>Tác giả thừa nhận một điều đáng quý ở người trưởng thành: suốt 2025, tin rằng "code AI viết ra là rác và sẽ mãi là rác" từng là quan điểm chính thống, hợp lý. Nhưng đến lúc nó thôi đúng, người trung thực phải nói thẳng là nó đã thôi đúng — thay vì cố thủ "tôi sẽ tin khi tôi thấy" lần thứ hai. Đó chính là cảm giác khi ta đang đứng bên trong một đường cong thay đổi cấp số nhân: cái hôm qua còn buồn cười, hôm nay đã thành nền.</p>
+
+            <h4>II. Code thật ra là gì — và vì sao ta sợ xóa nó</h4>
+            <p>Đây là phần lật ngược cách nghĩ quen thuộc. Phần lớn người làm nghề tin rằng code <em>chính là</em> hệ thống. Nó là thứ ta viết, ta review, ta deploy, ta sửa. Mất nó cảm giác như mất cả hệ thống.</p>
+            <p>Có một phép thử đơn giản mà tàn nhẫn, gọi là <strong>Phép thử Xóa bỏ</strong>: hãy thử tưởng tượng xóa sạch toàn bộ phần code của một thứ bạn đang làm. Nếu trong lòng bật lên tiếng kêu "không thể vứt code đi được" — thì hãy dừng lại nghe cho kỹ bạn đang thật sự sợ điều gì. Gần như luôn luôn, nó là những câu này:</p>
+            <p>Ta không biết chính xác hành vi nào là bắt buộc. Ta không biết lỗi nào là không được phép xảy ra. Ta không biết quy tắc nào phải luôn đúng. Ta không biết làm sao để chắc bản mới là đúng. Ta không biết con bug nào thực ra là bản vá cố ý cho một trường hợp hiếm đã quên từ lâu.</p>
+            <div class="analogy">Và đây là câu chốt làm cả bài sáng lên: <strong>"Đó không phải là vấn đề về code. Đó là vấn đề về sự đánh giá (evaluation)."</strong> Code chỉ trở nên quý giá khi nó là <em>nơi duy nhất</em> hiểu biết đang sống. Ta giữ chặt code không phải vì code, mà vì ta chưa bao giờ ghi lại hiểu biết của mình ở đâu khác ngoài chính nó.</div>
+            <p>Khi tái tạo trở nên dễ, một góc nhìn mới mở ra: code thôi là <em>tài sản</em>, nó hành xử như một <strong>bộ nhớ đệm (cache)</strong> — một bản kết tinh tạm thời của hiểu biết, hữu ích khi còn khớp với thực tế, vứt được khi đã lỗi thời. Cái thật sự quý không phải dòng code, mà là <strong>sự hiểu biết chung</strong> về việc hệ thống nên làm gì — thứ lâu nay nằm mong manh trong đầu vài con người, hay quên, hay phân tâm, và luôn trôi lệch khỏi cái mà người dùng thật sự trải nghiệm.</p>
+
+            <h4>III. Vậy sự nghiêm túc chạy đi đâu</h4>
+            <p>Đây là phần đắt nhất, và là lý do tiêu đề bài nói "AI đòi hỏi NHIỀU kỷ luật hơn, chứ không ít đi". Khi máy lo phần sản xuất, con người không được rảnh tay — sự nghiêm túc chỉ <em>dời chỗ</em>: từ việc gõ ra từng dòng, sang việc <strong>biết chắc thứ mình tạo ra có đúng không</strong>.</p>
+            <p>Và nghịch lý đẹp là: code phi-tất-định (cùng một prompt, mỗi lần ra một kiểu) cuối cùng lại ép ta làm đúng những việc đáng ra phải làm từ lâu mà cứ lười. Quan sát hệ thống thật thay vì đoán. Kiểm thử ngay trên sản phẩm đang chạy, không phải để dành tới lúc "xong". Ghi lại cái <em>đang</em> xảy ra, chứ không chỉ cái <em>nên</em> xảy ra.</p>
+            <p>Tác giả viết từ vị trí một người lo vận hành — và bà nói một câu nên đóng đinh lên tường: <strong>"Sản xuất không phải là thứ diễn ra sau khi làm xong. Sản xuất là một giai đoạn của việc làm."</strong> Cái đầu ra cuối cùng — đem ra cho người thật dùng, soi nó chạy thật — không phải khâu dọn dẹp cuối ngày, mà là một phần của chính quá trình tạo ra.</p>
+            <p>Rồi đến đòn thẳng nhất, và là chỗ cần nghe cho kỹ: ở khâu <em>soát lỗi tỉ mỉ, lặp đi lặp lại</em>, não người vốn là mắt xích yếu. Ta hay quên, dễ chán, mau quen tay rồi bỏ sót. Cho nên đừng đặt lý lẽ bảo vệ giá trị con người vào việc "ta là cổng kiểm soát chất lượng tốt nhất" — vì ở riêng việc đó, ta thua máy. Đặt cược vào con người, hãy đặt vào chỗ khác.</p>
+
+            <h4>IV. Phần con người không buông — và một lằn ranh phải tự vạch</h4>
+            <p>Một bài trung thực không dừng ở "máy giỏi hơn ta". Chính tác giả — một người all-in vào AI — vẫn đặt cược vào con người "một thời gian dài nữa" ở những thứ máy chưa với tới: sáng tạo, cảm hứng, những bước nhảy logic. Cái cần buông là vai người-gác-cổng-chất-lượng; cái cần giữ chặt là phán đoán và ý tưởng gốc.</p>
+            <p>Và bà cũng cài vào một liều khiêm tốn quan trọng: đừng mơ rằng rồi mọi thứ sẽ được máy sinh ra hoàn hảo từ một bản đặc tả sạch sẽ. Bất kỳ ai từng làm một cuộc di trú dữ liệu đau đớn đều nên học được sự khiêm nhường về khả năng của ta trong việc gói trọn kỳ vọng của người dùng thành một thứ máy có thể chạy lại. Hướng đi này tốt — nhưng nó là một hành trình, không phải một nút bấm.</p>
+            <p>Có một chi tiết nhỏ dễ bỏ qua nhưng đáng dừng lại: rất nhiều kỹ thuật mà tương lai này cần — quan sát hành vi thật, ghi lại và phát lại, tách luồng để thử — đều đến từ hai lĩnh vực mà dân làm sản phẩm xưa nay hơi coi thường: vận hành (operations) và kiểm thử (QA). Cái ta từng xem là việc phụ, hóa ra là nền cho cách làm việc mới.</p>
+
+            <h4>V. Vậy thì làm gì với điều này — nếu bạn không viết code</h4>
+            <p>Tôi sẽ nói thẳng phần này áp vào ai, vì sẽ phí nếu đọc xong chỉ gật gù "hay đấy" rồi quên. Nếu bạn làm sáng tạo, làm sản xuất, hay đang xây một đội ngũ quanh AI — hãy thay chữ "code" trong bài bằng "prompt", "kịch bản", "bộ kiến thức của studio". Luận điểm không đổi một li.</p>
+            <p>Thứ nhất: <strong>cái bạn tạo ra bằng AI là bộ nhớ đệm, không phải báu vật.</strong> Một prompt thắng hôm nay, một preset đẹp, một cách dựng cảnh — chúng quý khi còn khớp với model và thị hiếu hiện tại, và sẽ lỗi thời khi model đổi phiên bản. Đừng ôm chúng như gia bảo. Cái đáng ôm là <em>hiểu biết</em> vì sao chúng đẹp — thứ ấy mới tái tạo được khi công cụ thay.</p>
+            <p>Thứ hai: <strong>nơi nghiêm túc thật sự là lúc soi sản phẩm thật.</strong> Trong nghề hình ảnh, đó là gen ra rồi <em>nhìn tận mắt</em>: mặt có bị trôi không, có "mùi AI" không, vật có dính keo khi đáng ra phải vỡ rời không. Không tin vào lời mô tả, không tin vào "chắc là ổn" — đem ra chạy thật rồi phán. Đó chính là "kiểm thử trên sản phẩm" phiên bản của người làm media.</p>
+            <p>Thứ ba, và đây là lằn ranh phải tự tay vạch: bài gốc nói đúng rằng máy soát lỗi giỏi hơn người. Nhưng trong nghề sáng tạo có một thứ <em>không phải</em> là soát lỗi máy móc — đó là <strong>gu thẩm mỹ và phán đoán</strong>. Biết một khung hình "đắt" hay "rẻ", cảm được khi nào một cảnh có hồn, ngửi ra cái nhạt trung vị mà AI luôn kéo mọi thứ về — đó không phải việc kiểm tra, đó là <em>sáng tạo</em>, và là chỗ con người còn thắng. Giao phần kỹ thuật cho máy. Giữ chặt phần thẩm mỹ trong tay mình. Đó không phải lời khuyên cho vui — đó là phép tính sống còn về lợi thế cạnh tranh.</p>
+
+            <h4>VI. Lời kết</h4>
+            <p>Có một sự đối xứng đẹp giữa bài này và một bài khác trong chính trang blog này — nghiên cứu "nợ nhận thức" của MIT. Một bài nói về hệ thống, một bài nói về bộ não, nhưng cả hai chạm vào cùng một sự thật: <strong>khi AI gánh hộ phần dễ, giá trị dồn hết về phần ta chịu khó tự rèn.</strong> Người để máy nghĩ hộ cái lõi thì rỗng dần; người dùng máy để khuếch đại cái lõi đã có thì bay cao.</p>
+            <p>Charity Majors gói cả bài vào bốn chữ mà bất kỳ ai đang vội "hái quả ngọt từ AI" nên đọc đi đọc lại:</p>
+            <div class="analogy" style="font-size:1.05em;"><strong>"Kỷ luật trước, quả ngọt sau." (Discipline first, cookies second.)</strong> Hiểu biết trong đầu bạn là vô hình với AI cho tới khi bạn chịu mã hóa nó vào hệ thống. Lợi tức của khoản đầu tư ấy là khổng lồ và phi tuyến — nhưng nó đòi bạn trả công sức trước, không phải sau.</div>
+            <p>Thành ra câu hỏi cho người làm nghề thời này không còn là "AI có thay được tôi không" — câu đó đã cũ. Câu khó hơn, đáng tự hỏi mỗi lần bấm nút tạo, là: thứ tôi vừa tạo ra rẻ đến mức ai cũng làm được — vậy phần giá trị thật sự của tôi, tôi đã dồn nó vào đâu, và tôi có đang chăm nó kỹ như lẽ ra phải thế không?</p>
+
+            <p style="color:#62666d;font-size:12px;margin-top:20px;border-top:1px solid #2a2d32;padding-top:12px;">Nguồn: Charity Majors, "AI demands more engineering discipline, not less", charity.wtf (2026) · Ý tưởng nền: Chad Fowler, loạt bài "Phoenix Architecture" / "The Deletion Test" (aicoding.leaflet.pub) · Charity Majors &amp; Liz Fong-Jones, "Observability Engineering" 2nd ed. (O'Reilly, 2026)</p>
+            <button class="check-btn" onclick="markLearned(this, 'blog-engineering-discipline')">✓ Đã đọc</button>
+        </div>
+    </article>
+
     <article class="card" data-id="blog-opensource-ai-win" data-persona="producer,curious,manager" style="display:block;">
         <div class="card-header">
             <div>
