@@ -1,318 +1,308 @@
 {
-  "date": "2026-06-18",
-  "updated_at": "2026-06-18T07:07:47.830055+07:00",
-  "weekday": "Thursday",
+  "date": "2026-06-19",
+  "updated_at": "2026-06-19T07:20:19.068409+07:00",
+  "weekday": "Friday",
   "top_story": {
-    "headline": "OpenAI Lỗ Hàng Tỷ USD Mỗi Năm — Tài Liệu Rò Rỉ Phơi Bày Thực Trạng Tài Chính",
-    "summary": "Tài liệu nội bộ rò rỉ cho thấy OpenAI đang lỗ hàng tỷ USD mỗi năm bất chấp doanh thu tăng trưởng mạnh. Con số này đặt câu hỏi về tính bền vững của mô hình kinh doanh AI khi chi phí compute và R&D tiếp tục leo thang.",
-    "why": "Cho business/founder: OpenAI — công ty định giá $157B — vẫn lỗ nặng nghĩa là mô hình AI chưa profitable ở quy mô lớn. Nếu bạn đang build AI startup hoặc pitch investor về 'AI revolution', cần có câu trả lời rõ về path to profitability — không chỉ growth. Case này cũng nhắc nhở: valuation cao ≠ business health.",
-    "source": "Ars Technica",
-    "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+    "headline": "Noam Shazeer — 'Cha Đẻ' Transformer — Gia Nhập OpenAI",
+    "summary": "Noam Shazeer, tác giả chính paper 'Attention Is All You Need' (2017) — nền tảng mọi LLM hiện đại, announce trên Twitter gia nhập OpenAI. Shazeer trước đây đồng sáng lập Character.AI (Google mua lại 2024 với giá $2.7B nhưng chỉ để lấy talent). Động thái này signal OpenAI đang tập hợp đội ngũ research đỉnh cao để cạnh tranh với Anthropic/Google về kiến trúc thế hệ sau.",
+    "why": "Cho manager/founder: Khi OpenAI hire founding father của Transformer architecture, nghĩa là cuộc đua AI đang shift từ 'scale compute' sang 'rethink architecture'. Nếu công ty bạn đang all-in vào một model family hiện tại mà không có kế hoạch migration, đây là lúc xây dựng abstraction layer.",
+    "source": "Twitter @NoamShazeer",
+    "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
     "tags": [
-      "business",
-      "openai",
-      "funding",
-      "profitability"
+      "talent",
+      "OpenAI",
+      "research",
+      "architecture"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Mỹ Giữ Chân DeepSeek — Chưa Đưa Vào Blacklist Dù Hơn 100 Công Ty Trung Quốc Bị Cấm",
-      "why": "Cho business: DeepSeek thoát blacklist cho thấy Mỹ cũng phụ thuộc vào AI Trung Quốc hơn tưởng. Nếu bạn đang dùng DeepSeek API trong production, tin này giảm rủi ro supply chain ngắn hạn — nhưng vẫn nên có backup plan.",
+      "headline": "SpaceX Mua Anysphere (Cursor) Với Giá $60 Tỷ USD",
+      "why": "Cho manager: Đây là M&A lớn nhất lịch sử AI coding tools. Cursor đang thống trị IDE market (>2M developers) — nếu team bạn chưa standardize coding workflow với AI, đây là thời điểm. SpaceX backing nghĩa là enterprise support sẽ mạnh hơn.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
       "tags": [
-        "policy",
-        "deepseek",
-        "us-china"
+        "M&A",
+        "coding",
+        "enterprise",
+        "Cursor"
       ]
     },
     {
-      "headline": "Jeff Bezos Startup AI 'Prometheus' Định Giá $41 Tỷ USD — Vòng Gọi Vốn Mới",
-      "why": "Cho business: Bezos chơi lớn AI agent infra — định giá $41B sau vòng seed. Pattern: tech billionaire pivot sang AI với capital khổng lồ đang reshape competitive landscape. Startup nhỏ cần tìm niche defensible thay vì compete head-on.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+      "headline": "DeepSeek Ra Vision — Model Multimodal Đầu Tiên Của DeepSeek",
+      "why": "Cho creative: DeepSeek vốn chỉ là text-only model, giờ có vision capability nghĩa là có thể analyze design/video frames với chi phí thấp hơn GPT-4V. Worth test nếu bạn cần batch process hàng nghìn hình với budget hạn chế.",
+      "source": "DeepSeek Chat",
+      "url": "https://chat.deepseek.com/",
       "tags": [
-        "funding",
-        "prometheus",
-        "jeff-bezos"
+        "multimodal",
+        "DeepSeek",
+        "vision"
       ]
     },
     {
-      "headline": "GLM-5.2 Trở Thành Open-Weight Model Dẫn Đầu Theo Artificial Analysis",
-      "why": "Cho creative/developer: GLM-5.2 (Trung Quốc) vượt Llama 3.3, DeepSeek-V4 trên bảng xếp hạng intelligence. Nếu bạn cần open model cho commercial use mà chất lượng gần Gemini 2.5 Flash — đây là option mới đáng thử.",
-      "source": "Artificial Analysis",
-      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "headline": "Anthropic Ra Claude Fable 5 Công Khai — Mythos-Class Model Ai Cũng Dùng Được",
+      "why": "Cho cá nhân: Fable 5 là Mythos-tier nhưng không bị restrict như Opus 4. Nếu bạn cần reasoning cao hơn GPT-4 nhưng không đủ tiền Pro plan, đây là option miễn phí thử nghiệm.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model",
       "tags": [
-        "model",
-        "open-source",
-        "benchmark"
+        "Anthropic",
+        "Claude",
+        "model-launch"
       ]
     },
     {
-      "headline": "Chạy AI Local 'Đã Tốt' — Trải Nghiệm Thực Tế Không Cần Cloud",
-      "why": "Cho cá nhân/developer: Bài viết chi tiết về trải nghiệm chạy local LLM (Ollama + Mac) cho daily work. Nếu bạn lo ngại privacy hoặc muốn giảm cost API, local setup giờ đã practical cho coding/writing assistant.",
-      "source": "Vicki Boykis",
-      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "headline": "OpenAI Ra GPT-5.3 Instant Mini — Rollout Ads Cho Free/Go Ở Úc, New Zealand, Canada",
+      "why": "Cho cá nhân: OpenAI bắt đầu chạy ads trên free tier — nếu bạn đang dùng ChatGPT miễn phí và ở VN, có thể sẽ thấy ads trong vài tuần tới. Cân nhắc upgrade Pro ($20/tháng) nếu ads làm gián đoạn workflow.",
+      "source": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
       "tags": [
-        "local-ai",
-        "ollama",
-        "privacy"
-      ]
-    },
-    {
-      "headline": "AI Đòi Hỏi KỶ LUẬT Kỹ Thuật Cao Hơn — Không Phải Thấp Hơn",
-      "why": "Cho manager/engineer: Nhiều team nghĩ AI giảm nhu cầu discipline → sai lầm nghiêm trọng. AI càng powerful thì cần testing/monitoring/rollback càng chặt. Bài viết từ engineering leader về vì sao AI agent yêu cầu engineering rigor GẤP ĐÔI.",
-      "source": "Charity Majors",
-      "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
-      "tags": [
-        "engineering",
-        "best-practices",
-        "ai-safety"
-      ]
-    },
-    {
-      "headline": "Lợi Thế Cạnh Tranh Mà AI Không Thể Copy — Kết Nối Con Người",
-      "why": "Cho cá nhân/manager: Khi AI commoditize technical skills, human connection trở thành moat duy nhất. Nếu bạn lo AI thay thế công việc, đầu tư vào relationship/trust/empathy — đây là skill AI yếu nhất và khó replicate nhất.",
-      "source": "Ghost in the Data",
-      "url": "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
-      "tags": [
-        "career",
-        "future-of-work",
-        "human-skills"
-      ]
-    },
-    {
-      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Giống GPS Làm Mất Định Hướng",
-      "why": "Cho curious/cá nhân: Nghiên cứu MIT cho thấy dùng AI để verify tin tức làm giảm khả năng tự phân biệt thật/giả. Over-reliance vào AI giống GPS — tiện nhưng atrophy skill tự nhiên. Implication: cần balance giữa dùng AI và giữ critical thinking.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "research",
-        "misinformation",
-        "cognitive-impact"
+        "OpenAI",
+        "monetization",
+        "free-tier"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
-      "why": "Cho creative: Plugin này giúp editor generate AI footage ngay trong Resolve timeline, draw-to-edit, và apply AI LUT — workflow tích hợp thay vì export/import. Nếu bạn đang dùng Resolve, đây là bước tiến về speed cho AI-assisted editing.",
-      "source": "Higgsfield",
-      "url": "https://higgsfield.ai/",
+      "headline": "Google Veo 3.1 Tích Hợp Vào Adobe Firefly — Gen Video All-In-One",
+      "summary": "Adobe Firefly dropdown giờ cho chọn Google Veo 3.1, Sora, Pika — tất cả trong cùng 1 tool. Veo 3.1 là 'high-efficiency, low-cost, cinematic control' video gen từ Google.",
+      "why": "Cho creative: Giảm 50% thời gian handoff giữa design và video prototyping. Thay vì export sketch → upload lên tool riêng, giờ gen video ngay trong Firefly workflow. Veo 3.1 hỗ trợ cinematic control tốt hơn Sora về camera movement.",
+      "source": "Google AI Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
       "tags": [
-        "video-editing",
-        "davinci-resolve",
-        "plugin"
+        "video-gen",
+        "Adobe",
+        "Veo",
+        "workflow"
       ]
     },
     {
       "headline": "Seedance 2.0 — Text/Image to Video Với Motion Synthesis 'Cinematic'",
-      "why": "Cho creative: Seedance 2.0 focus motion synthesis chất lượng cao cho cinematic shots. Nếu bạn cần AI video gen mà không muốn 'AI look', tool này claim professional quality — đáng test cho pre-vis hoặc concept pitch.",
-      "source": "Seedance 2",
+      "summary": "Seedance 2.0 là AI video gen tool mới focus vào motion synthesis chất lượng cao. Transform ảnh/text thành video với cinematic quality.",
+      "why": "Cho creative: Alternative cho Runway/Pika nếu bạn cần kiểm soát camera movement tốt hơn. Seedance 2.0 claim 'professional quality' — worth test với free trial trước khi commit subscription dài hạn.",
+      "source": "Seedance 2.0 Official",
       "url": "https://seedance2.ai/",
       "tags": [
-        "video-generation",
-        "text-to-video",
-        "motion"
+        "video-gen",
+        "motion",
+        "tools"
       ]
     },
     {
-      "headline": "Bernini by ByteDance — Open-Source AI Video Editing Với MLLM Planner",
-      "why": "Cho creative/developer: ByteDance release Bernini (Apache 2.0) — MLLM-based video editing với text-to-video, instruction-based editing. Nếu bạn cần customizable video AI stack cho internal tool, đây là option open-source đầu tiên có semantic planner.",
-      "source": "Morphic",
-      "url": "https://morphic.com/resources/models/bernini",
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Higgsfield ra plugin DaVinci Resolve: gen footage ngay trong timeline, vẽ trực tiếp lên clip để edit, apply AI-generated LUTs.",
+      "why": "Cho creative: Nếu team bạn dùng DaVinci, plugin này giảm context switching giữa editing và AI gen. Có thể gen B-roll ngay khi đang cut, không cần export/import. Tăng tốc production video dạng explainer/social.",
+      "source": "Higgsfield Official",
+      "url": "https://higgsfield.ai/",
       "tags": [
         "video-editing",
+        "DaVinci",
+        "plugin",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Bernini by ByteDance — Open-Source AI Video Editing Với Semantic Planner",
+      "summary": "ByteDance ra Bernini dưới Apache 2.0 (June 2026) — MLLM-based semantic planner + DiT renderer built on Wan2.2. Hỗ trợ text-to-image, image edit, text-to-video, instruction-based video edit.",
+      "why": "Cho creative: Đây là open-source alternative cho Adobe/Runway nếu bạn muốn self-host hoặc customize. Apache 2.0 license nghĩa là có thể dùng thương mại. Instruction-based editing tiện cho automated social content workflows.",
+      "source": "Morphic (Bernini info)",
+      "url": "https://morphic.com/resources/models/bernini",
+      "tags": [
         "open-source",
-        "bytedance"
+        "ByteDance",
+        "video-editing"
       ]
     }
   ],
   "vietnam": [],
-  "research": [
-    {
-      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Hiệu Ứng Giống GPS",
-      "summary": "Nghiên cứu Media Lab cho thấy người dùng AI để verify tin tức bị giảm khả năng tự phân biệt thật/giả — tương tự GPS làm suy yếu khả năng định hướng tự nhiên. Over-reliance vào AI có thể atrophy critical thinking.",
-      "why": "Vì sao đáng ngẫm: Đây là warning về trade-off khi outsource cognitive task cho AI. Không phải AI xấu, mà cách dùng có thể làm con người yếu đi. Lesson: balance giữa AI assistance và giữ skill tự nhiên — đặc biệt với decision-making.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "cognitive-science",
-        "ai-impact",
-        "fake-news"
-      ]
-    }
-  ],
+  "research": [],
   "business": [
     {
-      "headline": "OpenAI Lỗ Hàng Tỷ USD Mỗi Năm Bất Chấp Tăng Trưởng Doanh Thu — Tài Liệu Rò Rỉ",
-      "summary": "Tài liệu nội bộ rò rỉ cho thấy OpenAI đang lỗ hàng tỷ USD annually. Chi phí compute, R&D, và infrastructure vượt xa revenue dù công ty định giá $157B và là leader thị trường.",
-      "why": "Implication cho founder/investor: OpenAI — công ty dẫn đầu AI — vẫn chưa profitable nghĩa là business model AI chưa proven ở scale. Nếu bạn pitch 'AI revolution' với investor, cần answer rõ path to profitability, không chỉ growth metrics. Cost structure của AI (compute, talent, data) là structural challenge, không phải short-term hiccup.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
-      "tags": [
-        "openai",
-        "profitability",
-        "business-model"
-      ]
-    },
-    {
-      "headline": "Jeff Bezos AI Startup 'Prometheus' Định Giá $41 Tỷ USD Sau Vòng Gọi Vốn",
-      "summary": "Prometheus — startup AI agent infrastructure do Jeff Bezos lead — vừa raise round định giá $41B. Đây là một trong những deal lớn nhất AI infra 2026, confirm Bezos pivot mạnh sang AI sau Amazon.",
-      "why": "Implication cho founder: Tech billionaire với capital khổng lồ đang reshape AI landscape — định giá $41B cho startup mới nghĩa là bar entry vào foundational AI infra cực cao. Startup nhỏ cần tìm defensible niche (vertical-specific, data moat, distribution) thay vì compete head-on với player có war chest tỷ USD.",
+      "headline": "Jeff Bezos AI Startup 'Prometheus' Định Giá $41 Tỷ USD Sau Vòng Gọi Vốn Mới",
+      "summary": "Prometheus — AI startup của Jeff Bezos — vừa raise vòng funding định giá $41B. Bloomberg confirm thông tin này June 11, 2026.",
+      "why": "Cho founder/đầu tư: Bezos đang bet big vào AI infrastructure (không phải consumer app). $41B valuation trước revenue signal thị trường vẫn tin vào 'pick and shovel' model. Nếu bạn đang build infra layer, đây là validation — nhưng cũng là cảnh báo về crowded market.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
       "tags": [
         "funding",
-        "ai-infra",
-        "prometheus"
+        "Bezos",
+        "infrastructure",
+        "valuation"
       ]
     },
     {
-      "headline": "AI Hút 79% Tổng Funding VC Toàn Cầu Tháng 5/2026 — $72 Tỷ USD",
-      "summary": "Theo PaySpace Magazine, AI absorb $72B trong tổng $91B funding tháng 5/2026 (79%). Phần còn lại của VC capital đang bị AI 'starve' — fintech, edtech, healthtech đều bị squeeze.",
-      "why": "Implication cho founder: Nếu bạn đang raise capital cho non-AI startup, biết rằng 80% VC money đang chảy vào AI. Hai lựa chọn: (1) Pivot sang 'AI-enabled' để attract capital, hoặc (2) Target niche investor không FOMO AI. Đừng compete trong general pool.",
+      "headline": "AI Hút $72 Tỷ USD — 79% Tổng Funding Tháng 5/2026",
+      "summary": "Theo PaySpace Magazine, AI chiếm $72B trong tổng $91B funding tháng 5/2026 (79%). Một deal lớn giải thích phần lớn, nhưng kể cả loại bỏ deal đó, AI vẫn áp đảo.",
+      "why": "Cho founder: VC đang concentration risk cực cao vào AI. Nếu startup bạn không có 'AI angle', khó raise ngay cả với traction tốt. Nhưng nếu có AI, cũng phải cạnh tranh với hàng nghìn startup khác — differentiation quan trọng hơn bao giờ hết.",
       "source": "PaySpace Magazine",
       "url": "https://payspacemagazine.com/articles/global-fintech-ai-funding-roundup-major-startup-investments-in-may-2026/",
       "tags": [
         "funding",
-        "vc-trends",
-        "capital-allocation"
+        "VC",
+        "market-dynamics"
       ]
     },
     {
-      "headline": "Mỹ Giữ Chân DeepSeek — Chưa Đưa Vào Blacklist Dù Hơn 100 Công Ty Trung Quốc Bị Cấm",
-      "summary": "Chính phủ Mỹ quyết định không blacklist DeepSeek trong đợt制裁 mới nhất dù hơn 100 công ty Trung Quốc khác bị cấm vì lý do an ninh. Quyết định này ngạc nhiên vì DeepSeek là leader AI Trung Quốc.",
-      "why": "Implication cho business: DeepSeek thoát blacklist cho thấy Mỹ cũng phụ thuộc AI Trung Quốc hơn tưởng — có thể vì technical dependency hoặc lobbying. Nếu bạn đang dùng DeepSeek API trong production, rủi ro supply chain ngắn hạn giảm, nhưng vẫn nên có backup plan (Llama, Qwen) vì geopolitics unpredictable.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+      "headline": "TensorZero Đóng Repo Sau Khi Raise $7.3M Seed — Ngay Đêm Sau Announce",
+      "summary": "TensorZero — OSS AI tool — đóng repo GitHub đêm sau khi announce seed $7.3M. Community phản ứng tiêu cực về 'bait-and-switch' từ open-source sang proprietary.",
+      "why": "Cho founder: Open-source-to-proprietary pivot đang trở thành anti-pattern. Nếu bạn đang build OSS để marketing rồi đóng sau raise, expect backlash. Better strategy: open-core từ đầu (core OSS, enterprise proprietary) để avoid trust erosion.",
+      "source": "Context (mentioned in recap)",
+      "url": "",
       "tags": [
-        "policy",
-        "geopolitics",
-        "deepseek"
+        "open-source",
+        "fundraising",
+        "community",
+        "strategy"
       ]
     }
   ],
-  "society": [
-    {
-      "headline": "AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Nghiên Cứu MIT So Sánh GPS Effect",
-      "summary": "MIT Media Lab phát hiện người dùng AI để verify tin tức bị giảm khả năng tự phân biệt thật/giả, tương tự GPS làm suy yếu sense of direction. Over-reliance vào AI có thể atrophy critical thinking skills.",
-      "why": "Vì sao đáng suy ngẫm: Đây không phải anti-AI, mà là warning về trade-off khi outsource cognitive work. Khi ta delegate decision-making cho AI (verify news, navigate, schedule), ta mất practice → skill tự nhiên bị yếu đi. Implication dài hạn: cần thiết kế 'AI assistance' sao cho augment thay vì replace human judgment — đặc biệt với trẻ em đang hình thành critical thinking.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "cognitive-impact",
-        "misinformation",
-        "research"
-      ]
-    },
-    {
-      "headline": "Lợi Thế Cạnh Tranh Mà AI Không Thể Replicate — Kết Nối Con Người",
-      "summary": "Bài phân tích về vì sao human connection là moat duy nhất khi AI commoditize technical skills. Trust, empathy, relationship — đây là skill AI yếu nhất và khó học nhất.",
-      "why": "Vì sao đáng ngẫm: Khi GPT-5 viết code tốt hơn 90% engineer, technical skill không còn là competitive advantage. Moat mới là relationship — ability to build trust, navigate politics, collaborate across disciplines. Nếu bạn lo AI thay thế công việc, đầu tư vào soft skill — đây là insurance tốt nhất. Case support: top consultant, architect, designer thắng không phải vì technical mà vì client trust.",
-      "source": "Ghost in the Data",
-      "url": "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
-      "tags": [
-        "future-of-work",
-        "human-skills",
-        "career"
-      ]
-    },
-    {
-      "headline": "AI Đòi Hỏi Kỷ Luật Kỹ Thuật Cao Hơn — Không Phải Thấp Hơn",
-      "summary": "Charity Majors (engineering leader) viết về vì sao AI yêu cầu engineering discipline gấp đôi. Nhiều team nghĩ AI 'automate everything' → giảm testing/monitoring → disaster. Reality: AI càng powerful thì cần guardrails càng chặt.",
-      "why": "Vì sao đáng ngẫm: Đây là góc phản biện quan trọng với narrative 'AI makes everything easier'. Truth: AI agent làm mọi thứ FASTER, nhưng faster means faster failure nếu không có discipline. Implication cho manager: khi adopt AI, đầu tư vào observability, rollback mechanism, incident response — không phải chỉ mua tool. Case support: Knight Capital mất $440M trong 45 phút vì automated trading bug.",
-      "source": "Charity Majors",
-      "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
-      "tags": [
-        "engineering-culture",
-        "ai-safety",
-        "best-practices"
-      ]
-    }
-  ],
+  "society": [],
   "opensource": [
     {
-      "headline": "OpenClaw — AI Assistant Đa Nền Tảng, Mã Nguồn Mở 'Con Tôm Hùm' 🦞",
-      "why": "Personal AI assistant chạy được mọi OS — TypeScript stack. Nếu bạn muốn self-host AI assistant thay vì depend cloud service, repo này có 379K stars và active development.",
+      "headline": "OpenClaw — AI Assistant 'Any OS, Any Platform' Đạt 379K Stars",
+      "why": "Cho cá nhân: Cross-platform AI assistant có thể chạy local trên mọi OS. Nếu bạn cần personal AI không cloud, đây là option phổ biến nhất hiện tại. 379K stars signal strong community support.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "379K"
+      "stars": "379411"
     },
     {
-      "headline": "Hermes Agent by Nous Research — Agent Học Và Phát Triển Theo Thời Gian",
-      "why": "AI agent framework từ Nous Research — 'agent that grows with you'. Nếu bạn build agentic app cần memory + learning across sessions, đây là OSS option với 196K stars.",
+      "headline": "Hermes Agent by Nous Research — 'The Agent That Grows With You' — 197K Stars",
+      "why": "Cho creative/developer: Nous Research là team đằng sau nhiều fine-tune model chất lượng cao. Hermes Agent focus vào agentic workflow có thể học từ user behavior. Worth check nếu bạn cần agent tự customize theo workflow riêng.",
       "source": "GitHub",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "196K"
+      "stars": "196999"
     },
     {
-      "headline": "n8n — Workflow Automation Platform Với AI Capabilities Native",
-      "why": "n8n là Zapier/Make alternative self-host được, giờ có native AI integration. Nếu bạn muốn build AI workflow không depend Zapier pricing, n8n có 192K stars và 400+ integrations.",
+      "headline": "n8n — Workflow Automation Platform Với Native AI — 193K Stars",
+      "why": "Cho manager: n8n là Zapier alternative self-hostable với AI integration built-in. Nếu team bạn cần automation nhưng không muốn phụ thuộc cloud (compliance/cost), n8n là option mạnh. 400+ integrations.",
       "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "192K"
+      "stars": "193073"
     },
     {
-      "headline": "Dify — Platform Production-Ready Cho Agentic Workflow Development",
-      "why": "Dify là low-code platform build AI agent workflow với visual builder + custom code. Nếu team bạn có mix technical/non-technical, Dify giúp prototype fast — 145K stars.",
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow — 146K Stars",
+      "why": "Cho manager/developer: Dify focus vào 'production-ready' (không phải demo). Nếu team bạn đang thử nghiệm AI agents nhưng chưa có infra để deploy production, Dify cung cấp orchestration + monitoring out-of-the-box.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "145K"
+      "stars": "145749"
     },
     {
-      "headline": "Open WebUI — Giao Diện User-Friendly Cho Ollama, OpenAI API, Local Models",
-      "why": "Open WebUI là front-end đẹp cho Ollama/local models. Nếu bạn chạy local AI nhưng muốn UI giống ChatGPT cho team, đây là option open-source với 142K stars.",
+      "headline": "Open WebUI — User-Friendly AI Interface Cho Ollama, OpenAI API — 142K Stars",
+      "why": "Cho cá nhân: Nếu bạn chạy AI local (Ollama) nhưng thấy CLI khó dùng, Open WebUI là UI layer đẹp và dễ dùng. Cũng support OpenAI API nếu muốn switch giữa local và cloud.",
       "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "142K"
+      "stars": "142177"
     },
     {
-      "headline": "CADAM by Adam — Open-Source AI CAD Tool (Launch HN: YC W25)",
-      "why": "Startup YC W25 open-source AI CAD tool. Nếu bạn làm 3D/CAD workflow, CADAM claim AI-assisted design workflow — đáng theo dõi cho mechanical/product design.",
+      "headline": "Firecrawl — API To Search, Scrape, Interact With Web At Scale — 135K Stars",
+      "why": "Cho developer: Nếu bạn build AI agent cần web data, Firecrawl là scraping API được optimize cho AI workflows. Hỗ trợ scale — không phải tự handle rate limiting/proxy rotation.",
       "source": "GitHub",
-      "url": "https://github.com/Adam-CAD/CADAM",
-      "stars": "N/A"
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "134750"
+    },
+    {
+      "headline": "AutoGPT — Accessible AI For Everyone To Use And Build On — 185K Stars",
+      "why": "Cho curious: AutoGPT là một trong những AI agent framework đầu tiên và vẫn được maintain active. Tốt cho người mới tìm hiểu agentic AI — có documentation phong phú và community lớn.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185022"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform — 140K Stars",
+      "why": "Cho developer: LangChain là standard de facto cho agent orchestration. Nếu bạn build bất kỳ AI app nào cần chaining/routing/memory, LangChain giúp avoid reinventing the wheel.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "139657"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Cohere: North Mini Code (free) — $0.00/$0.00 Per M Tok",
+      "headline": "[OpenRouter NEW] Google: Nano Banana Pro (Gemini 3 Pro Image)",
       "event": "new",
-      "summary": "North Mini Code là model coding agentic đầu tiên của Cohere — sparse MoE 30B total params, 3B active. Model đầu tiên trong North family.",
-      "why": "Free tier coding model từ Cohere — nếu bạn test coding assistant mà muốn avoid OpenAI cost, đây là option mới đáng thử.",
+      "summary": "Google's most advanced image-generation and editing model, built on Gemini 3 Pro. Improved multimodal reasoning, real-world grounding.",
+      "why": "Alternative cho Midjourney/DALL-E nếu bạn dùng OpenRouter — price $2/$12 per M tok competitive cho image gen quality.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/cohere/north-mini-code:free",
+      "url": "https://openrouter.ai/models/google/gemini-3-pro-image",
       "tags": [
-        "openrouter",
-        "cohere",
-        "coding"
+        "image-gen",
+        "Google",
+        "Gemini"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Xiaomi: MiMo-V2-Flash Removed",
-      "event": "deprecated",
-      "summary": "Model xiaomi/mimo-v2-flash không còn available trên OpenRouter. Users cần migrate sang model khác.",
-      "why": "Nếu bạn đang dùng MiMo-V2-Flash trong production, cần migrate ngay — model đã bị remove.",
+      "headline": "[OpenRouter NEW] Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "event": "new",
+      "summary": "Latest image generation model from Google — 'Pro-level visual quality at Flash speed'. Fast + cheap alternative to Nano Banana Pro.",
+      "why": "Cho creative cần rapid prototyping: Flash speed nghĩa là gen ảnh nhanh hơn ~3x so với Pro tier. Price $0.50/$3.00 rẻ hơn đáng kể.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/xiaomi/mimo-v2-flash",
+      "url": "https://openrouter.ai/models/google/gemini-3.1-flash-image",
       "tags": [
-        "openrouter",
-        "deprecated",
-        "xiaomi"
+        "image-gen",
+        "Google",
+        "Gemini"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Poolside: Laguna M.1 — Flagship Coding Agent",
+      "event": "new",
+      "summary": "Poolside's flagship coding agent model for complex software engineering tasks. Supports tool calling, reasoning, 256K context.",
+      "why": "Cho developer: Alternative cho Cursor/Codex nếu bạn muốn BYOK model. $0.20/$0.40 per M tok cheaper than Claude Opus cho coding tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/poolside/laguna-m.1",
+      "tags": [
+        "coding",
+        "agent",
+        "Poolside"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Poolside: Laguna XS.2 — Efficient Coding Agent",
+      "event": "new",
+      "summary": "Second-generation XS size class from Poolside — compact footprint, tool calling + reasoning. Efficient coding agent.",
+      "why": "Cho cá nhân budget-conscious: XS tier nghĩa là compact model nhưng vẫn có agentic capability. $0.10/$0.20 per M tok — rẻ nhất trong coding agents.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/poolside/laguna-xs.2",
+      "tags": [
+        "coding",
+        "agent",
+        "Poolside"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 35B A3B — Giảm Giá Nhẹ",
+      "event": "price",
+      "summary": "Price drop: prompt $0.15 → $0.14 per M tok. Completion giữ nguyên $1.00.",
+      "why": "Migrate nếu đang dùng model tương tự price tier — tiết kiệm 6.7% prompt cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
+      "tags": [
+        "pricing",
+        "Qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 — Giảm Giá Đáng Kể",
+      "event": "price",
+      "summary": "Price drop: prompt $1.40 → $1.20, completion $4.40 → $4.10 per M tok.",
+      "why": "GLM 5.2 đang leading open-weight leaderboard (theo Artificial Analysis). Giảm giá 14-17% làm nó competitive hơn với Claude/GPT cho use case tiếng Trung.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "pricing",
+        "GLM",
+        "Zhipu"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 177,
-    "brave": 48,
+    "raw": 181,
+    "brave": 49,
     "reddit": 0,
-    "hackernews": 10,
-    "rss": 48,
+    "hackernews": 7,
+    "rss": 51,
     "huggingface": 7,
     "github": 10,
-    "openrouter": 2
+    "openrouter": 6
   }
 }
