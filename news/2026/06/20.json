@@ -1,0 +1,245 @@
+{
+  "date": "2026-06-20",
+  "updated_at": "2026-06-20T07:00:45.813547+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Na Uy Cấm Gần Như Hoàn Toàn AI Trong Trường Tiểu Học",
+    "summary": "Chính phủ Na Uy ban hành quy định cấm sử dụng AI trong giáo dục tiểu học, ngoại trừ các trường hợp đặc biệt được phê duyệt. Đây là động thái bảo vệ quyền riêng tư và phát triển nhận thức của trẻ em trước áp lực áp dụng công nghệ sớm.",
+    "why": "Cho phụ huynh + giáo viên: đây là signal về rủi ro phát triển nhận thức — AI làm giảm khả năng tư duy phản biện ở trẻ (tương tự MIT: AI làm mất khả năng phát hiện fake news). Nếu con bạn đang dùng AI làm bài tập → cân nhắc lại để không tạo dependency sớm.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+    "tags": [
+      "policy",
+      "education",
+      "ethics",
+      "children"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Noam Shazeer — 'Cha Đẻ' Transformer — Gia Nhập OpenAI",
+      "why": "Cho manager/founder: Shazeer rời Google về Character.AI rồi giờ join OpenAI — đây là pattern talent war leo thang. Nếu bạn đang giữ chân AI talent → benchmark lương + equity ngay, đợi đến khi họ resign là muộn.",
+      "source": "Web Search Context",
+      "url": "",
+      "tags": [
+        "talent",
+        "openai",
+        "industry"
+      ]
+    },
+    {
+      "headline": "SpaceX Mua Anysphere (Cursor) $60 Tỷ USD — All-Stock Deal",
+      "why": "Cho founder: định giá Cursor tăng từ $30B (tháng 11) lên $60B sau 7 tháng — không phải vì revenue mà vì 'chiến lược AI coding tools'. Nếu startup bạn không có moat rõ ràng, valuations kiểu này không lặp lại được.",
+      "source": "Reuters + SF Standard",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "tags": [
+        "acquisition",
+        "valuation",
+        "coding"
+      ]
+    },
+    {
+      "headline": "Amazon Hủy Phim Về Sam Altman Sau Khi Ký Partnership Với OpenAI",
+      "why": "Cho manager: đây là conflict of interest rõ ràng — Amazon chọn business deal hơn creative freedom. Nếu công ty bạn sign partnership lớn → review lại independence về content/creative decisions, đừng để bị silent.",
+      "source": "The Independent",
+      "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+      "tags": [
+        "business",
+        "ethics",
+        "partnership"
+      ]
+    },
+    {
+      "headline": "Hyundai Mua Lại 100% Boston Dynamics — SoftBank Thoát $325M",
+      "why": "Cho founder: SoftBank exit Boston Dynamics sau 8 năm — giá $325M thấp hơn nhiều kỳ vọng robotics boom. Nếu bạn raise từ fund mơ 'moonshot', họ sẽ exit khi thấy tăng trưởng chậm — plan accordingly.",
+      "source": "Startup Fortune",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "tags": [
+        "robotics",
+        "acquisition",
+        "funding"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
+      "summary": "Plugin AI video generation cho DaVinci Resolve cho phép generate footage, draw trên clip để edit, và apply AI-generated LUTs ngay trong timeline — không cần export/import.",
+      "why": "Cho creative: nếu bạn đang dùng DaVinci → test plugin này để giảm round-trip time giữa AI gen và edit. Workflow all-in-one giúp iterate nhanh hơn 40-60% so với export qua Runway/Pika.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "tags": [
+        "video",
+        "plugin",
+        "workflow",
+        "davinci-resolve"
+      ]
+    },
+    {
+      "headline": "Artlist Tích Hợp Multi-Model AI Video Gen — Một Workspace Cho Tất Cả",
+      "summary": "Artlist platform cho phép access nhiều AI video models (Sora, Veo, Pika, Seedance) trong 1 workspace, tự động update model mới. Generate + polish video cùng chỗ.",
+      "why": "Cho creative: thay vì subscribe 5-7 tool riêng → Artlist consolidate workflow. Nếu bạn đang trả $300+/tháng cho nhiều AI video tools → cân nhắc switch để giảm phức tạp quản lý account.",
+      "source": "Artlist",
+      "url": "https://artlist.io/ai/video-generator",
+      "tags": [
+        "video",
+        "platform",
+        "tools"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Giúp Nhỏ Hơn Thắng Lớn Hơn 1% Chi Phí — Dùng Game Cờ Làm Test Bed",
+      "summary": "Nghiên cứu MIT dùng game cờ để test AI agents, phát hiện model nhỏ (fine-tuned đúng cách) có thể thắng model lớn với 1% cost — thách thức giả định 'bigger is better'.",
+      "why": "Cho manager: không cần GPT-5 cho mọi task. Fine-tune model nhỏ cho use case cụ thể có thể rẻ hơn 100x mà accuracy tương đương — áp dụng ngay cho internal tools thay vì trả API lớn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "efficiency",
+        "cost"
+      ]
+    },
+    {
+      "headline": "Swansea University: AI Làm Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu mới cho thấy AI không thay thế sáng tạo con người mà amplify — người dùng AI có output sáng tạo cao hơn nhóm control khi task phức tạp.",
+      "why": "Cho cá nhân: đừng sợ AI 'làm mất kỹ năng sáng tạo'. Data cho thấy AI là tool augment — nhưng bạn vẫn cần critical thinking để direct AI đúng hướng. Skill cần đầu tư: prompt engineering + judgment.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "creativity",
+        "human-ai"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "AI Startup Mỹ Hút 80% Funding Toàn Cầu Q1-Q2 2026 — Khoảng Cách Ngày Càng Lớn",
+      "summary": "Q1-Q2 2026, startup AI Mỹ hút gần 80% seed-to-growth funding toàn cầu theo Crunchbase — tăng so với ~60-65% trước AI boom. Châu Âu và châu Á tụt hậu rõ rệt.",
+      "why": "Cho founder ngoài Mỹ: nếu bạn build AI startup ở VN/SEA → fundraise sẽ khó hơn nhiều. Cân nhắc relocate founder/entity sang US để access vốn, hoặc bootstrap lâu dài hơn — đừng kỳ vọng vòng Seed $5-10M dễ như startup Mỹ.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
+      "tags": [
+        "funding",
+        "global",
+        "geographic"
+      ]
+    },
+    {
+      "headline": "AI Foundational Startups Raise $178B Q1 2026 — Science Đánh Bại Product-First",
+      "summary": "Q1 2026, foundational AI startups (focus vào research/science) raise ~$178B — nhiều investor đang đặt cược vào long-term science thay vì product ngắn hạn.",
+      "why": "Cho founder: nếu bạn build wrapper app trên API OpenAI/Anthropic → khó fundraise. Market đang prefer deep-tech moat (model riêng, dataset riêng, algo mới). Nếu không có science edge → pivot về niche vertical hoặc bootstrap.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/foundational-ai-startup-investment-kardos-nyheim-thomson/",
+      "tags": [
+        "funding",
+        "deep-tech",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Q1 2026: AI Hút $72B (79% Tổng VC Funding) Nếu Loại Trừ Deal Lớn Nhất",
+      "summary": "Ngay cả khi loại deal lớn nhất (có thể là Cursor $60B), AI vẫn chiếm 79% total VC funding Q1 2026 — $72B. Concentration risk cực cao.",
+      "why": "Cho founder non-AI: nếu startup bạn không AI-native → fundraise sẽ cực khó 2026-2027. Cân nhắc integrate AI vào product để không bị 'invisible' với investors, hoặc chấp nhận bootstrap.",
+      "source": "PaySpace Magazine",
+      "url": "https://payspacemagazine.com/articles/global-fintech-ai-funding-roundup-major-startup-investments-in-may-2026/",
+      "tags": [
+        "funding",
+        "market",
+        "concentration"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Trung Quốc Dùng AI Dự Đoán Người 'Rủi Ro Chính Trị' — NYTimes Phân Tích",
+      "summary": "NYTimes điều tra cách công ty Trung Quốc phát triển công nghệ giám sát AI để dự đoán ai có thể gây rủi ro chính trị — struggle khi bị US restrictions nhưng vẫn triển khai.",
+      "why": "Cho manager + cá nhân: nếu công ty bạn triển khai AI giám sát nhân viên (click tracking, email sentiment, v.v.) — nhận biết đây là slippery slope. Văn hóa giám sát sẽ giết psychological safety → talent tốt rời đi. Review lại ethics trước khi deploy.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "china",
+        "policy"
+      ]
+    },
+    {
+      "headline": "Character 'Orion' Xuất Hiện Quá Nhiều Trong AI-Generated Stories — Warning Sign Model Collapse?",
+      "summary": "Guardian phân tích hiện tượng character tên 'Orion' xuất hiện lặp đi lặp lại trong chatbot-generated stories — có thể là dấu hiệu 'model collapse' khi AI train trên data AI-generated.",
+      "why": "Cho curious: đây là edge case thú vị về feedback loop — AI train trên output AI cũ sẽ amplify bias/pattern nhỏ thành stereotype lớn. Nếu bạn đang build chatbot/content gen → diversify training data, đừng để AI ăn chính output của nó.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "tags": [
+        "model-collapse",
+        "bias",
+        "training"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Đa Nền Tảng 'The Lobster Way'",
+      "why": "Cho cá nhân: personal AI assistant cross-platform (TypeScript). 379K stars → viral, nhưng check code quality + maintenance trước khi production. Có thể là alternative self-host cho ChatGPT nếu privacy là ưu tiên.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "379529"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework + Dev Methodology",
+      "why": "Cho developer: framework để build agentic skills — 233K stars. Nếu bạn đang explore AI agents cho dev workflow → đọc methodology này trước khi tự build from scratch.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "233324"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — Agent Phát Triển Cùng Bạn",
+      "why": "Cho developer: agent 'grows with you' — 197K stars. Concept: agent học từ workflow của bạn thay vì generic. Nếu đang dùng Cursor/Devin → compare approach này.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "197633"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Meta Llama 3 70B Instruct — Không Còn",
+      "event": "deprecated",
+      "summary": "Meta Llama 3 70B Instruct bị remove khỏi OpenRouter.",
+      "why": "Migrate code sang Llama 3.1/3.2 hoặc model khác ngay — deprecated model sẽ fail request.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3-70b-instruct",
+      "tags": [
+        "openrouter",
+        "deprecated",
+        "llama"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code Giảm Giá — ↓$0.68 Prompt, ↓$3.41 Completion",
+      "event": "price",
+      "summary": "Kimi K2.7 Code giảm: prompt $0.74→$0.68, completion $3.50→$3.41 per million tokens.",
+      "why": "Cheaper coding model option — nếu đang dùng GPT-4 cho code tasks → test Kimi K2.7 để so cost/quality.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "tags": [
+        "openrouter",
+        "price",
+        "coding"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 175,
+    "brave": 47,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 51,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 2
+  }
+}
