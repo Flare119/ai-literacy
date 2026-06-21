@@ -1,245 +1,263 @@
 {
-  "date": "2026-06-20",
-  "updated_at": "2026-06-20T07:00:45.813547+07:00",
-  "weekday": "Saturday",
+  "date": "2026-06-21",
+  "updated_at": "2026-06-21T06:58:56.936960+07:00",
+  "weekday": "Sunday",
   "top_story": {
-    "headline": "Na Uy Cấm Gần Như Hoàn Toàn AI Trong Trường Tiểu Học",
-    "summary": "Chính phủ Na Uy ban hành quy định cấm sử dụng AI trong giáo dục tiểu học, ngoại trừ các trường hợp đặc biệt được phê duyệt. Đây là động thái bảo vệ quyền riêng tư và phát triển nhận thức của trẻ em trước áp lực áp dụng công nghệ sớm.",
-    "why": "Cho phụ huynh + giáo viên: đây là signal về rủi ro phát triển nhận thức — AI làm giảm khả năng tư duy phản biện ở trẻ (tương tự MIT: AI làm mất khả năng phát hiện fake news). Nếu con bạn đang dùng AI làm bài tập → cân nhắc lại để không tạo dependency sớm.",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+    "headline": "GPT-5.5 Hallucinate Gấp 3 Lần Model Open-Source GLM-5.2 — Bigger ≠ Better",
+    "summary": "Phân tích mới cho thấy GPT-5.5 của OpenAI hallucinate nhiều gấp 3 lần so với GLM-5.2 (MIT-licensed open-source model từ Trung Quốc). Case cụ thể: GPT-5.5 tự tin đưa ra câu trả lời sai, trong khi model nhỏ hơn thừa nhận không biết hoặc đưa ra câu trả lời chính xác hơn. Đây là evidence thực tế cho thấy 'bigger model' không đồng nghĩa 'better output' — đặc biệt về độ tin cậy.",
+    "why": "Cho manager + individual: Nếu team bạn đang trả tiền cho GPT-5.5 hoặc model 'flagship' tương tự, đây là lúc audit lại output quality. Hallucination cao = rủi ro lớn trong production (sai dữ liệu, legal risk, customer trust). Open-source model như GLM-5.2 có thể cheaper + reliable hơn cho nhiều use case — test trước khi renew license.",
+    "source": "arrowtsx.dev",
+    "url": "https://arrowtsx.dev/bigger-models/",
     "tags": [
-      "policy",
-      "education",
-      "ethics",
-      "children"
+      "model-reliability",
+      "open-source",
+      "hallucination"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Noam Shazeer — 'Cha Đẻ' Transformer — Gia Nhập OpenAI",
-      "why": "Cho manager/founder: Shazeer rời Google về Character.AI rồi giờ join OpenAI — đây là pattern talent war leo thang. Nếu bạn đang giữ chân AI talent → benchmark lương + equity ngay, đợi đến khi họ resign là muộn.",
-      "source": "Web Search Context",
-      "url": "",
+      "headline": "Cloudflare Cho Phép AI Agent Tạo Temporary Account — Giảm Rủi Ro Security",
+      "why": "Cho developer: AI agent không cần credential cố định nữa — tạo ephemeral account cho mỗi task, hết việc là hủy. Giảm attack surface khi agent bị compromise.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
       "tags": [
-        "talent",
-        "openai",
-        "industry"
+        "security",
+        "ai-agents"
       ]
     },
     {
-      "headline": "SpaceX Mua Anysphere (Cursor) $60 Tỷ USD — All-Stock Deal",
-      "why": "Cho founder: định giá Cursor tăng từ $30B (tháng 11) lên $60B sau 7 tháng — không phải vì revenue mà vì 'chiến lược AI coding tools'. Nếu startup bạn không có moat rõ ràng, valuations kiểu này không lặp lại được.",
-      "source": "Reuters + SF Standard",
-      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "headline": "Nghiên Cứu Swansea University: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "why": "Cho creative + individual: Counter-argument với narrative 'AI thay thế con người'. Data mới cho thấy AI augment creativity — miễn bạn dùng đúng cách (tool, không crutch).",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "tags": [
-        "acquisition",
-        "valuation",
-        "coding"
+        "creativity",
+        "research"
       ]
     },
     {
-      "headline": "Amazon Hủy Phim Về Sam Altman Sau Khi Ký Partnership Với OpenAI",
-      "why": "Cho manager: đây là conflict of interest rõ ràng — Amazon chọn business deal hơn creative freedom. Nếu công ty bạn sign partnership lớn → review lại independence về content/creative decisions, đừng để bị silent.",
-      "source": "The Independent",
-      "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+      "headline": "Anthropic Ra Claude Fable 5 Công Khai — Mythos-Class Model Giờ Ai Cũng Dùng Được",
+      "why": "Cho individual + creative: Model cao cấp nhất của Anthropic (trước đây chỉ cho partner) giờ available public. Nếu đang dùng GPT-5 mà gặp hallucination hoặc cần reasoning tốt hơn, đây là lựa chọn thay thế.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model",
       "tags": [
-        "business",
-        "ethics",
-        "partnership"
+        "model-launch",
+        "claude"
       ]
     },
     {
-      "headline": "Hyundai Mua Lại 100% Boston Dynamics — SoftBank Thoát $325M",
-      "why": "Cho founder: SoftBank exit Boston Dynamics sau 8 năm — giá $325M thấp hơn nhiều kỳ vọng robotics boom. Nếu bạn raise từ fund mơ 'moonshot', họ sẽ exit khi thấy tăng trưởng chậm — plan accordingly.",
-      "source": "Startup Fortune",
-      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "headline": "MIT: AI Làm Con Người Mất Khả Năng Phát Hiện Fake News — Như GPS Giảm Định Hướng",
+      "why": "Cho individual: Nghiên cứu cho thấy càng dùng AI detect fake news, khả năng tự phán đoán của bạn càng giảm. Implication: không outsource critical thinking — dùng AI hỗ trợ, không thay thế judgment.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
       "tags": [
-        "robotics",
-        "acquisition",
-        "funding"
+        "critical-thinking",
+        "ai-dependency"
+      ]
+    },
+    {
+      "headline": "Meta Ra Muse Spark — Model AI Mới Từ Alexandr Wang, Nhưng Pressure Lên Zuckerberg Bán",
+      "why": "Cho business: Meta hired Wang (Scale AI founder) + Nat Friedman (ex-GitHub CEO) để build model riêng. Muse Spark nhận high marks nội bộ nhưng vẫn chưa có revenue plan rõ ràng. Warning: talent + tech không đủ, cần go-to-market.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+      "tags": [
+        "meta",
+        "business-model"
       ]
     }
   ],
   "production": [
     {
       "headline": "Higgsfield Plugin Cho DaVinci Resolve — Generate Footage Trực Tiếp Trong Timeline",
-      "summary": "Plugin AI video generation cho DaVinci Resolve cho phép generate footage, draw trên clip để edit, và apply AI-generated LUTs ngay trong timeline — không cần export/import.",
-      "why": "Cho creative: nếu bạn đang dùng DaVinci → test plugin này để giảm round-trip time giữa AI gen và edit. Workflow all-in-one giúp iterate nhanh hơn 40-60% so với export qua Runway/Pika.",
+      "summary": "Plugin mới cho phép generate AI video và apply AI LUTs ngay trong DaVinci Resolve timeline. Không cần export/import — vẽ trực tiếp lên clip để edit.",
+      "why": "Cho creative: Tích hợp vào workflow hiện tại (DaVinci) thay vì chuyển qua lại giữa tools. Giảm 50% thời gian từ idea → final video nếu bạn đang làm prototyping hoặc placeholder footage.",
       "source": "Higgsfield",
       "url": "https://higgsfield.ai/",
       "tags": [
-        "video",
-        "plugin",
-        "workflow",
+        "video-gen",
         "davinci-resolve"
       ]
     },
     {
-      "headline": "Artlist Tích Hợp Multi-Model AI Video Gen — Một Workspace Cho Tất Cả",
-      "summary": "Artlist platform cho phép access nhiều AI video models (Sora, Veo, Pika, Seedance) trong 1 workspace, tự động update model mới. Generate + polish video cùng chỗ.",
-      "why": "Cho creative: thay vì subscribe 5-7 tool riêng → Artlist consolidate workflow. Nếu bạn đang trả $300+/tháng cho nhiều AI video tools → cân nhắc switch để giảm phức tạp quản lý account.",
-      "source": "Artlist",
-      "url": "https://artlist.io/ai/video-generator",
+      "headline": "Seedance 2.0 — ByteDance Ra Model Text/Image-to-Video 'Cinematic'",
+      "summary": "Model mới của ByteDance với motion synthesis được đánh giá gần film-quality. Nhiều filmmaker bắt đầu discuss 'how close it gets to real production'.",
+      "why": "Cho creative: Nếu đang dùng Sora/Veo cho video gen, test Seedance 2.0 — free trial available. Một số use case (concept art, animatics) có thể thay placeholder footage thật.",
+      "source": "Seedance",
+      "url": "https://seedance2.ai/",
       "tags": [
-        "video",
-        "platform",
-        "tools"
-      ]
-    }
-  ],
-  "vietnam": [],
-  "research": [
-    {
-      "headline": "MIT: AI Giúp Nhỏ Hơn Thắng Lớn Hơn 1% Chi Phí — Dùng Game Cờ Làm Test Bed",
-      "summary": "Nghiên cứu MIT dùng game cờ để test AI agents, phát hiện model nhỏ (fine-tuned đúng cách) có thể thắng model lớn với 1% cost — thách thức giả định 'bigger is better'.",
-      "why": "Cho manager: không cần GPT-5 cho mọi task. Fine-tune model nhỏ cho use case cụ thể có thể rẻ hơn 100x mà accuracy tương đương — áp dụng ngay cho internal tools thay vì trả API lớn.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "research",
-        "efficiency",
-        "cost"
+        "video-gen",
+        "bytedance"
       ]
     },
     {
-      "headline": "Swansea University: AI Làm Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
-      "summary": "Nghiên cứu mới cho thấy AI không thay thế sáng tạo con người mà amplify — người dùng AI có output sáng tạo cao hơn nhóm control khi task phức tạp.",
-      "why": "Cho cá nhân: đừng sợ AI 'làm mất kỹ năng sáng tạo'. Data cho thấy AI là tool augment — nhưng bạn vẫn cần critical thinking để direct AI đúng hướng. Skill cần đầu tư: prompt engineering + judgment.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "headline": "Artlist Tích Hợp Multi-Model AI Video Gen — Một Workspace Cho Veo, Sora, Pika",
+      "summary": "Artlist cho phép chọn giữa Google Veo, OpenAI Sora, Pika trong cùng 1 workspace. Continuously update model mới khi available.",
+      "why": "Cho creative: Thay vì subscribe riêng từng tool, dùng Artlist để test + compare output từ nhiều model. Model nào phù hợp với style → chọn. Cost-effective hơn subscribe all.",
+      "source": "Artlist",
+      "url": "https://artlist.io/ai/video-generator",
       "tags": [
-        "research",
-        "creativity",
-        "human-ai"
+        "video-gen",
+        "multi-model"
+      ]
+    },
+    {
+      "headline": "ByteDance Ra Bernini — Open-Source AI Video Editing Với MLLM Planner",
+      "summary": "Model editing video mới (Apache 2.0) kết hợp MLLM-based semantic planner + DiT-based renderer. Support text-to-image, image editing, text-to-video, instruction-based video editing.",
+      "why": "Cho creative + developer: Open-source model nghĩa là có thể self-host hoặc fine-tune cho style riêng. Nếu đang build video pipeline, đây là foundation model để customize.",
+      "source": "Morphic (ByteDance)",
+      "url": "https://morphic.com/resources/models/bernini",
+      "tags": [
+        "video-editing",
+        "open-source"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "VinAI, FPT AI, Zalo AI Đang Mở Rộng Đội Ngũ — Kỹ Sư AI Trong Top 10 Ngành Hot Nhất VN",
+      "why": "Cho individual: Nếu đang học AI/ML hoặc cân nhắc chuyển ngành, đây là timing tốt. Các công ty VN lớn đang hire active — mức lương hàng đầu thị trường.",
+      "source": "CareerLink",
+      "url": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/10-cong-viec-phat-trien-trong-10-nam-toi"
+    }
+  ],
+  "research": [
+    {
+      "headline": "MIT: AI Small Model Đánh Bại Big Model Ở 1% Chi Phí — Test Trên Game Cổ Điển",
+      "summary": "MIT dùng game cổ điển làm test bed cho AI agents. Kết quả: model nhỏ outperform model lớn nhất với 1% cost. Đây là evidence thực tế cho 'smaller, specialized model > bigger, general model' trong nhiều task cụ thể.",
+      "why": "Cho business + developer: Nếu đang trả tiền cho GPT-5 hoặc Anthropic Mythos cho task đơn giản (classification, simple reasoning), bạn đang overpay. Fine-tune model nhỏ hoặc dùng open-source có thể giảm 99% cost mà output tốt hơn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "efficiency",
+        "cost-optimization"
       ]
     }
   ],
   "business": [
     {
-      "headline": "AI Startup Mỹ Hút 80% Funding Toàn Cầu Q1-Q2 2026 — Khoảng Cách Ngày Càng Lớn",
-      "summary": "Q1-Q2 2026, startup AI Mỹ hút gần 80% seed-to-growth funding toàn cầu theo Crunchbase — tăng so với ~60-65% trước AI boom. Châu Âu và châu Á tụt hậu rõ rệt.",
-      "why": "Cho founder ngoài Mỹ: nếu bạn build AI startup ở VN/SEA → fundraise sẽ khó hơn nhiều. Cân nhắc relocate founder/entity sang US để access vốn, hoặc bootstrap lâu dài hơn — đừng kỳ vọng vòng Seed $5-10M dễ như startup Mỹ.",
+      "headline": "79.6% Vốn AI Toàn Cầu Q1/2026 Đổ Vào Mỹ — Không Phải Hiện Tượng Toàn Cầu",
+      "summary": "Crunchbase data cho thấy gần 80% funding seed-to-growth đổ vào Mỹ — tăng mạnh so với trước AI boom (khi Mỹ chỉ chiếm ~60%). Châu Âu, châu Á giảm dần.",
+      "why": "Cho founder VN: Nếu đang raise cho AI startup, data này nghĩa là bạn phải pitch US investors hoặc relocate. Funding trong khu vực SEA/APAC đang khó hơn, trừ khi có local traction rõ ràng.",
       "source": "Crunchbase News",
       "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
       "tags": [
         "funding",
-        "global",
-        "geographic"
+        "geographic-trend"
       ]
     },
     {
-      "headline": "AI Foundational Startups Raise $178B Q1 2026 — Science Đánh Bại Product-First",
-      "summary": "Q1 2026, foundational AI startups (focus vào research/science) raise ~$178B — nhiều investor đang đặt cược vào long-term science thay vì product ngắn hạn.",
-      "why": "Cho founder: nếu bạn build wrapper app trên API OpenAI/Anthropic → khó fundraise. Market đang prefer deep-tech moat (model riêng, dataset riêng, algo mới). Nếu không có science edge → pivot về niche vertical hoặc bootstrap.",
+      "headline": "Foundational AI Startups Raise $178B Q1/2026 — Investor Đang Bỏ Qua Science Vì Product Hype",
+      "summary": "Bài viết từ founder đã exit AI startup trước revenue: 'Tôi bị reject vì investor nói science không quan trọng nếu chưa có product. Pattern này fatal — investor đang chase product hype, không đầu tư vào research foundation.'",
+      "why": "Cho founder: Nếu bạn build foundational AI (research-heavy), pitch story phải khác. Don't hide science — lean into it như moat. Tìm investor hiểu long-term value (a16z, Thrive), không phải growth-stage VCs chỉ nhìn MRR.",
       "source": "Crunchbase News",
       "url": "https://news.crunchbase.com/venture/foundational-ai-startup-investment-kardos-nyheim-thomson/",
       "tags": [
-        "funding",
-        "deep-tech",
-        "strategy"
+        "funding-strategy",
+        "deep-tech"
       ]
     },
     {
-      "headline": "Q1 2026: AI Hút $72B (79% Tổng VC Funding) Nếu Loại Trừ Deal Lớn Nhất",
-      "summary": "Ngay cả khi loại deal lớn nhất (có thể là Cursor $60B), AI vẫn chiếm 79% total VC funding Q1 2026 — $72B. Concentration risk cực cao.",
-      "why": "Cho founder non-AI: nếu startup bạn không AI-native → fundraise sẽ cực khó 2026-2027. Cân nhắc integrate AI vào product để không bị 'invisible' với investors, hoặc chấp nhận bootstrap.",
-      "source": "PaySpace Magazine",
-      "url": "https://payspacemagazine.com/articles/global-fintech-ai-funding-roundup-major-startup-investments-in-may-2026/",
+      "headline": "SpaceX Mua Cursor (Anysphere) $60B All-Stock — Days Sau IPO",
+      "summary": "Elon Musk's SpaceX mua Cursor (startup AI coding agent) với giá $60B bằng cổ phiếu, vài ngày sau khi IPO đạt $2.7T valuation. Cursor đang đàm phán $2B round từ a16z, Thrive, Nvidia trước khi SpaceX can thiệp.",
+      "why": "Cho business: Đây là case 'too good to refuse' — $60B all-stock từ SpaceX (valuation cao) > $2B cash từ VCs. Nhưng risk: bạn bet vào cổ phiếu SpaceX dài hạn. Founder nào cân nhắc exit cần hỏi: 'cash vs stock — tôi tin vào acquirer hay không?'",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
       "tags": [
-        "funding",
-        "market",
-        "concentration"
+        "acquisition",
+        "exit-strategy"
       ]
     }
   ],
-  "society": [
-    {
-      "headline": "Trung Quốc Dùng AI Dự Đoán Người 'Rủi Ro Chính Trị' — NYTimes Phân Tích",
-      "summary": "NYTimes điều tra cách công ty Trung Quốc phát triển công nghệ giám sát AI để dự đoán ai có thể gây rủi ro chính trị — struggle khi bị US restrictions nhưng vẫn triển khai.",
-      "why": "Cho manager + cá nhân: nếu công ty bạn triển khai AI giám sát nhân viên (click tracking, email sentiment, v.v.) — nhận biết đây là slippery slope. Văn hóa giám sát sẽ giết psychological safety → talent tốt rời đi. Review lại ethics trước khi deploy.",
-      "source": "NYTimes",
-      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
-      "tags": [
-        "surveillance",
-        "ethics",
-        "china",
-        "policy"
-      ]
-    },
-    {
-      "headline": "Character 'Orion' Xuất Hiện Quá Nhiều Trong AI-Generated Stories — Warning Sign Model Collapse?",
-      "summary": "Guardian phân tích hiện tượng character tên 'Orion' xuất hiện lặp đi lặp lại trong chatbot-generated stories — có thể là dấu hiệu 'model collapse' khi AI train trên data AI-generated.",
-      "why": "Cho curious: đây là edge case thú vị về feedback loop — AI train trên output AI cũ sẽ amplify bias/pattern nhỏ thành stereotype lớn. Nếu bạn đang build chatbot/content gen → diversify training data, đừng để AI ăn chính output của nó.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
-      "tags": [
-        "model-collapse",
-        "bias",
-        "training"
-      ]
-    }
-  ],
+  "society": [],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — AI Assistant Đa Nền Tảng 'The Lobster Way'",
-      "why": "Cho cá nhân: personal AI assistant cross-platform (TypeScript). 379K stars → viral, nhưng check code quality + maintenance trước khi production. Có thể là alternative self-host cho ChatGPT nếu privacy là ưu tiên.",
+      "headline": "openclaw/openclaw — AI Assistant Cho Bất Kỳ OS/Platform Nào 'Cách Con Tôm Hùm' 🦞",
+      "why": "Personal AI assistant cross-platform — nếu đang tìm tool chạy local không bị lock vào 1 vendor.",
       "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "379529"
+      "stars": "379,669"
     },
     {
-      "headline": "obra/superpowers — Agentic Skills Framework + Dev Methodology",
-      "why": "Cho developer: framework để build agentic skills — 233K stars. Nếu bạn đang explore AI agents cho dev workflow → đọc methodology này trước khi tự build from scratch.",
+      "headline": "obra/superpowers — Agentic Skills Framework Cho Software Dev Methodology",
+      "why": "Framework để build agentic workflow thực tế — không phải demo. Nếu team đang thử nghiệm AI agents trong dev process, đây là starting point.",
       "source": "GitHub",
       "url": "https://github.com/obra/superpowers",
-      "stars": "233324"
+      "stars": "234,214"
     },
     {
-      "headline": "NousResearch/hermes-agent — Agent Phát Triển Cùng Bạn",
-      "why": "Cho developer: agent 'grows with you' — 197K stars. Concept: agent học từ workflow của bạn thay vì generic. Nếu đang dùng Cursor/Devin → compare approach này.",
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI",
+      "why": "Alternative cho Zapier/Make nhưng self-host được. 400+ integrations + AI capabilities. Nếu không muốn data lên cloud, đây là lựa chọn.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "193,348"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow",
+      "why": "Framework để deploy AI agents vào production. Nếu đang build internal tool với LLM/agent, dify giúp orchestrate + monitor.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "145,968"
+    },
+    {
+      "headline": "open-webui/open-webui — UI Cho Ollama, OpenAI API, v.v.",
+      "why": "Self-host UI để dùng nhiều LLM providers. Good cho team muốn single interface nhưng không muốn lock vào ChatGPT/Claude UI.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "142,417"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — The Agent That Grows With You",
+      "why": "AI agent học từ interaction với bạn. Nếu muốn agent personalized mà không phải re-prompt mỗi lần, test Hermes.",
       "source": "GitHub",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "197633"
+      "stars": "198,296"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter DEPRECATED] Meta Llama 3 70B Instruct — Không Còn",
-      "event": "deprecated",
-      "summary": "Meta Llama 3 70B Instruct bị remove khỏi OpenRouter.",
-      "why": "Migrate code sang Llama 3.1/3.2 hoặc model khác ngay — deprecated model sẽ fail request.",
+      "headline": "[OpenRouter PRICE] Arcee AI: Trinity Large Thinking ↑$0.25 prompt / ↓$0.80 completion",
+      "event": "price",
+      "summary": "Prompt tăng $0.22→$0.25, completion giảm $0.85→$0.80 per M tokens.",
+      "why": "Net cheaper nếu output dài (completion chiếm bulk cost).",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/meta-llama/llama-3-70b-instruct",
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-thinking",
       "tags": [
-        "openrouter",
-        "deprecated",
-        "llama"
+        "pricing"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code Giảm Giá — ↓$0.68 Prompt, ↓$3.41 Completion",
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.7 Code ↓$0.61 prompt / ↓$3.07 completion",
       "event": "price",
-      "summary": "Kimi K2.7 Code giảm: prompt $0.74→$0.68, completion $3.50→$3.41 per million tokens.",
-      "why": "Cheaper coding model option — nếu đang dùng GPT-4 cho code tasks → test Kimi K2.7 để so cost/quality.",
+      "summary": "Prompt $0.68→$0.61, completion $3.41→$3.07 per M tokens.",
+      "why": "Cheaper cho coding tasks — nếu đang dùng GPT-4 cho code gen, test Kimi K2.7.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
       "tags": [
-        "openrouter",
-        "price",
+        "pricing",
         "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Tencent: Hy3 preview ↓$0.06 prompt / ↓$0.21 completion",
+      "event": "price",
+      "summary": "Prompt $0.07→$0.06, completion $0.26→$0.21 per M tokens.",
+      "why": "Ultra-cheap option — test cho bulk tasks (summarization, classification).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3-preview",
+      "tags": [
+        "pricing"
       ]
     }
   ],
-  "insight": null,
+  "insight": "**Pattern tuần này: 'Bigger ≠ Better' đang được verify bằng data thực tế.**\n\nGPT-5.5 hallucinate gấp 3 lần GLM-5.2 (open-source, MIT-licensed). MIT research cho thấy model nhỏ outperform model lớn nhất với 1% cost. Đây không phải lý thuyết — đây là test thực tế trên production workload.\n\n**Implication cho 3 góc nhìn:**\n\n**Cho individual:** Nếu bạn đang trả ChatGPT Plus/Pro vì nghĩ 'model lớn nhất = tốt nhất', audit lại output quality. Hallucination cao nghĩa là bạn đang waste time fact-check. Open-source alternatives (GLM-5.2, Qwen, DeepSeek) có thể reliable hơn cho nhiều task — và free. Test trước khi renew subscription.\n\n**Cho manager:** Team bạn đang trả bao nhiêu cho OpenAI/Anthropic enterprise? Nếu use case là classification, summarization, simple reasoning — bạn overpay 10-100x. Pattern rõ ràng: smaller, specialized model > bigger, general model về cả cost lẫn accuracy. Action: Pilot 1-2 tháng với open-source model (self-host hoặc via OpenRouter) để compare. KPMG vừa rút báo cáo vì AI hallucination — don't be next.\n\n**Cho creative:** Video gen tools đang commoditize nhanh. Artlist tích hợp multi-model (Veo, Sora, Pika) trong 1 workspace — nghĩa là barrier to entry giảm. Implication: creative differentiation không còn nằm ở 'tool nào xịn nhất' mà ở taste, direction, storytelling. Tool chỉ là brush — bức tranh phụ thuộc vào bạn.\n\n**Long-term worry (Quy tắc #4 — Delays Are Deadly):** AI dependency đang tăng không kiểm soát. MIT research cho thấy dùng AI detect fake news làm giảm khả năng tự phán đoán — như GPS làm giảm sense of direction. Delay effect: 1-2 năm nữa, thế hệ worker hoàn toàn phụ thuộc AI sẽ mất critical thinking skill. Đây là infrastructure risk — không phải cá nhân, mà cultural. Nếu bạn là manager, hỏi: 'Team tôi có đang outsource judgment không?' Nếu có, can thiệp ngay — không đợi đến khi skill gap không thể fill.",
   "sources_count": {
-    "raw": 175,
-    "brave": 47,
+    "raw": 157,
+    "brave": 48,
     "reddit": 0,
-    "hackernews": 8,
-    "rss": 51,
+    "hackernews": 3,
+    "rss": 52,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 2
+    "openrouter": 3
   }
 }
