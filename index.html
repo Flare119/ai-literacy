@@ -1891,6 +1891,50 @@
         </div>
     </div>
 
+    <div class="card" data-id="trilemma-llm" data-persona="producer,curious,manager" style="display:block;">
+        <div class="card-header">
+            <div>
+                <div class="card-title">Trilemma của LLM — vì sao "model mạnh nhất" không phải lựa chọn đúng</div>
+                <div class="card-subtitle">Năng lực × Tự biết × Hiệu suất: đẩy một góc thường phải trả giá bằng hai góc kia</div>
+            </div>
+            <span class="card-tag tag-fundamental">Nền tảng</span>
+        </div>
+        <div class="card-body">
+            <p>"Trilemma" = bài toán <strong>ba góc</strong>, trong đó bạn muốn cả ba cùng tốt nhưng <strong>đẩy mạnh một góc thường phải trả giá bằng góc kia</strong>. Giống "nhanh - rẻ - tốt: chọn 2" trong production. Một LLM có ba góc:</p>
+            <h4>1. Capability (năng lực thô)</h4>
+            <p>Model giải được bài khó tới đâu. Đây là cái mọi benchmark đo — MMLU, SWE-bench, AIME. Suốt 3 năm cả ngành chỉ đua góc này.</p>
+            <h4>2. Calibration (sự tự biết)</h4>
+            <p>Model có <strong>biết khi nào mình không biết</strong> không. Calibrate tốt = nói "tôi không chắc" thay vì bịa. Đo bằng hallucination rate. Đây là góc bị <em>bỏ quên</em> vì benchmark phổ thông không đo nó.</p>
+            <h4>3. Efficiency (hiệu suất)</h4>
+            <p>Nhanh, rẻ, chạy được trên phần cứng vừa phải. Token/giây, $/triệu token, RAM cần.</p>
+
+            <h4>Vì sao là "trilemma" — đẩy 1 góc, mất 2 góc</h4>
+            <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:0.92em">
+                <thead>
+                    <tr style="border-bottom:2px solid #2a3a52">
+                        <th style="padding:6px 8px;text-align:left">Đẩy góc nào</th>
+                        <th style="padding:6px 8px;text-align:left">Trả giá ở đâu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Tăng Capability</strong> (nhồi param + data)</td><td style="padding:6px 8px">Calibration tụt (DeepSeek V4 Pro 1.6T: ảo giác 94%) + Efficiency tụt (chậm, đắt, cần cluster)</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Tối ưu Efficiency</strong> (model nhỏ, quant)</td><td style="padding:6px 8px">Capability thường giảm</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Ép Calibration cao</strong> (RLHF dạy nói "không biết")</td><td style="padding:6px 8px">Đôi khi model né cả câu nó biết (over-refusal), cảm giác Capability giảm</td></tr>
+                </tbody>
+            </table>
+            <p>Insight đắt nhất: suốt 3 năm ngành <strong>chỉ bơm góc Capability</strong> (to hơn = giỏi hơn) — và vô tình <strong>kéo tụt góc Calibration mà không ai để ý</strong>, vì benchmark không đo nó. Kết quả: cả thế hệ model <em>dõng dạc mà thiếu tự biết</em> — trả lời trôi chảy, tự tin, và bịa.</p>
+
+            <h4>Ví dụ sống</h4>
+            <ul>
+                <li><strong>DeepSeek V4 Pro</strong> (to khủng): Capability cao, nhưng Calibration thảm (94% ảo giác) + Efficiency tệ (3'26", đốt 10× token) → mạnh 1 góc, gãy 2 góc.</li>
+                <li><strong>GLM-5.2</strong> (nhỏ hơn): cân hơn — Calibration tốt (28%), Efficiency khá (40B active), Capability chỉ kém top 4-9đ → cân cả 3 góc thay vì cực đại 1 góc.</li>
+            </ul>
+            <div class="biz-analogy">Khi chọn model cho studio, đừng chỉ nhìn một góc Capability ("model nào mạnh nhất bảng"). Hỏi đủ ba: (1) Việc này cần năng lực cỡ nào? (caption ≠ coding agent) (2) Nó bịa có chết người không? (đọc số cho client → cần calibration cao; brainstorm → bịa cũng OK) (3) Chạy được/rẻ không cho volume mình? Một con 94% ảo giác mạnh cỡ nào cũng vô dụng cho việc cần đúng.</div>
+            <p style="color:#62666d;font-size:12px;margin-top:16px;border-top:1px solid #2a2d32;padding-top:10px;">Liên quan: bài blog "To hơn không còn là con đường" (mục Blog) · Nguồn: arrowtsx.dev 18/6/2026, AA-Omniscience benchmark.</p>
+            <button class="check-btn" onclick="markLearned(this, 'trilemma-llm')">✓ Đã hiểu</button>
+        </div>
+    </div>
+
 </div>
 
 <!-- SECTION 2: AI PRODUCTION -->
