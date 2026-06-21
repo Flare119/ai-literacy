@@ -649,6 +649,82 @@
     <h2 class="section-title">✍️ Blog — Góc phân tích</h2>
     <p class="section-desc">Không phải kiến thức vỡ lòng — đây là những bài phân tích chuyên sâu từ các nghiên cứu, xu hướng và cuộc thảo luận thật quanh AI. Mỗi bài là một góc nhìn được đọc kỹ, nghĩ kỹ, viết ra để chia sẻ. Đọc chậm.</p>
 
+    <article class="card" data-id="blog-bigger-models" data-persona="producer,curious,manager" style="display:block;">
+        <div class="card-header">
+            <div>
+                <div class="card-title">🧠 To hơn không còn là con đường — và điều đó nói gì với người dồn cả sự nghiệp vào AI</div>
+                <div class="card-subtitle">Khi cỗ máy lớn nhất thế giới bắt đầu thua một kẻ nhỏ hơn nó hai lần, câu hỏi không còn là "to cỡ nào" mà là "tin được tới đâu"</div>
+            </div>
+            <span class="card-tag tag-fundamental">Deep Read · 21/06/2026</span>
+        </div>
+        <div class="card-body">
+            <p style="color:#9aa0a6;font-style:italic;margin-bottom:18px;">Dựa trên bài "Bigger models are not the way" của Oliver Shrimpton (arrowtsx.dev, 18/06/2026). Bài gốc viết cho dân kỹ thuật, đầy số benchmark, nhưng điều nó chạm tới thì rộng hơn nhiều: nó nói về chuyện gì xảy ra khi cái thước đo ta tin suốt mấy năm — <em>to hơn thì giỏi hơn</em> — bỗng gãy.</p>
+
+            <h4>I. Cái niềm tin đã chạy ngon suốt ba năm</h4>
+            <p>Suốt từ thuở GPT-3, ngành AI sống bằng một đức tin đơn giản đến mức dễ chịu: cứ đổ thêm tham số, thêm dữ liệu, thêm điện — model sẽ giỏi hơn. Và phần lớn thời gian, đức tin ấy <em>đúng</em>. Các model to nhất luôn đứng đầu bảng. Đổ tiền vào là thấy quả. Một công thức mà ai cũng hiểu, ai cũng đua được, miễn có đủ tiền mua card.</p>
+            <p>Rồi đến giữa 2026, một vết nứt nhỏ xuất hiện trên bức tường ấy. Không phải vì model to thôi giỏi — chúng vẫn dẫn đầu bảng điểm. Vết nứt nằm ở chỗ khác, tinh vi hơn: <strong>khoảng cách giữa "to nhất" và "đủ tốt" đang co lại nhanh đến mức cái giá của sự to lớn không còn bõ.</strong></p>
+            <p>Bằng chứng nằm ngay trong một con số. GLM-5.2 của Z.ai — 753 tỷ tham số, chỉ ~40 tỷ hoạt động mỗi lần, <strong>giấy phép MIT, tải về chạy thoải mái</strong> — chỉ kém GPT-5.5 đúng 4 điểm và kém Fable 5 đúng 9 điểm trên bảng Intelligence Index. Trong khi Opus 4.8 và GPT-5.5 được ước tính nặng 1.000–2.000 tỷ tham số, tức to gấp rưỡi đến gấp đôi. Một model mở, nhỏ hơn, miễn phí, đứng cách model đóng đắt nhất thế giới đúng một sải tay.</p>
+
+            <h4>II. Cái bẫy của kẻ luôn có câu trả lời</h4>
+            <p>Đây là phần lật ngược, và là phần đắt nhất của bài.</p>
+            <p>Hóa ra to lên không chỉ <em>hết giúp ích</em> — ở một mặt, nó còn <em>gây hại</em>. Khi một model được nhồi quá nhiều dữ liệu "factual", nó học được một thói quen nguy hiểm: <strong>luôn luôn phải có câu trả lời.</strong> Nó mất dần khả năng nói ba chữ khó nhất trong mọi ngôn ngữ — "tôi không biết".</p>
+            <p>Con số làm người ta giật mình. Đây là tỷ lệ ảo giác (đo trên những câu model <em>không biết</em>: bao nhiêu phần trăm nó bịa một câu trả lời thay vì thừa nhận không biết) — càng thấp càng tỉnh táo:</p>
+            <table style="width:100%;border-collapse:collapse;margin:14px 0;font-size:0.92em">
+                <thead>
+                    <tr style="border-bottom:2px solid #2a3a52">
+                        <th style="padding:6px 8px;text-align:left">Model</th>
+                        <th style="padding:6px 8px;text-align:left">Tỷ lệ ảo giác</th>
+                        <th style="padding:6px 8px;text-align:left">Đọc thế nào</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>GLM-5.2</strong> <span style="color:#6b7280">(753B, MIT)</span></td><td style="padding:6px 8px;color:#34d399"><strong>28%</strong></td><td style="padding:6px 8px;color:#34d399">Tỉnh táo nhất bảng</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Opus 4.8</strong></td><td style="padding:6px 8px;color:#60a5fa">36%</td><td style="padding:6px 8px;color:#9aa0a6">To nhưng calibrate tốt</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>Fable 5</strong></td><td style="padding:6px 8px;color:#fbbf24">48%</td><td style="padding:6px 8px;color:#9aa0a6">Một nửa số lần là bịa</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>GPT-5.5</strong></td><td style="padding:6px 8px;color:#f87171">86%</td><td style="padding:6px 8px;color:#9aa0a6">Khả nghi — xem mục V</td></tr>
+                    <tr style="border-bottom:1px solid #1e2a3f"><td style="padding:6px 8px"><strong>DeepSeek V4 Pro</strong> <span style="color:#6b7280">(1.6T)</span></td><td style="padding:6px 8px;color:#ef4444"><strong>94%</strong></td><td style="padding:6px 8px;color:#9aa0a6">Gần như không bao giờ nói "không biết"</td></tr>
+                </tbody>
+            </table>
+            <p>Gã khổng lồ DeepSeek V4 Pro — 1.600 tỷ tham số — đạt mức 94% kinh hoàng. Tức là gần như mỗi lần không biết, nó vẫn dõng dạc bịa một câu nghe rất thật.</p>
+            <div class="analogy">Giống một thí sinh học thuộc lòng cả bộ bách khoa toàn thư rồi bước vào phòng vấn đáp: hỏi gì cũng trả lời trôi chảy, tự tin, mạch lạc — và bạn không tài nào biết câu nào là thật, câu nào là cái máy đang lấp khoảng trống cho khỏi im lặng. <strong>Càng học nhiều, nó càng giỏi cái việc <em>nghe có vẻ đúng</em>, chứ không phải <em>đúng</em>.</strong></div>
+
+            <h4>III. Một câu hỏi Python, hai số phận</h4>
+            <p>Để rời khỏi bảng số khô khan, tác giả làm một thí nghiệm nhỏ mà sắc. Ông đưa một câu hỏi Python có lỗi kiến trúc cố ý gài vào — đại loại bắt một tiến trình đơn luồng làm I/O đa kênh mà không bao giờ nhường lượt. Một nghịch lý kỹ thuật. Một cái bẫy.</p>
+            <p>DeepSeek V4 Pro — gã khổng lồ — dành 3 phút 26 giây, đốt gấp 10 lần lượng "suy nghĩ", để rồi đẻ ra một lời giải đẹp đẽ, cấu trúc gọn gàng, và <strong>sai một cách tự tin</strong>. Nó không hề nhận ra đề bài bất khả thi. Nó cắm cúi giải một bài toán không có lời giải. GLM-5.2 — nhỏ hơn — mất 12 giây và khoảng 800 token để nhận ra ngay: cái này không làm được.</p>
+            <div class="analogy">Như sai một tài xế giao hàng thả bưu kiện ở ba ngôi nhà cùng một lúc mà không bao giờ dừng xe. Một người sẽ nói ngay "sếp ơi không được". Người kia gật đầu, rồ ga, và lái vòng vòng ba tiếng đồng hồ để chứng minh mình tận tụy.</div>
+            <p>Một con n=1 thì không chứng minh được điều lớn. Nhưng nó <em>minh họa</em> được điều bảng số đã nói: kích thước không mua được sự tỉnh táo.</p>
+
+            <h4>IV. Cái tam giác không có đỉnh nào miễn phí</h4>
+            <p>Phần kết của bài gói cả luận điểm vào một hình ảnh sạch: <strong>tam giác bất khả của LLM hiện đại.</strong> Ba thứ ta luôn muốn cùng lúc, mà tăng cái này thường phải trả bằng cái kia:</p>
+            <ul style="color:#c4c8ce;line-height:1.75;margin:0 0 18px 20px;">
+                <li><strong>Năng lực thô</strong> — giải được bài khó.</li>
+                <li><strong>Sự tự biết</strong> — biết khi nào mình không biết (calibration / hallucination).</li>
+                <li><strong>Hiệu suất tính toán</strong> — nhanh, rẻ, chạy được trên phần cứng vừa phải.</li>
+            </ul>
+            <p>Suốt ba năm, cả ngành chỉ chăm chăm bơm đỉnh năng lực, và mặc nhiên tin hai đỉnh kia sẽ tự theo. Bài này nói thẳng: không. Bơm mù quáng đỉnh năng lực có thể <em>kéo tụt</em> đỉnh tự-biết. To ra không tự sinh ra khôn ngoan — nhiều khi sinh ra sự liều lĩnh có học thức.</p>
+
+            <h4>V. Chỗ tôi không nuốt trọn</h4>
+            <p>Một bài đáng đọc không có nghĩa là một bài đáng tin trọn vẹn, và sẽ phí nếu đọc xong chỉ gật gù. Có ba chỗ phải dừng lại nghi ngờ.</p>
+            <p><strong>Một, con số 86% của GPT-5.5 cao đến mức khả nghi.</strong> Một model đầu bảng mà bịa đặt gần gấp ba Opus 4.8 cùng hạng? Rất có thể cái thước đo này đo trên <em>tập câu model không biết</em>, chứ không phải toàn bộ câu hỏi — nghĩa là đừng đọc thành "GPT-5.5 sai 86% thời gian". Đó là một sự thật hẹp bị dễ hiểu thành một sự thật rộng.</p>
+            <p><strong>Hai, suy luận nhân quả của bài lỏng.</strong> "To hơn → ảo giác nhiều hơn" nghe gọn, nhưng Opus 4.8 cũng rất to mà calibrate tốt (36%). Vậy biến số thật không phải <em>kích thước</em>, mà là <em>cách hậu huấn luyện</em> — RLHF, cách thưởng phạt khi model nói "không biết". Bài đổ tội cho size, trong khi thủ phạm có lẽ là cách dạy dỗ. Một sự nhầm địa chỉ tinh vi.</p>
+            <p><strong>Ba, một câu hỏi Python không phải một nghiên cứu.</strong> Nó là giai thoại đẹp, không phải bằng chứng. Tin vào nó nhiều như tin vào bảng benchmark là tự rơi vào đúng cái bẫy bài đang cảnh báo: kết luận tự tin từ dữ liệu mỏng. Và cú móc mở bài — Fable 5 bị Mỹ cấm sau ba ngày — là một cái móc câu giật gân, gắn lỏng vào luận điểm. Vụ cấm là chuyện <em>an toàn và jailbreak</em>, không phải chuyện <em>scaling chững lại</em>. Khéo về văn, nhưng nhập nhằng về logic.</p>
+
+            <h4>VI. Vậy thì làm gì với điều này — nếu bạn không train model</h4>
+            <p>Tôi sẽ nói thẳng phần này áp vào ai, vì luận điểm cốt lõi của bài — dù đường đi có chỗ vá víu — là <strong>đúng và quan trọng với chính cách ta đang làm việc.</strong></p>
+            <p>Thứ nhất: <strong>thôi chọn công cụ bằng cái thước "to nhất".</strong> Cái phản xạ "dùng model xịn nhất, đắt nhất cho chắc" giờ là một phản xạ lỗi thời. Model to nhất có thể vừa đắt hơn, vừa chậm hơn, <em>vừa</em> bịa nhiều hơn cho đúng cái việc ta cần — như viết caption, đọc số, tóm tắt tài liệu. Cái đáng hỏi không phải "model nào mạnh nhất" mà "model nào <em>biết im lặng đúng lúc</em> cho việc này".</p>
+            <p>Thứ hai: <strong>model mở vừa bắt kịp đến mức tự chủ trở thành lựa chọn thật.</strong> GLM-5.2 — MIT, 753B/40B active — đứng cách model đóng đắt nhất đúng một sải tay. Điều này nối thẳng vào bài "AI mở phải thắng" trên chính blog này: khi một model bạn <em>tải về và giữ được</em> đã đủ giỏi cho 90% việc thật, thì việc cắm cả pipeline vào một API đóng có thể bị đổi giá, đổi luật, hay khai tử bất cứ lúc nào — không còn là tiện lợi, mà là rủi ro.</p>
+            <p>Thứ ba, và đây là lằn ranh phải tự vạch: bài này thắng ở chỗ nó tôn vinh thứ khó đo — <em>sự tự biết</em>. Đó cũng đúng là thứ con người trong nghề sáng tạo còn thắng máy: biết khi nào một khung hình "rẻ", ngửi ra cái nhạt trung vị mà mọi model luôn kéo về, và — quan trọng nhất — biết nói "cái này chưa được" thay vì giao một thứ trôi chảy mà rỗng. <strong>Một model 94% ảo giác và một người làm nghề ngại nói "tôi không chắc" mắc đúng cùng một bệnh.</strong> Phần giá trị thật của ta nằm ở chỗ ta dám dừng lại nghi ngờ — đúng cái việc DeepSeek V4 Pro không làm được.</p>
+
+            <h4>VII. Lời kết</h4>
+            <p>Có một sự đối xứng đẹp giữa bài này và mấy bài khác trên chính trang blog này. Bài "AI mở phải thắng" hỏi <em>trí tuệ nên thuộc về ai</em>; bài "nợ nhận thức" hỏi <em>bộ não ta còn lại gì khi để máy nghĩ hộ</em>. Bài này thêm một câu hỏi thứ ba, lặng hơn nhưng cùng họ: <strong>giữa năng lực và sự khiêm tốn, ta đang thưởng cho cái nào?</strong></p>
+            <p>Suốt ba năm ngành AI thưởng cho sự to lớn — và vô tình huấn luyện ra cả một thế hệ model dõng dạc mà thiếu tự biết. Bài viết này là tín hiệu đầu tiên rằng cơn say ấy đang tỉnh.</p>
+            <div class="analogy" style="font-size:1.05em;"><strong><em>Thành ra câu hỏi cho người chọn và dùng AI thời này không còn là "model nào mạnh nhất" — câu đó đã cũ. Câu khó hơn, đáng tự hỏi mỗi lần chọn công cụ, là: thứ tôi đang tin tưởng giao việc cho nó, nó có biết nói "tôi không biết" không — hay nó chỉ giỏi làm tôi tin rằng nó biết?</em></strong></div>
+
+            <p style="color:#62666d;font-size:12px;margin-top:20px;border-top:1px solid #2a2d32;padding-top:12px;">Nguồn: Oliver Shrimpton, "Bigger models are not the way", arrowtsx.dev (18/06/2026) · Số liệu: Artificial Analysis Intelligence Index &amp; AA-Omniscience benchmark · Bối cảnh model: GLM-5.2 (Z.ai, MIT license), Opus 4.8, GPT-5.5, Fable 5, DeepSeek V4 Pro.</p>
+            <button class="check-btn" onclick="markLearned(this, 'blog-bigger-models')">✓ Đã đọc</button>
+        </div>
+    </article>
+
     <article class="card" data-id="blog-may2026-funding" data-persona="producer,curious,manager" style="display:block;">
         <div class="card-header">
             <div>
