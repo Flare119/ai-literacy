@@ -1,0 +1,285 @@
+{
+  "date": "2026-06-22",
+  "updated_at": "2026-06-22T07:03:07.357157+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "SpaceX Mua Cursor $60 Tỷ USD — Deal M&A AI Coding Lớn Nhất Lịch Sử",
+    "summary": "Elon Musk's SpaceX mua lại Anysphere (startup đứng sau Cursor AI coding agent) với giá $60 tỷ USD — all-stock deal. Đây là M&A lớn nhất trong lịch sử AI coding tools, vượt xa GitHub acquisition ($7.5B năm 2018). Mục tiêu: thu hẹp khoảng cách với OpenAI, Anthropic trong thị trường enterprise AI.",
+    "why": "Cho manager + founder: Định giá $60B cho startup 4 tuổi chưa IPO = signal thị trường AI coding đang ở đỉnh bong bóng hoặc sắp consolidate. Nếu bạn đang build AI tool, exit window có thể sắp đóng sau wave M&A này. Cho cá nhân: Cursor giờ thuộc SpaceX — expect thay đổi pricing/model/data policy trong 6-12 tháng. Nếu dùng Cursor làm core workflow, chuẩn bị plan B.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+    "tags": [
+      "M&A",
+      "coding",
+      "valuation",
+      "SpaceX"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Apple Ra Siri AI — Phiên Bản Hoàn Toàn Mới Với Khả Năng Agentic",
+      "why": "Cho cá nhân: Nếu dùng Apple ecosystem, Siri AI (iOS 27, macOS 27) sẽ thay đổi cách tương tác với thiết bị — từ voice command đơn giản sang multi-step tasks. Developer beta available ngay hôm nay.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "tags": [
+        "Apple",
+        "assistant",
+        "agentic"
+      ]
+    },
+    {
+      "headline": "Anthropic Yêu Cầu Xác Thực Danh Tính Trên Claude — KYC Cho AI",
+      "why": "Cho cá nhân + manager: Anthropic bắt đầu identity verification — có thể là phản ứng với lệnh hạn chế truy cập nước ngoài từ Mỹ (đã cover 2026-06-16). Nếu team bạn dùng Claude cho sensitive work, prepare compliance overhead tăng.",
+      "source": "Claude Support",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "tags": [
+        "compliance",
+        "Claude",
+        "security"
+      ]
+    },
+    {
+      "headline": "Microsoft Ra MAI-Thinking-1 — Model Reasoning Đầu Tiên Của MAI Family",
+      "why": "Cho creative + cá nhân: MAI-Thinking-1 (35B params) thiết kế cho multi-step agentic tasks, score ngang Anthropic Opus 4 trên SWE Bench Pro. Nếu làm coding/automation phức tạp, đây là alternative cho o1/Claude Opus.",
+      "source": "ZDNET",
+      "url": "https://www.zdnet.com/article/ai-model-release-tracker/",
+      "tags": [
+        "Microsoft",
+        "reasoning",
+        "coding"
+      ]
+    },
+    {
+      "headline": "Mistral Đổi Tên Le Chat Thành Vibe — AI Chat + Coding Agent",
+      "why": "Cho creative + cá nhân: Mistral rebrand Le Chat → Vibe, focus vào chat + code + automate work. Nếu đang dùng Le Chat, interface/branding sẽ đổi nhưng core model không thay đổi.",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/products/vibe/",
+      "tags": [
+        "Mistral",
+        "branding",
+        "coding"
+      ]
+    },
+    {
+      "headline": "Z.ai Giảm Giá GLM 5.2 — Prompt $1.20→$1.00, Completion $4.10→$4.00",
+      "why": "Cho cá nhân + creative: GLM 5.2 (model Trung Quốc open-weight dẫn đầu Artificial Analysis) giảm giá ~17-20%. Nếu dùng OpenRouter, đây là alternative rẻ hơn cho tasks không nhạy cảm.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "pricing",
+        "GLM",
+        "OpenRouter"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Artlist Tích Hợp Multi-Model AI Video Gen — Access Tất Cả Models Trong 1 Workspace",
+      "summary": "Artlist cho phép creators access nhiều AI video models (Veo 3.1, Sora, Pika, etc.) trong cùng 1 workspace. Continuously update model mới khi release. Generate polished videos với cinematic quality.",
+      "why": "Cho creative: Thay vì subscribe riêng lẻ từng model, Artlist cho thử nghiệm tất cả trong 1 tool. Giảm friction khi test model nào fit project. Workflow improvement rõ nếu team đang làm video AI-generated.",
+      "source": "Artlist",
+      "url": "https://artlist.io/ai/video-generator",
+      "tags": [
+        "video",
+        "workflow",
+        "Artlist"
+      ]
+    },
+    {
+      "headline": "ByteDance Ra Bernini — Open-Source AI Video Editing Dựa Trên Wan2.2",
+      "summary": "Bernini là model AI video editing từ ByteDance, pair MLLM-based semantic planner với DiT-based renderer (dựa Wan2.2). Hỗ trợ text-to-image, image editing, text-to-video, instruction-based video editing. Released Apache 2.0 tháng 6/2026.",
+      "why": "Cho creative: Open-source video editing model với license tự do (Apache 2.0) = có thể self-host hoặc fine-tune. Nếu làm video production at scale, Bernini có thể integrate vào pipeline thay vì rely third-party APIs.",
+      "source": "Morphic",
+      "url": "https://morphic.com/resources/models/bernini",
+      "tags": [
+        "ByteDance",
+        "video editing",
+        "open-source"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Giúp Giải Rubik's Cube Với Chi Phí 1% So Với Model Lớn",
+      "summary": "Nghiên cứu MIT dùng game Rubik's Cube làm test bed cho AI agents. Phát hiện: model AI nhỏ có thể outperform model lớn nhất với 1% chi phí. Implication: efficiency không phải về scale, mà về architecture phù hợp với task.",
+      "why": "Cho manager + curious: Đây là phản biện trực tiếp với 'bigger is better' narrative. Nếu team bạn đang chọn model, đừng default vào GPT-4/Claude Opus nếu task đơn giản — small specialized model rẻ hơn 100x mà vẫn đạt mục tiêu.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "efficiency",
+        "MIT"
+      ]
+    },
+    {
+      "headline": "Research: Não Người Không Được 'Thiết Kế' Để Tiêu Thụ Quá Nhiều Tin Xấu",
+      "summary": "ScienceDaily công bố nghiên cứu: não người không được thiết kế để xử lý lượng tin tức tiêu cực liên tục như hiện nay. Exposure quá mức gây stress, anxiety, decision paralysis.",
+      "why": "Cho cá nhân: Nếu bạn đang theo dõi AI news mỗi ngày và cảm thấy overwhelmed, đây là explanation sinh học. Giải pháp: curate nguồn tin (như digest này), không scroll raw feeds. Mental health > FOMO.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "tags": [
+        "mental health",
+        "research",
+        "wellbeing"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Q1 2026: Foundational AI Startups Gọi Vốn ~$178 Tỷ USD — Science Chưa Cần Product",
+      "summary": "Crunchbase: Q1 2026 foundational AI startups huy động ~$178B. Trend: investors bet vào 'science' (pretrained models, architecture) thay vì product có revenue. Case: founder bán startup trước khi có revenue vì investors miss 'foundational value'.",
+      "why": "Cho founder: Nếu bạn build AI infrastructure/model (không phải application), window gọi vốn đang mở lớn — nhưng có thể là đỉnh bong bóng. Foundational bets này sẽ phải prove ROI trong 2-3 năm, nếu không sẽ có wave down round.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/foundational-ai-startup-investment-kardos-nyheim-thomson/",
+      "tags": [
+        "funding",
+        "foundational AI",
+        "bubble"
+      ]
+    },
+    {
+      "headline": "80% Vốn AI Toàn Cầu Đổ Vào Mỹ Năm 2026 — Không Phải Hiện Tượng Global",
+      "summary": "Crunchbase data: 2026, công ty Mỹ chiếm gần 80% vốn seed-to-growth-stage toàn cầu cho AI — divergence mạnh so với trước AI boom (Mỹ thường ~50-60%). EU, châu Á, LatAm bị bỏ lại phía sau.",
+      "why": "Cho founder VN: AI funding đang concentrate Mỹ. Nếu bạn startup AI ở VN, cơ hội raise từ quỹ nước ngoài giảm trừ khi pivot sang US entity hoặc relocate. Alternative: bootstrap hoặc target VN market với local capital.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
+      "tags": [
+        "funding",
+        "geography",
+        "startup"
+      ]
+    },
+    {
+      "headline": "Fintech/AI Funding Tháng 5/2026: AI Chiếm 79% Tổng Vốn ($72B Nếu Loại Outlier)",
+      "summary": "PaySpace Magazine: tháng 5/2026, AI hút 79% tổng vốn fintech/AI ($72B nếu loại 1 deal outlier). Concentration vốn vào AI tiếp tục tăng — fintech non-AI bị starve.",
+      "why": "Cho founder: Nếu bạn làm fintech không có AI component, khó raise vốn năm 2026. Investors đang all-in AI narrative. Nếu product bạn có thể gắn AI angle (dù nhỏ), branding/pitching phải pivot theo.",
+      "source": "PaySpace Magazine",
+      "url": "https://payspacemagazine.com/articles/global-fintech-ai-funding-roundup-major-startup-investments-in-may-2026/",
+      "tags": [
+        "fintech",
+        "AI",
+        "funding"
+      ]
+    },
+    {
+      "headline": "'Vibe Coding' Boom — 8 Startups Gọi Vốn Hàng Tỷ USD Từ Top VCs",
+      "summary": "Business Insider: 'vibe coding' (non-techies build software bằng AI) trở thành unlock lớn. 8 startups (bao gồm Devin, Cursor trước khi bán) raise billions từ Founders Fund, 8VC, Lux, Khosla, Elad Gil, Pear VC. Market định giá khả năng democratize coding.",
+      "why": "Cho founder + business: 'No-code AI' không còn niche. Nếu bạn build SaaS, expect pressure từ tools cho phép users tự build thay vì mua. Defensive strategy: pivot sang platform/marketplace thay vì point solution.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startups-raising-billions-vibe-coding-boom-cursor-lovable-replit-emergent-2026-3",
+      "tags": [
+        "vibe coding",
+        "no-code",
+        "funding"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Bài Phản Biện: '100,000 Whys of AI' — AI Vẫn Chưa Trả Lời Được Câu Hỏi Căn Bản",
+      "summary": "lcamtuf (Substack): Bài viết phân tích AI hiện tại vẫn không thể trả lời '100,000 whys' — tức chuỗi câu hỏi 'tại sao' sâu về bất kỳ topic nào. AI pattern-match, không reasoning từ first principles. Limitation này quan trọng hơn benchmark scores.",
+      "why": "Cho curious + manager: Đây là phản biện quan trọng khi đánh giá AI deployment. Nếu công việc yêu cầu deep reasoning (legal, medical, strategic planning), AI hiện tại chỉ là copilot, không thể thay thế expert. Expectation management critical.",
+      "source": "lcamtuf Substack",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "tags": [
+        "phản biện",
+        "reasoning",
+        "limitation"
+      ]
+    },
+    {
+      "headline": "Apertus — Open Foundation Model Cho 'Sovereign AI' (AI Chủ Quyền)",
+      "summary": "Apertus.ai: Open foundation model nhấn mạnh 'sovereign AI' — AI không phụ thuộc vào US/China tech giants, có thể self-host, audit được. Target: châu Âu, chính phủ, enterprise cần data sovereignty.",
+      "why": "Cho manager + business: EU AI Act + data localization laws đang tạo demand cho 'sovereign AI'. Nếu team bạn serve EU customers hoặc government, Apertus-style models sẽ là compliance requirement trong 1-2 năm. Plan migration sớm.",
+      "source": "Apertus.ai",
+      "url": "https://apertvs.ai/",
+      "tags": [
+        "sovereign AI",
+        "EU",
+        "compliance"
+      ]
+    },
+    {
+      "headline": "Open-Source Maintainer Burnout — OpenJS Foundation Công Nhận Vấn Đề",
+      "summary": "OpenJS Foundation blog: Burnout của open-source maintainers là thực. Nhiều project critical cho AI ecosystem (LangChain, n8n, AutoGPT) dựa vào maintainers unpaid hoặc underpaid. Khi burnout, toàn bộ supply chain AI bị ảnh hưởng.",
+      "why": "Cho manager + business: Nếu stack công ty bạn depend vào open-source tools, hỏi 'ai maintain?' và 'họ có bền vững không?' Aider (46K stars) last push 2026-05-22 — nếu maintainer quit, bạn stuck. Contribute back (code, funding) = insurance.",
+      "source": "OpenJS Foundation",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "tags": [
+        "open-source",
+        "burnout",
+        "sustainability"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant Cross-Platform 🦞",
+      "why": "TypeScript-based personal AI assistant chạy được mọi OS. Với 379K stars, đây là signal có community lớn — nếu cần self-host assistant thay vì cloud, openclaw là starting point.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "379822"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework Thực Tế",
+      "why": "Shell-based framework cho agentic workflows 'that actually works' (theo description). 234K stars = proven in production. Nếu build multi-agent system, check methodology này.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "234980"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Agentic Workflow Platform",
+      "why": "TypeScript platform cho agentic workflow ở production level. 146K stars, actively maintained. Nếu cần orchestrate agents thay vì viết from scratch, Dify là go-to.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "146062"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Ollama, OpenAI...)",
+      "why": "Python UI cho local AI (Ollama) + cloud APIs. 142K stars. Nếu muốn ChatGPT-like interface cho self-hosted models, đây là standard.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "142539"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — Agent Grows With You",
+      "why": "Python agent 'learns' theo user. 198K stars từ NousResearch (team đằng sau Hermes models). Nếu cần personalized agent thay vì generic, hermes-agent là research direction.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "198979"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation With Native AI",
+      "why": "TypeScript automation platform với AI capabilities, self-host hoặc cloud, 400+ integrations. 193K stars. Alternative cho Zapier/Make với AI-native design.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "193511"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 Giảm Giá ↓17-20%",
+      "event": "price",
+      "summary": "Prompt $1.20→$1.00, completion $4.10→$4.00 per million tokens.",
+      "why": "GLM 5.2 là open-weight model Trung Quốc dẫn đầu benchmarks — giảm giá = cơ hội thử alternative rẻ cho GPT-4 class tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "pricing",
+        "GLM"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 152,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 44,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 1
+  }
+}
