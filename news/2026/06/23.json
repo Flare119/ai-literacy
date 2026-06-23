@@ -1,0 +1,396 @@
+{
+  "date": "2026-06-23",
+  "updated_at": "2026-06-23T06:59:49.739266+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Google DeepMind Bỏ $75M Cùng A24 Phát Triển AI Filmmaking Tools — Tín Hiệu Hollywood Chấp Nhận AI",
+    "summary": "Google DeepMind và hãng phim độc lập A24 (Everything Everywhere All at Once, The Whale) ký deal $75M xây dựng công cụ AI cho sản xuất phim. Đây là lần đầu tiên một studio Hollywood lớn công khai đầu tư vào AI filmmaking tools thay vì chỉ thử nghiệm.",
+    "why": "Cho creative/producer: Đây là tín hiệu mạnh — nếu A24 (studio nổi tiếng về chất lượng nghệ thuật) chấp nhận AI, nghĩa là AI filmmaking tools đã đủ tốt để dùng production thực. Workflow của bạn cần chuẩn bị tích hợp AI vào pipeline — không còn là 'thử nghiệm' mà là 'standard practice' trong 1-2 năm tới.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "tags": [
+      "production",
+      "AI video",
+      "Hollywood",
+      "DeepMind",
+      "A24"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "SpaceX Ký Deal Compute $150M/Tháng Với Reflection AI — Open-Source AI Lab Dùng Colossus 2",
+      "why": "Cho business/founder: SpaceX cho thuê GPU Colossus 2 (GB300 chips) với giá $150M/tháng từ 7/2026-2029 — đây là benchmark giá compute infrastructure cho AI training. Nếu bạn đang tính toán chi phí train model, đây là reference point.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "tags": [
+        "compute",
+        "infrastructure",
+        "SpaceX",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "AI Chipmaker Groq Raise $650M Sau Khi Nvidia Acqui-Hire $20B — Tái Cấu Trúc Team",
+      "why": "Cho manager: Pattern acqui-hire trong AI — Nvidia trả $20B lấy team nhưng không lấy công ty. Groq phải raise lại, hire lại exec. Nếu công ty bạn có talent AI giỏi, risk họ bị acqui-hire riêng (không phải cả công ty) — cần retention plan chặt.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "tags": [
+        "funding",
+        "acqui-hire",
+        "Groq",
+        "Nvidia"
+      ]
+    },
+    {
+      "headline": "GM Thay 1,300 Công Nhân Bằng Robot Tại Nhà Máy EV Flagship — UAW Cảnh Báo 'Dark Factory Future'",
+      "why": "Cho cá nhân: Automation không chỉ là AI coding — sản xuất vật lý cũng bị. Nếu job của bạn liên quan tay chân/lặp đi lặp lại, đây là warning. Upskill sang automation maintenance, programming, hoặc creative work mà robot không làm được.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+      "tags": [
+        "automation",
+        "job displacement",
+        "manufacturing",
+        "robots"
+      ]
+    },
+    {
+      "headline": "Amazon Test Alexa+ Ở Ấn Độ Với Hỗ Trợ Tiếng Hindi — Mở Rộng AI Conversational Ra Ngoài US",
+      "why": "Cho business: Nếu bạn làm voice AI hoặc localization, chú ý — Amazon đang test Alexa+ multilingual (Hindi) ở thị trường 1.4 tỷ dân. Cơ hội cho AI localization tools phục vụ các ngôn ngữ ngoài tiếng Anh.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "tags": [
+        "voice AI",
+        "localization",
+        "Amazon Alexa",
+        "India"
+      ]
+    },
+    {
+      "headline": "Nvidia Ra Hệ Thống Làm Mát Mới Giảm Nước Data Center — Nhưng Không Fix 'AI Water Problem' Lớn Hơn",
+      "why": "Cho manager/founder: AI training/inference tốn nước khủng khiếp — không chỉ ở data center mà chủ yếu ở nhà máy điện hóa thạch. Nếu công ty bạn có ESG commitments, cần audit toàn bộ supply chain AI (không chỉ data center cooling).",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "tags": [
+        "sustainability",
+        "data center",
+        "environmental",
+        "Nvidia"
+      ]
+    },
+    {
+      "headline": "Oak — Git Alternative Designed For Agents — Launched On Show HN",
+      "why": "Cho manager/creative: Nếu team bạn dùng nhiều AI agents, Git không được thiết kế cho cách agents làm việc (commit liên tục, nhiễu). Oak là version control mới dành riêng cho agent workflows — đáng thử nếu bạn đang struggle với Git + AI.",
+      "source": "Hacker News",
+      "url": "https://oak.space/oak/oak",
+      "tags": [
+        "version control",
+        "agents",
+        "developer tools",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Agentic AI Chuyển Sang 'Loop Mode' — Swarm Agents Chạy Liên Tục Background",
+      "why": "Cho cá nhân/manager: AI agents giờ không chỉ chạy khi bạn gọi — chúng chạy liên tục background như 'digital assistant 24/7'. Implication: phải rethink security, cost control, và oversight — agents có thể tốn tiền/làm sai khi bạn không nhìn.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "tags": [
+        "agentic AI",
+        "automation",
+        "security",
+        "cost control"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Mở Rộng Creative Agent — Tích Hợp Google Gemini, Slack Vào Photoshop & Premiere",
+      "summary": "Adobe công bố Creative Agent giờ có connector với Google Gemini và Slack — workflow từ chat Slack → gen asset trong Photoshop/Premiere. AI Assistant trong Firefly (beta) available hôm nay.",
+      "why": "Cho creative: Bạn có thể chat với team trong Slack, gọi AI tạo asset trực tiếp trong Photoshop mà không rời app. Giảm context switching — workflow mượt hơn nhưng phụ thuộc Adobe ecosystem nhiều hơn (vendor lock-in risk).",
+      "source": "Adobe Newsroom",
+      "url": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion",
+      "tags": [
+        "Adobe",
+        "creative tools",
+        "Photoshop",
+        "Premiere",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Alibaba AI Video Model Lên #2 Toàn Cầu — Sora & Seedance Rớt Hạng",
+      "summary": "Alibaba Cloud Model Studio ra model video AI mới, lên #2 trong ranking toàn cầu, đẩy Sora và ByteDance Seedance xuống. API đã live với giảm giá 40% trong 2 tuần đầu.",
+      "why": "Cho creative: Alibaba giờ là lựa chọn video AI chất lượng cao bên cạnh Sora/Veo. Nếu bạn đang dùng ByteDance Seedance và thấy quality giảm gần đây, có thể do model bị outcompete — thử Alibaba hoặc Veo 3.1 (tích hợp Adobe Firefly).",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away",
+      "tags": [
+        "AI video",
+        "Alibaba",
+        "Sora",
+        "Seedance",
+        "ranking"
+      ]
+    },
+    {
+      "headline": "LTX (Lightricks) Ra Tool Tạo Custom AI Video Model — Creators Tự Train Model Riêng",
+      "summary": "Lightricks giới thiệu LTX tools cho phép creators experiment với custom AI video models — train model riêng theo style/dataset của mình thay vì dùng generic model.",
+      "why": "Cho creative có kỹ năng kỹ thuật: Nếu bạn cần style đặc biệt (anime, claymation, v.v.) mà Sora/Veo không có, giờ có thể tự train. Đòi hỏi hiểu biết ML nhưng mở cửa cho 'AI cinematographers' — nghề mới.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/exclusive-lightricks-ai-models-creative-news/",
+      "tags": [
+        "custom models",
+        "LTX",
+        "Lightricks",
+        "AI video",
+        "training"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên Cứu Swansea University: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu mới từ Swansea University cho thấy AI làm tăng khả năng sáng tạo của con người khi dùng đúng cách — đóng vai 'creative collaborator' thay vì thay thế. Đo lường qua novelty và usefulness của output.",
+      "why": "Cho curious/cá nhân: Đây là bằng chứng khoa học phản bác lo ngại 'AI giết sáng tạo'. Nhưng chú ý: chỉ đúng khi bạn còn kiểm soát creative direction. Nếu để AI decide hoàn toàn → bạn mất skill dần (như GPS làm mất khả năng định hướng).",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "research",
+        "human-AI collaboration",
+        "cognitive science"
+      ]
+    },
+    {
+      "headline": "Moebius: Model 0.2B Image Inpainting Nhỏ Bằng 1/50 Nhưng Performance Ngang 10B",
+      "summary": "Nghiên cứu về Moebius — model image inpainting chỉ 0.2 billion parameters nhưng đạt performance ngang model 10B. Đột phá về efficiency: chạy local trên laptop thay vì cloud GPU.",
+      "why": "Cho creative chạy local: Nếu bạn đang dùng Photoshop Generative Fill mà lo về privacy/cost, Moebius có thể chạy offline trên máy yếu. Trend 'smaller but smarter models' — không cần cloud cho mọi task.",
+      "source": "Hacker News",
+      "url": "https://hustvl.github.io/Moebius/",
+      "tags": [
+        "efficiency",
+        "local models",
+        "image editing",
+        "inpainting"
+      ]
+    },
+    {
+      "headline": "Munich 1991: Gốc Rễ Của AI Boom Hiện Tại — Jürgen Schmidhuber Viết Về Lịch Sử LSTM & Transformer",
+      "summary": "Jürgen Schmidhuber (cha đẻ LSTM) viết về Munich 1991 — nơi bắt đầu nghiên cứu dẫn đến Transformer và AI boom hiện tại. Góc nhìn lịch sử: AI hôm nay là kết quả 35 năm research liên tục, không phải 'bùng nổ đột ngột'.",
+      "why": "Cho curious: Hiểu history giúp bạn không bị hype/panic khi có tin 'AI mới đột phá'. Hầu hết đột phá hôm nay đều dựa trên foundation research thập niên trước — progress thật là incremental, không phải magic.",
+      "source": "Hacker News",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "tags": [
+        "history",
+        "LSTM",
+        "Transformer",
+        "research",
+        "context"
+      ]
+    },
+    {
+      "headline": "GeneralVLA-2: Robot Planning Với 3D Geometry-Aware Reconstruction — Hiểu Không Gian Vật Lý",
+      "summary": "Paper về GeneralVLA-2 — hệ thống robot planning dùng 3D reconstruction và memory để plan động tác vật lý. Khác với AI text/image, robot cần hiểu geometry và physics — paper này đề xuất architecture mới.",
+      "why": "Cho curious: Nếu bạn tò mò 'tại sao robot khó hơn chatbot', đây là câu trả lời: chatbot chỉ cần nói đúng, robot phải làm đúng trong không gian 3D. Embodied AI (robot) là frontier tiếp theo sau text/image AI.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.17480",
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "3D reconstruction",
+        "planning"
+      ]
+    },
+    {
+      "headline": "Multi-Turn Reflective Masking: Reasoning Trong Diffusion Models — Không Cần Autoregressive",
+      "summary": "Nghiên cứu về reasoning trong mask diffusion models — thay vì generate tuần tự (autoregressive), diffusion có thể 'reflect' và chỉnh sửa cục bộ. Tiết kiệm compute khi chỉ cần sửa một phần output.",
+      "why": "Cho curious: Đây là hướng nghiên cứu mới — reasoning không nhất thiết phải tuần tự như GPT. Diffusion (kiểu Stable Diffusion) có thể làm reasoning theo cách khác — mở cửa cho model hiệu quả hơn.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.16700",
+      "tags": [
+        "reasoning",
+        "diffusion models",
+        "efficiency",
+        "architecture"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Q1 2026: AI Startups Foundational Hút $178 Tỷ USD — Nhưng Khoa Học Được Đánh Giá Thấp Hơn Sản Phẩm",
+      "summary": "Founder bán startup AI trước khi có revenue chia sẻ: Investor thường nói 'khoa học không quan trọng cho đến khi có sản phẩm' — nhưng điều này sai. Q1 2026, foundational AI startups raise $178B, nhưng nhiều startup chết vì thiếu nền tảng khoa học.",
+      "why": "Cho founder/đầu tư: Nếu bạn đang raise cho AI startup, đừng chỉ focus demo sản phẩm. Investor thông minh giờ hỏi 'moat khoa học là gì?' — especially sau khi nhiều AI wrapper startups chết khi GPT-5 ra. Science moat > product moat trong AI.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/foundational-ai-startup-investment-kardos-nyheim-thomson/",
+      "tags": [
+        "funding",
+        "foundational AI",
+        "moat",
+        "investor advice"
+      ]
+    },
+    {
+      "headline": "Mỹ Chiếm 80% Funding AI Toàn Cầu — Boom AI Không Phải Hiện Tượng Toàn Cầu",
+      "summary": "2026, công ty Mỹ chiếm gần 80% toàn bộ seed-to-growth funding AI toàn cầu — tăng mạnh so với trước khi có AI boom (Mỹ chiếm ~60%). Châu Âu, châu Á tụt lại phía sau.",
+      "why": "Cho founder ngoài Mỹ: Nếu bạn làm AI startup ở Việt Nam/SEA/châu Âu, cạnh tranh funding khó hơn nhiều. Hoặc target thị trường Mỹ ngay từ đầu, hoặc chấp nhận bootstrap/profit-driven thay vì VC-funded hypergrowth.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/",
+      "tags": [
+        "funding",
+        "global AI",
+        "US dominance",
+        "market dynamics"
+      ]
+    },
+    {
+      "headline": "Jeff Bezos Startup AI 'Prometheus' Định Giá $41 Tỷ USD Sau Raise $12B — 'We're Not Being Secretive'",
+      "summary": "Jeff Bezos mở lòng về AI startup Prometheus sau vòng series B $12B, định giá $41B. Bezos nói 'chúng tôi không giấu diếm' — nhưng vẫn rất ít thông tin về sản phẩm cụ thể.",
+      "why": "Cho founder/đầu tư: Bezos raise $41B valuation với sản phẩm chưa rõ — cho thấy investor tin vào founder reputation + vision hơn là traction. Nếu bạn không phải Bezos, đừng copy chiến lược này — bạn cần traction thật.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+      "tags": [
+        "funding",
+        "Bezos",
+        "Prometheus",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "'Vibe Coding' Boom — 8 Startups Raise Hàng Tỷ USD Cho No-Code/AI Coding Tools",
+      "summary": "Trend 'vibe coding' (code bằng mô tả tự nhiên thay vì syntax) đang nóng — 8 startups như Cursor, Lovable, Replit, Devin raise hàng tỷ USD. Investor: Founders Fund, 8VC, Lux Capital, Khosla Ventures.",
+      "why": "Cho founder/đầu tư: Nếu bạn làm developer tools, trend này cho thấy 'abstraction layer' cao hơn code đang hot. Nhưng chú ý: nhiều vibe coding startups sẽ consolidate hoặc chết khi GPT-6 tích hợp sẵn — moat yếu nếu chỉ là wrapper.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startups-raising-billions-vibe-coding-boom-cursor-lovable-replit-emergent-2026-3",
+      "tags": [
+        "vibe coding",
+        "developer tools",
+        "funding",
+        "no-code"
+      ]
+    },
+    {
+      "headline": "Global Fintech & AI Funding May 2026: $72 Tỷ USD Vào AI — 79% Tổng Funding",
+      "summary": "Tháng 5/2026, AI hút $72B trong tổng $91B funding toàn cầu — 79%. Nếu loại bỏ 1-2 deal lớn như Prometheus, AI vẫn chiếm >70%. Fintech và sector khác bị áp đảo.",
+      "why": "Cho founder ngoài AI: Nếu bạn làm fintech, SaaS, hoặc sector khác không phải AI, raise vốn hiện tại cực khó. Hoặc pivot thêm AI component, hoặc focus profitability thay vì growth-at-all-costs.",
+      "source": "PaySpace Magazine",
+      "url": "https://payspacemagazine.com/articles/global-fintech-ai-funding-roundup-major-startup-investments-in-may-2026/",
+      "tags": [
+        "funding",
+        "market concentration",
+        "AI dominance",
+        "fintech"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Gần 50% App Smart TV LG Chứa Residential Proxy SDK — Biến TV Thành Proxy Node Không Cho Biết",
+      "summary": "Nghiên cứu Spur.us phát hiện gần 50% apps trên LG smart TV chứa residential proxy SDKs — biến TV của user thành proxy node mà không thông báo. Traffic đi qua TV của bạn mà bạn không biết.",
+      "why": "Cho cá nhân: Nếu bạn có smart TV (LG hoặc khác), check privacy settings và app permissions. Risk: traffic bất hợp pháp đi qua IP nhà bạn → bạn bị liên lụy. Trend này sẽ lan sang IoT khác — cẩn thận khi cài app 'free'.",
+      "source": "Hacker News",
+      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "tags": [
+        "privacy",
+        "smart TV",
+        "security",
+        "residential proxy"
+      ]
+    },
+    {
+      "headline": "Claude Code 'Extended Thinking' Output Không Authentic — Phân Tích Kỹ Thuật",
+      "summary": "Phân tích về text trong 'Extended Thinking' output của Claude Code — phát hiện nhiều đoạn có vẻ không phải từ reasoning thật mà là synthetic/template. Đặt câu hỏi về transparency của AI reasoning.",
+      "why": "Cho curious/manager: Khi AI nói 'tôi đang suy nghĩ', bạn thấy chain-of-thought — nhưng liệu đó có phải suy nghĩ thật? Bài này warn: một số AI vendor có thể fake reasoning output để trông 'explainable' hơn. Trust but verify.",
+      "source": "Hacker News",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "tags": [
+        "transparency",
+        "explainability",
+        "Claude",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "Canada Ra 'Nuclear Renaissance' — 10 Lò Phản Ứng Hạt Nhân Mới Trước 2040 Để Đáp Ứng AI",
+      "summary": "Chính phủ Canada công bố kế hoạch xây 10 lò phản ứng hạt nhân mới trước 2040 — driven by nhu cầu điện khủng khiếp của AI data centers. Đây là phần của 'nuclear renaissance' toàn cầu.",
+      "why": "Cho curious/manager: AI không chỉ tốn tiền — nó tốn điện đến mức các nước phải xây lò hạt nhân mới. Nếu công ty bạn dùng AI nhiều, electricity cost sẽ tăng mạnh 2-5 năm tới. Factor điện vào TCO khi đánh giá AI.",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+      "tags": [
+        "energy",
+        "nuclear",
+        "data centers",
+        "infrastructure"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw — AI Assistant Cá Nhân Chạy Bất Kỳ OS Nào — 379K Stars",
+      "why": "Personal AI assistant cross-platform (Windows/Mac/Linux) — alternative open-source cho Siri/Alexa. Nếu bạn muốn AI assistant không gửi data về cloud, đây là lựa chọn.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "379977"
+    },
+    {
+      "headline": "superpowers — Agentic Skills Framework & Software Development Methodology — 235K Stars",
+      "why": "Framework để build AI agents có kỹ năng cụ thể — không phải general chatbot. Nếu team bạn đang custom agents cho workflow riêng, đây là starting point tốt.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "235984"
+    },
+    {
+      "headline": "hermes-agent — NousResearch — Agent Tự Học & Phát Triển — 199K Stars",
+      "why": "AI agent 'grows with you' — học từ cách bạn dùng, không phải static model. Concept thú vị: agent cá nhân hóa theo thời gian thay vì reset mỗi session.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "199939"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI — 193K Stars",
+      "why": "Alternative open-source cho Zapier/Make, có native AI capabilities. Nếu bạn muốn automation + AI mà không bị vendor lock-in, n8n self-host được.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "193648"
+    },
+    {
+      "headline": "AutoGPT — Vision AI Accessible Cho Mọi Người — 185K Stars",
+      "why": "AutoGPT giờ focus 'accessible AI for everyone' — không chỉ developers. Nếu bạn muốn build automation mà không code nhiều, đây là tool phổ biến nhất.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185084"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development — 146K Stars",
+      "why": "Platform để build agentic workflows sẵn sàng production — không phải prototype. Nếu team bạn muốn ship AI agents ra khách hàng thật, Dify handle scaling/monitoring.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "146174"
+    },
+    {
+      "headline": "open-webui — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API — 142K Stars",
+      "why": "Frontend đẹp cho local models (Ollama) hoặc cloud APIs. Nếu bạn chạy local AI nhưng muốn UI xịn như ChatGPT, đây là lựa chọn top.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "142640"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform — 139K Stars",
+      "why": "LangChain pivot từ 'chain builder' sang 'agent engineering platform' — focus orchestration nhiều agents. Nếu bạn build AI system phức tạp, LangChain vẫn là standard.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "139901"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 152,
+    "brave": 47,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 44,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 5
+  }
+}
