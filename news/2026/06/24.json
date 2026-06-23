@@ -1,0 +1,286 @@
+{
+  "date": "2026-06-24",
+  "updated_at": "2026-06-24T06:49:12.945895+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "AI Chiếm 81% Vốn VC Toàn Cầu Q1/2026 — $240 Tỷ USD Đổ Vào AI Startup",
+    "summary": "Q1/2026, AI startups hút $240 tỷ USD — 81% tổng vốn VC toàn cầu theo PitchBook. 3/4 vốn đầu tư Mỹ vào AI. Động cơ: cuộc đua frontier models (OpenAI lỗ hàng tỷ mỗi năm, cần fundraise liên tục), M&A lớn (SpaceX/Cursor $60B), và sự chuyển dịch từ 'tính mới' sang 'ai có infrastructure + capital để scale'.",
+    "why": "Cho founder/đầu tư: bong bóng hay không, đây là signal rõ — nếu bạn làm AI startup, câu hỏi không còn là 'có nên raise không' mà là 'raise đủ nhanh để không bị bỏ lại phía sau không'. Nếu không làm AI, hỏi 'liệu còn vốn cho non-AI startups hay đã cạn?'. Risk: khi 81% vốn vào 1 sector, correction sẽ đau.",
+    "source": "Forbes / PitchBook",
+    "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+    "tags": [
+      "funding",
+      "venture-capital",
+      "ai-bubble",
+      "market-dynamics"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Startup AI Nhật Sakana Ra Fugu — Claim Đánh Bại Claude Fable 5 Trên Coding Benchmark",
+      "why": "Cho curious: thêm 1 player trong cuộc đua AI coding. Nếu claim đúng, Fugu có thể là alternative cho Claude Fable 5 (bị cấm ở Mỹ). Nhưng chờ independent verification — nhiều claim tương tự đã sụp khi test thực tế.",
+      "source": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/technology/japanese-ai-startup-sakana-launches-fugu-claims-it-beats-banned-anthropic-s-claude-fable-5-in-coding-benchmarks-article-13956338.html",
+      "tags": [
+        "coding",
+        "model-launch",
+        "benchmark"
+      ]
+    },
+    {
+      "headline": "Công Ty AI Gửi Dọn Dẹp Miễn Phí — Train Robot Dọn Nhà Thật Để Thay Con Người",
+      "why": "Cho cá nhân: nếu nhận offer dọn nhà free, biết rằng bạn đang train robot sẽ thay việc làm này. Cho manager: đây là cách data labeling thế hệ mới — không cần gắn label, chỉ cần người làm task thật trong môi trường thật.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "robotics",
+        "future-of-work",
+        "data-collection"
+      ]
+    },
+    {
+      "headline": "Madison Square Garden Lập Dossier Theo Dõi Activists Phản Đối Facial Recognition",
+      "why": "Cho cá nhân: nếu bạn phản đối công nghệ giám sát công khai, công ty đó có thể đang track bạn. Cho manager: ethics của việc dùng AI giám sát không chỉ là 'có hợp pháp không' mà còn 'có bị backlash không'. Case này là warning.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "ethics"
+      ]
+    },
+    {
+      "headline": "FUTO Ra Swipe Typing Model Mới — Thay Thế GBoard/SwiftKey",
+      "why": "Cho cá nhân: nếu bạn ngại Google/Microsoft đọc mọi từ bạn gõ, đây là alternative open-source privacy-first. Test thử xem accuracy có đủ tốt để chuyển không.",
+      "source": "Hacker News / FUTO",
+      "url": "https://swipe.futo.tech/",
+      "tags": [
+        "privacy",
+        "open-source",
+        "mobile"
+      ]
+    },
+    {
+      "headline": "MIT: AI Model Nhỏ Chơi Cờ Vua Đánh Bại Model Lớn — Chi Phí Chỉ 1%",
+      "why": "Cho curious: 'bigger is better' không phải lúc nào cũng đúng. Khi task cụ thể, small specialized model có thể thắng big generalist. Implication: nếu bạn làm AI product, xem xét fine-tune small model thay vì thuê API model lớn — rẻ hơn, nhanh hơn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "efficiency",
+        "small-models"
+      ]
+    },
+    {
+      "headline": "Adobe Mở Rộng Creative Agent — Tích Hợp Firefly, Photoshop, Premiere, Google Gemini, Slack",
+      "why": "Cho creative: Creative Agent giờ là trung tâm workflow AI của Adobe — không cần nhảy giữa các tool. Nếu team bạn dùng Adobe stack, test agent này xem có giảm thời gian handoff không. Tích hợp Gemini/Slack nghĩa là có thể trigger generation từ chat.",
+      "source": "Adobe Newsroom",
+      "url": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion",
+      "tags": [
+        "creative-tools",
+        "workflow",
+        "integration"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Krea 2 — Model AI Hình Ảnh Foundation Hoàn Toàn Mới, Focus Style Control & Expressive Visual",
+      "summary": "Krea ra Krea 2 — foundation image model built từ đầu, không base trên Stable Diffusion hay DALL-E. Focus: aesthetic diversity, style control, expressive visual direction. Multi-language support.",
+      "why": "Cho creative: nếu Midjourney/DALL-E không cho bạn đủ kiểm soát style, test Krea 2. 'Expressive visual direction' nghĩa là model hiểu intent tốt hơn — ít phải prompt engineering. Đặc biệt hữu ích cho brand work cần consistent style.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "image-generation",
+        "style-control",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "Lightricks LTX Ra Tool Custom AI Video Model — Creator Tự Train Model Riêng",
+      "summary": "LTX giờ cho phép creator experiment với custom AI video models — không phải dùng chung model generic. Tool giúp fine-tune model theo style riêng, dataset riêng.",
+      "why": "Cho creative/producer: đây là bước từ 'dùng AI công cộng' sang 'AI riêng'. Nếu bạn có style đặc trưng (vd motion graphics nhất định), custom model sẽ consistent hơn generic model. Trade-off: cần data + thời gian train.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/exclusive-lightricks-ai-models-creative-news/",
+      "tags": [
+        "video-generation",
+        "custom-models",
+        "creator-tools"
+      ]
+    },
+    {
+      "headline": "NVIDIA Gemma 3n — Multilingual + Multimodal (Text, Image, Video, Audio) Foundation Model",
+      "summary": "Gemma 3 release mới nhất — Gemma 3n — native multilingual và multimodal (text, image, video, audio). Sample apps cho nhiều use case.",
+      "why": "Cho creative: nếu bạn làm project đa phương tiện (vd documentary có cả video/audio/text), Gemma 3n có thể xử lý tất cả trong 1 model. Tiếng Việt có native support — test xem chất lượng có tốt hơn translate pipeline không.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "multimodal",
+        "multilingual",
+        "foundation-model"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Founder Bán AI Startup Trước Khi Có Revenue — 'Investors Nhìn Sai Chỗ'",
+      "summary": "Founder Nyheim Thomson bán foundational AI startup trước khi có doanh thu — VC nói 'science không quan trọng nếu chưa có product'. Ông argue: trong AI, science là moat, không phải product. Founder bán sớm vì nhận ra không có vốn để race với big player.",
+      "why": "Cho founder: nếu bạn làm foundational AI (models, infrastructure) mà không phải application layer, VC truyền thống sẽ không hiểu giá trị. Race AI foundational = race vốn — nếu không raise đủ nhanh, bạn sẽ bị bỏ lại. Bài học: pivot sang application hoặc sell early cho big player.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/foundational-ai-startup-investment-kardos-nyheim-thomson/",
+      "tags": [
+        "startup",
+        "fundraising",
+        "exit-strategy",
+        "foundational-ai"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "AI's Affordability Crisis — Chi Phí Chạy AI Tăng Nhanh Hơn Revenue, Nhiều Startup Sẽ Chết",
+      "summary": "Bài phân tích từ DSHR: chi phí compute AI tăng nhanh, nhưng willingness-to-pay của user không theo kịp. OpenAI lỗ hàng tỷ/năm dù charge user. Nhiều AI startup sẽ chết vì không đủ vốn subsidize cost.",
+      "why": "Cho founder/đầu tư: nếu business model AI của bạn dựa trên 'scale sẽ giảm cost', check lại — cost đang tăng nhanh hơn scale. Nếu không có margin path rõ ràng sau 12-18 tháng, VC sẽ cắt funding. Risk: AI bubble burst khi investor nhận ra unit economics không work.",
+      "source": "DSHR Blog",
+      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "tags": [
+        "economics",
+        "sustainability",
+        "ai-bubble",
+        "unit-economics"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw — Personal AI Assistant Cross-Platform — 'The Lobster Way' 🦞",
+      "why": "Cho cá nhân: nếu bạn muốn AI assistant chạy local, không phụ thuộc cloud service, openclaw là option. Cross-platform (Windows/Mac/Linux). 'Lobster way' = philosophy open-source + user control.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "380K",
+      "tags": [
+        "ai-assistant",
+        "local",
+        "cross-platform"
+      ]
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation + Native AI — Self-Host Hoặc Cloud",
+      "why": "Cho manager: nếu team bạn cần automate workflow + integrate AI (400+ integrations), n8n là Zapier alternative với fair-code license. Self-host = kiểm soát data + không bị lock-in pricing.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "193K",
+      "tags": [
+        "workflow-automation",
+        "self-host",
+        "fair-code"
+      ]
+    },
+    {
+      "headline": "prompts.chat (f.k.a. Awesome ChatGPT Prompts) — Share & Discover Prompts, Self-Host",
+      "why": "Cho curious/creative: nếu bạn học prompt engineering, đây là library prompt community-driven. Self-host version = privacy, không share prompts với bên thứ 3.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "164K",
+      "tags": [
+        "prompts",
+        "community",
+        "self-host"
+      ]
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Cho manager/developer: nếu team bạn build AI agents production, Dify là platform giúp orchestrate workflow phức tạp. Open-source alternative cho LangChain/AutoGPT nhưng focus production-ready.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "146K",
+      "tags": [
+        "agentic",
+        "workflow",
+        "production"
+      ]
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Ollama, OpenAI API, ...)",
+      "why": "Cho cá nhân: nếu bạn chạy AI local (Ollama) hoặc dùng nhiều API khác nhau, Open WebUI là front-end giúp manage tất cả trong 1 giao diện. Giảm context switching.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "142K",
+      "tags": [
+        "ui",
+        "ollama",
+        "api-management"
+      ]
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] EssentialAI Rnj 1 Instruct — Removed",
+      "event": "deprecated",
+      "summary": "Model essentialai/rnj-1-instruct không còn trên OpenRouter.",
+      "why": "Nếu bạn dùng model này, migrate sang alternative ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/essentialai/rnj-1-instruct",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Prime Intellect INTELLECT-3 — Removed",
+      "event": "deprecated",
+      "summary": "Model prime-intellect/intellect-3 không còn trên OpenRouter.",
+      "why": "Migrate user khỏi model này trước khi break production.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/prime-intellect/intellect-3",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] TheDrummer Rocinante 12B — Tăng Giá +47% Prompt, +16% Completion",
+      "event": "price",
+      "summary": "Giá prompt $0.17 → $0.25/M tok (+47%), completion $0.43 → $0.50/M tok (+16%).",
+      "why": "Nếu bạn dùng Rocinante 12B nhiều, cost tăng đáng kể. Xem xét chuyển sang model khác hoặc optimize usage.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thedrummer/rocinante-12b",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Nex AGI Nex-N2-Pro — Giảm Giá -50% Prompt, -60% Completion",
+      "event": "price",
+      "summary": "Giá prompt $0.50 → $0.25/M tok (-50%), completion $2.50 → $1.00/M tok (-60%).",
+      "why": "Nex-N2-Pro giờ rẻ hơn đáng kể — test xem chất lượng có drop không. Nếu không, đây là deal tốt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2-pro",
+      "tags": [
+        "price-decrease"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code — Tăng Giá +21% Prompt, +14% Completion",
+      "event": "price",
+      "summary": "Giá prompt $0.61 → $0.74/M tok (+21%), completion $3.07 → $3.50/M tok (+14%).",
+      "why": "Kimi Code đắt hơn — nếu dùng nhiều, xem xét alternative như GLM-5.2 hoặc Fugu.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "tags": [
+        "price-increase"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 151,
+    "brave": 47,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 44,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 6
+  }
+}
