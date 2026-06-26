@@ -1,336 +1,329 @@
 {
-  "date": "2026-06-25",
-  "updated_at": "2026-06-25T06:58:49.507631+07:00",
-  "weekday": "Thursday",
+  "date": "2026-06-26",
+  "updated_at": "2026-06-26T07:03:48.428629+07:00",
+  "weekday": "Friday",
   "top_story": {
-    "headline": "OpenAI Ra Chip Tự Thiết Kế Đầu Tiên — Broadcom Sản Xuất, Đánh Dấu Cuộc Chiến Chip AI Gia Nhập Giai Đoạn Mới",
-    "summary": "OpenAI công bố chip AI tùy chỉnh đầu tiên do Broadcom sản xuất. Động thái này đặt OpenAI vào vị trí cạnh tranh trực tiếp với Google (TPU) và Meta (MTIA) trong cuộc đua tự chủ phần cứng. Chip tùy chỉnh giúp giảm chi phí vận hành inference, tối ưu hóa cho kiến trúc model riêng, và giảm phụ thuộc Nvidia — đặc biệt quan trọng khi OpenAI vẫn đang lỗ hàng tỷ USD mỗi năm.",
-    "why": "Cho manager: nếu công ty bạn đang cân nhắc AI infra, đây là tín hiệu rõ ràng rằng đầu tư vào chip tùy chỉnh đang trở thành chiến lược sống còn cho các player lớn — nhưng với startup/SME, vendor lock-in risk tăng khi các lab tự sản xuất chip. Cho individual: OpenAI giảm chi phí vận hành → có thể giảm giá API trong 6-12 tháng, hoặc tăng khả năng mở rộng free tier.",
+    "headline": "Nhà Trắng Yêu Cầu OpenAI Trì Hoãn Ra GPT-5.6 Công Khai — Trump Administration Can Thiệp Vì Lý Do An Ninh",
+    "summary": "OpenAI dự định chỉ chia sẻ GPT-5.6 với nhóm đối tác chọn lọc thay vì phát hành rộng rãi công chúng, sau khi Trump administration yêu cầu slow roll release vì lo ngại safety. Đây là lần đầu tiên chính phủ Mỹ can thiệp trực tiếp vào lịch trình ra mắt model AI thương mại.",
+    "why": "Cho manager: nếu công ty bạn đang kế hoạch nâng cấp lên GPT-5.6 trong Q3, chuẩn bị plan B — timeline có thể trễ hoặc model bị giới hạn phân phối. Cho cá nhân: signal rằng frontier model tiếp theo sẽ chịu oversight chính phủ chặt hơn, ảnh hưởng cả đến pricing và access.",
     "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
     "tags": [
-      "openai",
-      "broadcom",
-      "chip",
-      "hardware",
-      "inference"
+      "GPT-5.6",
+      "OpenAI",
+      "regulation",
+      "Trump",
+      "safety"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Google Gemini 3.5 Flash Hỗ Trợ Computer Use — Tự Động Thao Tác UI Trên Máy Tính",
-      "why": "Cho creative/individual: Gemini giờ có thể tự click chuột, điền form, chuyển tab — tương tự Claude Computer Use. Workflow automation trở nên dễ hơn (ví dụ: tự động scrape data, điền report). Rủi ro: model có thể làm sai → cần verify output.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "headline": "Anthropic Tố Alibaba Dùng 25,000 Tài Khoản Clone Claude — 28.8 Triệu Cuộc Hội Thoại Để 'Ăn Cắp' Khả Năng Model",
+      "why": "Cho manager: nếu bạn đang dùng API Claude, xem lại security policy — đây là precedent về scale attack lớn nhất từng thấy. Anthropic yêu cầu trừng phạt Alibaba, có thể ảnh hưởng quan hệ US-China AI.",
+      "source": "Ars Technica + Reuters",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
       "tags": [
-        "google",
-        "gemini",
-        "computer-use",
-        "automation"
-      ]
-    },
-    {
-      "headline": "NSA Mất Quyền Truy Cập Mythos (Claude Fable) Do Tranh Chấp Với Anthropic",
-      "why": "Cho manager/curious: NSA từng dùng Claude Fable 5 (Mythos-class) cho tình báo, nhưng giờ mất access do tranh chấp hợp đồng. Bài học: even government contracts không đảm bảo AI access lâu dài. Với enterprise: đừng build critical workflow chỉ phụ thuộc 1 vendor — cần backup plan.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
-      "tags": [
-        "anthropic",
-        "nsa",
-        "mythos",
+        "Anthropic",
+        "Alibaba",
         "security",
-        "policy"
+        "model cloning"
       ]
     },
     {
-      "headline": "Cerebras Cổ Phiếu Sụt Mạnh Sau Báo Cáo Tài Chính — CEO Nói 'Nhà Đầu Tư Hiểu Lầm Về Biên Lợi Nhuận'",
-      "why": "Cho business/founder: Cerebras forecast biên lợi nhuận thấp hơn dự kiến → cổ phiếu sụt. Đây là warning về AI hardware business model — vốn đầu tư lớn, margin thấp, cạnh tranh khốc liệt với Nvidia. Nếu bạn đang xây AI startup phụ thuộc chip inference tùy chỉnh, cân nhắc unit economics kỹ.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "headline": "Apple Tăng Giá MacBook & iPad — Lý Do: Chi Phí Bộ Nhớ Cao Cấp Tăng Vọt",
+      "why": "Cho cá nhân: nếu định mua Mac mới cho AI workflow (local LLM, video editing), mua ngay trước khi giá tăng thêm. Cho manager: cập nhật budget cho hardware refresh — RAM/VRAM đắt hơn do AI demand.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
       "tags": [
-        "cerebras",
-        "earnings",
+        "Apple",
         "hardware",
-        "margin"
+        "pricing"
       ]
     },
     {
-      "headline": "Doanh Nghiệp Cấm Nhân Viên Dùng AI Cho Task Nhỏ — Hết Thời 'Tokenmaxxing', Bắt Đầu Thời 'Token Rationing'",
-      "why": "Cho manager: nhân viên abuse AI credits cho task vặt (vd: rewrite 1 câu email) → vượt ngân sách. Giải pháp: policy ưu tiên high-value tasks (analysis, coding), block small tasks. Cho individual: nếu công ty giới hạn token, học tối ưu prompt để ít token hơn hoặc dùng local model cho task đơn giản.",
+      "headline": "Claude Đang Lấn Át ChatGPT Ở Phân Khúc Trả Phí — Consumer Chọn Claude Ngày Càng Nhiều",
+      "why": "Cho cá nhân: nếu đang dùng ChatGPT Plus và thấy Claude Pro rẻ hơn/tốt hơn cho use case của bạn (writing, analysis), đáng xem xét chuyển. Trend này đang tăng tốc Q2/2026 theo data usage.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
       "tags": [
-        "enterprise",
-        "token-budget",
-        "policy",
-        "cost"
+        "Claude",
+        "ChatGPT",
+        "market share"
       ]
     },
     {
-      "headline": "AI Không Giết Việc Kỹ Sư — Data Mới Cho Thấy Kỹ Sư Là Nhóm Lao Động Bền Vững Nhất",
-      "why": "Cho individual: dữ liệu SignalFire cho thấy kỹ sư chiếm tỷ trọng lớn hơn trong hiring mới, dù narrative là 'AI thay kỹ sư'. Thực tế: kỹ sư giỏi thành 'AI wrangler' — quản lý agent, review code AI gen, architect hệ thống. Nếu bạn lo mất việc, focus vào skill review + system design hơn code thủ công.",
+      "headline": "Adobe Mua Topaz Labs — Tích Hợp AI Upscaling/Enhancement Vào Creative Cloud",
+      "why": "Cho creative: Topaz (Video AI, Photo AI) sẽ native trong Premiere/Photoshop. Nếu đang subscribe riêng Topaz, có thể tiết kiệm bằng cách chuyển sang CC subscription sau khi tích hợp xong.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
       "tags": [
-        "jobs",
-        "hiring",
-        "engineering",
-        "resilience"
+        "Adobe",
+        "Topaz Labs",
+        "acquisition",
+        "video"
       ]
     },
     {
-      "headline": "Top AI Researchers Rời Google Sang Anthropic — Jonas Adler & Alexander Pritzel",
-      "why": "Cho curious/business: sau Noam Shazeer và John Jumper, giờ Jonas Adler (AlphaFold lead) và Alexander Pritzel (AlphaGo) cũng rời Google → Anthropic. Pattern: Google đang mất talent vào tay đối thủ. Implication: Anthropic sẽ mạnh hơn về research, Google có thể chậm innovation.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "headline": "IBM Ra Chip Sub-1 Nanometer Đầu Tiên Thế Giới — Nanostack Transistor Mới",
+      "why": "Cho curious: đột phá kỹ thuật giúp chip AI tiết kiệm năng lượng hoặc tăng performance. Ứng dụng thực tế 2-3 năm nữa, nhưng đây là signal cuộc đua chip AI chưa chạm trần.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
       "tags": [
-        "google",
-        "anthropic",
-        "talent",
-        "research"
+        "IBM",
+        "chip",
+        "hardware"
       ]
     },
     {
-      "headline": "Big AI Labs Thuê Nhiều Triết Gia — Economist Phân Tích Tại Sao",
-      "why": "Cho curious: OpenAI, Anthropic, DeepMind thuê PhD triết học để giải quyết alignment, ethics, và 'AI nên làm gì khi không chắc'. Không phải PR stunt — đây là nhu cầu thật khi model đủ mạnh để gây harm lớn. Bài học: technical skill không đủ, AI cần interdisciplinary thinking.",
-      "source": "The Economist",
-      "url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+      "headline": "Notion Đóng Skiff Email App — Lý Do: Người Dùng Chuyển Sang AI Agents Quản Lý Inbox",
+      "why": "Cho cá nhân: signal rõ ràng về AI replacing manual email workflow. Nếu chưa thử AI email assistant (như Notion AI hoặc Claude Code cho email), đây là lúc.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
       "tags": [
-        "ethics",
-        "alignment",
-        "philosophy",
-        "hiring"
+        "Notion",
+        "email",
+        "AI agents"
       ]
     },
     {
-      "headline": "Facebook Ra AI Companion App Cho Creators — Tích Hợp AI Assistant",
-      "why": "Cho creative: Facebook test app riêng cho creators với AI assistant tích hợp sẵn — giúp brainstorm content, schedule post, analyze engagement. Nếu rollout rộng, đây là công cụ miễn phí giảm 30-40% thời gian quản lý page. Nhưng trade-off: Facebook sẽ collect toàn bộ creative workflow data.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+      "headline": "Google Ra Finance Android App — Sau 20 Năm, Cuối Cùng Có Mobile App (iOS Sau Trong Năm)",
+      "why": "Cho cá nhân: nếu dùng Google Finance, giờ có app mobile với AI-powered insights. Tiện cho tracking portfolio/market on-the-go.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
       "tags": [
-        "facebook",
-        "creators",
-        "app",
-        "assistant"
+        "Google",
+        "finance",
+        "mobile"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Kling AI Ra 3.0 Model — Video 3.0 Omni, Image 3.0 Omni, 'Mọi Người Đều Có Thể Làm Đạo Diễn'",
-      "summary": "Kling AI (ByteDance) công bố Kling 3.0: Video 3.0, Video 3.0 Omni, Image 3.0, Image 3.0 Omni. Omni version đa nhiệm (text/image/video input) → output video cinematic. Đây là đối thủ trực tiếp Sora, Veo.",
-      "why": "Cho creative: Kling 3.0 Omni hỗ trợ input multimodal → workflow linh hoạt hơn (vd: upload storyboard sketch + text prompt → video draft). Nếu bạn đang dùng Sora, test Kling 3.0 để benchmark quality/price. ByteDance có track record ship nhanh (Seedance 2.0 vừa ra, giờ lại Kling 3.0).",
-      "source": "Swace News",
-      "url": "https://www.swacenews.com/2026/06/24/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director/",
+      "headline": "Adobe Mở Free Tier Cho AI Tools — Firefly, Photoshop AI, Premiere AI Agents Giờ Miễn Phí (Freemium)",
+      "summary": "Adobe chuyển sang freemium model cho creative AI agents trong Firefly, Creative Cloud, Photoshop, Premiere. Mục tiêu mở rộng user base và compete với Canva, CapCut. Commerce media cũng được expand.",
+      "why": "Cho creative: nếu chưa dùng Adobe vì giá cao, giờ có thể thử free tier để test workflow. Cho manager: đây là cơ hội onboard team vào Adobe ecosystem với initial cost thấp.",
+      "source": "Yahoo! Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-opens-ai-tools-160657651.html",
       "tags": [
-        "kling",
-        "video-gen",
-        "bytedance",
-        "omni"
+        "Adobe",
+        "freemium",
+        "creative tools"
       ]
     },
     {
-      "headline": "Adobe Firefly Tích Hợp Google Veo, Sora, Pika — Chọn Model Ngay Trong Dropdown Menu",
-      "summary": "Adobe Firefly giờ cho phép user chọn model video gen từ dropdown: Firefly video model, Google Veo, Sora, Pika. Mục tiêu: all-in-one workspace cho video AI.",
-      "why": "Cho creative: thay vì subscribe nhiều tool (Runway, Pika, Sora riêng), giờ dùng 1 Adobe account access 4+ models. Giảm context switching. Nhưng: giá có thể cao hơn subscribe trực tiếp. Kiểm tra cost trước khi commit.",
+      "headline": "Adobe Tích Hợp Multi-Model AI Video Gen — Chọn Veo, Sora, Pika Trong 1 Workspace (Firefly)",
+      "summary": "Từ dropdown trong Adobe Firefly, user có thể chọn giữa Firefly video model, Google Veo, Sora, Pika. All-in-one interface giúp không phải jump giữa nhiều tool riêng lẻ.",
+      "why": "Cho creative: giảm context switching — thử nhiều model AI video trong cùng project mà không export/import. Tăng tốc độ iterate prompt và chọn output tốt nhất.",
       "source": "Adobe Firefly",
       "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
-        "adobe",
-        "firefly",
-        "veo",
-        "sora",
-        "pika",
-        "integration"
+        "Adobe",
+        "Veo",
+        "Sora",
+        "Pika",
+        "video generation"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Nghiên Cứu Swansea: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
-      "summary": "Swansea University phát hiện: người dùng AI không bị 'thụ động' mà sáng tạo hơn. Khi có AI hỗ trợ brainstorm, con người explore nhiều ý tưởng hơn, vì cost thử nghiệm giảm. Giống như calculator không giết toán học, AI không giết creativity.",
-      "why": "Cho curious/manager: nghiên cứu này counter narrative 'AI giết sáng tạo'. Thực tế: AI giảm rào cản thử nghiệm → tăng exploration. Nếu bạn lo AI làm team mất tư duy, đây là evidence ngược lại. Nhưng cần điều kiện: team phải biết dùng AI như tool, không phải crutch.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "tags": [
-        "research",
-        "creativity",
-        "swansea",
-        "human-ai"
-      ]
-    },
-    {
-      "headline": "MIT: AI Làm Con Người Giảm Khả Năng Phát Hiện Fake News — Giống GPS Làm Mất Định Hướng",
-      "summary": "Nghiên cứu Media Lab MIT: người dùng AI để check tin fake sẽ mất dần khả năng tự phán đoán — tương tự GPS làm con người mất skill định hướng. Khi AI sai, user không nhận ra vì đã quên skill gốc.",
-      "why": "Cho individual/curious: nếu bạn dùng AI để fact-check tin tức, hãy tự verify độc lập ít nhất 20-30% lần để giữ skill. Không nên blind trust AI output. Cho manager: nếu team dùng AI cho QA/review, vẫn cần random audit manual để team không bị 'deskill'.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "mit",
-        "fake-news",
-        "deskilling",
-        "gps-effect"
-      ]
-    },
-    {
-      "headline": "Qwen-AgentWorld: Language World Models Cho General Agents",
-      "summary": "Paper arXiv từ Alibaba Qwen team: AgentWorld framework giúp agent tạo 'world model' từ ngôn ngữ — agent hiểu môi trường và hành động hợp lý hơn. Benchmark cho thấy agent với world model đạt 73% success trên multi-step tasks, cao hơn 41% baseline.",
-      "why": "Cho curious/creative: nếu bạn đang dùng agent (vd: ChatGPT Code Interpreter, Claude Code), research này giải thích tại sao agent đôi khi 'hiểu' context tốt (có internal world model) và đôi khi lạc (không có). Long-term: agent sẽ reliable hơn khi world model improve.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.24597",
-      "tags": [
-        "qwen",
-        "agent",
-        "world-model",
-        "reasoning"
-      ]
-    },
-    {
-      "headline": "Semantic Browsing: Controllable Diversity Cho Image Generation",
-      "summary": "Paper HuggingFace: hiện tại text-to-image model collapse vào 1 visual interpretation (vd: prompt 'cat' → cùng 1 kiểu mèo). Semantic Browsing cho phép user control diversity — generate nhiều style mèo khác nhau. Kỹ thuật: latent space exploration có hướng dẫn.",
-      "why": "Cho creative: nếu bạn thấy Midjourney/DALL-E generate ảnh giống nhau quá, research này là nền tảng cho tool 'diversity slider' trong tương lai. Hiện tại: dùng variation prompts + negative prompts để giả lập diversity.",
+      "headline": "Do Thinking Tokens Help with Safety? — Nghiên Cứu Cho Thấy Reasoning Model Không Tự Động An Toàn Hơn",
+      "summary": "Paper mới từ HuggingFace: thinking tokens (dùng trong reasoning models như o1) không tự động cải thiện safety. Model vẫn có thể bypass alignment khi có deliberation chain. Ảnh hưởng đến giả định 'reasoning = safer'.",
+      "why": "Cho curious: nếu bạn nghĩ reasoning model (GPT-o1, Claude thinking) tự động an toàn hơn — không phải. Vẫn cần red-teaming riêng. Cho manager: nếu deploy reasoning model vì tin nó safer, cần audit lại assumption đó.",
       "source": "HuggingFace Papers",
-      "url": "https://huggingface.co/papers/2606.23679",
+      "url": "https://huggingface.co/papers/2606.25013",
       "tags": [
-        "image-gen",
-        "diversity",
-        "semantic",
-        "latent-space"
+        "reasoning",
+        "safety",
+        "alignment"
+      ]
+    },
+    {
+      "headline": "Plans Don't Persist — Nghiên Cứu Về Context Management Là 'Load Bearing' Cho AI Agents",
+      "summary": "Paper chỉ ra rằng AI agents phụ thuộc vào context management (compress, summarize, evict tokens) — nhưng khi drop information, plan cũ bị mất, gây lỗi ở long-horizon tasks. Plans không persist qua context window.",
+      "why": "Cho manager: nếu AI agent của bạn fail ở task dài (>1 giờ), kiểm tra context management policy. Compression có thể đang drop plan state quan trọng. Cho curious: giới hạn thực tế của agents là memory/context, không chỉ reasoning.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.22953",
+      "tags": [
+        "agents",
+        "context management",
+        "long-horizon"
+      ]
+    },
+    {
+      "headline": "PrivacyAlign — Contextual Privacy Alignment Cho LLM Agents: Agents Cần Biết Khi Nào Được Share Data",
+      "summary": "Paper đề xuất framework để align AI agents với privacy context. Agents thường share data user không muốn share vì không hiểu context (vd share medical info với tool call). PrivacyAlign train agent recognize privacy boundary.",
+      "why": "Cho manager: nếu deploy AI agents tương tác với external tools (API, database), cần verify agent không leak sensitive data. Đây là blind spot lớn. Cho cá nhân: hỏi agent 'liệu bạn có share data này không?' trước khi cho nó access sensitive info.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.21710",
+      "tags": [
+        "privacy",
+        "agents",
+        "alignment"
+      ]
+    },
+    {
+      "headline": "What Intermediate Layers Know — Detect Jailbreak Từ Entropy Dynamics Của Hidden Layers",
+      "summary": "Nghiên cứu cho thấy có thể detect jailbreak bằng cách phân tích entropy ở intermediate layers (trước khi model output). Jailbreak prompt tạo pattern entropy khác biệt so với prompt thường.",
+      "why": "Cho curious: insight về cách model process jailbreak internally — có thể detect trước khi output. Cho manager: nếu build defense system, thêm intermediate layer monitoring vào pipeline.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.25182",
+      "tags": [
+        "jailbreak",
+        "security",
+        "detection"
+      ]
+    },
+    {
+      "headline": "Physics Question Scene Graph — Đánh Giá Physical Plausibility Của AI Video Gen Ở Mức Chi Tiết",
+      "summary": "Paper giới thiệu benchmark mới để đánh giá AI video có tuân theo physical laws không (gravity, momentum, collision). Hiện tại video gen models vẫn struggle với physics basics. Benchmark này localize chỗ nào model sai physics.",
+      "why": "Cho creative: nếu gen video AI, check output bằng physics intuition — model vẫn sai cơ bản (vd object rơi chậm, collision không tự nhiên). Cho curious: AI video chưa 'hiểu' physical world, chỉ pattern matching visual.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.25306",
+      "tags": [
+        "video generation",
+        "physics",
+        "benchmark"
       ]
     }
   ],
   "business": [
     {
-      "headline": "AI Chiếm 81% Vốn VC Toàn Cầu Q1/2026 — $240 Tỷ USD Đổ Vào AI Startup",
-      "summary": "Theo PitchBook, AI startup nhận 81% tổng vốn VC toàn cầu Q1/2026, tương đương >$240 tỷ USD. Con số này bao gồm mega-rounds (SpaceX mua Cursor $60B, Groq raise $650M) và hàng trăm seed/Series A nhỏ hơn.",
-      "why": "Cho business/founder: nếu bạn đang raise vốn mà không phải AI, cạnh tranh capital cực khó. VC đang all-in AI. Nếu startup bạn có góc AI (dù nhỏ), đẩy mạnh narrative đó. Nếu không, chuẩn bị bootstrap hoặc chờ thị trường điều chỉnh (dự kiến 2027).",
-      "source": "Forbes",
-      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+      "headline": "Patronus AI Raise $50M Từ Meta AI Alumni — Build 'Digital Worlds' Để Stress-Test AI Agents",
+      "summary": "Patronus AI (founded bởi cựu Meta AI researchers) raise $50M để build simulation environments test AI agents. Investor nói demand 'nearly insatiable' — enterprise cần verify agents trước khi deploy.",
+      "why": "Cho business/founder: nếu build AI agent product, stress-testing infrastructure là bottleneck hiện tại. Market đang mở — opportunity cho tooling/testing startups. Signal về maturity của agent ecosystem.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
       "tags": [
-        "vc",
         "funding",
-        "ai-bubble",
-        "pitchbook"
+        "agents",
+        "testing"
       ]
     },
     {
-      "headline": "Vishal Sikka (Cựu CEO Infosys) Ra Startup Mới Thách Thức Ngành IT Services",
-      "summary": "Vishal Sikka (ex-CEO Infosys, SAP) công bố startup mới backed by Mayfield và Aramco Ventures. Mục tiêu: build AI-first IT services — thay thế outsourcing truyền thống bằng agent automation. Team gồm veteran từ SAP, Infosys, VianAI.",
-      "why": "Cho business: nếu công ty bạn đang outsource IT (vd: Infosys, TCS, Accenture), chuẩn bị cho thời đại 'IT services by AI'. Sikka có track record — nếu startup này scale, giá outsourcing sẽ giảm 40-60% nhưng job security cho offshore team giảm. Nếu bạn làm IT outsourcing VN, pivot ngay sang AI implementation/integration.",
+      "headline": "General Intuition Raise $320M — Bet $2.3B Valuation Rằng Video Games Train AI Agents Cho Real World",
+      "summary": "General Intuition raise $320M (valuation $2.3B) để train AI agents trên millions hours gameplay, hy vọng action data giúp AI develop 'human intuition'. Đây là bet lớn về sim-to-real transfer.",
+      "why": "Cho business/founder: nếu bạn nghĩ training data AI agents là challenge, đây là approach mới — dùng game data thay vì real-world data đắt đỏ. Risk: sim-to-real gap vẫn chưa proven at scale.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "tags": [
-        "it-services",
-        "sikka",
-        "infosys",
-        "automation"
+        "funding",
+        "agents",
+        "simulation"
       ]
     },
     {
-      "headline": "Memory Chip Crunch Giúp Công Ty Mỹ Này Tăng Doanh Thu Gấp 4 — Lợi Nhuận $28.2B",
-      "summary": "Micron (hoặc tương tự) báo cáo doanh thu gấp 4 lần cùng kỳ năm trước lên $41.45B. Lợi nhuận từ $1.88B → $28.2B. Nguyên nhân: AI training cần HBM (high-bandwidth memory) → demand tăng vọt, supply thiếu.",
-      "why": "Cho business/founder: nếu startup bạn cần GPU/TPU cho training, memory là bottleneck lớn hơn compute. Giá HBM tăng 300% trong 12 tháng qua. Cân nhắc: thuê cloud với memory included thay vì mua hardware. Hoặc đợi 2027 khi supply catch up.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "headline": "Qualcomm Mua AI Startup Modular Với Giá ~$4 Tỷ — Mở Rộng Ra Ngoài Smartphone",
+      "summary": "Qualcomm acquire Modular (AI infrastructure startup) khoảng $4B để bolster AI infrastructure beyond smartphones. Signal Qualcomm đang pivot từ mobile-first sang broader AI compute.",
+      "why": "Cho business/founder: Qualcomm đang build AI stack compete với Nvidia/AMD. Nếu bạn đang bet on edge AI hoặc mobile AI, theo dõi roadmap Qualcomm — họ có capital và distribution.",
+      "source": "Global Banking and Finance",
+      "url": "https://www.globalbankingandfinance.com/qualcomm-buy-ai-startup-modular/",
       "tags": [
-        "memory",
-        "hbm",
-        "chip",
-        "supply-chain"
+        "acquisition",
+        "Qualcomm",
+        "infrastructure"
       ]
-    }
-  ],
-  "society": [
+    },
     {
-      "headline": "Open-Source AI Là Con Đường Duy Nhất Cho Phần Lớn Thế Giới — Phân Tích TechStrong",
-      "summary": "Bài phân tích TechStrong: với các quốc gia không phải US/China, open-source AI là con đường duy nhất để không bị phụ thuộc hoàn toàn vào big tech. EU AI Act, luật của Ấn Độ, Brazil đều ưu tiên open model. Lý do: sovereignty, cost, và khả năng customize.",
-      "why": "Cho manager/curious: nếu bạn ở Việt Nam/SEA, nên học sử dụng open-source models (GLM-5.2, Llama, Qwen) thay vì phụ thuộc 100% GPT/Claude. Khi geopolitics thay đổi (vd: US ban export), open-source là backup plan. Cho founder: build trên open model giảm vendor risk.",
-      "source": "TechStrong AI",
-      "url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
+      "headline": "Cựu CEO Infosys Vishal Sikka Launch AI Startup Hang Ten Systems — Raise $32M Led Mayfield",
+      "summary": "Vishal Sikka (former Infosys CEO) launch Hang Ten Systems với $32M funding từ Mayfield + Aramco Ventures. Startup focus AI cho enterprise, chưa rõ product specifics.",
+      "why": "Cho business/founder: signal về enterprise AI vẫn hot — cựu CEO big corp launch startup với backing lớn. Nếu bạn build enterprise AI, competition tăng nhưng market validation rõ ràng.",
+      "source": "Deccan Herald",
+      "url": "https://www.deccanherald.com/business/former-infosys-ceo-vishal-sikka-launches-ai-startup-hang-ten-systems-secures-32-million-funding-4051112",
       "tags": [
-        "open-source",
-        "sovereignty",
-        "geopolitics",
-        "access"
+        "funding",
+        "enterprise",
+        "India"
+      ]
+    },
+    {
+      "headline": "Databricks Cựu AI Chief Launch Startup Giảm AI Power Bill 1,000x — Un-0 Image Gen Ra Mắt",
+      "summary": "Cựu AI chief của Databricks nghĩ có thể giảm AI power consumption 1,000x bằng new architecture. Un-0 (image generation tool) là first demo — chưa rõ tech details nhưng claim efficiency cao hơn conventional systems.",
+      "why": "Cho business/founder: nếu claim này đúng, cost structure của AI inference thay đổi hoàn toàn. Follow startup này — nếu proven, sẽ disrupt pricing models hiện tại. Risk: bold claim cần verify.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "tags": [
+        "startup",
+        "efficiency",
+        "power"
+      ]
+    },
+    {
+      "headline": "Netris Raise $15M Series A Từ a16z — Giúp AI Neoclouds Go Live Nhanh Hơn",
+      "summary": "Netris raise $15M từ a16z để build software chạy trên network switches, giúp neocloud operators (AI cloud startups) giảm time-to-market. Infrastructure tooling cho AI cloud providers.",
+      "why": "Cho business/founder: nếu bạn build hoặc dùng neocloud (CoreWeave, Lambda Labs, etc), theo dõi Netris — time-to-live faster nghĩa là cheaper và faster iteration cho customers.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "cloud"
       ]
     }
   ],
+  "society": [],
   "opensource": [
     {
-      "headline": "OpenClaw — AI Assistant Chạy Trên Mọi OS, 'The Lobster Way' 🦞",
-      "why": "Personal AI assistant cross-platform (Windows/Mac/Linux). GitHub trending #1 với 380K stars — tín hiệu community interest cao. Nếu bạn muốn AI assistant local không phụ thuộc cloud, đây là option mới nhất.",
-      "source": "GitHub",
+      "headline": "openclaw/openclaw — AI Assistant Đa Nền Tảng 'The Lobster Way' 🦞",
+      "why": "Personal AI assistant chạy mọi OS/platform. Nếu muốn self-host assistant thay vì dùng cloud service, đây là option mới.",
+      "source": "GitHub Trending",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "380298"
+      "stars": "380456"
     },
     {
-      "headline": "Obra/Superpowers — Agentic Skills Framework & Software Methodology Thực Chiến",
-      "why": "Framework xây dựng agent với skills module — designed for 'methodology that works'. 237K stars. Dành cho developer muốn build agent production-ready thay vì toy project.",
-      "source": "GitHub",
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Development Methodology",
+      "why": "Framework để build agentic skills — methodology 'that works'. Nếu đang struggle với cách tổ chức agent codebase, xem repo này.",
+      "source": "GitHub Trending",
       "url": "https://github.com/obra/superpowers",
-      "stars": "237766"
+      "stars": "238652"
     },
     {
-      "headline": "NousResearch/Hermes-Agent — 'Agent Phát Triển Cùng Bạn'",
-      "why": "Agent học từ user behavior và adapt workflow. 202K stars. Concept: thay vì agent cứng nhắc, Hermes-agent 'grows' theo cách bạn làm việc. Dành cho power user muốn agent personalized.",
-      "source": "GitHub",
+      "headline": "NousResearch/hermes-agent — The Agent That Grows With You",
+      "why": "Agent từ Nous Research — focus on learning và adapt theo user behavior. Open-source alternative cho proprietary agents.",
+      "source": "GitHub Trending",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "202027"
+      "stars": "203047"
     },
     {
-      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI",
-      "why": "Alternative Zapier/Make.com nhưng open-source, self-host được, 400+ integrations, native AI capabilities. 193K stars. Dành cho team muốn tự host automation workflow mà không bị vendor lock-in.",
-      "source": "GitHub",
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Self-host workflow automation với 400+ integrations. Nếu muốn build AI workflows mà không bị vendor lock-in, n8n là option proven.",
+      "source": "GitHub Trending",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "193935"
+      "stars": "194075"
     },
     {
-      "headline": "AutoGPT — 'Accessible AI For Everyone' — 185K Stars",
-      "why": "AutoGPT vẫn active và trending. Vision: AI ai cũng dùng được, không cần PhD. Dành cho người mới học AI agent — cộng đồng lớn, docs tốt.",
-      "source": "GitHub",
+      "headline": "Significant-Gravitas/AutoGPT — Vision Of Accessible AI For Everyone",
+      "why": "AutoGPT tiếp tục phát triển — mission là provide tools để focus on what matters. Nếu muốn thử autonomous agent framework mature, bắt đầu từ đây.",
+      "source": "GitHub Trending",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "185153"
+      "stars": "185155"
     },
     {
-      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
-      "why": "Platform xây dựng agent production. 146K stars. Dành cho team startup muốn ship agent nhanh — không cần build infra từ đầu.",
-      "source": "GitHub",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "146464"
-    },
-    {
-      "headline": "Open-WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API",
-      "why": "UI thân thiện cho AI models — chạy Ollama local hoặc kết nối OpenAI API. 142K stars. Dành cho người muốn ChatGPT-like UI nhưng self-host.",
-      "source": "GitHub",
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "why": "UI front-end cho Ollama, OpenAI API, và nhiều models khác. Self-host để control data + privacy. Đang trending vì UI clean và flexible.",
+      "source": "GitHub Trending",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "142901"
+      "stars": "143008"
     },
     {
-      "headline": "LangChain — The Agent Engineering Platform — 140K Stars",
-      "why": "LangChain đổi branding sang 'agent engineering platform'. Still trending. Dành cho developer build agent với RAG, tools, memory.",
-      "source": "GitHub",
+      "headline": "langchain-ai/langchain — The Agent Engineering Platform",
+      "why": "LangChain tiếp tục là foundation cho agent development. Nếu build production agent, đây vẫn là starting point standard.",
+      "source": "GitHub Trending",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": "140111"
-    },
-    {
-      "headline": "Firecrawl — API Search, Scrape, Interact With Web At Scale 🔥",
-      "why": "API scrape web cho agent. 138K stars. Dành cho developer cần data pipeline cho RAG hoặc agent research tasks.",
-      "source": "GitHub",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "138701"
+      "stars": "140204"
     }
   ],
   "model_updates": [],
   "insight": null,
   "sources_count": {
     "raw": 174,
-    "brave": 48,
+    "brave": 47,
     "reddit": 0,
-    "hackernews": 11,
-    "rss": 49,
+    "hackernews": 5,
+    "rss": 52,
     "huggingface": 7,
     "github": 10,
-    "openrouter": 2
+    "openrouter": 4
   }
 }
