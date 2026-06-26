@@ -1,0 +1,252 @@
+{
+  "date": "2026-06-27",
+  "updated_at": "2026-06-27T06:55:18.652343+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Chính Phủ Mỹ Quyết Định Ai Được Dùng GPT-5.6 — OpenAI Phải Trì Hoãn Ra Model Mới Theo Yêu Cầu Nhà Trắng",
+    "summary": "OpenAI ra mắt GPT-5.6 Sol hôm nay nhưng giới hạn truy cập theo yêu cầu của chính phủ Mỹ vì lý do an ninh quốc gia. Đây là lần đầu tiên Washington can thiệp trực tiếp vào việc phân phối model AI tiên tiến nhất của Mỹ — tương tự như trường hợp Anthropic Mythos tuần trước.",
+    "why": "Cho cá nhân: nếu bạn đang dựa vào GPT-5.6 cho công việc critical, cần backup plan — access có thể bị giới hạn bất ngờ. Cho manager: đây là signal rõ ràng rằng AI frontier models đang trở thành công cụ địa chính trị, không chỉ sản phẩm thương mại — chiến lược AI của công ty cần diversify vendor để tránh single point of failure khi chính phủ can thiệp.",
+    "source": "Washington Post / The Guardian / Axios",
+    "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+    "tags": [
+      "policy",
+      "openai",
+      "gpt-5.6",
+      "geopolitics"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenAI Ra GPT-Rosalind — Model Reasoning Chuyên Cho Khoa Học & Phát Triển Thuốc",
+      "why": "Cho research/biotech: model này tối ưu cho genomics, protein reasoning, drug discovery workflows — nếu team bạn làm R&D, đây là tool mới cần thử nghiệm thay vì dùng general-purpose model.",
+      "source": "OpenAI Research",
+      "url": "https://openai.com/research/index/release/",
+      "tags": [
+        "research",
+        "biotech",
+        "gpt-rosalind"
+      ]
+    },
+    {
+      "headline": "MIT Ra Murakkab — Hệ Thống Tối Ưu Multistep AI Workflows",
+      "why": "Cho manager: nếu team bạn đang chạy nhiều bước AI pipelines (data prep → generation → review), Murakkab giúp optimize flow này — giảm latency và chi phí compute.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "workflow",
+        "optimization",
+        "enterprise"
+      ]
+    },
+    {
+      "headline": "Adobe Mở Miễn Phí AI Tools Trong Creative Cloud — Freemium Model Cho Firefly, Photoshop, Premiere",
+      "why": "Cho creative: Adobe đang thử nghiệm freemium cho AI agents — bạn có thể test Firefly/Photoshop AI miễn phí trước khi quyết định trả tiền. Đây là cơ hội evaluate mà trước đây phải subscribe cả năm.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-opens-ai-tools-160657651.html",
+      "tags": [
+        "adobe",
+        "freemium",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "Claude Code Docs Công Bố — Agentic Coding Tool Đọc Codebase, Chỉnh Sửa, Chạy Lệnh",
+      "why": "Cho creative/producer: nếu bạn không biết code nhưng cần automation cho workflow (rename files, resize hàng loạt, convert formats), Claude Code giờ có thể làm toàn bộ — không cần học script.",
+      "source": "Claude Docs",
+      "url": "https://code.claude.com/docs/en/overview",
+      "tags": [
+        "coding-agent",
+        "automation",
+        "claude"
+      ]
+    },
+    {
+      "headline": "VinAI Tăng Công Bố Từ 6 → 117 Papers Tại Các Hội Nghị AI Hàng Đầu Thế Giới",
+      "why": "Cho curious: AI Việt Nam không chỉ consume công nghệ nước ngoài — VinAI đang contribute vào nghiên cứu cấp quốc tế. Đây là proof point rằng talent Việt có thể cạnh tranh global.",
+      "source": "GenK",
+      "url": "https://genk.vn/ai-viet-nam-tiep-tuc-ghi-dau-o-cac-hoi-nghi-khoa-hoc-hang-dau-the-gioi-165260616172217364.chn",
+      "tags": [
+        "vietnam",
+        "vinai",
+        "research"
+      ]
+    },
+    {
+      "headline": "IBM Ra Watsonx AI Cho Wimbledon 2026 — Fan Experience Cá Nhân Hóa",
+      "why": "Cho business: IBM demo use case AI trong sports/entertainment — personalized highlights, chatbots, real-time analytics. Nếu bạn làm B2C, đây là blueprint về cách deploy AI customer-facing.",
+      "source": "IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2026-06-22-wimbledon-and-ibm-introduce-new-ai-powered-fan-experiences-and-modernized-digital-platforms-for-the-championships-2026",
+      "tags": [
+        "enterprise",
+        "sports",
+        "customer-experience"
+      ]
+    },
+    {
+      "headline": "BBC: AI Có Thể Clone Giọng Nói Từ Clips Ngắn — UK Law Chưa Kịp Bảo Vệ",
+      "why": "Cho cá nhân: nếu bạn có voice recordings public (podcast, video), cần cân nhắc risk bị deepfake giọng nói. Luật chưa theo kịp — tự bảo vệ bằng cách watermark hoặc giới hạn public voice data.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "deepfake",
+        "voice-cloning",
+        "security"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Tích Hợp Google Veo, Sora, Pika — Chọn Model Video Ngay Trong Creative Cloud",
+      "summary": "Adobe cho phép user chọn Firefly video model hoặc partner models (Google Veo, Sora, Pika) từ dropdown menu khi generate video. Workflow thống nhất trong 1 tool thay vì nhảy qua nhiều platform.",
+      "why": "Cho creative/producer: giảm 50% thời gian handoff — generate, edit, grade trong cùng 1 workspace. Không cần export/import giữa tools. Đây là integration mà industry chờ đợi từ lâu.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-generation",
+        "adobe",
+        "integration"
+      ]
+    },
+    {
+      "headline": "Krea 2 — Foundation Image Model Mới Focus Style Control & Expressive Visual",
+      "summary": "Krea 2 là foundation model hoàn toàn mới của Krea, tập trung vào aesthetic diversity, style control, và expressive visual direction. Hỗ trợ input bằng mọi ngôn ngữ.",
+      "why": "Cho creative: nếu bạn bị Midjourney/DALL-E giới hạn về style, Krea 2 offer control level cao hơn — có thể define exact aesthetic direction thay vì rely vào model default style.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "image-generation",
+        "style-control",
+        "krea"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 — ByteDance Ra Model Text/Image-to-Video 'Cinematic'",
+      "summary": "ByteDance ra Seedance 2.0 với advanced motion synthesis và 'cinematic' quality. Transform text hoặc images thành video professional-grade.",
+      "why": "Cho producer: ByteDance (TikTok/Capcut owner) entering video gen race nghĩa là tooling sẽ rẻ + integrate sâu vào editing tools bạn đang dùng. Đây là competition tốt cho Sora/Veo về pricing.",
+      "source": "Seedance 2",
+      "url": "https://seedance2.ai/",
+      "tags": [
+        "video-generation",
+        "bytedance",
+        "seedance"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Swansea University: AI Giúp Con Người Sáng Tạo Hơn — Không Phải Thay Thế",
+      "summary": "Nghiên cứu mới từ Swansea University cho thấy AI đóng vai trò hỗ trợ sáng tạo của con người, không phải thay thế. Khi dùng AI đúng cách, người dùng tạo ra output creative hơn so với làm việc solo.",
+      "why": "Cho curious: counter-argument với narrative 'AI giết creativity'. Research cho thấy AI là tool amplify creativity nếu dùng như collaborator, không phải autopilot. Điều này quan trọng cho mindset khi adopt AI.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "creativity",
+        "research",
+        "human-ai-collaboration"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "AI Chiếm 81% Vốn VC Toàn Cầu Q1/2026 — $240 Tỷ USD Đổ Vào AI Startup",
+      "summary": "Theo PitchBook, AI startups hút 81% tổng vốn venture capital toàn cầu trong Q1/2026, tương đương hơn $240 tỷ USD. Gần 3/4 funding Mỹ đổ vào AI.",
+      "why": "Cho founder/đầu tư: nếu startup bạn không phải AI hoặc không có AI angle rõ ràng, fundraising sẽ cực khó. Non-AI startups đang bị starve về capital — cần pivot narrative hoặc chấp nhận bootstrap. Đây là bubble signal rõ ràng.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+      "tags": [
+        "venture-capital",
+        "funding",
+        "bubble"
+      ]
+    },
+    {
+      "headline": "Vishal Sikka (Cựu CEO Infosys) Launch Hang Ten Systems — Raise $32M",
+      "summary": "Vishal Sikka (cựu CEO Infosys) ra mắt AI startup Hang Ten Systems và raise $32M từ Mayfield, Aramco Ventures. Đây là AI enterprise play từ executive có track record lớn.",
+      "why": "Cho founder: high-profile founders vẫn raise được lớn trong market khó. Nếu bạn có credibility + network, đây vẫn là thời điểm tốt để raise — nhưng cần strong story + proven execution.",
+      "source": "Deccan Herald",
+      "url": "https://www.deccanherald.com/business/former-infosys-ceo-vishal-sikka-launches-ai-startup-hang-ten-systems-secures-32-million-funding-4051112",
+      "tags": [
+        "startup-funding",
+        "enterprise-ai",
+        "india"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "China Aims AI At Predicting Who Could Pose Political Risk — NYTimes Investigates",
+      "summary": "NYTimes phân tích cách một công ty Trung Quốc phát triển công nghệ giám sát dự đoán (predictive surveillance) để identify ai có thể là rủi ro chính trị, trong bối cảnh có hạn chế từ Mỹ.",
+      "why": "Cho curious: đây là use case 'dark side' của AI — không phải productivity tool mà là công cụ kiểm soát xã hội. Quan trọng để hiểu AI không neutral — có thể dùng cho freedom hoặc oppression. Khi đánh giá AI tool, hỏi 'ai kiểm soát, ai hưởng lợi'.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "china"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Cá Nhân, Any OS, Any Platform 'The Lobster Way' 🦞",
+      "why": "Open-source AI assistant cross-platform — nếu bạn muốn control data + privacy hơn ChatGPT/Claude, đây là alternative self-host được.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "380606"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Dev Methodology",
+      "why": "Framework build AI agents theo methodology có cấu trúc — dành cho dev muốn tự build agents thay vì dùng no-code platforms.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "239430"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — The Agent That Grows With You",
+      "why": "Agent học từ interaction với user — concept 'personalized agent' đang hot. Nếu bạn muốn agent không chỉ execute mà còn adapt style/preferences, đây là research direction đáng follow.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "203770"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform With Native AI",
+      "why": "Zapier alternative open-source + AI-native. Self-host workflow automation với 400+ integrations — phù hợp team muốn control infrastructure + không trả subscription fee cao.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "194187"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
+      "why": "UI layer cho local/self-hosted LLMs — nếu bạn đang chạy Ollama hoặc model local, cần UI đẹp thay vì CLI, đây là go-to solution.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "143141"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 27B — Giá Completion Giảm $3.17→$2.65",
+      "event": "price",
+      "summary": "Prompt giữ nguyên $0.29, completion giảm từ $3.17 xuống $2.65 per million tokens.",
+      "why": "Cheaper alternative cho tasks cần model Trung Quốc hoặc multilingual — cạnh tranh với GPT-4o mini về pricing.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "qwen",
+        "price-drop"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 169,
+    "brave": 46,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 1
+  }
+}
