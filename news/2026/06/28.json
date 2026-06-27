@@ -1,0 +1,294 @@
+{
+  "date": "2026-06-28",
+  "updated_at": "2026-06-28T06:54:31.011097+07:00",
+  "weekday": "Sunday",
+  "top_story": {
+    "headline": "Mỹ Cho Phép Anthropic Phát Hành Mythos Cho 'Tổ Chức Tin Cậy' — Sau 2 Tuần Bị Cấm Xuất Khẩu",
+    "summary": "Chính phủ Mỹ cho phép Anthropic phát hành model Mythos AI cho một số tổ chức Mỹ được lựa chọn, sau khi model bị NSA thu hồi quyền truy cập vì tranh chấp an ninh quốc gia. Các startup AI châu Á đang phát triển model tương tự Mythos để lấp chỗ trống khi Anthropic vẫn chưa thể xuất khẩu rộng rãi.",
+    "why": "Cho manager + founder: Mythos export ban tạo cơ hội cho competitor châu Á — nếu bạn đang build AI product dựa vào frontier model Mỹ, cần backup plan với model từ Trung Quốc/châu Á. Delay geopolitical như thế này có thể kéo dài 6-12 tháng, đủ để mất thị phần.",
+    "source": "Semafor",
+    "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+    "tags": [
+      "geopolitics",
+      "regulation",
+      "mythos",
+      "anthropic"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenAI Trì Hoãn Ra GPT-5.6 Theo Yêu Cầu Nhà Trắng — Chỉ Cho Partner Được Duyệt",
+      "why": "Cho cá nhân + manager: Nếu workflow bạn dựa vào latest OpenAI model, chuẩn bị cho delay. Pattern này (Mythos rồi GPT-5.6) cho thấy Mỹ đang kiểm soát frontier AI release — plan B với model hiện tại hoặc open-source.",
+      "source": "The Guardian / WIRED",
+      "url": "https://www.theguardian.com/technology/2026/jun/26/openai-ai-model-release-trump-us-sam-altman-gpt-anthropic-mythos",
+      "tags": [
+        "openai",
+        "regulation",
+        "gpt-5.6"
+      ]
+    },
+    {
+      "headline": "Qualcomm Mua Startup AI Modular Với Giá ~$4 Tỷ USD — Mở Rộng Ra Ngoài Smartphone",
+      "why": "Cho business: Qualcomm đang pivot từ mobile sang AI infrastructure — tín hiệu edge AI (AI chạy trên thiết bị) sẽ bùng nổ. Nếu bạn build app AI, cân nhắc edge deployment để giảm cloud cost + tăng privacy.",
+      "source": "Global Banking and Finance",
+      "url": "https://www.globalbankingandfinance.com/qualcomm-buy-ai-startup-modular/",
+      "tags": [
+        "m&a",
+        "qualcomm",
+        "edge-ai"
+      ]
+    },
+    {
+      "headline": "Baseten Raise $1.5 Tỷ USD Series F — AI Inference Startup Lớn Nhất Tuần",
+      "why": "Cho founder: AI inference (serving models) đang là gold rush. Baseten chứng minh VCs đổ tiền vào infrastructure layer, không chỉ model labs. Nếu bạn build infra/tools cho AI, đây là thời điểm fundraise.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/",
+      "tags": [
+        "funding",
+        "inference",
+        "baseten"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra Codex — AI Coding Agent Chạy Trên CLI, VS Code, Desktop App",
+      "why": "Cho creative + cá nhân: Codex CLI thay thế agentic harness cũ — nếu bạn dùng ChatGPT để code, upgrade sang Codex để agent tự chạy lệnh, đọc codebase, edit file. Giảm context switching.",
+      "source": "OpenAI",
+      "url": "https://openai.com/codex/",
+      "tags": [
+        "coding",
+        "openai",
+        "agent"
+      ]
+    },
+    {
+      "headline": "Adobe Firefly Tích Hợp Multi-Model: Google Veo, Sora, Pika — Chọn Model Trong 1 Workspace",
+      "why": "Cho creative: Adobe cho phép switch giữa Veo/Sora/Pika trong cùng 1 tool — không cần nhảy qua lại giữa các platform. Giảm 50% thời gian prototype video.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "tags": [
+        "video-gen",
+        "adobe",
+        "firefly"
+      ]
+    },
+    {
+      "headline": "Kiro Ra Mắt — AI Coding Agent Validate Correctness, Tìm Bug Mà Unit Test Bỏ Qua",
+      "why": "Cho cá nhân: Kiro claim tìm được bug mà unit test miss — nếu bạn đang dùng GitHub Copilot/Cursor, test thử Kiro để so sánh code quality. Có thể giảm production bug.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "coding",
+        "agent",
+        "testing"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Seedance 2.5 Ra Mắt — ByteDance Nâng Cấp Model Video AI 'Cinematic'",
+      "summary": "ByteDance công bố Seedance 2.5 tại hội nghị FORCE, cùng model hình ảnh Seedream 5.0 Pro. Seedance 2.5 được phát triển bởi team Seed (cùng team TikTok/CapCut).",
+      "why": "Cho creative: Seedance 2.5 từ team CapCut — tích hợp sâu vào workflow editing có sẵn. Nếu production house bạn đang dùng CapCut, đây là model native có thể dùng ngay không phải export/import.",
+      "source": "TwoShot",
+      "url": "https://twoshot.app/seedance-2-5",
+      "tags": [
+        "video-gen",
+        "bytedance",
+        "seedance"
+      ]
+    },
+    {
+      "headline": "Krea 2 — Foundation Model Hình Ảnh Hoàn Toàn Mới, Focus Style Control & Aesthetic Diversity",
+      "summary": "Krea 2 là model hình ảnh đầu tiên của Krea built from scratch, tập trung vào aesthetic diversity, style control, và expressive visual direction. Ra mắt tháng 5/2026.",
+      "why": "Cho creative: Krea 2 solve vấn đề 'mọi AI image đều giống nhau'. Nếu bạn cần style đa dạng hơn Midjourney/DALL-E, test Krea 2 cho concept art/mood board.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "image-gen",
+        "krea",
+        "style-control"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "DeepSeek DSpark — Speculative Decoding Tăng Tốc LLM Inference",
+      "summary": "Paper từ DeepSeek về DSpark, kỹ thuật speculative decoding để tăng tốc inference của LLM. Giảm latency khi chạy model lớn.",
+      "why": "Cho curious: Speculative decoding là trick để model 'đoán trước' nhiều token cùng lúc thay vì từng token — giống như đọc lướt thay vì đọc từng chữ. Kết quả: model chạy nhanh hơn mà không mất chất lượng.",
+      "source": "DeepSeek GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "tags": [
+        "research",
+        "inference",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "IEEE: AI Đang Buộc Toán Học Đặt Lại Câu Hỏi Lớn",
+      "summary": "Bài phân tích từ IEEE Spectrum về cách AI đang thay đổi nghiên cứu toán học — từ chứng minh định lý đến phát hiện pattern mới.",
+      "why": "Cho curious: AI giờ không chỉ giải toán mà còn phát hiện pattern toán học mới mà người chưa thấy — như AlphaProof chứng minh định lý IMO. Nghĩa là AI có thể 'nghĩ' theo cách khác người.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "tags": [
+        "research",
+        "mathematics",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "AI Học 'Dark Art' Thiết Kế Chip RF — Tự Động Hóa RFIC Design",
+      "summary": "Nghiên cứu về AI học thiết kế chip radio frequency (RFIC) — lĩnh vực từng được coi là nghệ thuật chỉ chuyên gia mới làm được.",
+      "why": "Cho curious: RFIC design (chip cho sóng radio/Wi-Fi/5G) từng là 'nghệ thuật đen' — phải nhiều năm kinh nghiệm. AI giờ tự học được → hardware engineering sẽ tự động hóa như software.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "tags": [
+        "research",
+        "hardware",
+        "chip-design"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "AI Chiếm 81% Vốn VC Toàn Cầu Q1/2026 — $240 Tỷ USD Đổ Vào AI Startup",
+      "summary": "Theo PitchBook, AI startup hút 81% tổng vốn venture capital toàn cầu trong Q1/2026, tương đương hơn $240 tỷ USD. Gần 3/4 funding Mỹ đổ vào AI.",
+      "why": "Cho founder + đầu tư: Nếu startup bạn KHÔNG có AI angle, khả năng raise vốn giảm 81%. Cân nhắc pivot hoặc tích hợp AI vào pitch deck — không phải hype mà là survival. Non-AI startup đang bị starve về capital.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/truebridge/2026/05/27/how-ai-mega-startups-rewired-venture-capital-and-the-midas-list/",
+      "tags": [
+        "funding",
+        "vc",
+        "market"
+      ]
+    },
+    {
+      "headline": "Vibe Coding Boom — 8 Startup Raise Hàng Tỷ USD Cho No-Code/Low-Code AI",
+      "summary": "Business Insider phân tích 8 startup (Cursor, Lovable, Replit, v8o, etc.) đang raise billions cho 'vibe coding' — trend non-techies build app bằng AI agent.",
+      "why": "Cho founder: Vibe coding (build app bằng plain English) đang là hot trend VCs đổ tiền. Nếu bạn build dev tools, cân nhắc pivot sang no-code/AI-assisted thay vì traditional IDE.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startups-raising-billions-vibe-coding-boom-cursor-lovable-replit-emergent-2026-3",
+      "tags": [
+        "funding",
+        "no-code",
+        "vibe-coding"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Khoảng Cách Giữa Open-Weight LLM Và Closed-Source LLM Đang Thu Hẹp",
+      "summary": "Phân tích từ Doubleword AI về gap giữa open-weight models (Llama, Qwen, DeepSeek) và closed-source (GPT, Claude) — gap đang nhỏ dần về performance nhưng vẫn lớn về safety/alignment.",
+      "why": "Cho manager + curious: Open-weight models giờ gần bằng GPT/Claude về capability, nhưng rủi ro về safety/jailbreak cao hơn. Nếu bạn self-host AI cho doanh nghiệp, cân nhắc trade-off: cost thấp vs compliance risk.",
+      "source": "Doubleword AI",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "tags": [
+        "open-source",
+        "closed-source",
+        "safety"
+      ]
+    },
+    {
+      "headline": "Startup AI Châu Á Phát Triển Model Mythos-Like — Lấp Chỗ Trống Khi Anthropic Bị Cấm Xuất Khẩu",
+      "summary": "TechCrunch báo cáo các startup AI châu Á (Trung Quốc, Nhật, Hàn) đang phát triển model tương tự Mythos để lấp chỗ trống khi Anthropic không thể xuất khẩu ra ngoài Mỹ do export ban.",
+      "why": "Cho founder + đầu tư: Export ban AI của Mỹ tạo cơ hội cho competitor châu Á — nếu bạn đang build AI product cho thị trường toàn cầu, diversify supplier model để tránh bị lock-in geopolitics.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "tags": [
+        "geopolitics",
+        "competition",
+        "asia"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Cá Nhân Chạy Mọi OS/Platform 🦞",
+      "why": "Open-source AI assistant chạy cross-platform (Windows/Mac/Linux). Nếu bạn cần self-host AI assistant không phụ thuộc vendor, test OpenClaw.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "380K"
+    },
+    {
+      "headline": "Superpowers — Agentic Skills Framework & Methodology Từ Obra",
+      "why": "Framework để build AI agent với 'skills' có thể tái sử dụng. Nếu bạn đang build agent workflow, Superpowers giúp structure code tốt hơn.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "240K"
+    },
+    {
+      "headline": "Hermes Agent — AI Agent 'Lớn Cùng Bạn' Từ Nous Research",
+      "why": "Agent có khả năng học từ interaction với user theo thời gian. Nếu bạn cần agent cá nhân hóa, Hermes có thể adapt theo workflow riêng của bạn.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "204K"
+    },
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI, Self-Host Hoặc Cloud",
+      "why": "n8n giờ tích hợp AI native — build automation workflow kết hợp AI agent. 400+ integrations. Nếu bạn cần Zapier alternative có AI + self-host, dùng n8n.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "194K"
+    },
+    {
+      "headline": "AutoGPT — Vision 'Accessible AI For Everyone' Từ Significant Gravitas",
+      "why": "AutoGPT là framework agent phổ biến nhất. Nếu bạn mới bắt đầu build AI agent, AutoGPT là starting point tốt để học cấu trúc agent workflow.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185K"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Dify giúp deploy agentic workflow ra production nhanh. Nếu bạn đã prototype agent bằng AutoGPT/LangChain, dùng Dify để ship.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "147K"
+    },
+    {
+      "headline": "Open WebUI — Giao Diện AI Thân Thiện (Supports Ollama, OpenAI API, ...)",
+      "why": "Self-host UI cho local LLM (Ollama) hoặc OpenAI API. Nếu bạn chạy AI local, Open WebUI là frontend đẹp hơn terminal.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "143K"
+    },
+    {
+      "headline": "LangChain — Agent Engineering Platform",
+      "why": "LangChain là framework standard cho AI agent. Nếu bạn code agent, bạn sẽ dùng LangChain hoặc competitor. 140K stars = battle-tested.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "140K"
+    },
+    {
+      "headline": "Goose — Open-Source AI Agent Chạy Trên Máy Bạn, Không Chỉ Code",
+      "why": "Goose là general-purpose agent — dùng cho research, writing, automation, data analysis. Nếu bạn cần agent không chỉ coding, test Goose.",
+      "source": "Goose Docs",
+      "url": "https://goose-docs.ai/",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 27B Giảm Giá — Prompt ↓$0.26, Completion ↓$2.39/M Tokens",
+      "event": "price",
+      "summary": "Qwen3.6 27B giảm giá: prompt $0.29 → $0.26, completion $2.65 → $2.39 per million tokens.",
+      "why": "Qwen rẻ hơn → nếu bạn đang dùng GPT-4o mini cho task đơn giản, migrate sang Qwen3.6 27B giảm 10% cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "openrouter",
+        "price",
+        "qwen"
+      ]
+    }
+  ],
+  "insight": "Tuần này có 2 pattern lớn đáng chú ý:\n\n**Pattern 1: Geopolitics Làm Chậm AI Innovation — Nhưng Tạo Cơ Hội Cho Châu Á**\n\nMythos bị cấm xuất khẩu 2 tuần, GPT-5.6 bị trì hoãn theo yêu cầu Nhà Trắng. Đây không phải tin tức đơn lẻ — đây là tín hiệu Mỹ đang kiểm soát AI frontier models như kiểm soát chip. Implication:\n\n- **Cho founder/business:** Nếu bạn build product dựa vào latest OpenAI/Anthropic model, delay này có thể kéo dài 6-12 tháng. Bạn cần backup plan: hoặc dùng model hiện tại lâu hơn, hoặc diversify sang open-weight models (DeepSeek, Qwen). Startup châu Á đang lấp chỗ trống Mythos — cơ hội cho ai muốn compete với US labs.\n\n- **Cho cá nhân:** Nếu workflow bạn dựa vào 'model mới nhất', chuẩn bị cho việc model không ra đúng hẹn. Học cách optimize prompt với model hiện tại thay vì chờ model mới.\n\n**Pattern 2: Agentic AI Đang Từ Hype Sang Production — Nhưng Chưa Ai Biết Monetize**\n\nTuần này: OpenAI ra Codex CLI, Kiro claim validate correctness, 8 startup vibe coding raise billions. Agent đang hot — nhưng Business Insider report cho thấy: VCs đổ tiền vào infrastructure (Baseten $1.5B), không vào end-user apps. Nghĩa là:\n\n- **Cho manager:** Đừng vội deploy agent vào production workflow. Agent giỏi cho prototype/research, nhưng reliability chưa đủ cho mission-critical task. Test nhỏ trước, scale sau.\n\n- **Cho creative:** Agent coding giờ đủ tốt để prototype nhanh — nhưng vẫn cần review code. Dùng agent để tăng tốc, không phải thay thế thinking.\n\n- **Cho founder:** Nếu bạn build agent product, hỏi thẳng: 'ai trả tiền và vì sao?' Agent productivity gain khó measure → khó bán. Focus vào use case có ROI rõ ràng (vd: giảm support ticket 50%, không phải 'tăng productivity chung chung').\n\n**Long-term thinking (Quy tắc #4 AI Mentor):** Export ban hôm nay → phân mảnh AI ecosystem 1-3 năm sau. Mỹ sẽ có models, Trung Quốc sẽ có models, châu Âu sẽ có models — và chúng không tương thích. Nếu bạn build global product, architect hệ thống để swap models dễ dàng, đừng lock-in 1 vendor.",
+  "sources_count": {
+    "raw": 154,
+    "brave": 47,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 50,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 1
+  }
+}
