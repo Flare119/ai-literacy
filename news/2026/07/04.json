@@ -1,0 +1,307 @@
+{
+  "date": "2026-07-04",
+  "updated_at": "2026-07-04T06:56:54.556141+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Global Startup Funding Đạt Kỷ Lục $510 Tỷ USD Trong H1/2026 — AI Chiếm Áp Đảo",
+    "summary": "Crunchbase báo cáo vốn đầu tư toàn cầu vào startup đạt $510 tỷ USD trong 6 tháng đầu 2026 — cao nhất mọi thời đại, vượt cả tổng số của năm 2025. Gần 88% vốn AI chảy vào startup Mỹ. Tuần này có 2 megadeal lớn: Baseten (AI inference) raise $1.5 tỷ Series F, LinqAlpha (AI investment research) gần đóng $22M Series A.",
+    "why": "Cho founder/đầu tư: Đây là tín hiệu thị trường AI vẫn nóng bất chấp lo ngại bong bóng. Nếu bạn đang build AI startup, timing vẫn tốt để fundraise — nhưng cạnh tranh khốc liệt và investor ngày càng selective về unit economics. 88% vốn về Mỹ nghĩa là startup Việt cần chiến lược khác biệt để thu hút VC (hoặc pivot sang thị trường SEA/khu vực).",
+    "source": "Crunchbase / BEAMSTART",
+    "url": "https://beamstart.com/news/crunchbase-data-global-startup-investment-17829905",
+    "tags": [
+      "funding",
+      "market-data",
+      "startup-ecosystem"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Meta Sắp Ra Muse Spark Mới — Nâng Cấp Khả Năng Coding",
+      "why": "Cho creative/developer: Meta đang chạy đua coding agents với OpenAI (Codex), Anthropic (Claude Code). Nếu công ty bạn đang dùng Llama, đây là tín hiệu có thể sớm có coding agent mạnh mà không phụ thuộc OpenAI/Anthropic.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/03/meta-release-new-ai-model-advanced-coding-capabilities-soon/",
+      "tags": [
+        "meta",
+        "coding",
+        "llama"
+      ]
+    },
+    {
+      "headline": "Northwestern In Ra 'Neuron Nhân Tạo' Giao Tiếp Được Với Não Người",
+      "why": "Cho curious: Đây là bước tiến về brain-computer interface — in 3D artificial neurons có thể giao tiếp với neuron thật. Ứng dụng xa: điều trị Parkinson, tăng cường trí nhớ. Gần hơn: hiểu sâu hơn về cách học của não để thiết kế AI tốt hơn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "neuroscience",
+        "bci"
+      ]
+    },
+    {
+      "headline": "OpenAI Thêm Quản Lý Tài Chính Cá Nhân Vào ChatGPT — iOS, Android, Web",
+      "why": "Cho cá nhân: ChatGPT giờ giúp quản lý ngân sách, theo dõi chi tiêu (chỉ Plus/Pro user Mỹ). Đây là tín hiệu OpenAI mở rộng ra 'AI companion' thay vì chỉ productivity tool — cạnh tranh trực tiếp với fintech apps.",
+      "source": "OpenAI Release Notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "tags": [
+        "chatgpt",
+        "personal-finance",
+        "consumer-ai"
+      ]
+    },
+    {
+      "headline": "Qualcomm Mua Modular ~$4 Tỷ USD — Mở Rộng Ra Ngoài Smartphone Chip",
+      "why": "Cho business: Qualcomm đang pivot từ mobile chip sang AI infrastructure — acquisition này cho họ công cụ optimize AI trên edge devices (laptop, IoT, xe hơi). Implication: AI sẽ chạy nhiều hơn trên device thay vì cloud, giảm cost + latency.",
+      "source": "Crunchbase (reported 2026-06-28)",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/",
+      "tags": [
+        "acquisition",
+        "edge-ai",
+        "qualcomm"
+      ]
+    },
+    {
+      "headline": "Aura 15.0 Ra Mắt — Multi-Agent Cho Unreal Engine & Unity, Claim Tăng 2x Speed",
+      "why": "Cho creative/game dev: Ramen vừa ship v15.0 chỉ 1 tuần sau v14.0 (hỗ trợ Unreal 5.8). Pace phát triển nhanh như vậy nghĩa là AI agents cho game dev đang mature — nếu team bạn làm game, đây là lúc pilot AI vào pipeline level design/scripting.",
+      "source": "Agentic.ai",
+      "url": "https://agentic.ai/news",
+      "tags": [
+        "gamedev",
+        "unreal",
+        "unity",
+        "multi-agent"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google Ra Nano Banana 2 Lite — Tạo Ảnh AI Trong 4 Giây",
+      "summary": "Google vừa launch Nano Banana 2 Lite (image generation siêu nhanh) và Gemini Omni Flash (conversational video editing) — cho developer access ngay qua API. Combo này tạo pipeline image-to-video hoàn chỉnh.",
+      "why": "Cho creative: Nano Banana 2 Lite giúp rapid prototyping visual trong vòng vài giây — phù hợp cho ideation phase. Gemini Omni Flash là conversational video editor (chỉnh sửa bằng text thay vì timeline) — thay đổi cách làm việc với footage. Nếu team bạn dùng nhiều Premiere/DaVinci, thử pilot Omni Flash cho rough cut.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/319416/20260701/google-launches-ai-image-video-tools-4-second-images-conversational-video-editing.htm",
+      "tags": [
+        "google",
+        "image-gen",
+        "video-editing"
+      ]
+    },
+    {
+      "headline": "Adobe Firefly Giờ Cho Chọn Google Veo, Sora, Pika Trong Cùng 1 Workspace",
+      "summary": "Adobe tích hợp multi-model vào Firefly — user có thể chọn Veo/Sora/Pika cho video generation trong cùng 1 project thay vì chuyển qua lại nhiều tool.",
+      "why": "Cho creative: Đây là game-changer về workflow. Trước đây phải export/import giữa các tool riêng biệt, giờ test nhiều model trong 1 chỗ — giảm 50% thời gian handoff. Nếu team đang dùng Creative Cloud, upgrade Firefly để tận dụng multi-model này.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/best-ai-video-generators/",
+      "tags": [
+        "adobe",
+        "firefly",
+        "multi-model",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Krea 2 — Model Hình Ảnh Mới Focus Đa Dạng Thẩm Mỹ & Kiểm Soát Phong Cách",
+      "summary": "Krea vừa ra foundation model mới (build from scratch), tập trung vào aesthetic diversity và style control — hỗ trợ đa ngôn ngữ.",
+      "why": "Cho creative: Krea 2 giải quyết vấn đề 'sameness' của Midjourney/DALL-E — nhiều style đa dạng hơn và control fine-grained hơn. Nếu bạn làm concept art/storyboard cần visual direction rõ ràng, Krea 2 đáng thử.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "image-gen",
+        "style-control",
+        "krea"
+      ]
+    },
+    {
+      "headline": "Seedance 2.0 — ByteDance Nâng Cấp Model Video AI 'Cinematic'",
+      "summary": "ByteDance release Seedance 2.0 với motion synthesis nâng cao, biến image/text thành cinematic video. Chất lượng claim professional-grade.",
+      "why": "Cho creative: ByteDance (TikTok) đang đổ resource vào AI video — Seedance 2.0 cạnh tranh trực tiếp với Sora/Veo. Nếu bạn đang làm short-form content, Seedance có thể cho output 'viral-ready' hơn vì được train trên TikTok aesthetics.",
+      "source": "Seedance 2.0",
+      "url": "https://seedance2.ai/",
+      "tags": [
+        "bytedance",
+        "video-gen",
+        "cinematic"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT Q&A: Agentic AI Thành Công Nhất Hiện Nay Là Coding Agents",
+      "summary": "MIT phỏng vấn chuyên gia về agentic AI. Kết luận: coding agents đã thành công nhất vì được train trên code (có thể predict hành động), các lĩnh vực khác (sales, customer support) vẫn struggle vì khó đo lường 'đúng/sai'.",
+      "why": "Cho manager/curious: Nếu bạn đang cân nhắc deploy AI agents, ưu tiên coding/dev workflows trước — đây là nơi ROI rõ nhất. Các lĩnh vực khác (customer-facing) vẫn cần human-in-the-loop nhiều.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+      "tags": [
+        "agentic-ai",
+        "coding",
+        "mit"
+      ]
+    },
+    {
+      "headline": "Gemma 3n — Google Ra Model Native Multilingual + Multimodal (Text/Image/Video/Audio)",
+      "summary": "Google release Gemma 3n — model natively hỗ trợ đa ngôn ngữ và multimodal (text, image, video, audio) từ đầu (không phải fine-tune sau).",
+      "why": "Cho curious/developer: Gemma 3n là model mở (có thể self-host) với khả năng multimodal — phù hợp cho startup/cá nhân muốn build app multimodal mà không phụ thuộc GPT-4V/Gemini đắt đỏ. Đa ngôn ngữ native nghĩa là chất lượng tiếng Việt có thể tốt hơn.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "gemma",
+        "multimodal",
+        "multilingual",
+        "opensource"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Baseten Raise $1.5 Tỷ USD Series F — AI Inference Startup Lớn Nhất Tuần",
+      "summary": "Baseten (AI inference infrastructure) đóng $1.5B Series F, trở thành megadeal lớn nhất tuần. Công ty này cung cấp inference layer cho các model lớn, cạnh tranh với Replicate/RunPod.",
+      "why": "Cho business/founder: Infrastructure AI đang thu hút vốn khủng vì đây là 'picks and shovels' — dù model nào thắng, infra vẫn cần thiết. Nếu bạn đang build AI product, cân nhắc vendor lock-in: dùng Baseten/Replicate có thể rẻ hơn OpenAI API ngắn hạn nhưng rủi ro dependency dài hạn.",
+      "source": "Crunchbase",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "baseten"
+      ]
+    },
+    {
+      "headline": "LinqAlpha (AI Investment Research) Gần Đóng $22M Series A",
+      "summary": "LinqAlpha, công ty AI cho investment research (founder cựu analyst Goldman Sachs), sắp đóng $22M Series A theo Bloomberg.",
+      "why": "Cho business/đầu tư: AI đang thâm nhập vào mảng tài chính chuyên nghiệp (investment research) — lĩnh vực trước đây rất khó automation. Nếu bạn làm fintech/venture capital, đây là tín hiệu AI có thể thay thế analyst junior trong 2-3 năm tới.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/former-goldman-analyst-s-ai-startup-is-said-to-raise-22-million",
+      "tags": [
+        "funding",
+        "fintech",
+        "investment-research"
+      ]
+    },
+    {
+      "headline": "88% Vốn AI Toàn Cầu Chảy Vào Startup Mỹ — Thị Trường Tập Trung Cực Cao",
+      "summary": "Crunchbase data: gần 88% vốn AI năm 2026 đổ vào startup Mỹ, hơn 80% tổng vốn startup toàn cầu cũng về Mỹ. Megadeals vẫn chiếm đa số.",
+      "why": "Cho founder Việt: Thị trường VC AI cực kỳ tập trung — nếu bạn ở ngoài Mỹ/Trung Quốc, khó raise vốn lớn. Chiến lược: (1) bootstrap + revenue-first, (2) target SEA/emerging markets VC thay vì US tier-1, hoặc (3) relocate founder sang Mỹ để access capital.",
+      "source": "Mean CEO Blog",
+      "url": "https://blog.mean.ceo/ai-startup-funding-news-july-2026/",
+      "tags": [
+        "funding",
+        "market-data",
+        "vietnam"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Hàn Quốc Thử Nghiệm AI Tái Tạo Video Người Đã Khuất — Tranh Cãi Đạo Đức",
+      "summary": "Nhiều startup Hàn Quốc đang cung cấp dịch vụ tái tạo video người thân đã mất bằng AI. AP News và Guardian đồng loạt đưa tin về vấn đề đạo đức: có nên để AI 'sống lại' người đã khuất không?",
+      "why": "Cho curious/cá nhân: Đây là case điển hình về AI × grief/emotion — công nghệ có thể làm được nhưng xã hội chưa có consensus đạo đức. Nếu bạn build AI consumer product, cần suy nghĩ trước về ethical boundary — khả năng kỹ thuật không đồng nghĩa nên làm.",
+      "source": "AP News / The Guardian",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "tags": [
+        "ethics",
+        "grief-tech",
+        "south-korea"
+      ]
+    },
+    {
+      "headline": "Chuyên Gia Cảnh Báo: AI Clone Giọng Nói Từ Clips Ngắn — Luật UK Chưa Kịp Bảo Vệ",
+      "summary": "BBC đưa tin chuyên gia cảnh báo AI giờ có thể clone giọng nói từ vài giây audio. Luật pháp UK (và hầu hết quốc gia) chưa kịp bảo vệ người bị deepfake voice.",
+      "why": "Cho cá nhân/manager: Đây là rủi ro bảo mật thực tế — scammer có thể clone giọng CEO/sếp để lừa đảo nhân viên chuyển tiền. Biện pháp: (1) verification protocol cho mọi request tài chính qua điện thoại, (2) training nhân viên về deepfake awareness.",
+      "source": "BBC (reported 2026-06-27)",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "tags": [
+        "deepfake",
+        "voice-cloning",
+        "security"
+      ]
+    },
+    {
+      "headline": "'I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination'",
+      "summary": "Bài opinion piece trên HN: giảng viên bị cấm dùng ChatGPT trong chalk talk (buổi thuyết trình học thuật), cho rằng đây là discrimination với người dùng AI như assistive tool.",
+      "why": "Cho curious/manager: Tranh luận mới nổi: dùng AI có phải là 'cheating' không, hay giống như dùng calculator? Nếu tổ chức bạn cấm AI trong thi/thuyết trình, cần policy rõ ràng — bởi ranh giới giữa 'assistive' và 'replacement' rất mờ.",
+      "source": "Hacker News",
+      "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
+      "tags": [
+        "ethics",
+        "education",
+        "policy"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Phương Pháp Phát Triển Phần Mềm Thực Tế",
+      "why": "Cho developer: Repo này là framework để build AI agents có 'skills' tái sử dụng — pattern giống plugins. 245k stars nghĩa là đang viral, đáng theo dõi nếu bạn đang làm agentic systems.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "245513"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — Agent Học Và Phát Triển Cùng Bạn",
+      "why": "Cho developer: Nous Research (open-source AI lab nổi tiếng) ra agent có khả năng 'self-improvement' — học từ feedback user. 208k stars, đây là direction mới: agent không chỉ execute mà còn evolve.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "208686"
+    },
+    {
+      "headline": "n8n-io/n8n — Workflow Automation Platform Với AI Native, Self-Host Hoặc Cloud",
+      "why": "Cho cá nhân/team nhỏ: n8n là alternative mã nguồn mở cho Zapier, giờ có AI capabilities tích hợp sẵn. 195k stars. Nếu team bạn cần automation nhưng lo privacy, n8n self-host là lựa chọn tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "195069"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Platform Cho Agentic Workflow",
+      "why": "Cho developer/founder: Dify là low-code platform để build agentic workflows production-ready. 147k stars. Nếu bạn muốn deploy agents nhanh mà không code from scratch, Dify đáng thử.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "147559"
+    },
+    {
+      "headline": "open-webui/open-webui — UI Thân Thiện Cho Ollama, OpenAI API, Self-Host AI",
+      "why": "Cho cá nhân: Open WebUI là frontend mã nguồn mở để chạy LLMs local (Ollama) hoặc kết nối OpenAI API. 144k stars. Nếu bạn muốn ChatGPT-like interface nhưng self-host, đây là top choice.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "144078"
+    },
+    {
+      "headline": "firecrawl/firecrawl — API Scrape, Search, Tương Tác Web Quy Mô Lớn",
+      "why": "Cho developer: Firecrawl là scraping/crawling tool scale — phục vụ AI training data pipelines. 143k stars. Nếu bạn đang build RAG system cần crawl web, Firecrawl giải quyết anti-bot/rate-limiting.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "143699"
+    },
+    {
+      "headline": "openclaw/openclaw — AI Assistant Cá Nhân, Bất Kỳ OS/Platform Nào",
+      "why": "Cho cá nhân: Open Claw là cross-platform personal AI assistant (Windows/Mac/Linux). 381k stars — đang viral mạnh. Nếu bạn muốn AI assistant không phụ thuộc Apple/Google, đây là option.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "381600"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.1 — Giảm Giá Completion Token 29%",
+      "event": "price",
+      "summary": "GLM 5.1 (model Trung Quốc từ Z.ai) giảm completion token từ $4.30 → $3.04/M tokens trên OpenRouter.",
+      "why": "Nếu bạn dùng OpenRouter và cần model rẻ cho coding (GLM 5.1 đánh bại Claude trên Semgrep benchmark theo claim), đây là lúc migrate để save cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "glm"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 171,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 1
+  }
+}
