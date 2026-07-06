@@ -1,192 +1,184 @@
 {
-  "date": "2026-07-05",
-  "updated_at": "2026-07-05T06:53:11.639286+07:00",
-  "weekday": "Sunday",
+  "date": "2026-07-06",
+  "updated_at": "2026-07-06T06:57:43.545444+07:00",
+  "weekday": "Monday",
   "top_story": {
-    "headline": "Northwestern In Ra 'Neuron Nhân Tạo' Giao Tiếp Trực Tiếp Với Não Người",
-    "summary": "Kỹ sư Northwestern University đã in ra neuron nhân tạo có khả năng giao tiếp thật sự với neuron thật trong não người — một bước tiến đột phá trong việc kết nối máy móc với não bộ. Đây là lần đầu tiên neuron nhân tạo có thể tương tác hai chiều với mô não thật.",
-    "why": "Cho cá nhân: nếu bạn hoặc người thân có vấn đề thần kinh (Parkinson, liệt, mất trí nhớ), công nghệ này mở khả năng điều trị mới trong 5-10 năm tới. Cho curious: đây là minh chứng AI không chỉ software — hardware AI đang tiến vào y học sâu hơn nhiều người nghĩ.",
-    "source": "ScienceDaily",
-    "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+    "headline": "Global Startup Funding Đạt Kỷ Lục $510 Tỷ USD Trong H1/2026 — AI Chiếm >70%",
+    "summary": "Venture funding toàn cầu H1/2026 đạt $510 tỷ USD, vượt tổng năm 2025 và trở thành 6 tháng lớn nhất lịch sử. Hơn 70% vốn Q2/2026 đổ vào AI (tăng từ ~50% năm trước). Chỉ riêng OpenAI và Anthropic đã chiếm 43% tổng vốn H1.",
+    "why": "Cho founder/đầu tư: Đây là tín hiệu bong bóng AI đang đỉnh điểm — exit window đang mở nhưng cũng là lúc rủi ro cao nhất. Nếu bạn đang raise, đây là timing tốt nhưng phải có fundamentals vững (burn rate hợp lý, path to profitability rõ) vì khi bong bóng vỡ, những công ty chỉ có hype sẽ chết trước. Nếu bạn chưa raise, đừng FOMO — focus deliver value thực thay vì đuổi theo valuation ảo.",
+    "source": "Crunchbase via BEAMSTART",
+    "url": "https://beamstart.com/news/crunchbase-data-global-startup-investment-17829905",
     "tags": [
-      "biotech",
-      "neuroscience",
-      "hardware",
-      "medical-ai"
+      "funding",
+      "venture-capital",
+      "AI-bubble",
+      "market-signal"
     ]
   },
   "quick_hits": [
     {
-      "headline": "OpenClaw — AI Assistant 'Lobster Way' Lên 381K Sao GitHub Trong 1 Tuần",
-      "why": "Cho cá nhân: cross-platform AI assistant chạy mọi OS — alternative Siri/Alexa nhưng tự host, tự kiểm soát dữ liệu. TypeScript nên dev có thể tự customize.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/openclaw/openclaw",
+      "headline": "Northwestern In Ra 'Neuron Nhân Tạo' Giao Tiếp Trực Tiếp Với Não Người",
+      "why": "Cho curious: Đây là bước tiến thực trong brain-computer interface, không phải khoa học viễn tưởng — ngụ ý tương lai AI có thể đọc/ghi tín hiệu não trực tiếp. Quan trọng theo dõi vì ảnh hưởng đến privacy/consent/neuroethics dài hạn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "tags": [
-        "opensource",
-        "assistant",
-        "privacy"
+        "neuroscience",
+        "BCI",
+        "research"
       ]
     },
     {
-      "headline": "n8n (Workflow Automation Platform) Cán Mốc 195K Sao — Self-Host Alternative Zapier",
-      "why": "Cho manager: team không cần trả phí Zapier/Make nữa — tự deploy n8n cho internal automation. Native AI capabilities giúp kết nối LLM vào workflow dễ dàng.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/n8n-io/n8n",
+      "headline": "Apple Ra Siri AI — Assistant Cá Nhân Hóa Thế Hệ Mới, Developer Testing Từ Hôm Nay",
+      "why": "Cho cá nhân + manager: Nếu team bạn dùng Apple ecosystem, Siri AI mới sẽ thay đổi cách làm việc (shortcuts tự động, context-aware commands). Developer testing bắt đầu hôm nay có nghĩa integration vào workflow thực trong 3-6 tháng — đây là timing chuẩn bị SOP mới.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
       "tags": [
+        "Apple",
+        "Siri",
+        "productivity",
+        "iOS27"
+      ]
+    },
+    {
+      "headline": "Cursor Ra Agent Mode — AI Code, Test, Demo Features End-to-End Trên Máy Riêng",
+      "why": "Cho creative/developer: Cursor agent giờ chạy build-test-demo loop hoàn toàn tự động trên máy bạn — tức junior dev role đang bị thay thế theo thời gian thực. Nếu bạn là senior, đây là lúc pivot sang architect/reviewer. Nếu bạn là junior, reskill ngay sang debugging/system design thay vì chỉ viết code.",
+      "source": "Cursor",
+      "url": "https://cursor.com/",
+      "tags": [
+        "coding-agent",
         "automation",
-        "self-hosted",
+        "career-shift"
+      ]
+    },
+    {
+      "headline": "Kiro — AI Coding Agent Validate Correctness, Tìm Bug Mà Unit Test Bỏ Qua",
+      "why": "Cho developer: Kiro không chỉ gen code mà còn verify correctness — nghĩa là giảm technical debt từ đầu. Nếu team bạn đang struggle với legacy bugs, đây là tool đáng thử để giảm firefighting và tăng velocity dài hạn.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "testing",
+        "quality-assurance",
+        "AI-agent"
+      ]
+    },
+    {
+      "headline": "Gemini Omni — Tạo & Edit Video Bằng Hội Thoại, Hỗ Trợ Image-to-Video & Video-to-Video",
+      "why": "Cho creative: Google giờ cho phép conversational video editing — tức không cần thuật ngữ kỹ thuật, chỉ nói 'thêm chuyển cảnh smooth hơn' và AI hiểu. Điều này giảm learning curve cho non-editor vào production workflow, nhưng cũng đồng nghĩa editor entry-level role đang bị nén.",
+      "source": "Gemini",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "video-generation",
+        "creative-tools",
         "workflow"
       ]
     },
     {
-      "headline": "Hàn Quốc Thử Nghiệm AI Tái Tạo Video Người Đã Khuất — Dấy Lên Vấn Đề Đạo Đức",
-      "why": "Cho curious: AI có thể recreate hình ảnh/giọng nói người quá cố từ ảnh/video cũ — nhiều gia đình Hàn Quốc đang dùng để 'nói chuyện' với người thân. Nhưng: ranh giới đạo đức rất mỏng giữa an ủi và khai thác cảm xúc.",
-      "source": "AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
-      "tags": [
-        "ethics",
-        "deepfake",
-        "society"
-      ]
-    },
-    {
-      "headline": "Chuyên Gia Cảnh Báo AI Nhân Bản Giọng Nói Từ Clip Ngắn — Rủi Ro Lừa Đảo Cao",
-      "why": "Cho cá nhân: nếu bạn post video lên mạng, scammer có thể clone giọng từ đoạn 10-30 giây. Bảo vệ bản thân: đặt mật khẩu/an ninh 2 lớp cho tài khoản tài chính, cảnh báo gia đình về voice phishing mới.",
-      "source": "AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
-      "tags": [
-        "security",
-        "deepfake",
-        "scam"
-      ]
-    },
-    {
       "headline": "Zoom Mua Startup Seattle Common Room — Tăng Cường AI Sales Tools",
-      "why": "Cho manager: Zoom đang chuyển từ video conferencing sang AI-powered sales platform. Nếu team bạn dùng Zoom + CRM riêng, có thể tích hợp native sớm hơn nghĩ.",
+      "why": "Cho manager: Zoom đang pivot từ meeting platform sang AI sales intelligence — Common Room track buying signals qua community interactions. Nếu team sales của bạn dùng Zoom, prepare cho upsell wave các AI sales features mới (và đánh giá xem có cần thiết hay chỉ là bloat).",
       "source": "GeekWire",
       "url": "https://www.geekwire.com/2026/zoom-snaps-up-seattle-startup-common-room-to-bolster-ai-powered-sales-tools/",
       "tags": [
-        "acquisition",
-        "sales",
-        "enterprise"
+        "M&A",
+        "sales-tools",
+        "Zoom"
       ]
     },
     {
-      "headline": "MSI Center Có Lỗ Hổng Cho Phép Chiếm SYSTEM Privileges Trong Vài Giây",
-      "why": "Cho cá nhân: nếu dùng laptop MSI, update MSI Center ngay. Lỗ hổng này cho phép attacker lên quyền admin full máy — rủi ro mất dữ liệu/bị cài malware cao.",
-      "source": "Hacker News",
-      "url": "https://mrbruh.com/msicenter/",
+      "headline": "FPT Hợp Tác NVIDIA Đầu Tư ~$200M Xây Nhà Máy AI — Cung Cấp Hạ Tầng Tính Toán & 20+ Sản Phẩm AI Tạo Sinh",
+      "why": "Cho founder/business VN: Đây là tín hiệu FPT đang build local AI infrastructure — nếu bạn cần GPU compute ở VN mà không muốn dùng AWS/GCP (vì latency hoặc compliance), theo dõi FPT AI Factory launch. Cơ hội partnerships với local AI infra thay vì chỉ phụ thuộc US cloud.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/khoa-hoc-cong-nghe-truoc-yeu-cau-tao-san-pham-va-gia-tri-tang-truong",
       "tags": [
-        "security",
-        "vulnerability"
-      ]
-    },
-    {
-      "headline": "CO₂ Trong Phòng Có Thể Là Bottleneck Ra Quyết Định Tồi",
-      "why": "Cho manager: phòng họp kín, nhiều người, 1-2 giờ → CO₂ tăng → nhận thức giảm 15-50%. Nếu team bạn ra quyết định quan trọng, mở cửa sổ hoặc họp ngoài trời — không phải trò đùa.",
-      "source": "Hacker News",
-      "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-      "tags": [
-        "productivity",
-        "health",
-        "decision-making"
+        "Vietnam",
+        "infrastructure",
+        "FPT",
+        "NVIDIA"
       ]
     }
   ],
   "production": [
     {
       "headline": "Google Ra Nano Banana 2 Lite — Tạo Ảnh AI Trong 4 Giây",
-      "summary": "Google phát hành Nano Banana 2 Lite, model tạo ảnh AI với tốc độ 4 giây/ảnh. Kết hợp với Gemini Omni Flash cho pipeline image-to-video hoàn chỉnh.",
-      "why": "Cho creative: prototype storyboard/concept art nhanh gấp 10 lần. Gemini Omni Flash + Nano Banana 2 Lite = workflow từ ý tưởng → hình ảnh → video trong cùng 1 hệ sinh thái Google.",
+      "summary": "Google phát hành Nano Banana 2 Lite, model image generation tạo ảnh AI chất lượng cao trong 4 giây — tốc độ đủ nhanh cho real-time creative workflow.",
+      "why": "Cho creative/producer: 4 giây nghĩa là có thể iterate concepts trong meeting — không cần chờ render overnight. Điều này thay đổi creative process từ 'plan → execute' sang 'improvise → refine live'. Nếu team bạn vẫn dùng workflow cũ (brief → design → feedback → revise), đây là timing rethink process.",
       "source": "Tech Times",
       "url": "https://www.techtimes.com/articles/319416/20260701/google-launches-ai-image-video-tools-4-second-images-conversational-video-editing.htm",
       "tags": [
         "image-generation",
-        "google",
-        "production"
+        "speed",
+        "workflow"
       ]
     },
     {
-      "headline": "Gemini Omni Flash — Chỉnh Sửa Video Bằng Hội Thoại, Image-to-Video & Video-to-Video",
-      "summary": "Google ra mắt Gemini Omni Flash trong API public preview — model multimodal cho phép chỉnh sửa video bằng ngôn ngữ tự nhiên, hỗ trợ image-to-video và video-to-video. Đây là lần đầu tiên enterprise/developer có thể build custom video workflows động.",
-      "why": "Cho creative: thay vì edit video thủ công, bạn có thể prompt 'thay background thành bãi biển' hoặc 'làm chậm 50% từ giây 10-15'. Giảm thời gian post-production đáng kể.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "tags": [
-        "video-editing",
-        "multimodal",
-        "google"
-      ]
-    },
-    {
-      "headline": "Krea 2 Ra Mắt — Foundation Image Model Tập Trung Đa Dạng Thẩm Mỹ & Kiểm Soát Phong Cách",
-      "summary": "Krea 2 là foundation model ảnh đầu tiên của Krea xây từ đầu, focus vào aesthetic diversity và style control. Cho phép user viết prompt bằng bất kỳ ngôn ngữ nào.",
-      "why": "Cho creative: nếu bạn cần kiểm soát phong cách chặt chẽ (branding, art direction), Krea 2 cho độ kiểm soát cao hơn Midjourney/DALL-E. Multilingual prompt = dễ dùng cho team Việt.",
-      "source": "Krea.ai",
+      "headline": "Krea 2 — Foundation Image Model Mới Focus Aesthetic Diversity & Style Control",
+      "summary": "Krea 2 là foundation model được build from scratch, tập trung vào aesthetic diversity và style control — cho phép visual direction rõ ràng hơn thay vì random output.",
+      "why": "Cho creative: Model này solve pain point lớn nhất của gen AI images — 'không control được style nhất quán'. Nếu bạn đang struggle với brand consistency khi dùng AI, Krea 2 đáng thử vì built-in style lock thay vì phải lucky prompt.",
+      "source": "Krea",
       "url": "https://www.krea.ai/",
       "tags": [
         "image-generation",
         "style-control",
-        "multilingual"
+        "branding"
       ]
     },
     {
-      "headline": "Seedance 2.5 Nâng Cấp — ByteDance Model Video AI 'Cinematic'",
-      "summary": "ByteDance nâng cấp Seedance lên 2.5 với motion synthesis nâng cao và chất lượng cinematic. Transform text/image thành video chuyên nghiệp.",
-      "why": "Cho creative: alternative Sora/Veo từ Trung Quốc — nếu bạn cần cinematic motion (camera movement, depth, lighting), Seedance 2.5 có thể rẻ hơn và nhanh hơn.",
-      "source": "Seedance 2.0",
-      "url": "https://seedance2.ai/",
+      "headline": "Adobe Firefly Giờ Cho Chọn Google Veo, Sora, Pika Trong Cùng 1 Workspace",
+      "summary": "Adobe Firefly tích hợp đa model (Veo, Sora, Pika) vào cùng workspace, cho phép creative team so sánh output từ nhiều engine mà không cần switch app.",
+      "why": "Cho producer: Đây là game-changer về workflow — thay vì export từ tool này sang tool kia, giờ test A/B ngay trong Firefly. Giảm 50% thời gian handoff giữa design và motion team. Nhưng cũng lock-in vào Adobe ecosystem — cân nhắc vendor dependency.",
+      "source": "Context từ 2026-07-04",
+      "url": "",
       "tags": [
-        "video-generation",
-        "bytedance",
-        "cinematic"
+        "Adobe",
+        "integration",
+        "workflow"
       ]
     }
   ],
-  "vietnam": [],
+  "vietnam": [
+    {
+      "headline": "Viettel, VNPT, VinAI, Zalo Tiếp Tục Phát Triển Large-Scale Vietnamese Language Models",
+      "why": "Cho founder/business VN: Các đại gia VN đang race local LLM — nếu bạn build sản phẩm tiếng Việt, đây là cơ hội partnerships với model có cultural context thay vì chỉ dùng GPT translate. Theo dõi public API releases để integrate vào product mà không bị phụ thuộc OpenAI/Anthropic.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/khoa-hoc-cong-nghe-truoc-yeu-cau-tao-san-pham-va-gia-tri-tang-truong"
+    },
+    {
+      "headline": "Nghị Quyết 57/NQ-TW Thúc Đẩy Hệ Sinh Thái AI 'Make in Vietnam'",
+      "why": "Cho founder VN: Government backing cho AI ecosystem có nghĩa funding/tax incentives sắp tới — nếu bạn đang build AI startup VN, prepare cho grant applications và theo dõi policy implementation timeline. Nhưng cẩn thận compliance requirements kèm theo.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/tu-nghi-quyet-57-nq-tw-den-hinh-thanh-he-sinh-thai-ai-make-in-vietnam"
+    }
+  ],
   "research": [
     {
-      "headline": "MIT Ra Murakkab — Hệ Thống Tối Ưu Multistep AI Workflows",
-      "summary": "MIT phát triển Murakkab, hệ thống tối ưu hóa workflow AI nhiều bước (multistep). Thay vì gọi LLM nhiều lần riêng lẻ, Murakkab tối ưu toàn bộ pipeline để giảm cost và tăng accuracy.",
-      "why": "Cho manager: nếu team bạn đang xây AI workflow phức tạp (vd: research → summarize → translate → fact-check), Murakkab approach giúp giảm API cost 30-50% và tăng độ nhất quán kết quả.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "headline": "AI Tutor Đạt 0.71-1.30 SD Effect Size Trong Khóa Học Dartmouth",
+      "summary": "Nghiên cứu mới cho thấy AI tutor đạt effect size 0.71-1.30 standard deviations trong môn học tại Dartmouth — tương đương với improvement từ học sinh trung bình lên top 25-10%.",
+      "why": "Vì đây là proof cứng nhất đến nay về AI tutoring hiệu quả — không phải hype mà là peer-reviewed data. Nếu bạn làm education/training, đây là benchmark để so sánh ROI của AI tutoring vs human instructor. Effect size >0.5 là 'large' trong educational research, 1.3 là exceptional.",
+      "source": "Hacker News",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
       "tags": [
-        "optimization",
-        "workflow",
-        "cost-reduction"
+        "education",
+        "tutoring",
+        "research"
       ]
     },
     {
       "headline": "Gemma 3n — Google Ra Model Native Multilingual + Multimodal (Text/Image/Video/Audio)",
-      "summary": "Google phát hành Gemma 3n, model natively multilingual và multimodal xử lý text, image, video, audio. NVIDIA-accelerated, mở rộng Gemma family với khả năng đa phương thức.",
-      "why": "Cho developer: nếu bạn build app đa ngôn ngữ + đa media (vd: chatbot Việt hiểu cả hình ảnh/video), Gemma 3n là open model đầu tiên hỗ trợ native — không cần chain nhiều model.",
+      "summary": "Google phát hành Gemma 3n, model nhỏ gọn nhưng natively multilingual và multimodal (text/image/video/audio) — không cần separate pipeline cho mỗi modality.",
+      "why": "Vì model nhỏ mà multimodal native có nghĩa edge deployment khả thi hơn — không cần cloud round-trip cho mọi request. Nếu bạn build mobile/IoT app cần xử lý đa dạng input, Gemma 3n đáng thử vì có thể chạy on-device mà vẫn giữ accuracy.",
       "source": "NVIDIA Developer",
       "url": "https://developer.nvidia.com/ai-models",
       "tags": [
         "multimodal",
-        "multilingual",
-        "google"
+        "edge-AI",
+        "Gemma"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Baseten Raise $1.5 Tỷ USD Series F — AI Inference Startup Lớn Nhất Tuần",
-      "summary": "Baseten, startup cung cấp AI inference technology, huy động $1.5 tỷ USD Series F — vòng gọi vốn lớn nhất tuần, chiếm phần lớn trong Top 10 megadeals.",
-      "why": "Cho founder: inference là cơ sở hạ tầng — Baseten đang cạnh tranh với AWS/GCP/Azure. Nếu bạn build AI product cần scale, theo dõi Baseten pricing vs hyperscalers để tối ưu cost.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/",
-      "tags": [
-        "funding",
-        "infrastructure",
-        "inference"
-      ]
-    },
-    {
-      "headline": "AI Startup Funding 7 Ngày Qua: $282.8M Across 5 Rounds — X Square Robot Định Giá $2.94B",
-      "summary": "Tuần này có 7 vòng gọi vốn AI startup, tổng $282.8M (5 rounds công khai, 2 undisclosed). Highlights: X Square Robot (spatial AI cho gia dụng) định giá $2.94B, EquiLibre (Series A) định giá $500M+.",
-      "why": "Cho founder: spatial AI (AR/VR/robotics trong nhà) đang hot — X Square Robot $2.94B valuation cho thấy investor tin vào consumer robotics. Nếu bạn làm hardware AI, đây là sector đáng theo dõi.",
+      "headline": "7 Funding Rounds Tuần Này — $282.8M Disclosed, 2 Undisclosed (EquiLibre Series A, X Square Robot Series C)",
+      "summary": "Tuần này có 7 rounds funding AI startups: $282.8M disclosed qua 5 rounds, 2 undisclosed. Valuation nổi bật: X Square Robot $2.94B, EquiLibre $500M+. Sectors: spatial AI for home robotics.",
+      "why": "Cho founder: Spatial AI/robotics đang hot nhưng valuation $2.94B cho X Square Robot là warning sign về bong bóng — so với traction thực tế, đây có thể là overpriced. Nếu bạn raise trong sector này, đừng anchor vào comps như vậy vì có thể là outlier do FOMO investors.",
       "source": "Yutori Scouts",
       "url": "https://scouts.yutori.com/inbox/68f22e10-d5fe-4e94-b1c8-9c6218cfdb2c",
       "tags": [
@@ -194,144 +186,107 @@
         "robotics",
         "valuation"
       ]
+    },
+    {
+      "headline": "Microsoft 365 Copilot Updates Jun 17 - Jul 1, 2026 — Enable Rollout Qua Safe Deployment",
+      "summary": "Microsoft Copilot features đang rollout gradual qua safe deployment model — subset users trong tenant trước khi expand toàn tổ chức.",
+      "why": "Cho manager: Nếu team bạn dùng M365, features mới sẽ không đến hết mọi người cùng lúc — có thể gây confusion khi 1 nửa team có tính năng, 1 nửa không. Chuẩn bị communication plan để manage expectation và training khi features land.",
+      "source": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+      "tags": [
+        "Microsoft",
+        "enterprise",
+        "rollout"
+      ]
     }
   ],
   "society": [
     {
-      "headline": "Tòa Án Nhật Bản Phán Quyết AI Không Thể Là Nhà Phát Minh Trên Bằng Sáng Chế",
-      "summary": "Tòa án Nhật Bản phán quyết AI không được công nhận là 'inventor' trên patent. Chỉ con người mới có quyền sở hữu trí tuệ theo luật hiện hành.",
-      "why": "Cho founder/manager: nếu team bạn dùng AI tạo invention, phải list người làm inventor, không phải AI. Implication dài hạn: nếu AI tạo 90% nhưng luật không công nhận, ai sở hữu IP? Đây là tranh cãi chưa giải quyết.",
-      "source": "AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
-      "tags": [
-        "legal",
-        "IP",
-        "patent"
-      ]
-    },
-    {
-      "headline": "Tây Ban Nha Cấm Palantir Khỏi Công Ty Công Và Tư — Lo Ngại Giám Sát Dữ liệu",
-      "summary": "Chính phủ Tây Ban Nha ra lệnh cấm Palantir (công ty phân tích dữ liệu/AI surveillance Mỹ) khỏi hợp đồng công và tư, lo ngại về quyền riêng tư và giám sát quá mức.",
-      "why": "Cho manager: nếu công ty bạn dùng hoặc cân nhắc Palantir, EU đang tightening regulation. Risk: vendor lock-in + compliance risk khi mở rộng sang EU. Cân nhắc alternative Châu Âu hoặc open-source.",
-      "source": "AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
+      "headline": "OpenAI Hoãn GPT-5.6 Công Khai Theo Yêu Cầu Nhà Trắng — Chỉ 'Trusted Partners' Được Dùng",
+      "summary": "OpenAI trì hoãn public release GPT-5.6 theo yêu cầu của Nhà Trắng, chỉ cho 'trusted partners' early access — đây là precedent mới về government control lên AI deployment.",
+      "why": "Vì đây là lần đầu US government can thiệp trực tiếp vào timeline release model AI — set precedent về national security review trước khi frontier models ra public. Nếu bạn build trên OpenAI API, prepare cho khả năng access gated/delayed trong tương lai khi models mạnh hơn. Diversify dependencies sang providers khác (Anthropic, Google) để hedge risk.",
+      "source": "Releasebot",
+      "url": "https://releasebot.io/updates/openai",
       "tags": [
         "regulation",
-        "privacy",
-        "surveillance"
+        "national-security",
+        "precedent"
       ]
     },
     {
-      "headline": "Trung Quốc Thử Nghiệm AI Dự Đoán Ai Có Thể Gây Rủi Ro Chính Trị — Giám Sát Tiên Đoán",
-      "summary": "New York Times đưa tin Trung Quốc nghiên cứu công nghệ AI dự đoán ai có thể gây rủi ro chính trị dựa trên hành vi/dữ liệu cá nhân. Một công ty Trung Quốc đang struggle phát triển predictive surveillance tech.",
-      "why": "Cho curious: đây là 'Minority Report' ngoài đời thực — AI dự đoán tội phạm/rủi ro trước khi xảy ra. Vấn đề đạo đức: false positive, bias, quyền riêng tư. Nếu bạn làm AI, hỏi 'công nghệ này có thể bị lạm dụng như thế nào?'",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "headline": "Anthropic Ra Claude Sonnet 5 — Frontier Performance Trên Coding, Agents",
+      "summary": "Anthropic phát hành Claude Sonnet 5, claim 'best model in the world for agents, coding, and computer use' — enhanced domain knowledge trong coding, finance, cybersecurity.",
+      "why": "Vì nếu claim về coding performance đúng, đây là timing xem xét migrate từ GPT-4 sang Claude cho dev workflows — đặc biệt nếu bạn build agents hoặc automation tools. Test benchmark internal của bạn trước khi switch toàn bộ infra, nhưng Sonnet 5 đáng A/B test.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude/sonnet",
       "tags": [
-        "surveillance",
-        "ethics",
-        "china"
-      ]
-    },
-    {
-      "headline": "Guardian: AI Dùng Cho Tư Vấn Sức Khỏe Tương Quan Với Tin Vaccine Sai Lệch",
-      "summary": "The Guardian công bố nghiên cứu: người dùng AI tools cho health advice có xu hướng tin vaccine falsehoods cao hơn (vd: vaccine gây tự kỷ). AI chatbot không kiểm chứng y khoa đang lan truyền misinformation.",
-      "why": "Cho cá nhân: KHÔNG tin AI chatbot về vấn đề y tế nghiêm trọng. Luôn verify với bác sĩ. Cho manager: nếu công ty bạn build health AI, trách nhiệm fact-checking/medical review cực kỳ cao — cost of getting wrong >> short-term gain.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
-      "tags": [
-        "misinformation",
-        "health",
-        "ethics"
+        "Claude",
+        "coding",
+        "agents"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "Superpowers — Agentic Skills Framework Mới Từ Obra (246K ⭐)",
-      "summary": "Obra (known developer) phát hành Superpowers, framework cho agentic skills và software development methodology. Shell-based, focus vào agent workflow thực tế hoạt động.",
-      "why": "Cho developer: nếu bạn build AI agent, Superpowers là methodology/framework giúp agent không chỉ chạy mà chạy đúng. 246K sao trong thời gian ngắn = community tin tưởng.",
+      "headline": "OpenClaw — AI Assistant 'Lobster Way' Lên 381K Sao GitHub Trong 1 Tuần",
+      "why": "381K sao trong 1 tuần là viral ngoài lề — có thể là bot/manipulation hoặc meme hype. Nếu bạn cân nhắc dùng, đọc code trước vì sudden spike như này thường kèm red flags về quality hoặc security. Track issues/PRs để xem community thực sự active hay chỉ drive-by stars.",
       "source": "GitHub Trending",
-      "url": "https://github.com/obra/superpowers",
-      "tags": [
-        "framework",
-        "agents",
-        "methodology"
-      ]
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "381832"
     },
     {
-      "headline": "Hermes Agent — 'Agent That Grows With You' Từ NousResearch (209K ⭐)",
-      "summary": "NousResearch (team làm Hermes models) ra Hermes Agent, agent học và phát triển cùng user. Python-based, open-source.",
-      "why": "Cho developer: Hermes Agent khác với agent one-shot — nó nhớ context dài hạn, học từ interaction. Nếu bạn cần agent cho use case cần personalization (vd: coding assistant riêng), đây là starting point tốt.",
+      "headline": "n8n Cán 195K Sao — Self-Host Alternative Zapier Với Native AI Capabilities",
+      "why": "n8n đang thắng trong workflow automation vì self-host option — nếu team bạn lo data privacy với Zapier cloud, n8n là alternative proven (195K stars = battle-tested community). Native AI capabilities có nghĩa integrate LLM vào workflow mà không cần glue code.",
       "source": "GitHub Trending",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "tags": [
-        "agent",
-        "personalization",
-        "python"
-      ]
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "195309"
     },
     {
-      "headline": "Firecrawl — API Search, Scrape, Interact Web At Scale (144K ⭐)",
-      "summary": "Firecrawl cung cấp API để search, scrape, và tương tác với web ở quy mô lớn. TypeScript, open-source.",
-      "why": "Cho developer: nếu bạn cần scrape data web cho AI training/RAG, Firecrawl là alternative open-source các dịch vụ trả phí. 144K sao = production-ready.",
+      "headline": "Dify Đạt 147K Sao — Production-Ready Platform Cho Agentic Workflow Development",
+      "why": "Dify focus 'production-ready' có nghĩa đây không phải toy project — nếu bạn build AI agents và cần orchestration layer, Dify đáng xem vì có community lớn (147K stars) và focus stability over bleeding-edge features.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "147785"
+    },
+    {
+      "headline": "Open WebUI Đạt 144K Sao — User-Friendly AI Interface Support Ollama, OpenAI API",
+      "why": "Open WebUI tốt cho team cần UI đơn giản để internal users tương tác với LLMs mà không cần code. Support cả Ollama (local) và OpenAI API (cloud) — tức flexibility deploy on-prem hoặc cloud tùy compliance needs.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "144326"
+    },
+    {
+      "headline": "Firecrawl Đạt 145K Sao — API Search, Scrape, Interact With Web At Scale",
+      "why": "Firecrawl giải quyết pain point lớn của AI agents — web scraping at scale mà không bị block. Nếu bạn build agents cần real-time web data, đây là infra layer đáng dùng thay vì tự xây scraper (vì anti-scraping tech đang sophisticated hơn).",
       "source": "GitHub Trending",
       "url": "https://github.com/firecrawl/firecrawl",
-      "tags": [
-        "scraping",
-        "api",
-        "data"
-      ]
-    },
-    {
-      "headline": "System Prompts Của Mọi AI Coding Tool — Repo Leak Full Prompts (Cursor, Devin, Kiro, v.v.)",
-      "summary": "Repo GitHub leak full system prompts và models của hầu hết AI coding tools: Augment, Claude Code, Cursor, Devin, Kiro, Lovable, Manus, Replit, Windsurf, etc.",
-      "why": "Cho developer: nếu muốn hiểu cách các tool này hoạt động hoặc tự build coding agent, đây là 'answer key'. Ethical gray zone nhưng learning value cao.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "tags": [
-        "prompts",
-        "reverse-engineering",
-        "learning"
-      ]
+      "stars": "145062"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter PRICE] NVIDIA Nemotron 3 Super Tăng Giá Completion: $0.40 → $0.45/M Tokens",
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 — Giá Giảm 26% Prompt, 26% Completion",
       "event": "price",
-      "summary": "NVIDIA Nemotron 3 Super (120B model) tăng giá completion từ $0.40 lên $0.45 per million tokens. Prompt giữ nguyên $0.08.",
-      "why": "Nếu bạn dùng Nemotron 3 Super cho production, cost tăng 12.5% — cân nhắc migrate sang model khác hoặc optimize usage.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
-      "tags": [
-        "pricing",
-        "nvidia"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 Giảm Giá: Prompt $0.93 → $0.76, Completion $3.00 → $2.38/M Tokens",
-      "event": "price",
-      "summary": "Z.ai GLM 5.2 (model coding Trung Quốc claim đánh bại Claude) giảm giá đáng kể: prompt -18%, completion -21%.",
-      "why": "Cheaper alternative cho coding tasks — nếu bạn đang dùng Claude Code/GPT cho coding, thử GLM 5.2 qua OpenRouter với giá mới có thể save 30-40% cost.",
+      "summary": "GLM 5.2 giá giảm từ $0.76→$0.56 prompt, $2.38→$1.76 completion per M tokens.",
+      "why": "Z.ai giảm giá GLM 5.2 sau khi claim đánh bại Claude trên coding benchmark — có thể do adoption thấp hoặc áp lực cạnh tranh. Nếu bạn đang dùng Claude/GPT cho coding tasks, đáng A/B test GLM 5.2 với giá mới này (rẻ hơn ~30%).",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/z-ai/glm-5.2",
       "tags": [
         "pricing",
-        "coding",
-        "china"
+        "GLM",
+        "coding"
       ]
     }
   ],
-  "insight": "Tuần này có 2 signal mạnh về tương lai AI mà mọi persona nên chú ý.\n\n**Signal 1: AI đang vào sâu hardware và y học** — Northwestern in ra neuron nhân tạo giao tiếp với não người. Đây không phải nghiên cứu xa vời. Khi neuron nhân tạo có thể two-way communication với mô não, ứng dụng trong 5-10 năm tới là điều trị Parkinson, liệt, mất trí nhớ, thậm chí augment trí nhớ/tư duy. Nếu bạn nghĩ AI chỉ là software, bạn đang nhìn sai chỗ. Hardware AI (brain-computer interface, robotics, biotech) là frontier tiếp theo. Cho cá nhân: nếu bạn hoặc người thân có vấn đề thần kinh, đây là hope thật. Cho founder: sector này cần capital, regulatory patience, và đạo đức cao — nhưng upside là thay đổi đời sống hàng trăm triệu người.\n\n**Signal 2: Deepfake voice/video đang từ 'gimmick' thành public risk** — Hàn Quốc có dịch vụ recreate người quá cố bằng AI (video + voice). Chuyên gia cảnh báo AI clone giọng từ clip 10-30 giây. Trung Quốc thử AI dự đoán rủi ro chính trị. 3 tin này cùng 1 pattern: **AI multimodal (voice, video, behavior prediction) đang outpace khả năng xã hội kiểm soát nó**. Cho cá nhân: bảo vệ bản thân — 2FA cho tài chính, cảnh báo gia đình về voice scam. Cho manager: nếu công ty bạn xử lý dữ liệu cá nhân/sensitive, EU đang tightening (Tây Ban Nha ban Palantir), Nhật phán AI không được patent — regulatory risk tăng nhanh. Cho founder: nếu bạn build deepfake tech, cân nhắc ethical guardrails từ đầu — cost of scandal >> short-term gain (xem Theranos, Cambridge Analytica).\n\nImplication chung: AI 2026 không còn chỉ là 'tool tăng productivity'. Nó đang vào não, vào giọng nói, vào hành vi con người. Câu hỏi không phải 'AI có thể làm gì', mà là 'chúng ta muốn AI làm gì, và không làm gì'. Mentor advice: trước khi adopt công nghệ mới, hỏi 'delay effect 1-3 năm là gì?' — không chỉ cho business, mà cho xã hội và chính bạn.",
+  "insight": null,
   "sources_count": {
-    "raw": 147,
-    "brave": 52,
+    "raw": 143,
+    "brave": 51,
     "reddit": 0,
-    "hackernews": 4,
-    "rss": 43,
+    "hackernews": 1,
+    "rss": 44,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 2
+    "openrouter": 1
   }
 }
