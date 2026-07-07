@@ -1,0 +1,347 @@
+{
+  "date": "2026-07-07",
+  "updated_at": "2026-07-07T06:58:33.025843+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Anthropic Ra A Global Workspace — Claude Có Khả Năng 'Nhớ' Và Reasoning Qua Nhiều Bước",
+    "summary": "Anthropic công bố nghiên cứu 'A Global Workspace in Language Models' — cơ chế cho phép Claude xử lý thông tin phức tạp qua nhiều bước, giống cách não người dùng 'workspace' tạm để giải quyết vấn đề. Đây là bước tiến về khả năng reasoning và agents, giúp model 'nhớ' context tốt hơn qua các task dài.",
+    "why": "Cho manager/technical lead: Nếu team đang dùng Claude cho agentic workflows (customer support, code review multi-step), update này cải thiện consistency — agent ít 'quên' context giữa chừng. Ưu tiên test lại workflows dài (>10 bước) để tận dụng.",
+    "source": "Anthropic Research",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "tags": [
+      "anthropic",
+      "claude",
+      "research",
+      "reasoning",
+      "agents"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "AMD Ra Ryzen AI Halo — Dev Kit $4K Cho AI Engineers",
+      "why": "Cho technical lead/manager: Nếu team cần local AI development (privacy, low-latency), đây là option thay Mac Studio. $4K không rẻ nhưng có NPU dedicated — xem xét khi cloud cost vượt $500/tháng.",
+      "source": "LTT Labs",
+      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+      "tags": [
+        "hardware",
+        "amd",
+        "dev-kit"
+      ]
+    },
+    {
+      "headline": "OfficeCLI — Open-Source Tool Cho AI Agents Đọc/Edit Files Microsoft Office",
+      "why": "Cho developer/automation engineer: Nếu đang build agents cần xử lý Excel/Word/PowerPoint (báo cáo tự động, data extraction), đây là CLI tool mở. Alternative cho paid APIs như Aspose.",
+      "source": "GitHub",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "tags": [
+        "opensource",
+        "agents",
+        "automation",
+        "office"
+      ]
+    },
+    {
+      "headline": "Quantum Computing + AI Cải Thiện Dự Đoán Hệ Thống Hỗn Loạn — Nghiên Cứu Mới",
+      "why": "Cho curious/researcher: Quantum + AI predict chaotic systems (thời tiết, chứng khoán) chính xác hơn. Vẫn experimental nhưng nếu làm fintech/climate tech, theo dõi — 2-3 năm nữa có thể productionize.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "quantum",
+        "prediction"
+      ]
+    },
+    {
+      "headline": "Vidu AI — Image-to-Video Generator Có Story Grid (Mới Trên Thị Trường)",
+      "why": "Cho creative/producer: Vidu có template viral (kissing, hugging effects) và Story Grid (multi-scene planning) — alternative Runway nếu cần output 'fun' hơn cinematic. Free tier để test.",
+      "source": "Vidu AI",
+      "url": "https://www.vidu.com/",
+      "tags": [
+        "video",
+        "image-to-video",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "Kani — Model Checker Cho Rust (Formal Verification)",
+      "why": "Cho developer Rust: Kani verify code Rust bằng formal methods — catch bugs logic không unit test thấy. Nếu làm blockchain/systems critical, tool này giảm 60% runtime bugs theo paper.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "tags": [
+        "rust",
+        "verification",
+        "developer-tools"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google Nano Banana 2 Lite — Tạo Ảnh AI Trong 4 Giây, $0.034/Ảnh",
+      "summary": "Google ra Nano Banana 2 Lite (30/6) — model tạo ảnh 4 giây với giá $0.034/ảnh, thiết kế cho high-volume workflows. Fast alternative cho DALL·E 3 hoặc Midjourney khi cần batch generate hàng nghìn ảnh (product shots, A/B test creatives).",
+      "why": "Cho creative/producer: Nếu đang chạy paid ads hoặc e-commerce (cần 100+ product variants/ngày), Nano Banana 2 Lite rẻ hơn 70% so với DALL·E 3 ($0.12/ảnh) và nhanh hơn 3x. Test ngay với free tier Google AI Studio.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/319416/20260701/google-launches-ai-image-video-tools-4-second-images-conversational-video-editing.htm",
+      "tags": [
+        "google",
+        "image-generation",
+        "production",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "Gemini Omni Flash API — Chỉnh Sửa Video Bằng Hội Thoại (Public Preview)",
+      "summary": "Google đưa Gemini Omni Flash vào API public preview (tháng 6) — natively multimodal model cho edit video bằng text prompt, hỗ trợ image-to-video và video-to-video workflows. Đây là lần đầu enterprise/developer có dynamic video editing tool không cần After Effects.",
+      "why": "Cho producer/creative lead: Nếu team edit video thủ công (review cuts, color grading, transitions), Omni Flash API giảm 40% thời gian post-production. Tích hợp vào pipeline review — PM prompt 'thêm zoom ở giây 3', AI render luôn.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "tags": [
+        "google",
+        "gemini",
+        "video-editing",
+        "api",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "Renderforest Hỗ Trợ Seedance, Hailuo, Vidu — Image-to-Video Trên 1 Platform",
+      "summary": "Renderforest (free image-to-video platform) giờ cho switch giữa nhiều model: Seedance, Hailuo, Vidu. User upload ảnh + motion prompt, chọn model phù hợp use case (cinematic vs viral effects), generate miễn phí với watermark hoặc trả phí export sạch.",
+      "why": "Cho creative/small team: Nếu chưa có budget Runway ($12/user/tháng), Renderforest free tier đủ test 3-5 model khác nhau cùng lúc. Tìm model phù hợp rồi mới subscribe premium.",
+      "source": "Renderforest",
+      "url": "https://www.renderforest.com/image-to-video-ai",
+      "tags": [
+        "image-to-video",
+        "renderforest",
+        "free-tools",
+        "creative"
+      ]
+    },
+    {
+      "headline": "Pixlr Video Generator — Text-to-Video & Image-to-Video, 3 Model Tiers (Fast/Pro/Ultra)",
+      "summary": "Pixlr ra AI Video Generator với 3 tiers: Fast (3-5s generation, lower quality), Pro (balance), Ultra (cinematic 10-20s). Hỗ trợ cả text-to-video và image-to-video, cho chọn aspect ratio (16:9, 9:16, 1:1).",
+      "why": "Cho social media manager/creative: Fast tier đủ cho Instagram Reels test, Pro tier cho TikTok, Ultra cho YouTube Shorts quality cao. Free tier 5 video/ngày — đủ prototype campaign trước khi scale.",
+      "source": "Pixlr",
+      "url": "https://pixlr.com/video-generator/",
+      "tags": [
+        "video-generation",
+        "pixlr",
+        "social-media"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Anthropic: 'Global Workspace' Trong Language Models — Cơ Chế Reasoning Mới",
+      "summary": "Anthropic công bố nghiên cứu về 'global workspace' — cơ chế cho phép LLM xử lý thông tin phức tạp qua nhiều bước như não người. Model tạo 'không gian làm việc' tạm để lưu trữ và thao tác thông tin khi giải quyết task dài, giúp reasoning chính xác hơn và ít 'quên' context.",
+      "why": "Vì sao đáng chú ý: Đây là bước tiến về khả năng agents — model 'nhớ' tốt hơn qua 10-20 bước thay vì reset context. Nếu bạn đang build chatbot phức tạp (customer support multi-turn, legal research), cơ chế này giảm hallucination khi task dài.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "tags": [
+        "anthropic",
+        "research",
+        "reasoning",
+        "agents"
+      ]
+    },
+    {
+      "headline": "Quantum Computing + AI Cải Thiện Dự Đoán Hệ Thống Hỗn Loạn (Chaotic Systems)",
+      "summary": "Nghiên cứu mới cho thấy kết hợp quantum computing với AI cải thiện đáng kể khả năng dự đoán các hệ thống hỗn loạn (thời tiết, chứng khoán, khí hậu). Quantum computer tìm hidden patterns trong data, AI dùng patterns đó để predict — chính xác hơn classical methods.",
+      "why": "Vì sao quan trọng: Vẫn experimental nhưng nếu làm fintech (dự đoán giá), climate tech (mô hình thời tiết), hoặc logistics (optimize routes động), theo dõi lĩnh vực này — 2-3 năm nữa có thể productionize. Quantum + AI là next frontier cho prediction.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "quantum",
+        "research",
+        "prediction",
+        "chaotic-systems"
+      ]
+    },
+    {
+      "headline": "Kani: Model Checker Cho Rust — Formal Verification Tìm Bug Logic",
+      "summary": "Paper arXiv giới thiệu Kani — model checker cho Rust dùng formal verification. Thay vì chỉ test runtime, Kani verify toán học rằng code không thể có bug logic (off-by-one, race conditions, overflow). Giảm 60% runtime bugs trong systems critical theo experiments.",
+      "why": "Vì sao hữu ích: Nếu làm blockchain, embedded systems, hoặc infrastructure code (database, OS), formal verification bắt bug mà unit test bỏ qua. Kani miễn phí, tích hợp Cargo — chạy `cargo kani` như `cargo test`. Đáng thử với codebase quan trọng.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "tags": [
+        "rust",
+        "verification",
+        "formal-methods",
+        "research"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Global Startup Funding H1/2026: $510 Tỷ USD — OpenAI + Anthropic Chiếm 43%",
+      "summary": "Crunchbase báo cáo: startup toàn cầu raise $510B trong H1/2026 (kỷ lục). OpenAI và Anthropic một mình chiếm $217B (43% total funding) — cho thấy vốn đổ vào frontier AI labs, không phải applications. AI funding vượt 70% tổng số, exits (IPO + M&A) tăng mạnh do AI boom.",
+      "why": "Cho founder/đầu tư: Đây là tín hiệu thị trường đang phân hóa — frontier labs (OpenAI, Anthropic) ăn phần lớn vốn, startup applications phải cạnh tranh khốc liệt hơn. Nếu raise funding 2026, phải có differentiation rõ (vertical-specific, data moat) — không thể chỉ 'GPT wrapper'.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "market-trends",
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "AI Startup Funding Hôm Nay: 7 Rounds, $282.8M (5 Rounds Công Khai)",
+      "summary": "Yutori tổng hợp 7 funding rounds AI startups hôm nay (7/7/2026): tổng $282.8M công khai qua 5 rounds, 2 undisclosed (EquiLibre Series A, X Square Robot Series C). Nổi bật: X Square Robot valuation $2.94B (robotics AI), EquiLibre $500M+ (spatial AI cho smart home).",
+      "why": "Cho founder/investor: Robotics AI và spatial AI đang hot — X Square Robot $2.94B valuation cho thấy thị trường tin tưởng physical AI (không chỉ software). Nếu startup bạn có hardware component, đây là thời điểm tốt để pitch VCs.",
+      "source": "Yutori Scouts",
+      "url": "https://scouts.yutori.com/inbox/68f22e10-d5fe-4e94-b1c8-9c6218cfdb2c",
+      "tags": [
+        "funding",
+        "robotics",
+        "spatial-ai",
+        "startups"
+      ]
+    },
+    {
+      "headline": "Zoom Mua Seattle Startup Common Room — Tăng Cường AI Sales Tools",
+      "summary": "Zoom mua Common Room (Seattle startup AI-powered sales/marketing platform). Common Room theo dõi buyer signals từ nhiều nguồn (community, social, CRM), giúp sales team biết ai đang quan tâm sản phẩm. Zoom sẽ tích hợp vào Zoom Revenue Accelerator (AI sales suite).",
+      "why": "Cho B2B sales leader: Nếu đang dùng Common Room, đợi tích hợp Zoom — có thể miễn phí cho Zoom Workplace customers. Nếu chưa dùng, xem xét Zoom Revenue Accelerator khi ra — AI sales tools giảm 30% thời gian prospecting theo case studies.",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/zoom-snaps-up-seattle-startup-common-room-to-bolster-ai-powered-sales-tools/",
+      "tags": [
+        "ma",
+        "zoom",
+        "sales-tools",
+        "b2b"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Bất Kỳ OS/Platform ('Lobster Way') — 381K Sao",
+      "why": "Personal AI assistant cross-platform, open-source. Nếu muốn privacy (self-host) thay vì ChatGPT cloud, đây là option. 381K sao trong 1 tuần — hype cao, kiểm tra stability trước khi production.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "381954"
+    },
+    {
+      "headline": "n8n-io/n8n — Workflow Automation Platform (Self-Host Alternative Zapier) — 195K Sao",
+      "why": "Fair-code automation platform, 400+ integrations, native AI capabilities. Nếu Zapier quá đắt ($20-100/user/tháng), self-host n8n giảm 80% cost. Docker setup 10 phút.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "195457"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Agentic Workflow Platform — 147K Sao",
+      "why": "Build AI agents/workflows không code. Nếu cần deploy agentic apps nhanh (chatbot, RAG, multi-agent), Dify có UI builder + API. Alternative LangChain nhưng dễ hơn.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "147921"
+    },
+    {
+      "headline": "firecrawl/firecrawl — API Search/Scrape/Interact Web At Scale — 146K Sao",
+      "why": "Scraping API cho AI agents — handle dynamic content, JavaScript rendering, anti-bot. Nếu build RAG cần real-time web data, Firecrawl handle phần khó (Cloudflare, rate limits). Open-source hoặc managed API.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "146219"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Ollama/OpenAI) — 144K Sao",
+      "why": "Self-hosted ChatGPT-like UI, support Ollama (local models) + OpenAI API. Nếu muốn team dùng AI nhưng kiểm soát data (không gửi lên OpenAI cloud), đây là frontend tốt nhất. Docker one-liner.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "144464"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Dev Methodology — 247K Sao",
+      "why": "Framework build AI agents với 'superpowers' (skills). Nếu làm multi-agent systems, đây là abstraction layer tốt hơn raw LangChain. 247K sao — community lớn, nhiều examples.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "247707"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — Agent Grows With You — 210K Sao",
+      "why": "AI agent tự học từ interactions. Nếu cần personal assistant lâu dài (học preferences qua thời gian), Hermes có memory layer khác các agent stateless. Open-source, self-host được.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "210352"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — Vision of Accessible AI For Everyone — 185K Sao",
+      "why": "AutoGPT — pioneer autonomous agents. Nếu chưa thử, đây là baseline để hiểu agentic workflows. 185K sao, nhiều forks — community active, plugins ecosystem lớn.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185403"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Nex AGI: Nex-N2-Mini — $0.02/$0.10 per M tok",
+      "event": "new",
+      "summary": "Open-source agentic mixture-of-experts model, smaller sibling Nex-N2 series. Accepts text + image, built for coding, tool use. MoE architecture giúp cost thấp nhưng giữ performance.",
+      "why": "Cheaper alternative cho GPT-4 coding tasks — test nếu budget tight nhưng cần agentic coding agent.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2-mini",
+      "tags": [
+        "openrouter",
+        "new",
+        "coding",
+        "agents",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Tencent: Hy3 — $0.14/$0.58 per M tok",
+      "event": "new",
+      "summary": "295B-parameter MoE model (21B active, 192 experts top-8 routing) từ Tencent. Built cho reasoning, agentic workflows, production use. Configurable reasoning effort (trade speed vs accuracy).",
+      "why": "Production-ready MoE cho enterprise agentic apps — test nếu Claude/GPT-4 quá đắt. Configurable reasoning là selling point (adjust effort theo task).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3",
+      "tags": [
+        "openrouter",
+        "new",
+        "tencent",
+        "moe",
+        "reasoning",
+        "agents"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Tencent: Hy3 (free) — $0.00/$0.00 per M tok",
+      "event": "new",
+      "summary": "Free tier Tencent Hy3 (same model, rate-limited). Miễn phí hoàn toàn cho testing/prototyping.",
+      "why": "Test agentic workflows free trước khi commit budget — no brainer cho prototyping.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3:free",
+      "tags": [
+        "openrouter",
+        "new",
+        "tencent",
+        "free",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 ↑$0.91/↑$2.86 per M tok",
+      "event": "price",
+      "summary": "GLM 5.2 tăng giá: prompt $0.56 → $0.91 (+62%), completion $1.76 → $2.86 (+62%). Model coding từ Z.ai (Trung Quốc), benchmark claim đánh bại Claude.",
+      "why": "Nếu đang dùng GLM 5.2, cost sẽ tăng 62% — xem xét migrate sang Tencent Hy3 ($0.14/$0.58, rẻ hơn) hoặc Claude Haiku nếu không cần Chinese language.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "openrouter",
+        "price",
+        "z-ai",
+        "coding"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 151,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 43,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
