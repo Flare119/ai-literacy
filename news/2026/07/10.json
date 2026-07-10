@@ -1,0 +1,408 @@
+{
+  "date": "2026-07-10",
+  "updated_at": "2026-07-10T06:57:45.418744+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "OpenAI Ra GPT-5.3-Codex — Hợp Nhất Stack GPT-5 & Codex Thành Model Agentic Coding Đầu Tiên",
+    "summary": "OpenAI công bố GPT-5.3-Codex, model đầu tiên kết hợp training stack GPT-5 (reasoning) với Codex (code generation). Đây là bước tiến quan trọng trong agentic coding — AI không chỉ viết code mà còn lập luận về kiến trúc, debug, và tối ưu workflow end-to-end. Model này nằm trong hệ sinh thái Codex CLI đã thay thế các agentic harness khác tại nhiều công ty.",
+    "why": "Cho manager + creative: AI coding agents giờ đã vượt khỏi 'autocomplete nâng cao' — chúng có thể thiết kế kiến trúc, debug logic phức tạp. Nếu team bạn đang thuê junior dev với nhiệm vụ chính là viết boilerplate, đây là tín hiệu nên reskill họ thành code reviewer/architect hoặc cắt giảm headcount. Đầu tư vào upskill senior dev làm việc VỚI agentic tools sẽ hiệu quả hơn thuê thêm junior.",
+    "source": "OpenAI Help Center",
+    "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+    "tags": [
+      "agentic-ai",
+      "coding",
+      "openai",
+      "gpt-5"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenAI Ra GPT-Live — Real-Time Voice + Vision Streaming API Cho Multi-Modal Conversation",
+      "why": "Cho creative: API voice + vision streaming real-time mở cửa cho interactive storytelling, live customer support với AI nhìn thấy màn hình khách, game NPCs thông minh. Latency thấp hơn pipeline truyền thống (speech-to-text → LLM → text-to-speech).",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+      "tags": [
+        "voice-ai",
+        "multimodal",
+        "openai"
+      ]
+    },
+    {
+      "headline": "Meta Ra Muse Spark 1.1 — Nâng Cấp Coding Capability, Public Preview Qua Meta Model API",
+      "why": "Cho manager: Meta đang đẩy mạnh vào agentic coding để cạnh tranh OpenAI Codex. Nếu team dùng Meta AI app, Spark 1.1 ở chế độ 'Thinking' giờ xử lý coding tasks tốt hơn — có thể thay thế workflow ChatGPT cho một số use case.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/meta-muse-spark-new-ai-model-agentic/",
+      "tags": [
+        "meta",
+        "coding",
+        "agentic-ai"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra Rosalind Biodefense — Mở Rộng GPT-Rosalind Cho Vetted Developers & US Government Partners",
+      "why": "Cho curious: Frontier AI models như GPT-Rosalind (sinh học) không được public release — chỉ cung cấp cho đối tác được kiểm duyệt (biodefense, public health). Đây là dấu hiệu OpenAI cân nhắc dual-use risk nghiêm túc, không phải mọi model đều free-for-all.",
+      "source": "OpenAI Research",
+      "url": "https://openai.com/research/index/release/",
+      "tags": [
+        "biosecurity",
+        "dual-use",
+        "openai"
+      ]
+    },
+    {
+      "headline": "ByteDance Sắp Ra Seedance 2.5 Video Model — Có Thể Launch Trong Tuần Này",
+      "why": "Cho creative: Seedance 2.5 là competitor trực tiếp Runway/Kling. Nếu ByteDance pricing aggressive như Hailuo, đây sẽ là lựa chọn rẻ hơn cho prototype video. Theo The Information, model đã qua testing — launch sắp tới.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/bytedance-introduces-new-seedance-2-5-video-model/",
+      "tags": [
+        "video-generation",
+        "bytedance",
+        "seedance"
+      ]
+    },
+    {
+      "headline": "AI Unicorn Mercor Mua Deeptune — Founder 23 Tuổi Brendan Foody Từng Đầu Tư Vào Startup Này Trước Khi Mua",
+      "why": "Cho business: Pattern thú vị — founder invest vào startup rồi acquire sau vài tháng. Mercor ($10B valuation) đang consolidate AI talent marketplace. Nếu bạn là startup nhỏ trong lĩnh vực này, đây là tín hiệu M&A sẽ nóng — strategize exit early.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+      "tags": [
+        "m&a",
+        "startup",
+        "funding"
+      ]
+    },
+    {
+      "headline": "Global Startup Funding H1/2026 Đạt Kỷ Lục $510 Tỷ USD — OpenAI & Anthropic Chiếm 43%",
+      "why": "Cho business/founder: $217 tỷ trong $510 tỷ chảy vào 2 công ty — winner-takes-most rõ ràng. Nếu bạn không làm frontier AI, chiến lược nên là 'pick a vertical' (healthcare AI, legal AI) thay vì cạnh tranh trực diện foundation models.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "market-trends"
+      ]
+    },
+    {
+      "headline": "Cerebras IPO Tháng 5 Huy Động $5.6 Tỷ USD — IPO AI Chip Lớn Nhất Năm",
+      "why": "Cho business: AI hardware (chip) đang hot — Cerebras IPO thành công, Quantinuum (quantum computing) cũng IPO tháng 6. Nếu bạn làm infrastructure/tooling cho AI, đây là window tốt để raise hoặc exit qua IPO.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
+      "tags": [
+        "ipo",
+        "ai-chips",
+        "cerebras"
+      ]
+    },
+    {
+      "headline": "Coding Agents Thành Công Nhất Trong Agentic AI — MIT Q&A Về Tình Trạng Agentic AI 2026",
+      "why": "Cho manager: MIT xác nhận coding agents là use case thành công nhất của agentic AI hiện tại (vượt customer support, data analysis). Nếu bạn chưa thử agentic coding tools (Cursor, Codex, v.v.), đây là low-hanging fruit — ROI rõ ràng nhất.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+      "tags": [
+        "agentic-ai",
+        "coding",
+        "mit"
+      ]
+    },
+    {
+      "headline": "AI Content Tràn Lan Trên LinkedIn — Nghiên Cứu Mới Từ Pangram",
+      "why": "Cho cá nhân: Nếu bạn dùng AI để viết LinkedIn post mà không edit, thuật toán LinkedIn có thể down-rank vì spam. Người đọc cũng nhận ra pattern 'AI voice' — authenticity giảm, engagement giảm. Dùng AI để draft, nhưng phải edit thành giọng riêng.",
+      "source": "Pangram",
+      "url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "tags": [
+        "social-media",
+        "ai-detection",
+        "linkedin"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Renderforest Image-to-Video Hỗ Trợ Seedance, Hailuo, Vidu — Alternative Kling/Runway",
+      "summary": "Renderforest (platform video/design) giờ tích hợp nhiều video generation models (Seedance, Hailuo, Vidu) vào 1 workspace — cho phép creative so sánh output nhiều model mà không cần jump giữa các công cụ. Pricing rẻ hơn Runway, phù hợp SME và solo creators.",
+      "why": "Cho creative: Thay vì subscribe riêng Runway ($12-95/tháng), bạn có thể dùng Renderforest trial nhiều model cùng lúc. Tốt cho prototype — test xem model nào phù hợp style trước khi commit. Hailuo đặc biệt rẻ (reports $0.02-0.05/video).",
+      "source": "Renderforest",
+      "url": "https://www.renderforest.com/image-to-video-ai",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "renderforest"
+      ]
+    },
+    {
+      "headline": "Gemini Omni — Tạo & Edit Video Bằng Hội Thoại, Hỗ Trợ Image-to-Video & Video-to-Video",
+      "summary": "Google ra Gemini Omni, kết hợp Gemini reasoning với generative video (Veo). Workflow: upload ảnh hoặc video → chat với AI để edit (đổi background, thêm object, thay phong cách) → AI render video mới. Public preview đã live.",
+      "why": "Cho creative: Conversational editing giảm learning curve — không cần học Premiere Pro hoặc After Effects cho basic edits. Phù hợp rapid prototyping hoặc social media content (TikTok, Reels). Nhưng chưa thay thế professional editing cho high-fidelity work.",
+      "source": "Gemini Google",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "video-editing",
+        "gemini",
+        "google",
+        "multimodal"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "OpenAI & Anthropic Chiếm 43% Tổng Funding Startup Toàn Cầu H1/2026 — $217 Tỷ Trong $510 Tỷ",
+      "summary": "Theo Crunchbase, H1/2026 phá kỷ lục funding với $510 tỷ USD, trong đó $217 tỷ chảy vào 2 công ty: OpenAI và Anthropic. Winner-takes-most effect cực mạnh — phần còn lại chia cho hàng nghìn startup.",
+      "why": "Nếu bạn là founder AI startup, cạnh tranh trực tiếp với OpenAI/Anthropic là tự sát. Chiến lược thông minh: vertical focus (healthcare AI, legal AI, fintech AI) hoặc infrastructure/tooling layer (như Langchain, OpenRouter). Broad horizontal AI assistant = red ocean.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "Cerebras IPO $5.6 Tỷ USD Tháng 5 — AI Chip Startup Lớn Nhất Năm, Quantinuum IPO Tháng 6",
+      "summary": "AI hardware infrastructure đang hot: Cerebras (AI chip) IPO thành công $5.6B, Quantinuum (quantum computing) cũng IPO tháng 6. Public markets đang mở cửa cho AI infrastructure plays.",
+      "why": "IPO window đang mở cho AI infrastructure — không chỉ software. Nếu bạn làm hardware-adjacent (cloud infra, specialized chips, data center tools), đây là thời điểm tốt để raise hoặc plan exit. Software AI startups cạnh tranh khốc liệt, nhưng infra còn undersupplied.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
+      "tags": [
+        "ipo",
+        "ai-chips",
+        "cerebras",
+        "quantinuum"
+      ]
+    },
+    {
+      "headline": "AI Unicorn Mercor ($10B) Mua Deeptune — Founder 23 Tuổi Từng Đầu Tư Startup Trước Khi Acquire",
+      "summary": "Brendan Foody (23 tuổi, worth billions) — founder Mercor ($10B AI talent marketplace) — vừa mua Deeptune, startup mà anh ta invest vài tháng trước. Pattern: invest → integrate → acquire. Mercor đang consolidate AI talent/dev tools market.",
+      "why": "M&A trong AI talent/dev tools sẽ nóng tiếp. Nếu bạn là startup nhỏ trong lĩnh vực này, có 2 chiến lược: (1) build to flip — optimize cho acquirability (clean tech, clear user base), hoặc (2) avoid acquirer's turf — pick niche họ không quan tâm. Mercor đang mua aggressive — có thể là consolidator chính của vertical này.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+      "tags": [
+        "m&a",
+        "mercor",
+        "startup",
+        "funding"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "n8n Workflow Automation Cán Mốc 195K Sao GitHub — Self-Host Alternative Zapier Với Native AI",
+      "why": "n8n là open-source workflow automation (như Zapier) nhưng self-host được + tích hợp AI native. Phù hợp team muốn kiểm soát data (không gửi lên cloud bên thứ 3) hoặc customize workflow phức tạp. 195K sao = top 50 repos GitHub.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "195857"
+    },
+    {
+      "headline": "AutoGPT Đạt 185K Sao — Vision 'Accessible AI For Everyone, To Use And Build On'",
+      "why": "AutoGPT là 1 trong những agentic AI frameworks lâu đời nhất (2023). 185K sao = massive community. Nếu bạn muốn build custom AI agent mà không từ đầu, AutoGPT có sẵn tools/templates. Nhưng learning curve cao — không dễ như Cursor/Claude.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185445"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development, 148K Sao",
+      "why": "Dify giúp build + deploy agentic workflows không cần code nhiều. Có UI drag-and-drop + backend scalable. Phù hợp team muốn rapid prototype AI agents cho internal tools (customer support, data pipeline). Alternative: Langflow, Flowise.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "148331"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly Interface Hỗ Trợ Ollama, OpenAI API, 144K Sao",
+      "why": "Open WebUI là frontend cho local LLMs (Ollama) hoặc cloud APIs. Phù hợp cá nhân/team muốn self-host ChatGPT-like interface mà không trả subscription. Privacy-first, data không rời máy nếu dùng Ollama.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "144872"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Luna · $1.00/$6.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Luna — fast, cost-efficient model cho chat, classification, lightweight agentic workflows.",
+      "why": "Cheaper alternative GPT-4 Turbo cho high-volume tasks. Latency thấp.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-luna",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Luna Pro · $1.00/$6.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Luna với reasoning.mode=pro — higher-quality responses.",
+      "why": "Same price, better quality cho complex tasks. Thử khi Luna standard không đủ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-luna-pro",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Sol · $5.00/$30.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Sol — flagship model cho complex reasoning, coding, agentic workflows.",
+      "why": "Strongest GPT-5.6 tier. Cho coding/architecture tasks thay GPT-4.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Sol Pro · $5.00/$30.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Sol với reasoning.mode=pro.",
+      "why": "Best quality GPT-5.6. Dùng khi cần max performance.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Terra · $2.50/$15.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Terra — balanced giữa Sol (flagship) và Luna (cost-efficient).",
+      "why": "Middle tier — tốt cho everyday coding/reasoning mà không quá đắt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-terra",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.6 Terra Pro · $2.50/$15.00/M tok",
+      "event": "new",
+      "summary": "GPT-5.6 Terra với reasoning.mode=pro.",
+      "why": "Terra quality boost. Thử nếu Terra standard chưa đủ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-terra-pro",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Google: Gemini 2.5 Flash Lite Preview 09-2025",
+      "event": "deprecated",
+      "summary": "Model không còn trên OpenRouter.",
+      "why": "Migrate sang Gemini 2.5 Flash hoặc model khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-2.5-flash-lite-preview-09-2025",
+      "tags": [
+        "google",
+        "gemini",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] LiquidAI: LFM2-24B-A2B",
+      "event": "deprecated",
+      "summary": "Model không còn trên OpenRouter.",
+      "why": "Migrate nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/liquid/lfm-2-24b-a2b",
+      "tags": [
+        "liquidai",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Poolside: Laguna XS.2 & Free Variant",
+      "event": "deprecated",
+      "summary": "Poolside Laguna XS.2 (paid & free) không còn trên OpenRouter.",
+      "why": "Migrate nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/poolside/laguna-xs.2",
+      "tags": [
+        "poolside",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Switchpoint Router",
+      "event": "deprecated",
+      "summary": "Model không còn trên OpenRouter.",
+      "why": "Migrate nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/switchpoint/router",
+      "tags": [
+        "switchpoint",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: gpt-oss-120b ↑$0.04/↑$0.18/M tok",
+      "event": "price",
+      "summary": "Prompt $0.03→$0.04, completion $0.15→$0.18.",
+      "why": "Tăng giá 33% prompt, 20% completion. Review budget nếu high-volume.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "openai",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.7 ↑$0.24/↑$0.96/M tok",
+      "event": "price",
+      "summary": "Prompt $0.18→$0.24, completion $0.72→$0.96.",
+      "why": "Tăng giá 33%. MiniMax đang điều chỉnh pricing sau demand spike.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+      "tags": [
+        "minimax",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.5 ↑$0.15/↑$0.90/M tok",
+      "event": "price",
+      "summary": "Prompt $0.12→$0.15, completion $0.48→$0.90.",
+      "why": "Tăng giá 87% completion. Lớn — cân nhắc migrate nếu dùng nhiều.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+      "tags": [
+        "minimax",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 ↑$0.53/↑$1.67/M tok",
+      "event": "price",
+      "summary": "Prompt $0.42→$0.53, completion $1.32→$1.67.",
+      "why": "Tăng giá 26%. GLM 5.2 vẫn rẻ hơn GPT-4 nhưng gap đang thu hẹp.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "z-ai",
+        "price-change"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 192,
+    "brave": 52,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 15
+  }
+}
