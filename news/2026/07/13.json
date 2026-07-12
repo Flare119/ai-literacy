@@ -1,0 +1,272 @@
+{
+  "date": "2026-07-13",
+  "updated_at": "2026-07-13T06:43:01.511582+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "Claude Code Gửi 33K Token Overhead Trước Khi Đọc Prompt — 4.7x Lãng Phí So Với OpenCode",
+    "summary": "Phân tích wire-level cho thấy Claude Code gửi 33,000 tokens setup/context trước khi đọc prompt user, trong khi OpenCode (GPT-5.3-Codex) chỉ gửi 7,000. Overhead này làm tăng chi phí API và latency đáng kể khi dùng coding agents ở production scale.",
+    "why": "Cho manager: nếu team đang dùng Claude Code hàng loạt, overhead 4.7x nghĩa là chi phí API cao hơn 70-400% tùy task complexity. Check billing ngay — nhiều team pivot sang GPT-5.3-Codex sau phát hiện này, giảm cost 27% + tăng tốc 2.2x (case Ploy AI). Cho cá nhân: nếu bạn dùng coding agent cá nhân, switch tool có thể giảm đáng kể monthly bill.",
+    "source": "Systima AI Blog",
+    "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+    "tags": [
+      "coding-agents",
+      "cost-optimization",
+      "claude-code",
+      "gpt-codex"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "xAI Grok Build CLI Gửi Gì Đến Server? — Wire-Level Analysis Vạch Trần",
+      "why": "Cho cá nhân: nếu dùng xAI Grok CLI, đây là breakdown chính xác data nào được gửi đi — quan trọng cho privacy-conscious developers. Analysis cho thấy Grok gửi full project context mặc định.",
+      "source": "Cereblab GitHub Gist",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "tags": [
+        "xai",
+        "grok",
+        "privacy",
+        "developer-tools"
+      ]
+    },
+    {
+      "headline": "George Hotz: 'I Love LLMs, I Hate Hype' — Góc Nhìn Phản Biện Từ Geohot",
+      "why": "Cho curious: essay thẳng thắn về AI từ founder Comma.ai — phân biệt giữa LLM capability thực tế vs marketing hype. Đọc để tránh bị cuốn vào bong bóng kỳ vọng phi thực tế.",
+      "source": "Geohot Blog",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "tags": [
+        "opinion",
+        "ai-hype",
+        "geohot",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "Ploy AI Migrate Lên GPT-5.6: Nhanh 2.2x, Rẻ 27% — Case Study Production",
+      "why": "Cho manager: case study thực tế về ROI khi nâng cấp model — GPT-5.6 không chỉ nhanh hơn mà còn rẻ hơn GPT-5.5 cho production AI agents. Nếu team đang dùng GPT-5.5, test migration ngay.",
+      "source": "Ploy AI Blog",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "tags": [
+        "gpt-5.6",
+        "migration",
+        "case-study",
+        "production"
+      ]
+    },
+    {
+      "headline": "Gartner Report Tố Nhiều Dự Án 'Agentic AI' Chỉ Là Rebrand Marketing",
+      "why": "Cho manager + curious: cảnh báo từ Gartner (June 2025) — nhiều vendor gắn label 'agentic AI' vào tool automation cũ để hype. Checklist để phân biệt agent thật vs chatbot đổi tên.",
+      "source": "Wikipedia (via Gartner)",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tags": [
+        "agentic-ai",
+        "hype",
+        "gartner",
+        "due-diligence"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Meta Muse Spark 1.1 Ra Public Preview — Nâng Cấp Coding Capability",
+      "summary": "Meta phát hành Muse Spark 1.1 qua Meta Model API (public preview). Model hợp nhất training stack mới, cải thiện coding capability và reasoning. Hiện có sẵn ở 'Thinking' mode trong Meta AI app và meta.ai.",
+      "why": "Cho creative + dev: Meta Model API giờ mở public preview — alternative OpenAI/Anthropic nếu bạn muốn diversify provider. Spark 1.1 claim cạnh tranh GPT-5.5 về coding, nhưng chưa có benchmark độc lập verify.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/meta-muse-spark-new-ai-model-agentic/",
+      "tags": [
+        "meta",
+        "muse-spark",
+        "coding",
+        "api"
+      ]
+    },
+    {
+      "headline": "Krea 2 Foundation Model — Focus Đa Dạng Thẩm Mỹ & Style Control",
+      "summary": "Krea ra model nền tảng Krea 2 build from scratch, tập trung vào aesthetic diversity và style control. Multi-lingual prompting. Alternative Midjourney/DALL-E cho creative muốn expressive visual direction.",
+      "why": "Cho creative: Krea 2 positioning khác Midjourney (generalist beauty) — focus vào style diversity và control chi tiết hơn. Nếu workflow bạn cần consistent style qua nhiều asset, đáng test.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "krea",
+        "image-gen",
+        "style-control",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "Renderforest Image-to-Video Hỗ Trợ Seedance, Hailuo, Vidu — Alternative Kling/Runway",
+      "summary": "Renderforest's AI Image Generator tích hợp Seedance, Hailuo, Vidu models cho image-to-video. Budget-friendly option cho team không cần Runway Pro hoặc Kling enterprise pricing.",
+      "why": "Cho creative: nếu Runway/Kling quá đắt hoặc overkill cho project nhỏ, Renderforest aggregate nhiều model giá rẻ hơn. Trade-off: ít control hơn, nhưng đủ cho prototype/social content.",
+      "source": "Renderforest",
+      "url": "https://www.renderforest.com/image-to-video-ai",
+      "tags": [
+        "image-to-video",
+        "renderforest",
+        "seedance",
+        "hailuo",
+        "vidu"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "US Venture Funding H1/2026 Đạt $412.7B — AI Deals Chiếm Đa Số",
+      "summary": "PitchBook report: US venture funding nửa đầu 2026 đạt $412.7B, AI deals chiếm phần lớn. SpaceX mua xAI $250B (Q1) là deal lớn nhất lịch sử VC-backed. Deal pending Cursor $60B cũng trong radar.",
+      "why": "Cho founder/đầu tư: AI funding vẫn nóng H1/2026, nhưng tập trung ở mega-deals (xAI, Cursor) — early-stage funding thực tế khó hơn vì capital chảy vào incumbents. Nếu bạn fundraise seed/Series A, prepare cho competition khốc liệt hơn 2025.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "ai-deals",
+        "xai",
+        "cursor"
+      ]
+    },
+    {
+      "headline": "AI Unicorn Mercor Mua Deeptune — Founder 23 Tuổi Đã Invest Vào Startup Trước Khi Mua",
+      "summary": "Mercor ($10B valuation) mua Deeptune, startup mà founder Brendan Foody (23 tuổi) đã đầu tư vài tháng trước. Pattern: founder/investor vừa fund vừa acquire — chiến lược M&A mới trong AI ecosystem.",
+      "why": "Cho founder: case study về conflict of interest tiềm ẩn — invest vào startup → mua lại sau. Nếu bạn nhận investment từ potential acquirer, cần founder agreement rõ ràng về acquisition terms để tránh bị lowball.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+      "tags": [
+        "ma",
+        "mercor",
+        "deeptune",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "headline": "Kaon AI (FlowGPT + Emochi) Raise $60M — Focus Personalized Story Worlds",
+      "summary": "Kaon AI, startup đứng sau FlowGPT và Emochi, huy động $60M với valuation several hundred million. Focus: personalized story worlds powered by generative AI.",
+      "why": "Cho founder: narrative AI/story generation đang hot với investors — Kaon AI là case mới nhất. Nếu bạn build trong không gian AI × entertainment/content, đây là signal funding vẫn available cho vertical niche.",
+      "source": "Variety",
+      "url": "https://variety.com/2026/digital/news/ai-startup-kaon-ai-raises-60-million-funding-round-1236803914/",
+      "tags": [
+        "funding",
+        "kaon-ai",
+        "flowgpt",
+        "narrative-ai"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "NousResearch/hermes-agent — 'Agent Grows With You' Lên 213K Sao",
+      "why": "Agent framework Python từ NousResearch — claim 'learns from user behavior'. Đang trending #3 GitHub. Đáng test nếu bạn build custom agent cần personalization.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "213724"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation + Native AI Lên 196K Sao",
+      "why": "Open-source workflow automation platform với native AI capabilities. Self-host hoặc cloud, 400+ integrations. Alternative Zapier/Make.com cho team muốn control data.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "196202"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — 185K Sao, Vision 'Accessible AI For Everyone'",
+      "why": "AutoGPT framework — open-source autonomous agent. Trending trở lại sau period im lặng. Nếu bạn build agent experiments, AutoGPT vẫn là base tốt để fork.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185496"
+    },
+    {
+      "headline": "f/prompts.chat — Awesome ChatGPT Prompts 165K Sao, Self-Host Cho Org",
+      "why": "Community prompt library — free, open-source, self-host được. Nếu team cần internal prompt library với privacy, đây là starting point.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "165564"
+    },
+    {
+      "headline": "firecrawl/firecrawl — API Search/Scrape Web At Scale Lên 149K Sao",
+      "why": "Web scraping API cho AI agents. Trending vì nhiều agent workflows cần real-time web data — Firecrawl solve này ở scale.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "149878"
+    },
+    {
+      "headline": "langgenius/dify — Production-Ready Agentic Workflow Platform 148K Sao",
+      "why": "Platform build agentic workflows cho production. Alternative LangChain nếu bạn muốn GUI + infra setup sẵn. Self-host được.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "148608"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface 145K Sao",
+      "why": "UI cho Ollama/OpenAI API — deploy internal chatbot cho team. Open-source, self-host. Nếu bạn cần ChatGPT-like interface nhưng trên infra riêng.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "145171"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 ↑$0.42/$1.32 Per M Token",
+      "event": "price",
+      "summary": "Tăng giá từ $0.35/$1.10 lên $0.42/$1.32 per million tokens (prompt/completion).",
+      "why": "Tăng 20% prompt, 20% completion — nếu đang dùng GLM 5.2 volume cao, review cost và consider switch model.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "glm"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Instruct ↓$0.25/$0.75 Per M Token",
+      "event": "price",
+      "summary": "Giảm giá mạnh từ $0.80/$1.00 xuống $0.25/$0.75 per million tokens.",
+      "why": "Giảm 69% prompt, 25% completion — bargain cho vision + language tasks. Test ngay nếu workflow cần multimodal reasoning.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "qwen",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 235B A22B Instruct 2507 ↑$0.55 Completion",
+      "event": "price",
+      "summary": "Prompt giữ $0.09, completion tăng từ $0.10 lên $0.55 per million tokens.",
+      "why": "Completion cost tăng 450% — nếu use case generate output dài, model này giờ đắt hơn nhiều. Switch sang model khác hoặc optimize output length.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-2507",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 4 Maverick ↑$0.20/$0.80 Per M Token",
+      "event": "price",
+      "summary": "Tăng từ $0.15/$0.60 lên $0.20/$0.80 per million tokens.",
+      "why": "Tăng 33% — Llama 4 Maverick đang tăng giá dần, có thể do demand cao. Monitor trend để quyết định có nên lock pricing hay pivot model.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-4-maverick",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "llama"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 154,
+    "brave": 52,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 44,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
