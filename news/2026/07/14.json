@@ -1,0 +1,391 @@
+{
+  "date": "2026-07-14",
+  "updated_at": "2026-07-14T06:42:51.186936+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "OpenAI Ra GPT-5.6 Sol — Flagship Model Mạnh Nhất, Cạnh Tranh Anthropic Fable 5",
+    "summary": "OpenAI vừa công bố GPT-5.6 family hôm Thứ 5 (July 9), bao gồm Sol (flagship), Terra, Luna — sau khi Mỹ dỡ bỏ hạn chế. Sol claim vượt Gemini & Muse Spark trên nhiều benchmark, đặc biệt coding/reasoning. OpenAI cũng ra ChatGPT Work powered by Sol cho enterprise. Động thái này leo thang cuộc đua với Anthropic (vừa ra Fable 5 trước đó).",
+    "why": "Cho cá nhân & manager: Sol mở rộng khả năng coding agent end-to-end — nếu team bạn đang dùng GPT-4o/5.5, đây là upgrade path rõ. Cho manager: ChatGPT Work targeting enterprise — cân nhắc POC nếu đang evaluate Anthropic/Google. Delay effect: model này sẽ set baseline performance cho H2/2026, ảnh hưởng hiring junior dev (AI làm được nhiều hơn).",
+    "source": "NYTimes + CNBC + ZDNET",
+    "url": "https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html",
+    "tags": [
+      "GPT-5.6",
+      "Sol",
+      "OpenAI",
+      "coding-agent",
+      "enterprise"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Meta Ra Muse Spark 1.1 — Vượt Gemini Trên Coding/Video Captioning Benchmark",
+      "why": "Cho creative: Spark 1.1 tích hợp vào Meta Model API, có 'Thinking' mode trên Meta AI app. Nếu team dùng Gemini cho video workflow, đây là alternative miễn phí (Meta AI app). Cho manager: Meta đang đóng khoảng cách với OpenAI/Google — track xem advertisers có shift không (signal về platform stability).",
+      "source": "Fortune + CNET + Meta Blog",
+      "url": "https://fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/",
+      "tags": [
+        "Muse-Spark",
+        "Meta",
+        "coding",
+        "video",
+        "benchmark"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra GPT-5.3-Codex — Hợp Nhất Stack Codex + GPT-5, Model Agentic Coding Đầu Tiên",
+      "why": "Cho creative/cá nhân: GPT-5.3-Codex = Codex + GPT-5 reasoning. Nếu bạn dùng Cursor/Codex CLI, model này sẽ improve accuracy ở large codebase. Để ý: OpenAI gọi đây là 'agentic coding model' — agents giờ build/test/demo feature end-to-end, không chỉ generate code snippet.",
+      "source": "OpenAI Help Center + Cursor",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "tags": [
+        "GPT-5.3-Codex",
+        "coding-agent",
+        "Cursor",
+        "OpenAI"
+      ]
+    },
+    {
+      "headline": "Startup Funding Bắc Mỹ H1/2026 Phá Kỷ Lục $412.7 Tỷ USD — 80% Là AI Deals",
+      "why": "Cho founder/business: H1/2026 funding gấp 3x năm ngoái, nhưng giảm so với Q1 (OpenAI $122B mega-round). Deal lớn: SpaceX mua xAI $250B (largest venture-backed M&A ever), Prometheus (Bezos + Bajaj) raise $12B. Implication: AI vẫn hot nhưng capital concentration cao — khó raise nếu không AI-focused.",
+      "source": "Crunchbase + PitchBook + Intellizence",
+      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "AI",
+        "M&A",
+        "SpaceX-xAI"
+      ]
+    },
+    {
+      "headline": "Meta Ra Muse Image Model — Cạnh Tranh Midjourney/DALL-E, Miễn Phí Trên Meta AI/Instagram/WhatsApp",
+      "why": "Cho creative: Muse Image replace image generation trên Meta AI + Instagram (30+ AI effects mới). Claim #2 trên Arena, miễn phí — alternative Midjourney nếu bạn không cần commercial license phức tạp. Muse Video sắp ra sau. Góc phản biện: Meta đang cố giữ advertisers bằng AI tools — nếu bạn depend vào FB Ads, theo dõi xem tool này có integrate vào Ads Manager không.",
+      "source": "CNBC + Meta Blog + NYTimes",
+      "url": "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html",
+      "tags": [
+        "Muse-Image",
+        "Meta",
+        "image-generation",
+        "Instagram",
+        "WhatsApp"
+      ]
+    },
+    {
+      "headline": "AI Unicorn Mercor Mua Deeptune — Founder 23 Tuổi Brendan Foody Đã Đầu Tư Vào Startup Này Trước Khi Mua",
+      "why": "Cho founder: Foody (23 tuổi, $10B valuation) vừa mua Deeptune — startup mà anh ta đã secretly fund trước đó. Pattern này nghe quen: founder/investor position early, acquire sau khi validate. Góc skeptic: conflict of interest? hoặc smart strategic move? Bài học: nếu bạn là startup nhỏ, cẩn thận với investor có thể trở thành acquirer (upside & downside).",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+      "tags": [
+        "M&A",
+        "Mercor",
+        "Deeptune",
+        "founder",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "headline": "FloatForm — MIT Ra Robot Nhỏ Tự Lắp Ráp Trên Mặt Nước Như Kiến Vượt Sông",
+      "why": "Cho curious: FloatForm là swarm robots tự snap lại như kiến tạo bè, assemble thành structure trên nước. Ứng dụng: search & rescue, environmental monitoring. Đây là embodied AI — AI không chỉ software mà điều khiển hardware trong physical world. Góc suy nghĩ: nếu AI + robotics kết hợp, tương lai 5-10 năm sẽ ra sao?",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "robotics",
+        "MIT",
+        "embodied-AI",
+        "swarm"
+      ]
+    },
+    {
+      "headline": "Samsung Health Dọa Xóa Dữ Liệu Nếu User Opt-Out AI Training — Backlash Nhanh",
+      "why": "Cho cá nhân: Samsung Health gửi popup 'đồng ý AI training hoặc mất data'. Community phản ứng mạnh vì coercive. Bài học: check privacy settings app bạn dùng — nhiều app đang thêm AI training clause mà user không để ý. Nếu bạn không muốn data train AI, opt-out NGAY (và backup riêng).",
+      "source": "Neowin",
+      "url": "https://neow.in/cWsyMTV3",
+      "tags": [
+        "privacy",
+        "Samsung-Health",
+        "AI-training",
+        "data-rights"
+      ]
+    },
+    {
+      "headline": "Telegram Domain t.me Bị Suspend — Chưa Rõ Lý Do",
+      "why": "Cho manager/individual: t.me domain (short link Telegram) bị suspend hôm nay — chưa rõ do technical hay legal. Nếu team bạn dùng Telegram cho internal comms, chuẩn bị backup channel (Slack/Discord/Signal). Đây là reminder: platform risk — đừng depend 100% vào single comms tool.",
+      "source": "Hacker News",
+      "url": "https://www.whois.com/whois/t.me",
+      "tags": [
+        "Telegram",
+        "platform-risk",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Apple Ra SpeechAnalyzer API — Benchmark Với Whisper Cho Thấy Cải Thiện Accuracy",
+      "why": "Cho creative/developer: SpeechAnalyzer là API mới của Apple, benchmark tốt hơn Whisper (predecessor) trên một số ngôn ngữ. Nếu bạn đang build speech-to-text workflow trên Apple ecosystem, đây là upgrade option. On-device processing = privacy tốt hơn cloud API.",
+      "source": "Inscribe Blog",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "tags": [
+        "Apple",
+        "SpeechAnalyzer",
+        "Whisper",
+        "speech-to-text"
+      ]
+    },
+    {
+      "headline": "NYTimes: Nhóm Khủng Bố Dùng AI Chatbot Cho Tấn Công — Không Chỉ Propaganda Mà Còn Bomb Construction",
+      "why": "Cho curious/manager: Research mới cho thấy terrorist groups dùng AI chatbots để lên kế hoạch tấn công, build bombs — không chỉ viết propaganda. Implication: AI safety không chỉ về bias/misinformation mà còn physical harm. Nếu bạn build AI app, cần red-team về dual-use risks.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "AI-safety",
+        "terrorism",
+        "dual-use",
+        "security"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Cursor Agents Giờ Build/Test/Demo Feature End-to-End — Không Chỉ Generate Code Snippet",
+      "summary": "Cursor vừa update: agents giờ 'use their own computers to build, test, and demo features end to end'. Khác với Copilot chỉ suggest code, Cursor agents chạy full cycle — từ spec đến executable demo. OpenAI GPT-5.3-Codex hỗ trợ backend.",
+      "why": "Cho creative/producer: Nếu bạn đang dùng Cursor, update này giảm 50-70% thời gian debug/test. Agents tự test → bạn chỉ review. Nhưng lưu ý: agents chạy trên 'own computer' = local environment — cần VM/sandbox để tránh mess up codebase chính (xem Clawk tool bên dưới).",
+      "source": "Cursor",
+      "url": "https://cursor.com/",
+      "tags": [
+        "Cursor",
+        "coding-agent",
+        "workflow",
+        "GPT-5.3-Codex"
+      ]
+    },
+    {
+      "headline": "Show HN: Clawk — Cho Coding Agents Disposable Linux VM, Không Phải Laptop Bạn",
+      "summary": "Clawk là tool mới trên Hacker News — tạo disposable Linux VM cho coding agents (Cursor, Codex CLI, etc.) thay vì để agents chạy trực tiếp trên laptop. Tránh agents mess up local files.",
+      "why": "Cho creative/developer: Nếu bạn lo coding agents xóa nhầm file hoặc chạy command nguy hiểm, Clawk là giải pháp. Tạo VM throwaway, agents chạy ở đó, bạn review output → merge vào codebase chính nếu OK. Trade-off: thêm 1 bước setup, nhưng an toàn hơn nhiều.",
+      "source": "Hacker News",
+      "url": "https://github.com/clawkwork/clawk",
+      "tags": [
+        "Clawk",
+        "coding-agent",
+        "sandbox",
+        "safety"
+      ]
+    },
+    {
+      "headline": "Codex vs Claude Code — Developer Verdict June 2026: Claude Thắng Planning, Codex Thắng Execution",
+      "summary": "Explainx so sánh Codex (GPT-5.5) vs Claude Code (Opus 4.8) sau weeks thực tế: Claude Code tốt hơn brainstorming/planning large codebase; Codex (GPT-5.5) tốt hơn execution/correctness. Developers recommend: dùng Claude draft architecture, Codex implement.",
+      "why": "Cho creative/producer: Nếu team bạn đang chọn coding agent, đây là insight thực tế — không phải chỉ benchmark. Workflow tối ưu: Claude Code → draft spec/architecture, Codex → implement. Hoặc dùng Kiro (tool mới) để orchestrate cả 2.",
+      "source": "Explainx",
+      "url": "https://explainx.ai/blog/codex-vs-claude-code-ai-agent-comparison-2026",
+      "tags": [
+        "Codex",
+        "Claude-Code",
+        "comparison",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Global Startup Funding H1/2026 Phá Kỷ Lục — Nhưng Concentration Risk Cao",
+      "summary": "H1/2026: North America $412.7B (PitchBook), toàn cầu $510B (Crunchbase). OpenAI + Anthropic chiếm 43%. Largest deal: SpaceX mua xAI $250B. 80% funding Q2 là AI-focused.",
+      "why": "Cho founder/business: Thị trường vẫn nóng nhưng capital concentration = khó raise nếu không AI. Nếu bạn đang fundraise, pitch phải có AI angle rõ ràng. Delay effect: khi bubble vỡ (nếu vỡ), những startup non-AI hoặc AI marginal sẽ chết trước. Diversify revenue stream, đừng depend 100% vào VC.",
+      "source": "Crunchbase + PitchBook + Intellizence",
+      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
+      "tags": [
+        "funding",
+        "VC",
+        "AI",
+        "concentration-risk"
+      ]
+    },
+    {
+      "headline": "Prometheus (Bezos + Bajaj) Raise $12B Series A — Physical AI Startup Lớn Nhất 2026",
+      "summary": "Prometheus, startup physical AI do Jeff Bezos và Vik Bajaj (ex-Google) lead, vừa raise $12B Series A tháng 6 — largest AI hardware startup funding 2026. Focus: embodied AI + robotics.",
+      "why": "Cho business/founder: Physical AI (AI + hardware) đang hot — nhìn Prometheus, Figure, Tesla Bot. Nếu bạn có background robotics/manufacturing, đây là sector để pivot vào. Implication dài hạn: AI không chỉ software — hardware sẽ là battlefield tiếp theo.",
+      "source": "Intellizence",
+      "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-june-2026-ai-infrastructure-and-robotics/",
+      "tags": [
+        "Prometheus",
+        "physical-AI",
+        "robotics",
+        "Bezos"
+      ]
+    },
+    {
+      "headline": "Gartner Report Tố Nhiều Dự Án 'Agentic AI' Chỉ Là Rebrand Marketing",
+      "summary": "Gartner June 2025 report (vẫn relevant 2026) nói nhiều project claim 'agentic AI' nhưng thực chất chỉ rebrand chatbot/automation cũ. True agentic AI cần: multi-step reasoning, tool use, self-correction.",
+      "why": "Cho manager/founder: Nếu vendor pitch 'agentic AI', hỏi cụ thể: model nào? reasoning depth? tool integration? Nhiều vendor lợi dụng hype. Góc skeptic: đừng mua vào buzzword — test POC trước khi commit budget lớn.",
+      "source": "Wikipedia + Gartner",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tags": [
+        "agentic-AI",
+        "Gartner",
+        "marketing-hype",
+        "skeptic"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "n8n Workflow Automation — Native AI Capabilities, 400+ Integrations, 196K Stars",
+      "why": "Cho creative/manager: n8n là low-code workflow tool với AI tích hợp sẵn — alternative Zapier nhưng self-host được. 400+ integrations. Nếu team cần automate repetitive tasks (data entry, report generation), n8n + AI nodes = powerful combo. Open-source = control data.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "196325"
+    },
+    {
+      "headline": "Firecrawl — API Scrape & Interact With Web At Scale, 150K Stars",
+      "why": "Cho developer/creative: Firecrawl là tool scrape web data at scale — useful cho AI training data hoặc market research. 150K stars. Lưu ý legal: scraping có thể vi phạm ToS một số site — check trước khi deploy production.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "150415"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development, 148K Stars",
+      "why": "Cho manager/developer: Dify là platform build agentic workflows — từ prototype đến production. 148K stars. So với LangChain (code-heavy), Dify có GUI + deployment built-in. Nếu team không có ML engineer, Dify giảm barrier to entry.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "148713"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Ollama, OpenAI API), 145K Stars",
+      "why": "Cho cá nhân/developer: Open WebUI là frontend cho Ollama/OpenAI API — self-host được. Nếu bạn muốn ChatGPT-like interface nhưng control data, đây là option. 145K stars.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "145314"
+    },
+    {
+      "headline": "System Prompts & Models of AI Tools — FULL List Cursor, Devin, Codex, Windsurf, etc.",
+      "why": "Cho developer: Repo này leak/document system prompts của các AI coding tools (Cursor, Devin, Codex, Windsurf, etc.). Useful nếu bạn muốn hiểu 'how they work under the hood' hoặc reverse-engineer workflow. Góc đạo đức: leak này có hợp pháp không? nhưng info đã public rồi.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": "N/A"
+    },
+    {
+      "headline": "Superpowers Framework — 'Software Methodology That Actually Works', 253K Stars",
+      "why": "Cho manager/developer: Superpowers là methodology mới cho agentic skills development — alternative Agile/Scrum nhưng design cho AI-first teams. 253K stars. Show HN tuần trước viral. Nếu team bạn đang struggle với AI integration vào workflow, đọc framework này.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "253859"
+    },
+    {
+      "headline": "Hermes Agent — 'The Agent That Grows With You' By Nous Research, 214K Stars",
+      "why": "Cho developer: Hermes Agent từ Nous Research — claim 'agent học theo user behavior'. 214K stars. Open-source alternative Devin/Cursor. Nếu bạn muốn self-host coding agent, Hermes là option. Nhưng setup phức tạp hơn commercial tools.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "214252"
+    },
+    {
+      "headline": "AutoGPT — 'Vision of Accessible AI for Everyone', 185K Stars",
+      "why": "Cho curious/developer: AutoGPT là pioneer agentic AI (2023), vẫn active development. 185K stars. Nếu bạn mới tìm hiểu 'agent là gì', AutoGPT là nơi tốt để bắt đầu — code + docs rõ ràng.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185511"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] LiquidAI LFM2.5-1.2B-Instruct (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model liquid/lfm-2.5-1.2b-instruct:free không còn trên OpenRouter.",
+      "why": "Migrate users away nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-instruct:free",
+      "tags": [
+        "OpenRouter",
+        "deprecated",
+        "LiquidAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] LiquidAI LFM2.5-1.2B-Thinking (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model liquid/lfm-2.5-1.2b-thinking:free không còn trên OpenRouter.",
+      "why": "Migrate users away nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-thinking:free",
+      "tags": [
+        "OpenRouter",
+        "deprecated",
+        "LiquidAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] OpenAI gpt-oss-120b (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model openai/gpt-oss-120b:free không còn trên OpenRouter.",
+      "why": "Migrate users away nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b:free",
+      "tags": [
+        "OpenRouter",
+        "deprecated",
+        "OpenAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Tăng Giá 12.5% — $0.09/$0.18 Per M Token",
+      "event": "price",
+      "summary": "Prompt $0.08 → $0.09, completion $0.15 → $0.18 (per million tokens).",
+      "why": "Nếu đang dùng DeepSeek V4 Flash trên OpenRouter, budget tăng 12.5%. Cân nhắc switch sang model khác nếu cost-sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "OpenRouter",
+        "price-increase",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI gpt-oss-120b Giảm Giá — $0.03/$0.15 Per M Token",
+      "event": "price",
+      "summary": "Prompt $0.04 → $0.03, completion $0.18 → $0.15 (per million tokens).",
+      "why": "Cheaper option cho users cần GPT-scale model. Giảm 25% prompt cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "OpenRouter",
+        "price-decrease",
+        "OpenAI"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 Tăng Giá Mạnh — $0.93/$3.00 Per M Token (121-127% Tăng)",
+      "event": "price",
+      "summary": "Prompt $0.42 → $0.93 (+121%), completion $1.32 → $3.00 (+127%) — per million tokens.",
+      "why": "Tăng giá đột ngột — nếu đang dùng GLM 5.2 trên OpenRouter, migrate sang model khác hoặc budget tăng gấp đôi.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "OpenRouter",
+        "price-increase",
+        "Z.ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V3.1 Tăng Giá Nhẹ — $0.25/$0.95 Per M Token",
+      "event": "price",
+      "summary": "Prompt $0.21 → $0.25, completion $0.79 → $0.95 (per million tokens).",
+      "why": "Tăng ~19-20%. Nếu cost-sensitive, cân nhắc alternative.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1",
+      "tags": [
+        "OpenRouter",
+        "price-increase",
+        "DeepSeek"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 183,
+    "brave": 53,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 7
+  }
+}
