@@ -1,0 +1,327 @@
+{
+  "date": "2026-07-16",
+  "updated_at": "2026-07-16T06:51:06.574974+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "OpenAI Thua Kiện Nhãn Hiệu 'OpenAI' Tại EU — Tòa Bác Đơn Độc Quyền",
+    "summary": "Tòa án Liên minh Châu Âu bác đơn đăng ký nhãn hiệu 'OpenAI' của công ty. Đây là thất bại pháp lý hiếm hoi cho OpenAI tại thị trường châu Âu, có thể ảnh hưởng đến branding và bảo vệ thương hiệu trong khu vực.",
+    "why": "Cho manager/founder: nếu công ty bạn expand sang EU, trademark dispute là rủi ro thực — đăng ký sớm và check prior art. OpenAI mất thương hiệu tại EU nghĩa là competitor có thể dùng tên tương tự mà không vi phạm.",
+    "source": "DPA International",
+    "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+    "tags": [
+      "legal",
+      "openai",
+      "trademark",
+      "eu"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "AI Voice Fraud Chỉ Cần 3 Giây Ghi Âm — Bypass Mọi Defense Hiện Tại",
+      "why": "Cho cá nhân: nếu bạn chia sẻ voice note/video có giọng nói công khai, đây là vector tấn công mới — scammer clone giọng trong 3s để lừa đảo người thân. Không share audio của mình lung tung.",
+      "source": "Smarter Articles",
+      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "tags": [
+        "security",
+        "deepfake",
+        "voice-cloning"
+      ]
+    },
+    {
+      "headline": "Cursor Agent Giờ Tự Build & Demo Feature End-to-End — User Chỉ Review",
+      "why": "Cho creative/developer: coding agent giờ không chỉ viết code mà còn tự test + demo trên máy riêng trước khi đưa bạn xem. Giảm 60-70% thời gian QA loop. Nếu team bạn chưa dùng agentic coding, đây là thời điểm.",
+      "source": "Cursor",
+      "url": "https://cursor.com/",
+      "tags": [
+        "cursor",
+        "agentic-coding",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Krea 2 Foundation Model Ra Mắt — Focus Style Control & Aesthetic Diversity",
+      "why": "Cho creative: model image mới từ Krea built from scratch, ưu tiên control style và đa dạng thẩm mỹ thay vì chỉ photorealistic. Open-source model, phù hợp cho ai cần fine-tune style riêng.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "image-generation",
+        "krea",
+        "opensource"
+      ]
+    },
+    {
+      "headline": "Creen AI — Free Unlimited AI Video/Image Generator, 40+ Models, Không Cần Đăng Ký",
+      "why": "Cho creative: alternative cho Runway/Kling nếu bạn cần prototype nhanh mà không muốn trả phí. Hỗ trợ Sora 2, VEO 3.1, Nano Banana Pro — tất cả free và không login.",
+      "source": "Creen AI",
+      "url": "https://www.creen.ai/",
+      "tags": [
+        "video-generation",
+        "free-tools",
+        "creen"
+      ]
+    },
+    {
+      "headline": "US Venture Funding H1/2026 Phá Kỷ Lục $412.7B — 80% Là AI Deals",
+      "why": "Cho business/founder: thị trường vẫn đổ tiền mạnh vào AI startup dù bong bóng lo ngại. Deal lớn nhất: SpaceX mua xAI $250B. Nếu bạn fundraise, pitch góc AI integration sẽ tăng khả năng close.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/",
+      "tags": [
+        "funding",
+        "ai-deals",
+        "venture-capital"
+      ]
+    },
+    {
+      "headline": "Probook Raise $40M (Andreessen + Sequoia) — AI Dispatch Plumber & Home Services",
+      "why": "Cho business: AI agent giờ không chỉ cho tech — startup này dùng AI để tự động dispatch thợ sửa ống nước/điện. Pattern này có thể áp dụng cho mọi dịch vụ on-demand tại VN (xe ôm tech, sửa chữa, logistics).",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare/",
+      "tags": [
+        "funding",
+        "ai-agents",
+        "home-services"
+      ]
+    },
+    {
+      "headline": "Prometheus (Jeff Bezos + Ex-Google) Raise $12B Series A — Physical AI Startup",
+      "why": "Cho business: physical AI (robotics + embodied AI) đang hút vốn khủng. Nếu bạn làm hardware/robotics/logistics, đây là thời điểm tốt để pivot thêm AI vào pitch deck.",
+      "source": "Intellizence",
+      "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-june-2026-ai-infrastructure-and-robotics/",
+      "tags": [
+        "funding",
+        "robotics",
+        "physical-ai"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "LTX Image-to-Video Model — Production-Ready, Scalable & Controllable",
+      "summary": "LTX ra model chuyên image-to-video cho team production, focus vào scalable workflow thay vì consumer tool. API-first, phù hợp cho batch render.",
+      "why": "Cho creative/producer: nếu bạn cần render hàng trăm video từ image cùng lúc (vd product demo, ad variants), model này optimize cho throughput thay vì creative flexibility. Check API pricing trước khi commit.",
+      "source": "LTX",
+      "url": "https://ltx.io/model/capabilities/image-to-video-model",
+      "tags": [
+        "image-to-video",
+        "production",
+        "ltx"
+      ]
+    },
+    {
+      "headline": "Markup AI Ra Content Guardian Agents — Compliance Suite Scan Textual Outputs",
+      "summary": "Startup ra tool dùng AI agents giám sát outputs của AI khác, check compliance với brand guidelines, voice, clarity. Specialized sub-agents cho từng tiêu chí.",
+      "why": "Cho manager: nếu team bạn dùng AI viết content (marketing, support, sales), Compliance Agent này giúp catch lỗi trước khi publish — giảm rủi ro brand damage. Pattern: AI check AI.",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "tags": [
+        "compliance",
+        "content-agents",
+        "martech"
+      ]
+    },
+    {
+      "headline": "Android 17 & Wear OS 7 Ra Mắt — Gemini AI Tích Hợp, Gemini Omni Cho Video Editing",
+      "summary": "Google ra Android 17 với Gemini AI native. Pixel Drop có Gemini Omni (video editing bằng AI), Lyria 3 (music generation), AudioLM (speech-to-translation realtime).",
+      "why": "Cho creative/individual: nếu bạn dùng Android, Gemini Omni trên Pixel cho phép edit video bằng lời nói — không cần mở Premiere. Lyria 3 tạo nhạc nền miễn phí cho video ngắn. Tiện cho solo creator.",
+      "source": "Crescendo AI",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "tags": [
+        "google",
+        "android",
+        "gemini-omni",
+        "video-editing"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "SynthDocBench — Benchmark Mới Cho Long-Context Visual Document Understanding",
+      "summary": "Nghiên cứu mới từ HuggingFace tạo benchmark controlled để test VLM (vision language model) trên document dài — control độ dài, layout, modality. Mục tiêu: đo lường thực sự khả năng hiểu document phức tạp, không chỉ DocVQA/ChartQA.",
+      "why": "Cho curious: nghiên cứu này giải thích vì sao AI đọc PDF dài vẫn hay sai — benchmark cũ không đủ khó. SynthDocBench giúp bạn hiểu model nào thực sự giỏi đọc báo cáo/hợp đồng dài (quan trọng nếu bạn dùng AI cho legal/finance).",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2607.10400",
+      "tags": [
+        "research",
+        "vision-language",
+        "benchmark"
+      ]
+    }
+  ],
+  "business": [],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "Superpowers Framework — 'Software Methodology That Actually Works' Viral 255K Sao",
+      "why": "Cho developer: framework agentic skills này đang viral vì claim 'methodology that works' — không chỉ buzzword. Nếu team bạn đang loay hoay với AI workflow, đọc repo này để học cách structure agentic development.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "255391"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI (196K Sao)",
+      "why": "Cho manager/creative: n8n là alternative self-host cho Zapier, có AI agents native. Nếu bạn muốn automate workflow nhưng không muốn vendor lock-in, n8n là lựa chọn open-source tốt nhất hiện tại.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "196580"
+    },
+    {
+      "headline": "Firecrawl — API Scrape & Interact Với Web At Scale (151K Sao)",
+      "why": "Cho developer: nếu bạn build AI agent cần scrape data từ web (vd research assistant, price monitoring), Firecrawl là tool production-ready. 151K sao chứng tỏ community trust.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "151528"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform Cho Agentic Workflow Development (148K Sao)",
+      "why": "Cho manager/developer: nếu bạn muốn deploy agentic workflow không cần code từ đầu, Dify là platform all-in-one. Alternative cho LangChain nhưng focus production readiness hơn.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "148959"
+    },
+    {
+      "headline": "Open-WebUI — User-Friendly AI Interface Hỗ Trợ Ollama & OpenAI API (145K Sao)",
+      "why": "Cho individual: nếu bạn muốn self-host ChatGPT-like interface cho privacy hoặc custom model, Open-WebUI là lựa chọn tốt nhất. Hỗ trợ cả Ollama (local) và OpenAI API (cloud).",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "145554"
+    },
+    {
+      "headline": "Deja-Vu — Open-Source Memory Cho Coding Agents, Synced Over SSH",
+      "why": "Cho developer: tool này giúp coding agent 'nhớ' context qua nhiều phiên làm việc, sync qua SSH. Useful nếu bạn làm remote với team và muốn agent nhớ codebase context.",
+      "source": "GitHub",
+      "url": "https://github.com/vshulcz/deja-vu/",
+      "stars": "N/A"
+    },
+    {
+      "headline": "Inkling — Open-Weights Model Mới Từ Thinking Machines AI",
+      "why": "Cho developer: model open-weights mới, chưa rõ benchmark nhưng từ team có reputation. Nếu bạn cần alternative cho Llama/Mistral, đáng thử.",
+      "source": "Thinking Machines AI",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Arcee AI: Coder Large Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model arcee-ai/coder-large không còn trên OpenRouter.",
+      "why": "Migrate user sang alternative (vd Qwen3 Coder, GPT-5.3-Codex).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/arcee-ai/coder-large",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax M1 Tăng $0.40→$0.55 Prompt",
+      "event": "price",
+      "summary": "Prompt cost tăng 37.5%, completion giữ nguyên $2.20.",
+      "why": "Nếu bạn dùng MiniMax M1 với prompt dài, chi phí tăng đáng kể — xem xét migrate.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m1",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Mistral Small 3.2 24B Tăng Giá Completion $0.20→$0.30",
+      "event": "price",
+      "summary": "Prompt $0.07→$0.10, completion $0.20→$0.30.",
+      "why": "Mistral Small vẫn rẻ nhưng completion cost tăng 50% — check usage pattern trước khi scale.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 Coder 480B Giảm Completion $1.80→$1.00",
+      "event": "price",
+      "summary": "Prompt tăng $0.22→$0.30, completion giảm mạnh $1.80→$1.00.",
+      "why": "Cheaper alternative cho GPT-5.3-Codex nếu bạn dùng coding agent với output dài.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-coder",
+      "tags": [
+        "openrouter",
+        "price",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Tăng Nhẹ $0.09→$0.10 Prompt",
+      "event": "price",
+      "summary": "Prompt $0.09→$0.10, completion $0.18→$0.20.",
+      "why": "Vẫn là model rẻ nhất tier flagship — tăng giá nhẹ không ảnh hưởng nhiều.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.3 70B Tăng $0.10→$0.13 Prompt",
+      "event": "price",
+      "summary": "Prompt $0.10→$0.13, completion $0.32→$0.40.",
+      "why": "Llama 3.3 vẫn rẻ nhưng completion cost tăng 25% — check nếu bạn dùng nhiều.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5 Tăng Mạnh $0.60→$0.95 Prompt",
+      "event": "price",
+      "summary": "Prompt $0.60→$0.95, completion $1.92→$3.15.",
+      "why": "GLM 5 tăng giá 58% prompt, 64% completion — migrate nếu budget tight.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Tăng Gấp 3x Prompt $0.25→$0.80",
+      "event": "price",
+      "summary": "Prompt tăng 220%, completion $0.75→$1.00.",
+      "why": "Vision-language model này tăng giá mạnh — nếu bạn dùng cho OCR/visual tasks, tìm alternative.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+      "tags": [
+        "openrouter",
+        "price",
+        "vision"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.1 8B Tăng Gấp Đôi $0.02→$0.05 Prompt",
+      "event": "price",
+      "summary": "Prompt $0.02→$0.05, completion $0.03→$0.08.",
+      "why": "Llama 8B vẫn model rẻ nhất nhưng tăng giá 150% — vẫn affordable cho most use cases.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 204,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 49,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 34
+  }
+}
