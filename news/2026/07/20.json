@@ -1,0 +1,361 @@
+{
+  "date": "2026-07-20",
+  "updated_at": "2026-07-20T09:27:43.058052+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "OpenAI Cắt Context Window Codex Từ 372K Xuống 272K — Developer Phản Ứng Trái Chiều",
+    "summary": "OpenAI âm thầm giảm context window của Codex model từ 372K token xuống 272K token (giảm 27%), gây tranh cái trong cộng đồng developer. Pull request trên GitHub cho thấy thay đổi này không có thông báo trước. Nhiều developer phàn nàn về ảnh hưởng đến large codebase workflows đã tối ưu cho context dài.",
+    "why": "Cho cá nhân/developer: nếu bạn đang dùng Codex CLI xử lý codebase lớn (>200K tokens), workflow có thể bị break. Cần test lại hoặc cân nhắc migrate sang Claude Code (200K) hoặc Gemini 2.5 Pro (2M context) nếu cần context dài. Đây là reminder: OpenAI thay đổi spec mà không báo trước — đừng hardcode assumptions về model capability.",
+    "source": "GitHub",
+    "url": "https://github.com/openai/codex/pull/33972/files",
+    "tags": [
+      "codex",
+      "context-window",
+      "developer-tools",
+      "breaking-change"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Nghiên Cứu MIT: AI Advice Khiến User Ít Chính Xác Hơn Nhưng Tự Tin Hơn",
+      "why": "Cho cá nhân + manager: khi dùng AI suggest (code review, hiring decision, strategy), cẩn thận hiệu ứng 'over-confidence'. Study cho thấy user nhận AI advice thường suppress critical thinking và sai nhiều hơn nhưng lại tự tin hơn về quyết định. Cơ chế: đặt checkpoint 'verify AI output' trước khi commit quyết định quan trọng.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "tags": [
+        "research",
+        "psychology",
+        "decision-making",
+        "risk"
+      ]
+    },
+    {
+      "headline": "Moonshot AI Tạm Ngưng Đăng Ký Mới Vì Nhu Cầu Kimi K3 Quá Tải",
+      "why": "Cho business/founder: Kimi K3 (Chinese LLM) đang viral đến mức infrastructure không kham nổi — dấu hiệu product-market fit mạnh nhưng cũng là warning về capacity planning. Nếu bạn build AI product, đừng underestimate scaling challenge khi viral.",
+      "source": "Twitter @kimi_moonshot",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "tags": [
+        "kimi",
+        "moonshot-ai",
+        "scaling",
+        "china"
+      ]
+    },
+    {
+      "headline": "Ollama Blog: 'All Aboard Open Models' — Góc Nhìn Tổng Quan Về Open-Weight AI",
+      "why": "Cho curious: bài viết dễ hiểu về lịch sử và hiện trạng open-source AI models, giải thích vì sao open-weight quan trọng (transparency, customization, cost). Tốt cho người mới muốn hiểu landscape mà không bị ngợp jargon.",
+      "source": "Ollama",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "tags": [
+        "open-source",
+        "education",
+        "ollama"
+      ]
+    },
+    {
+      "headline": "MIT News: Nhà Khoa Học Xây Neural Network Hoạt Động Giống Neuron Thật",
+      "why": "Cho curious: breakthrough về 'artificial neurons' mô phỏng cách neuron sinh học học hỏi và nhớ. Không phải tin thực tiễn ngắn hạn, nhưng đáng chú ý vì có thể dẫn đến AI energy-efficient hơn (neuron sinh học tiêu thụ năng lượng cực ít so với GPU).",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "neuromorphic",
+        "energy-efficiency"
+      ]
+    },
+    {
+      "headline": "Roblox Ra 'Build' — AI Tạo Game Từ Prompt Trên Điện Thoại",
+      "why": "Cho creative + curious: Roblox democratize game creation — gõ prompt trên điện thoại là có game chạy được. Pattern tương tự Cursor/v0 nhưng cho game thay vì code. Ý nghĩa: barrier to entry giảm → explosion nội dung UGC (cả chất lượng và rác).",
+      "source": "AlternativeTo",
+      "url": "https://alternativeto.net/news/2026/7/roblox-is-launching-an-ai-tool-for-creating-games-from-prompts-on-mobile/",
+      "tags": [
+        "game-dev",
+        "no-code",
+        "ugc",
+        "roblox"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Creen AI — Free Unlimited Video/Image Generator, 40+ Models (Sora 2, VEO 3.1), Không Cần Đăng Ký",
+      "summary": "Creen AI là platform miễn phí cho video/image generation với 40+ models bao gồm Sora 2, VEO 3.1, Nano Banana Pro. Không yêu cầu đăng ký/đăng nhập. Unlimited usage (có thể có rate limit ẩn).",
+      "why": "Cho creative: alternative miễn phí cho Runway/Kling nếu bạn cần test nhanh hoặc prototype. Cẩn thận về terms of use (ai sở hữu output?) và sustainability (free unlimited thường không bền — dùng trong khi còn). Tốt cho experimentation, không nên dựa vào cho production critical.",
+      "source": "Creen AI",
+      "url": "https://www.creen.ai/",
+      "tags": [
+        "video-generation",
+        "free-tools",
+        "sora",
+        "veo"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên Cứu Mới: Quantum Computing + AI Cải Thiện Dự Đoán Hệ Thống Hỗn Loạn",
+      "summary": "Nhóm nghiên cứu kết hợp quantum computing với AI để dự đoán chính xác hơn các hệ thống hỗn loạn (chaotic systems như thời tiết, chứng khoán). Quantum algorithm giúp AI học pattern trong data nhiễu/không tuyến tính tốt hơn classical methods.",
+      "why": "Phát hiện này quan trọng vì hệ thống hỗn loạn (weather, climate, market) rất khó dự đoán. Nếu quantum + AI vượt qua classical AI, có thể cải thiện dự báo thời tiết dài hạn hoặc risk modeling tài chính. Nhưng vẫn còn xa ứng dụng thực tế (quantum hardware chưa ready).",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "quantum-computing",
+        "chaos-theory",
+        "prediction"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Fireworks AI Raise $1.5B — Vòng Lớn Nhất Tuần, Focus Enterprise AI Infrastructure",
+      "summary": "Fireworks AI (enterprise AI infrastructure startup) raise $1.5 tỷ USD, là vòng lớn nhất tuần này. Company focus vào serving AI models cho enterprise với SLA cao và customization. Investor chưa công bố đầy đủ.",
+      "why": "Cho business/founder: enterprise AI infrastructure đang hot — $1.5B round chứng tỏ investor tin vào 'picks and shovels' (bán infra) hơn là bán app. Nếu bạn build AI product, cân nhắc strategy: build on top (dễ start, nhiều cạnh tranh) vs build infra (khó hơn, margin cao hơn).",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+      "tags": [
+        "funding",
+        "enterprise",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "H1 2026 Venture Funding Phá Kỷ Lục $510B — Hơn 70% Vốn Q2 Vào AI",
+      "summary": "Venture funding nửa đầu 2026 đạt $510 tỷ USD, phá kỷ lục. Hơn 70% vốn Q2 đổ vào các công ty AI-focused. Vốn vẫn tập trung vào một số ít 'winners' — distribution rất skewed.",
+      "why": "Cho founder/đầu tư: AI đang hút vacuum toàn bộ venture capital. Nhưng 'tide lifts all boats' KHÔNG đúng — chỉ top 10% startup AI raise được, phần còn lại chết đói. Nếu bạn raise, pitch phải rõ 'why you win' (moat, data, distribution), không chỉ 'we use AI'.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/07/16/venture-capital-startup-funding-roundup-july-16-2026-8vc-accel-ark-invest-gv-khosla-ventures-mark-cuban-and-sequoia-capital/",
+      "tags": [
+        "venture-capital",
+        "funding",
+        "market-trends"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Nghiên Cứu: AI Advice Làm User Ít Chính Xác Hơn Nhưng Tự Tin Hơn — Nguy Cơ 'Automation Bias'",
+      "summary": "Study từ MIT/Stanford cho thấy khi user nhận AI suggestion, họ thường suppress critical thinking, đưa ra quyết định sai nhiều hơn nhưng lại tự tin hơn về độ chính xác. Hiện tượng 'automation bias' — tin AI mù quáng.",
+      "why": "Cho manager + individual: đây là phản biện quan trọng về 'AI augmentation'. AI không phải oracle — nó có thể sai, và nếu bạn không verify, sai lầm sẽ compound bởi overconfidence. Cơ chế: luôn đặt checkpoint 'challenge AI output' trước quyết định quan trọng (hiring, medical, legal, financial).",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "tags": [
+        "psychology",
+        "bias",
+        "critical-thinking",
+        "risk"
+      ]
+    },
+    {
+      "headline": "User Phàn Nàn: 'Chúng Ta Đang Offload Quá Nhiều Thinking Sang AI?' — Debate Về Cognitive Outsourcing",
+      "summary": "Thread viral trên Hacker News/Reddit: nhiều user tự nhận thấy kỹ năng tư duy/giải quyết vấn đề suy giảm vì quá phụ thuộc AI. Câu hỏi: liệu 'cognitive outsourcing' có làm con người dốt đi? Hoặc đây là evolution tự nhiên (giống calculator không làm người ta quên toán)?",
+      "why": "Cho individual + curious: đây là câu hỏi triết học và thực tiễn. Nếu bạn dùng AI mọi lúc (code, write, decide), có thể kỹ năng nền tảng (reasoning, debugging, writing) bị atrophy. Khuyến nghị: practice 'deliberate thinking' — 20% thời gian làm việc KHÔNG dùng AI, để giữ 'muscle memory' tư duy.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "tags": [
+        "cognitive-outsourcing",
+        "skills",
+        "debate"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — Personal AI Assistant Chạy Local, Cross-Platform, 'The Lobster Way' 🦞",
+      "why": "AI assistant open-source chạy local trên mọi OS/platform. 383K stars cho thấy interest cao. Tốt cho ai muốn privacy (data không lên cloud) hoặc customize sâu. 'Lobster way' là gì thì chưa rõ — có thể là branding quirky.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "383499"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Alternative open-source cho Zapier/Make.com, có tích hợp AI native. 197K stars. Self-host hoặc cloud, 400+ integrations. Tốt cho automation workflows kết hợp AI (vd: RSS → LLM summarize → Slack).",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "197085"
+    },
+    {
+      "headline": "Prompts.chat — Share & Discover Prompts, Self-Host Cho Tổ Chức",
+      "why": "Open-source prompt library (f.k.a. Awesome ChatGPT Prompts). 166K stars. Self-host cho privacy. Tốt cho team muốn chia sẻ prompt templates nội bộ mà không lên public cloud.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "166033"
+    },
+    {
+      "headline": "Firecrawl — API To Search, Scrape & Interact With The Web At Scale 🔥",
+      "why": "Open-source scraping/search API. 153K stars. Hữu ích cho AI agents cần thu thập data từ web (research, market intel). Scale tốt hơn BeautifulSoup/Selenium thủ công.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "153178"
+    },
+    {
+      "headline": "Dify — Production-Ready Platform For Agentic Workflow Development",
+      "why": "Open-source platform build agentic AI workflows. 149K stars. Alternative cho LangChain/LlamaIndex nhưng focus production-ready hơn. Tốt cho developer muốn deploy AI agents có tool use/multi-step reasoning.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "149374"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
+      "why": "Open-source UI cho local/cloud LLMs. 146K stars. Hỗ trợ Ollama, OpenAI API. Tốt cho ai muốn ChatGPT-like interface nhưng self-host hoặc dùng custom models.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "146000"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Venice: Uncensored (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model cognitivecomputations/dolphin-mistral-24b-venice-edition:free không còn trên OpenRouter.",
+      "why": "Migrate sang alternative nếu đang dùng (vd Llama 3.3 70B hoặc Mixtral).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Meta: Llama 3.2 3B Instruct (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model meta-llama/llama-3.2-3b-instruct:free không còn trên OpenRouter.",
+      "why": "Nếu dùng cho lightweight tasks, migrate sang Gemma 2 9B hoặc Qwen 2.5 7B.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.2-3b-instruct:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Meta: Llama 3.3 70B Instruct (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model meta-llama/llama-3.3-70b-instruct:free không còn trên OpenRouter.",
+      "why": "Free tier 70B không còn — migrate sang paid Llama 3.3 70B hoặc free alternatives nhỏ hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Nous: Hermes 3 405B Instruct (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model nousresearch/hermes-3-llama-3.1-405b:free không còn trên OpenRouter.",
+      "why": "Free 405B model không còn — migrate sang paid hoặc smaller open models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-405b:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Qwen: Qwen3 Coder 480B A35B (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model qwen/qwen3-coder:free không còn trên OpenRouter.",
+      "why": "Free Qwen coder tier không còn — migrate sang Codex hoặc DeepSeek Coder.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-coder:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Qwen: Qwen3 Next 80B A3B Instruct (Free) Bị Xóa",
+      "event": "deprecated",
+      "summary": "Model qwen/qwen3-next-80b-a3b-instruct:free không còn trên OpenRouter.",
+      "why": "Migrate sang paid Qwen hoặc free alternatives (Llama, Mixtral).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-instruct:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3 235B A22B Thinking 2507 Tăng Giá 2x",
+      "event": "price",
+      "summary": "Prompt $0.15 → $0.30, completion $1.50 → $3.00 per M tokens.",
+      "why": "Qwen flagship thinking model tăng giá gấp đôi — cân nhắc GPT-5.6 Sol hoặc Claude Fable 5 nếu cost-sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5 Giảm Giá Completion 19%",
+      "event": "price",
+      "summary": "Completion giảm từ $3.15 → $2.55 per M tokens.",
+      "why": "GLM 5 (Chinese model) rẻ hơn — alternative cho Kimi/Qwen nếu làm việc với tiếng Trung.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5",
+      "tags": [
+        "price-decrease"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA: Nemotron 3 Super Giảm Giá 62% Prompt",
+      "event": "price",
+      "summary": "Prompt $0.21 → $0.08, completion $0.45 → $0.40 per M tokens.",
+      "why": "Nemotron 3 Super giảm giá mạnh — tốt cho large-scale inference (chatbot, summarization). Nvidia đang compete về giá.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
+      "tags": [
+        "price-decrease"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B Giảm Giá Prompt 30%, Tăng Completion 13%",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.07, completion $0.30 → $0.34 per M tokens.",
+      "why": "Mixed price change — tốt nếu workload heavy prompt (few-shot), tệ nếu heavy generation.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price-mixed"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 31B Tăng Giá 83% Prompt, 49% Completion",
+      "event": "price",
+      "summary": "Prompt $0.12 → $0.22, completion $0.37 → $0.55 per M tokens.",
+      "why": "Gemma 4 31B đắt hơn đáng kể — cân nhắc Llama 3.3 70B hoặc Mixtral nếu cost-sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2 Tăng Giá 15% Prompt, 18% Completion",
+      "event": "price",
+      "summary": "Prompt $0.26 → $0.30, completion $1.02 → $1.20 per M tokens.",
+      "why": "MiniMax M2 đắt hơn — nếu dùng cho Chinese workloads, so sánh với Kimi/Qwen/GLM.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.6 Giảm Giá 28% Prompt, 15% Completion",
+      "event": "price",
+      "summary": "Prompt $0.95 → $0.68, completion $4.00 → $3.42 per M tokens.",
+      "why": "Kimi K2.6 rẻ hơn — cạnh tranh với Qwen/GLM. Tốt cho Chinese language tasks (long context).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+      "tags": [
+        "price-decrease"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 161,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 5,
+    "rss": 48,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 13
+  }
+}
