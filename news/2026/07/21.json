@@ -1,0 +1,278 @@
+{
+  "date": "2026-07-21",
+  "updated_at": "2026-07-21T06:47:18.822875+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Fireworks AI Raise $1.5B — Vòng Lớn Nhất Tuần Này, Focus Enterprise AI Infrastructure",
+    "summary": "Fireworks AI vừa đóng vòng $1.5 tỷ USD, là deal lớn nhất tuần này trong làn sóng funding AI 2026. Công ty tập trung vào infrastructure cho doanh nghiệp chạy AI models at scale — phân khúc đang nóng khi các tổ chức lớn chuyển từ pilot sang production. Đây là tín hiệu tiếp theo của xu hướng 'infrastructure eats the world' trong AI stack.",
+    "why": "Cho manager/founder: Funding khủng vào infrastructure (không phải model) nghĩa là bạn nên đầu tư vào ops/deployment capability, không chỉ mua models. Fireworks-style platform sẽ commodity hóa việc deploy models — competitive advantage nằm ở data + workflows riêng của bạn.",
+    "source": "Crunchbase News",
+    "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+    "tags": [
+      "funding",
+      "enterprise",
+      "infrastructure"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Developer Tìm WordPress RCE Với GPT-5.6 và $25 — Exploit Brokers Trả $500K",
+      "why": "Cho creative/individual: AI đã giúp amateur tìm lỗ hổng bảo mật chuyên nghiệp. Nếu bạn manage WordPress sites, kiểm tra patches ngay — khi AI dễ dàng tìm ra exploits, attacker cũng vậy.",
+      "source": "Hacker News",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "tags": [
+        "security",
+        "practical"
+      ]
+    },
+    {
+      "headline": "Gemini 3.5 Launches — Google DeepMind Nói 'Massive Leap' Về Long Context",
+      "why": "Cho individual: Gemini 3.5 xử lý context dài tốt hơn Gemini 2.5 Pro đáng kể. Nếu công việc của bạn cần phân tích docs/reports dài, đây là upgrade đáng thử (qua Gemini hoặc tích hợp Cursor).",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/",
+      "tags": [
+        "model_update",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Krea 2 Foundation Model Ra Mắt — Focus Style Control & Aesthetic Diversity",
+      "why": "Cho creative: Krea 2 là model open-source focus vào kiểm soát phong cách và đa dạng thẩm mỹ. Nếu bạn làm design/art direction, đây là công cụ customize visual style mà Midjourney/DALL-E không cho.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "creative",
+        "opensource",
+        "image_generation"
+      ]
+    },
+    {
+      "headline": "Roblox Launches 'Build' — AI Tạo Game Từ Prompt Trên Điện Thoại",
+      "why": "Cho curious: Roblox cho phép tạo game từ text prompt ngay trên mobile — không cần code. Đây là tín hiệu 'creation tools democratization' ở thế hệ tiếp theo (game sau video).",
+      "source": "AlternativeTo",
+      "url": "https://alternativeto.net/news/2026/7/roblox-is-launching-an-ai-tool-for-creating-games-from-prompts-on-mobile/",
+      "tags": [
+        "creative",
+        "gaming",
+        "no_code"
+      ]
+    },
+    {
+      "headline": "China Open-Weights AI Strategy Đang Thắng — Bài Phân Tích Dài",
+      "why": "Cho business/manager: Chiến lược open-weight từ Trung Quốc (Moonshot, Qwen, DeepSeek) đang áp đảo closed models Mỹ về adoption tốc độ. Nếu bạn build AI product, cân nhắc strategy: closed + moat data hay open + moat ops?",
+      "source": "Hacker News",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "tags": [
+        "strategy",
+        "geopolitics",
+        "business"
+      ]
+    },
+    {
+      "headline": "Whatnot Mua Madrona-Backed AI Startup Shaped — Cải Thiện Live Shopping Recommendations",
+      "why": "Cho business: M&A trong AI đang diễn ra ở tầng ứng dụng (recommendation, personalization), không chỉ models/infrastructure. Nếu bạn làm e-commerce, đây là tín hiệu nên build hoặc buy AI recommendation sớm.",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/whatnot-acquires-madrona-backed-ai-startup-shaped-to-boost-live-shopping-recommendations/",
+      "tags": [
+        "m&a",
+        "ecommerce",
+        "business"
+      ]
+    },
+    {
+      "headline": "Nghiên Cứu: Cách Đo AI Writing Trên arXiv — Và Khi Nào Measurement Sai",
+      "why": "Cho curious/researcher: Bài phân tích về cách phát hiện AI-generated text trong academic papers — và giới hạn của phương pháp. Hữu ích nếu bạn cần verify nguồn/review papers.",
+      "source": "Hacker News",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "tags": [
+        "research",
+        "methodology",
+        "education"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Image-to-Video — Tích Hợp Veo/Sora, Giảm 50% Thời Gian Handoff",
+      "summary": "Adobe Firefly giờ tích hợp Veo 3 và Sora để chuyển image sang video ngay trong workflow design. Export trực tiếp vào projects, giảm 50% thời gian handoff từ design sang video team. Hỗ trợ export file cho B-roll, reels, presentation assets.",
+      "why": "Cho creative/producer: Nếu team bạn chạy Adobe Creative Cloud, đây là upgrade tự nhiên — prototype video ngay trong tool design, không cần switch app hoặc export/import. Tiết kiệm thời gian lớn cho iteration.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
+      "tags": [
+        "video_generation",
+        "workflow",
+        "adobe"
+      ]
+    },
+    {
+      "headline": "ByteDance Seedance 2.0 — #1 Video Generation Benchmark 2026, 9 Images + 3 Clips + 3 Audio Inputs",
+      "summary": "Seedance 2.0 (ra 12/2/2026) hiện đứng #1 trên Artificial Analysis leaderboard cho video generation with-audio (1213 Elo). Hỗ trợ 9 ảnh + 3 video clips + 3 audio inputs mỗi lần generate — nhiều nhất thị trường. ByteDance có track record tốt với video tech (TikTok/CapCut).",
+      "why": "Cho producer: Nếu bạn cần video generation có control cao (multi-input), Seedance 2.0 vượt Sora/Veo về số lượng inputs. Nhưng lưu ý: ByteDance model thường có restrictions về commercial use + data privacy — check ToS trước khi dùng cho client projects.",
+      "source": "Pinggy",
+      "url": "https://pinggy.io/blog/best_video_generation_ai_models/",
+      "tags": [
+        "video_generation",
+        "benchmark",
+        "bytedance"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "RESOURCE2SKILL — AI Học Kỹ Năng Từ Video Tutorial Của Con Người",
+      "summary": "Paper mới trên HuggingFace: AI agent giờ có thể học procedural skills từ tutorial videos và multimodal resources do con người tạo, chuyển thành executable agent skills. Thay vì hand-write skills hoặc chỉ học từ agent traces, agent giờ 'xem và học' như con người.",
+      "why": "Cho curious: Đây là bước tiến lớn về cách AI học — từ 'đọc text instructions' sang 'xem video và làm theo'. Trong tương lai, bạn có thể train AI agent bằng cách... quay video demo công việc của mình.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2606.29538",
+      "tags": [
+        "research",
+        "agent",
+        "learning"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Fintech Funding Tăng 23% H1/2026 — Investors Tập Trung Vào AI & Financial Infrastructure",
+      "summary": "Funding vào fintech tăng 23% nửa đầu 2026, chủ yếu vào AI-powered financial infrastructure và automation. Thương vụ M&A lớn gần đây: Databricks mua MosaicML (AI infrastructure) với $1.3B tháng 6/2023 — tín hiệu investors đặt cược vào AI infra lâu dài.",
+      "why": "Cho founder/business: Nếu bạn làm fintech, đây là cửa sổ funding tốt — nhưng thesis phải rõ về AI infrastructure/automation, không phải features. Investors muốn thấy platform plays, không chỉ point solutions.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/sections/ai/",
+      "tags": [
+        "funding",
+        "fintech",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Kimi K3 & Qwen 3.8 — Bài Phân Tích Kinh Tế Frontier Labs + Tiềm Năng 'Unravelling' Anthropic",
+      "summary": "Emerging Trajectories phân tích kinh tế của các frontier labs: Moonshot Kimi K3 và Qwen 3.8 đang cạnh tranh trực tiếp với Anthropic Fable 5 ở giá rẻ hơn nhiều. Bài viết đặt câu hỏi về sustainability model kinh tế closed-source khi open-weight Trung Quốc đuổi kịp nhanh.",
+      "why": "Cho business/founder: Nếu bạn đang build trên Anthropic/OpenAI APIs, theo dõi sát Chinese open models — chúng có thể thay thế được với chi phí thấp hơn 10x trong vòng 6-12 tháng. Plan B về vendor lock-in.",
+      "source": "Emerging Trajectories",
+      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "tags": [
+        "strategy",
+        "economics",
+        "competition"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Stratechery: 'Who's Afraid of Chinese Models?' — Phân Tích Địa Chính Trị AI",
+      "summary": "Ben Thompson phân tích tác động chiến lược từ Chinese AI models (Moonshot, Qwen, DeepSeek) lên thị trường toàn cầu và Mỹ. Open-weight strategy từ Trung Quốc đang thay đổi cán cân quyền lực: từ 'model monopoly' sang 'data + ops moat'.",
+      "why": "Cho manager/business: Hiểu địa chính trị AI giúp bạn dự đoán regulation changes (export controls, data residency) và plan tech stack accordingly. Nếu serve khách hàng Âu/Mỹ, chuẩn bị cho scenarios về AI sovereignty/localization.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "tags": [
+        "geopolitics",
+        "strategy",
+        "regulation"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant Chạy Mọi OS, 'The Lobster Way'",
+      "why": "Open AI assistant framework cross-platform. Nếu bạn muốn tự host AI assistant riêng không phụ thuộc cloud, đây là starting point tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "383,599"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Alternative cho Zapier/Make.com với AI tích hợp sẵn. Self-host được + 400+ integrations — tốt cho team muốn kiểm soát data và customize workflows sâu.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "197,230"
+    },
+    {
+      "headline": "langgenius/dify — Build Agentic Workflows & RAG Pipelines, Deploy Anywhere",
+      "why": "Platform build AI workflows/RAG pipelines với nhiều models + tools. Deploy cloud/VPC/self-hosted — phù hợp teams muốn đi từ prototype đến production không phải rebuild stack.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "149,509"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Development Methodology",
+      "why": "Framework mới cho agentic development từ Jesse Vincent (Keyboardio founder). Nếu bạn đang explore cách tổ chức AI agent workflows, check methodology này.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "258,157"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "AI agent từ Nous Research (team đằng sau Hermes models). Focus vào learning + adapting theo user — khác với agents one-shot.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "217,774"
+    },
+    {
+      "headline": "firecrawl/firecrawl — API To Search, Scrape, and Interact With the Web At Scale",
+      "why": "Web scraping API for AI agents — hỗ trợ search/scrape/interact at scale. Nếu bạn build agents cần real-time web data, đây là infrastructure piece quan trọng.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "153,560"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Meituan: LongCat 2.0 · $0.30/$1.20 per M tok",
+      "event": "new",
+      "summary": "LongCat 2.0 là sparse mixture-of-experts model từ Meituan (48B active/1.6T total params). Phù hợp coding, repo-level changes, long-horizon problem solving, agentic tasks.",
+      "why": "Alternative cho coding tasks với giá tốt ($0.30 prompt). Nếu bạn cần model xử lý repo lớn, đây là option mới.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meituan/longcat-2.0",
+      "tags": [
+        "coding",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 31B ↓$0.12/↓$0.37 per M tok",
+      "event": "price",
+      "summary": "Giá giảm: prompt $0.22 → $0.12, completion $0.55 → $0.37 (per million tokens).",
+      "why": "Gemma 4 31B rẻ hơn ~45% — good for high-volume workloads cần balance cost/quality.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+      "tags": [
+        "price_drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2 ↓$0.26/↓$1.02 per M tok",
+      "event": "price",
+      "summary": "Giá giảm: prompt $0.30 → $0.26, completion $1.20 → $1.02.",
+      "why": "MiniMax M2 rẻ hơn ~15% — nếu bạn đang dùng model này, tiết kiệm cost tự động.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2",
+      "tags": [
+        "price_drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 ↑$0.98/↑$3.08 per M tok",
+      "event": "price",
+      "summary": "Giá tăng: prompt $0.27 → $0.98 (+262%), completion $0.85 → $3.08 (+262%).",
+      "why": "GLM 5.2 tăng giá gấp >3 lần — nếu đang dùng, migrate sang alternative hoặc đàm phán enterprise pricing.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "price_increase",
+        "warning"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 178,
+    "brave": 45,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 57,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 4
+  }
+}
