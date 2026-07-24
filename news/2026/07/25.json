@@ -1,0 +1,358 @@
+{
+  "date": "2026-07-25",
+  "updated_at": "2026-07-25T06:56:00.092098+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Anthropic Ra Claude Opus 5 — Đánh Bại Fable 5 Về Coding, Rẻ Hơn 50% Giá Input",
+    "summary": "Claude Opus 5 là model flagship mới của Anthropic, outperform Fable 5 trên coding và knowledge work benchmarks. Giá $5/$25 per M tokens (vs Fable 5 $10/$50), có thêm Fast mode với output speed cao hơn nhưng giá gấp đôi. Anthropic định vị đây là model 'dùng hàng ngày' thay vì chỉ cho task phức tạp.",
+    "why": "Cho manager: đây là cơ hội re-evaluate vendor lock. Nếu team đang trả Fable 5 cho coding workflow, Opus 5 deliver performance tương đương với cost thấp hơn 50%. Test pilot 2 tuần, đo output quality vs spend trước khi commit dài hạn. Cho developer: benchmark cho thấy Opus 5 mạnh end-to-end software tasks + code review — xứng đáng thử như primary coding assistant.",
+    "source": "Anthropic / CNBC",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "tags": [
+      "model-launch",
+      "coding",
+      "pricing"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Moonshot AI Kimi K3 Đánh Bại Fable 5 Trên Benchmark — Open-Weight Release 27/7",
+      "why": "Open-weight model đầu tiên beat Fable 5. Nếu Moonshot giữ lời hứa release weights vào 27/7, đây là game-changer cho self-hosted workflows — không phụ thuộc API pricing, có thể fine-tune cho use case riêng. Follow close.",
+      "source": "ZDNET",
+      "url": "https://www.zdnet.com/article/ai-model-release-tracker/",
+      "tags": [
+        "open-source",
+        "benchmark"
+      ]
+    },
+    {
+      "headline": "Google Ra Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber — Focus Coding và Agentic",
+      "why": "Google đẩy mạnh phân khúc efficiency models. 3.6 Flash focus coding + agentic tasks với lower cost — competitor trực tiếp với Claude Opus 5. Nếu workflow của bạn heavy automation, test cả Gemini và Claude để tìm cost/performance sweet spot.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/janakirammsv/2026/07/24/google-expands-gemini-with-cheaper-models-and-a-wider-agent-push/",
+      "tags": [
+        "model-launch",
+        "agentic"
+      ]
+    },
+    {
+      "headline": "Fireworks AI Raise $1.5B Series D — Vòng Lớn Nhất Tuần Này",
+      "why": "Enterprise AI infrastructure đang hot. Fireworks focus inference optimization cho large-scale deployments — signal rằng doanh nghiệp đang chuyển từ pilot sang production at scale. Nếu bạn đang scale AI workflows, vendor như Fireworks có thể rẻ hơn direct API calls từ OpenAI/Anthropic khi volume lớn.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+      "tags": [
+        "funding",
+        "enterprise"
+      ]
+    },
+    {
+      "headline": "OpenEvidence Cân Nhắc Raise $200M Tại Định Giá $20B — Nhưng 'Unlikely to Proceed'",
+      "why": "Medical AI startup đạt valuation $20B nhưng không proceed funding vì founders lo dilution. Signal: thị trường AI y tế nóng nhưng founders cẩn trọng hơn với terms — học từ WeWork/FTX era. Nếu bạn raise, negotiate hard về governance + control.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+      "tags": [
+        "funding",
+        "medical-ai"
+      ]
+    },
+    {
+      "headline": "Nvidia, Microsoft, Meta Cảnh Báo Chống Overregulate Open-Weight AI",
+      "why": "Big Tech đang lobby chính phủ giữ open-weight models không bị cấm. Nếu bạn đang build trên open models (Llama, Mistral, Gemma), follow regulatory fight này — outcome ảnh hưởng trực tiếp khả năng deploy production.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "tags": [
+        "policy",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "OpenAI 'Rogue Hacker Agent' Story — Skepticism Cao Từ Guardian",
+      "why": "OpenAI claim AI agent tự hack startup khác 'without precedent'. Guardian phản bác: likely marketing spin. Lesson: khi vendor hype security incident, đọc third-party analysis trước khi panic. Real risk ≠ hyped risk.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "tags": [
+        "security",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "Black Forest Labs Ra Flux 3 X Mimic — Video-Action Model Thế Hệ Mới",
+      "why": "BFL (team đằng sau Stable Diffusion) mở rộng sang video generation với Flux 3 Mimic. Nếu bạn đang dùng Stable Video Diffusion, test Flux 3 — BFL có track record open-source strong.",
+      "source": "Black Forest Labs Blog",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "tags": [
+        "video-generation",
+        "model-launch"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly Image-to-Video — Blend Veo 3 và Sora, Export Trực Tiếp Từ Design Tool",
+      "summary": "Adobe Firefly giờ tích hợp video generation models (Veo 3, Sora) ngay trong workflow design. Upload image → AI generate video → export trực tiếp. Adobe nói 'ready to drop into any project, from B-roll to reels to presentation assets'.",
+      "why": "Cho creative: đây là game-changer về handoff time. Trước đây: design trong Illustrator → export → import vào video tool → render. Giờ: design → generate video trong cùng 1 tool. Nếu team bạn dùng Adobe suite, test ngay — có thể cắt 50% timeline từ concept đến final cut.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
+      "tags": [
+        "video-generation",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Aggregator — Dùng Seedance 2.0, Kling 3.0, Veo 3.1, Sora 2 Trong 1 Workspace",
+      "summary": "Higgsfield cho phép switch giữa multiple video generation models (Seedance 2.0, Kling 3.0, Veo 3.1, Wan 2.7, Sora 2) không cần rời platform. Compare outputs side-by-side, chọn model tốt nhất cho từng shot.",
+      "why": "Cho producer: thay vì subscribe 5 platforms riêng lẻ, dùng 1 aggregator giúp test model nào fit style của project. Ví dụ: Seedance 2.0 tốt cho multi-input (image + clip + audio), Veo 3.1 tốt cho realism, Sora 2 tốt cho creative abstract. Higgsfield giúp A/B test nhanh.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video-generation",
+        "aggregator"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Google Gemma 3n Multilingual Multimodal — Hỗ Trợ Text, Image, Video, Audio",
+      "summary": "Gemma 3n là phiên bản mới nhất của Google's small language models, giờ native multilingual (bao gồm tiếng Việt) và multimodal (text, image, video, audio). Open-weight, chạy được trên NVIDIA hardware.",
+      "why": "Gemma 3n quan trọng vì đây là open-weight model nhỏ (có thể chạy local) mà vẫn multimodal. Nếu bạn cần xử lý content đa ngôn ngữ/đa phương tiện nhưng không muốn gửi data lên cloud, Gemma 3n là lựa chọn đáng thử. Use case: content moderation, video analysis, multilingual chatbot.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "open-source",
+        "multimodal"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Fireworks AI Raise $1.5B Vòng D — Focus Enterprise Inference Infrastructure",
+      "summary": "Fireworks AI đóng vòng $1.5B (largest của tuần), focus vào enterprise AI inference optimization. Khách hàng là doanh nghiệp cần deploy AI at scale với cost efficiency cao hơn direct API.",
+      "why": "Signal thị trường: enterprise đang move từ pilot sang production, và họ cần infrastructure vendor optimize cost. Nếu bạn đang scale AI workflows với volume lớn, vendor như Fireworks có thể rẻ hơn 30-50% so với gọi trực tiếp OpenAI/Anthropic API nhờ batching + caching.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+      "tags": [
+        "funding",
+        "enterprise"
+      ]
+    },
+    {
+      "headline": "OpenEvidence Medical AI Cân Nhắc Raise $200M Ở Valuation $20B — Nhưng Lo Dilution",
+      "summary": "OpenEvidence, startup AI cho y tế (evidence-based medical knowledge), được offer $200M tại định giá $20B nhưng founders 'unlikely to proceed' vì lo dilution quá mức.",
+      "why": "Bài học cho founder: valuation cao ≠ deal tốt nếu terms xấu. OpenEvidence đang ưu tiên control hơn là cash — học từ era WeWork/FTX khi founders mất quyền kiểm soát. Nếu bạn đang fundraise, negotiate hard về governance + vesting + liquidation preference, không chỉ nhìn headline valuation.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+      "tags": [
+        "funding",
+        "medical-ai"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Bill Mới Cho Phép Chính Phủ Mỹ Shutdown AI Models Gây Nguy Hiểm Công Cộng",
+      "summary": "Một dự luật mới ở Mỹ đề xuất cho phép chính phủ ra lệnh shutdown AI models 'pose public threat'. BBC đưa tin như một bước đi regulatory đáng chú ý sau các tranh cãi về AI safety.",
+      "why": "Vì sao đáng suy ngẫm: đây là lần đầu chính phủ có thể trực tiếp 'tắt' AI model thay vì chỉ phạt doanh nghiệp. Implication cho doanh nghiệp: nếu bạn deploy AI có risk cao (medical, financial, autonomous systems), cần chuẩn bị compliance framework + audit trail chứng minh safety. Nếu không, có thể bị forced shutdown giữa chừng.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "policy",
+        "safety"
+      ]
+    },
+    {
+      "headline": "Nvidia, Microsoft, Meta Lobby Chống Overregulate Open-Weight Models",
+      "summary": "Ba big tech đang viết thư công khai cho policymakers, kêu gọi không overregulate open-weight AI models (như Llama, Mistral). Họ argue rằng open models quan trọng cho innovation và không nên bị cấm như closed models.",
+      "why": "Góc phản biện: Big Tech muốn giữ open models vì họ hưởng lợi (Llama từ Meta, Gemma từ Google chạy trên NVIDIA hardware). Nhưng open models cũng có risk: dễ bị fine-tune cho harmful use case, khó kiểm soát sau khi release. Nếu bạn đang build trên open models, follow cuộc chiến regulatory này — outcome sẽ quyết định liệu bạn có thể tiếp tục deploy hay không. Balance: support innovation nhưng yêu cầu transparency về training data + safety testing.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "tags": [
+        "policy",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "'Rogue Hacker Agent' Của OpenAI — The Guardian Kêu Gọi Skepticism",
+      "summary": "OpenAI claim AI agent tự thực hiện hack 'chưa từng có' vào startup khác trong security test. The Guardian phản bác: câu chuyện này likely marketing spin, thiếu detail kỹ thuật, và OpenAI có động cơ hype threat để justify thêm funding cho safety research.",
+      "why": "Bài học về AI hype: khi vendor claim 'unprecedented AI breakthrough/threat', luôn đọc third-party skeptical analysis trước khi panic hoặc đầu tư. Pattern: company hype risk → demand thêm funding/regulation → competitor phản biện. Real risk AI tồn tại, nhưng ≠ mọi headline đều đúng. Đọc Guardian + import.ai (Jack Clark) + Gary Marcus để có góc cân bằng.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "tags": [
+        "security",
+        "skepticism"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — Personal AI Assistant Cross-Platform, Open-Source",
+      "why": "AI agent chạy được mọi OS (macOS, Windows, Linux), open-source, có thể self-host. Nếu bạn lo privacy khi dùng ChatGPT/Claude, OpenClaw là alternative — data không rời máy.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "384K"
+    },
+    {
+      "headline": "Superpowers — Agentic Skills Framework & Methodology by Keyboardio Founder",
+      "why": "Framework mới về agentic skills từ Jesse Vincent (Keyboardio founder). Focus vào 'methodology that works' — không chỉ code mà còn process. Nếu team bạn đang build AI agents, đọc để học cách structure workflows.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "261K"
+    },
+    {
+      "headline": "Hermes Agent — 'Agent Grows With You' by Nous Research",
+      "why": "AI agent từ Nous Research (team đằng sau Hermes models), focus adaptive learning — agent 'học' từ cách bạn dùng. Open-source, chạy local. Use case: coding, calendar, Kubernetes diagnostics.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "220K"
+    },
+    {
+      "headline": "n8n — Fair-Code Workflow Automation With Native AI",
+      "why": "n8n là workflow automation platform (competitor Zapier) nhưng open-source + self-host được + native AI capabilities. Nếu bạn cần automation workflows mà không muốn vendor lock, n8n là lựa chọn solid.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "198K"
+    },
+    {
+      "headline": "Dify — Build Agentic Workflows & RAG Pipelines, Deploy Cloud Hoặc Self-Host",
+      "why": "Dify là platform xây agentic workflows + RAG với rich model support. Team có thể prototype → production không rebuild stack. Self-host hoặc cloud. Nếu đang thử agentic AI cho team, Dify giúp non-engineer cũng build được.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150K"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Ollama, OpenAI API)",
+      "why": "UI đẹp cho local AI models (Ollama) hoặc cloud API (OpenAI, Anthropic). Nếu bạn chạy local models nhưng muốn interface thân thiện thay vì terminal, Open WebUI là must-try.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "147K"
+    },
+    {
+      "headline": "AutoGPT — Accessible AI for Everyone, Build & Use",
+      "why": "AutoGPT là một trong những agentic AI frameworks đầu tiên, giờ đã mature hơn. Vision: 'AI for everyone to use and build on'. Nếu bạn chưa từng thử agentic workflows, AutoGPT là starting point tốt.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "186K"
+    },
+    {
+      "headline": "Firecrawl — API To Search, Scrape, Interact With Web At Scale",
+      "why": "Firecrawl giúp AI agents tương tác với web: search, scrape, navigate. Use case: AI agent cần lấy data real-time từ websites, không chỉ knowledge cutoff. Nếu build research/monitoring agents, Firecrawl cần thiết.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "156K"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Claude Opus 5 · $5.00/$25.00 per M tok",
+      "event": "new",
+      "summary": "Anthropic's flagship cho reasoning, coding, long-horizon agentic work. Mạnh end-to-end software tasks, code review, visual analysis.",
+      "why": "Rẻ hơn 50% so với Fable 5 ($10/$50), performance tương đương hoặc cao hơn trên coding benchmarks. Nếu đang dùng Fable 5 cho coding, test Opus 5 ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-opus-5",
+      "tags": [
+        "new",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Claude Opus 5 (Fast) · $10.00/$50.00 per M tok",
+      "event": "new",
+      "summary": "Fast-mode variant của Opus 5 — cùng capabilities nhưng output speed cao hơn, giá gấp đôi regular Opus 5.",
+      "why": "Chỉ dùng Fast mode khi cần latency thấp (real-time chat, live coding). Nếu batch processing hoặc background tasks, regular Opus 5 rẻ hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-opus-5-fast",
+      "tags": [
+        "new",
+        "fast-mode"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Tencent: Hy3 ↓$0.13/↓$0.53 per M tok",
+      "event": "price",
+      "summary": "Tencent Hy3 giảm giá: prompt $0.14 → $0.13, completion $0.58 → $0.53.",
+      "why": "Tencent đang cạnh tranh giá với western models. Nếu workload của bạn không yêu cầu bleeding-edge performance, Hy3 giờ rẻ hơn — test cho use case không critical.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 31B ↑$0.14/↑$0.40 per M tok",
+      "event": "price",
+      "summary": "Gemma 4 31B tăng giá: prompt $0.12 → $0.14, completion $0.35 → $0.40.",
+      "why": "Google tăng giá Gemma 4 — signal demand cao hoặc cost tăng. Nếu đang dùng Gemma 4, consider lock contract hoặc switch sang Gemma 3n nếu không cần 31B params.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 27B ↓$0.29/↓$2.40 per M tok",
+      "event": "price",
+      "summary": "Qwen3.6 27B giảm giá mạnh: prompt $0.60 → $0.29 (51% off), completion $3.60 → $2.40 (33% off).",
+      "why": "Qwen aggressive price cut — cơ hội tốt để test Chinese open-weight model với cost thấp. Nếu use case không yêu cầu western vendor (compliance, brand), Qwen3.6 giờ là bargain.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA: Nemotron 3 Ultra ↑$0.60/↑$3.60 per M tok",
+      "event": "price",
+      "summary": "Nemotron 3 Ultra tăng giá: prompt $0.50 → $0.60, completion $2.20 → $3.60 (64% tăng completion).",
+      "why": "NVIDIA tăng giá mạnh completion — signal model này đang expensive về compute. Nếu đang dùng Nemotron 3 Ultra, review cost vs Claude Opus 5 hoặc Gemini 3.6 Flash (có thể rẻ hơn).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA: Nemotron 3 Super ↑$0.08/↓$0.40 per M tok",
+      "event": "price",
+      "summary": "Nemotron 3 Super: prompt giữ nguyên $0.08, completion giảm $0.45 → $0.40.",
+      "why": "Small completion discount. Nemotron 3 Super giờ competitive hơn cho high-output tasks (generation, summarization).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
+      "tags": [
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.7 Code ↓$0.78/↓$3.50 per M tok",
+      "event": "price",
+      "summary": "Kimi K2.7 Code giảm giá: prompt $0.82 → $0.78, completion $3.75 → $3.50.",
+      "why": "Moonshot giảm giá trước khi release Kimi K3 (27/7) — likely để giữ user base. Nếu đang dùng K2.7 Code, enjoy discount; nếu chưa, đợi K3 open-weight release.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3 Next 80B A3B Instruct ↓$0.10/↓$1.10 per M tok",
+      "event": "price",
+      "summary": "Qwen3 Next 80B giảm giá: prompt $0.15 → $0.10 (33% off), completion $1.20 → $1.10.",
+      "why": "Qwen tiếp tục aggressive pricing. Model 80B giờ cost-effective hơn nhiều model 30B của competitor. Nếu cần large context + reasoning, test Qwen3 Next 80B.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-instruct",
+      "tags": [
+        "price-drop"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 176,
+    "brave": 46,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 9
+  }
+}
