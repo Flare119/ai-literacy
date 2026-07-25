@@ -1,0 +1,260 @@
+{
+  "date": "2026-07-26",
+  "updated_at": "2026-07-26T06:51:48.568314+07:00",
+  "weekday": "Sunday",
+  "top_story": {
+    "headline": "Anthropic Ra Claude Opus 5 — Hiệu Năng Gần Fable, Giá Input Chỉ Bằng Nửa",
+    "summary": "Claude Opus 5 launch 24/7 — hiệu năng xấp xỉ model flagship Fable nhưng rẻ hơn 50% chi phí input. Anthropic định vị đây là model 'tối ưu ROI' cho production workloads không cần bleeding-edge reasoning.",
+    "why": "Cho manager: đây là tín hiệu rõ về AI commoditization — model 'đủ tốt' với giá tốt hơn đang thắng trong enterprise adoption. Nếu team đang dùng Fable cho mọi task, audit lại: 70-80% cases có thể chuyển sang Opus 5 để cắt cost mà không mất chất lượng đáng kể.",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5",
+    "tags": [
+      "model-launch",
+      "anthropic",
+      "pricing",
+      "enterprise"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenAI Mở Rộng GPT-Rosalind Cho Biodefense Và Sức Khỏe Công Cộng",
+      "why": "Cho curious: GPT-Rosalind từ model research chuyển sang trusted access cho government/developers — use case cụ thể là pandemic preparedness. Đây là AI dual-use governance thực tế: model mạnh chỉ cho vetted partners.",
+      "source": "OpenAI Research",
+      "url": "https://openai.com/research/index/release/",
+      "tags": [
+        "governance",
+        "biodefense",
+        "dual-use"
+      ]
+    },
+    {
+      "headline": "UK AISI Đánh Giá Khả Năng Cyber Của Kimi K3 — Preliminary Report",
+      "why": "Cho manager: nếu team đang thử Kimi K3, note rằng model này đang được test về cyber capabilities bởi UK AI Safety Institute. Report này sẽ ảnh hưởng đến compliance/risk assessment nếu bạn làm defense/fintech.",
+      "source": "NIST / UK AISI",
+      "url": "https://www.nist.gov/news-events/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "tags": [
+        "safety",
+        "kimi",
+        "cyber",
+        "governance"
+      ]
+    },
+    {
+      "headline": "Apple Siri AI — Architecture Mới Bảo Vệ Privacy, Tích Hợp Visual Intelligence",
+      "why": "Cho cá nhân: Siri AI mới có app riêng để revisit conversations + Visual Intelligence mở rộng. Nếu bạn đang dùng ChatGPT/Claude trên điện thoại, đây là alternative native iOS với privacy-first design.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "tags": [
+        "apple",
+        "privacy",
+        "mobile",
+        "assistant"
+      ]
+    },
+    {
+      "headline": "Natural Raise $30M Để 'Giết Stripe' — Payment Infrastructure Cho AI Agents",
+      "why": "Cho business/founder: Natural build payment cho AI agents giao dịch với nhau (agent-to-agent transactions). Nếu bạn đang xây AI product có monetization, follow startup này — họ đang giải bài toán Stripe chưa solve.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
+      "tags": [
+        "funding",
+        "fintech",
+        "agents",
+        "payments"
+      ]
+    },
+    {
+      "headline": "Atoms (Travis Kalanick) Raise $1.7B — Vòng Lớn Nhất Tuần Này Cho Physical AI",
+      "why": "Cho business: Atoms (Uber founder Kalanick) raise $1.7B cho physical AI — robots/hardware. Đây là vòng lớn nhất tuần, cho thấy capital đang shift từ software-only sang embodied AI. Nếu bạn trong logistics/manufacturing, theo dõi startup này.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "tags": [
+        "funding",
+        "physical-ai",
+        "robotics"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Black Forest Labs Ra Flux 3 X Mimic — Video-Action Model Tích Hợp Âm Thanh",
+      "summary": "Flux 3 launch 23/7 — multimodal model tạo image + video + audio + physical action prediction. Đây là first truly integrated multimodal model từ Black Forest Labs (team gốc Stability AI).",
+      "why": "Cho creative: nếu workflow bạn cần audio + video đồng bộ (vd motion graphics + sound design), Flux 3 là tool thử nghiệm — thay vì dùng riêng Sora cho video, Suno cho audio rồi sync thủ công.",
+      "source": "FluxNote",
+      "url": "https://fluxnote.io/guides/flux-3",
+      "tags": [
+        "flux",
+        "multimodal",
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "headline": "Higgsfield Aggregator — Dùng Seedance 2.0, Kling 3.0, Veo 3.1, Sora 2 Trong 1 Workspace",
+      "summary": "Higgsfield cho phép switch giữa nhiều video AI models (Seedance, Kling, Veo, Wan, Sora) trong cùng 1 workspace, compare output không cần rời platform.",
+      "why": "Cho creative: nếu bạn đang test nhiều video models để tìm style phù hợp project, Higgsfield giúp A/B test nhanh hơn thay vì signup riêng từng platform. Tiết kiệm thời gian khi cần so sánh output quality.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video",
+        "aggregator",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "Toàn Cảnh Công Ty AI Việt Nam 2026 — Ai Đang Làm Gì, Doanh Nghiệp Nên Chọn Hướng Nào?",
+      "why": "Bài phân tích dài về landscape AI VN: FPT Smart Cloud (platform riêng, cạnh tranh data tiếng Việt), MOR Software/KMS/NashTech (consulting/integration), VinBigData (research). Nếu bạn là doanh nghiệp VN đang chọn vendor AI, đọc để hiểu ai làm gì.",
+      "source": "Viblo",
+      "url": "https://viblo.asia/p/toan-canh-cong-ty-ai-viet-nam-nam-2026-ai-dang-lam-gi-va-doanh-nghiep-nen-chon-huong-nao-1XVOWYPNVMz"
+    }
+  ],
+  "research": [
+    {
+      "headline": "K12-KGraph — Knowledge Graph Cho Đánh Giá LLM Hiểu Curriculum K-12",
+      "summary": "Paper mới từ HuggingFace: benchmark test LLM có hiểu cấu trúc và cách trình bày kiến thức curriculum K-12 không (thay vì chỉ test làm bài thi). Gọi là 'curriculum cognition'.",
+      "why": "Đây là benchmark đầu tiên test AI hiểu 'cách dạy' chứ không chỉ 'đáp án đúng'. Nếu bạn xây edtech cho học sinh/giáo viên, đây là góc nhìn mới về AI evaluation — model giỏi exam chưa chắc giỏi giảng bài.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.09635",
+      "tags": [
+        "education",
+        "benchmark",
+        "knowledge-graph"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "AI Chiếm 50% Toàn Bộ Startup Funding Toàn Cầu Năm 2025 — $202.3B",
+      "summary": "Báo cáo Fundraise Insider: AI chiếm gần 50% tổng vốn đầu tư startup toàn cầu 2025 ($202.3B), tăng >75% so với năm trước. Capital concentration chưa từng có.",
+      "why": "Cho founder/đầu tư: nếu bạn không làm AI, bạn đang cạnh tranh 50% vốn còn lại với mọi ngành khác. Ngược lại, nếu làm AI — hãy nhớ 50% vốn cũng nghĩa là crowded market + valuation bong bóng cao. Cẩn thận với FOMO.",
+      "source": "Fundraise Insider",
+      "url": "https://fundraiseinsider.com/blog/ai-startups/",
+      "tags": [
+        "funding",
+        "market",
+        "bubble"
+      ]
+    },
+    {
+      "headline": "OpenEvidence Cân Nhắc Raise $200M Tại Định Giá $20B — Nhưng 'Unlikely to Proceed'",
+      "summary": "Medical AI startup OpenEvidence (đã cover tuần trước) — báo mới: họ cân nhắc raise $200M @ $20B nhưng có thể không proceed vì dilution founders quá lớn.",
+      "why": "Cho founder: đây là case study về 'khi nào từ chối vốn dù có offer'. OpenEvidence đang profitable/growth tốt, không muốn dilute thêm chỉ vì valuation đẹp. Bài học: growth ≠ phải raise, especially khi unit economics healthy.",
+      "source": "PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+      "tags": [
+        "funding",
+        "medical-ai",
+        "dilution"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant Cross-Platform 'The Lobster Way' 🦞",
+      "why": "Open-source AI assistant chạy mọi OS/platform. 384K stars — trending #1 GitHub hôm nay. Nếu bạn muốn tự host assistant riêng thay vì dùng cloud, đây là starting point tốt.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "384118"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Dev Methodology",
+      "why": "Framework mới cho agentic development — không chỉ tool mà còn methodology 'that works'. 261K stars. Nếu team bạn đang thử agentic coding nhưng chưa có process rõ, xem repo này.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "261084"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Với Native AI Capabilities",
+      "why": "n8n — workflow automation platform tích hợp AI native, 400+ integrations. Self-host hoặc cloud. 198K stars. Alternative cho Zapier/Make.com nếu cần control data.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "197989"
+    },
+    {
+      "headline": "langgenius/dify — Build Agentic Workflows, RAG Pipelines Trên 1 Workspace",
+      "summary": "Dify — platform xây agentic workflows + RAG với nhiều AI models. Deploy cloud/VPC/self-hosted. 150K stars.",
+      "why": "Cho manager: nếu team muốn prototype agent workflows mà không rebuild stack từ đầu, Dify là good starting point. Support cả cloud và self-host — balance giữa speed và control.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150241"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Ollama, OpenAI API...)",
+      "why": "Open WebUI — giao diện friendly cho Ollama + OpenAI API. 147K stars. Nếu bạn dùng Ollama self-hosted nhưng chán CLI, đây là web UI đẹp nhất hiện tại.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "146725"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "Hermes Agent — AI agent từ Nous Research, 220K stars trending. Tag line 'grows with you' ngụ ý personalization/learning. Nếu bạn research về personal AI agents, follow repo này.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "220444"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.6 ↓$0.65/↓$2.72 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.68 → $0.65, completion $3.42 → $2.72 (per M tokens).",
+      "why": "Giá Kimi K2.6 giảm ~13% prompt, ~20% completion — cheaper alternative cho Opus/GPT nếu use case tiếng Trung hoặc multilingual.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+      "tags": [
+        "kimi",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Arcee AI: Trinity Large Thinking ↓$0.22/↑$0.85 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.25 → $0.22, completion $0.80 → $0.85.",
+      "why": "Prompt rẻ hơn nhưng completion tăng — nếu use case generate dài (writing, code), watch out chi phí output.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-thinking",
+      "tags": [
+        "arcee",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 ↓$0.73/↓$2.28 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.82 → $0.73, completion $2.59 → $2.28.",
+      "why": "GLM 5.2 giảm ~11% prompt, ~12% completion. Model Trung Quốc rẻ tiếp tục — nếu compliance OK, đây là alternative cost-effective.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "glm",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3 30B A3B Instruct 2507 ↓$0.05/↓$0.19 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.05, completion $0.30 → $0.19.",
+      "why": "Qwen3 30B giảm 50% prompt, 37% completion — giá cực thấp cho model 30B. Good cho prototyping/high-volume tasks không cần top-tier quality.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b-instruct-2507",
+      "tags": [
+        "qwen",
+        "pricing"
+      ]
+    }
+  ],
+  "insight": "Tuần này có 3 tín hiệu chính đáng chú ý:\n\n**1. Cuộc đua giá model đang tăng tốc.** Opus 5 launch với giá rẻ hơn Fable 50%, cùng lúc Kimi K2.6, GLM 5.2, Qwen3 30B đồng loạt giảm giá 11-50% trên OpenRouter. Đây không phải price war ngẫu nhiên — đây là AI commoditization ở giai đoạn mature: model 'đủ tốt' với giá tốt đang thắng trong enterprise adoption. **Implication cho manager:** nếu team đang dùng flagship model cho mọi task, đây là lúc audit lại. 70-80% use cases có thể migrate sang mid-tier models để cắt cost 30-50% mà không mất quality đáng kể. **Implication cho founder:** nếu competitive advantage của bạn chỉ là 'dùng model tốt nhất', bạn đang trên đường thua — vì model gap đang thu hẹp nhanh hơn bạn nghĩ.\n\n**2. Agentic AI đang shift từ hype sang methodology.** Repos như obra/superpowers (261K stars) và langgenius/dify (150K stars) trending không phải vì breakthrough kỹ thuật, mà vì họ cung cấp **framework và process rõ ràng** để làm agentic work thực tế. Gartner report tháng 6/2025 đã cảnh báo nhiều 'agentic AI' chỉ là rebrand chatbot cũ — và market giờ đang demand proof + methodology hơn là demo flashy. **Implication cho creative/producer:** nếu bạn thử agent tools nhưng chưa có workflow rõ, bạn sẽ waste time. Học framework trước, tool sau. **Implication cho curious:** đừng tin mọi thứ gắn mác 'agentic' — hỏi 'nó tự quyết định gì, và verify decision thế nào?'\n\n**3. Open-weight đang có 'Kubernetes moment'.** Bài phân tích từ Tobi Knaup (HN #6) so sánh open-weight AI 2026 với Kubernetes 2016-2018 — khi open-source infrastructure thắng proprietary cloud services vì flexibility + community. VN landscape (bài Viblo) cũng cho thấy: FPT/VinBigData đang build platform riêng thay vì chỉ resell OpenAI/Anthropic, vì data tiếng Việt + compliance. **Implication cho business:** nếu bạn đang all-in OpenAI API, cân nhắc hybrid strategy — một phần critical workloads nên chạy open-weight models tự host để giảm vendor lock-in và data leakage risk. Long-term, AI infrastructure sẽ giống cloud infra: hybrid win, pure vendor lock-in lose.",
+  "sources_count": {
+    "raw": 143,
+    "brave": 45,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 44,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
