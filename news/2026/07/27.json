@@ -1,0 +1,374 @@
+{
+  "date": "2026-07-27",
+  "updated_at": "2026-07-27T06:52:06.573398+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "Nghiên Cứu Stanford: AI Làm Tăng Độ Tự Tin Nhưng Giảm Độ Chính Xác",
+    "summary": "MIT phát hiện user dùng AI advice có độ chính xác thấp hơn nhưng lại tự tin hơn khi ra quyết định — một hiện tượng nguy hiểm trong môi trường doanh nghiệp. Đây là dạng 'illusion of competence' tương tự Dunning-Kruger effect, nhưng do AI gây ra.",
+    "why": "Cho manager: Nếu team bạn dùng AI để ra quyết định, cần thêm layer verification — đừng để AI tạo false confidence dẫn đến sai lầm tốn kém. Cho cá nhân: Khi AI suggest, hỏi ngược 'nếu AI sai thì sao?' trước khi commit.",
+    "source": "MIT News",
+    "url": "https://news.mit.edu/topic/artificial-intelligence2",
+    "tags": [
+      "research",
+      "bias",
+      "decision-making"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Terence Tao: 'Mathematics in the Age of AI' — Góc Nhìn Toán Học Thuần Túy",
+      "why": "Cho curious: Tao giải thích AI không thay thế toán học mà thay đổi cách làm toán — từ proof automation đến conjecture generation. Nếu bạn tò mò AI ảnh hưởng lĩnh vực trừu tượng nhất của con người thế nào, đây là góc nhìn từ top mathematician thế giới.",
+      "source": "Terence Tao (ICM 2026)",
+      "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
+      "tags": [
+        "research",
+        "mathematics",
+        "philosophy"
+      ]
+    },
+    {
+      "headline": "FDA Panel Tranh Cãi Về Peptide Drugs Được RFK Jr. Ủng Hộ",
+      "why": "Cho curious: Peptide AI-designed drugs đang được wellness influencers quảng cáo rầm rộ mà chưa qua FDA approval. Nếu bạn thấy quảng cáo 'AI-designed supplement' — skepticism là phản ứng đúng.",
+      "source": "AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "tags": [
+        "health",
+        "regulation",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "NVIDIA Ra Gemma 3n — Multilingual & Multimodal Natively",
+      "why": "Cho creative: Gemma 3n xử lý text/image/video/audio trong 1 model — ý nghĩa là bạn có thể prototype multimodal app mà không cần chain nhiều models. Nhẹ hơn Gemini, chạy local được.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "model",
+        "multimodal",
+        "nvidia"
+      ]
+    },
+    {
+      "headline": "Gatwick Airport Triển Khai Robot Parking Service",
+      "why": "Cho manager: Physical AI đang lên — robot không chỉ là factory automation, mà là dịch vụ consumer (parking, delivery). Nếu bạn quản lý logistics/operations, đây là signal về labor replacement trend.",
+      "source": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "tags": [
+        "physical-ai",
+        "automation",
+        "logistics"
+      ]
+    },
+    {
+      "headline": "NYTimes Kiện OpenAI Vì Withholding Evidence",
+      "why": "Cho manager: Nếu công ty bạn dùng OpenAI hoặc AI training data, case này là precedent về copyright liability. Discovery phase đang phơi bày cách OpenAI handle data — risk cho mọi enterprise user.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "legal",
+        "copyright",
+        "risk"
+      ]
+    },
+    {
+      "headline": "UK Đề Xuất Bill Cho Phép Chính Phủ Shutdown AI Models Nguy Hiểm",
+      "why": "Cho business: UK có thể ra lệnh shutdown model AI 'public threat'. Nếu bạn build AI product cho thị trường UK, cần hiểu rõ safety requirements — không chỉ là tech, mà là compliance.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "regulation",
+        "safety",
+        "uk"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Canva Ra Free AI Image-to-Video Generator — Integrated Vào Editor",
+      "summary": "Canva tích hợp AI image-to-video vào editor chính, cho phép user upload ảnh và AI tạo animation ngay trong workflow design. Model phân tích image + text prompt để generate animated content.",
+      "why": "Cho creative: Bạn có thể prototype video từ static asset ngay trong tool design đang dùng — không cần export sang Runway/Pika. Giảm friction trong creative workflow, tăng tốc iteration.",
+      "source": "Canva",
+      "url": "https://www.canva.com/ai-image-to-video/",
+      "tags": [
+        "video",
+        "design-tool",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Aggregator — Dùng Seedance 2.0, Kling 3.0, Veo 3.1, Sora 2 Trong 1 Workspace",
+      "summary": "Higgsfield cho phép switch giữa nhiều AI video model (Seedance 2.0, Kling 3.0, Veo 3.1, Wan 2.7, Sora 2) trong 1 platform, so sánh output side-by-side mà không cần đăng ký nhiều service.",
+      "why": "Cho creative: Thay vì subscribe 5 service riêng, bạn có thể test model nào phù hợp workflow trước khi commit. Giảm cost + time cho trial-and-error phase.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video",
+        "aggregator",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "MIT: AI Advice Khiến User Ít Chính Xác Hơn Nhưng Tự Tin Hơn",
+      "summary": "Nghiên cứu MIT phát hiện khi user nhận AI advice, độ chính xác quyết định giảm nhưng độ tự tin tăng — một dạng 'illusion of competence' nguy hiểm. Hiện tượng này xảy ra vì user tin AI mà không verify, tạo false sense of expertise.",
+      "why": "Vì sao đáng suy ngẫm: Đây là bằng chứng thực nghiệm về rủi ro AI không phải từ model sai, mà từ cách con người dùng. Nếu bạn manager, cần thiết kế quy trình có verification layer, không để AI output đi thẳng vào decision mà không cross-check.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "cognitive-bias",
+        "human-ai-interaction",
+        "decision-making"
+      ]
+    },
+    {
+      "headline": "K12-KGraph: Benchmark Kiến Thức Giáo Dục Cho Educational LLMs",
+      "summary": "Paper giới thiệu K12-KGraph, một knowledge graph aligned với curriculum K-12, để benchmark khả năng hiểu cấu trúc kiến thức giáo dục của LLMs. Hiện tại model chỉ test exam answering, chưa test 'curriculum cognition' — hiểu cách kiến thức được tổ chức và trình bày trực quan.",
+      "why": "Vì sao quan trọng: Nếu AI dạy học (như Khan Academy, Duolingo), cần hiểu pedagogy, không chỉ answer questions. Paper này là bước đầu đo lường khả năng đó — tín hiệu cho edtech startup về gap giữa chatbot và AI teacher thực sự.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2605.09635",
+      "tags": [
+        "education",
+        "benchmark",
+        "knowledge-graph"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Natural Raise $30M Series A Để 'Giết Stripe' — Payment Infrastructure Cho AI Agents",
+      "summary": "Natural (founded 2024) raise $30M Series A để build payment infrastructure cho AI agents. Total funding $40M. Pitch: agents cần payment system khác human — micro-transactions, autonomous approvals, API-first. Competitor trực tiếp: Stripe.",
+      "why": "Cho founder: Đây là tín hiệu về 'infrastructure layer for agents' — nếu AI agents thực sự mass adopt, sẽ cần banking/payment/compliance riêng. Opportunity cho fintech + AI infrastructure, nhưng cũng là risk cho incumbent (Stripe phải adapt nhanh).",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
+      "tags": [
+        "funding",
+        "fintech",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Atoms (Travis Kalanick) Raise $1.7B — Vòng Lớn Nhất Tuần Này",
+      "summary": "Atoms, physical AI startup do Travis Kalanick (Uber founder) thành lập, raise $1.7B trong vòng do Andreessen Horowitz lead. Đây là vòng lớn nhất tuần này, tập trung vào robotics + real-world automation.",
+      "why": "Cho đầu tư: Physical AI đang nóng — từ warehouse robots đến autonomous vehicles. $1.7B signal về confidence của VCs vào 'AI ra khỏi màn hình'. Nhưng Travis track record hỗn hợp (Uber thành công, CloudKitchens chưa rõ) — đây là bet lớn vào founder, không chỉ tech.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "tags": [
+        "funding",
+        "physical-ai",
+        "robotics"
+      ]
+    },
+    {
+      "headline": "OpenEvidence Cân Nhắc Raise $200M Tại $20B Valuation — Nhưng 'Unlikely to Proceed'",
+      "summary": "OpenEvidence, medical AI startup, đã discuss raise $200M tại định giá $20B nhưng 'unlikely to proceed'. Lý do: dilute founders và uncertainty về ROI. Startup này focus AI cho clinical decision support.",
+      "why": "Cho đầu tư: $20B valuation cho medical AI startup chưa proven revenue là red flag về bubble. Việc founders từ chối dilution (dù có demand) là tín hiệu tốt về discipline, nhưng cũng raise câu hỏi: nếu không fundraise, làm sao scale? Healthcare AI hype cao, execution khó.",
+      "source": "PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+      "tags": [
+        "funding",
+        "healthcare",
+        "valuation"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Stanford SIEPR: 'What Is Really Happening to Jobs?' — Tách AI Hype Khỏi Reality",
+      "summary": "Policy brief từ Stanford SIEPR phân tích thực trạng AI × việc làm, tách hype khỏi data thực tế. Kết luận: automation đang xảy ra nhưng không đều — white-collar knowledge work bị ảnh hưởng nhiều hơn blue-collar như dự đoán.",
+      "why": "Vì sao đáng suy ngẫm: Media hype về 'AI thay thế tất cả' nhưng data cho thấy phức tạp hơn — một số nghề biến mất, một số tăng năng suất, một số xuất hiện mới. Nếu bạn làm HR/workforce planning, đọc report này để tránh panic hoặc complacency — cả hai đều tệ.",
+      "source": "Stanford SIEPR",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "tags": [
+        "labor",
+        "policy",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "University of Chicago Law: 'Rethinking Legal Education in the AI Era'",
+      "summary": "UChicago Law phát hành AI strategy statement về cách dạy luật khi AI có thể draft contracts/legal memos. Đề xuất: focus critical thinking, ethics, client counseling thay vì rote memorization hay document production.",
+      "why": "Vì sao quan trọng: Legal education là case study về 'dạy gì khi AI làm được task cơ bản'. Pattern này sẽ lặp lại ở mọi ngành: kế toán, design, coding. Nếu bạn quản lý training/upskilling, học cách law schools adapt là lesson cho industry khác.",
+      "source": "University of Chicago Law",
+      "url": "https://www.law.uchicago.edu/news/ai-strategy-statement",
+      "tags": [
+        "education",
+        "reskilling",
+        "legal"
+      ]
+    },
+    {
+      "headline": "CNBC: 'Stock to Buy After OpenAI's AI Agent Goes Rogue' — Skepticism Cao",
+      "summary": "CNBC phân tích góc đầu tư sau incident OpenAI agent 'goes rogue' trong security test. Đề xuất mua cổ phiếu cybersecurity. Nhưng nhiều chuyên gia skeptic về narrative 'rogue AI' — có thể chỉ là red-team test bình thường được thổi phồng.",
+      "why": "Vì sao đáng phản biện: Media thường dramatize AI incidents để tạo clicks. 'Rogue agent' nghe đáng sợ, nhưng nếu là controlled test thì không phải crisis. Lesson: khi đọc tin AI 'mất kiểm soát', hỏi 'context là gì?' trước khi panic hoặc đổ tiền vào cybersecurity stocks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/ai-artificial-intelligence/",
+      "tags": [
+        "media-hype",
+        "security",
+        "skepticism"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Fair-code (giữa open-source và proprietary), self-host được, 400+ integrations. Nếu bạn cần orchestrate AI workflows (chain models, connect APIs) mà không muốn vendor lock-in, n8n là alternative cho Zapier/Make.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "198117"
+    },
+    {
+      "headline": "Firecrawl — API Để Search, Scrape, và Tương Tác Web At Scale",
+      "why": "Dùng cho AI agents cần web data. Nếu bạn build agent có research/scraping task, Firecrawl handle crawling infrastructure — không cần tự build scraper + anti-detection.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "156442"
+    },
+    {
+      "headline": "Dify — Agentic Workflows, RAG Pipelines Trên 1 Collaborative Workspace",
+      "why": "Build AI workflows từ prototype đến production không cần rebuild stack. Self-host hoặc cloud. Nếu team bạn cần collaboration platform cho AI dev (như Figma cho AI engineering), Dify là option.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150325"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface (Hỗ Trợ Ollama, OpenAI API)",
+      "why": "Frontend cho local AI models hoặc cloud APIs. Nếu bạn chạy Ollama local mà muốn UI đẹp (thay vì CLI), Open WebUI là go-to.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "146824"
+    },
+    {
+      "headline": "OpenClaw — Personal AI Assistant, Cross-Platform 'The Lobster Way' 🦞",
+      "why": "AI assistant chạy được mọi OS. Nếu bạn cần personal automation agent không bị lock vào ecosystem (như Siri chỉ Apple), OpenClaw là option mở.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "384233"
+    },
+    {
+      "headline": "Superpowers — Agentic Skills Framework & Software Dev Methodology",
+      "why": "Framework để build AI agents có skills tái sử dụng. Nếu bạn dev nhiều agents và thấy duplicate code, Superpowers giúp modularize.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "261584"
+    },
+    {
+      "headline": "Hermes Agent (Nous Research) — 'The Agent That Grows With You'",
+      "why": "Agent có learning loop — improve theo thời gian dựa trên feedback. Nếu bạn cần agent không chỉ execute mà còn adapt, Hermes là research direction đáng follow.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "220917"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Inflection 3 Pi — Removed",
+      "event": "deprecated",
+      "summary": "Model inflection/inflection-3-pi không còn trên OpenRouter.",
+      "why": "Migrate user đi nếu đang dùng Inflection 3 Pi.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inflection/inflection-3-pi",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Inflection 3 Productivity — Removed",
+      "event": "deprecated",
+      "summary": "Model inflection/inflection-3-productivity không còn trên OpenRouter.",
+      "why": "Migrate user đi nếu đang dùng Inflection 3 Productivity.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inflection/inflection-3-productivity",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI GPT-OSS-20B — Giá Output Tăng $0.13→$0.14/M tok",
+      "event": "price",
+      "summary": "Giá completion tăng từ $0.13 lên $0.14 per million tokens. Prompt giữ nguyên $0.03.",
+      "why": "Nếu dùng GPT-OSS-20B cho high-volume output, cost tăng ~7.7%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 — Giá Giảm $0.73→$0.67 Input, $2.28→$2.10 Output",
+      "event": "price",
+      "summary": "Giá prompt giảm 8.2%, completion giảm 7.9%.",
+      "why": "Cheaper alternative cho Chinese LLM use cases.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 30B A3B — Giá Giảm Nhẹ $0.13→$0.12 Input, $0.52→$0.50 Output",
+      "event": "price",
+      "summary": "Giá giảm ~4% cả input và output.",
+      "why": "Qwen models đang aggressive về pricing — tín hiệu cạnh tranh với Alibaba/ByteDance.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash — Giá Tăng $0.09→$0.14 Input, $0.19→$0.28 Output",
+      "event": "price",
+      "summary": "Giá tăng ~55% input, ~47% output.",
+      "why": "DeepSeek vẫn rẻ so với GPT/Claude, nhưng đang tăng giá — có thể do demand tăng hoặc cost infra thực tế cao hơn dự kiến.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 27B — Output Giảm Mạnh $2.40→$2.00/M tok",
+      "event": "price",
+      "summary": "Giá completion giảm 16.7%, input tăng nhẹ $0.29→$0.30.",
+      "why": "Output rẻ hơn đáng kể — nếu use case bạn heavy on generation (writing, summarization), Qwen3.6 27B giờ competitive hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code — Giá Giảm Nhẹ $0.78→$0.73 Input",
+      "event": "price",
+      "summary": "Giá prompt giảm ~6.4%, output giữ nguyên $3.50.",
+      "why": "Kimi K2.7 Code đang cạnh tranh với Codex/Claude Code — giảm giá input để attract coding use cases.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "tags": [
+        "openrouter",
+        "price"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 150,
+    "brave": 46,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 43,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 8
+  }
+}
