@@ -1,0 +1,332 @@
+{
+  "date": "2026-07-29",
+  "updated_at": "2026-07-29T06:51:16.935289+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "Anthropic Ra Claude Opus 5 — Hiệu Năng Gần Fable, Giá Input Chỉ Bằng Nửa",
+    "summary": "Anthropic vừa release Claude Opus 5 (ngày 24/7) — model được thiết kế để gần sát performance của Fable trên nhiều tác vụ nhưng giá chỉ bằng 1/2. Đây là động thái định vị lại giữa sức mạnh (Fable) và hiệu quả chi phí (Opus family), đặc biệt cho doanh nghiệp cần scale mà không chịu được chi phí Mythos-tier.",
+    "why": "Cho manager/founder: đây là signal rõ — market đang forcing giảm giá ở frontier tier. Nếu team bạn đang dùng Fable full-time, test ngay Opus 5 cho workflow không cần Mythos-tier reasoning. Cost saving 50% input × volume lớn = substantial. Cho cá nhân: cơ hội thử 'gần-Fable' không phải trả Fable price — nâng skill prompt với model mạnh hơn.",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5",
+    "tags": [
+      "anthropic",
+      "claude",
+      "pricing",
+      "model-release"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Moonshot AI Kimi K3 Release Public Weights — Model Đánh Bại Fable 5 Trên Benchmark",
+      "why": "Cho developer/curious: open-weight model từ Trung Quốc đánh bại frontier US model trên benchmark công khai — đây là shift quyền lực. Weights đã available 27/7 — cơ hội self-host model frontier-tier không phụ thuộc API US.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/china-s-moonshot-to-release-breakthrough-ai-model-for-download",
+      "tags": [
+        "moonshot",
+        "open-weight",
+        "china",
+        "benchmark"
+      ]
+    },
+    {
+      "headline": "Andrew Ng Ra OpenWorker — AI Coworker Chạy Local, Trả Deliverable Thay Vì Chat",
+      "why": "Cho cá nhân/creative: thay vì chat qua lại, OpenWorker nhận task → trả file/output hoàn chỉnh. Local-first = không leak dữ liệu lên cloud. Nếu bạn làm freelance/production và chán phải babysit chatbot, đây là UX khác biệt — task-in, deliverable-out.",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
+      "tags": [
+        "andrew-ng",
+        "local-first",
+        "productivity",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Anthropic Phát Hiện Lỗ Hổng Cryptographic Bằng Claude — Research Case",
+      "why": "Cho curious/developer: proof rằng LLM có thể phát hiện bug bảo mật thực trong cryptographic code — không chỉ là hype. Nếu bạn code backend/security-critical system, LLM code review đang trở thành cần thiết, không phải luxury.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "tags": [
+        "security",
+        "cryptography",
+        "research",
+        "claude"
+      ]
+    },
+    {
+      "headline": "OpenAI Open-Source Codex Security — Model Chuyên Tìm Lỗ Hổng Code",
+      "why": "Cho developer: OpenAI vừa open-source Codex Security, tool tìm lỗ hổng bảo mật trong code. Nếu team bạn chưa có security audit workflow, đây là baseline miễn phí để bắt đầu — giảm risk trước khi deploy.",
+      "source": "GitHub",
+      "url": "https://github.com/openai/codex-security",
+      "tags": [
+        "openai",
+        "security",
+        "open-source",
+        "codex"
+      ]
+    },
+    {
+      "headline": "Claude Code Docs Launch — Agentic Tool Đọc Codebase, Edit Files, Chạy Commands",
+      "why": "Cho developer: Claude Code là agentic coding tool (terminal, IDE, desktop, browser) — đọc codebase, edit files, run commands tự động. Nếu bạn đang dùng Cursor/Copilot, đây là competitor mới từ Anthropic — test xem workflow nào fit hơn.",
+      "source": "Claude Code Docs",
+      "url": "https://code.claude.com/docs/en/overview",
+      "tags": [
+        "anthropic",
+        "coding",
+        "agentic",
+        "developer-tools"
+      ]
+    },
+    {
+      "headline": "NVIDIA Ra Gemma 3n — Multilingual & Multimodal Natively",
+      "why": "Cho developer/curious: Gemma 3n là model multilingual + multimodal native (text/image/video/audio) — không phải bolt-on. Nếu bạn build product cho thị trường đa ngôn ngữ/đa phương tiện, đây là foundation model phù hợp hơn English-only models.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "nvidia",
+        "gemma",
+        "multimodal",
+        "multilingual"
+      ]
+    },
+    {
+      "headline": "Higgsfield Aggregator — Dùng Sora 2, Kling 3, Veo 3.1, Seedance 2 Trong 1 Workspace",
+      "why": "Cho creative/producer: thay vì subscribe 4-5 video model khác nhau, Higgsfield cho bạn dùng tất cả trong 1 platform. Compare outputs, switch model không rời workspace — tiết kiệm thời gian + chi phí subscription.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video",
+        "aggregator",
+        "workflow",
+        "production"
+      ]
+    },
+    {
+      "headline": "Creen AI — Free & Unlimited AI Generator, 40+ Models, No Login",
+      "why": "Cho cá nhân/curious: Creen AI miễn phí, không cần đăng ký, support 40+ models (Sora 2, Veo 3.1, Nano Banana Pro). Nếu bạn muốn thử AI video/image mà chưa ready commit subscription, đây là sandbox tốt để học.",
+      "source": "Creen AI",
+      "url": "https://www.creen.ai/",
+      "tags": [
+        "free",
+        "video",
+        "image",
+        "no-login"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Black Forest Labs Ra FLUX 3 — Multimodal AI Model Tích Hợp Video, Audio, Image",
+      "summary": "FLUX 3 launch 23/7 — model multimodal đầu tiên của Black Forest Labs, generate video (lên tới 20s với audio native synced), image, và physical action trong 1 architecture. Đây là bước nhảy từ image-only (FLUX 1/2) sang tích hợp đa phương tiện.",
+      "why": "Cho creative/producer: nếu workflow bạn cần generate cả video + audio sync (vd: motion graphics với sound effect), FLUX 3 giảm số bước — không phải generate riêng rồi sync thủ công. Test xem output quality có đủ pro chưa trước khi production.",
+      "source": "FluxNote",
+      "url": "https://fluxnote.io/guides/flux-3",
+      "tags": [
+        "flux",
+        "multimodal",
+        "video",
+        "audio"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Stanford: AI Làm Tăng Độ Tự Tin Nhưng Giảm Độ Chính Xác",
+      "summary": "Nghiên cứu từ Stanford cho thấy người dùng AI ra quyết định nhanh và tự tin hơn, nhưng độ chính xác thực tế giảm — do tin tưởng output AI mà không verify. Đây là bias nguy hiểm khi AI trở thành 'copilot' trong quyết định quan trọng.",
+      "why": "Cho manager/cá nhân: nếu bạn dùng AI để ra quyết định (hiring, investment, strategy), setup verification step — đừng tin AI 100%. Confidence không bằng correctness. Case này nhắc lại Quy Tắc #5 AI Mentor: 'Biggest risk là điều bạn không nhìn thấy' — overconfidence là blind spot.",
+      "source": "Research (đã cover 27/7)",
+      "url": "",
+      "tags": [
+        "bias",
+        "decision-making",
+        "overconfidence"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Anthropic, Databricks Công Bố Doanh Thu — $47B vs $6.9B Run-Rate, Revenue Thật Đang Tách Khỏi Hype",
+      "summary": "Anthropic $47B run-rate, Databricks $6.9B annualised với positive free cash flow, Cursor ~$4B trước khi bị mua lại. AI funding 2025 chiếm 50% global startup capital (~$202B), nhưng gap giữa top performers và 'the rest' đang mở rộng.",
+      "why": "Cho founder/đầu tư: market đang consolidate — chỉ những công ty có revenue thật + moat mới survive. Nếu bạn raise AI round, investor sẽ hỏi 'bạn là Anthropic hay bạn là vòng pre-seed không có GTM?' — chuẩn bị câu trả lời về distribution + unit economics.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/top-50-ai-startups/",
+      "tags": [
+        "revenue",
+        "funding",
+        "consolidation",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "Atoms (Travis Kalanick) Raise $1.7B — Vòng Lớn Nhất Tuần Cho Physical AI",
+      "summary": "Atoms, startup physical AI của Travis Kalanick (cựu Uber CEO), vừa raise $1.7B — vòng funding lớn nhất tuần này. Physical AI (robotics + AI agent trong thế giới vật lý) đang nhận vốn khổng lồ từ Sequoia, a16z và các quỹ lớn.",
+      "why": "Cho founder/đầu tư: physical AI là frontier tiếp theo sau LLM software. Nếu bạn build trong logistics/manufacturing/warehouse automation, đây là signal — capital đang chảy mạnh vào hardware+AI integration. Nhưng Quy Tắc #4 Mentor: delay effect — physical AI mất 3-5 năm mới ROI, không phải 6 tháng như software.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "tags": [
+        "physical-ai",
+        "funding",
+        "robotics",
+        "travis-kalanick"
+      ]
+    },
+    {
+      "headline": "OpenAI Launch Corporate Software Cho Customer Service & Sales — Beyond Model War",
+      "summary": "OpenAI ra mắt corporate software (customer service + sales agents), bao gồm simulation, guardrails, human review, automated graders để test agent trước khi deploy. Đây là move vào enterprise SaaS, không chỉ bán API model.",
+      "why": "Cho founder/manager: OpenAI đang pivot từ 'model provider' sang 'enterprise platform' — cạnh tranh trực tiếp với Salesforce/Zendesk. Nếu team bạn đang build AI agent cho khách hàng, expect competition từ Big Tech có distribution sẵn. Moat không còn là model, mà là domain expertise + integration.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/openai-presence-corporate-software-customer-service-sales-2026-7",
+      "tags": [
+        "openai",
+        "enterprise",
+        "saas",
+        "agents"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — Personal AI Assistant Chạy Any OS, Any Platform",
+      "why": "Cho developer: open-source AI assistant (384K stars) cross-platform — nếu bạn muốn tự host assistant thay vì dùng cloud, đây là base tốt để fork + customize.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "384436"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Development Methodology",
+      "why": "Cho developer: framework để build AI agents có 'skills' — không phải monolithic prompt. Nếu bạn đang build agent phức tạp, kiến trúc modular này giúp maintain + scale.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "262688"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Cho manager/developer: n8n là workflow automation (198K stars) tích hợp AI native — self-host hoặc cloud. Nếu team bạn cần automate workflow mà không muốn vendor lock-in Zapier, đây là alternative open-source.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "198436"
+    },
+    {
+      "headline": "firecrawl/firecrawl — API To Search, Scrape, Interact With Web At Scale",
+      "why": "Cho developer: scraping API (157K stars) — nếu bạn build AI agent cần data từ web (research, monitoring, competitor analysis), Firecrawl là infra sẵn thay vì tự viết scraper.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "157514"
+    },
+    {
+      "headline": "langgenius/dify — Build Agentic Workflows, RAG Pipelines Trong 1 Workspace",
+      "why": "Cho developer/manager: Dify (150K stars) là platform collaborative cho agent + RAG — deploy cloud/VPC/self-host. Nếu team bạn có nhiều người cùng build AI workflow, đây là workspace chung thay vì mỗi người 1 tool riêng.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150581"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Anthropic: Claude Opus 5 (batch) — $2.50/$12.50 per M tok",
+      "event": "new",
+      "summary": "Claude Opus 5 batch mode available — gần sát Fable performance, cost-effective cho high-volume workloads.",
+      "why": "Batch mode = giá rẻ hơn real-time, phù hợp nếu bạn chạy bulk tasks (data processing, batch analysis). Migrate workflows không cần instant response sang batch để save cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-opus-4.5:batch",
+      "tags": [
+        "anthropic",
+        "batch",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Google: Gemini 3.6 Flash (batch) — $0.75/$3.75 per M tok",
+      "event": "new",
+      "summary": "Gemini 3.6 Flash batch available — high-efficiency cho coding, agentic workflows, web/app dev.",
+      "why": "Nếu workflow bạn là coding automation (generate code, review PR), 3.6 Flash batch rẻ hơn real-time. Test xem output quality có đủ cho CI/CD pipeline không.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.6-flash:batch",
+      "tags": [
+        "google",
+        "gemini",
+        "batch",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-5.4 (batch) — $1.25/$7.50 per M tok",
+      "event": "new",
+      "summary": "GPT-5.4 batch mode — unifies Codex + GPT lines, 1M+ context window, coding focus.",
+      "why": "GPT-5.4 có context window 922K input — nếu bạn cần analyze codebase lớn hoặc long documents, batch mode giúp giảm chi phí. Nhưng latency cao — chỉ dùng cho task không cần instant.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.4:batch",
+      "tags": [
+        "openai",
+        "gpt5",
+        "batch",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Qwen: Qwen3.7 Flash — $0.03/$0.13 per M tok",
+      "event": "new",
+      "summary": "Qwen3.7 Flash — vision-language reasoning model, suited for multimodal agents, visual coding, search.",
+      "why": "Giá cực rẻ ($0.03 input) — nếu bạn cần vision model cho high-volume tasks (image classification, OCR, visual QA), Qwen3.7 Flash cost-effective hơn GPT-4V.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.7-flash",
+      "tags": [
+        "qwen",
+        "vision",
+        "multimodal",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Poolside: Laguna M.1 — Model Bị Gỡ",
+      "event": "deprecated",
+      "summary": "Poolside Laguna M.1 và M.1 free variant không còn trên OpenRouter.",
+      "why": "Nếu workflow bạn đang dùng Laguna M.1, migrate ngay sang model khác (Qwen Coder, Codex, v.v.) — model bị deprecated nghĩa là sẽ shutdown sớm.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/poolside/laguna-m.1",
+      "tags": [
+        "poolside",
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.7 Max — Giảm Giá $1.25/$3.75 (↓ 15%)",
+      "event": "price",
+      "summary": "Qwen3.7 Max giảm giá từ $1.48/$4.42 xuống $1.25/$3.75 per M tok.",
+      "why": "Giảm giá 15% — nếu bạn đang dùng competitor model cùng tier (GPT-4 Turbo, Claude Opus), test Qwen3.7 Max xem có thể switch để save cost không.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.7-max",
+      "tags": [
+        "qwen",
+        "pricing",
+        "cost-optimization"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen Plus 0728 (thinking) — Tăng Giá $0.40/$1.20 (↑ 54%)",
+      "event": "price",
+      "summary": "Qwen Plus thinking variant tăng giá từ $0.26/$0.78 lên $0.40/$1.20.",
+      "why": "Tăng giá 54% — nếu bạn đang dùng Qwen Plus thinking cho reasoning tasks, cân nhắc downgrade về non-thinking variant hoặc switch sang competitor nếu cost không justify.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen-plus-2025-07-28:thinking",
+      "tags": [
+        "qwen",
+        "pricing",
+        "reasoning"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 203,
+    "brave": 45,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 47,
+    "huggingface": 5,
+    "github": 10,
+    "openrouter": 40
+  }
+}
