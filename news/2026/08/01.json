@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-01",
+  "updated_at": "2026-08-01T06:53:28.009628+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "DeepSeek V4 Flash 0731: Model mới rẻ bất ngờ, hiệu năng đánh bại nhiều đối thủ đắt hơn",
+    "summary": "DeepSeek ra mắt V4 Flash 0731 với kiến trúc sparse MoE (13B active/284B total), giá chỉ $0.14/$0.28 per M tokens — rẻ hơn nhiều đối thủ cùng tier nhưng benchmark coding, reasoning, agent workflows ấn tượng. Artificial Analysis đánh giá đây là breakthrough về price-performance ratio.",
+    "why": "Cho cá nhân: nếu đang dùng GPT-4 tier models cho coding daily, switch sang DeepSeek V4 Flash có thể giảm 70-80% chi phí API mà vẫn giữ chất lượng. Cho manager: đây là case study về 'enough is good enough' — không phải lúc nào cũng cần Fable/GPT-5 đắt đỏ khi có alternative rẻ mà fit use case.",
+    "source": "Artificial Analysis + OpenRouter",
+    "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+    "tags": [
+      "model-launch",
+      "pricing",
+      "coding",
+      "reasoning"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Google Chrome đã fix bugs nhiều hơn 2 năm trước cộng lại — nhờ AI",
+      "why": "Cho cá nhân/curious: AI không chỉ viết code mới, mà đang giải quyết technical debt cũ nhanh hơn con người. Pattern này sẽ lan rộng sang các codebase khác trong 6-12 tháng.",
+      "source": "Google Security Blog",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "tags": [
+        "security",
+        "technical-debt",
+        "ai-coding"
+      ]
+    },
+    {
+      "headline": "Quanta Magazine: AI có đang 'reasoning đúng vì lý do sai' không?",
+      "why": "Cho curious: nghiên cứu mới challenge assumption về AI reasoning — model có thể đưa ra đáp án đúng nhưng logic đằng sau hoàn toàn khác con người. Implication: khi deploy AI vào decision critical, phải verify process chứ không chỉ output.",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "tags": [
+        "research",
+        "reasoning",
+        "interpretability"
+      ]
+    },
+    {
+      "headline": "OpenAI field report: AI coding agents tăng tốc scientific computing trong genomics",
+      "why": "Cho curious/individual: case study thực tế về AI modernize legacy scientific code — tăng tốc discovery. Pattern này áp dụng được cho mọi ngành có technical debt lớn (finance, logistics, healthcare).",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai/",
+      "tags": [
+        "genomics",
+        "scientific-computing",
+        "ai-agents"
+      ]
+    },
+    {
+      "headline": "NVIDIA Gemma 3n: Multilingual & multimodal native cho text/image/video/audio",
+      "why": "Cho creative: model natively multimodal nghĩa là không cần pipeline riêng cho từng media type — giảm latency, tăng coherence khi làm cross-media content.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
+      "tags": [
+        "multimodal",
+        "multilingual",
+        "gemma"
+      ]
+    },
+    {
+      "headline": "MiniMax và ByteDance tung AI video models cùng ngày — Trung Quốc dẫn đầu video generation",
+      "why": "Cho manager/creative: Trung Quốc đang out-compete Mỹ về video AI. Nếu team bạn phụ thuộc Sora/Veo, nên test MiniMax/ByteDance models — có thể rẻ hơn và fit Asian content style hơn.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/china-s-minimax-and-bytedance-release-dueling-ai-video-models",
+      "tags": [
+        "video-generation",
+        "china",
+        "competition"
+      ]
+    }
+  ],
+  "production": [],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Generalist AI đàm phán raise với định giá $3B — cạnh tranh fierce trong physical AI",
+      "summary": "Generalist AI đang talks raise mới tại $3B valuation, trong khi Physical Intelligence $11B, Skild AI $14B, Field AI $2B. Physical AI (robotics + embodied intelligence) đang là mũi nhọn funding 2026.",
+      "why": "Cho founder/đầu tư: physical AI đang hút vốn mạnh, nhưng định giá phân tán rộng ($2B-$14B) cho thấy thị trường chưa consensus về winner. Nếu build trong vertical này, focus vào moat rõ ràng (IP, data flywheel, hardware integration) hơn là hype.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startup-generalist-ai-in-talks-to-raise-at-billion-valuation-2026-7",
+      "tags": [
+        "funding",
+        "physical-ai",
+        "robotics",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "Atoms (Travis Kalanick) raise $1.7B — vòng lớn nhất tuần cho physical AI",
+      "summary": "Atoms, startup của cựu CEO Uber Travis Kalanick, đóng vòng $1.7B cho physical AI infrastructure. Đây là vòng lớn nhất tuần này, vượt xa Etched ($300M, inference chips) và các deals khác.",
+      "why": "Cho founder: Kalanick pivot từ CloudKitchens sang physical AI cho thấy big player đang bet vào 'AI meet physical world'. Nếu bạn làm logistics/warehouse/manufacturing, đây là signal chuẩn bị cho AI-driven automation trong 2-3 năm.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "tags": [
+        "funding",
+        "physical-ai",
+        "travis-kalanick",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Etched raise $300M Series C tại định giá $10B — inference chips chuyên frontier models",
+      "summary": "Etched, công ty thiết kế chips/racks/software cho inference frontier models, đóng $300M Series C led bởi Sequoia, pre-money $10B. Startup này bet vào specialized hardware thay vì general-purpose GPUs.",
+      "why": "Cho founder/đầu tư: vertical integration (chips + software) đang thắng trong AI infrastructure. Nếu bạn làm enterprise AI deployment, theo dõi Etched — có thể là Hugging Face của hardware.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "tags": [
+        "funding",
+        "inference",
+        "hardware",
+        "specialized-chips"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "n8n workflow automation platform — 198K stars, tích hợp native AI",
+      "why": "Fair-code alternative cho Zapier/Make, self-host được, 400+ integrations. Dùng để build AI workflows không cần code nhiều.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "198884"
+    },
+    {
+      "headline": "AutoGPT 185K stars — vision 'accessible AI for everyone'",
+      "why": "AutoGPT vẫn maintain active, focus vào autonomous agents. Nếu muốn tự build agent workflows, đây là foundational repo.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185741"
+    },
+    {
+      "headline": "Firecrawl 158K stars — API search, scrape, interact với web at scale",
+      "why": "Critical infrastructure cho AI agents cần real-time web data. Production-ready alternative cho BeautifulSoup workflows.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "158721"
+    },
+    {
+      "headline": "Dify 150K stars — build agentic workflows, RAG pipelines, deploy cloud/VPC/self-hosted",
+      "why": "Platform giúp teams move từ prototype sang production mà không rebuild stack. Dùng khi team có nhiều AI experiments cần standardize.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150930"
+    },
+    {
+      "headline": "Open WebUI 147K stars — user-friendly AI interface, support Ollama, OpenAI API",
+      "why": "Nếu đang chạy local LLMs (Ollama) hoặc cần UI đơn giản cho team non-technical, Open WebUI là go-to choice.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "147483"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] DeepSeek V4 Flash 0731 — $0.14/$0.28 per M tok",
+      "event": "new",
+      "summary": "Sparse MoE model (13B active/284B total) từ DeepSeek, re-post-trained cho coding, reasoning, agent workflows.",
+      "why": "Giá rẻ đột phá cho coding/reasoning tasks — test làm backup cho expensive models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "new-model",
+        "deepseek",
+        "coding",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines Inkling Small — $0.50/$1.20 per M tok",
+      "event": "new",
+      "summary": "Open-weight multimodal MoE (12B active/276B total) từ Thinking Machines Lab, smaller/efficient member của dòng Inkling.",
+      "why": "Multimodal open-weight giá tốt — alternative cho closed models khi cần self-host.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-small",
+      "tags": [
+        "new-model",
+        "multimodal",
+        "open-weight"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] 24 Anthropic/Google/OpenAI batch models removed",
+      "event": "deprecated",
+      "summary": "Loạt batch APIs của Claude (Fable 5, Haiku 4.5, Opus 4.x, Sonnet), Gemini (2.5/3.x), GPT-5.x bị deprecate.",
+      "why": "Nếu đang dùng batch API cho cost optimization, migrate trước khi shutdown hoàn toàn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-fable-5:batch",
+      "tags": [
+        "deprecated",
+        "batch-api"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Instruct giảm 69% giá — ↓$0.25/$0.75",
+      "event": "price",
+      "summary": "Prompt $0.80 → $0.25, completion $1.00 → $0.75 (per M tokens).",
+      "why": "Vision-language model 72B giá giảm mạnh — test cho multimodal use cases thay vì GPT-4V đắt hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+      "tags": [
+        "price-drop",
+        "multimodal",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Mistral Small 3.2 24B giảm 30-33% — ↓$0.07/$0.20",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.07, completion $0.30 → $0.20.",
+      "why": "Mistral Small giá rẻ hơn — good middle ground cho general tasks không cần flagship models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+      "tags": [
+        "price-drop",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.6 giảm 38-38% — ↓$0.59/$2.48",
+      "event": "price",
+      "summary": "Prompt $0.95 → $0.59, completion $4.00 → $2.48.",
+      "why": "Kimi K2.6 cheaper — test nếu làm Asian language content hoặc cần long context.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+      "tags": [
+        "price-drop",
+        "kimi"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 235B Thinking giảm 23-23% — ↓$0.23/$2.30",
+      "event": "price",
+      "summary": "Prompt $0.30 → $0.23, completion $3.00 → $2.30.",
+      "why": "Reasoning model 235B giá giảm — alternative cho o1/Claude thinking tier.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+      "tags": [
+        "price-drop",
+        "reasoning",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 tăng 15-16% giá — ↑$1.12/$3.52",
+      "event": "price",
+      "summary": "Prompt $0.97 → $1.12, completion $3.04 → $3.52.",
+      "why": "GLM tăng giá — nếu đang dùng, review usage hoặc switch sang alternative.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "price-increase",
+        "glm"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 209,
+    "brave": 45,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 39
+  }
+}
