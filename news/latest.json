@@ -1,284 +1,271 @@
 {
-  "date": "2026-07-31",
-  "updated_at": "2026-07-31T06:53:36.281362+07:00",
-  "weekday": "Friday",
+  "date": "2026-08-01",
+  "updated_at": "2026-08-01T06:53:28.009628+07:00",
+  "weekday": "Saturday",
   "top_story": {
-    "headline": "OpenAI ra mắt GPT-5.6: Đột phá hiệu suất, giá thành cạnh tranh",
-    "summary": "OpenAI vừa công bố GPT-5.6, phiên bản mới nhất của mô hình ngôn ngữ lớn, tập trung vào việc cải thiện đáng kể tỷ lệ hiệu suất trên giá thành. Điều này giúp các nhà phát triển và doanh nghiệp tiếp cận sức mạnh AI với chi phí tối ưu hơn.",
-    "why": "Giúp các team sản xuất, phát triển ứng dụng giảm chi phí vận hành API AI, đồng thời tăng tốc độ xử lý và chất lượng đầu ra. Manager có thể cân nhắc mở rộng ứng dụng AI mà không lo về ngân sách.",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+    "headline": "DeepSeek V4 Flash 0731: Model mới rẻ bất ngờ, hiệu năng đánh bại nhiều đối thủ đắt hơn",
+    "summary": "DeepSeek ra mắt V4 Flash 0731 với kiến trúc sparse MoE (13B active/284B total), giá chỉ $0.14/$0.28 per M tokens — rẻ hơn nhiều đối thủ cùng tier nhưng benchmark coding, reasoning, agent workflows ấn tượng. Artificial Analysis đánh giá đây là breakthrough về price-performance ratio.",
+    "why": "Cho cá nhân: nếu đang dùng GPT-4 tier models cho coding daily, switch sang DeepSeek V4 Flash có thể giảm 70-80% chi phí API mà vẫn giữ chất lượng. Cho manager: đây là case study về 'enough is good enough' — không phải lúc nào cũng cần Fable/GPT-5 đắt đỏ khi có alternative rẻ mà fit use case.",
+    "source": "Artificial Analysis + OpenRouter",
+    "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
     "tags": [
-      "LLM",
-      "OpenAI",
-      "hiệu suất",
-      "chi phí"
+      "model-launch",
+      "pricing",
+      "coding",
+      "reasoning"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Anthropic ra mắt Claude Opus 5: Mạnh mẽ, giá chỉ bằng một nửa Fable",
-      "why": "Cung cấp lựa chọn mô hình cao cấp với chi phí tối ưu hơn cho các tác vụ phức tạp, giúp các doanh nghiệp và nhà phát triển tối đa hóa hiệu quả đầu tư vào AI.",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5",
+      "headline": "Google Chrome đã fix bugs nhiều hơn 2 năm trước cộng lại — nhờ AI",
+      "why": "Cho cá nhân/curious: AI không chỉ viết code mới, mà đang giải quyết technical debt cũ nhanh hơn con người. Pattern này sẽ lan rộng sang các codebase khác trong 6-12 tháng.",
+      "source": "Google Security Blog",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
       "tags": [
-        "LLM",
-        "Anthropic",
-        "chi phí"
+        "security",
+        "technical-debt",
+        "ai-coding"
       ]
     },
     {
-      "headline": "Google DeepMind giới thiệu Gemini Robotics 2: Trí tuệ toàn thân cho robot",
-      "why": "Mở ra tiềm năng lớn cho tự động hóa trong sản xuất và dịch vụ, cho phép robot thực hiện các tác vụ phức tạp, linh hoạt hơn trong môi trường thực tế.",
-      "source": "DeepMind",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "headline": "Quanta Magazine: AI có đang 'reasoning đúng vì lý do sai' không?",
+      "why": "Cho curious: nghiên cứu mới challenge assumption về AI reasoning — model có thể đưa ra đáp án đúng nhưng logic đằng sau hoàn toàn khác con người. Implication: khi deploy AI vào decision critical, phải verify process chứ không chỉ output.",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
       "tags": [
-        "robotics",
-        "AI vật lý",
-        "tự động hóa"
+        "research",
+        "reasoning",
+        "interpretability"
       ]
     },
     {
-      "headline": "Thử nghiệm thực tế: GPT 5.6 Sol thất bại khi điều hành doanh nghiệp, mất 447 USD",
-      "why": "Nhắc nhở các manager và founder về giới hạn hiện tại của AI tự trị trong môi trường kinh doanh thực tế, cần giám sát chặt chẽ và không nên kỳ vọng quá mức.",
-      "source": "Bottleneck Labs",
-      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "headline": "OpenAI field report: AI coding agents tăng tốc scientific computing trong genomics",
+      "why": "Cho curious/individual: case study thực tế về AI modernize legacy scientific code — tăng tốc discovery. Pattern này áp dụng được cho mọi ngành có technical debt lớn (finance, logistics, healthcare).",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai/",
       "tags": [
-        "AI tự trị",
-        "giới hạn AI",
-        "kinh doanh"
+        "genomics",
+        "scientific-computing",
+        "ai-agents"
       ]
     },
     {
-      "headline": "Microsoft ra mắt 7 mô hình AI nội bộ mới, tăng cường khả năng cạnh tranh",
-      "why": "Cho thấy sự đầu tư mạnh mẽ của Microsoft vào phát triển AI cốt lõi, có thể mang lại các công cụ và dịch vụ AI mới, tích hợp sâu hơn vào hệ sinh thái của họ cho doanh nghiệp.",
-      "source": "Microsoft AI",
-      "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "headline": "NVIDIA Gemma 3n: Multilingual & multimodal native cho text/image/video/audio",
+      "why": "Cho creative: model natively multimodal nghĩa là không cần pipeline riêng cho từng media type — giảm latency, tăng coherence khi làm cross-media content.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/ai-models",
       "tags": [
-        "Microsoft",
-        "mô hình AI",
-        "chiến lược"
-      ]
-    },
-    {
-      "headline": "Microsoft sắp phát hành 'Siêu ứng dụng AI' tích hợp Copilot và tác nhân tự trị",
-      "why": "Đơn giản hóa trải nghiệm người dùng bằng cách hợp nhất nhiều công cụ AI vào một nền tảng, giúp các team dễ dàng truy cập và tận dụng AI cho công việc hàng ngày từ mã hóa đến cộng tác.",
-      "source": "Gizmodo",
-      "url": "https://gizmodo.com/microsoft-will-soon-release-an-ai-super-app-2000792653",
-      "tags": [
-        "Microsoft",
-        "siêu ứng dụng",
-        "AI agent",
-        "Copilot"
-      ]
-    }
-  ],
-  "production": [
-    {
-      "headline": "Black Forest Labs ra mắt FLUX 3: Mô hình AI đa phương thức tạo video 20 giây kèm âm thanh",
-      "summary": "FLUX 3 là mô hình đa phương thức đầu tiên của Black Forest Labs, có khả năng tạo hình ảnh, video (lên đến 20 giây với âm thanh đồng bộ) và hành động vật lý từ một kiến trúc duy nhất.",
-      "why": "Team sản xuất video, marketing có thể tạo nội dung dài hơn, chân thực hơn với âm thanh tích hợp, tiết kiệm thời gian hậu kỳ và mở rộng khả năng sáng tạo.",
-      "source": "FluxNote",
-      "url": "https://fluxnote.io/guides/flux-3",
-      "tags": [
-        "video AI",
         "multimodal",
-        "sáng tạo nội dung"
+        "multilingual",
+        "gemma"
       ]
     },
     {
-      "headline": "OpenAI trình làng GPT Image 2: Tạo ảnh với khả năng lập kế hoạch và tự kiểm tra",
-      "summary": "GPT Image 2 là mô hình tạo ảnh hàng đầu của OpenAI, tích hợp khả năng lập luận (O-series reasoning) để lập kế hoạch và tự kiểm tra, mang lại hình ảnh chất lượng cao và phù hợp hơn.",
-      "why": "Giúp các creative director và designer tạo ra hình ảnh phức tạp, có tính logic cao hơn, giảm thiểu lỗi và cần ít chỉnh sửa thủ công, tăng hiệu quả quy trình sáng tạo.",
-      "source": "FluxNote",
-      "url": "https://fluxnote.io/guides/gpt-image-2",
+      "headline": "MiniMax và ByteDance tung AI video models cùng ngày — Trung Quốc dẫn đầu video generation",
+      "why": "Cho manager/creative: Trung Quốc đang out-compete Mỹ về video AI. Nếu team bạn phụ thuộc Sora/Veo, nên test MiniMax/ByteDance models — có thể rẻ hơn và fit Asian content style hơn.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/china-s-minimax-and-bytedance-release-dueling-ai-video-models",
       "tags": [
-        "image AI",
-        "OpenAI",
-        "sáng tạo hình ảnh"
-      ]
-    },
-    {
-      "headline": "Meta giới thiệu Muse Image miễn phí, Muse Video đang phát triển",
-      "summary": "Meta AI ra mắt Muse Image, một công cụ tạo hình ảnh miễn phí cho người dùng hàng ngày, đồng thời tiết lộ Muse Video đang được phát triển để mở rộng khả năng sáng tạo.",
-      "why": "Cung cấp công cụ tạo hình ảnh dễ tiếp cận, miễn phí cho các team marketing, social media, giúp họ nhanh chóng tạo nội dung trực quan mà không tốn chi phí bản quyền hay phần mềm đắt tiền.",
-      "source": "FB",
-      "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
-      "tags": [
-        "image AI",
-        "Meta",
-        "miễn phí",
-        "sáng tạo nội dung"
-      ]
-    },
-    {
-      "headline": "Google Omni Flash: Công cụ AI miễn phí cho YouTube Shorts và YouTube Create",
-      "summary": "Google I/O 2026 công bố Omni Flash, một công cụ AI miễn phí sẽ sớm có mặt trên YouTube Shorts và ứng dụng YouTube Create, giúp người dùng dễ dàng tạo và chỉnh sửa video ngắn.",
-      "why": "Các nhà sáng tạo nội dung, marketing có thể tận dụng AI để sản xuất video ngắn chất lượng cao, tối ưu cho YouTube mà không cần phần mềm chuyên nghiệp, tiết kiệm thời gian và chi phí.",
-      "source": "Mashable",
-      "url": "https://mashable.com/tech/google-io-2026-new-products-you-can-try-free",
-      "tags": [
-        "video AI",
-        "YouTube",
-        "miễn phí",
-        "sáng tạo nội dung"
-      ]
-    },
-    {
-      "headline": "Creen AI: Nền tảng miễn phí tạo video, hình ảnh với Sora 2, VEO 3.1",
-      "summary": "Creen AI cung cấp công cụ tạo video, hình ảnh và nghệ thuật AI miễn phí, không giới hạn, tích hợp hơn 40 mô hình bao gồm Sora 2, VEO 3.1 và Nano Banana Pro mà không cần đăng nhập.",
-      "why": "Mở rộng khả năng tiếp cận các mô hình AI tiên tiến cho mọi người, đặc biệt hữu ích cho các creative cá nhân hoặc team nhỏ muốn thử nghiệm và tạo nội dung mà không tốn chi phí ban đầu.",
-      "source": "Creen",
-      "url": "https://www.creen.ai/",
-      "tags": [
-        "video AI",
-        "image AI",
-        "miễn phí",
-        "sáng tạo"
+        "video-generation",
+        "china",
+        "competition"
       ]
     }
   ],
+  "production": [],
   "vietnam": [],
-  "research": [
-    {
-      "headline": "MindForge & SpecFirst: Dạy LLM kỹ năng kỹ thuật phần mềm từ đầu",
-      "summary": "Hai nghiên cứu mới khám phá cách giúp các mô hình ngôn ngữ nhỏ (LLM) và tác nhân AI có thể tự tổng hợp chương trình phần mềm từ đầu, vượt qua giới hạn hiện tại chỉ sửa đổi mã có sẵn.",
-      "why": "Tiềm năng tạo ra các AI developer có khả năng xây dựng phần mềm hoàn chỉnh từ yêu cầu ban đầu, giảm đáng kể thời gian và công sức phát triển sản phẩm.",
-      "source": "HuggingFace Papers",
-      "url": "https://huggingface.co/papers/2607.27146",
-      "tags": [
-        "LLM",
-        "AI agent",
-        "kỹ thuật phần mềm"
-      ]
-    },
-    {
-      "headline": "Memory for Large Language Models: Kiến trúc bộ nhớ rõ ràng cho LLM",
-      "summary": "Nghiên cứu nhấn mạnh tầm quan trọng của bộ nhớ như một yếu tố kiến trúc cơ bản trong LLM, chuyển từ một sản phẩm phụ ngầm định sang các cơ chế có thể kiểm soát rõ ràng.",
-      "why": "Cho phép các LLM xử lý thông tin dài hơn, duy trì ngữ cảnh tốt hơn trong các cuộc hội thoại phức tạp hoặc tác vụ cần nhiều bước, cải thiện đáng kể độ tin cậy và tính nhất quán của AI.",
-      "source": "HuggingFace Papers",
-      "url": "https://huggingface.co/papers/2607.25380",
-      "tags": [
-        "LLM",
-        "kiến trúc AI",
-        "bộ nhớ"
-      ]
-    },
-    {
-      "headline": "CADENCE: Thu hẹp khoảng cách suy luận giữa mô hình lớn và nhỏ",
-      "summary": "Nghiên cứu về phương pháp chưng cất tri thức (knowledge distillation) mới, CADENCE, giúp chuyển giao khả năng suy luận từ các mô hình AI lớn sang các mô hình nhỏ gọn hơn một cách hiệu quả.",
-      "why": "Giúp các doanh nghiệp triển khai AI mạnh mẽ trên các thiết bị có tài nguyên hạn chế hoặc với chi phí thấp hơn, tối ưu hóa hiệu suất mà không cần đến các siêu máy tính.",
-      "source": "HuggingFace Papers",
-      "url": "https://huggingface.co/papers/2607.16955",
-      "tags": [
-        "model compression",
-        "hiệu suất AI",
-        "triển khai AI"
-      ]
-    }
-  ],
+  "research": [],
   "business": [
     {
-      "headline": "Anthropic đạt doanh thu ước tính 47 tỷ USD, cho thấy tiềm năng khổng lồ của AI",
-      "summary": "Anthropic, một trong những công ty AI hàng đầu, đã công bố doanh thu ước tính 47 tỷ USD, cùng với Databricks và Cursor cũng đạt các mốc doanh thu ấn tượng.",
-      "why": "Cung cấp cái nhìn rõ ràng về giá trị thị trường và tiềm năng sinh lời của các công ty AI hàng đầu, giúp các nhà đầu tư và founder đánh giá cơ hội trong ngành.",
-      "source": "AI Funding Tracker",
-      "url": "https://aifundingtracker.com/top-50-ai-startups/",
-      "tags": [
-        "đầu tư AI",
-        "doanh thu",
-        "thị trường AI"
-      ]
-    },
-    {
-      "headline": "Etched huy động 300 triệu USD Series C với định giá 10 tỷ USD cho công nghệ suy luận AI",
-      "summary": "Etched, công ty chuyên về thiết kế chip, phần mềm và phương pháp sản xuất cho các mô hình AI tiên phong, đã huy động thành công 300 triệu USD Series C, đạt định giá 10 tỷ USD.",
-      "why": "Cho thấy sự quan tâm lớn của nhà đầu tư vào hạ tầng AI, đặc biệt là công nghệ tối ưu hóa suy luận, một yếu tố then chốt để giảm chi phí và tăng tốc độ triển khai AI quy mô lớn.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
-      "tags": [
-        "đầu tư AI",
-        "hạ tầng AI",
-        "chip AI"
-      ]
-    },
-    {
-      "headline": "Startup robot Generalist AI đàm phán gọi vốn với định giá 3 tỷ USD",
-      "summary": "Generalist AI, một startup trong lĩnh vực robot, đang trong quá trình đàm phán để huy động vốn với định giá 3 tỷ USD, cạnh tranh với các đối thủ lớn như Physical Intelligence và Skild AI.",
-      "why": "Phản ánh xu hướng tăng trưởng mạnh mẽ và sự cạnh tranh gay gắt trong lĩnh vực AI vật lý và robot, mở ra cơ hội cho các nhà đầu tư và đối tác muốn tham gia vào thị trường này.",
+      "headline": "Generalist AI đàm phán raise với định giá $3B — cạnh tranh fierce trong physical AI",
+      "summary": "Generalist AI đang talks raise mới tại $3B valuation, trong khi Physical Intelligence $11B, Skild AI $14B, Field AI $2B. Physical AI (robotics + embodied intelligence) đang là mũi nhọn funding 2026.",
+      "why": "Cho founder/đầu tư: physical AI đang hút vốn mạnh, nhưng định giá phân tán rộng ($2B-$14B) cho thấy thị trường chưa consensus về winner. Nếu build trong vertical này, focus vào moat rõ ràng (IP, data flywheel, hardware integration) hơn là hype.",
       "source": "Business Insider",
       "url": "https://www.businessinsider.com/startup-generalist-ai-in-talks-to-raise-at-billion-valuation-2026-7",
       "tags": [
+        "funding",
+        "physical-ai",
         "robotics",
-        "đầu tư AI",
-        "startup"
+        "valuation"
       ]
     },
     {
-      "headline": "Các nhà đầu tư ưu ái công ty cung cấp dịch vụ đám mây AI, Amazon tiếp tục chi mạnh",
-      "summary": "Báo cáo cho thấy các nhà đầu tư đang đặc biệt quan tâm đến các công ty cung cấp dịch vụ đám mây hỗ trợ AI, với việc Amazon không ngừng tăng chi tiêu cho trung tâm dữ liệu.",
-      "why": "Chỉ ra một xu hướng đầu tư quan trọng: hạ tầng đám mây là xương sống của kỷ nguyên AI. Các doanh nghiệp cần chú ý đến việc tối ưu hóa chi phí và hiệu suất khi sử dụng dịch vụ đám mây cho các dự án AI của mình.",
-      "source": "Techcrunch Ai",
-      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "headline": "Atoms (Travis Kalanick) raise $1.7B — vòng lớn nhất tuần cho physical AI",
+      "summary": "Atoms, startup của cựu CEO Uber Travis Kalanick, đóng vòng $1.7B cho physical AI infrastructure. Đây là vòng lớn nhất tuần này, vượt xa Etched ($300M, inference chips) và các deals khác.",
+      "why": "Cho founder: Kalanick pivot từ CloudKitchens sang physical AI cho thấy big player đang bet vào 'AI meet physical world'. Nếu bạn làm logistics/warehouse/manufacturing, đây là signal chuẩn bị cho AI-driven automation trong 2-3 năm.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
       "tags": [
-        "đầu tư AI",
-        "cloud computing",
-        "hạ tầng AI"
-      ]
-    }
-  ],
-  "society": [
-    {
-      "headline": "Chính sách AI mới của ủy ban điều hành GCC",
-      "summary": "Ủy ban điều hành GCC (GNU Compiler Collection) đã công bố chính sách mới về việc sử dụng AI trong quá trình phát triển phần mềm mã nguồn mở của mình.",
-      "why": "Đây là một ví dụ về cách các tổ chức lớn đang xây dựng khuôn khổ và quy tắc cho việc tích hợp AI vào quy trình làm việc, đặt ra tiền lệ cho các ngành công nghiệp khác về đạo đức và quản trị AI.",
-      "source": "LWN.net",
-      "url": "https://lwn.net/Articles/1086041/",
-      "tags": [
-        "chính sách AI",
-        "mã nguồn mở",
-        "đạo đức AI"
+        "funding",
+        "physical-ai",
+        "travis-kalanick",
+        "infrastructure"
       ]
     },
     {
-      "headline": "LLM chỉ tăng năng suất code 2 lần, không phải 10 lần như kỳ vọng",
-      "summary": "Một phân tích thực tế cho thấy các mô hình ngôn ngữ lớn (LLM) có thể tăng năng suất lập trình viên khoảng 2 lần vào năm 2026, thay vì mức tăng 10 lần như một số dự đoán lạc quan.",
-      "why": "Giúp các manager và lãnh đạo doanh nghiệp có cái nhìn thực tế hơn về tác động của AI đối với năng suất lao động, tránh những kỳ vọng phi thực tế và lập kế hoạch chiến lược phù hợp.",
-      "source": "obryant.dev",
-      "url": "https://obryant.dev/p/2x-not-10x/",
+      "headline": "Etched raise $300M Series C tại định giá $10B — inference chips chuyên frontier models",
+      "summary": "Etched, công ty thiết kế chips/racks/software cho inference frontier models, đóng $300M Series C led bởi Sequoia, pre-money $10B. Startup này bet vào specialized hardware thay vì general-purpose GPUs.",
+      "why": "Cho founder/đầu tư: vertical integration (chips + software) đang thắng trong AI infrastructure. Nếu bạn làm enterprise AI deployment, theo dõi Etched — có thể là Hugging Face của hardware.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
       "tags": [
-        "tác động việc làm",
-        "năng suất",
-        "thực tế AI"
+        "funding",
+        "inference",
+        "hardware",
+        "specialized-chips"
       ]
     }
   ],
+  "society": [],
   "opensource": [
     {
-      "headline": "AminBlg/SimpleEnglish: Agent AI tự động đơn giản hóa tài liệu kỹ thuật",
-      "why": "Hữu ích cho các team phát triển sản phẩm và kỹ thuật muốn chuẩn hóa, đơn giản hóa tài liệu hướng dẫn theo chuẩn ASD-STE100, giúp người dùng dễ hiểu hơn và tiết kiệm thời gian biên tập.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/AminBlg/SimpleEnglish",
-      "stars": "N/A"
+      "headline": "n8n workflow automation platform — 198K stars, tích hợp native AI",
+      "why": "Fair-code alternative cho Zapier/Make, self-host được, 400+ integrations. Dùng để build AI workflows không cần code nhiều.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "198884"
     },
     {
-      "headline": "Whylogs 3.0: Công cụ mã nguồn mở giám sát dữ liệu AI theo thời gian thực",
-      "why": "Cung cấp khả năng phát hiện độ lệch dữ liệu, theo dõi tầm quan trọng của tính năng và dự đoán bất thường trong các mô hình AI, giúp các team MLOps duy trì chất lượng và độ tin cậy của hệ thống AI trong sản xuất.",
-      "source": "Sgxmain",
-      "url": "https://www.sgxmain.com/en/ai-developer-tools-july-2026",
-      "stars": "N/A"
+      "headline": "AutoGPT 185K stars — vision 'accessible AI for everyone'",
+      "why": "AutoGPT vẫn maintain active, focus vào autonomous agents. Nếu muốn tự build agent workflows, đây là foundational repo.",
+      "source": "GitHub",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185741"
+    },
+    {
+      "headline": "Firecrawl 158K stars — API search, scrape, interact với web at scale",
+      "why": "Critical infrastructure cho AI agents cần real-time web data. Production-ready alternative cho BeautifulSoup workflows.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "158721"
+    },
+    {
+      "headline": "Dify 150K stars — build agentic workflows, RAG pipelines, deploy cloud/VPC/self-hosted",
+      "why": "Platform giúp teams move từ prototype sang production mà không rebuild stack. Dùng khi team có nhiều AI experiments cần standardize.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "150930"
+    },
+    {
+      "headline": "Open WebUI 147K stars — user-friendly AI interface, support Ollama, OpenAI API",
+      "why": "Nếu đang chạy local LLMs (Ollama) hoặc cần UI đơn giản cho team non-technical, Open WebUI là go-to choice.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "147483"
     }
   ],
-  "model_updates": [],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] DeepSeek V4 Flash 0731 — $0.14/$0.28 per M tok",
+      "event": "new",
+      "summary": "Sparse MoE model (13B active/284B total) từ DeepSeek, re-post-trained cho coding, reasoning, agent workflows.",
+      "why": "Giá rẻ đột phá cho coding/reasoning tasks — test làm backup cho expensive models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "new-model",
+        "deepseek",
+        "coding",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines Inkling Small — $0.50/$1.20 per M tok",
+      "event": "new",
+      "summary": "Open-weight multimodal MoE (12B active/276B total) từ Thinking Machines Lab, smaller/efficient member của dòng Inkling.",
+      "why": "Multimodal open-weight giá tốt — alternative cho closed models khi cần self-host.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-small",
+      "tags": [
+        "new-model",
+        "multimodal",
+        "open-weight"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] 24 Anthropic/Google/OpenAI batch models removed",
+      "event": "deprecated",
+      "summary": "Loạt batch APIs của Claude (Fable 5, Haiku 4.5, Opus 4.x, Sonnet), Gemini (2.5/3.x), GPT-5.x bị deprecate.",
+      "why": "Nếu đang dùng batch API cho cost optimization, migrate trước khi shutdown hoàn toàn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/anthropic/claude-fable-5:batch",
+      "tags": [
+        "deprecated",
+        "batch-api"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Instruct giảm 69% giá — ↓$0.25/$0.75",
+      "event": "price",
+      "summary": "Prompt $0.80 → $0.25, completion $1.00 → $0.75 (per M tokens).",
+      "why": "Vision-language model 72B giá giảm mạnh — test cho multimodal use cases thay vì GPT-4V đắt hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+      "tags": [
+        "price-drop",
+        "multimodal",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Mistral Small 3.2 24B giảm 30-33% — ↓$0.07/$0.20",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.07, completion $0.30 → $0.20.",
+      "why": "Mistral Small giá rẻ hơn — good middle ground cho general tasks không cần flagship models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+      "tags": [
+        "price-drop",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.6 giảm 38-38% — ↓$0.59/$2.48",
+      "event": "price",
+      "summary": "Prompt $0.95 → $0.59, completion $4.00 → $2.48.",
+      "why": "Kimi K2.6 cheaper — test nếu làm Asian language content hoặc cần long context.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+      "tags": [
+        "price-drop",
+        "kimi"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 235B Thinking giảm 23-23% — ↓$0.23/$2.30",
+      "event": "price",
+      "summary": "Prompt $0.30 → $0.23, completion $3.00 → $2.30.",
+      "why": "Reasoning model 235B giá giảm — alternative cho o1/Claude thinking tier.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+      "tags": [
+        "price-drop",
+        "reasoning",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 tăng 15-16% giá — ↑$1.12/$3.52",
+      "event": "price",
+      "summary": "Prompt $0.97 → $1.12, completion $3.04 → $3.52.",
+      "why": "GLM tăng giá — nếu đang dùng, review usage hoặc switch sang alternative.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "price-increase",
+        "glm"
+      ]
+    }
+  ],
   "insight": null,
   "sources_count": {
-    "raw": 176,
+    "raw": 209,
     "brave": 45,
     "reddit": 0,
     "hackernews": 6,
     "rss": 52,
     "huggingface": 8,
-    "github": 0,
-    "openrouter": 16
+    "github": 10,
+    "openrouter": 39
   }
 }
