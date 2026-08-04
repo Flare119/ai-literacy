@@ -1,0 +1,273 @@
+{
+  "date": "2026-08-04",
+  "updated_at": "2026-08-04T06:59:51.961291+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "AI Agents Vượt Mức Mong Đợi: GitHub 'Agentic Skills Framework' Nhận 265K Stars Chỉ Sau Vài Ngày",
+    "summary": "Obra/superpowers — một framework skills cho agentic development — vừa nhận 265,711 stars trên GitHub, vượt xa nhiều repo AI nổi tiếng. Framework này tập trung vào methodology thực chiến, không chỉ lý thuyết, giúp dev build agents có khả năng 'grow with you'. Cùng thời điểm, NousResearch/hermes-agent (224K stars) và openclaw (385K stars) đang tạo làn sóng mới về personal AI assistants chạy local, cross-platform.",
+    "why": "Cho developer: đây là dấu hiệu rõ ràng ngành đang chuyển từ 'chat với AI' sang 'deploy agents làm việc thực'. Nếu bạn chưa học agentic patterns, đây là lúc bắt đầu — framework này có methodology cụ thể, không phải hype. Cho manager: team dev cần reskill về agent orchestration, không chỉ prompt engineering.",
+    "source": "GitHub Trending",
+    "url": "https://github.com/obra/superpowers",
+    "tags": [
+      "agentic-ai",
+      "developer-tools",
+      "open-source"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "LLMs Reward Expertise — Bài Viết Phản Biện 'AI Thay Thế Expert'",
+      "why": "Cho curious: nếu bạn lo AI sẽ thay thế chuyên gia, bài này lập luận ngược — LLMs làm việc tốt nhất khi bạn ĐÃ có expertise để guide nó. Junior dùng AI → output yếu. Senior dùng AI → 10x productivity.",
+      "source": "Hacker News",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "tags": [
+        "productivity",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "Prevent Cognitive Debt: Đừng Copy-Paste Code AI — Hãy Gõ Lại Bằng Tay",
+      "why": "Cho developer: tác giả khuyên manually retype code LLM sinh ra thay vì copy-paste. Lý do: typing forces bạn đọc và hiểu từng dòng, tránh technical debt ngầm. Đây là counter-intuitive nhưng đáng suy ngẫm nếu bạn đang dùng Copilot hàng ngày.",
+      "source": "Hacker News",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "tags": [
+        "coding",
+        "best-practices"
+      ]
+    },
+    {
+      "headline": "AirLLM: Chạy Model 70B Trên GPU 4GB Duy Nhất — Open Source",
+      "why": "Cho creative với budget thấp: nếu bạn không đủ tiền mua GPU đắt, AirLLM cho phép inference local 70B model trên GPU 4GB. Đây là breakthrough về memory optimization. Link GitHub có 8K+ stars.",
+      "source": "Hacker News",
+      "url": "https://github.com/lyogavin/airllm",
+      "tags": [
+        "local-inference",
+        "optimization"
+      ]
+    },
+    {
+      "headline": "SQLite CVEs Hay LLM Slop? — JFrog Research Phát Hiện Fake Vulnerabilities Do AI Bịa",
+      "why": "Cho manager IT: LLMs đang tạo ra fake CVEs (lỗ hổng bảo mật giả) trong cơ sở dữ liệu SQLite. Nếu team bạn dùng AI để audit security, cần verify bằng nguồn tin thật — đừng tin AI 100%.",
+      "source": "Hacker News",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "tags": [
+        "security",
+        "hallucination"
+      ]
+    },
+    {
+      "headline": "Nightcrawler: AI Pentesting Agent Chạy Trên Smartphone — Show HN",
+      "why": "Cho security team: Garage HQ vừa open-source Nightcrawler — AI agent chạy local trên điện thoại, có khả năng pentesting tự động. Đây là dấu hiệu công cụ security đang được democratize, không còn chỉ cho enterprise.",
+      "source": "Hacker News",
+      "url": "https://github.com/garagehq/nightcrawler/",
+      "tags": [
+        "security",
+        "mobile",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "The AI Productivity Gap — Vì Sao AI Chưa Tăng Output Thực Tế Của Nhiều Team",
+      "why": "Cho manager: bài phân tích tại sao nhiều team adopt AI nhưng productivity không tăng. Nguyên nhân: workflow chưa rebuild, chỉ đơn giản 'thêm AI vào process cũ'. Đọc nếu bạn đang thất vọng với ROI của AI.",
+      "source": "Hacker News",
+      "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+      "tags": [
+        "productivity",
+        "management"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Firecrawl: Context API Để Search, Scrape, Interact With Web At Scale — 160K Stars",
+      "summary": "Firecrawl là open-source API giúp scrape web content sạch sẽ, structured để feed vào AI workflows. 160K stars trên GitHub — đang là go-to tool cho RAG pipelines cần web data realtime.",
+      "why": "Cho creative/producer cần research content từ web: Firecrawl giúp bạn scrape data từ competitor, trend, hoặc reference materials tự động, sạch hơn manual copy-paste. Tích hợp với Dify/LangChain.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "tags": [
+        "scraping",
+        "rag",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Dify: Build Agentic Workflows + RAG Pipelines Trên 1 Workspace — 151K Stars",
+      "summary": "Dify là collaborative platform cho agentic workflows và RAG, hỗ trợ rich AI models, deploy cloud hoặc self-host. Team có thể move từ prototype → production mà không rebuild stack.",
+      "why": "Cho manager production team: nếu team bạn đang dùng nhiều tools rời rạc (OpenAI API, vector DB, workflow runner), Dify unify tất cả vào 1 nơi. Self-host được nên data privacy control tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "tags": [
+        "workflow",
+        "rag",
+        "platform"
+      ]
+    },
+    {
+      "headline": "Open WebUI: User-Friendly Interface Cho Ollama, OpenAI API — 147K Stars",
+      "summary": "Open WebUI là giao diện đẹp, dễ dùng cho local LLMs (Ollama) hoặc cloud APIs. Self-host được, privacy-first, UI giống ChatGPT nhưng bạn control data.",
+      "why": "Cho team muốn dùng AI internal mà không leak data ra cloud: Open WebUI giúp bạn build 'ChatGPT nội bộ' chạy local. Non-tech users vẫn dùng được dễ dàng.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "tags": [
+        "ui",
+        "local-llm",
+        "privacy"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Harmony Raise $34M Seed Để 'Kill IT Tickets' Bằng AI — Founders Từng Bán Startup Cho Cisco $500M",
+      "summary": "Nitzan Shapira và Ran Ribenzaft (founders bán startup trước cho Cisco $500M) vừa raise $34M seed cho Harmony — startup dùng AI để tự động resolve IT support tickets, loại bỏ nhu cầu ticketing system truyền thống.",
+      "why": "Cho business/founder: nếu công ty bạn đang đau đầu với IT support queue, đây là signal AI sắp disrupting ITSM. Founders proven track record nên đáng theo dõi. Seed $34M = investor tin tưởng cao.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/harmony-pitch-deck-ai-startup-34-million-seed-founders-cisco-2026-7",
+      "tags": [
+        "funding",
+        "enterprise-ai",
+        "automation"
+      ]
+    },
+    {
+      "headline": "Generalist AI (Physical AI Startup) Đàm Phán Raise Vòng Mới Ở Định Giá $3B",
+      "summary": "Generalist AI đang đàm phán raise funding với valuation $3B, cạnh tranh với Physical Intelligence ($11B), Skild AI ($14B), Field AI ($2B), Genesis AI ($3B) trong đua tranh physical AI / robotics.",
+      "why": "Cho investor/founder: physical AI đang nóng — 5 startups trên đều đạt unicorn/decacorn trong 2026. Nếu bạn quan tâm automation + robotics, đây là thời điểm theo dõi sát.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startup-generalist-ai-in-talks-to-raise-at-billion-valuation-2026-7",
+      "tags": [
+        "funding",
+        "robotics",
+        "physical-ai"
+      ]
+    },
+    {
+      "headline": "Q2 2026 Startup Funding Đạt $205B — 70% Đổ Vào AI",
+      "summary": "Q2 2026 có $205B funding vào startups (Q1 là $305B), hơn 70% vào AI-focused companies. 16 công ty raise ≥$1B chỉ riêng Q2.",
+      "why": "Cho founder: nếu bạn đang fundraise, market vẫn nóng với AI nhưng bar cao hơn Q1 (funding giảm). Nếu không phải AI-first, khó raise hơn. Data này confirm AI đang ăn hết oxygen trong phòng.",
+      "source": "Serrari Group",
+      "url": "https://serrarigroup.com/ai-boom-pushes-global-startup-funding-to-record-510b/",
+      "tags": [
+        "funding",
+        "market-trend"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "prompts.chat: Awesome ChatGPT Prompts — Share, Discover Community Prompts, Self-Host — 166K Stars",
+      "why": "Cho creative/individual: nếu bạn không giỏi viết prompt, đây là kho prompt từ community, self-host được cho privacy. 166K stars = trusted source.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "166694"
+    },
+    {
+      "headline": "LangChain: Agent Engineering Platform — 143K Stars",
+      "why": "Cho developer build AI apps: LangChain vẫn là standard cho agent orchestration. Nếu bạn đang làm RAG/agents, đây là must-know library.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "143349"
+    },
+    {
+      "headline": "AutoGPT: Vision Của Accessible AI For Everyone — 185K Stars",
+      "why": "Cho curious/developer: AutoGPT là một trong những autonomous agent frameworks nổi tiếng nhất. Mặc dù đã ra từ lâu, vẫn update tích cực, focus vào democratize AI.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185792"
+    },
+    {
+      "headline": "n8n: Fair-Code Workflow Automation Platform With Native AI — 199K Stars",
+      "why": "Cho manager/creative: n8n là alternative open-source cho Zapier, có native AI capabilities. Self-host được, 400+ integrations, visual builder + custom code.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "199217"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Qwen3.8 Max — Flagship Multimodal Reasoning Model",
+      "event": "new",
+      "summary": "Qwen3.8 Max là model flagship của Alibaba, successor của Qwen3.8 Max Preview. Multimodal reasoning cho complex tasks + visual understanding. Giá $2.00 input / $6.00 output per M tokens.",
+      "why": "Alternative rẻ hơn GPT-5.6/Opus 5 cho multimodal reasoning. Nếu bạn đang dùng OpenRouter, test Qwen3.8 Max cho tasks cần vision + reasoning.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.8-max",
+      "tags": [
+        "qwen",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 VL 235B A22B Thinking Tăng Giá Input +145%",
+      "event": "price",
+      "summary": "Qwen3 VL 235B Thinking tăng giá input từ $0.40 → $0.98/M tokens (+145%), completion giảm nhẹ $4.00 → $3.95. Đây là model vision + thinking lớn.",
+      "why": "Nếu bạn đang dùng model này cho production, giá input tăng mạnh — cân nhắc migrate sang model rẻ hơn hoặc optimize prompts.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-vl-235b-a22b-thinking",
+      "tags": [
+        "qwen",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 235B A22B Instruct 2507 Tăng Giá Input +67%",
+      "event": "price",
+      "summary": "Qwen3 235B Instruct tăng giá input $0.09 → $0.15 (+67%), completion $0.55 → $0.60 (+9%).",
+      "why": "Model này từng rất rẻ — giờ tăng giá nhưng vẫn competitive. Nếu dùng heavy volume, monitor cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-2507",
+      "tags": [
+        "qwen",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 Tăng Giá Input +125%, Completion +122%",
+      "event": "price",
+      "summary": "GLM 5.2 tăng giá mạnh: input $0.28 → $0.63 (+125%), completion $0.89 → $1.98 (+122%).",
+      "why": "GLM 5.2 từng là model Trung Quốc rẻ — giờ tăng giá gần gấp đôi. Nếu bạn dùng cho cost optimization, cần review lại.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "glm",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 27B Completion Tăng +20%",
+      "event": "price",
+      "summary": "Qwen3.6 27B giảm input nhẹ $0.30 → $0.29, nhưng completion tăng $2.00 → $2.40 (+20%).",
+      "why": "Model 27B này phù hợp cho tasks vừa — completion tăng giá đáng kể nếu bạn generate nhiều text.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "qwen",
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.3 70B Instruct Giảm Giá -23% Input, -20% Completion",
+      "event": "price",
+      "summary": "Llama 3.3 70B giảm giá: input $0.13 → $0.10 (-23%), completion $0.40 → $0.32 (-20%).",
+      "why": "Đây là tin tốt — Llama 3.3 70B rẻ hơn, competitive với Qwen/DeepSeek. Nếu bạn đang dùng model đắt hơn cho general tasks, consider switch.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+      "tags": [
+        "llama",
+        "price-change"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 177,
+    "brave": 45,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 52,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 6
+  }
+}
