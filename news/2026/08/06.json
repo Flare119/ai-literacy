@@ -1,0 +1,270 @@
+{
+  "date": "2026-08-06",
+  "updated_at": "2026-08-06T06:49:26.651994+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "Cloudflare OS — Nền Tảng Mở Cho Agents, Apps & Work",
+    "summary": "Cloudflare công bố Cloudflare OS, một nền tảng mở để build và deploy AI agents, applications, workflows. Tích hợp Workers AI, D1 database, R2 storage, Vectorize, Queues — toàn bộ stack để chạy agentic systems at scale. Free tier generous, edge deployment global. Đây là động thái cạnh tranh trực tiếp với AWS/GCP cho AI infrastructure.",
+    "why": "Cho manager/founder: đây là lựa chọn infrastructure giá rẻ, deploy nhanh, không lock-in vendor lớn. Cho developer: stack đầy đủ, edge latency thấp, miễn phí tier đủ prototype. Nếu bạn đang build AI agent hoặc automation workflow, Cloudflare OS đáng xem xét thay vì AWS Lambda + S3 + Pinecone chia rời.",
+    "source": "Cloudflare Blog",
+    "url": "https://blog.cloudflare.com/cloudflare-os/",
+    "tags": [
+      "infrastructure",
+      "agents",
+      "developer-tools"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Google DeepMind Đại Thay Máu: Demis Hassabis Từ CEO Lên Chair, Jeff Dean Rời Đi",
+      "why": "Cho curious/business: leadership shakeup ở DeepMind signal chiến lược mới. Demis lên Chair = ít điều hành hàng ngày, Jeff Dean (trụ cột Google AI) rời = end of era. Theo dõi ai thay thế Dean để hiểu Google AI direction tiếp theo.",
+      "source": "Google Blog",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "tags": [
+        "google",
+        "leadership",
+        "deepmind"
+      ]
+    },
+    {
+      "headline": "TIME Phục Vụ AI Bots Website Khác — Có Ads Built-In",
+      "why": "Cho manager/business: TIME tạo riêng version website cho AI crawlers, nhúng ads ngay trong data training. Đây là monetization model mới — nếu bạn làm content, có thể học cách kiếm tiền từ AI scraping thay vì chặn.",
+      "source": "Vincent Schmalbach",
+      "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+      "tags": [
+        "monetization",
+        "content",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Meta Chạy Ads Có CSAM Ảnh Do AI Tạo — Wired Expose",
+      "why": "Cho manager/individual: case study về AI moderation thất bại nghiêm trọng. Meta's ad system không catch AI-generated child exploitation imagery. Bài học: automated moderation không đủ cho high-stakes content, cần human-in-loop. Ethical risk khi scale AI content generation.",
+      "source": "WIRED",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "tags": [
+        "ethics",
+        "moderation",
+        "safety"
+      ]
+    },
+    {
+      "headline": "Google Gỡ Earth AI Feature Sau 1 Ngày — Phản Biện Misinformation",
+      "why": "Cho individual/manager: Google ra mắt Nano Banana 2 integration với Google Earth (tạo fake ảnh satellite), gỡ sau 24h vì backlash về spreading misinformation. Lesson: AI feature không phải 'ship và xem' — cần anticipate abuse cases trước launch.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "tags": [
+        "google",
+        "safety",
+        "product-fail"
+      ]
+    },
+    {
+      "headline": "Index Ventures Raise $3.5B Sau Khi Google Mua Wiz $3.8B — Tiếp Tục Cược Vào AI",
+      "why": "Cho business/founder: Index Ventures fresh off Wiz exit (Google mua $3.8B) vừa đóng $2B fund mới để đổ vào AI, bất chấp co-founder từng nói AI boom 'unsustainable'. Follow the money: khi VC raise fund lớn sau exit thành công, họ sẽ aggressive deploy. Cơ hội fundraise tốt 6-12 tháng tới.",
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/index-ventures-2b-fund-wiz-google-acquisition/",
+      "tags": [
+        "funding",
+        "vc",
+        "market"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra ChatGPT For Academic Researchers — Free Frontier Models Cho 10K→100K Nhà Khoa Học",
+      "why": "Cho individual/curious: OpenAI tặng miễn phí ChatGPT + frontier models cho academic researchers (bắt đầu 10K, mở rộng 100K). Nếu bạn làm research hoặc biết ai làm — đây là cơ hội access models đắt đỏ miễn phí. Chiến lược OpenAI: xây community khoa học để có citations/credibility.",
+      "source": "Releasebot",
+      "url": "https://releasebot.io/updates/openai",
+      "tags": [
+        "openai",
+        "research",
+        "education"
+      ]
+    },
+    {
+      "headline": "Neon Đánh Bại GPT-5.6 Sol Trên Retrieval Task — Giá Rẻ Hơn 100X",
+      "why": "Cho developer: Neon (open model + optimization) beat GPT-5.6 Sol trên retrieval benchmarks với chi phí 1/100. Proof point: không phải lúc nào cũng cần frontier model đắt đỏ — task-specific fine-tuning + infra tối ưu có thể win. Áp dụng: optimize trước khi scale up model tier.",
+      "source": "Neon Blog",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "tags": [
+        "optimization",
+        "cost",
+        "retrieval"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Grok Imagine Video 1.5 — Image-to-Video 15s 720p Với Native Audio",
+      "summary": "xAI ra Grok Imagine Video 1.5 (preview late May 2026), tạo video 15s từ ảnh ở 720p 24fps với audio đồng bộ trong 1 pass. Tops image-to-video arena June 2026. Competitor: Seedance, Kling, Veo.",
+      "why": "Cho creative: nếu bạn làm storyboard → video, image-to-video with native audio giảm 1 bước post-production (thêm sound design riêng). Test Grok 1.5 vs Kling 3 để xem quality/cost fit workflow nào.",
+      "source": "ThePlanetTools.ai",
+      "url": "https://theplanettools.ai/blog/xai-grok-imagine-video-1-5-image-to-video-native-audio-arena-june-2026",
+      "tags": [
+        "video-generation",
+        "xai",
+        "creative-tools"
+      ]
+    },
+    {
+      "headline": "MyEdit Tích Hợp Veo, Kling, Seedance, PixVerse, Vidu, Happy Horse — Image-to-Video Aggregator",
+      "summary": "MyEdit (free online tool) cho phép switch giữa 6 model image-to-video (Veo, Kling, Seedance, PixVerse, Vidu, Happy Horse) trong 1 UI. Set opening/closing frame, AI render motion. No watermark.",
+      "why": "Cho creative: aggregator giúp test nhiều model không cần signup từng tool. Tiết kiệm thời gian khi cần A/B test style. Workflow: upload storyboard key frames → test 6 models → chọn best take.",
+      "source": "MyEdit",
+      "url": "https://myedit.online/en/video-editor/image-to-video",
+      "tags": [
+        "aggregator",
+        "video-generation",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Position Paper: LLMs Can't Jump — Phản Biện Overhype Reasoning",
+      "summary": "Paper OpenReview phân tích LLMs không thực sự 'reasoning' theo nghĩa logic — chúng pattern match, không generalize. 'Jump' = abstraction leap mà LLMs struggle. Counter-argument cho claim 'LLMs suy luận như con người'.",
+      "why": "Cho curious/manager: khi vendor nói model 'reasoning breakthrough', hỏi ngược 'reasoning trong domain nào?'. Paper này nhắc nhở: LLM giỏi trong distribution, yếu khi out-of-distribution. Đừng expect model tự suy luận logic phức tạp chưa thấy trong training data.",
+      "source": "OpenReview",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "tags": [
+        "research",
+        "reasoning",
+        "limits"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Q2 2026 AI Startup Funding $80B — Gấp Đôi 2024, Chiếm 40% Tổng Vốn Đầu Tư",
+      "summary": "AI startups nhận ~$80B trong Q2 2026 (40% tổng funding toàn ngành), gấp đôi $31B năm 2024. Phần lớn vào foundation models, infrastructure, defense, coding tools, healthcare. AI vẫn là hot sector nhưng đang shift từ pure models sang applications.",
+      "why": "Cho founder: nếu bạn đang fundraise AI startup, đây là thời điểm tốt (VC có tiền và phải deploy). Nhưng cạnh tranh khốc liệt — differentiation phải rõ. Nếu không phải foundation model, pitch về specific vertical/use case, không generic 'AI platform'.",
+      "source": "Second Talent",
+      "url": "https://www.secondtalent.com/resources/ai-startup-funding-investment/",
+      "tags": [
+        "funding",
+        "market",
+        "startup"
+      ]
+    },
+    {
+      "headline": "Robotics Startup Generalist AI Đàm Phán Raise Ở Định Giá $3B",
+      "summary": "Generalist AI (physical AI/robotics startup) đang đàm phán vòng funding mới ở valuation $3B. Cạnh tranh với Physical Intelligence ($11B), Skild AI ($14B), Field AI ($2B), Genesis AI ($3B talks). Robotics AI là frontier tiếp theo sau language models.",
+      "why": "Cho business/founder: physical AI đang hot — nếu bạn có use case manufacturing/logistics/warehouse, theo dõi các startup này để partnership hoặc deploy pilot. VCs đang đổ tiền vào robotics vì software-only AI đã crowded.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/startup-generalist-ai-in-talks-to-raise-at-billion-valuation-2026-7",
+      "tags": [
+        "robotics",
+        "funding",
+        "physical-ai"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Hobby Programming Communities Đang Against LLM Usage — Born Against Culture",
+      "summary": "Bài phân tích 'Born Against' culture trong hobby programming communities: nhiều dev không dùng LLM vì lý do văn hóa/pride/learning mindset, không chỉ technical. Quan điểm: dùng LLM = 'cheating', mất đi niềm vui craft code by hand.",
+      "why": "Cho individual/manager: không phải ai cũng muốn dùng AI, và đó không phải thiếu hiểu biết. Một phần dev community coi coding là nghệ thuật, không phải productivity race. Khi push AI adoption trong team, cần respect người không muốn dùng — họ có thể có lý do văn hóa/học tập valid.",
+      "source": "Fogus Blog",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "tags": [
+        "culture",
+        "developer",
+        "adoption"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework 267K Stars",
+      "why": "Framework để build AI agents với skills module, methodology rõ ràng. Nổi từ 0→267K stars trong vài ngày — community hype cao. Cho developer muốn build agent không từ đầu.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "267280"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — The Agent That Grows With You 226K Stars",
+      "why": "AI agent tự học, adaptive theo user behavior. 226K stars. Cho developer/curious muốn test agent cá nhân hóa.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "226055"
+    },
+    {
+      "headline": "f/prompts.chat — Awesome ChatGPT Prompts Self-Host 167K Stars",
+      "why": "Community prompts cho ChatGPT, tự host được, privacy đầy đủ. 167K stars. Cho individual/creative cần prompt library chất lượng không public internet.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "166781"
+    },
+    {
+      "headline": "Snailclimb/JavaGuide — Java + AI Application Dev Guide 158K Stars",
+      "why": "Java interview guide + AI application dev. 158K stars. Cho developer Java muốn pivot sang AI engineering hoặc integrate AI vào Java backend.",
+      "source": "GitHub",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "stars": "157548"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Meta: Muse Spark 1.2",
+      "event": "new",
+      "summary": "Reasoning model từ Meta cho agentic tasks. Accept text/image/video/audio/PDF, output text, 1M token context. $1.25/$4.25 per M tok.",
+      "why": "Model multimodal reasoning giá mid-range — cheaper than Opus 5, đắt hơn Flash. Test cho agentic workflows cần multimodal input.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-spark-1.2",
+      "tags": [
+        "meta",
+        "reasoning",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.5 Tăng Giá Input $0.15→$0.22",
+      "event": "price",
+      "summary": "MiniMax M2.5 tăng giá prompt token từ $0.15→$0.22 per M tok (completion giữ $0.90).",
+      "why": "Cost increase — nếu đang dùng MiniMax M2.5 production, review budget hoặc test alternative models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+      "tags": [
+        "minimax",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 VL 235B A22B Thinking Giảm Input $0.98→$0.40",
+      "event": "price",
+      "summary": "Qwen3 VL 235B A22B Thinking giảm mạnh giá input từ $0.98→$0.40 per M tok (completion tăng nhẹ $3.95→$4.00).",
+      "why": "Giảm giá 60% input — opportunity test Qwen3 VL cho vision reasoning tasks giá rẻ hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-vl-235b-a22b-thinking",
+      "tags": [
+        "qwen",
+        "pricing",
+        "vision"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 235B A22B Instruct 2507 Giảm Giá Input $0.15→$0.09",
+      "event": "price",
+      "summary": "Qwen3 235B A22B Instruct 2507 giảm input $0.15→$0.09, completion $0.60→$0.55 per M tok.",
+      "why": "Giảm giá 40% input — Qwen3 đang aggressive compete về price. Cheaper alternative cho tasks không cần frontier models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-2507",
+      "tags": [
+        "qwen",
+        "pricing"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 175,
+    "brave": 46,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 4
+  }
+}
