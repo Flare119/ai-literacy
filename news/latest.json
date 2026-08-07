@@ -1,373 +1,284 @@
 {
-  "date": "2026-08-07",
-  "updated_at": "2026-08-07T08:39:37.298491+07:00",
-  "weekday": "Friday",
+  "date": "2026-08-08",
+  "updated_at": "2026-08-08T06:24:39.208993+07:00",
+  "weekday": "Saturday",
   "top_story": {
-    "headline": "OpenAI Nâng Cấp GPT-5.6 Sol Và Mở GPT-5.6 Luna Cho Free Users",
-    "summary": "OpenAI vừa cải thiện GPT-5.6 Sol (flagship model cho coding/reasoning phức tạp) và mở rộng GPT-5.6 Luna (model nhanh, rẻ) cho free users. Sol được tối ưu cho command-line tasks và multi-step coding, Luna phù hợp chat/classification/agentic workflows nhẹ. Đây là động thái democratize AI — model frontier giờ accessible hơn nhiều.",
-    "why": "Cho cá nhân: Nếu bạn đang dùng free tier ChatGPT, giờ có Luna để làm task reasoning nhẹ không tốn tiền. Cho creative/dev: Sol upgrade nghĩa là coding agent mạnh hơn — task end-to-end (setup environment → debug → test) giờ reliable hơn. Nếu bạn đang đánh giá tool nào cho workflow, đây là timing tốt để test Sol vs Claude Opus 5.",
-    "source": "OpenAI Newsroom",
-    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+    "headline": "AMD Mua Taalas Để Gắn Model AI Trực Tiếp Vào Silicon — Tăng Tốc Inference",
+    "summary": "AMD mua startup Taalas, công ty chuyên 'khắc' model AI trực tiếp vào chip thay vì chạy qua software. Taalas đã demo Llama 3.1 chạy nhanh hơn 15x trên hardware tùy biến. Đây là bước đi theo hướng application-specific integrated circuits (ASICs) cho AI — trade-off giữa flexibility và performance cực đoan.",
+    "why": "Cho manager/founder: nếu bạn đang deploy AI inference scale lớn, trend này báo hiệu chi phí có thể giảm 10-15x trong 18-24 tháng nhưng lock-in vào specific models. Quyết định infrastructure hôm nay cần tính đến wave ASICs sắp tới — đừng overbuy GPU general-purpose nếu workload bạn đủ stable để chờ custom silicon.",
+    "source": "The Register",
+    "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
     "tags": [
-      "openai",
-      "gpt-5.6",
-      "model-update",
-      "free-tier"
+      "hardware",
+      "inference",
+      "cost-optimization",
+      "AMD"
     ]
   },
   "quick_hits": [
     {
-      "headline": "DeepMind Đại Thay Máu: Demis Hassabis Lên Chair, Jeff Dean Rời Đi",
-      "why": "Cho manager/leader: Thay đổi leadership lớn như này thường báo hiệu strategic pivot. Nếu công ty bạn đang partner với Google AI, hãy monitor xem roadmap có đổi không. Dean rời đi = mất brain trust về infrastructure — có thể ảnh hưởng release schedule.",
-      "source": "Google Blog",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "headline": "Oracle Cấm Code Do AI Tạo Ra Trong OpenJDK — Dù CEO Nói 'Oracle Không Tự Viết Code Nữa'",
+      "why": "Cho manager: mâu thuẫn giữa policy và reality. Nếu team bạn đang dùng AI coding trong open-source contributions, check license policy upstream — nhiều project bắt đầu ban AI-generated code vì legal uncertainty.",
+      "source": "Dealroom",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "tags": [
-        "google",
-        "deepmind",
-        "leadership",
-        "organizational-change"
-      ]
-    },
-    {
-      "headline": "Qwen3.8 Max Dẫn Đầu Agentic Index — Đánh Bại GPT-5.6 Sol",
-      "why": "Cho dev/creative: Nếu bạn đang build agent workflows và ngán giá OpenAI, Qwen3.8 Max (Alibaba) giờ là alternative mạnh nhất trên leaderboard agentic tasks. Open-weight, self-host được, performance vượt Sol trên multi-step reasoning.",
-      "source": "Artificial Analysis",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "tags": [
-        "qwen",
-        "alibaba",
-        "agentic",
-        "benchmark"
-      ]
-    },
-    {
-      "headline": "Con Người Bỏ Lỡ 1/3 Mối Đe Dọa Khi Approve Lệnh AI Agent — Nghiên Cứu 40K Trận Game",
-      "why": "Cho manager: Nếu team bạn đang deploy AI agents có quyền thực thi lệnh (file operations, API calls), human-in-the-loop KHÔNG đủ an toàn — 33% sai lầm xảy ra ở khâu approve. Cần thêm layer: automated safety checks trước khi đưa cho human.",
-      "source": "ScaleX Blog",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "tags": [
-        "ai-safety",
-        "agents",
-        "human-in-the-loop"
-      ]
-    },
-    {
-      "headline": "Meta Ra Mắt AI Coding Tool Mới Powered By Muse Spark 1.2",
-      "why": "Cho dev: Meta vào cuộc coding agent race với tool dựa trên Muse Spark 1.2 (model internal). Nếu bạn đang dùng Copilot/Cursor, đáng thử nghiệm để compare — Meta có lợi thế về infra scale (họ train trên toàn bộ Meta codebase).",
-      "source": "Reuters",
-      "url": "https://reuters.com/technology/meta-launches-new-ai-coding-tool-powered-by-muse-spark-12-2026-08-05",
-      "tags": [
-        "meta",
+        "policy",
         "coding",
-        "muse-spark"
+        "open-source",
+        "legal"
       ]
     },
     {
-      "headline": "Index Ventures Raise $3.5B Sau Khi Google Mua Wiz $3.8B — Tiếp Tục Cược Vào AI",
-      "why": "Cho founder/đầu tư: Index vừa exit lớn từ Wiz deal và ngay lập tức raise fund mới $3.5B để đổ vào AI. Signal: VC tier-1 vẫn tin AI investment cycle chưa kết thúc. Nếu bạn đang raise, đây là timing tốt — dry powder nhiều.",
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/index-ventures-2b-fund-wiz-google-acquisition/",
+      "headline": "Databricks Cắt Giảm 70% Chi Phí AI Coding — Case Study Internal",
+      "why": "Cho manager: họ làm bằng cách tự host models, fine-tune cho codebase riêng, và cache aggressively. Nếu team bạn đang burn >$10k/tháng trên Copilot/Cursor, có thể tự optimize được 50-70% bằng cách tương tự.",
+      "source": "Databricks Blog",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
       "tags": [
-        "funding",
-        "vc",
-        "index-ventures",
-        "ai-investment"
-      ]
-    },
-    {
-      "headline": "Replit Đạt Định Giá $9B+ — Từ Startup Đến Leading AI Coding Platform",
-      "why": "Cho founder: Replit case study về cách pivot đúng thời điểm — từ browser IDE thành AI-native coding platform. Bài học: nếu bạn có developer platform sẵn, AI integration là path to 10x valuation. Y Combinator highlight case này vì lý do.",
-      "source": "Y Combinator",
-      "url": "https://www.ycombinator.com/",
-      "tags": [
-        "replit",
-        "valuation",
+        "cost-optimization",
+        "coding",
         "case-study"
       ]
     },
     {
-      "headline": "MagicSchool Raise $63M Cho AI Edtech — Founder Từng Là Hiệu Trưởng",
-      "why": "Cho founder: Bài học về domain expertise — founder này là educator thật (principal), không phải tech person pivot sang edtech. Investors ban đầu từ chối vì 'không tin cựu giáo viên làm được startup'. Nhưng revenue growth 3x YoY chứng minh: deep domain knowledge > tech background khi build vertical AI.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/educator-built-edtech-startup-ai-magicschool-kahn/",
+      "headline": "Noema Mag: 'Vì Sao Mọi Người Trong Tech Đều Buồn?' — Góc Nhìn Career Faith Crisis",
+      "why": "Cho cá nhân: bài phân tích về why junior engineers mất niềm tin vào career path khi AI coding agents xuất hiện. Nếu bạn đang cảm thấy tương tự, đây là signal cần shift sang skills AI không thay thế được (architecture, product sense, human coordination).",
+      "source": "Noema Magazine",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
       "tags": [
-        "edtech",
-        "funding",
-        "founder-story"
+        "career",
+        "mental-health",
+        "AI-impact",
+        "junior-dev"
+      ]
+    },
+    {
+      "headline": "Kitesurf: Agent-First Browser Chạy Trong V8 Isolates — Cloudflare Release",
+      "why": "Cho creative/developer: browser được design để AI agents dùng, không phải con người. Chạy isolates như Cloudflare Workers — có thể spawn hàng ngàn browser instances cho automation task. Use case: web scraping scale, testing, agent workflows.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "tags": [
+        "browser",
+        "agents",
+        "automation",
+        "Cloudflare"
+      ]
+    },
+    {
+      "headline": "Jira Summer 2026 Release: AI Agents Tích Hợp Capacity Planning + Formula Fields",
+      "why": "Cho manager: Jira giờ có AI agents gợi ý capacity, auto-assign tickets, và formula fields (như Excel) trong issues. Nếu team bạn đang struggle với workload balancing, đây là update đáng test — có thể giảm 20-30% admin overhead.",
+      "source": "Atlassian Blog",
+      "url": "https://www.atlassian.com/blog/development/jira-summer-release",
+      "tags": [
+        "project-management",
+        "Jira",
+        "productivity"
       ]
     }
   ],
   "production": [
     {
-      "headline": "3 Frontier Video Models Ra Trong 1 Tuần: Seedance 2.5, MiniMax H3, Flux 3",
-      "summary": "Tuần này bùng nổ AI video: Seedance 2.5 soft launch, MiniMax H3 xuất hiện bất ngờ, Flux 3 mở access hôm nay. Cả 3 đều frontier-tier (cạnh tranh Sora 2/Veo 3). MiniMax H3 đặc biệt nổi vì 'nowhere' → viral overnight.",
-      "why": "Cho creative/producer: Nếu bạn đang chờ Sora 2 API, giờ có 3 alternative mạnh. Seedance 2.5 tốt cho cinematic shots, MiniMax H3 rẻ + nhanh hơn, Flux 3 có audio built-in. Thử cả 3 qua Higgsfield Aggregator để compare trước khi commit vào tool nào.",
-      "source": "AI Marketing For Storytellers (Substack)",
+      "headline": "3 Frontier Video Models Ra Cùng Tuần: Seedance 2.5, Minimax H3, Flux 3 — Chiến Tranh Video Gen Bùng Nổ",
+      "summary": "Seedance 2.5 soft release, Minimax H3 (Trung Quốc) xuất hiện bất ngờ, Flux 3 mở access cùng lúc. Higgsfield Aggregator cho phép dùng Sora 2, Kling 3, Veo 3.1, Seedance 2.5 trong 1 workspace — không cần switch platform.",
+      "why": "Cho creative: đừng lock vào 1 tool. Mỗi model có strengths khác nhau (Kling tốt cho motion consistency, Seedance tốt cho cinematic, Veo tốt cho realism). Workflow mới là: generate từ nhiều models, pick best. Higgsfield giúp làm điều này không tốn thời gian setup.",
+      "source": "AI Marketing for Storytellers (Substack)",
       "url": "https://aimarketingforstorytellers.substack.com/p/video-ai-mega-update-three-frontier",
       "tags": [
-        "video-gen",
-        "seedance",
-        "minimax",
-        "flux",
-        "frontier-models"
+        "video-generation",
+        "tools",
+        "workflow",
+        "Seedance",
+        "Minimax",
+        "Flux"
       ]
     },
     {
-      "headline": "31 Open-Source AI Video Models — List Công Cụ Miễn Phí Tạo Video 2026",
-      "summary": "Bài roundup chi tiết 31 model video generation open-source, từ SVD (Stability AI) đến các model mới. Mỗi model có thông tin VRAM tối thiểu, license, GitHub link. Phù hợp cho người muốn self-host hoặc experiment không tốn tiền.",
-      "why": "Cho creative budget nhỏ: Nếu bạn không đủ ngân sách trả Runway/Luma, list này là goldmine. SVD XT chỉ cần 16GB VRAM. Tuy nhiên, setup phức tạp hơn cloud tools — cân nhắc trade-off time vs money.",
-      "source": "AI Free Forever",
-      "url": "https://aifreeforever.com/blog/open-source-ai-video-models-free-tools-to-make-videos",
+      "headline": "Envato AI Video Generator Thêm 14 Camera Movement Presets — Zoom, Dolly, Drone, Handheld",
+      "summary": "Envato Elements thêm tính năng Presets trong AI Video Generator: chọn camera movement trước khi generate (zoom in/out, dolly push/pull, vertical reveal, drone shots, handheld shake). Giảm iteration từ 5-10 lần xuống 1-2 lần.",
+      "why": "Cho creative: presets giúp direct AI output chính xác hơn, không cần viết prompt dài. Nếu bạn đang làm commercial/ads cần specific shot types, công cụ này đáng thử — đặc biệt cho storyboard prototyping.",
+      "source": "Envato",
+      "url": "https://elements.envato.com/learn/whats-new-at-envato",
       "tags": [
-        "video-gen",
-        "open-source",
-        "self-host"
-      ]
-    },
-    {
-      "headline": "Luma AI Ra Creative Agents Cho Video Generation — End-to-End Workflow",
-      "summary": "Luma không chỉ là video model nữa — giờ có agents handle cả workflow (prompt optimization, shot selection, editing). Powered by Ray & Uni models. Được trust bởi agencies/brands lớn.",
-      "why": "Cho producer: Nếu team bạn đang làm video ads scale (10-50 video/tháng), Luma agents giúp giảm 70% thời gian post-production. Trade-off: ít control hơn manual editing, nhưng speed lớn. Test với low-stakes project trước.",
-      "source": "Luma AI",
-      "url": "https://lumalabs.ai/",
-      "tags": [
-        "luma",
-        "agents",
-        "video-workflow"
+        "video-generation",
+        "camera",
+        "presets",
+        "Envato"
       ]
     }
   ],
   "vietnam": [],
   "research": [],
-  "business": [],
+  "business": [
+    {
+      "headline": "Index Ventures Raise $3.5B Sau Khi Ăn $3.8B Từ Google Mua Wiz — Tiếp Tục Cược Vào AI",
+      "summary": "Index Ventures vừa close $2B fund mới (tổng $3.5B across 3 funds) ngay sau khi thu về $3.8B từ exit Wiz (Google mua). Đây là VC từng invest early vào Figma, Notion, Discord. Fund mới focus AI infrastructure + vertical AI apps.",
+      "why": "Cho founder: Index đang aggressive deploy vào AI wave 2 (post-foundation models). Pattern: họ bet vào tools layer (Figma-like cho AI era) hơn là foundation models. Nếu bạn đang build AI tooling cho specific vertical, đây là VC đáng pitch — họ có fresh capital và track record với dev tools.",
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/index-ventures-2b-fund-wiz-google-acquisition/",
+      "tags": [
+        "funding",
+        "VC",
+        "AI-infrastructure",
+        "Index-Ventures"
+      ]
+    },
+    {
+      "headline": "AI Startup Funding 2026: $131.5B YoY (+52%) — Generative AI Chiếm $80B (40% Tổng)",
+      "summary": "Q1-Q2 2026 AI startup funding đạt $131.5B, tăng 52% so với cùng kỳ 2025. Generative AI (foundation models + apps) chiếm $80B, gấp đôi 2024 ($31B). Phần còn lại chia đều cho infrastructure, defense AI, coding tools, healthcare AI.",
+      "why": "Cho founder: nếu bạn đang raise cho AI startup, biết rằng 60% capital đang đổ vào non-genAI verticals (infra, defense, health). Generative AI đã crowded — valuations cao nhưng bar cao hơn nhiều. Consider pivot sang applied AI trong vertical ít cạnh tranh hơn nếu chưa có traction.",
+      "source": "Qubit Capital",
+      "url": "https://qubit.capital/blog/ai-startup-fundraising-trends",
+      "tags": [
+        "funding",
+        "startup",
+        "AI-trends",
+        "valuations"
+      ]
+    },
+    {
+      "headline": "3 Startup Raise ≥$1B Tuần Này: Hadrian (Manufacturing), Base Power (Energy), Valar Atomics",
+      "summary": "Hadrian (autonomous manufacturing), Base Power (AI-optimized power grid), Valar Atomics (nuclear + AI) mỗi công ty raise ≥$1B trong 7 ngày. Đây là wave mới: AI applied vào physical infrastructure, không còn chỉ software.",
+      "why": "Cho founder/đầu tư: capital đang shift từ pure software AI sang hard tech + AI. Pattern: startup kết hợp AI với manufacturing/energy/hardware infrastructure đang hút mega-rounds. Nếu bạn có background engineering + AI, đây là timing tốt để build trong space này.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/",
+      "tags": [
+        "funding",
+        "hard-tech",
+        "AI-infrastructure",
+        "mega-rounds"
+      ]
+    },
+    {
+      "headline": "MagicSchool (EdTech AI) Raise $63M — Founder Từng Là Hiệu Trưởng, Revenue Tăng 3x YoY",
+      "summary": "MagicSchool, AI platform cho giáo viên (lesson planning, grading, feedback), raise $63M. Founder Adnan Khan từng là hiệu trưởng trường công. Công ty đạt 3x revenue growth YoY, nhưng founder nói 'không ai muốn đưa tiền cho một cựu hiệu trưởng' giai đoạn đầu.",
+      "why": "Cho founder non-tech background: case này chứng minh domain expertise > tech pedigree nếu bạn solve real pain point. Khan hiểu workflow giáo viên vì từng sống trong đó. Nếu bạn có deep domain knowledge nhưng không phải 'tech founder điển hình', đừng ngại — VCs đang nhìn execution + traction hơn là resume.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/educator-built-edtech-startup-ai-magicschool-kahn/",
+      "tags": [
+        "edtech",
+        "funding",
+        "founder-story",
+        "domain-expertise"
+      ]
+    }
+  ],
   "society": [],
   "opensource": [
     {
-      "headline": "OpenClaw Nhận 385K Stars — AI Assistant Chạy Mọi OS Miễn Phí",
-      "why": "Open-source alternative cho ChatGPT desktop app. Nếu bạn muốn AI assistant không bị lock vào ecosystem nào (Windows/Mac), OpenClaw cross-platform hoàn toàn. Tuy nhiên 385K stars trong vài ngày = hype spike — chờ vài tuần xem community maintain không.",
-      "source": "GitHub Trending",
+      "headline": "OpenClaw — AI Assistant Chạy Mọi OS, Miễn Phí — 385K Stars Trong Vài Ngày",
+      "why": "Cho cá nhân/developer: alternative open-source cho commercial AI assistants. Chạy local, không send data ra ngoài. Nếu bạn lo privacy hoặc muốn customize sâu, đây là option đáng thử.",
+      "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "385392"
+      "stars": "385481"
     },
     {
-      "headline": "Superpowers Nhận 268K Stars — Agentic Skills Framework Thực Chiến",
-      "why": "Framework để build AI agents theo methodology 'software development that works' (theo tác giả). 268K stars cho thấy demand lớn về structured approach to agentic systems — nhiều dev đang struggle với ad-hoc agent design.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/obra/superpowers",
-      "stars": "268114"
-    },
-    {
-      "headline": "n8n Nhận 199K Stars — Workflow Automation Platform AI Native",
-      "why": "n8n là Zapier open-source nhưng có AI capabilities built-in. 199K stars = proven adoption. Nếu bạn cần tự động hóa workflow phức tạp (multi-step, conditional logic) và muốn self-host, n8n là go-to. Fair-code license (free self-host, trả tiền nếu dùng cloud).",
-      "source": "GitHub Trending",
+      "headline": "n8n — Workflow Automation Platform Có AI Native — 199K Stars",
+      "why": "Cho manager/developer: alternative self-host cho Zapier/Make. n8n có AI-native workflows (dùng LLMs trong automation). Fair-code license — miễn phí self-host, trả phí nếu dùng cloud. Tốt cho team muốn control data + customize.",
+      "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "199629"
+      "stars": "199737"
     },
     {
-      "headline": "Firecrawl Nhận 162K Stars — Context API Để Search, Scrape, Interact Web At Scale",
-      "why": "Tool để AI agents scrape web data structured. 162K stars vì giải quyết pain point lớn: làm sao cho agent lấy được context từ web without breaking. Nếu bạn build agent cần real-time web data (không chỉ training cutoff), đây là infra cần.",
-      "source": "GitHub Trending",
+      "headline": "Superpowers — Agentic Skills Framework & Dev Methodology — 268K Stars",
+      "why": "Cho developer: framework để build AI agents có skills system (như RPG game). Agents học skills, level up, compose skills phức tạp từ skills đơn giản. Nếu bạn đang build agents, đây là architecture pattern đáng học.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "268724"
+    },
+    {
+      "headline": "Hermes Agent — 'The Agent That Grows With You' — 227K Stars",
+      "why": "Cho developer: agent tự học từ interactions với user, không cần retrain model. Dùng memory system + retrieval. Use case: personal assistant lâu dài, không phải setup lại mỗi lần.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "227074"
+    },
+    {
+      "headline": "Firecrawl — Context API Để Search, Scrape, Interact With Web At Scale — 162K Stars",
+      "why": "Cho developer: API để feed web context vào AI agents. Scrape + clean + structure data từ web, ready cho LLM consumption. Nếu agents bạn cần real-time web data, Firecrawl handle phần này.",
+      "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "162376"
+      "stars": "162889"
     },
     {
-      "headline": "Dify Nhận 151K Stars — Build Agentic Workflows, RAG Pipelines Collaborative",
-      "why": "Platform để build AI workflows (agent + RAG + tools) trên 1 workspace, deploy cloud/VPC/self-host. 151K stars = mature project. So với LangChain: Dify visual + collaborative, LangChain code-first. Pick theo team skillset.",
-      "source": "GitHub Trending",
+      "headline": "Dify — Build Agentic Workflows, RAG Pipelines — 151K Stars",
+      "why": "Cho developer/manager: platform để build AI apps không cần code nhiều. Visual workflow builder + support 400+ integrations. Self-host hoặc cloud. Tốt cho team muốn prototype nhanh AI features.",
+      "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "151598"
+      "stars": "151723"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Anthropic Claude Fable 5 (batch)",
-      "event": "new",
-      "summary": "Mythos-class model từ Anthropic cho autonomous knowledge work và coding. Hỗ trợ text, image, file inputs. Có reasoning support.",
-      "why": "Mythos-class = tier cao nhất Anthropic. Nếu task bạn cần reasoning sâu (research reports, code architecture), Fable 5 là option — nhưng giá $5/$25 per M tok đắt gấp đôi Opus 5.",
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi Latest ↓ Giảm $0.40 Input Per M Tok",
+      "event": "price",
+      "summary": "Prompt $2.90 → $2.50, completion giữ nguyên $14.00 per million tokens.",
+      "why": "Rẻ hơn cho long-context tasks (Kimi có 200K context window).",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/anthropic/claude-fable-5:batch",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
       "tags": [
-        "anthropic",
-        "batch",
-        "new"
+        "pricing",
+        "Kimi",
+        "long-context"
       ]
     },
     {
-      "headline": "[OpenRouter NEW] Anthropic Claude Haiku 4.5 (batch)",
-      "event": "new",
-      "summary": "Model nhanh nhất và rẻ nhất từ Anthropic. Near-frontier intelligence, latency thấp. Performance match Sonnet 4.",
-      "why": "Nếu bạn cần speed + cost efficiency (high-volume tasks như classification, simple Q&A), Haiku 4.5 giờ có batch pricing $0.50/$2.50 — rẻ hơn Sonnet nhiều mà performance gần bằng.",
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0423 ↑ Tăng $0.05 Input, $0.10 Output Per M Tok",
+      "event": "price",
+      "summary": "Prompt $0.09 → $0.14, completion $0.18 → $0.28 per million tokens.",
+      "why": "Vẫn rẻ nhất phân khúc frontier, nhưng margin giảm so với trước.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/anthropic/claude-haiku-4.5:batch",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
       "tags": [
-        "anthropic",
-        "batch",
-        "new"
+        "pricing",
+        "DeepSeek"
       ]
     },
     {
-      "headline": "[OpenRouter NEW] Anthropic Claude Opus 4.6, 4.7, 4.8, Opus 5 (batch)",
-      "event": "new",
-      "summary": "Series Opus 4.6 → 5 từ Anthropic. Mỗi version tăng dần về coding, agentic workflows, long-context reasoning. Opus 5 là flagship hiện tại.",
-      "why": "Anthropic đang rapid iterate Opus line — 4.6/4.7/4.8/5 trong vài tháng. Nếu đang dùng Opus 4 cũ, upgrade lên 5 để có performance tốt nhất. Giá batch $2.50/$12.50 ổn định qua các version.",
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 ↓ Giảm $0.09 Input, $0.27 Output Per M Tok",
+      "event": "price",
+      "summary": "Prompt $0.55 → $0.46, completion $1.72 → $1.45 per million tokens.",
+      "why": "Giảm giá aggressive — có thể đang cạnh tranh với DeepSeek/Qwen.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/anthropic/claude-opus-5:batch",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
       "tags": [
-        "anthropic",
-        "batch",
-        "new",
-        "opus"
+        "pricing",
+        "GLM"
       ]
     },
     {
-      "headline": "[OpenRouter NEW] Anthropic Claude Sonnet 4.5, 4.6, Sonnet 5 (batch)",
-      "event": "new",
-      "summary": "Sonnet line từ Anthropic — middle-tier giữa Haiku và Opus. Sonnet 5 có adaptive reasoning với selectable effort levels (low/medium/high/max).",
-      "why": "Sonnet 5 với adaptive reasoning = bạn control được trade-off speed vs quality per request. Nếu workflow có mix task (simple + complex), Sonnet 5 tiết kiệm hơn dùng Opus cho mọi thứ.",
+      "headline": "[OpenRouter PRICE] NVIDIA Nemotron 3 Super ↓ Giảm 73% Input, 56% Output",
+      "event": "price",
+      "summary": "Prompt $0.30 → $0.08, completion $0.90 → $0.40 per million tokens.",
+      "why": "Nemotron giờ rẻ nhất phân khúc 100B+ params — đáng thử cho coding/reasoning tasks nếu chưa dùng.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/anthropic/claude-sonnet-5:batch",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
       "tags": [
-        "anthropic",
-        "batch",
-        "new",
-        "sonnet"
+        "pricing",
+        "NVIDIA",
+        "Nemotron"
       ]
     },
     {
-      "headline": "[OpenRouter NEW] Google Gemini 2.5 Flash Lite, Flash, Pro (batch)",
-      "event": "new",
-      "summary": "Gemini 2.5 line từ Google: Flash Lite ultra-low latency, Flash là workhorse reasoning/coding/math, Pro là advanced reasoning với 'thinking' capabilities.",
-      "why": "Gemini 2.5 Pro giá $0.62/$5.00 rẻ hơn GPT-5 ($0.62/$5.00 cũng) nhưng có built-in thinking. Nếu task cần reasoning mà không muốn trả OpenAI, Pro là alternative mạnh.",
+      "headline": "[OpenRouter PRICE] Thinking Machines Inkling Small ↓ Giảm $0.05 Input",
+      "event": "price",
+      "summary": "Prompt $0.50 → $0.45, completion giữ nguyên $1.20 per million tokens.",
+      "why": "Small models đang race-to-bottom về giá — trend này sẽ tiếp tục.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/google/gemini-2.5-pro:batch",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-small",
       "tags": [
-        "google",
-        "gemini",
-        "batch",
-        "new"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] Google Gemini 3 Flash Preview, 3.1 Flash Lite/Pro Preview, 3.5 Flash Lite/Flash, 3.6 Flash (batch)",
-      "event": "new",
-      "summary": "Gemini 3.x line từ Google — nhiều variants từ Lite (lightweight) đến Pro (frontier reasoning). 3.6 Flash mới nhất, optimized cho web/app development.",
-      "why": "Google đang flood market với nhiều Gemini variants. Nếu confused: 3.6 Flash là stable GA cho production, 3.1 Pro Preview là bleeding edge. Pick theo risk tolerance.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/google/gemini-3.6-flash:batch",
-      "tags": [
-        "google",
-        "gemini",
-        "batch",
-        "new"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] InclusionAI Ling 3.0 Flash, Ling 3.0 Tiny (free)",
-      "event": "new",
-      "summary": "Ling 3.0 Flash là MoE 124B params (5.1B active). Ling 3.0 Tiny là free variant (1.3B active / 7.9B total). Optimized cho agentic inference, token efficiency.",
-      "why": "Free tier model (Ling 3.0 Tiny) cho dev test agents không tốn tiền. Flash variant rẻ ($0.02/$0.06) cho production scale. Nếu ngân sách thắt, InclusionAI đáng thử.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash",
-      "tags": [
-        "inclusionai",
-        "batch",
-        "new",
-        "free"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] MiniMax M3 (batch)",
-      "event": "new",
-      "summary": "Multimodal foundation model từ MiniMax. Hỗ trợ text, image, video inputs. 1M-token context. Suited cho long-horizon agentic work, coding.",
-      "why": "MiniMax M3 giá $0.15/$0.60 — rẻ hơn nhiều so với GPT-5/Claude. Nếu cần multimodal + long context với budget nhỏ, M3 là option. Trade-off: community support ít hơn big players.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/minimax/minimax-m3:batch",
-      "tags": [
-        "minimax",
-        "batch",
-        "new",
-        "multimodal"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] MoonshotAI Kimi K2.7 Code (batch)",
-      "event": "new",
-      "summary": "Coding-focused model từ Moonshot AI. Native multimodal MoE. Built cho end-to-end programming tasks over long contexts.",
-      "why": "Kimi K2.7 Code từ China, specialized cho coding. Nếu bạn đang so sánh coding agents, thêm Kimi vào benchmark — $0.47/$2.00 mid-tier pricing.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code:batch",
-      "tags": [
-        "moonshotai",
-        "batch",
-        "new",
-        "coding"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] NVIDIA Nemotron 3 Ultra (batch)",
-      "event": "new",
-      "summary": "Open frontier-reasoning model từ NVIDIA. 55B active / 550B total (MoE). Hybrid Transformer-Mamba architecture.",
-      "why": "NVIDIA vào cuộc với open model. Nếu bạn cần self-host frontier model và có infra NVIDIA, Nemotron 3 Ultra là option. $0.30/$1.80 rẻ cho tier này.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b:batch",
-      "tags": [
-        "nvidia",
-        "batch",
-        "new",
-        "open-weight"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] OpenAI GPT-3.5 Turbo, GPT-4 Turbo, GPT-4.1 Mini/Nano/Standard, GPT-4o-mini, GPT-4o (batch)",
-      "event": "new",
-      "summary": "OpenAI thêm batch pricing cho các model cũ: GPT-3.5, GPT-4 line, GPT-4.1 variants, GPT-4o. Batch = giá rẻ hơn 50% nhưng xử lý trong 24h.",
-      "why": "Nếu workflow không cần real-time (vd: nightly batch processing reports), batch pricing tiết kiệm lớn. GPT-4o batch giá $1.25/$5.00 vs standard $2.50/$10.00.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/openai/gpt-4o:batch",
-      "tags": [
-        "openai",
-        "batch",
-        "new"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] OpenAI GPT-5 line: Codex, Mini, Nano, Pro, GPT-5.1, 5.2, 5.4, 5.5, GPT-5.6 (Luna/Sol/Terra variants), o1-pro, o1, o3 Mini/Pro/Standard, o4 Mini (batch)",
-      "event": "new",
-      "summary": "OpenAI massive batch rollout cho toàn bộ GPT-5 line + o-series. Hàng chục variants từ Nano (ultra-cheap) đến Pro (frontier reasoning). GPT-5.6 Sol/Luna/Terra có Pro variants với reasoning.mode = pro.",
-      "why": "Nếu dùng OpenAI production scale, MIGRATE sang batch ngay để giảm 50% cost. Chọn tier phù hợp: Luna (cheap, fast), Terra (balanced), Sol (frontier). Pro variants đắt hơn nhưng reasoning quality cao hơn — dùng cho high-stakes tasks only.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol:batch",
-      "tags": [
-        "openai",
-        "batch",
-        "new",
-        "gpt-5"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] Thinking Machines Inkling (batch)",
-      "event": "new",
-      "summary": "Open-weight multimodal MoE từ Thinking Machines Lab. 41B active / 975B total. Designed cho general reasoning, coding, agentic systems, tool use.",
-      "why": "Inkling là open alternative cho closed models. Nếu muốn self-host model lớn (gần 1T params) với performance competitive, Inkling + infra đủ mạnh là option. $0.50/$2.02 batch pricing ổn.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/thinkingmachines/inkling:batch",
-      "tags": [
-        "thinking-machines",
-        "batch",
-        "new",
-        "open-weight"
+        "pricing",
+        "small-models"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 240,
-    "brave": 49,
+    "raw": 182,
+    "brave": 52,
     "reddit": 0,
     "hackernews": 6,
     "rss": 52,
-    "huggingface": 7,
+    "huggingface": 8,
     "github": 10,
-    "openrouter": 68
+    "openrouter": 5
   }
 }
