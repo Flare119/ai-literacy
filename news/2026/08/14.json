@@ -1,0 +1,347 @@
+{
+  "date": "2026-08-14",
+  "updated_at": "2026-08-14T06:31:01.986246+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "Google Ra Gemini 3.7 Flash — Tăng Tốc Agentic Workflows & Coding Phức Tạp",
+    "summary": "Google phát hành Gemini 3.7 Flash, model multimodal mới tập trung vào agentic workflows, coding, và reasoning đa bước phức tạp. Model thiết kế cho performance phản hồi nhanh và khả năng xử lý task đa bước đáng tin cậy. Gemini 3.7 Flash giảm giá mạnh trên OpenRouter: $0.38/$1.88 per M token (từ $1.50/$7.50 của Flash Latest), batch mode còn rẻ hơn ($0.19/$0.94).",
+    "why": "Cho cá nhân + manager: đây là lựa chọn mới cho AI coding/agent workflows với giá rẻ hơn 75% so với thế hệ trước — nếu đang dùng GPT-4/Claude cho automation, test Gemini 3.7 Flash có thể tiết kiệm đáng kể chi phí mà vẫn giữ chất lượng reasoning. Cho creative: batch mode giá $0.19 prompt phù hợp xử lý hàng loạt script/storyboard generation.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "tags": [
+      "gemini",
+      "google",
+      "agentic",
+      "coding",
+      "pricing"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "DeepSeek Ra Harness Developer Preview — Platform Phát Triển AI Agent",
+      "why": "Cho creative/developer: DeepSeek mở platform Harness để build AI agents — cạnh tranh trực tiếp với OpenAI Assistants API. Nếu đã dùng DeepSeek V4 cho cost efficiency, Harness có thể là bước tiếp để tự động hóa workflows mà không phụ thuộc OpenAI.",
+      "source": "DeepSeek",
+      "url": "https://deepseek.com/harness/en/",
+      "tags": [
+        "deepseek",
+        "agent",
+        "platform"
+      ]
+    },
+    {
+      "headline": "Cerebras Tăng Tốc GPT-5.6 Sol Với Hardware Chuyên Dụng — Ultrafast Inference",
+      "why": "Cho manager/business: Cerebras chip giúp GPT-5.6 Sol chạy nhanh hơn GPU truyền thống — nếu doanh nghiệp cần inference tốc độ cao (customer support realtime, live translation), đây là signal về hardware alternative ngoài Nvidia.",
+      "source": "Cerebras Blog",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "tags": [
+        "cerebras",
+        "gpt-5.6",
+        "inference",
+        "hardware"
+      ]
+    },
+    {
+      "headline": "Meta Đẩy Mạnh Open-Weight AI — Zuckerberg Tiếp Tục Chiến Lược Mở",
+      "why": "Cho business/curious: Meta ra model mới tiếp tục chiến lược open-weight (không phải fully open-source nhưng cho download weights) — xu hướng này tạo cơ hội cho startup/SME tự host model mà không bị lock-in cloud pricing. Theo dõi nếu cần control data residency.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/meta-launches-new-ai-model-zuckerberg-champions-open-weight-push-2026-08-10/",
+      "tags": [
+        "meta",
+        "open-weight",
+        "zuckerberg"
+      ]
+    },
+    {
+      "headline": "Nvidia Ra Model Mở Đầu Tiên Nemotron 3.5 Lightning Sau Khi CEO Ủng Hộ Open AI",
+      "why": "Cho curious/individual: Nvidia từng chỉ bán GPU, giờ ra model open-source Nemotron 3.5 Lightning — phản ánh chiến lược mới: không chỉ bán hardware mà còn hỗ trợ ecosystem. Download model chạy local nếu có GPU Nvidia.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html",
+      "tags": [
+        "nvidia",
+        "open-source",
+        "nemotron"
+      ]
+    },
+    {
+      "headline": "Kiro: Agentic Engineering Tool — Từ AI Coding Sang Autonomous Dev Workflows",
+      "why": "Cho creative/developer: Kiro không chỉ gen code như Cursor/Copilot mà là 'agentic engineering' — agent tự complete task từ đầu đến cuối (IDE + CLI + web interface). Nếu đang dùng AI coding tools, Kiro đại diện next step: ít can thiệp hơn, agent làm nhiều hơn.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "kiro",
+        "agentic",
+        "coding",
+        "tool"
+      ]
+    },
+    {
+      "headline": "Higgsfield Tổng Hợp Nhiều AI Video Model Trong 1 Workspace — So Sánh Sora, Kling, Veo, Seedance",
+      "why": "Cho creative: thay vì subscribe nhiều platform video gen riêng lẻ (Sora, Kling, Veo, Seedance), Higgsfield cho switch giữa các model trong cùng workspace và compare outputs — tiết kiệm thời gian test model nào phù hợp từng shot.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video-gen",
+        "higgsfield",
+        "multi-model"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "LTX-2.5 Ra Mắt — Model Video Cinema-Grade, Giữ Continuity Qua Nhiều Shot",
+      "summary": "LTX-2.5 render chi tiết cinema-grade, giữ nhân vật và continuity qua các shot liên kết, tái tạo khuôn mặt sắc nét và text rõ ràng. Model ship với pretrained checkpoint để fine-tune sâu, phục vụ creative production và real-time experiences.",
+      "why": "Cho creative/producer: LTX-2.5 giải quyết pain point lớn của video gen — continuity giữa shots (nhân vật thay đổi giữa các clip). Nếu làm phim ngắn/TVC cần giữ consistency, đây là model đáng test. Pretrained checkpoint cho phép fine-tune theo style riêng.",
+      "source": "LTX",
+      "url": "https://ltx.io/model",
+      "tags": [
+        "video-gen",
+        "ltx",
+        "continuity",
+        "fine-tuning"
+      ]
+    },
+    {
+      "headline": "xAI Grok Imagine Thêm AI Video/Image Gen — Trải Nghiệm iOS App",
+      "summary": "xAI release Grok Imagine tool trong iOS app, cho phép user tạo AI images và videos nhanh. Mashable test sơ bộ và đưa ra nhận xét ban đầu về chất lượng output.",
+      "why": "Cho creative/individual: Grok Imagine đưa video gen vào mobile app, dễ tiếp cận hơn web tools. Nếu cần prototype video trên di động (storyboard, pitch ideas cho client), test xem quality có đủ production-ready không.",
+      "source": "Mashable",
+      "url": "https://mashable.com/article/xai-grok-imagine",
+      "tags": [
+        "grok",
+        "xai",
+        "video-gen",
+        "mobile"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Mechanist: AI Như Công Cụ Khoa Học Để Hiểu Cơ Chế Của Trí Tuệ",
+      "summary": "Nghiên cứu đề xuất dùng AI models như 'công cụ khoa học' để khám phá cơ chế hoạt động của trí tuệ (cả nhân tạo lẫn sinh học). Thay vì chỉ dùng AI làm công cụ ứng dụng, researchers coi AI như đối tượng nghiên cứu để hiểu sâu hơn về intelligence mechanisms.",
+      "why": "Cho curious: nghiên cứu này đổi góc nhìn — không chỉ 'AI làm gì được' mà 'AI hoạt động ra sao có thể dạy gì về trí tuệ con người'. Quan trọng nếu bạn quan tâm long-term về AI alignment và explainability — hiểu cơ chế giúp kiểm soát rủi ro tốt hơn.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2608.12036",
+      "tags": [
+        "research",
+        "mechanistic-interpretability",
+        "intelligence"
+      ]
+    },
+    {
+      "headline": "SkillZip: Nén Skill Libraries Của AI Agents Giữ Nguyên Chức Năng",
+      "summary": "Khi LLM agents có skill libraries lớn (hàng trăm/nghìn skills), load tất cả vào context làm chậm và tốn chi phí. SkillZip nén skill graphs bằng cách giữ 'smallest sufficient executable context' mà vẫn đảm bảo agent thực thi đúng.",
+      "why": "Cho developer/manager: nếu team build AI agents với nhiều skills (automation workflows, customer service bots), SkillZip giúp giảm latency + cost khi load skills. Áp dụng khi agent cần scale số lượng skills mà không muốn tăng context window (tốn tiền).",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2608.05604",
+      "tags": [
+        "research",
+        "agents",
+        "skill-libraries",
+        "optimization"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "River AI Raise $1.1B — Startup 'AI Thuộc Về Người Dùng' Của Ex-xAI Co-Founder",
+      "summary": "River AI, được thành lập năm nay bởi Igor Babuschkin (ex-xAI co-founder), raise $1.1 tỷ USD qua seed + Series A. Vision: AI belongs to the people and companies using it — không bị lock-in provider, user sở hữu models/data.",
+      "why": "Cho business/founder: River AI đại diện xu hướng 'personal AI' — thay vì dùng shared cloud AI (OpenAI/Anthropic), user tự host model riêng. $1.1B funding signal thị trường tin vào nhu cầu này. Theo dõi nếu doanh nghiệp muốn data sovereignty + customization sâu.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/08/11/former-xai-co-founder-igor-babuschkins-river-ai-raises-1-1-billion-to-build-your-own-personal-ai/",
+      "tags": [
+        "funding",
+        "river-ai",
+        "personal-ai",
+        "data-sovereignty"
+      ]
+    },
+    {
+      "headline": "Lumilens Ra Mắt Với $900M Funding — Startup Optical Data Center Của Ex-Aruba CTO",
+      "summary": "Lumilens, startup optical data center connectivity do ex-Aruba CTO thành lập, emerge từ stealth mode với $900M+ funding và định giá $5.5B. Focus: scale AI interconnectivity với công nghệ optical.",
+      "why": "Cho business/investor: AI scaling bị nghẽn ở data center interconnect (GPU cluster communication). Lumilens bet vào optical thay vì electrical — nếu thành công, giảm bottleneck cho training/inference clusters lớn. $5.5B valuation pre-launch signal kỳ vọng cao — theo dõi nếu quan tâm AI infrastructure investments.",
+      "source": "SDxCentral",
+      "url": "https://www.sdxcentral.com/news/ex-aruba-cto-unveils-optical-startup-armed-with-900m-to-scale-ai-interconnectivity/",
+      "tags": [
+        "funding",
+        "lumilens",
+        "data-center",
+        "optical",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Google Ads & Analytics Tích Hợp AI Tools — Tóm Tắt Tự Động, Báo Cáo Bằng Prompt",
+      "summary": "Google ra AI tools mới trong Google Ads và Analytics: AI-powered summaries trên homepage, tạo visual reports bằng text prompts, insights nhanh hơn. Mục tiêu giúp marketers uncover insights và hành động nhanh hơn.",
+      "why": "Cho business/manager: nếu team marketing dùng Google Ads/Analytics, AI summaries giúp nhanh chóng nắm insight (thay vì đọc dashboards thủ công). Visual reports từ prompts giảm thời gian analyst — có thể shift analyst effort từ báo cáo sang chiến lược.",
+      "source": "Google Blog",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "tags": [
+        "google",
+        "ads",
+        "analytics",
+        "marketing-ai"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "OpenClaw: Personal AI Assistant Chạy Bất Kỳ OS/Platform — 'The Lobster Way' 🦞",
+      "why": "Cho individual/developer: OpenClaw là open-source personal AI assistant cross-platform. 386K stars trong thời gian ngắn signal community quan tâm cao — nếu muốn AI assistant không bị vendor lock-in (Siri, Alexa, Google Assistant), test OpenClaw.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "386195"
+    },
+    {
+      "headline": "Firecrawl: Context API Để Search, Scrape, Interact With Web At Scale 🔥",
+      "why": "Cho developer/creative: Firecrawl giúp scrape web data at scale cho RAG/agentic workflows (lấy context từ web cho AI agents). 167K stars — nếu build agents cần realtime web data (research, competitor monitoring), Firecrawl infrastructure-ready.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "166959"
+    },
+    {
+      "headline": "Dify: Build Agentic Workflows & RAG Pipelines — Deploy Cloud/VPC/Self-Hosted",
+      "why": "Cho manager/developer: Dify là platform collaborative để build agentic workflows + RAG với multi-model support. 152K stars, deploy linh hoạt (cloud/VPC/self-hosted) — phù hợp team muốn prototype → production mà không rebuild stack. Alternative cho vendor-locked platforms.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "152367"
+    },
+    {
+      "headline": "Open WebUI: User-Friendly AI Interface — Hỗ Trợ Ollama, OpenAI API, Etc.",
+      "why": "Cho individual/developer: Open WebUI là UI open-source để tương tác với nhiều AI providers (Ollama local models, OpenAI API, etc.). 149K stars — nếu muốn single interface cho multi-model mà không subscribe nhiều web apps riêng lẻ.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "148713"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Google: Gemini 3.7 Flash — $0.38/$1.88 per M tok",
+      "event": "new",
+      "summary": "Model multimodal mới cho agentic workflows, coding, multi-step reasoning. Fast performance.",
+      "why": "Alternative rẻ hơn 75% so với Gemini Flash Latest — test cho coding/automation workflows.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.7-flash",
+      "tags": [
+        "openrouter",
+        "gemini",
+        "new"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Google: Gemini 3.7 Flash (batch) — $0.19/$0.94 per M tok",
+      "event": "new",
+      "summary": "Batch mode của Gemini 3.7 Flash cho xử lý hàng loạt với giá thấp hơn.",
+      "why": "Giá $0.19 prompt — cực rẻ cho batch processing (content gen hàng loạt, data analysis).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.7-flash:batch",
+      "tags": [
+        "openrouter",
+        "gemini",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] inclusionAI: Ling 3.0 Tiny (free) Removed",
+      "event": "deprecated",
+      "summary": "Model inclusionai/ling-3.0-tiny:free không còn trên OpenRouter.",
+      "why": "Nếu đang dùng Ling 3.0 Tiny free tier, migrate sang model khác ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.0-tiny:free",
+      "tags": [
+        "openrouter",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemini Flash Latest ↓$0.38/↓$1.88 per M tok",
+      "event": "price",
+      "summary": "Giá giảm từ $1.50/$7.50 xuống $0.38/$1.88 — giảm 75%.",
+      "why": "Google aggressive pricing — nếu đang dùng Claude/GPT cho coding, switch sang Gemini Flash tiết kiệm lớn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~google/gemini-flash-latest",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "gemini"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.5-35B-A3B ↑$0.25/↑$1.25 per M tok",
+      "event": "price",
+      "summary": "Giá tăng từ $0.14/$1.00 lên $0.25/$1.25.",
+      "why": "Qwen tăng giá — kiểm tra budget nếu đang dùng nhiều volume.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemini 3.6 Flash (batch) ↓$0.38/↓$1.88 per M tok",
+      "event": "price",
+      "summary": "Batch mode Gemini 3.6 Flash giảm giá từ $0.75/$3.75 xuống $0.38/$1.88.",
+      "why": "Gemini 3.6 batch mode rẻ hơn — nếu không cần 3.7 features, 3.6 batch vẫn cost-effective.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.6-flash:batch",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro ↑$1.17/↑$2.34 per M tok",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro tăng giá từ $0.43/$0.87 lên $1.17/$2.34 — gấp ~2.7x.",
+      "why": "DeepSeek V4 Pro không còn siêu rẻ như trước — tính toán lại ROI nếu đang dùng heavy volume.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "tags": [
+        "openrouter",
+        "price-increase",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemini 3.6 Flash ↓$0.75/↓$3.75 per M tok",
+      "event": "price",
+      "summary": "Gemini 3.6 Flash giảm giá từ $1.50/$7.50 xuống $0.75/$3.75 — giảm 50%.",
+      "why": "Gemini 3.6 vẫn competitive sau khi 3.7 ra — dùng 3.6 nếu không cần latest features nhưng muốn giá tốt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-3.6-flash",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "gemini"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 ↓$0.39/↓$1.23 per M tok",
+      "event": "price",
+      "summary": "GLM 5.2 giảm giá từ $0.49/$1.54 xuống $0.39/$1.23.",
+      "why": "GLM 5.2 giảm nhẹ — nếu đã test GLM, đây là cơ hội tăng volume với chi phí thấp hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "openrouter",
+        "price-drop",
+        "glm"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 178,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 10
+  }
+}
