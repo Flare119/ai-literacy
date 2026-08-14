@@ -1,0 +1,405 @@
+{
+  "date": "2026-08-15",
+  "updated_at": "2026-08-15T06:12:07.837380+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Google Ra Gemini 3.7 Flash — Tối Ưu Cho Coding Phức Tạp & Agentic Workflows",
+    "summary": "Google DeepMind ra Gemini 3.7 Flash với khả năng reasoning nâng cao nhưng giữ latency thấp như Flash. Tối ưu cho software engineering, web development và knowledge work. Đây là model 'workhorse' thông minh nhất dòng Flash, nhắm vào agentic workflows thay vì chỉ chat.",
+    "why": "Cho manager: nếu team đang dùng GPT-5.6 hoặc Claude Code cho automation, Gemini 3.7 Flash là lựa chọn rẻ hơn với performance tương đương ở coding tasks. Cho developer: test ngay cho CI/CD pipelines và code review automation — latency thấp nghĩa là response time nhanh hơn trong production.",
+    "source": "Google DeepMind",
+    "url": "https://deepmind.google/models/gemini/flash/",
+    "tags": [
+      "gemini",
+      "coding",
+      "agents",
+      "google"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Google Làm AI Riêng Tư Thực Tế Hơn Với Homomorphic Encryption",
+      "why": "Cho manager: nếu team xử lý dữ liệu nhạy cảm (y tế, tài chính), homomorphic encryption cho phép AI chạy trên encrypted data mà không decrypt — giảm rủi ro leak. Google đang productize công nghệ này, đây là tín hiệu công nghệ sẽ mainstream trong 1-2 năm.",
+      "source": "Google Security Blog",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "tags": [
+        "privacy",
+        "encryption",
+        "google",
+        "enterprise"
+      ]
+    },
+    {
+      "headline": "Meta Ra Muse Glimmer 30B — Model Agent Chạy Offline Trên Laptop",
+      "why": "Cho individual: nếu bạn lo ngại privacy hoặc làm remote không có internet ổn định, Muse Glimmer 30B chạy local trên laptop đủ mạnh. Meta tiếp tục chiến lược open-weight — đây là cơ hội build custom agents không phụ thuộc cloud API.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+      "tags": [
+        "meta",
+        "open-source",
+        "offline",
+        "agents"
+      ]
+    },
+    {
+      "headline": "Nvidia Ra Model Mở Đầu Tiên Nemotron 3.5 Lightning",
+      "why": "Cho developer: đây là model open-source đầu tiên từ Nvidia sau khi CEO Jensen Huang ủng hộ công khai open AI. Nếu bạn đang build infrastructure cần GPU-optimized inference, Nemotron 3.5 Lightning có thể tận dụng tốt hơn CUDA ecosystem.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html",
+      "tags": [
+        "nvidia",
+        "open-source",
+        "inference"
+      ]
+    },
+    {
+      "headline": "OpenAI Ra Model Cybersecurity Daybreak — Đối Phó AI-Led Attacks",
+      "why": "Cho manager: nếu công ty chưa có AI security protocol, đây là cảnh báo — AI-led attacks đang tăng đủ để OpenAI phải ra model chuyên biệt. Review security stack của bạn: API authentication, rate limiting, anomaly detection có đủ chặt để chống AI bot không?",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "tags": [
+        "security",
+        "openai",
+        "defense"
+      ]
+    },
+    {
+      "headline": "Higgsfield Tổng Hợp Nhiều AI Video Model Trong 1 Workspace",
+      "why": "Cho creative: nếu bạn đang test Sora 2, Kling 3.0, Veo 3.1, Wan 2.7 riêng lẻ, Higgsfield cho phép switch giữa các model không rời platform — tiết kiệm thời gian compare output. Đặc biệt hữu ích khi client yêu cầu style cụ thể mà bạn chưa biết model nào fit nhất.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video",
+        "creative",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "xAI Ra Grok Imagine Video 1.5 Preview — Image-to-Video Qua API",
+      "why": "Cho developer: nếu bạn đang build creative automation workflow, Grok Imagine Video 1.5 có API image-to-video — tích hợp được vào pipeline. Mashable test cho thấy chất lượng khá tốt cho MVP, đủ dùng prototype nhanh.",
+      "source": "Mashable",
+      "url": "https://mashable.com/article/xai-grok-imagine",
+      "tags": [
+        "xai",
+        "video",
+        "api"
+      ]
+    },
+    {
+      "headline": "LTX-2.5 Ra Mắt — Model Video Cinema-Grade Mở",
+      "why": "Cho creative: LTX-2.5 giữ continuity qua nhiều shot, render chi tiết cinema-grade, và mở code để fine-tune. Nếu production house muốn custom model cho style riêng (VD: phim ngắn, TVC), đây là base model mạnh để bắt đầu thay vì train from scratch.",
+      "source": "LTX",
+      "url": "https://ltx.io/model/open-source",
+      "tags": [
+        "video",
+        "open-source",
+        "cinema"
+      ]
+    },
+    {
+      "headline": "87.5% Vốn VC Mỹ Đổ Vào AI — Ngành Khác Tranh Giành 12.5% Còn Lại",
+      "why": "Cho founder: nếu startup bạn không phải AI-first, gọi vốn sẽ khó hơn bao giờ hết. Cân nhắc pivot narrative — tìm AI angle trong product hiện tại hoặc chấp nhận bootstrapping. Những founder raise được ngoài AI thường có revenue traction cực mạnh hoặc niche defensible.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/12/venture-capital-funding-ai-pitchbook-us-vc-valuations-series-d/",
+      "tags": [
+        "funding",
+        "vc",
+        "market"
+      ]
+    },
+    {
+      "headline": "Google Ads & Analytics Ra AI Tools Tạo Insights & Reports Tự Động",
+      "why": "Cho manager: Google Ads giờ có AI-powered summaries và visual reports từ text prompts — nếu team marketing đang dành 5-10h/tuần làm report, tool này có thể giảm xuống 1-2h. Thử ngay trong campaign tiếp theo để verify ROI trước khi rollout full team.",
+      "source": "Google Blog",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "tags": [
+        "marketing",
+        "analytics",
+        "automation"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Kiro: Công Cụ Agentic Engineering — Từ AI Coding Sang Autonomous Dev Workflows",
+      "summary": "Kiro là agentic AI với IDE, CLI, và web interface giúp dev đi từ ý tưởng sang code production. Khác với AI coding assistant truyền thống (copilot), Kiro tự quản lý workflow: plan → code → test → deploy. Có guide dạy qua codebase game mẫu.",
+      "why": "Cho developer: nếu bạn đang dùng Cursor/Copilot mà vẫn phải manually manage tasks, Kiro abstraction cao hơn — giao task end-to-end thay vì từng dòng code. Thử với side project trước khi dùng production — agent autonomy cao nghĩa là ít control hơn.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "coding",
+        "agents",
+        "devtools"
+      ]
+    },
+    {
+      "headline": "Claude Code Sessions: Anthropic Chia Sẻ Cách Tối Đa Hóa Giá Trị",
+      "summary": "Anthropic publish guide về cách dùng Claude Code hiệu quả: structure prompts, manage context, khi nào nên refactor vs khi nào chấp nhận technical debt. Guide focus vào best practices cho team dev dùng AI assistant.",
+      "why": "Cho manager: nếu team đang dùng Claude Code nhưng output chất lượng không consistent, guide này giúp standardize workflow. Chia sẻ với team và track improvement sau 2 tuần — nếu không thấy hiệu quả, có thể là tool không fit team culture hoặc cần training kỹ hơn.",
+      "source": "Claude Blog",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "tags": [
+        "claude",
+        "coding",
+        "best-practices"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "NASA Perseverance Hoàn Thành Mission — Robots Tự Quyết Định Khoa Học",
+      "summary": "NASA's Perseverance rover hoàn thành giai đoạn mission với AI onboard tự quyết định mẫu đá nào cần phân tích, không cần chờ lệnh từ Trái Đất. Đây là bước tiến trong autonomous science — robot tự làm khoa học.",
+      "why": "Cho curious: phát hiện này nghĩa là AI không chỉ follow instructions mà có thể tự đặt hypothesis và test — tương tự cách khoa học gia làm việc. Ứng dụng tương lai: AI lab assistant tự thiết kế thí nghiệm, không chỉ chạy theo protocol có sẵn.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "robotics",
+        "science"
+      ]
+    },
+    {
+      "headline": "Các Nhà Khoa Học Xây Artificial Neurons Hoạt Động Như Neurons Thật",
+      "summary": "Nghiên cứu mới tạo ra artificial neurons bằng vật liệu hữu cơ có thể mimic hành vi neurons sinh học — firing patterns, plasticity, learning. Khác với neural networks software, đây là hardware neurons.",
+      "why": "Cho curious: đây là bước hướng tới neuromorphic computing — chip hoạt động giống não người hơn là CPU truyền thống. Ứng dụng: AI energy-efficient (não người chỉ dùng 20W), sensors sinh học, brain-computer interfaces. Timeline thực tế: 5-10 năm trước khi thương mại.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "research",
+        "neuromorphic",
+        "hardware"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Anthropic Đàm Phán Mua Startup Israel Decart Với Giá 6 Tỷ USD",
+      "summary": "Anthropic đang đàm phán mua Decart, startup AI Israel vừa raise 300 triệu USD tháng 5/2026 (với Nvidia join làm investor). Định giá 6 tỷ USD — tăng 20x trong 3 tháng. Decart chuyên real-time AI inference hardware.",
+      "why": "Cho founder: nếu bạn đang build AI infrastructure (inference, training, edge deployment), đây là signal M&A market đang nóng. Nvidia backing Decart tháng 5, Anthropic muốn mua tháng 8 — pattern này nghĩa là strategic investors đang positioning cho consolidation wave. Nếu có offer acquisition sớm, cân nhắc kỹ — giá có thể tăng nhanh nếu giữ được momentum.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/mrrffazk1",
+      "tags": [
+        "m&a",
+        "funding",
+        "anthropic"
+      ]
+    },
+    {
+      "headline": "Skan AI Raise 63 Triệu USD — Process Intelligence Platform",
+      "summary": "Skan AI (Menlo Park, CA) raise 63 triệu USD từ Cathay Innovation và Dell Technologies. Skan là process-intelligence platform — phân tích workflow trong doanh nghiệp để tìm bottleneck và tự động hóa. Investors: Citi Ventures, Bloomberg Beta, State Farm Ventures.",
+      "why": "Cho founder: process intelligence là niche ít sexy nhưng enterprise trả tiền tốt — Skan raise được 63M là proof. Nếu startup bạn đang làm automation, cân nhắc pivot narrative từ 'AI tool' sang 'process intelligence' — dễ sell cho CIO/COO hơn là dev team.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/12/venture-capital-funding-ai-pitchbook-us-vc-valuations-series-d/",
+      "tags": [
+        "funding",
+        "enterprise",
+        "automation"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI Assistant Chạy Mọi OS, 'The Lobster Way'",
+      "why": "Repo trending #1 GitHub hôm nay (386K stars). Personal AI assistant cross-platform — nếu bạn muốn AI chạy local không phụ thuộc cloud, đây là option mạnh. Cộng đồng đang active phát triển.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "386322"
+    },
+    {
+      "headline": "obra/superpowers — Agentic Skills Framework & Dev Methodology",
+      "why": "Framework để build agent skills có cấu trúc, không phải ad-hoc prompting. 272K stars — nếu team đang struggle standardize agent workflows, framework này có thể giúp.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "272171"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "Agent framework từ Nous Research (team làm Hermes models). 230K stars — focus vào learning over time, không phải one-shot agent. Nếu bạn cần agent nhớ context dài hạn, check repo này.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "230638"
+    },
+    {
+      "headline": "n8n-io/n8n — Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Fair-code platform (không hoàn toàn open-source nhưng self-host được). 200K stars. Tích hợp 400+ services, visual building + custom code. Nếu team muốn Zapier self-hosted với AI native, n8n là lựa chọn tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "200658"
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — Vision Of Accessible AI For Everyone",
+      "why": "AutoGPT vẫn trending (186K stars) — project focus vào accessible AI, self-host, community-driven. Nếu bạn muốn customize agent behavior sâu hơn ChatGPT/Claude, AutoGPT là base tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "186625"
+    },
+    {
+      "headline": "firecrawl/firecrawl — Context API Để Search, Scrape Web At Scale",
+      "why": "167K stars — API để scrape web structured data cho AI context. Nếu bạn build RAG hoặc agent cần real-time web data, Firecrawl solve crawling problem.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "167434"
+    },
+    {
+      "headline": "langgenius/dify — Build Agentic Workflows, RAG Pipelines",
+      "why": "152K stars — platform build agent workflows + RAG với UI. Deploy cloud/VPC/self-hosted. Nếu team không muốn code from scratch, Dify giúp prototype nhanh.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "152459"
+    },
+    {
+      "headline": "open-webui/open-webui — User-Friendly AI Interface (Ollama, OpenAI API)",
+      "why": "148K stars — UI cho local LLMs (Ollama) hoặc OpenAI API. Nếu team muốn ChatGPT-like interface nhưng self-hosted, đây là solution đơn giản nhất.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "148802"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.1 Tăng Giá — $1.40/$4.40 Per M Tok",
+      "event": "price",
+      "summary": "GLM 5.1 tăng giá từ $0.95/$2.99 lên $1.40/$4.40 (prompt/completion). Tăng ~47% prompt, ~47% completion.",
+      "why": "Nếu đang dùng GLM 5.1 cho production, cost tăng gần 50% — review budget hoặc migrate sang model khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.5 397B A17B Giảm Giá — $0.39/$2.34 Per M Tok",
+      "event": "price",
+      "summary": "Qwen3.5 397B giảm từ $0.50/$3.60 xuống $0.39/$2.34 — giảm 22% prompt, 35% completion.",
+      "why": "Cheaper alternative cho GPT-5.6 — nếu use case không cần flagship performance, test Qwen3.5 để optimize cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-397b-a17b",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 Tăng Giá — $0.14/$0.28 Per M Tok",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash tăng từ $0.08/$0.18 lên $0.14/$0.28 — tăng 75% prompt, 56% completion.",
+      "why": "Flash variant tăng giá mạnh — nếu dùng DeepSeek cho high-volume inference, cost impact đáng kể. Cân nhắc lock contract hoặc switch sang competitor.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5 Giảm Giá — $0.60/$1.92 Per M Tok",
+      "event": "price",
+      "summary": "GLM 5 giảm từ $0.95/$2.55 xuống $0.60/$1.92 — giảm 37% prompt, 25% completion.",
+      "why": "GLM 5 rẻ hơn trong khi GLM 5.1 tăng — Z.ai đang push user upgrade lên 5.1. Nếu 5.0 đủ dùng, đây là deal tốt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest Giảm Completion — $0.08/$0.16 Per M Tok",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash Latest giảm completion từ $0.25 xuống $0.16 (prompt giữ $0.08).",
+      "why": "Completion rẻ hơn 36% — nếu use case generate nhiều text (content creation, code generation), migrate sang 'latest' variant để save cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 4 Maverick Tăng Completion — $0.20/$0.80 Per M Tok",
+      "event": "price",
+      "summary": "Llama 4 Maverick completion tăng từ $0.70 lên $0.80 (prompt giữ $0.20).",
+      "why": "Completion tăng 14% — nếu dùng Llama 4 cho chatbot/assistant, cost tăng nhẹ. Impact nhỏ hơn GLM/DeepSeek changes.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-4-maverick",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 4.6 Tăng Giá — $0.55/$2.20 Per M Tok",
+      "event": "price",
+      "summary": "GLM 4.6 tăng từ $0.50/$2.00 lên $0.55/$2.20 — tăng 10% cả prompt và completion.",
+      "why": "Tăng giá nhẹ — trend chung Z.ai models đang adjust pricing. Monitor cost nếu dùng nhiều GLM variants.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 VL 30B A3B Instruct Giảm Giá — $0.13/$0.52 Per M Tok",
+      "event": "price",
+      "summary": "Qwen3 VL (vision-language) giảm từ $0.15/$0.60 xuống $0.13/$0.52 — giảm ~13% cả hai.",
+      "why": "Vision-language model rẻ hơn — nếu use case có image input (OCR, visual Q&A), Qwen3 VL competitive hơn GPT-4V về giá.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-vl-30b-a3b-instruct",
+      "tags": [
+        "openrouter",
+        "pricing",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 Tăng Mạnh — $1.19/$3.74 Per M Tok",
+      "event": "price",
+      "summary": "GLM 5.2 tăng từ $0.39/$1.23 lên $1.19/$3.74 — tăng 205% prompt, 204% completion.",
+      "why": "Tăng giá gấp 3 — hoặc GLM 5.2 improve performance đáng kể, hoặc Z.ai đang test price ceiling. Nếu đang dùng, verify ROI trước khi tiếp tục.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code Tăng Nhẹ — $0.71/$3.50 Per M Tok",
+      "event": "price",
+      "summary": "Kimi K2.7 Code tăng từ $0.67/$3.40 lên $0.71/$3.50 — tăng ~3%.",
+      "why": "Tăng nhẹ — Kimi vẫn competitive cho coding tasks. Impact cost nhỏ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.5-35B-A3B Mix Change — $0.22/$1.80 Per M Tok",
+      "event": "price",
+      "summary": "Qwen3.5-35B giảm prompt từ $0.25 xuống $0.22, nhưng tăng completion từ $1.25 lên $1.80 (+44%).",
+      "why": "Trade-off: prompt rẻ hơn nhưng completion đắt hơn. Nếu use case generate ít text, benefit. Nếu generate nhiều, cost tăng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 176,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 4,
+    "rss": 51,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 11
+  }
+}
