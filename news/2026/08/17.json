@@ -1,0 +1,341 @@
+{
+  "date": "2026-08-17",
+  "updated_at": "2026-08-17T06:10:36.094133+07:00",
+  "weekday": "Monday",
+  "top_story": {
+    "headline": "Stripe Mua OpenRouter $7B — Cuộc Chiến Infrastructure Thanh Toán AI",
+    "summary": "Stripe chốt thương vụ mua lại OpenRouter với giá trị hơn $7 tỷ USD, đánh dấu bước đi lớn nhất của Stripe vào AI infrastructure. OpenRouter là nền tảng cho phép developers truy cập 200+ AI models qua một API thống nhất với pricing minh bạch. Thương vụ này signal rõ: thanh toán AI sẽ trở thành battlefield mới — Stripe muốn làm 'Visa của AI tokens'.",
+    "why": "Cho manager/founder: nếu bạn đang build AI product dựa trên OpenRouter, giờ là lúc re-evaluate vendor lock-in risk. Stripe có thể tăng giá hoặc pivot strategy sau M&A. Chuẩn bị phương án dự phòng (multi-provider hoặc self-host) trong 6-12 tháng tới.",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+    "tags": [
+      "M&A",
+      "OpenRouter",
+      "Stripe",
+      "infrastructure",
+      "business"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Anthropic Đàm Phán Mua Decart $6B — Startup AI Video Real-Time Gaming",
+      "why": "Cho business: Decart vừa raise $300M tháng 5 (led by Radical Ventures + Nvidia), giờ Anthropic chào $6B — valuation tăng 20x trong 3 tháng. Signal bong bóng hoặc real-time video AI thực sự valuable? Nếu M&A thành, Anthropic sẽ có edge lớn về video generation.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/mrrffazk1",
+      "tags": [
+        "M&A",
+        "Anthropic",
+        "Decart",
+        "video AI",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "Sierra AI (Bret Taylor) Raise $950M Series E — Định Giá Chưa Tiết Lộ",
+      "why": "Cho business: Sierra (enterprise AI agent platform) của ex-Salesforce co-CEO Bret Taylor vừa raise $950M — một trong những round lớn nhất AI 2026. Nếu bạn build enterprise AI tools, đây là comp case để hiểu thị trường đang định giá gì: agentic workflows + proven enterprise GTM.",
+      "source": "SF Bay Area Times",
+      "url": "https://www.sfbayareatimes.com/articles/sierra-ai-startup-funding-san-francisco-2026",
+      "tags": [
+        "funding",
+        "Sierra AI",
+        "Bret Taylor",
+        "enterprise AI",
+        "agents"
+      ]
+    },
+    {
+      "headline": "MiiHealth AI Raise $2.8M Seed — AI Patient Intake Assistant Mở Rộng Thị Trường",
+      "why": "Cho curious: healthcare AI vẫn hot — MiiHealth (Phoenix) dùng AI để tự động hóa patient intake (hỏi thông tin bệnh nhân trước khám). Nếu bạn quan tâm AI thực tế trong y tế, đây là niche nhỏ nhưng có ROI rõ ràng (giảm admin work 40-60%).",
+      "source": "AI Market Watch",
+      "url": "https://www.ai-market-watch.com/news/category/funding",
+      "tags": [
+        "funding",
+        "healthcare AI",
+        "patient intake",
+        "automation"
+      ]
+    },
+    {
+      "headline": "Model Đang Cố Ý 'Ngốc Hơn' — Lazy Inference Để Giảm Chi Phí",
+      "why": "Cho manager/technical: một số nhà cung cấp AI đang deploy 'lazy inference' — model chỉ dùng compute đủ để pass user expectations, không phải max accuracy. Trade-off: giảm cost 30-50% nhưng quality xuống. Nếu dùng API third-party, test lại output quality định kỳ.",
+      "source": "Hacker News",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "tags": [
+        "inference",
+        "cost optimization",
+        "quality",
+        "API"
+      ]
+    },
+    {
+      "headline": "Kinh Tế Token Resale Đang Hình Thành — AI Credit 'Token Brokers' Xuất Hiện",
+      "why": "Cho business: một số công ty mua tokens AI với volume discount rồi resell cho SMBs. Nếu bạn spend $5K+/tháng cho OpenAI/Anthropic, có thể tiết kiệm 15-25% qua brokers. Nhưng risk: ToS violation nếu bị caught, và brokers có thể đột ngột shut down.",
+      "source": "Vectoral",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "tags": [
+        "business model",
+        "token economics",
+        "cost savings",
+        "gray market"
+      ]
+    },
+    {
+      "headline": "Anthropic Research: Patterns Và Problems Trong Multi-Agent Systems",
+      "why": "Cho curious/technical: Anthropic publish research về thách thức thiết kế multi-agent systems — agents conflict về goals, race conditions, communication overhead. Nếu bạn đang build agentic workflows, đây là must-read để tránh pitfalls phổ biến.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "tags": [
+        "research",
+        "multi-agent",
+        "agentic workflows",
+        "Anthropic"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Wan.video Ra Mắt — Generate 12 Sequential Images Với Consistency Hoàn Hảo",
+      "summary": "Wan.video là AI image generation tool mới cho phép tạo 12 ảnh liên tiếp với stylistic + subject consistency tuyệt đối. Sử dụng box-selection để align creative intent với AI ở pixel level. Tool này hướng đến storyboard artists và pre-production workflows.",
+      "why": "Cho creative: nếu bạn làm storyboarding hoặc animatics, Wan.video giải quyết pain point lớn — giữ consistency qua nhiều frames. So với manual Midjourney/FLUX prompting, tiết kiệm 60-70% thời gian iteration. Worth testing cho pre-viz workflows.",
+      "source": "Wan AI",
+      "url": "https://wan.video/",
+      "tags": [
+        "image generation",
+        "storyboarding",
+        "consistency",
+        "pre-production"
+      ]
+    },
+    {
+      "headline": "Open-Generative-AI Repo — 500+ Models (Flux, Sora, Veo) Không Content Filter",
+      "summary": "Open-source alternative to AI video platforms. Self-hosted, MIT licensed, tích hợp 500+ models bao gồm Flux, Midjourney clones, Kling, Sora, Veo. Không content filters. Anh Matcha build để giải quyết censorship issues của các platforms thương mại.",
+      "why": "Cho creative/technical: nếu bạn bị content policy của Runway/Pika chặn (vd violence for film, artistic nudity), đây là giải pháp self-hosted. Trade-off: phải tự manage infrastructure + model weights (10-100GB/model). Best cho teams có technical capacity.",
+      "source": "GitHub",
+      "url": "https://github.com/anil-matcha/open-generative-ai",
+      "tags": [
+        "open source",
+        "video generation",
+        "self-hosted",
+        "censorship",
+        "creative freedom"
+      ]
+    },
+    {
+      "headline": "LTX-2.5 Open Source — AI Video Generator Cho Researchers/Students",
+      "summary": "LTX-2.5 là transformer model cho video generation, open source miễn phí. Designed for coursework, academic research, benchmarking. Phù hợp cho universities, students, researchers muốn experiment với AI video models mà không cần API keys thương mại.",
+      "why": "Cho curious/education: nếu bạn muốn học cách AI video model hoạt động 'bên trong', LTX-2.5 là starting point tốt — có thể chạy local, xem architecture, fine-tune. Không cần ngân sách, chỉ cần GPU đủ mạnh (RTX 4090+).",
+      "source": "LTX",
+      "url": "https://ltx.io/model/open-source",
+      "tags": [
+        "open source",
+        "video generation",
+        "education",
+        "research",
+        "transformer"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "A16z: Computer-Using Agents Đã Dùng Được Chưa? — Data Từ Thực Tế",
+      "summary": "A16z publish data về khả năng agents tương tác với computer interfaces (dùng browser, click, type). Trước đây phải dùng Selenium/Playwright, giờ execution layer được abstract away. Nhưng reliability vẫn là vấn đề — success rate ~65% cho tasks phức tạp.",
+      "why": "Cho founder/manager: nếu bạn đang cân nhắc deploy AI agents cho internal workflows (vd tự động data entry, browser automation), expectations thực tế là 65% tasks thành công out-of-the-box. 35% còn lại cần human-in-the-loop. Plan accordingly.",
+      "source": "A16z",
+      "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
+      "tags": [
+        "agents",
+        "automation",
+        "browser automation",
+        "reliability",
+        "expectations"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "OpenClaw — Personal AI Assistant Mã Nguồn Mở, Chạy Mọi OS/Platform",
+      "why": "Local-first AI assistant không phụ thuộc cloud, chạy trên Windows/macOS/Linux. Nếu bạn cần privacy hoặc làm offline environments, OpenClaw là alternative cho ChatGPT desktop. Trade-off: performance phụ thuộc hardware local của bạn.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "386K"
+    },
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Alternative open-source cho Zapier + AI. Combine visual building với custom code, 400+ integrations. Nếu bạn muốn build agentic workflows mà không bị lock-in vendor, n8n cho phép self-host hoặc cloud. Popular trong startup tech VN.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "200K"
+    },
+    {
+      "headline": "Dify — Build Agentic Workflows, RAG Pipelines Trên 1 Workspace",
+      "why": "Platform collaborative cho AI teams — build RAG, agents, workflows với rich model support. Deploy cloud/VPC/self-hosted. Dify giúp teams move từ prototype sang production mà không rebuild stack. Phù hợp cho production house cần deploy nội bộ.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "152K"
+    },
+    {
+      "headline": "Open WebUI — User-Friendly AI Interface Hỗ Trợ Ollama, OpenAI API",
+      "why": "Web interface đơn giản cho local AI models (Ollama) hoặc cloud APIs. Nếu team bạn muốn 'ChatGPT-like UI' nhưng tự host, Open WebUI là lựa chọn phổ biến. Cài đặt nhanh, không cần coding.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "148K"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Z.ai GLM 5.2 Free",
+      "event": "new",
+      "summary": "GLM 5.2 từ Z.ai — reasoning model với 1M-token context, support long-horizon agent workflows và project-level software engineering. Miễn phí hoàn toàn.",
+      "why": "Free alternative cho GPT-5.6/Claude cho agentic workflows. Nếu bạn đang prototype agents, test GLM 5.2 free trước khi commit budget.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2:free",
+      "tags": [
+        "new",
+        "free",
+        "reasoning",
+        "agents",
+        "Z.ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.2 Giảm Giá 33% Prompt, 33% Completion",
+      "event": "price",
+      "summary": "Giá giảm từ $0.46 → $0.31/M tokens (prompt), $1.45 → $0.97 (completion).",
+      "why": "Cheaper alternative cho reasoning tasks. Nếu dùng GPT-5.6 chủ yếu cho reasoning, test GLM 5.2 — tiết kiệm ~33% cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "tags": [
+        "price drop",
+        "reasoning",
+        "Z.ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro Tăng Giá 53% Prompt, 127% Completion",
+      "event": "price",
+      "summary": "Giá tăng từ $0.43 → $0.66/M tokens (prompt), $0.87 → $1.98 (completion).",
+      "why": "DeepSeek tăng giá đột ngột sau khi GA release — có thể do demand spike hoặc cost recalculation. Nếu bạn đang dùng DeepSeek V4 Pro cho production, re-evaluate budget.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+      "tags": [
+        "price increase",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Nvidia Nemotron 3.5 Lightning Giảm Giá 20%",
+      "event": "price",
+      "summary": "Giá giảm từ $0.10 → $0.08/M tokens (prompt), $0.25 → $0.20 (completion).",
+      "why": "Nvidia đang price-compete với open-weight models khác. Nếu dùng cho inference nhanh (sub-second latency), Nemotron giờ rẻ hơn 20%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+      "tags": [
+        "price drop",
+        "Nvidia",
+        "inference"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemma 4 26B Giảm Giá 41% Prompt, 15% Completion",
+      "event": "price",
+      "summary": "Giá giảm từ $0.12 → $0.07/M tokens (prompt), $0.40 → $0.34 (completion).",
+      "why": "Google aggressive pricing cho Gemma 4 — cạnh tranh với Qwen/DeepSeek trong phân khúc mid-size open models. Nếu bạn cần model 26B params, Gemma giờ rẻ nhất.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price drop",
+        "Google",
+        "Gemma"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 35B A3B Giảm Giá Nhẹ 6% Prompt",
+      "event": "price",
+      "summary": "Giá giảm từ $0.15 → $0.14/M tokens (prompt), completion giữ nguyên $1.00.",
+      "why": "Minor adjustment — không impact lớn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
+      "tags": [
+        "price drop",
+        "Qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest Giảm Giá 14% Prompt, 14% Completion",
+      "event": "price",
+      "summary": "Giá giảm từ $0.07 → $0.06/M tokens (prompt), $0.14 → $0.12 (completion).",
+      "why": "DeepSeek Flash (fast variant) giảm giá để compete với GPT-4o mini/Gemini Flash. Nếu bạn cần sub-second latency với cost thấp, test Flash variant.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "price drop",
+        "DeepSeek",
+        "flash"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0423 Giảm Giá 7% Completion",
+      "event": "price",
+      "summary": "Giá giảm completion từ $0.13 → $0.12/M tokens, prompt giữ $0.06.",
+      "why": "Minor adjustment — không impact lớn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "tags": [
+        "price drop",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3 30B A3B Tăng Giá Nhẹ 8% Prompt, 4% Completion",
+      "event": "price",
+      "summary": "Giá tăng từ $0.12 → $0.13/M tokens (prompt), $0.50 → $0.52 (completion).",
+      "why": "Minor adjustment — có thể do cost recalculation.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b",
+      "tags": [
+        "price increase",
+        "Qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 27B Giảm Giá 51% Prompt, 33% Completion",
+      "event": "price",
+      "summary": "Giá giảm từ $0.60 → $0.29/M tokens (prompt), $3.60 → $2.40 (completion).",
+      "why": "Qwen aggressive price drop 51% prompt — có thể do overprice trước đó. Nếu cần model 27B Qwen, giờ là lúc tốt để switch.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+      "tags": [
+        "price drop",
+        "Qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen2.5 VL 72B Instruct Tăng Giá 220% Prompt, 33% Completion",
+      "event": "price",
+      "summary": "Giá tăng từ $0.25 → $0.80/M tokens (prompt), $0.75 → $1.00 (completion).",
+      "why": "Qwen VL (vision-language) tăng giá đột ngột — có thể do compute cost cao hơn dự tính hoặc demand spike. Nếu dùng multimodal Qwen, chuẩn bị budget tăng 220%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+      "tags": [
+        "price increase",
+        "Qwen",
+        "vision-language",
+        "multimodal"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 152,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 43,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 11
+  }
+}
