@@ -1,292 +1,352 @@
 {
-  "date": "2026-08-20",
-  "updated_at": "2026-08-20T06:13:37.102906+07:00",
-  "weekday": "Thursday",
+  "date": "2026-08-21",
+  "updated_at": "2026-08-21T06:16:17.139713+07:00",
+  "weekday": "Friday",
   "top_story": {
-    "headline": "MicroGPT-C Đạt 10 Triệu Tokens/Giây Trên Apple M5 — Hiệu Suất Inference Đột Phá",
-    "summary": "Implementation GPT bằng pure C đạt 10M tokens per second trên chip Apple M5, cho thấy bottleneck không phải model architecture mà là framework overhead. Đây là benchmark đáng chú ý về khả năng tối ưu inference khi loại bỏ PyTorch/abstraction layers.",
-    "why": "Cho creative/producer: nếu bạn đang chạy local inference (Ollama, LM Studio), việc chuyển sang C-based engine có thể tăng tốc 5-10x. Cho manager: đây là tín hiệu rằng đầu tư vào low-level optimization đáng giá hơn mua thêm GPU.",
-    "source": "Hacker News",
-    "url": "https://github.com/vixhal-baraiya/microgpt-c",
+    "headline": "Databricks Raise Thêm $5B Lần 2 Trong 8 Tháng — Tín Hiệu Bong Bóng AI Infrastructure?",
+    "summary": "Databricks vừa công bố vòng funding $5B, đúng 8 tháng sau vòng $5B trước đó. Đây là một trong 10 deal lớn nhất tuần, cùng Sierra AI ($950M Series E) và MiiHealth AI ($2.8M seed). Tổng cộng 40 AI startups raise $10B chỉ trong tuần 11-17/8.",
+    "why": "Cho founder/đầu tư: Databricks raise 2 lần $5B trong <1 năm là outlier — hoặc market đang đánh giá cao AI infrastructure, hoặc đây là tín hiệu pre-correction như WeWork 2019. Nếu bạn đang raise, hỏi ngay: 'burn rate này bền vững 18 tháng không nếu market đóng băng?' Với manager: nếu công ty bạn dùng Databricks, expect price hike khi họ cần justify valuation.",
+    "source": "Crunchbase News",
+    "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
     "tags": [
-      "inference",
-      "optimization",
-      "apple",
-      "performance"
+      "funding",
+      "infrastructure",
+      "bubble-risk",
+      "business"
     ]
   },
   "quick_hits": [
     {
-      "headline": "OpenAI Phát Hành Quy Trình 'Pacing Model Development' Cho Cybersecurity",
-      "why": "Cho manager: OpenAI đang áp self-regulation về model có khả năng tấn công mạng — tín hiệu các frontier lab sẽ delay release model nguy hiểm. Nếu bạn phụ thuộc vào pace nhanh của GPT, cần plan cho scenario phát hành chậm hơn.",
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "headline": "125M-Parameter Piano Autocomplete Model Chạy On-Device — Proof Of Concept Cho Edge AI Music",
+      "why": "Cho creative: model nhỏ 125M params vẫn autocomplete piano được cho thấy edge AI music generation khả thi. Nếu bạn làm music production, track xu hướng này — DAW tương lai có thể chạy AI local không cần cloud.",
+      "source": "Hacker News",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
       "tags": [
-        "cybersecurity",
+        "edge-ai",
+        "music",
+        "on-device"
+      ]
+    },
+    {
+      "headline": "'Vomit' — Tool Cleanup Output Của Claude 5 Bằng LLM Riêng",
+      "why": "Cho cá nhân dùng Claude: nếu bạn thấy output Claude 5 verbose/rối, tool này dùng LLM thứ 2 để 'dọn dẹp'. Nhưng đây cũng là signal Claude 5 chưa tối ưu — OpenAI/Anthropic nên fix ở model gốc thay vì user phải dùng workaround.",
+      "source": "GitHub (Hacker News)",
+      "url": "https://github.com/zachahn/vomit",
+      "tags": [
+        "tools",
+        "claude",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "OpenAI Chatbot Mode Giới Hạn Conversation Cho Trẻ Em — Phản Ứng Sau Regulatory Pressure",
+      "why": "Cho manager: nếu product bạn có AI chatbot và user <18, chuẩn bị compliance tương tự. Đây là precedent — expect regulation lan rộng EU/US về 'duty of care' với trẻ vị thành niên.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
         "regulation",
-        "openai",
-        "policy"
+        "safety",
+        "chatbot"
       ]
     },
     {
-      "headline": "Warp Ra Mắt — Platform Tự Động Hóa Development Với Coding Agents",
-      "why": "Cho manager: Warp định vị là 'software factory' — orchestrate coding agents qua SDLC, humans ở checkpoints. Nếu team bạn đang thử agent-based dev (Cursor, Copilot Workspace), Warp là competitor đáng xem với approach factory-style.",
-      "source": "Warp",
-      "url": "https://www.warp.dev/",
+      "headline": "Meta Ra Muse Spark 1.2 — Zuckerberg Tiếp Tục Đẩy Mạnh Open-Weight AI",
+      "why": "Cho curious: Meta liên tục release open-weight models (Muse Spark 1.2 sau Muse Glimmer 30B tuần trước) để counter OpenAI/Anthropic. Nếu bạn học AI, ưu tiên Meta models — free, fine-tune được, community lớn.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/meta-launches-new-ai-model-zuckerberg-champions-open-weight-push-2026-08-10/",
       "tags": [
-        "devtools",
+        "open-weight",
+        "meta",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Epic (EHR) Ra AI Tool Cho Outpatient Visits — Phân Tích Patient Record Realtime",
+      "why": "Cho manager trong healthcare: Epic đang tích hợp AI vào EHR workflow — expect vendor lock-in tăng. Nếu bạn dùng Epic, đàm phán data portability ngay trước khi AI trở thành 'must-have' và họ tăng giá.",
+      "source": "Healthcare Dive",
+      "url": "https://www.healthcaredive.com/news/epic-targets-outpatient-visits-with-new-ai-tool/828230/",
+      "tags": [
+        "healthcare",
+        "enterprise",
+        "vendor-lock"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Kiro: From AI Coding → Agentic Engineering — IDE, CLI, Web, Mobile Cùng Một Stack",
+      "summary": "Kiro không chỉ là AI code assistant mà là agentic engineering platform: IDE, CLI, web interface, mobile app cùng lúc. Demo với game 'Spirit of Kiro' cho thấy agent tự quản lý codebase end-to-end.",
+      "why": "Cho creative/dev: nếu bạn đang dùng Cursor/GitHub Copilot, Kiro là bước tiếp theo — agent tự code, test, deploy mà không cần human-in-the-loop mỗi bước. Nhưng risk: khi agent tự quyết định quá nhiều, technical debt tích lũy vô hình. Chỉ dùng cho prototype/MVP, chưa nên tin cho production critical.",
+      "source": "Kiro",
+      "url": "https://kiro.dev/",
+      "tags": [
+        "coding",
         "agents",
-        "automation",
-        "sdlc"
+        "workflow"
       ]
     },
     {
-      "headline": "Creen AI Ra Mắt — Free AI Generator Không Cần Login, 40+ Models",
-      "why": "Cho creative: Creen tổng hợp Sora 2, Veo 3.1, Nano Banana Pro trong 1 UI miễn phí. Nếu bạn đang trả $20-50/tháng cho Runway/Luma riêng lẻ, đây là alternative zero-cost để test workflow trước khi commit subscription.",
-      "source": "Creen AI",
-      "url": "https://www.creen.ai/",
+      "headline": "LTX-2.5: Cinema-Grade Video Model Mở — Giữ Character Continuity Qua Nhiều Shot",
+      "summary": "LTX-2.5 render chi tiết cinema-grade, giữ character và continuity qua connected shots, reconstruct face sắc nét + text đọc được. Pretrained checkpoint cho deep fine-tuning. Built cho creative production + real-time experiences.",
+      "why": "Cho creative: đây là model video mở đầu tiên giải quyết được 'continuity problem' — nhân vật không thay đổi giữa các shot. Nếu bạn làm video AI, test LTX-2.5 ngay — có thể thay Runway/Pika cho workflow cần control cao. Nhưng 'cinema-grade' là marketing claim — verify bằng test thực tế trước khi commit production.",
+      "source": "LTX",
+      "url": "https://ltx.io/model",
       "tags": [
         "video",
-        "tools",
-        "free",
-        "creative"
-      ]
-    },
-    {
-      "headline": "PixRoute Ra Multi-Model AI Video Studio — 8 Model Tiers, Control First/Last Frame",
-      "why": "Cho creative: PixRoute cho phép control first + last frame — breakthrough cho continuity editing. Nếu bạn đang ghép nhiều clip AI video và gặp vấn đề transition, tool này giải quyết pain point lớn nhất của AI video hiện tại.",
-      "source": "OpenPR",
-      "url": "https://www.openpr.com/news/4607422/pixroute-launches-multi-model-ai-video-studio-with-first",
-      "tags": [
-        "video",
-        "tools",
-        "creative",
+        "open-source",
         "continuity"
       ]
     },
     {
-      "headline": "Databricks Raise Thêm $5B — 8 Tháng Sau Round $5B Trước",
-      "why": "Cho business/founder: Databricks raise back-to-back $5B rounds cho thấy AI infrastructure vẫn hút capital mạnh bất chấp slowdown VC 2026. Nếu bạn trong infra/data space, đây là tín hiệu investor appetite vẫn cao cho proven players.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+      "headline": "PixRoute: Multi-Model AI Video Studio — 8 Model Tiers, Control First/Last Frame",
+      "summary": "PixRoute ra mắt 19/8/2026 — chạy nhiều video + image models trong browser trên 1 credit balance. Feature nổi bật: control first/last frame, 8 model tiers khác nhau.",
+      "why": "Cho creative: PixRoute là Higgsfield competitor (đã cover 18/8) — cùng concept 'multi-model workspace'. Nếu bạn đang so sánh models (Sora vs Veo vs Kling), dùng platform này tiết kiệm thời gian hơn subscribe từng tool riêng. Nhưng risk: tất cả eggs in one basket — nếu PixRoute đổi giá/policy, toàn bộ workflow bạn bị ảnh hưởng.",
+      "source": "OpenPR",
+      "url": "https://www.openpr.com/news/4607422/pixroute-launches-multi-model-ai-video-studio-with-first",
       "tags": [
-        "funding",
-        "databricks",
-        "infrastructure",
-        "business"
+        "video",
+        "multi-model",
+        "production"
+      ]
+    },
+    {
+      "headline": "Creen AI: Free Unlimited AI Generator — 40+ Models Không Cần Login",
+      "summary": "Creen AI là free + unlimited generator cho video, image, art. 40+ models bao gồm Sora 2, VEO 3.1, Nano Banana Pro. Không sign up, không login.",
+      "why": "Cho curious/individual: nếu bạn muốn thử AI generation nhưng ngại setup account/pay, Creen là điểm bắt đầu tốt. Nhưng 'free unlimited' thường có catch — expect watermark, lower quality, hoặc data được dùng để train model. Đọc ToS trước khi upload content nhạy cảm.",
+      "source": "Creen",
+      "url": "https://www.creen.ai/",
+      "tags": [
+        "free",
+        "video",
+        "image"
       ]
     }
   ],
-  "production": [],
-  "vietnam": [],
+  "vietnam": [
+    {
+      "headline": "Top 15 Công Ty AI Việt Nam 2026 — Zalo AI (VNG) Phục Vụ Hàng Chục Triệu User",
+      "why": "Cho curious/manager VN: nếu bạn tìm đối tác AI local, Zalo AI là lựa chọn cho NLP/ASR tiếng Việt (đã tối ưu cho hàng chục triệu user Zalo). Nhưng vendor lock-in với VNG ecosystem — cân nhắc multi-vendor strategy nếu scale ra ngoài VN.",
+      "source": "Saigon Technology",
+      "url": "https://saigontechnology.com.vn/blog/cong-ty-ai/"
+    }
+  ],
   "research": [],
   "business": [
     {
-      "headline": "Sierra AI (Bret Taylor) Raise $950M Series E Tháng 5/2026 — Định Giá Chưa Tiết Lộ",
-      "summary": "Sierra AI — enterprise AI startup của Bret Taylor (cựu co-CEO Salesforce) và Clay Bavor (cựu Google) — công bố Series E $950M vào 5/5/2026. Định giá chưa công bố nhưng nguồn tin cho biết >$10B post-money.",
-      "why": "Cho founder: Sierra là case study về 'founder brand premium' — Bret Taylor raise được gần $1B chỉ 18 tháng sau start vì trust từ track record. Nếu bạn first-time founder, gap này là lý do vì sao partnership với advisor/co-founder có pedigree quan trọng.",
+      "headline": "Sierra AI (Bret Taylor) Raise $950M Series E — Định Giá Chưa Công Bố",
+      "summary": "Sierra AI, startup enterprise AI của Bret Taylor (ex-Salesforce co-CEO) và Clay Bavor, công bố Series E $950M ngày 4/5/2026. Định giá chưa tiết lộ.",
+      "why": "Cho founder/đầu tư: Bret Taylor track record (Salesforce, ex-Twitter chairman) + $950M round là signal investors đang bet vào 'AI for enterprise workflows'. Nhưng 3 quarters sau raise mà vẫn chưa công bố valuation — hoặc down round, hoặc flat. Nếu bạn raise enterprise AI, expect harder due diligence hơn consumer AI.",
       "source": "SF Bay Area Times",
       "url": "https://www.sfbayareatimes.com/articles/sierra-ai-startup-funding-san-francisco-2026",
       "tags": [
         "funding",
         "enterprise",
-        "sierra",
-        "bret-taylor"
+        "signal"
       ]
     },
     {
-      "headline": "Anthropic Đàm Phán Mua Decart $6B — Từ $300M Valuation Tháng 5",
-      "summary": "Anthropic đang đàm phán mua Decart (AI video real-time gaming startup Israel) với giá $6B, chỉ 3 tháng sau khi Decart raise Series A $300M. Decart có tech render AI video real-time trên game engine.",
-      "why": "Cho founder: valuation x20 trong 3 tháng là outlier case — nhưng pattern rõ: frontier labs đang acqui-hire talent + tech thay vì build in-house. Nếu startup bạn có tech độc quyền trong vertical AI hot (video, agents, infra), exit window đang mở.",
-      "source": "Calcalistech",
-      "url": "https://www.calcalistech.com/ctechnews/article/mrrffazk1",
+      "headline": "MiiHealth AI Raise $2.8M Seed — AI Patient Intake Assistant Mở Rộng Thị Trường",
+      "summary": "MiiHealth AI (Phoenix) raise $2.8M seed để expand AI-powered patient intake assistant. Round sẽ support product dev và market expansion.",
+      "why": "Cho founder healthcare: patient intake là pain point lớn (admin overhead, data entry sai). MiiHealth đang solve niche này — nếu bạn làm healthtech, xem case study họ để hiểu tại sao investors bet vào 'boring but critical' workflows hơn là flashy diagnostic AI.",
+      "source": "AI Market Watch",
+      "url": "https://www.ai-market-watch.com/news/category/funding",
+      "tags": [
+        "funding",
+        "healthcare",
+        "niche"
+      ]
+    },
+    {
+      "headline": "40 AI Startups Raise $10B Trong Tuần 11-17/8 — Funding Vẫn Nóng Bất Chấp Macro",
+      "summary": "Tuần 11-17/8: 40 AI startups raise tổng $10B. Stage mix đa dạng, sectors từ infrastructure đến vertical SaaS.",
+      "why": "Cho founder đang raise: market vẫn nóng nhưng concentrated ở top deals (Databricks $5B chiếm 50% tuần này). Nếu bạn không phải top-tier, expect harder grind — 39 deals còn lại chia $5B, median deal size giảm. Prepare for longer fundraise timeline + nhiều rejection hơn 2025.",
+      "source": "StartupHub.ai",
+      "url": "https://www.startuphub.ai/ai-news/funding-round/2026/ai-funding-roundup-10b-across-40-rounds-aug-11-to-aug-17",
+      "tags": [
+        "funding",
+        "market-signal",
+        "concentration"
+      ]
+    },
+    {
+      "headline": "ADP Mua Paradox AI $1.5B, Empower Mua Guideline $1.2B — M&A Trong HR/Finance AI Tăng Tốc",
+      "summary": "Hurun Report ghi nhận 2 M&A lớn: ADP acquire Paradox AI (HR AI) $1.5B, Empower Retirement mua Guideline (fintech AI) $1.2B. Message cho founders: 'build something that threatens a giant'.",
+      "why": "Cho founder: acquisition là exit strategy khả thi hơn IPO trong market 2026. Nếu bạn build vertical AI (HR, finance, legal), aim to threaten incumbent lớn — họ sẽ buy để kill hoặc integrate. Nhưng đừng build 'to be acquired' — ADP/Empower chỉ mua khi bạn đủ lớn để đe dọa thật.",
+      "source": "Hurun Report",
+      "url": "https://www.hurun.net/en-us/info/detail?num=N5C7D1KGTE8G",
       "tags": [
         "m&a",
-        "anthropic",
-        "decart",
-        "valuation"
+        "exit",
+        "vertical-ai"
       ]
     }
   ],
   "society": [],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — Personal AI Assistant Chạy Mọi OS, 386K Stars",
-      "why": "Cho cá nhân: openclaw là AI assistant self-hosted, không phụ thuộc cloud provider. Nếu bạn lo privacy hoặc muốn chạy offline, đây là alternative mạnh cho ChatGPT desktop/mobile.",
+      "headline": "OpenClaw: Personal AI Assistant Cross-Platform — 'The Lobster Way' 🦞",
+      "why": "Cho individual: nếu bạn muốn AI assistant chạy local, cross-platform (Any OS, Any Platform), OpenClaw là option mới. 386K stars trong vài ngày signal community hype cao — nhưng check maturity trước khi dùng production (repo mới, docs có thể chưa đầy đủ).",
       "source": "GitHub Trending",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "386806"
+      "stars": "386910"
     },
     {
-      "headline": "n8n-io/n8n — Workflow Automation + Native AI, 201K Stars",
-      "why": "Cho manager: n8n là Zapier self-hosted + native AI capabilities. Nếu team bạn đang trả $500+/tháng cho automation tools, n8n giảm cost về ~$0 (chỉ infra) với flexibility cao hơn.",
+      "headline": "n8n: Workflow Automation Platform Với Native AI — 200K+ Stars",
+      "why": "Cho manager/individual: n8n là open-source alternative cho Zapier/Make nhưng có native AI capabilities. Self-host hoặc cloud, 400+ integrations. Nếu bạn cần automation + AI mà không muốn vendor lock-in, đây là lựa chọn top.",
       "source": "GitHub Trending",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "201217"
+      "stars": "201372"
     },
     {
-      "headline": "firecrawl/firecrawl — Context API Scrape Web At Scale, 169K Stars",
-      "why": "Cho creative/manager: firecrawl giúp scrape + structure web data cho RAG pipelines. Nếu bạn đang build AI tool cần real-time web context (competitor analysis, trend monitoring), đây là infra layer cần thiết.",
+      "headline": "Firecrawl: Context API To Search, Scrape, And Interact With Web At Scale 🔥",
+      "why": "Cho dev: nếu bạn cần scrape web để feed AI (RAG, training data), Firecrawl là tool được community trust (170K stars). Built for scale, có API context-aware — tốt hơn traditional scrapers khi làm việc với dynamic sites.",
       "source": "GitHub Trending",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "169628"
+      "stars": "170084"
     },
     {
-      "headline": "langgenius/dify — Agentic Workflows + RAG, 152K Stars",
-      "why": "Cho manager: Dify là platform build agentic workflows + RAG với 1-click deploy. Nếu team bạn đang prototype AI agents mà gặp bottleneck infra, Dify giúp đi từ prototype → production không rebuild stack.",
+      "headline": "Dify: Build Agentic Workflows, RAG Pipelines — 153K Stars, Deploy Anywhere",
+      "why": "Cho dev/manager: Dify là platform xây agentic workflows + RAG pipelines với rich AI model support. Deploy cloud/VPC/self-hosted — flexibility cao. Nếu team bạn đang build internal AI tools, Dify giúp từ prototype → production không cần rebuild stack.",
       "source": "GitHub Trending",
       "url": "https://github.com/langgenius/dify",
-      "stars": "152921"
+      "stars": "153049"
     },
     {
-      "headline": "open-webui/open-webui — User-Friendly AI Interface, 149K Stars",
-      "why": "Cho cá nhân: open-webui là UI self-hosted cho Ollama/OpenAI API. Nếu bạn chạy local models nhưng không thích terminal, đây là ChatGPT-like UI chạy trên máy bạn.",
+      "headline": "Open WebUI: User-Friendly AI Interface Cho Ollama, OpenAI API — 149K Stars",
+      "why": "Cho individual: nếu bạn dùng Ollama local hoặc OpenAI API nhưng thấy CLI/code khó, Open WebUI là GUI đẹp, dễ dùng. 149K stars signal đây là go-to interface cho self-hosted AI.",
       "source": "GitHub Trending",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "149270"
+      "stars": "149388"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Z.ai: GLM Latest — $1.40/$4.40 Per M Tokens",
+      "headline": "[OpenRouter NEW] Mistral: Ministral 8B — Edge Model Với 128K Context",
       "event": "new",
-      "summary": "Z.ai thêm endpoint 'GLM Latest' redirect về model GLM mới nhất — tương tự 'gpt-4-turbo' của OpenAI.",
-      "why": "Tiện cho developers không muốn hardcode version — luôn dùng latest model Z.ai.",
+      "summary": "Ministral 8B: 8B params, interleaved sliding-window attention, 128K context. Designed cho edge use cases, fast + memory-efficient.",
+      "why": "Nếu bạn cần model chạy edge/on-device với context dài, Ministral 8B là option mới từ Mistral.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~z-ai/glm-latest",
+      "url": "https://openrouter.ai/models/mistralai/ministral-8b",
       "tags": [
-        "openrouter",
-        "z-ai",
-        "glm"
+        "edge",
+        "context",
+        "mistral"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] AI21: Jamba Large 1.7 Removed",
-      "event": "deprecated",
-      "summary": "Model AI21 Jamba Large 1.7 không còn trên OpenRouter.",
-      "why": "Migrate workflows dùng Jamba Large sang alternative (Qwen hoặc DeepSeek) trước khi code break.",
+      "headline": "[OpenRouter NEW] Ox Alpha — Reasoning Model Cho Coding & Agentic Work (FREE)",
+      "event": "new",
+      "summary": "Ox Alpha: reasoning model cho coding, sustained agentic work, production workloads. Suited cho long-horizon software engineering + complex reasoning. $0.00/$0.00 per M tok.",
+      "why": "FREE reasoning model cho coding — nếu bạn đang dùng GPT-5 Sol/Claude trả phí, test Ox Alpha trước để xem có đủ tốt không.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/ai21/jamba-large-1.7",
+      "url": "https://openrouter.ai/models/stealth/ox-alpha",
       "tags": [
-        "openrouter",
-        "ai21",
-        "deprecated"
+        "reasoning",
+        "coding",
+        "free"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Mancer: Weaver (alpha) Removed",
-      "event": "deprecated",
-      "summary": "Model Mancer Weaver alpha không còn trên OpenRouter.",
-      "why": "Nếu bạn đang test Weaver, cần chuyển sang model khác ngay.",
+      "headline": "[OpenRouter NEW] Tencent: Hy-MT2-1.8B — Translation Model 33 Language Pairs",
+      "event": "new",
+      "summary": "Hy-MT2-1.8B: compact 1.8B translation model từ Tencent. 33 language pairs + 5 Chinese dialect/minority-language pairs. $0.04/$0.18 per M tok.",
+      "why": "Nếu bạn cần translation tiếng Trung/dialect nhỏ, model Tencent này rẻ hơn Google Translate API.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/mancer/weaver",
+      "url": "https://openrouter.ai/models/tencent/hy-mt2-1.8b",
       "tags": [
-        "openrouter",
-        "mancer",
-        "deprecated"
+        "translation",
+        "tencent",
+        "multilingual"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 27B — Giá Tăng Prompt, Giảm Completion",
+      "headline": "[OpenRouter NEW] Tencent: Hy-MT2-30B-A3B — Flagship Translation Model",
+      "event": "new",
+      "summary": "Hy-MT2-30B-A3B: flagship translation model từ Tencent. 33 language pairs + 5 Chinese dialect/minority. $0.07/$0.29 per M tok.",
+      "why": "Version lớn hơn của Hy-MT2-1.8B — dùng khi cần quality cao hơn, chấp nhận giá cao gấp đôi.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy-mt2-30b-a3b",
+      "tags": [
+        "translation",
+        "tencent",
+        "flagship"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 27B — TĂNG GIÁ +100% Prompt, +80% Completion",
       "event": "price",
-      "summary": "Qwen3.6 27B: prompt $0.29→$0.30, completion $2.40→$2.00 per M tokens.",
-      "why": "Completion rẻ hơn 17% — tốt nếu workload bạn gen text dài (content creation, code gen).",
+      "summary": "Qwen3.6 27B: prompt $0.30 → $0.60 (+100%), completion $2.00 → $3.60 (+80%).",
+      "why": "Qwen đang tăng giá mạnh — nếu bạn đang dùng model này cho production, migrate sang alternative (DeepSeek, Llama) trước khi cost explode.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
       "tags": [
-        "openrouter",
+        "price-hike",
         "qwen",
-        "price"
+        "alert"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Qwen: Qwen3.5-35B-A3B — Completion Giảm 31%",
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 31B — GIẢM GIÁ Nhẹ Prompt",
       "event": "price",
-      "summary": "Qwen3.5-35B-A3B: prompt $0.22→$0.25, completion $1.80→$1.25 per M tokens.",
-      "why": "Completion giảm mạnh — nếu bạn đang dùng DeepSeek cho cost, Qwen bây giờ cạnh tranh được.",
+      "summary": "Gemma 4 31B: prompt $0.10 → $0.09 (-10%), completion giữ nguyên $0.34.",
+      "why": "Google giảm giá prompt Gemma 4 — tín hiệu cạnh tranh với Meta open-weight models. Nếu bạn cần model mở 30B tier, so sánh Gemma vs Llama.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b",
+      "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
       "tags": [
-        "openrouter",
-        "qwen",
-        "price"
+        "price-drop",
+        "google",
+        "gemma"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro — Giá Tăng Gấp Đôi",
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro 0813 — TĂNG GIÁ +80% Prompt, +80% Completion",
       "event": "price",
-      "summary": "DeepSeek V4 Pro: prompt $0.66→$1.44, completion $1.98→$2.88 per M tokens.",
-      "why": "Giá tăng 118% — nếu bạn đang scale DeepSeek V4 Pro, cần budget lại hoặc migrate về V3 / Qwen alternatives.",
+      "summary": "DeepSeek V4 Pro 0813: prompt $0.66 → $1.19 (+80%), completion $1.98 → $3.56 (+80%).",
+      "why": "DeepSeek tăng giá mạnh — nếu bạn dùng V4 Pro, xem xét downgrade sang V4 Flash (rẻ hơn) hoặc switch sang Qwen/Llama.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
       "tags": [
-        "openrouter",
+        "price-hike",
         "deepseek",
-        "price"
+        "alert"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.2 — Giảm 18% Prompt, 19% Completion",
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest — GIỮ NGUYÊN GIÁ $0.07/$0.14",
       "event": "price",
-      "summary": "Z.ai GLM 5.2: prompt $1.19→$0.97, completion $3.74→$3.04 per M tokens.",
-      "why": "Giảm giá đáng kể — GLM 5.2 bây giờ cheaper alternative cho Claude 3.5 Sonnet ở mid-tier tasks.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-5.2",
-      "tags": [
-        "openrouter",
-        "z-ai",
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V3 0324 — Giảm Nhẹ",
-      "event": "price",
-      "summary": "DeepSeek V3 0324: prompt $0.27→$0.25, completion $1.12→$1.00 per M tokens.",
-      "why": "V3 vẫn rẻ nhất trong tier reasoning — nếu V4 Pro tăng giá quá cao, fallback về V3 vẫn ổn.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
-      "tags": [
-        "openrouter",
-        "deepseek",
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K2.5 — Giảm 21% Prompt, 21% Completion",
-      "event": "price",
-      "summary": "Kimi K2.5: prompt $0.57→$0.45, completion $2.85→$2.25 per M tokens.",
-      "why": "Kimi K2.5 giờ rẻ hơn — nếu bạn cần long context (200K+), đây là alternative tốt cho Gemini 2.0 Flash.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
-      "tags": [
-        "openrouter",
-        "kimi",
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest — Giảm Nhẹ",
-      "event": "price",
-      "summary": "DeepSeek V4 Flash: prompt $0.08→$0.07, completion $0.15→$0.14 per M tokens.",
-      "why": "Flash model rẻ nhất tier — nếu workload không cần reasoning sâu, V4 Flash là best cost/performance.",
+      "summary": "DeepSeek V4 Flash Latest: giữ nguyên $0.07 prompt, $0.14 completion.",
+      "why": "V4 Flash giữ giá stable trong khi V4 Pro tăng mạnh — migrate sang Flash nếu use case không cần reasoning cực sâu.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
       "tags": [
-        "openrouter",
+        "price-stable",
         "deepseek",
-        "price"
+        "flash"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro 0423 — TĂNG GIÁ +11% Prompt, +11% Completion",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro 0423: prompt $1.44 → $1.60 (+11%), completion $2.88 → $3.20 (+11%).",
+      "why": "Version cũ hơn (0423) cũng tăng giá — DeepSeek đang điều chỉnh pricing strategy toàn bộ V4 Pro line.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "tags": [
+        "price-hike",
+        "deepseek",
+        "legacy"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 182,
+    "raw": 173,
     "brave": 50,
     "reddit": 0,
-    "hackernews": 9,
-    "rss": 53,
-    "huggingface": 6,
+    "hackernews": 3,
+    "rss": 52,
+    "huggingface": 7,
     "github": 10,
-    "openrouter": 12
+    "openrouter": 9
   }
 }
