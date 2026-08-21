@@ -1,0 +1,411 @@
+{
+  "date": "2026-08-22",
+  "updated_at": "2026-08-22T06:13:56.659532+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "DeepSeek V4 Flash Vision Exp Ra Mắt — Model Đa Phương Thức Giá Rẻ Thách Thức Anthropic/Google",
+    "summary": "DeepSeek vừa phát hành DeepSeek V4 Flash Vision Exp, phiên bản thí nghiệm tích hợp khả năng hiểu ảnh vào model text gốc, chỉ $0.22/$0.66 per M token — rẻ hơn Claude 3.5 Sonnet ($3/$15) gấp 13-23 lần. Đây là bước tiến quan trọng của mô hình Trung Quốc trong cuộc đua đa phương thức giá rẻ, sau khi Reuters báo cáo model Trung Quốc đang đuổi kịp Anthropic/OpenAI trên sân nhà (đã cover 2026-08-18).",
+    "why": "Cho manager: nếu team đang dùng Claude cho vision tasks, đây là thời điểm test DeepSeek làm backup — tiết kiệm 90% chi phí mà vẫn giữ chất lượng gần tương đương. Cho cá nhân: học cách prompt đa phương thức (text+image) giờ là skill cần thiết khi các model này đang trở thành commodity.",
+    "source": "OpenRouter Catalog",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+    "tags": [
+      "multimodal",
+      "vision",
+      "pricing",
+      "deepseek",
+      "china-ai"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "ChatGPT For Teens Ra Mắt — Chế Độ Chat Giới Hạn Cho Trẻ Em Sau Áp Lực Quản Lý",
+      "why": "Cho manager có con nhỏ: OpenAI giờ có built-in parental controls và conversation limits. Đây là phản ứng sau regulatory pressure về an toàn trẻ em online — nếu công ty bạn làm edtech, expect tương tự.",
+      "source": "OpenAI Release Notes",
+      "url": "https://releasebot.io/updates/openai",
+      "tags": [
+        "safety",
+        "regulation",
+        "education"
+      ]
+    },
+    {
+      "headline": "GPT-5.3-Codex Ra Mắt — Model Agent Coding Đầu Tiên Kết Hợp Codex + GPT-5",
+      "why": "Cho creative: nếu bạn đang dùng Cursor/GitHub Copilot, đây là model mới nhất có khả năng generate + reasoning + tool use trong cùng một pipeline. Expect workflow automation tăng mạnh.",
+      "source": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "tags": [
+        "coding",
+        "agents",
+        "gpt-5"
+      ]
+    },
+    {
+      "headline": "Epic Ra AI Tool Cho Outpatient Visits — Phân Tích Patient Record Realtime",
+      "why": "Cho curious: Epic (hệ thống hồ sơ bệnh nhân lớn nhất Mỹ) giờ dùng AI tìm pattern qua nhiều visit — proof rằng AI đang vào y tế thực tế, không chỉ nghiên cứu. Nếu bạn làm healthcare VN, học cách họ deploy.",
+      "source": "Healthcare Dive",
+      "url": "https://www.healthcaredive.com/news/epic-targets-outpatient-visits-with-new-ai-tool/828230/",
+      "tags": [
+        "healthcare",
+        "enterprise",
+        "deployment"
+      ]
+    },
+    {
+      "headline": "Ramp Ra Router — AI Model Router Cho Doanh Nghiệp, Cạnh Tranh OpenRouter/Unify",
+      "why": "Cho manager: nếu công ty đang dùng nhiều LLM, routing service giúp tự động chọn model phù hợp + rẻ nhất cho từng task. Ramp (fintech $8B valuation) vào chơi nghĩa là enterprise AI infrastructure đang nóng.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "tags": [
+        "infrastructure",
+        "enterprise",
+        "routing"
+      ]
+    },
+    {
+      "headline": "'I'm Becoming AI-Blind' — Người Dùng Bắt Đầu Bỏ Qua AI Content Do Quá Nhiều",
+      "why": "Cho cá nhân: nếu bạn đang tạo content bằng AI, đây là warning — audience đang học cách nhận diện và ignore AI writing. Đầu tư vào voice độc đáng, không chỉ scale production.",
+      "source": "Cymerys",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "tags": [
+        "content",
+        "user-behavior",
+        "authenticity"
+      ]
+    },
+    {
+      "headline": "AI Homework Help Tăng Điểm Bài Tập Nhưng Giảm Điểm Thi — Nghiên Cứu The Economist",
+      "why": "Cho manager/giáo dục: nếu team bạn đang dùng AI để học nhanh, nhớ rằng test performance thực tế có thể drop. Học bằng AI ≠ hiểu sâu. Cân bằng giữa speed và mastery.",
+      "source": "The Economist",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "tags": [
+        "education",
+        "learning",
+        "long-term-impact"
+      ]
+    },
+    {
+      "headline": "GLM 4.7 Có Mặt Trên Google Vertex AI — Model Coding/Reasoning Từ Trung Quốc",
+      "why": "Cho curious: GLM (Tsinghua) giờ chạy trên Google Cloud — dấu hiệu Google đang mở cửa cho model ngoài Gemini. Nếu bạn đang test model, GLM 4.7 là lựa chọn mới cho tool use + reasoning.",
+      "source": "Google Cloud Docs",
+      "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+      "tags": [
+        "china-ai",
+        "coding",
+        "google-cloud"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "PixRoute Ra Mắt Multi-Model AI Video Studio — 8 Tiers Model, Control First/Last Frame",
+      "summary": "PixRoute (launch 19/8/2026) cho phép dùng nhiều model video AI (Sora, Kling, Veo...) trong cùng workspace, kiểm soát frame đầu/cuối để giữ continuity. Credit balance chung cho tất cả model.",
+      "why": "Cho creative: thay vì subscribe riêng từng platform (Runway, Pika, Kling), giờ có thể test/compare nhiều model cùng lúc. Tiết kiệm thời gian handoff giữa các tool, nhưng cẩn thận về vendor lock-in.",
+      "source": "OpenPR",
+      "url": "https://www.openpr.com/news/4607422/pixroute-launches-multi-model-ai-video-studio-with-first",
+      "tags": [
+        "video-generation",
+        "production-tools",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield Tổng Hợp Seedance 2.0, Kling 3.0, Veo 3.1, Sora 2 — So Sánh Song Song",
+      "summary": "Higgsfield workspace cho phép switch giữa 6+ model video AI hàng đầu không rời platform. So sánh output side-by-side để chọn model phù hợp nhất cho từng shot.",
+      "why": "Cho creative: nếu đang làm client work và cần chất lượng nhất cho budget, tool này giúp test nhanh model nào render tốt nhất cho style cụ thể (photorealistic vs stylized, motion vs static). Save time quyết định.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video-generation",
+        "comparison",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "AI Companies Destroy Physical Books Để Scan — Anna's Archive Kêu Gọi Cứu Sách Hiếm",
+      "summary": "Anna's Archive (thư viện số lớn nhất thế giới) phát hiện nhiều công ty AI mua sách cũ/hiếm để scan rồi hủy vật lý. Họ kêu gọi cộng đồng scan sách hiếm trước khi các công ty AI phá hủy chúng vĩnh viễn.",
+      "why": "Cho curious: đây là mặt tối của training data — nhiều sách chỉ tồn tại 1 bản vật lý, AI company scan xong vứt đi. Nếu bạn có sách hiếm, cân nhắc scan + archive trước khi bán. Văn hóa đang bị mất thầm lặng.",
+      "source": "Anna's Archive",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "tags": [
+        "ethics",
+        "data",
+        "preservation",
+        "culture"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Databricks Raise Thêm $5B — 8 Tháng Sau Round $5B Trước, Tín Hiệu Bong Bóng?",
+      "summary": "Databricks công bố raise thêm $5B, chỉ 8 tháng sau round $5B tháng 12/2025. Đây là funding lớn nhất tuần này, trong bối cảnh AI infrastructure startups raise $407B H1/2026 — nhiều hơn cả năm 2025.",
+      "why": "Cho founder/đầu tư: khi một công ty raise 2 rounds $5B trong <1 năm, câu hỏi không phải 'họ tốt không' mà là 'burn rate bao nhiêu và khi nào profitable'. Pattern này giống WeWork 2018 — growth at all costs. Watch closely.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+      "tags": [
+        "funding",
+        "databricks",
+        "bubble",
+        "burn-rate"
+      ]
+    },
+    {
+      "headline": "Sierra AI Raise $950M Series E — Bret Taylor (Ex-Salesforce) Tiếp Tục Thu Hút Vốn",
+      "summary": "Sierra AI (co-founded Bret Taylor & Clay Bavor) công bố $950M Series E ngày 4/5/2026, chưa tiết lộ valuation. Đây là startup enterprise AI agent lớn thứ 2 tuần này sau Databricks.",
+      "why": "Cho founder: Bret Taylor track record (Salesforce Co-CEO, Twitter Chairman) giúp raise dễ hơn 10x so với founder không-tên-tuổi. Nếu bạn đang gọi vốn, network + credibility > pitch deck.",
+      "source": "SF Bay Area Times",
+      "url": "https://www.sfbayareatimes.com/articles/sierra-ai-startup-funding-san-francisco-2026",
+      "tags": [
+        "funding",
+        "enterprise-ai",
+        "bret-taylor"
+      ]
+    },
+    {
+      "headline": "Velaura AI Raise $110M — Samsung Catalyst Fund Tham Gia, Focus AI Infrastructure",
+      "summary": "Velaura AI (startup AI infrastructure) raise $110M do Seligman Ventures lead, có Samsung Catalyst Fund tham gia. Chưa công bố total raised và valuation.",
+      "why": "Cho founder: Samsung đang aggressive invest vào AI infra qua Catalyst Fund — nếu startup bạn liên quan hardware/edge AI, đây là potential investor. Corporate VC (Samsung, Google Ventures, Intel Capital) đang active hơn traditional VC trong AI.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/08/18/venture-capital-startup-funding-roundup-august-18-2026-andreessen-horowitz-bain-capital-ventures-jane-street-kleiner-perkins-sequoia-tiger-global-more/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "corporate-vc"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Claudette: Tool Cleanup Output Của Claude Để Bớt 'BuzzFeed Style' Writing",
+      "summary": "Developer tạo Claudette — tool xử lý output của Claude để bớt flowery/corporate language. Phản ứng sau khi John Gruber chỉ trích watermark style của Claude là 'perversion of writing' (đã cover 2026-08-18).",
+      "why": "Cho curious: AI đang tạo ra 'văn phong đồng nhất' mà người dùng phải dùng AI khác để fix. Đây là irony — chúng ta đang cần post-processing AI để làm AI writing nghe tự nhiên hơn. Signal: authenticity > polish.",
+      "source": "GitHub",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "tags": [
+        "writing",
+        "authenticity",
+        "tooling"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "OpenClaw — AI Assistant Chạy Multi-Platform (Any OS), Kiến Trúc Lobster",
+      "why": "Cho developer: OpenClaw là assistant framework chạy được trên mọi OS (Windows/Mac/Linux). 387K stars trong ngày đầu — nếu bạn đang build AI tool cần cross-platform, xem kiến trúc của họ.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "387044"
+    },
+    {
+      "headline": "AutoGPT 186K Stars — Vision: Accessible AI For Everyone To Use And Build On",
+      "why": "Cho developer: AutoGPT vẫn trending (186K stars) — framework để build agentic workflows với minimal code. Nếu bạn chưa thử, đây là starting point tốt để hiểu agent systems.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "186725"
+    },
+    {
+      "headline": "Dify 153K Stars — Build Agentic Workflows + RAG Pipelines Trên One Workspace",
+      "why": "Cho creative/developer: Dify là low-code platform để build AI workflows (RAG, agents, tools). Deploy cloud hoặc self-hosted. Nếu team không có ML engineers nhưng cần custom AI, Dify là shortcut.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "153147"
+    },
+    {
+      "headline": "Open WebUI 149K Stars — User-Friendly Interface Hỗ Trợ Ollama, OpenAI API",
+      "why": "Cho cá nhân: nếu bạn đang dùng Ollama (local LLM) hoặc OpenAI API, Open WebUI là UI đẹp + dễ dùng thay vì terminal. Tốt cho người muốn tự host AI mà không phụ thuộc cloud.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "149515"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] DeepSeek V4 Flash Vision Exp",
+      "event": "new",
+      "summary": "Experimental vision model — $0.22/$0.66 per M tok",
+      "why": "Multimodal giá rẻ — test thay Claude vision tasks",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+      "tags": [
+        "multimodal",
+        "vision",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Mancer: Weaver (alpha)",
+      "event": "new",
+      "summary": "Alpha model mimic Claude verbosity — $0.50/$0.75 per M tok",
+      "why": "Roleplay/narrative alternative nếu cần verbose output",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mancer/weaver",
+      "tags": [
+        "roleplay",
+        "creative"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Meta: Muse Spark 1.2 Contributor",
+      "event": "new",
+      "summary": "Reasoning model giá rẻ — $0.10/$0.20 per M tok",
+      "why": "Cheaper tier của Muse Spark cho dev prototype",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-spark-1.2-contributor",
+      "tags": [
+        "reasoning",
+        "meta",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines: Inkling Small (free)",
+      "event": "new",
+      "summary": "12B active / 276B total MoE — $0.00",
+      "why": "Free multimodal MoE — test trước khi commit paid model",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-small:free",
+      "tags": [
+        "multimodal",
+        "moe",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines: Inkling (free)",
+      "event": "new",
+      "summary": "41B active / 975B total MoE — $0.00",
+      "why": "Free large MoE cho reasoning/coding/agents",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling:free",
+      "tags": [
+        "multimodal",
+        "moe",
+        "free",
+        "agents"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Deep Cogito: Cogito v2.1 671B",
+      "event": "deprecated",
+      "summary": "Model removed from catalog",
+      "why": "Migrate away if using this model",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepcogito/cogito-v2.1-671b",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta: Muse Glimmer 30B ↓$0.30/↓$1.10",
+      "event": "price",
+      "summary": "Giảm giá: $0.35→$0.30 prompt, $1.50→$1.10 completion",
+      "why": "Meta đang giảm giá aggressive — good time switch từ model đắt hơn",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+      "tags": [
+        "pricing",
+        "meta"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: GPT-5.6 Sol Pro (batch) ↓$1.00/↓$5.00",
+      "event": "price",
+      "summary": "Batch mode giảm: $1.25→$1.00 prompt, $7.50→$5.00 completion",
+      "why": "Nếu dùng batch inference, giờ rẻ hơn 33%",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro:batch",
+      "tags": [
+        "pricing",
+        "openai",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.5 ↑$0.27/↑$0.95",
+      "event": "price",
+      "summary": "Tăng giá: $0.22→$0.27 prompt, $0.90→$0.95 completion",
+      "why": "MiniMax tăng giá 20% — review nếu dùng nhiều",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+      "tags": [
+        "pricing",
+        "minimax"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI GPT Latest ↓$2.00/↓$10.00",
+      "event": "price",
+      "summary": "Giảm: $2.50→$2.00 prompt, $15.00→$10.00 completion",
+      "why": "GPT latest giờ rẻ hơn 33% — good for production workloads",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~openai/gpt-latest",
+      "tags": [
+        "pricing",
+        "openai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: GPT-5.6 Sol ↓$2.00/↓$10.00",
+      "event": "price",
+      "summary": "Giảm: $2.50→$2.00 prompt, $15.00→$10.00 completion",
+      "why": "Reasoning model rẻ hơn — better ROI cho complex tasks",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol",
+      "tags": [
+        "pricing",
+        "openai",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash 0731 ↓$0.08/↓$0.18",
+      "event": "price",
+      "summary": "Giảm mạnh: $0.14→$0.08 prompt, $0.28→$0.18 completion",
+      "why": "DeepSeek giờ rẻ nhất phân khúc — 40% cheaper than before",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "pricing",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: GPT-5.6 Sol (batch) ↓$1.00/↓$5.00",
+      "event": "price",
+      "summary": "Batch giảm: $1.25→$1.00 prompt, $7.50→$5.00 completion",
+      "why": "Batch inference giờ viable cho scale workloads",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol:batch",
+      "tags": [
+        "pricing",
+        "openai",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Mistral: Mistral Small 3.2 24B ↓$0.07/↓$0.20",
+      "event": "price",
+      "summary": "Giảm: $0.09→$0.07 prompt, $0.25→$0.20 completion",
+      "why": "Mistral Small giờ competitive với DeepSeek tier",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+      "tags": [
+        "pricing",
+        "mistral"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 188,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 20
+  }
+}
