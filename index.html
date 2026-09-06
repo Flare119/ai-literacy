@@ -2746,20 +2746,20 @@
         </div>
         <div class="card-body">
             <div class="lesson-bridge"><p><strong>Cần biết trước:</strong> <button type="button" class="lesson-link" data-lesson-target="api" onclick="openLearningLesson('api')">API</button></p><p><strong>Đích bài học:</strong> Biết khi nào cần một ô chat, khi nào cần một agent làm việc trong máy.</p></div>
-            <p><strong>Hình dung trước:</strong> Bạn thuê một người tư vấn qua điện thoại — họ đọc cho bạn chép. Còn nếu bạn đưa họ chìa khoá văn phòng, họ tự mở máy, sửa file, chạy thử. Cùng một người, khác phạm vi được phép làm.</p>
+            <div class="lesson-next"><p><strong>Bài tiếp theo:</strong> <button type="button" class="lesson-link" data-lesson-target="coding-agents" onclick="openLearningLesson('coding-agents')">Coding Agents — từ yêu cầu đến bản sửa được kiểm thử</button> — cách giao việc và kiểm kết quả.</p></div><p><strong>Hình dung trước:</strong> Bạn thuê một người tư vấn qua điện thoại — họ đọc cho bạn chép. Còn nếu bạn đưa họ chìa khoá văn phòng, họ tự mở máy, sửa file, chạy thử. Cùng một người, khác phạm vi được phép làm.</p>
 
             <h4>Ô chat thông thường</h4>
             <p>Bạn dán đoạn code hoặc câu hỏi vào, nó trả lời, bạn tự chép kết quả về máy mình. Nó không nhìn thấy thư mục dự án của bạn và không chạy được gì cả. Mọi thao tác thật đều do bạn làm tay.</p>
 
             <h4>Coding agent</h4>
             <p>Đây là chương trình chạy trên máy bạn hoặc trên máy chủ, và nó được cấp quyền đọc file trong dự án, sửa file, chạy lệnh, chạy test, rồi đọc kết quả để sửa tiếp. Nó lặp vòng đó cho tới khi đạt mục tiêu hoặc gặp chặn.</p>
-            <p>Codex của OpenAI thuộc nhóm này. Theo mô tả của hãng, nó có bản chạy trong terminal trên máy bạn, bản gắn vào trình soạn code, và bản chạy trên hạ tầng đám mây cho việc dài. OpenClaw là công cụ cùng nhóm của Anthropic. <em>(nhãn độ tin: mô tả sản phẩm theo hãng — không phải kết quả so sánh độc lập)</em></p>
+            <p>Codex của OpenAI thuộc nhóm này. Theo trang giới thiệu chính thức của họ, Codex có bản CLI chạy ngay trên máy bạn, bản cài vào trình soạn code (VS Code, Cursor, Windsurf), bản ứng dụng desktop, và Codex Web chạy trên đám mây cho việc dài. OpenClaw của Anthropic và agent trong Cursor là những công cụ cùng nhóm. <em>(nhãn độ tin: mô tả sản phẩm theo hãng — không phải kết quả so sánh độc lập)</em></p>
 
             <h4>Điều thật sự tạo ra khác biệt</h4>
             <p>Không phải model thông minh hơn, mà là <strong>quyền</strong> và <strong>vòng lặp</strong>. Agent được phép ghi vào file và chạy lệnh, nên sai một bước là hỏng thật chứ không phải sai trên màn hình. Vì vậy phần quan trọng nhất khi dùng agent không phải câu lệnh, mà là hàng rào: chạy trong thư mục nào, được commit hay không, được gọi mạng hay không, ai duyệt trước khi đẩy lên.</p>
             <p>Chọn thế nào: hỏi kiến thức, giải thích một đoạn code, bàn hướng làm — dùng ô chat cho gọn. Việc động vào nhiều file, chạy test, lặp nhiều vòng — mới cần agent, và cần kèm hàng rào.</p>
 
-            <p><a href="https://developers.openai.com/codex/" target="_blank" rel="noopener noreferrer">Tài liệu Codex (OpenAI)</a> · <a href="https://platform.claude.com/docs/en/models/overview" target="_blank" rel="noopener noreferrer">Tài liệu model Anthropic</a></p>
+            <p><a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer">Nguồn: openai/codex — trang giới thiệu chính thức</a> · <a href="https://platform.claude.com/docs/en/models/overview" target="_blank" rel="noopener noreferrer">Tài liệu model Anthropic</a></p>
             <button class="check-btn" onclick="markLearned(this, 'coding-agent-vs-chat')">✓ Đã hiểu</button>
         </div>
     </div>
@@ -2773,8 +2773,8 @@
             <span class="card-tag tag-agentic">Agentic</span>
         </div>
         <div class="card-body">
-            <p><strong>Định nghĩa:</strong> vibe coding là cách làm phần mềm trong đó bạn mô tả thứ mình muốn bằng lời, để model sinh ra code, và <strong>chấp nhận code đó mà không soi kỹ từng dòng</strong> — thấy chạy đúng thì đi tiếp, thấy sai thì nhắc bằng câu tiếp theo.</p>
-            <p>Thuật ngữ do Andrej Karpathy đặt ra tháng 2/2025. Ông mô tả trạng thái đó là "buông theo cảm giác… và quên rằng code có tồn tại". Merriam-Webster xếp nó vào mục từ lóng đang thịnh hành trong tháng 3/2025, và Collins chọn làm từ của năm 2025. <em>(nhãn độ tin: nguồn tổng hợp bách khoa — nên tra lại bản gốc khi trích dẫn chính thức)</em></p>
+            <div class="lesson-bridge"><p><strong>Cần biết trước:</strong> <button type="button" class="lesson-link" data-lesson-target="coding-agent-vs-chat" onclick="openLearningLesson('coding-agent-vs-chat')">Chat và coding agent khác nhau ở đâu</button></p><p><strong>Đích bài học:</strong> Biết khi nào được phép vibe, khi nào bắt buộc đọc code.</p></div><p><strong>Định nghĩa:</strong> vibe coding là cách làm phần mềm trong đó bạn mô tả thứ mình muốn bằng lời, để model sinh ra code, và <strong>chấp nhận code đó mà không soi kỹ từng dòng</strong> — thấy chạy đúng thì đi tiếp, thấy sai thì nhắc bằng câu tiếp theo.</p>
+            <p>Thuật ngữ do Andrej Karpathy đặt ra tháng 2/2025. Ông mô tả trạng thái đó là "buông theo cảm giác… và quên rằng code có tồn tại". Merriam-Webster xếp nó vào mục từ lóng đang thịnh hành trong tháng 3/2025, và Collins chọn "vibe coding" làm <a href="https://www.collinsdictionary.com/woty" target="_blank" rel="noopener noreferrer">từ của năm 2025</a>. <em>(nhãn độ tin: mốc Collins đã đối chiếu trang chính thức; phần còn lại theo nguồn tổng hợp bách khoa)</em></p>
 
             <h4>Điểm mạnh</h4>
             <p>Người không được đào tạo lập trình vẫn dựng được thứ chạy được. Rất hợp để làm bản nháp, thử ý tưởng, làm công cụ nội bộ nhỏ dùng một lần.</p>
@@ -2803,20 +2803,20 @@
 
             <h4>Về model</h4>
             <p><strong>Model</strong> — cái máy đã học xong, nhận đầu vào và trả đầu ra. <strong>LLM</strong> là model chuyên xử lý ngôn ngữ. <strong>Foundation model</strong> là model lớn học tổng quát, đem dùng cho nhiều việc khác nhau.</p>
-            <p><strong>Token</strong> — mẩu nhỏ mà model cắt câu chữ ra để xử lý; một token có thể là một phần của từ, cả từ, hay một dấu câu. Tiền và giới hạn dung lượng đều tính theo token, không tính theo từ.</p>
-            <p><strong>Context</strong> — phần bạn đưa cho model đọc trong lần gọi này. Hết lần đó là nó không nhớ, trừ khi ứng dụng chủ động đưa lại.</p>
+            <p><button type="button" class="lesson-link" data-lesson-target="tokens" onclick="openLearningLesson('tokens')">Token</button> — mẩu nhỏ mà model cắt câu chữ ra để xử lý; một token có thể là một phần của từ, cả từ, hay một dấu câu. Tiền và giới hạn dung lượng đều tính theo token, không tính theo từ.</p>
+            <p><button type="button" class="lesson-link" data-lesson-target="context-window" onclick="openLearningLesson('context-window')">Context</button> — phần bạn đưa cho model đọc trong lần gọi này. Hết lần đó là nó không nhớ, trừ khi ứng dụng chủ động đưa lại.</p>
             <p><strong>Prompt</strong> — phần bạn viết ra để yêu cầu. <strong>System prompt</strong> là phần đặt sẵn từ phía ứng dụng, người dùng thường không thấy.</p>
-            <p><strong>Fine-tune</strong> — huấn luyện thêm trên dữ liệu riêng để model hợp việc của bạn hơn. <strong>LoRA</strong> là một cách fine-tune tiết kiệm, chỉ học thêm một phần nhỏ thay vì sửa toàn bộ model.</p>
+            <p><strong>Fine-tune</strong> — huấn luyện thêm trên dữ liệu riêng để model hợp việc của bạn hơn. <button type="button" class="lesson-link" data-lesson-target="lora-deep" onclick="openLearningLesson('lora-deep')">LoRA</button> là một cách fine-tune tiết kiệm, chỉ học thêm một phần nhỏ thay vì sửa toàn bộ model.</p>
 
             <h4>Về cách dùng</h4>
-            <p><strong>API</strong> — cửa để phần mềm gọi phần mềm, thay cho việc con người bấm giao diện. <strong>Endpoint</strong> là địa chỉ cụ thể của một cửa như vậy.</p>
-            <p><strong>Agent</strong> — chương trình dùng model để tự chọn bước tiếp theo và gọi công cụ, trong phạm vi quyền được cấp. <strong>Tool</strong> là những việc nó được phép gọi. <strong>MCP</strong> là một chuẩn chung để nối agent với các công cụ bên ngoài.</p>
-            <p><strong>RAG</strong> — cách cho model trả lời dựa trên tài liệu của bạn: tìm đoạn liên quan trước, rồi đưa đoạn đó vào cùng câu hỏi.</p>
+            <p><button type="button" class="lesson-link" data-lesson-target="api" onclick="openLearningLesson('api')">API</button> — cửa để phần mềm gọi phần mềm, thay cho việc con người bấm giao diện. <strong>Endpoint</strong> là địa chỉ cụ thể của một cửa như vậy.</p>
+            <p><strong>Agent</strong> — chương trình dùng model để tự chọn bước tiếp theo và gọi công cụ, trong phạm vi quyền được cấp. <strong>Tool</strong> là những việc nó được phép gọi. <button type="button" class="lesson-link" data-lesson-target="mcp" onclick="openLearningLesson('mcp')">MCP</button> là một chuẩn chung để nối agent với các công cụ bên ngoài.</p>
+            <p><button type="button" class="lesson-link" data-lesson-target="rag" onclick="openLearningLesson('rag')">RAG</button> — cách cho model trả lời dựa trên tài liệu của bạn: tìm đoạn liên quan trước, rồi đưa đoạn đó vào cùng câu hỏi.</p>
             <p><strong>Human-in-the-loop</strong> — có người duyệt ở bước quan trọng trước khi hệ thống làm thật.</p>
 
             <h4>Về chất lượng và rủi ro</h4>
             <p><strong>Hallucination</strong> — model nói trơn tru nhưng nội dung sai hoặc bịa. Trôi chảy không phải bằng chứng đúng.</p>
-            <p><strong>Benchmark</strong> — bài thi chuẩn để so các model. Điểm cao ở bài thi không bảo đảm hợp việc của bạn.</p>
+            <p><button type="button" class="lesson-link" data-lesson-target="benchmarks" onclick="openLearningLesson('benchmarks')">Benchmark</button> — bài thi chuẩn để so các model. Điểm cao ở bài thi không bảo đảm hợp việc của bạn.</p>
             <p><strong>Drift</strong> — kết quả trôi dần khỏi mong muốn theo thời gian hoặc theo độ dài, hay gặp khi làm video và nhân vật biến dạng dần.</p>
             <p><strong>Guardrail</strong> — hàng rào chặn trước, giới hạn những gì hệ thống được phép làm. <strong>Rollback</strong> là đường lùi khi hỏng.</p>
 
