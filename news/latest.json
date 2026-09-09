@@ -1,126 +1,141 @@
 {
-  "date": "2026-09-08",
-  "updated_at": "2026-09-08T07:48:11.978942+07:00",
-  "weekday": "Tuesday",
+  "date": "2026-09-09",
+  "updated_at": "2026-09-09T07:51:46.207076+07:00",
+  "weekday": "Wednesday",
   "top_story": {
-    "headline": "DeepSeek V4 Pro 0813 Tăng Giá 81-81% Trong 24h — Tiếp Tục Đẩy Giá Sau Đợt Tăng 32% Tuần Trước",
-    "summary": "DeepSeek V4 Pro 0813 tăng từ $0.58/$1.74 lên $1.05/$3.15 per M tokens — tăng 81% prompt và 81% completion trong một ngày. Đây là đợt tăng giá thứ hai trong vòng 8 ngày, sau khi V4 Pro đã tăng 32% hôm 2026-09-07. Pattern này cho thấy các model Trung Quốc đang normalize giá, kết thúc era 'rẻ hơn Mỹ 10 lần'.",
-    "why": "Cho cá nhân/manager: nếu bạn đang dùng DeepSeek V4 Pro để tiết kiệm chi phí API, chuẩn bị migrate hoặc renegotiate budget — giá tăng 213% trong 8 ngày báo hiệu era 'AI Trung Quốc siêu rẻ' đã qua. Tính lại ROI của pipeline hiện tại.",
-    "source": "OpenRouter Catalog",
-    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+    "headline": "Mistral Huy Động €3B — Vòng Gọi Vốn Lớn Nhất Châu Âu, Định Vị 'Sovereign AI' Đối Trọng Big Tech Mỹ",
+    "summary": "Mistral AI công bố vòng gọi vốn €3 tỷ, lớn nhất lịch sử startup AI châu Âu. Công ty định vị là 'sovereign open-weight AI' — giải pháp AI độc lập cho chính phủ và doanh nghiệp châu Âu không phụ thuộc Big Tech Mỹ. Đây là cuộc đua AI địa chính trị: Mistral vs OpenAI/Anthropic, châu Âu vs Mỹ.",
+    "why": "Cho manager/founder: Mistral €3B là tín hiệu châu Âu đang xây hệ sinh thái AI riêng. Nếu công ty bạn phục vụ EU hoặc cần compliance GDPR nghiêm ngặt, Mistral sẽ trở thành lựa chọn 'chính trị an toàn' hơn OpenAI — đặc biệt khi EU AI Act có hiệu lực 2026. Đánh giá vendor strategy: sovereign AI có thể là yêu cầu bắt buộc với public sector EU.",
+    "source": "Mistral AI",
+    "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
     "tags": [
-      "pricing",
-      "deepseek",
-      "china-ai",
-      "cost-management"
+      "funding",
+      "geopolitics",
+      "europe",
+      "sovereign-ai"
     ]
   },
   "quick_hits": [
     {
-      "headline": "DeepSeek V3.1 Giảm Giá 55-42% — Counterbalance Cho Đợt Tăng V4 Pro",
-      "why": "DeepSeek đang segment model: V3.1 giảm để giữ phân khúc budget ($0.25/$0.95), V4 Pro tăng để monetize capability. Nếu use case không cần V4 Pro, migrate xuống V3.1 tiết kiệm 76% so với V4 Pro mới.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1",
+      "headline": "OpenAI Ra ChatGPT Images 2.5 — Tạo Ảnh Trực Tiếp Trong Chat, Không Cần Chuyển Sang DALL-E",
+      "why": "Cho cá nhân/creative: giảm friction workflow — brainstorm ý tưởng visual ngay trong thread chat thay vì switch tool. Tiết kiệm 30-60s mỗi lần generate.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
       "tags": [
-        "pricing",
-        "deepseek"
+        "image-generation",
+        "workflow"
       ]
     },
     {
-      "headline": "Z.ai GLM 4.6 Tăng 28-26% — Tiếp Tục Trend Tăng Giá Từ Tuần Trước",
-      "why": "GLM 4.6 đã tăng 28% hôm 2026-09-03, nay tăng thêm. Pattern: model Trung Quốc đồng loạt normalize giá. Check contract nếu bạn dùng GLM — có thể có clause tăng giá thêm.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+      "headline": "Meta Ra Muse — Personal AI Agent Tích Hợp Facebook/Instagram/WhatsApp",
+      "why": "Cho cá nhân: nếu bạn đang dùng Meta ecosystem, Muse có thể tự động trả lời message, schedule post, tóm tắt feed — nhưng cẩn thận về quyền riêng tư: agent này đọc toàn bộ data cá nhân.",
+      "source": "Meta AI",
+      "url": "https://ai.meta.com/muse/",
       "tags": [
-        "pricing",
-        "z-ai"
+        "agent",
+        "privacy",
+        "social-media"
       ]
     },
     {
-      "headline": "Z.ai GLM Latest & GLM Flash Latest Giảm Giá Nhẹ — Nhưng Vẫn Cao Hơn 7 Ngày Trước",
-      "why": "GLM Latest giảm 4-11% hôm nay, nhưng so với baseline 7 ngày trước vẾn cao hơn đáng kể (do đợt tăng 2026-09-03). Đây là điều chỉnh nhỏ, không đảo ngược trend tăng giá tổng thể.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~z-ai/glm-latest",
+      "headline": "Dan Luu: 'AI Agent Ít Dùng Test/Verification Hơn Junior Dev' — Phân Tích Hành Vi Agent",
+      "why": "Cho manager: nghiên cứu cho thấy agent code thiếu test coverage nghiêm trọng. Nếu team đang dùng Cursor/Copilot cho production code, quy trình review phải strict hơn — agent không tự verify như người.",
+      "source": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/",
       "tags": [
-        "pricing",
-        "z-ai"
+        "agent",
+        "software-quality",
+        "testing"
       ]
     },
     {
-      "headline": "MoonshotAI Kimi K2.7 Code Tăng 8-3% — Tiếp Momentum Tăng Giá",
-      "why": "MoonshotAI đã tăng Kimi Latest nhiều lần tuần trước, nay tăng thêm K2.7 Code. Nếu dùng Kimi cho coding pipeline, monitor chi phí — có thể cần switch sang Codex CLI hoặc Claude Code.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+      "headline": "Terence Tao: 'Open Math Problems Đang Bị AI Non-Renewably Mined' — Cảnh Báo Về Training Data",
+      "why": "Cho curious/researcher: khi AI solve math problems public, những bài đó không còn dùng được cho benchmark tương lai — 'khai thác cạn kiệt' nguồn test data. Ảnh hưởng đến khả năng đánh giá model thật sự.",
+      "source": "Mathstodon",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
       "tags": [
-        "pricing",
-        "moonshotai",
-        "coding"
+        "research",
+        "benchmarking",
+        "ai-limits"
       ]
     },
     {
-      "headline": "DeepSeek V4 Flash Latest Tăng 25-78% — Model 'Rẻ Nhất' Cũng Bị Đẩy Giá",
-      "why": "Flash model (dùng cho high-volume low-complexity tasks) tăng từ $0.04/$0.09 lên $0.05/$0.16 — tăng 78% completion. Nếu bạn chạy batch job lớn với V4 Flash, chi phí sẽ tăng gần gấp đôi.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "headline": "Adobe Workfront AI Collaborators — AI Agent Tự Viết Brief Marketing Từ Project Context",
+      "why": "Cho manager/marketing: agent đọc project brief, tự động draft campaign outline. Giảm 40-60% thời gian kickoff meeting, nhưng vẫn cần human review vì AI có thể miss brand voice.",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
       "tags": [
-        "pricing",
-        "deepseek"
+        "marketing",
+        "agent",
+        "workflow"
       ]
     },
     {
-      "headline": "DeepSeek V3 0324 Tăng 16-14% — Legacy Model Cũng Không Thoát Đợt Tăng Giá",
-      "why": "Ngay cả model cũ như V3 0324 cũng tăng. Signal: DeepSeek đang normalize giá toàn bộ lineup, không còn giữ 'giá khuyến mại' cho model cũ.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
+      "headline": "i-have-ADHD Skill — Stop Coding Agents From Burying The Answer",
+      "why": "Cho cá nhân/dev: agent thường output dài dòng, khó tìm answer. Skill này force agent trả lời ngắn gọn trước, chi tiết sau. Áp dụng cho Cursor/Claude nếu bạn bị ngập log.",
+      "source": "GitHub",
+      "url": "https://github.com/ayghri/i-have-adhd",
       "tags": [
-        "pricing",
-        "deepseek"
-      ]
-    },
-    {
-      "headline": "MiniMax M2.7 Free & M3 Free Bị Deprecated — Kết Thúc Era Free Tier Video",
-      "why": "MiniMax M2.7 và M3 free đã bị remove khỏi OpenRouter. Nếu bạn đang dùng free tier để test video generation, phải migrate sang paid hoặc switch provider (fal H3 Max, Luma).",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/minimax/minimax-m2.7:free",
-      "tags": [
-        "video",
-        "minimax",
-        "deprecation"
+        "agent",
+        "ux",
+        "productivity"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Adobe Firefly Image-to-Video Đã Live — Export Trực Tiếp Vào Project Workflow",
-      "summary": "Adobe Firefly image-to-video feature đã ra mắt production. Upload ảnh, model blend frames thành video ngắn, export trực tiếp vào project — không cần tool bên ngoài. Dùng cho B-roll, reels, presentation assets.",
-      "why": "Cho creative: đây là game-changer nếu bạn dùng Adobe ecosystem — giảm 50% thời gian handoff giữa design và video. Không cần export PNG rồi import vào Premiere. Nhưng model chỉ gen video ngắn (vài giây), không thay được full video editing.",
-      "source": "Adobe Firefly",
-      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
+      "headline": "Luma AI Ra Creative Agents — End-to-End Workflow Từ Prompt Đến Final Video",
+      "summary": "Luma không chỉ là video generation tool nữa — giờ có 'creative agents' handle toàn bộ workflow: từ prompt → storyboard → shot sequence → final edit. Tích hợp Ray và Uni models.",
+      "why": "Cho creative/producer: nếu đang dùng Luma cho quick preview, agents này có thể replace junior editor cho loại project đơn giản (social ads, B-roll). Nhưng vẫn cần creative director review — agent không có taste.",
+      "source": "Luma AI",
+      "url": "https://lumalabs.ai/",
       "tags": [
-        "video",
-        "adobe",
-        "creative-tools"
+        "video-generation",
+        "workflow",
+        "agent"
       ]
     },
     {
-      "headline": "Gemini 2.0 Flash Có Image Generation & Editing — Multimodal Mới Từ Google",
-      "summary": "Google ra Gemini 2.0 Flash experimental với khả năng tạo và edit ảnh. Cùng lúc release Gemma 3 27B IT trên AI Studio và Gemini API — phần của Gemma 3 launch.",
-      "why": "Cho creative: nếu bạn đang dùng Midjourney/DALL-E riêng + text model riêng, Gemini 2.0 Flash cho phép text-to-image-to-edit trong một model. Tiết kiệm context switching. Nhưng chất lượng ảnh chưa rõ — test trước khi production.",
-      "source": "Google AI",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "headline": "Creen AI — Free Unlimited AI Generator: Sora 2, VEO 3.1, Nano Banana Pro, Không Cần Đăng Nhập",
+      "summary": "Creen cung cấp 40+ models bao gồm Sora 2, VEO 3.1, hoàn toàn free, không giới hạn, không cần sign up. Đây là aggregator cho người muốn thử nghiệm nhiều model mà không tốn tiền.",
+      "why": "Cho creative: nếu cần A/B test giữa Sora/VEO/Kling cho style khác nhau, Creen tiết kiệm được $50-200/tháng so với subscribe từng platform riêng. Nhưng cẩn thận về licensing — free tool thường không rõ ràng về commercial use.",
+      "source": "Creen AI",
+      "url": "https://www.creen.ai/",
       "tags": [
-        "multimodal",
-        "google",
-        "image-generation"
+        "video-generation",
+        "free-tool"
+      ]
+    },
+    {
+      "headline": "Fliki Ra AI Video Generator Tích Hợp Veo 3.1, Sora 2, Kling 3.0 — Free Plan Có Watermark",
+      "summary": "Fliki giờ tích hợp các top video models (Veo, Sora, Kling) vào 1 platform. Free plan có watermark nhỏ, removable trên paid plan. Generate clip ngắn, sau đó Fliki tự động thêm soundtrack.",
+      "why": "Cho producer/agency: nếu đang làm social content volume cao, Fliki giúp rapid prototyping với nhiều model trong 1 chỗ. Watermark free tier phù hợp cho internal review, paid khi deliver client.",
+      "source": "Fliki",
+      "url": "https://fliki.ai/features/ai-video-generator",
+      "tags": [
+        "video-generation",
+        "workflow"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Scientists Build Artificial Neurons Hoạt Động Như Neuron Thật",
-      "summary": "Các nhà khoa học đã tạo ra neuron nhân tạo hoạt động giống neuron sinh học thực sự — không chỉ mô phỏng toán học mà có cơ chế vật lý tương tự. Đây là bước tiến trong neuromorphic computing.",
-      "why": "Phát hiện này dài hạn có thể dẫn đến AI hardware tiêu thụ năng lượng thấp hơn 1000 lần so với GPU hiện tại — vì neuron sinh học cực kỳ hiệu quả năng lượng. Nhưng ứng dụng thương mại còn xa (5-10 năm).",
+      "headline": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion — Diffusion-Augmented LLMs",
+      "summary": "Paper giới thiệu 'diffusion-augmented LLMs' — thay vì generate token tuần tự (chậm), model tạo và refine nhiều token song song. Giảm latency mà không mất quality. Đây là nền tảng kiến trúc cho Inception Mercury 2.5 (model reasoning nhanh nhất hiện tại).",
+      "why": "Cho curious/dev: đây là bước đột phá kiến trúc — nếu diffusion LLMs scale được, có thể giảm 50-70% chi phí inference trong 2-3 năm tới. Quan trọng cho ai làm high-volume chatbot/agent.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2609.04010",
+      "tags": [
+        "research",
+        "inference",
+        "diffusion"
+      ]
+    },
+    {
+      "headline": "Scientists Build Artificial Neurons That Work Like Real Ones — Breakthrough Neuromorphic",
+      "summary": "Nghiên cứu tạo ra artificial neurons hoạt động giống neuron thật — về mặt điện sinh lý, không chỉ toán học. Mở đường cho neuromorphic computing tiết kiệm năng lượng hơn 1000 lần so với GPU.",
+      "why": "Cho curious/business: đây là long-term bet (5-10 năm) nhưng nếu neuromorphic hardware thành công, sẽ thay đổi hoàn toàn AI infrastructure. Nvidia/AMD có thể bị disrupt bởi startup neuromorphic.",
       "source": "ScienceDaily",
       "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "tags": [
@@ -132,263 +147,287 @@
   ],
   "business": [
     {
-      "headline": "Wonderful (AI Enterprise Startup) Huy Động $550M Định Giá $5B Sau 20 Tháng",
-      "summary": "Wonderful — startup AI enterprise — raise $550M với valuation $5B, chỉ sau 20 tháng thành lập. Round này reflect technical cost và strategic urgency hơn là conventional startup progression.",
-      "why": "Cho founder/đầu tư: AI infrastructure funding 2025-2026 đang redefine stage labels. $550M Seed hoặc Series B không còn reflect maturity, mà reflect burn rate (compute cost) và FOMO của VC. Nếu bạn đang raise AI startup, pitch không theo stage truyền thống — pitch theo 'moat' (data, model, distribution).",
-      "source": "Superpower Daily",
-      "url": "https://superpowerdaily.com/signals/funding",
+      "headline": "Plus (Autonomous Truck Startup) Sáp Nhập Texas Ventures III — Deal $300M, Lên Sàn SPAC",
+      "summary": "Plus (PlusAI) — startup xe tải tự hành — sáp nhập với SPAC Texas Ventures Acquisition III, định giá $300M. Đây là exit route phổ biến cho AI hardware startup sau khi IPO truyền thống khó khăn.",
+      "why": "Cho business/founder: SPAC đang trở lại làm exit path cho AI infrastructure. Nếu công ty bạn trong lĩnh vực AI phần cứng/robotics, SPAC có thể là lựa chọn thay vì Series D kéo dài.",
+      "source": "Dealroom",
+      "url": "https://dealroom.co/news/",
       "tags": [
         "funding",
-        "enterprise-ai",
-        "valuation"
+        "autonomous",
+        "spac"
       ]
     },
     {
-      "headline": "VibeIQ Huy Động $22.5M — AI-Native Product Decision Platform Cho Apparel",
-      "summary": "VibeIQ — nền tảng AI quyết định sản phẩm cho ngành thời trang và consumer goods — raise $22.5M growth financing do Volition dẫn đầu.",
-      "why": "Cho business: vertical AI (AI chuyên ngành) đang thu hút vốn. Nếu bạn làm AI startup, đừng làm 'ChatGPT cho mọi người' — làm 'ChatGPT cho [ngành cụ thể]' sẽ dễ raise và dễ monetize hơn.",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/financial-services-latest-news/venture-capital-list/",
+      "headline": "Chai Discovery Huy Động Vòng Thứ 3 Trong <1 Năm — Tổng Vốn >$600M",
+      "summary": "Chai Discovery (AI cho drug discovery) đóng vòng funding thứ 3 trong chưa đầy 1 năm, tổng vốn huy động vượt $600M. Velocity tăng vốn này phản ánh sự nóng của AI biotech.",
+      "why": "Cho founder/đầu tư: AI biotech đang hút vốn nhanh hơn AI software. Nếu bạn có background biology + AI, đây là thời điểm tốt để pitch — investor sợ miss next Chai Discovery.",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26",
       "tags": [
         "funding",
-        "vertical-ai",
-        "fashion"
+        "biotech",
+        "ai-drug-discovery"
       ]
     }
   ],
   "society": [
     {
-      "headline": "12.7 Triệu Thanh Niên Trung Quốc Đang Tìm Việc — Kỷ Lục Cao Nhất Khi AI Thay Entry-Level Jobs",
-      "summary": "Trung Quốc có 12.7 triệu người trẻ đang tìm việc — con số cao nhất lịch sử, trùng với thời điểm AI bắt đầu thay thế entry-level jobs (customer service, data entry, junior coding).",
-      "why": "Đây là canary in the coal mine cho toàn cầu — không chỉ Trung Quốc. Entry-level job là 'cầu thang' vào nghề nghiệp. Khi AI cắt nó, tỷ lệ thất nghiệp trẻ sẽ tăng, bất bình đẳng sẽ tăng. Chính phủ và doanh nghiệp cần reskilling program — nếu không, 'lost generation' sẽ xảy ra.",
-      "source": "NYTimes",
-      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "headline": "12.7 Triệu Thanh Niên Trung Quốc Đang Tìm Việc — Kỷ Lục Cao Nhất Khi AI Thay Thế Entry-Level Jobs",
+      "summary": "Trung Quốc có 12.7 triệu thanh niên đang tìm việc, cao nhất lịch sử. Nguyên nhân chính: AI thay thế entry-level jobs (customer service, data entry, junior coding). Reuters phân tích đây là hậu quả trực tiếp của việc doanh nghiệp áp dụng AI aggressive.",
+      "why": "Cho manager/individual: đây là warning sign cho thị trường việc làm toàn cầu, không chỉ Trung Quốc. Entry-level giảm mạnh → junior không có chỗ học → gap kỹ năng senior sau 5 năm. Nếu bạn đang ở junior role, reskill sang soft skills + judgment-heavy tasks ngay.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "jobs",
-        "society",
+        "employment",
         "china",
-        "youth-unemployment"
-      ]
-    },
-    {
-      "headline": "Schools Choosing Opposite Futures For AI — Phân Cực Giáo Dục",
-      "summary": "Các trường học đang chọn hai hướng đối lập với AI: một bên cấm hoàn toàn, một bên integrate sâu. Phân cực này tạo ra hai thế hệ học sinh với kỹ năng AI hoàn toàn khác nhau.",
-      "why": "Nếu con bạn học trường cấm AI, chúng sẽ bị disadvantage so với trường integrate AI. Đây không phải về 'đạo đức' hay 'suy nghĩ độc lập' — đây là về 'fluency' với công cụ thế hệ mới. Phụ huynh cần hỏi trường: AI policy là gì, và tại sao?",
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/",
-      "tags": [
-        "education",
-        "society",
-        "policy"
+        "labor-market"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — The AI That Really Does Things, Cross-Platform 🦞",
-      "why": "OpenClaw là framework AI agent cross-platform (any OS). GitHub trending #1 với 389K stars. Nếu bạn đang build agent chạy trên nhiều nền tảng (Windows/Mac/Linux), đây là starting point tốt.",
-      "source": "GitHub Trending",
+      "headline": "openclaw/openclaw — 'The AI That Really Does Things' Cross-Platform Agent Framework",
+      "why": "Framework agent chạy được trên mọi OS/platform. Nếu đang build agent cần multi-platform support, openclaw có thể thay thế việc viết riêng cho Windows/Mac/Linux.",
+      "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "389146"
+      "stars": "389250"
     },
     {
-      "headline": "obra/superpowers — Agentic Skills Framework & Software Dev Methodology",
-      "why": "Superpowers là framework skills cho AI agent + methodology phát triển phần mềm với agent. 282K stars. Nếu team bạn đang struggle với 'làm sao tổ chức agent workflow', đây là case study tốt.",
-      "source": "GitHub Trending",
+      "headline": "obra/superpowers — Agentic Skills Framework & Software Development Methodology",
+      "why": "Methodology và framework để build agent có 'skills' — modular, testable. Áp dụng cho team muốn standardize cách develop agent thay vì ad-hoc prompts.",
+      "source": "GitHub",
       "url": "https://github.com/obra/superpowers",
-      "stars": "282838"
+      "stars": "283359"
     },
     {
-      "headline": "n8n-io/n8n — Fair-Code Workflow Automation Với Native AI Capabilities",
-      "why": "n8n là nền tảng workflow automation open-source với AI native. 203K stars. Tích hợp 400+ services. Self-host hoặc cloud. Nếu bạn cần Zapier/Make nhưng muốn control data, n8n là lựa chọn.",
-      "source": "GitHub Trending",
+      "headline": "NousResearch/hermes-agent — 'The Agent That Grows With You'",
+      "why": "Agent framework từ Nous Research — tập trung vào learning từ user feedback. Nếu cần agent improve qua thời gian thay vì static, đáng thử.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "243453"
+    },
+    {
+      "headline": "n8n-io/n8n — Fair-code Workflow Automation Platform With Native AI Capabilities",
+      "why": "Alternative self-hosted cho Zapier/Make với AI tích hợp sẵn. 400+ integrations. Nếu cần workflow automation và không muốn phụ thuộc cloud SaaS.",
+      "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "203671"
+      "stars": "203775"
     },
     {
-      "headline": "AutoGPT — Vision Of Accessible AI For Everyone",
-      "why": "AutoGPT tiếp tục trending (187K stars). Mission: provide tools để user focus vào what matters. Nếu bạn mới vào AI agent, AutoGPT là starting point dễ nhất.",
-      "source": "GitHub Trending",
+      "headline": "AutoGPT — Vision of Accessible AI for Everyone, Latest Updates Active",
+      "why": "AutoGPT vẫn đang phát triển mạnh. Nếu đã thử AutoGPT 2024 và bỏ, có thể revisit — version 2026 ổn định hơn nhiều.",
+      "source": "GitHub",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "187186"
+      "stars": "187211"
     },
     {
-      "headline": "firecrawl/firecrawl — Context API To Scrape & Interact With Web At Scale 🔥",
-      "why": "Firecrawl là API scrape web cho AI context. 177K stars. Nếu bạn build AI app cần web data (RAG, research agent), Firecrawl giải quyết scraping + structure data.",
-      "source": "GitHub Trending",
+      "headline": "firecrawl/firecrawl — Context API to Search, Scrape, Interact With Web at Scale",
+      "why": "Scraping API cho agent cần interact với web. Nếu đang build RAG pipeline hoặc agent cần real-time web data, firecrawl handle anti-bot/captcha.",
+      "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "177661"
+      "stars": "178026"
     },
     {
-      "headline": "langgenius/dify — Build Agentic Workflows, RAG Pipelines On Collaborative Workspace",
-      "why": "Dify là platform build agentic workflows + RAG với nhiều AI models. 154K stars. Deploy cloud/VPC/self-hosted. Nếu team bạn cần move từ prototype sang production không rebuild stack, Dify là lựa chọn.",
-      "source": "GitHub Trending",
+      "headline": "langgenius/dify — Build Agentic Workflows, RAG Pipelines, Deploy Cloud or Self-Hosted",
+      "why": "Platform low-code để build agent workflows. Nếu team không muốn code agent từ đầu, Dify giúp prototype nhanh và deploy production.",
+      "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "154858"
+      "stars": "155082"
     },
     {
       "headline": "open-webui/open-webui — User-Friendly AI Interface (Supports Ollama, OpenAI API)",
-      "why": "Open WebUI là giao diện AI open-source support nhiều backends (Ollama, OpenAI). 151K stars. Nếu bạn muốn self-host ChatGPT-like interface cho team, đây là lựa chọn.",
-      "source": "GitHub Trending",
+      "why": "Self-hosted UI cho local LLMs (Ollama) hoặc cloud API. Nếu team muốn ChatGPT-like interface nhưng dữ liệu không ra ngoài.",
+      "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "151259"
+      "stars": "151379"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0813 ↑81%/↑81% per M tok",
+      "headline": "[OpenRouter NEW] DeepSeek V4 Flash Vision Exp (batch) · $0.11/$0.33 per M tok",
+      "event": "new",
+      "summary": "DeepSeek V4 Flash Vision Exp — experimental vision-enabled version của DeepSeek V4 Flash, thêm image understanding.",
+      "why": "Vision capability ở giá $0.11 prompt rất rẻ — thử cho batch image analysis tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp:batch",
+      "tags": [
+        "vision",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Inception Mercury 2.5 · $0.04/$0.15 per M tok",
+      "event": "new",
+      "summary": "Mercury 2.5 — fastest reasoning LLM, diffusion architecture (generate & refine parallel tokens).",
+      "why": "Giá cực rẻ ($0.04) cho reasoning model nhanh nhất. Test thay GPT-4o cho reasoning tasks giá sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inception/mercury-2.5",
+      "tags": [
+        "reasoning",
+        "diffusion"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Nex AGI Nex-N2.5-Mini (free) · $0.00/$0.00",
+      "event": "new",
+      "summary": "Nex-N2.5 — agentic model built for coding with visual feedback loop, explore codebase multi-file.",
+      "why": "FREE agentic coding model — test cho side projects trước khi trả tiền Claude/GPT-4.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2.5-mini:free",
+      "tags": [
+        "agent",
+        "coding",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Nex AGI Nex-N2.5-Pro (free) · $0.00/$0.00",
+      "event": "new",
+      "summary": "Nex-N2.5-Pro — pro version của agentic coding model, free tier.",
+      "why": "Pro tier FREE — rare. Test cho production-level agent workflows.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2.5-pro:free",
+      "tags": [
+        "agent",
+        "coding",
+        "free"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Z.ai GLM 5.2 (batch) · $0.70/$2.20 per M tok",
+      "event": "new",
+      "summary": "GLM 5.2 — large-scale reasoning model, 1M context, long-horizon agent workflows.",
+      "why": "1M context window — dùng cho codebase exploration hoặc long document analysis.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.2:batch",
+      "tags": [
+        "reasoning",
+        "long-context"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Z.ai GLM 5.3 (batch) · $0.70/$2.20 per M tok",
+      "event": "new",
+      "summary": "GLM 5.3 — improved version, long-horizon agent tasks, 1M context.",
+      "why": "GLM 5.3 thay thế GLM 5.2 với cải thiện reasoning. Migrate nếu đang dùng 5.2.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3:batch",
+      "tags": [
+        "reasoning",
+        "long-context"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Inception Mercury 2.5 Preview removed",
+      "event": "deprecated",
+      "summary": "Mercury 2.5 Preview không còn available — migrate sang Mercury 2.5 stable.",
+      "why": "Preview bị remove — check code nếu đang hardcode model name.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inception/mercury-2.5-preview",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Nex AGI Nex-N2-Mini removed",
+      "event": "deprecated",
+      "summary": "Nex-N2-Mini deprecated — migrate sang Nex-N2.5-Mini.",
+      "why": "N2 bị replace bởi N2.5 — update agent config nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2-mini",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Nex AGI Nex-N2-Pro removed",
+      "event": "deprecated",
+      "summary": "Nex-N2-Pro deprecated — migrate sang Nex-N2.5-Pro.",
+      "why": "Pro tier cũng bị replace — migrate trước khi mất access.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nex-agi/nex-n2-pro",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Muse Glimmer 30B (batch) ↓$0.17/↓$0.75",
       "event": "price",
-      "summary": "DeepSeek V4 Pro 0813 tăng từ $0.58/$1.74 lên $1.05/$3.15 — tăng 81% cả prompt và completion trong 24h.",
-      "why": "Migrate hoặc renegotiate budget nếu đang dùng. Giá tăng 213% trong 8 ngày.",
+      "summary": "Muse Glimmer 30B batch giảm 51% prompt, 50% completion.",
+      "why": "Meta aggressive giảm giá — competitive với DeepSeek. Thử Muse cho batch agent tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-glimmer-30b:batch",
+      "tags": [
+        "price-drop",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0813 ↓$0.58/↓$1.74",
+      "event": "price",
+      "summary": "V4 Pro giảm 45% prompt, 45% completion — sau đợt tăng 81% tuần trước.",
+      "why": "Giá dao động mạnh — DeepSeek đang test price elasticity. Lock giá nếu production critical.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
       "tags": [
-        "pricing",
-        "deepseek"
+        "price-drop"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V3.1 ↓55%/↓42% per M tok",
+      "headline": "[OpenRouter PRICE] Z.ai GLM Flash Latest ↑$0.07/↑$0.25",
       "event": "price",
-      "summary": "DeepSeek V3.1 giảm từ $0.55/$1.65 xuống $0.25/$0.95 — counterbalance cho V4 Pro.",
-      "why": "Migrate từ V4 Pro xuống V3.1 tiết kiệm 76% nếu use case không cần V4 Pro capability.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1",
-      "tags": [
-        "pricing",
-        "deepseek"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Z.ai GLM 4.6 ↑28%/↑26% per M tok",
-      "event": "price",
-      "summary": "Z.ai GLM 4.6 tăng từ $0.43/$1.75 lên $0.55/$2.20 — tiếp tục trend tăng giá từ tuần trước.",
-      "why": "Check contract nếu dùng GLM — có thể có clause tăng giá thêm.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
-      "tags": [
-        "pricing",
-        "z-ai"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.7 Code ↑8%/↑3% per M tok",
-      "event": "price",
-      "summary": "Kimi K2.7 Code tăng từ $0.66/$3.40 lên $0.71/$3.50.",
-      "why": "Monitor chi phí nếu dùng Kimi cho coding pipeline — có thể cần switch sang Codex CLI.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
-      "tags": [
-        "pricing",
-        "moonshotai"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest ↑25%/↑78% per M tok",
-      "event": "price",
-      "summary": "DeepSeek V4 Flash tăng từ $0.04/$0.09 lên $0.05/$0.16 — tăng 78% completion.",
-      "why": "Batch job lớn với V4 Flash sẽ tốn gần gấp đôi.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
-      "tags": [
-        "pricing",
-        "deepseek"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V3 0324 ↑16%/↑14% per M tok",
-      "event": "price",
-      "summary": "DeepSeek V3 0324 tăng từ $0.25/$1.00 lên $0.29/$1.14.",
-      "why": "Ngay cả model cũ cũng tăng — DeepSeek normalize giá toàn bộ lineup.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
-      "tags": [
-        "pricing",
-        "deepseek"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] MoonshotAI Kimi Latest ↓2%/↑10% per M tok",
-      "event": "price",
-      "summary": "Kimi Latest giảm prompt 2%, tăng completion 10%: $2.55/$12.75 → $2.50/$14.00.",
-      "why": "Điều chỉnh nhỏ — completion tăng nhiều hơn prompt giảm.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
-      "tags": [
-        "pricing",
-        "moonshotai"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Z.ai GLM Latest ↓4%/↓11% per M tok",
-      "event": "price",
-      "summary": "Z.ai GLM Latest giảm từ $1.17/$3.96 xuống $1.12/$3.52.",
-      "why": "Điều chỉnh nhỏ sau đợt tăng lớn tuần trước — vẫn cao hơn baseline 7 ngày.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~z-ai/glm-latest",
-      "tags": [
-        "pricing",
-        "z-ai"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Z.ai GLM Flash Latest ↓0%/↓4% per M tok",
-      "event": "price",
-      "summary": "GLM Flash Latest giảm completion từ $0.25 xuống $0.24, prompt giữ nguyên $0.07.",
-      "why": "Điều chỉnh nhỏ.",
+      "summary": "GLM Flash tăng nhẹ completion — tiếp tục trend tăng giá từ tuần trước.",
+      "why": "Flash models Trung Quốc đang tăng giá dần — cân nhắc alternatives như DeepSeek V4 Flash.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/~z-ai/glm-flash-latest",
       "tags": [
-        "pricing",
-        "z-ai"
+        "price-increase"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0423 ↓8%/↓8% per M tok",
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 ↓$0.07/↓$0.18",
       "event": "price",
-      "summary": "DeepSeek V4 Pro 0423 giảm từ $1.04/$2.07 xuống $0.96/$1.91.",
-      "why": "Cheaper alternative cho V4 Pro 0813 nếu không cần latest features.",
+      "summary": "V4 Flash giảm 50% prompt, 36% completion.",
+      "why": "Đây là model 'rẻ nhất' DeepSeek — dùng cho high-volume low-stakes tasks.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
       "tags": [
-        "pricing",
-        "deepseek"
+        "price-drop"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] MiniMax M2.7 Free Removed",
-      "event": "deprecated",
-      "summary": "MiniMax M2.7 free tier đã bị remove khỏi OpenRouter.",
-      "why": "Migrate sang paid hoặc switch provider nếu đang dùng free tier video gen.",
+      "headline": "[OpenRouter PRICE] Z.ai GLM 4.6 ↓$0.43/↓$1.75",
+      "event": "price",
+      "summary": "GLM 4.6 giảm 22% prompt, 20% completion — sau đợt tăng 28% tuần trước.",
+      "why": "Giá GLM 4.6 dao động — nếu production đang dùng, cân nhắc hedging với contract giá cố định.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/minimax/minimax-m2.7:free",
+      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
       "tags": [
-        "video",
-        "minimax"
+        "price-drop"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] MiniMax M3 Free Removed",
-      "event": "deprecated",
-      "summary": "MiniMax M3 free tier đã bị remove khỏi OpenRouter.",
-      "why": "Migrate sang paid hoặc switch provider nếu đang dùng free tier video gen.",
+      "headline": "[OpenRouter PRICE] Qwen3 14B ↑$0.23/↑$0.91",
+      "event": "price",
+      "summary": "Qwen3 14B tăng 92% prompt, 279% completion.",
+      "why": "Qwen đẩy giá mạnh — migrate sang Qwen3.5 hoặc model khác nếu cost sensitive.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/minimax/minimax-m3:free",
+      "url": "https://openrouter.ai/models/qwen/qwen3-14b",
       "tags": [
-        "video",
-        "minimax"
+        "price-increase"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 177,
-    "brave": 50,
+    "raw": 164,
+    "brave": 48,
     "reddit": 0,
-    "hackernews": 4,
-    "rss": 41,
-    "huggingface": 8,
+    "hackernews": 9,
+    "rss": 33,
+    "huggingface": 7,
     "github": 10,
-    "openrouter": 12
+    "openrouter": 22
   }
 }
