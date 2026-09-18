@@ -1,0 +1,320 @@
+{
+  "date": "2026-09-18",
+  "updated_at": "2026-09-18T07:53:35.365694+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "GPT-6 Astra Ra Mắt — OpenAI Tuyên Bố 'Thế Hệ Intelligence Mới' Với Computer Use Native",
+    "summary": "OpenAI công bố GPT-6 Astra, được gọi là 'most intelligent and aligned model yet' với khả năng state-of-the-art về computer use, coding, cybersecurity và khoa học. Đây là model 'computer use' đầu tiên của OpenAI (đã cover sơ 16/9 nhưng chi tiết chính thức hôm nay), cạnh tranh trực tiếp với Claude Computer Use và đánh dấu bước ngoặt trong cuộc đua AI agent có thể điều khiển máy tính như con người.",
+    "why": "Cho manager + individual: Computer use native nghĩa là AI giờ có thể thao tác UI/browser/desktop apps như một nhân viên thực — workflow automation sẽ không còn cần custom API integration. Nhưng cũng đặt ra câu hỏi về security và kiểm soát: nếu AI có thể 'làm mọi thứ trên máy', làm sao audit hành động của nó? Đây là lúc cần rethink access control và monitoring systems.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "tags": [
+      "gpt-6",
+      "computer-use",
+      "agents",
+      "openai"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Bonsai 2 27B Ra Mắt — Model Nén 'Near-Lossless' Trong Footprint Nhỏ Hơn 9 Lần",
+      "why": "Cho creative + developer: model nén chất lượng cao nghĩa là deploy AI on-device hoặc edge mà không mất nhiều performance — giảm chi phí inference và tăng tốc độ. Đặc biệt hữu ích cho production pipeline cần xử lý realtime mà không muốn phụ thuộc cloud API.",
+      "source": "Prism ML",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "tags": [
+        "compression",
+        "efficiency",
+        "edge-ai"
+      ]
+    },
+    {
+      "headline": "HiDream Ra V1 — Native Omnimodal Video Model 'Built for Physical Consistency'",
+      "why": "Cho creative: nếu Sora/Kling/Veo vẫn gặp vấn đề vật lý không hợp lý (object disappearing, gravity weird), HiDream V1 claim focus vào physical consistency. Đây là signal mà thị trường video AI đang mature — không chỉ 'đẹp' mà còn 'đúng'. Test thử trước khi commit vào production workflow.",
+      "source": "PAN AFRICAN VISIONS",
+      "url": "https://panafricanvisions.com/2026/09/hidream-unveils-hidream-o1-video-1-0-a-native-omnimodal-video-model-built-for-physical-consistency/",
+      "tags": [
+        "video-gen",
+        "hidream",
+        "physics"
+      ]
+    },
+    {
+      "headline": "Snap Ra 'Specs Intelligence' — AI Assistant Tích Hợp Vào Kính AR Để Theo Dõi Work + Travel",
+      "why": "Cho individual: xu hướng AI assistant chuyển từ app/chatbot sang wearable AR glasses. Nếu bạn đang lo lắng về privacy với Meta Ray-Ban, Specs Intelligence cũng raise cùng câu hỏi — AI nhìn thấy mọi thứ bạn nhìn thấy, ai sở hữu dữ liệu đó?",
+      "source": "AIToolly",
+      "url": "https://aitoolly.com/ai-news/2026-09-17",
+      "tags": [
+        "ar",
+        "wearable",
+        "privacy"
+      ]
+    },
+    {
+      "headline": "Siri AI Rolling Out Today (Beta) — Tiếng Anh Trước, 5 Ngôn Ngữ Khác Tháng Sau",
+      "why": "Cho individual: Apple Intelligence + Siri AI chính thức có trong tay user hôm nay (beta). Nếu bạn đã quen workflow với ChatGPT/Claude, đây là lúc test xem Siri AI có đủ thông minh để thay thế không — đặc biệt về context awareness và integration với ecosystem Apple.",
+      "source": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "tags": [
+        "siri",
+        "apple-intelligence",
+        "beta"
+      ]
+    },
+    {
+      "headline": "Fulcrum Ra MCP Server + AI Toolkit — Field Teams Tạo Digital Workflows Qua AI",
+      "why": "Cho manager: đây là case study thực tế về 'AI cho non-technical users'. Field operations teams (xây dựng, logistics, utilities) giờ có thể tự tạo workflows mà không cần dev team — nghĩa là business process automation không còn là domain độc quyền của IT. Pattern này sẽ lan rộng.",
+      "source": "PR Newswire",
+      "url": "http://www.prnewswire.com/news-releases/fulcrum-announces-mcp--ai-toolkit-that-let-field-teams-create-fully-featured-end-to-end-digital-workflows-through-ai-302878913.html",
+      "tags": [
+        "no-code",
+        "field-ops",
+        "mcp"
+      ]
+    },
+    {
+      "headline": "Apollo Global Bắt Đầu Đầu Tư Vào AI Startups — Chuẩn Bị Cho Lending Rounds Tương Lai",
+      "why": "Cho founder: Apollo (firm nổi tiếng về LBO và debt financing) vào AI startup investment nghĩa là AI infrastructure và model companies sẽ có thêm nguồn vốn debt ngoài equity VC. Đây là signal về maturity — AI không còn chỉ là 'venture bet' mà đã đủ predictable để debt financing viable.",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/",
+      "tags": [
+        "funding",
+        "debt",
+        "apollo"
+      ]
+    }
+  ],
+  "production": [],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "LimiX-2 Ra Mắt — Model Dùng 'Contextual Mechanism Networks' Cho Structured-Data Intelligence",
+      "summary": "LimiX-2 áp dụng paradigm CMNs (Contextual Mechanism Networks) — thay vì học 'static weights' như LLM truyền thống, model này 'adapt weights' dựa trên context input. Paper claim đây là bước tiến về 'structured-data intelligence' — AI hiểu bảng biểu, database, spreadsheet tốt hơn.",
+      "why": "Cho curious + business: nếu công ty bạn có nhiều data dạng bảng biểu (finance, logistics, inventory), LimiX-2 có thể xử lý tốt hơn GPT/Claude vốn train trên text. Đây là niche nhưng quan trọng — 80% enterprise data là structured data, không phải prose.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2609.17488",
+      "tags": [
+        "structured-data",
+        "cmn",
+        "research"
+      ]
+    },
+    {
+      "headline": "Paper: 'Infinite-Parameter LLMs' — Sinh Weights Trực Tiếp Từ Data Thay Vì Pre-train",
+      "summary": "Nghiên cứu đề xuất kiến trúc LLM không lưu trữ weights cố định mà 'generate weights on-the-fly' từ live data. Ý tưởng: thay vì model 70B parameters cố định, model sẽ có 'meta-network' nhỏ sinh ra parameters tùy theo input — gọi là 'infinite-parameter' vì số parameter lý thuyết không bị giới hạn.",
+      "why": "Cho curious: đây là research direction khác biệt với scaling truyền thống (larger models). Nếu thành công, có thể giảm dramatically chi phí storage và training. Nhưng inference cost chưa rõ — sinh weights mỗi lần query có thể chậm hơn lookup weights sẵn có.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "tags": [
+        "research",
+        "architecture",
+        "meta-learning"
+      ]
+    },
+    {
+      "headline": "ScienceDaily: 'Scientists Build Artificial Neurons That Work Like Real Ones'",
+      "summary": "Nghiên cứu hardware AI — team xây dựng 'artificial neurons' bằng vật liệu vật lý (không phải software simulation) có khả năng spike và conduct signals giống biological neurons. Mục tiêu: neuromorphic computing — AI hardware tiêu thụ năng lượng thấp như não người.",
+      "why": "Cho curious: nếu neuromorphic chips thành công, AI có thể chạy trên thiết bị cực nhỏ với điện năng cực thấp (ví dụ: IoT sensors, drones). Nhưng vẫn còn xa commercialization — đây là fundamental research, chưa có product.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "neuromorphic",
+        "hardware",
+        "research"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Hang Ten (Ex-Infosys Chief's AI Startup) Huy Động Thêm $53M — Tổng $85M",
+      "summary": "Hang Ten, startup AI của cựu lãnh đạo Infosys, raise thêm $53M trong vòng mới do Temasek's Xora dẫn đầu. Startup này focus vào AI cho enterprise operations, đặc biệt automation cho workflows phức tạp trong các công ty lớn.",
+      "why": "Cho founder: pattern này lặp lại — ex-executives từ Big Tech/Consulting (McKinsey, Infosys, IBM) raise vốn dễ hơn founder mới vì có network + domain expertise sâu. Nếu bạn đang build AI for enterprise, consider strategic hire hoặc advisor từ target industry để credibility khi fundraise.",
+      "source": "NewsBreak",
+      "url": "https://www.newsbreak.com/techcrunch-com-332114314/4889565143549-former-infosys-chief-s-ai-startup-nabs-another-53m",
+      "tags": [
+        "funding",
+        "enterprise-ai",
+        "temasek"
+      ]
+    },
+    {
+      "headline": "OpenAI Đạt Định Giá $1.2T — Báo Cáo Funding Và AI Safety News Mới Nhất",
+      "summary": "Theo Venture Daily Digest, OpenAI đang explore định giá $1.2 trillion trong vòng funding mới. Đồng thời, AIUC (AI safety startup) raise $40M, Salesforce và Nvidia launch Koa, và tổng $768M+ funding mới cho các AI startups khác.",
+      "why": "Cho founder + investor: $1.2T valuation cho OpenAI (nếu thành công) sẽ là mốc lịch sử — cao hơn Meta, gần bằng Apple. Đây là signal về kỳ vọng AGI monetization trong 3-5 năm tới. Nhưng cũng raise câu hỏi: nếu OpenAI valued như vậy, các AI startup khác sẽ bị so sánh harsh hơn — 'nếu không phải next OpenAI thì tại sao invest?'",
+      "source": "Venture Daily Digest",
+      "url": "https://www.venturedailydigest.com/p/openai-ai-safety-startup-funding-september-16-2026",
+      "tags": [
+        "valuation",
+        "openai",
+        "funding"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "OpenClaw — 'The AI That Really Does Things' Đạt 390K Stars Trên GitHub",
+      "why": "Agent framework mới với slogan 'lobster way' (quirky branding) — support cross-platform (any OS). 390K stars trong thời gian ngắn nghĩa là community đang hungry for practical agent tools. Đáng test nếu bạn đang build automation workflows.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "390006"
+    },
+    {
+      "headline": "Superpowers — 'Agentic Skills Framework' Với 288K Stars",
+      "why": "Framework định nghĩa 'software development methodology' cho agentic AI — không chỉ là tool mà còn là process thinking. 288K stars signal này có adoption rộng. Nếu team bạn đang struggle với 'làm sao structure agent workflows', đây là starting point tốt.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "288128"
+    },
+    {
+      "headline": "Hermes Agent (Nous Research) — 'The Agent That Grows With You' Đạt 246K Stars",
+      "why": "Nous Research (team đằng sau các open models nổi tiếng) ra agent framework focus vào 'learning over time'. 246K stars nghĩa là đây không phải side project. Nếu bạn muốn agent có memory và adaptive behavior, Hermes đáng explore.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "246556"
+    },
+    {
+      "headline": "n8n Đạt 204K Stars — Workflow Automation Platform Với Native AI",
+      "why": "n8n là incumbent trong no-code automation, giờ tích hợp 'native AI capabilities'. 204K stars và self-host option nghĩa là đây là alternative mạnh cho Zapier/Make nếu bạn cần control data và integrate AI vào workflows. Fair-code license (không phải full open-source nhưng transparent hơn proprietary).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "204990"
+    },
+    {
+      "headline": "Dify Đạt 156K Stars — Platform Build Agentic Workflows + RAG",
+      "why": "Dify là all-in-one cho build AI agents + RAG pipelines. 156K stars và support cả cloud/VPC/self-hosted nghĩa là flexible cho mọi scale. Nếu bạn đang evaluate 'platform nào để team move từ prototype sang production', Dify là top candidate.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "156195"
+    },
+    {
+      "headline": "Open WebUI Đạt 152K Stars — User-Friendly Interface Cho Ollama + OpenAI",
+      "why": "Open WebUI là UI layer cho local models (Ollama) và cloud APIs (OpenAI). 152K stars nghĩa là nhiều người muốn 'ChatGPT UI' nhưng self-hosted hoặc connect đến custom models. Useful nếu bạn muốn deploy internal AI tool cho team mà không muốn dùng ChatGPT public.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "152412"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Qwen3.8 27B (Free) — Open-Weight Vision-Language Model",
+      "event": "new",
+      "summary": "Qwen3.8 27B là dense vision-language model từ Qwen, support coding, multimodal, agent tasks. Free tier trên OpenRouter.",
+      "why": "Free tier cho 27B model với vision capabilities — tốt cho prototype hoặc projects có budget thấp. Qwen models thường có quality tốt với giá rẻ/free.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.8-27b:free",
+      "tags": [
+        "free",
+        "vision",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Pareto — Multimodal Composite Model $2.50/$7.50",
+      "event": "new",
+      "summary": "Pareto là composite model cho research, coding, agentic workflows với frontier-level performance across tasks.",
+      "why": "Composite model nghĩa là combine nhiều models — có thể có accuracy tốt hơn single model nhưng latency cao hơn. $2.50/$7.50 nằm trong mid-range pricing. Test nếu task cần high accuracy hơn speed.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/unbiased/pareto",
+      "tags": [
+        "composite",
+        "multimodal",
+        "new"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Union Alpha Removed",
+      "event": "deprecated",
+      "summary": "Model stealth/union-alpha không còn available trên OpenRouter. Users cần migrate.",
+      "why": "Nếu workflow bạn đang dùng Union Alpha, cần migrate ngay. Check OpenRouter docs để tìm alternative model tương đương.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/stealth/union-alpha",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Muse Glimmer 30B Giảm 14-27%",
+      "event": "price",
+      "summary": "Prompt $0.35→$0.30 (-14%), completion $1.50→$1.10 (-27%).",
+      "why": "Giảm giá đáng kể cho Meta model — nếu đang dùng models khác trong cùng tier, consider switch để save cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+      "tags": [
+        "price-drop",
+        "meta"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V3 Giá Trái Chiều: Prompt +23%, Completion -14%",
+      "event": "price",
+      "summary": "Prompt $0.26→$0.32 (+23%), completion $1.03→$0.89 (-14%).",
+      "why": "Pattern lạ: prompt tăng nhưng completion giảm. Nếu use case của bạn là long outputs (completion-heavy), đây là deal tốt. Nếu many short queries (prompt-heavy), cost sẽ tăng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-chat",
+      "tags": [
+        "price-change",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM Latest Tăng 6-13%",
+      "event": "price",
+      "summary": "Prompt $0.83→$0.88 (+6%), completion $2.62→$2.97 (+13%).",
+      "why": "Tiếp tục trend tăng giá của Chinese AI providers (GLM đã tăng tuần trước). Nếu đang dùng GLM cho cost, consider alternatives như Qwen hoặc MoonshotAI (đang giảm giá).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~z-ai/glm-latest",
+      "tags": [
+        "price-increase",
+        "glm"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI gpt-oss-120b Tăng Giá Mạnh 275-253%",
+      "event": "price",
+      "summary": "Prompt $0.04→$0.15 (+275%), completion $0.17→$0.60 (+253%).",
+      "why": "Tăng giá cực mạnh cho open-source model 120B của OpenAI — có thể là signal model này đang popular và OpenAI adjust pricing theo demand. Nếu budget-sensitive, cần tìm alternative ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "price-spike",
+        "openai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K3 Giảm 30-27%",
+      "event": "price",
+      "summary": "Prompt $3.00→$2.10 (-30%), completion $15.00→$10.95 (-27%).",
+      "why": "Kimi K3 giảm giá mạnh — đây là counterbalance với các Chinese providers khác đang tăng. Nếu cần long-context model (Kimi nổi tiếng về context window dài), đây là timing tốt để test.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3",
+      "tags": [
+        "price-drop",
+        "kimi"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 4.6 Tăng 16-14%",
+      "event": "price",
+      "summary": "Prompt $0.43→$0.50 (+16%), completion $1.75→$2.00 (+14%).",
+      "why": "GLM 4.6 cũng tăng giá (consistent với GLM Latest). Pattern: Z.ai đang adjust pricing across line. Monitor tiếp vài ngày để xem có stabilize không.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+      "tags": [
+        "price-increase",
+        "glm"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 164,
+    "brave": 46,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 38,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 9
+  }
+}
