@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-30",
-  "updated_at": "2026-09-30T08:44:24.753984+07:00",
-  "weekday": "Wednesday",
+  "date": "2026-10-01",
+  "updated_at": "2026-10-01T08:41:31.604026+07:00",
+  "weekday": "Thursday",
   "top_story": {
-    "headline": "OpenAI Ra Mắt GPT-6.1 Sol và Thế Hệ AI Agent Mới tại DevDay 2026",
-    "summary": "OpenAI vừa công bố GPT-6.1 Sol, phiên bản AI mạnh mẽ hơn với hiệu suất vượt trội trong công việc chuyên môn và khả năng sử dụng máy tính. Đồng thời, hãng giới thiệu \"Dots\" – các AI agent luôn hoạt động, có thể đảm nhận trách nhiệm liên tục và mở rộng hệ sinh thái ChatGPT thành một nền tảng hợp tác giữa người và AI agent.",
-    "why": "Điều này có nghĩa các team sản xuất và quản lý có thể mong đợi AI mạnh mẽ hơn, chi phí hiệu quả hơn cho các tác vụ phức tạp, và đặc biệt là khả năng triển khai các AI agent tự động hóa quy trình làm việc, giảm tải công việc lặp lại và tăng hiệu suất đáng kể trong mọi khâu từ ý tưởng đến sản xuất.",
+    "headline": "OpenAI ra mắt GPT-6.1 Sol và chiến lược AI Agent tại DevDay 2026",
+    "summary": "OpenAI công bố mô hình GPT-6.1 Sol, nâng cấp đáng kể về hiệu suất, cùng với tầm nhìn về các AI agent có khả năng đảm nhận trách nhiệm liên tục và mở rộng hệ sinh thái ChatGPT thành một bề mặt cộng tác chung cho người dùng và agent.",
+    "why": "Điều này có nghĩa là các team phát triển có thể xây dựng các ứng dụng AI phức tạp hơn, tự động hóa nhiều tác vụ hơn với agent, và các manager cần chuẩn bị chiến lược tích hợp AI agent vào quy trình làm việc để tối ưu hiệu suất và mở rộng khả năng sáng tạo.",
     "source": "CNBC, OpenAI",
     "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
     "tags": [
@@ -13,356 +13,237 @@
       "GPT-6.1 Sol",
       "AI Agent",
       "DevDay",
-      "Automation"
+      "Mô hình ngôn ngữ lớn"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Apple Ra Mắt Siri AI Mới: Trợ Lý Cá Nhân Thông Minh Hơn, Sâu Sắc Hơn",
-      "why": "Đánh dấu bước tiến lớn trong việc tích hợp AI vào hệ sinh thái Apple, mở ra tiềm năng cho các nhà phát triển tạo ra trải nghiệm người dùng cá nhân hóa và thông minh hơn trên hàng tỷ thiết bị.",
-      "source": "Apple",
+      "headline": "Google ra mắt Gemini 4 Argon, tăng cường khả năng đa phương thức",
+      "why": "Đánh dấu bước tiến mới của Google trong cuộc đua mô hình nền tảng, có thể mở ra các ứng dụng AI đa phương thức mạnh mẽ hơn cho các nhà phát triển và creative trong tương lai.",
+      "source": "Hacker News",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Mô hình đa phương thức"
+      ]
+    },
+    {
+      "headline": "Apple bắt đầu triển khai Siri AI beta với khả năng cá nhân hóa vượt trội",
+      "why": "Cho thấy AI đang đi sâu vào trải nghiệm người dùng cuối trên thiết bị di động, các creative và producer cần cân nhắc cách AI assistant có thể tương tác với nội dung và sản phẩm của họ để tạo ra trải nghiệm mới.",
+      "source": "Apple Newsroom",
       "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
       "tags": [
         "Apple",
         "Siri AI",
-        "Consumer AI",
-        "Personal Assistant"
+        "Trợ lý ảo",
+        "AI tiêu dùng"
       ]
     },
     {
-      "headline": "Microsoft Copilot Giới Thiệu Autopilot: AI Agent Tự Động Hóa Công Việc Liên Tục",
-      "why": "Autopilot hứa hẹn thay đổi cách làm việc trong doanh nghiệp, cho phép các manager và team giao phó các tác vụ lặp lại, quản lý dự án cho AI, giải phóng thời gian cho công việc sáng tạo và chiến lược.",
-      "source": "Microsoft Blogs",
-      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "tags": [
-        "Microsoft",
-        "Copilot",
-        "Autopilot",
-        "Enterprise AI",
-        "Productivity"
-      ]
-    },
-    {
-      "headline": "Anthropic Ra Mắt Claude Sonnet 5.5: Mô Hình AI Tầm Trung Mạnh Mẽ, Miễn Phí",
-      "why": "Cung cấp một lựa chọn AI mạnh mẽ, tiết kiệm chi phí cho các tác vụ hàng ngày, giúp các team nhỏ và freelancer tiếp cận công nghệ tiên tiến mà không cần đầu tư lớn vào các mô hình cao cấp.",
-      "source": "LLM Leaderboard, Fello AI",
-      "url": "https://llm-stats.com/ai-news",
-      "tags": [
-        "Anthropic",
-        "Claude Sonnet",
-        "LLM",
-        "Cost-effective AI"
-      ]
-    },
-    {
-      "headline": "OpenAI Hé Lộ GPT-5.6 Sol: Nâng Cao Khả Năng Lập Trình, Khoa Học và An Ninh Mạng",
-      "why": "Phiên bản này đặc biệt quan trọng cho các team R&D và kỹ sư, mang lại công cụ mạnh mẽ hơn để giải quyết các bài toán phức tạp trong phát triển phần mềm, nghiên cứu khoa học và bảo mật hệ thống.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "tags": [
-        "OpenAI",
-        "GPT-5.6 Sol",
-        "Coding AI",
-        "Cybersecurity AI"
-      ]
-    },
-    {
-      "headline": "Phân Tích Quyền Riêng Tư Của AI Agent Đàm Thoại Trên Web và Di Động",
-      "why": "Các nhà quản lý và phát triển cần lưu ý đến vấn đề bảo mật dữ liệu khi triển khai AI agent, đảm bảo tuân thủ quy định và xây dựng lòng tin với người dùng, tránh rủi ro pháp lý và uy tín.",
+      "headline": "Magnitude (YC S25) gọi vốn thành công cho công cụ tối ưu suy luận AI agent",
+      "why": "Giúp các công ty giảm chi phí vận hành và tăng tốc độ triển khai AI agent, đặc biệt quan trọng cho các team phát triển muốn đưa agent vào sản xuất thực tế với hiệu quả cao hơn.",
       "source": "Hacker News",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "url": "https://github.com/magnitudedev/magnitude",
       "tags": [
-        "Privacy",
+        "Startup",
+        "Funding",
         "AI Agent",
-        "Ethics",
-        "Regulation"
+        "Tối ưu hóa"
+      ]
+    },
+    {
+      "headline": "Hơn 60% vốn VC đổ vào AI, Series A startup AI đạt định giá trung bình 300 triệu USD",
+      "why": "Phản ánh sự bùng nổ đầu tư vào AI, các founder và manager trong ngành cần nắm bắt xu hướng này để định vị chiến lược gọi vốn và phát triển sản phẩm, đồng thời hiểu rõ kỳ vọng về định giá thị trường.",
+      "source": "Carta",
+      "url": "https://carta.com/learn/startups/fundraising/series-a/",
+      "tags": [
+        "Đầu tư",
+        "VC",
+        "Startup AI",
+        "Định giá"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Kling AI Ra Mắt Mô Hình Video AI 4K Gốc Đầu Tiên Thế Giới",
-      "summary": "Kling AI giới thiệu khả năng tạo video AI chất lượng 4K nguyên bản, mang lại chuyển động ổn định và trải nghiệm nghe nhìn sống động, nâng tầm sản xuất video lên cấp độ chuyên nghiệp.",
-      "why": "Có nghĩa team production có thể gen 4K trực tiếp, không cần upscale post-production — tiết kiệm 30% thời gian hậu kỳ và chi phí, đồng thời mở ra khả năng sáng tạo nội dung chất lượng cao hơn.",
-      "source": "Kling AI",
-      "url": "https://kling.ai/",
+      "headline": "Xelta tiên phong sản xuất phim điện ảnh bằng AI, kết hợp hơn 90 mô hình",
+      "summary": "Xelta đang chuyển từ tạo clip sang sản xuất điện ảnh hoàn chỉnh, sử dụng hệ thống kết hợp hơn 90 mô hình AI như Seedance 2.0, Kling v2.5 Turbo Pro, Gemini Omni Flash, FLUX Kontext Pro để chọn mô hình tốt nhất cho từng cảnh quay.",
+      "why": "Điều này cho thấy tiềm năng AI trong việc tự động hóa và nâng cao chất lượng sản xuất video ở quy mô lớn, giúp các team creative và production giảm thời gian, chi phí và mở rộng khả năng sáng tạo vượt trội.",
+      "source": "EIN Presswire",
+      "url": "https://www.einpresswire.com/article/944798037/best-ai-video-generator-2026-inside-xelta-s-push-from-clip-generation-to-full-cinematic-production",
       "tags": [
-        "Video Generation",
-        "4K AI",
-        "Production Tools",
-        "Kling AI"
+        "Sản xuất video",
+        "AI Video",
+        "Điện ảnh",
+        "Creative"
       ]
     },
     {
-      "headline": "xAI Grok-Imagine-Video-1.5 Hỗ Trợ Tạo Video Đa Dạng Với Chất Lượng 4K Gốc",
-      "summary": "Grok-Imagine-Video-1.5 của xAI giờ đây cho phép tạo video từ văn bản, hình ảnh hoặc video tham chiếu, kèm theo tùy chọn giọng nói cài đặt sẵn và hỗ trợ chất lượng 4K nguyên bản.",
-      "why": "Các nhà sáng tạo nội dung và team marketing có thể nhanh chóng biến ý tưởng thành video chất lượng cao, từ kịch bản văn bản đến chuyển động hình ảnh, giảm đáng kể thời gian và nguồn lực sản xuất.",
-      "source": "xAI Docs",
-      "url": "https://docs.x.ai/developers/release-notes",
+      "headline": "LTX-2.5 cung cấp khả năng tạo video 4K, 50fps có kiểm soát cho đội ngũ VFX",
+      "summary": "LTX-2.5 mang đến khả năng tạo video có thể kiểm soát cho các đội ngũ VFX, với các LoRA điều khiển camera được huấn luyện trước, chuyển đổi video-to-video IC-LoRA và pre-vis chất lượng cao ở 4K và 50fps.",
+      "why": "Có nghĩa team production có thể gen 4K trực tiếp, không cần upscale post — tiết kiệm 30% post time và tăng cường khả năng kiểm soát sáng tạo cho các dự án VFX phức tạp, mở ra kỷ nguyên mới cho hiệu ứng hình ảnh.",
+      "source": "LTX",
+      "url": "https://ltx.io/solution/vfx",
       "tags": [
+        "VFX",
         "Video Generation",
-        "Text-to-Video",
-        "Image-to-Video",
-        "xAI",
-        "4K AI"
+        "4K",
+        "Kiểm soát sáng tạo"
       ]
     },
     {
-      "headline": "Gemini Omni 1.1 Flash: Tạo và Chỉnh Sửa Video Dễ Dàng Như Trò Chuyện",
-      "summary": "Gemini Omni 1.1 Flash của Google cho phép người dùng tạo video từ mọi loại đầu vào, bao gồm cả việc biến ảnh tĩnh thành video động, thông qua giao diện đàm thoại trực quan.",
-      "why": "Đơn giản hóa quy trình sản xuất video cho người không chuyên, giúp các team marketing, social media nhanh chóng tạo nội dung hấp dẫn mà không cần kỹ năng chỉnh sửa phức tạp, tăng tốc độ ra mắt chiến dịch.",
-      "source": "Gemini",
+      "headline": "Gemini Omni và Dreamina (CapCut) đơn giản hóa tạo video và ảnh bằng AI",
+      "summary": "Gemini Omni của Google cho phép tạo và chỉnh sửa video dễ dàng như trò chuyện, trong khi Dreamina của CapCut cung cấp nền tảng miễn phí để tạo ảnh độ phân giải cao từ văn bản và biến chúng thành video động.",
+      "why": "Các công cụ này giúp creative và producer nhanh chóng biến ý tưởng thành hình ảnh/video chất lượng cao mà không cần kỹ năng chuyên môn sâu, đẩy nhanh quy trình tiền sản xuất và thử nghiệm ý tưởng, tối ưu hóa workflow.",
+      "source": "Gemini, CapCut",
       "url": "https://gemini.google/overview/video-generation/",
       "tags": [
-        "Video Generation",
-        "Google AI",
-        "Gemini",
-        "Ease of Use"
+        "AI Video",
+        "AI Image",
+        "Creative Tools",
+        "CapCut",
+        "Gemini"
       ]
     },
     {
-      "headline": "Dreamina (CapCut) Cung Cấp Nền Tảng Tạo Video và Hình Ảnh AI Miễn Phí",
-      "summary": "Dreamina, tích hợp trong CapCut, cho phép tạo hình ảnh độ phân giải cao từ văn bản và biến chúng thành video động, sử dụng các mô hình tiên tiến như Seedance 2.0 và Seedream 5.0 Lite.",
-      "why": "Đây là công cụ lý tưởng cho các nhà sáng tạo nội dung cá nhân, team marketing nhỏ muốn thử nghiệm AI mà không tốn chi phí, giúp tạo ra nội dung đa phương tiện chất lượng cao một cách nhanh chóng và dễ dàng.",
-      "source": "CapCut",
-      "url": "https://dreamina.capcut.com/",
+      "headline": "Sự bùng nổ của AI Coding Agents: Từ hỗ trợ lập trình đến tự động hóa toàn diện",
+      "summary": "Các AI coding agent như Atlarix, Codex đang trở thành công cụ thiết yếu, cho phép AI hiểu mục tiêu phát triển, kiểm tra codebase, sử dụng công cụ, chỉnh sửa file, chạy thử nghiệm và tự động hoàn thành các tác vụ lập trình phức tạp.",
+      "why": "Giúp các team phát triển tăng tốc độ và hiệu quả công việc, giảm lỗi và cho phép developer tập trung vào các vấn đề thiết kế và kiến trúc phức tạp hơn, tiết kiệm đáng kể thời gian và nguồn lực trong chu trình phát triển phần mềm.",
+      "source": "Tech Insider, MightyBot, Agentic.ai",
+      "url": "https://tech-insider.org/computer-use-ai-agent-setup-2026/",
       "tags": [
-        "Video Generation",
-        "Image Generation",
-        "Free AI Tools",
-        "CapCut"
-      ]
-    },
-    {
-      "headline": "Pika Labs Ra Mắt Bộ Công Cụ AI Đa Phương Tiện: Video, Âm Thanh và Giọng Nói",
-      "summary": "Pika Labs giới thiệu bốn mô hình mới bao gồm Pika Soundtrack (tạo âm thanh đồng bộ với video), Pika Music (tạo bài hát), Pika SFX (hiệu ứng âm thanh) và Pika Speech (nhân bản giọng nói).",
-      "why": "Các nhà sản xuất nội dung có thể tạo ra trải nghiệm đa giác quan hoàn chỉnh hơn, từ video đến âm thanh, chỉ với một nền tảng AI, tối ưu hóa quy trình sản xuất và nâng cao chất lượng sản phẩm cuối cùng.",
-      "source": "Pika Labs",
-      "url": "https://pikaslabs.com/",
-      "tags": [
-        "Video Generation",
-        "Audio Generation",
-        "Voice Cloning",
-        "Pika Labs"
-      ]
-    },
-    {
-      "headline": "Higgsfield AI: Bộ Công Cụ Sáng Tạo AI-native Toàn Diện",
-      "summary": "Higgsfield AI cung cấp một bộ giải pháp sáng tạo toàn diện với các mô hình video tiên tiến (TopVideo, Nano Banana Pro), công cụ tạo hình ảnh chất lượng cao và plugin cho ChatGPT để tạo nội dung trực tiếp.",
-      "why": "Đây là một nền tảng mạnh mẽ cho các team sáng tạo, cho phép họ thử nghiệm nhiều phiên bản nội dung (video, hình ảnh) nhanh chóng, tích hợp AI vào quy trình làm việc hiện có để tăng tốc độ và hiệu quả sáng tạo.",
-      "source": "Higgsfield",
-      "url": "https://higgsfield.ai/",
-      "tags": [
-        "Creative Suite",
-        "Video Generation",
-        "Image Generation",
-        "Higgsfield AI"
+        "AI Coding",
+        "AI Agent",
+        "Phát triển phần mềm",
+        "Tự động hóa"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Google Ra Mắt Gemini 3.8 Flash: Nâng Cao Khả Năng Kỹ Thuật Phần Mềm và AI Agent",
-      "summary": "Gemini 3.8 Flash là mô hình mới nhất của Google, được cải thiện đáng kể về khả năng kỹ thuật phần mềm, xử lý các quy trình làm việc của AI agent và suy luận đa bước.",
-      "why": "Các nhà phát triển và kỹ sư có thể tận dụng mô hình này để tự động hóa các tác vụ lập trình phức tạp, xây dựng các AI agent thông minh hơn, và giải quyết các vấn đề đòi hỏi suy luận sâu sắc.",
-      "source": "Evertune",
-      "url": "https://www.evertune.ai/resources/ai-model-tracker",
+      "headline": "Nghiên cứu về 'Điểm yếu định kỳ' trong nén KV-Cache cho mô hình AI dài ngữ cảnh",
+      "summary": "Nghiên cứu khám phá cách nén KV-cache theo từng khối (chunked KV-cache compression) ảnh hưởng đến hiệu suất của các mô hình ngôn ngữ lớn khi xử lý ngữ cảnh dài, đặc biệt là sự nhạy cảm theo pha (phase sensitivity).",
+      "why": "Giúp các kỹ sư và nhà nghiên cứu hiểu rõ hơn về cách tối ưu hóa bộ nhớ và hiệu suất của LLM cho ngữ cảnh dài, từ đó cải thiện khả năng xử lý dữ liệu lớn trong các ứng dụng thực tế và giảm chi phí vận hành.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2609.36322",
       "tags": [
-        "Google Research",
-        "Gemini",
-        "Software Engineering AI",
-        "AI Agent"
-      ]
-    },
-    {
-      "headline": "Sakana AI Phát Hành Fugu Ultra v2.0",
-      "summary": "Sakana AI đã ra mắt Fugu Ultra v2.0, một mô hình AI mới, tiếp tục mở rộng khả năng của công ty trong lĩnh vực AI.",
-      "why": "Đây là một mô hình mới đáng chú ý cho các nhà nghiên cứu và doanh nghiệp muốn khám phá các lựa chọn thay thế cho các mô hình lớn, có thể mang lại hiệu suất cạnh tranh với chi phí tối ưu hơn.",
-      "source": "LLM Gateway",
-      "url": "https://llmgateway.io/timeline",
-      "tags": [
-        "Sakana AI",
         "LLM",
-        "AI Model"
-      ]
-    },
-    {
-      "headline": "Apple, DeepSeek và Google Đồng Loạt Ra Mắt Các Mô Hình AI Mới",
-      "summary": "Apple giới thiệu LensVLM-9B, DeepSeek-AI phát hành DeepSeek-V4.1-Flash, và Google công bố gnm-v3, đánh dấu sự phát triển liên tục trong lĩnh vực mô hình AI.",
-      "why": "Sự xuất hiện của nhiều mô hình mới từ các ông lớn cho thấy thị trường AI đang rất sôi động, mang lại nhiều lựa chọn hơn cho các nhà phát triển và doanh nghiệp để tích hợp AI vào sản phẩm và dịch vụ của mình.",
-      "source": "Aiflashreport",
-      "url": "https://aiflashreport.com/model-releases.html",
-      "tags": [
-        "Apple AI",
-        "DeepSeek AI",
-        "Google AI",
-        "New Models"
+        "KV-Cache",
+        "Tối ưu hóa",
+        "Nghiên cứu AI"
       ]
     }
   ],
   "business": [
     {
-      "headline": "AMD Mua Lại World Labs Của Fei-Fei Li Với Giá 8.2 Tỷ USD, Đẩy Mạnh Chiến Lược AI",
-      "summary": "AMD đã chi 8.2 tỷ USD để mua lại World Labs, startup AI do Fei-Fei Li sáng lập, nhằm tăng cường năng lực trong công nghệ AI cho robot và mô phỏng.",
-      "why": "Đây là một thương vụ M&A lớn cho thấy các ông lớn chip đang đầu tư mạnh vào AI, tạo ra áp lực cạnh tranh cho các startup AI khác và mở ra cơ hội hợp tác hoặc mua lại trong tương lai.",
-      "source": "Tech Startups",
+      "headline": "AMD chi 8.2 tỷ USD mua lại startup AI World Labs của Fei-Fei Li",
+      "summary": "AMD đã mua lại World Labs, startup AI do Fei-Fei Li sáng lập, với giá 8.2 tỷ USD bằng cổ phiếu, nhằm đẩy mạnh vị thế trong công nghệ AI cho robot và mô phỏng, củng cố mảng AI vật lý.",
+      "why": "Đây là một thương vụ M&A lớn, cho thấy các ông lớn chip đang tăng cường đầu tư vào phần mềm và nghiên cứu AI để cạnh tranh, ảnh hưởng đến chiến lược phát triển sản phẩm và đối tác của các startup AI, đặc biệt trong lĩnh vực AI biên.",
+      "source": "Tech Startups, IDNFinancials",
       "url": "https://techstartups.com/2026/09/28/amd-to-acquire-fei-fei-lis-world-labs-for-8-2-billion-in-major-ai-push/",
       "tags": [
         "M&A",
         "AMD",
         "World Labs",
-        "AI Investment",
-        "Semiconductor"
+        "AI vật lý",
+        "Đầu tư"
       ]
     },
     {
-      "headline": "Startup AI Chiếm Hơn 60% Vốn Đầu Tư Mạo Hiểm, Định Giá Series A Gấp 5 Lần",
-      "summary": "Dữ liệu Q1 2026 của Carta cho thấy hơn 60% vốn đầu tư mạo hiểm chảy vào các công ty AI, với các startup mô hình nền tảng AI đạt định giá Series A trung bình 300 triệu USD, cao gấp 5 lần so với startup phi AI.",
-      "why": "Các founder AI cần nắm bắt xu hướng này để định giá và gọi vốn hợp lý. Các nhà đầu tư và manager nên tập trung vào AI để tìm kiếm cơ hội tăng trưởng vượt trội, nhưng cũng cần cẩn trọng với bong bóng định giá.",
-      "source": "Carta, FundingWatcher",
-      "url": "https://carta.com/learn/startups/fundraising/series-a/",
-      "tags": [
-        "Venture Capital",
-        "AI Funding",
-        "Startup Valuation",
-        "Market Trend"
-      ]
-    },
-    {
-      "headline": "SiMa.ai Huy Động 150 Triệu USD Vòng Series C, Định Giá 1.45 Tỷ USD",
-      "summary": "SiMa.ai, công ty dẫn đầu về AI vật lý, đã hoàn tất vòng gọi vốn Series C trị giá 150 triệu USD, nâng tổng số vốn huy động lên 500 triệu USD và định giá công ty ở mức 1.45 tỷ USD.",
-      "why": "Điều này cho thấy sự quan tâm lớn vào các giải pháp AI chuyên biệt cho phần cứng (Physical AI), mở ra cơ hội cho các nhà đầu tư và doanh nghiệp tìm kiếm các ứng dụng AI hiệu quả trên thiết bị biên.",
+      "headline": "SiMa.ai huy động 150 triệu USD Series C, đạt định giá 1.45 tỷ USD cho AI vật lý",
+      "summary": "SiMa.ai, công ty dẫn đầu về AI vật lý, đã công bố hoàn tất vòng gọi vốn Series C trị giá 150 triệu USD, nâng tổng số vốn lên 500 triệu USD và định giá công ty ở mức 1.45 tỷ USD.",
+      "why": "Cho thấy sự quan tâm mạnh mẽ của nhà đầu tư vào các giải pháp AI chuyên biệt cho phần cứng (physical AI), mở ra cơ hội cho các công ty phát triển chip và ứng dụng AI biên, đồng thời là tín hiệu tốt cho thị trường AI chuyên dụng.",
       "source": "Business Wire",
       "url": "https://www.businesswire.com/newsroom/subject/funding",
       "tags": [
         "Funding",
-        "Physical AI",
-        "SiMa.ai",
-        "Venture Capital"
+        "Startup AI",
+        "AI vật lý",
+        "Định giá"
       ]
     },
     {
-      "headline": "Dextr AI Huy Động 6.7 Triệu USD Phát Triển AI Agent Cho Ngành Khách Sạn",
-      "summary": "Dextr AI đã gọi vốn thành công 6.7 triệu USD để phát triển các AI agent chuyên biệt, hỗ trợ các tác vụ từ đặt phòng đến check-in muộn trong ngành khách sạn.",
-      "why": "Cho thấy tiềm năng lớn của AI agent trong việc tự động hóa dịch vụ khách hàng và vận hành trong các ngành dịch vụ, mở ra cơ hội cho các doanh nghiệp khác áp dụng AI để tối ưu hóa quy trình.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/sections/ai/",
+      "headline": "Bessemer đóng quỹ 5.75 tỷ USD, 4 tỷ dành cho các thương vụ tăng trưởng AI",
+      "summary": "Bessemer đã đóng hai quỹ mới với tổng cộng 5.75 tỷ USD, trong đó 4 tỷ USD sẽ được dành cho các thương vụ đầu tư tăng trưởng, đặc biệt trong lĩnh vực AI.",
+      "why": "Điều này báo hiệu một sự dịch chuyển trong chiến lược đầu tư VC, từ seed sang các vòng tăng trưởng lớn hơn, các startup AI cần chuẩn bị kế hoạch phát triển dài hạn và chứng minh khả năng mở rộng để thu hút vốn, tập trung vào tăng trưởng bền vững.",
+      "source": "Technori",
+      "url": "https://technori.com/2026/09/26944-ai-startup-funding-bessemer-growth/nadia/",
       "tags": [
-        "Funding",
-        "AI Agent",
-        "Hospitality AI",
-        "Dextr AI"
+        "VC",
+        "Quỹ đầu tư",
+        "AI Growth",
+        "Startup Funding"
       ]
     },
     {
-      "headline": "Bidgely Ra Mắt Bộ Giải Pháp AI Agent Nâng Cao Trải Nghiệm Khách Hàng Cho Ngành Điện Lực",
-      "summary": "Bidgely đã giới thiệu một bộ giải pháp AI agent mới, được thiết kế để phân tích dữ liệu tiêu thụ điện, giải quyết các yêu cầu thanh toán và đưa ra khuyến nghị tiết kiệm năng lượng cho khách hàng ngành điện lực.",
-      "why": "Minh họa cách AI agent có thể được áp dụng trong các ngành truyền thống để cải thiện dịch vụ khách hàng, tối ưu hóa vận hành và tạo ra giá trị mới, là bài học cho các manager trong mọi lĩnh vực.",
-      "source": "MarTech",
-      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "headline": "Braze và Bidgely giới thiệu bộ công cụ AI agent mới cho marketing và CX",
+      "summary": "Braze ra mắt các công cụ AI mới tại Forge 2026 giúp marketer kiểm soát tốt hơn, trong khi Bidgely giới thiệu bộ giải pháp trải nghiệm khách hàng AI agent cho các nhà cung cấp tiện ích năng lượng.",
+      "why": "Các giải pháp này cho phép doanh nghiệp tự động hóa và cá nhân hóa trải nghiệm khách hàng ở quy mô lớn, giúp manager tối ưu chiến dịch marketing và dịch vụ khách hàng, tăng hiệu quả kinh doanh và giữ chân khách hàng.",
+      "source": "CX Today, MarTech",
+      "url": "https://cxtoday.com/braze-forge-2026-ai-turns-marketers-into-decision-makers",
       "tags": [
         "Enterprise AI",
+        "Marketing",
+        "CX",
         "AI Agent",
-        "Utilities",
-        "Customer Experience"
+        "Tự động hóa"
       ]
     }
   ],
-  "society": [
-    {
-      "headline": "Nghiên Cứu MIT: AI Trong Tuyển Dụng Có Thể Có Lợi Cho Ứng Viên",
-      "summary": "Các nhà nghiên cứu MIT phát hiện rằng việc nhiều công ty sử dụng cùng một thuật toán AI trong quyết định tuyển dụng có thể mang lại lợi ích cho người tìm việc trong một số trường hợp nhất định.",
-      "why": "Điều này gợi mở về tác động phức tạp của AI lên thị trường lao động, khuyến khích các nhà quản lý nhân sự và chính sách xem xét kỹ lưỡng cách AI được triển khai để đảm bảo công bằng và hiệu quả.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "AI Ethics",
-        "Hiring AI",
-        "Labor Market",
-        "MIT Research"
-      ]
-    }
-  ],
+  "society": [],
   "opensource": [
     {
-      "headline": "openclaw/openclaw: AI Đa Nền Tảng, Thực Hiện Tác Vụ Thực Tế",
-      "why": "Một dự án agent AI đầy tham vọng có thể chạy trên mọi hệ điều hành, mở ra tiềm năng lớn cho các nhà phát triển tích hợp khả năng tự động hóa thông minh vào các ứng dụng đa nền tảng.",
+      "headline": "openclaw/openclaw: AI thực hiện tác vụ trên mọi HĐH, mọi nền tảng",
+      "why": "Cung cấp một nền tảng AI đa năng, giúp các nhà phát triển dễ dàng tích hợp khả năng tự động hóa AI vào các ứng dụng trên nhiều môi trường khác nhau, giảm rào cản kỹ thuật cho việc triển khai AI.",
       "source": "GitHub Trending",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "390802"
+      "stars": "390994"
     },
     {
-      "headline": "obra/superpowers: Framework Kỹ Năng Agentic và Phương Pháp Phát Triển Phần Mềm",
-      "why": "Cung cấp một khuôn khổ để xây dựng các AI agent hiệu quả, giúp các team phát triển phần mềm chuẩn hóa và tăng tốc quá trình tạo ra các ứng dụng thông minh.",
+      "headline": "obra/superpowers: Framework phát triển phần mềm và kỹ năng agentic",
+      "why": "Giúp các team phát triển xây dựng các AI agent có khả năng tự động hóa quy trình làm việc phức tạp, nâng cao hiệu quả phát triển phần mềm và cho phép tạo ra các ứng dụng thông minh hơn.",
       "source": "GitHub Trending",
       "url": "https://github.com/obra/superpowers",
-      "stars": "292993"
+      "stars": "293485"
     },
     {
-      "headline": "n8n-io/n8n: Nền Tảng Tự Động Hóa Quy Trình Với AI Tích Hợp",
-      "why": "Lý tưởng cho các manager và team muốn tự động hóa các quy trình kinh doanh phức tạp bằng cách kết hợp xây dựng trực quan và code tùy chỉnh, với hơn 400 tích hợp và khả năng tự host.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "206310"
-    },
-    {
-      "headline": "langgenius/dify: Nền Tảng Cộng Tác Xây Dựng AI Agent và RAG Pipelines",
-      "why": "Một giải pháp toàn diện cho các team muốn phát triển và triển khai các AI agent và hệ thống RAG một cách nhanh chóng, từ thử nghiệm đến sản xuất, mà không cần xây dựng lại toàn bộ stack.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "157527"
-    },
-    {
-      "headline": "open-webui/open-webui: Giao Diện AI Thân Thiện Với Người Dùng",
-      "why": "Giúp các cá nhân và doanh nghiệp dễ dàng tương tác và quản lý các mô hình AI (như Ollama, OpenAI API) thông qua một giao diện trực quan, thúc đẩy việc áp dụng AI rộng rãi hơn.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "153568"
-    },
-    {
-      "headline": "langchain-ai/langchain: Nền Tảng Kỹ Thuật AI Agent Hàng Đầu",
-      "why": "Là công cụ cốt lõi cho các nhà phát triển muốn xây dựng các ứng dụng AI phức tạp với khả năng suy luận và tương tác cao, giúp tạo ra các AI agent mạnh mẽ và linh hoạt.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/langchain-ai/langchain",
-      "stars": "147282"
-    },
-    {
-      "headline": "firecrawl/firecrawl: API Dữ Liệu Web Mạnh Mẽ Cho AI Agent",
-      "why": "Cung cấp khả năng thu thập dữ liệu web hiệu quả cho các AI agent, giúp chúng có thông tin cập nhật và toàn diện hơn để thực hiện các tác vụ, từ nghiên cứu thị trường đến tự động hóa nội dung.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "186673"
-    },
-    {
-      "headline": "NousResearch/hermes-agent: AI Agent Có Khả Năng Học Hỏi và Phát Triển",
-      "why": "Dự án này khám phá khả năng của AI agent tự cải thiện theo thời gian, mở ra hướng đi mới cho việc tạo ra các trợ lý AI cá nhân hóa và ngày càng thông minh hơn cho người dùng và doanh nghiệp.",
+      "headline": "NousResearch/hermes-agent: AI agent có khả năng học hỏi và phát triển",
+      "why": "Cung cấp một nền tảng để xây dựng các agent thông minh hơn, có thể thích nghi và cải thiện theo thời gian, phù hợp cho các ứng dụng yêu cầu sự linh hoạt và học hỏi liên tục trong môi trường thay đổi.",
       "source": "GitHub Trending",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "250091"
+      "stars": "250361"
     },
     {
-      "headline": "Significant-Gravitas/AutoGPT: AI Agent Tự Động Hóa Dễ Tiếp Cận Cho Mọi Người",
-      "why": "AutoGPT tiếp tục là một dự án quan trọng thúc đẩy việc dân chủ hóa AI agent, cung cấp công cụ để cá nhân và doanh nghiệp dễ dàng xây dựng và sử dụng AI cho các mục tiêu cụ thể, không cần chuyên môn sâu.",
+      "headline": "n8n-io/n8n: Nền tảng tự động hóa workflow với khả năng AI tích hợp",
+      "why": "Cho phép các manager và developer dễ dàng tạo các quy trình tự động hóa phức tạp, kết hợp các tác vụ thủ công với khả năng của AI để tối ưu hóa hoạt động kinh doanh và tiết kiệm thời gian vận hành.",
       "source": "GitHub Trending",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "187620"
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "206388"
     },
     {
-      "headline": "Các AI Coding Agent Miễn Phí Tốt Nhất Năm 2026",
-      "why": "Các nhà phát triển và team kỹ thuật có thể tận dụng những công cụ miễn phí này để tăng tốc quá trình lập trình, debug và quản lý mã nguồn, cải thiện năng suất mà không tốn chi phí bản quyền.",
-      "source": "Admix",
-      "url": "https://admix.software/blog/best-free-ai-coding-agents",
-      "stars": "N/A"
+      "headline": "firecrawl/firecrawl: API dữ liệu web cho AI agent, siêu nạp khả năng thu thập thông tin",
+      "why": "Giúp các AI agent truy cập và xử lý dữ liệu từ web hiệu quả hơn, cần thiết cho các ứng dụng yêu cầu thông tin cập nhật và đa dạng từ internet, từ đó nâng cao chất lượng đầu ra của agent.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "187199"
+    },
+    {
+      "headline": "langgenius/dify: Nền tảng xây dựng workflow Agentic và pipeline RAG",
+      "why": "Cung cấp một không gian làm việc cộng tác để phát triển và triển khai các ứng dụng AI phức tạp, từ prototype đến production, giúp các team tăng tốc độ phát triển và quản lý dự án hiệu quả.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "157623"
     }
   ],
   "model_updates": [],
   "insight": null,
   "sources_count": {
-    "raw": 168,
+    "raw": 176,
     "brave": 50,
     "reddit": 0,
-    "hackernews": 6,
+    "hackernews": 4,
     "rss": 42,
     "huggingface": 8,
     "github": 10,
