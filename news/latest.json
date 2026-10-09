@@ -1,284 +1,323 @@
 {
-  "date": "2026-10-08",
-  "updated_at": "2026-10-08T09:21:51.103200+07:00",
-  "weekday": "Thursday",
+  "date": "2026-10-09",
+  "updated_at": "2026-10-09T09:39:24.777867+07:00",
+  "weekday": "Friday",
   "top_story": {
-    "headline": "Apple Ra Mắt Siri AI: Trợ Lý Cá Nhân Thông Minh Hơn, Tích Hợp Sâu Rộng",
-    "summary": "Apple chính thức triển khai Siri AI, một phiên bản trợ lý ảo được nâng cấp đáng kể với khả năng cá nhân hóa và tích hợp sâu hơn vào hệ sinh thái ứng dụng của Apple. Phiên bản beta tiếng Anh bắt đầu từ hôm nay và sẽ mở rộng ra các ngôn ngữ khác trong tháng tới.",
-    "why": "Điều này có nghĩa là các nhà phát triển ứng dụng và quản lý sản phẩm cần chuẩn bị cho một kỷ nguyên mới của tương tác người dùng qua giọng nói và AI, mở ra cơ hội tích hợp sâu hơn vào các tác vụ hàng ngày của người dùng Apple.",
-    "source": "Apple",
-    "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+    "headline": "Vốn đầu tư AI bùng nổ 102 tỷ USD trong Q3/2026, chiếm 64% tổng VC toàn cầu",
+    "summary": "Các startup AI đã huy động được 102 tỷ USD trong quý 3 năm 2026, chiếm 64% tổng vốn đầu tư mạo hiểm (VC) toàn cầu. Điều này cho thấy sự tăng trưởng vượt bậc và niềm tin mạnh mẽ của các nhà đầu tư vào lĩnh vực trí tuệ nhân tạo.",
+    "why": "Đối với các nhà quản lý và founder, đây là tín hiệu rõ ràng về thị trường AI vẫn đang cực kỳ sôi động, thu hút dòng vốn lớn. Điều này khuyến khích việc tìm kiếm cơ hội đầu tư, mở rộng sản phẩm và thu hút nhân tài AI, đồng thời cho thấy sự cạnh tranh ngày càng gay gắt.",
+    "source": "Crunchbase News",
+    "url": "https://techjacksolutions.com/ai-brief/ai-startup-funding-102b-q3-2026-crunchbase/",
     "tags": [
-      "consumer_ai",
-      "personal_assistant",
-      "apple_intelligence"
+      "funding",
+      "market_trend",
+      "investment"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Anthropic Ra Mắt Claude Haiku 5.5, Nâng Cao Hiệu Suất Mô Hình Nhỏ",
-      "why": "Haiku 5.5 mang lại khả năng xử lý nhanh và hiệu quả hơn cho các tác vụ cần phản hồi tức thì, lý tưởng cho các ứng dụng AI cần tối ưu chi phí và tốc độ trong production.",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "headline": "Doanh thu hàng năm của OpenAI thấp hơn 20 tỷ USD so với dự kiến",
+      "why": "Ảnh hưởng đến định giá và chiến lược của các startup AI khác, cần theo dõi sức khỏe tài chính của các ông lớn để đánh giá rủi ro thị trường.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
       "tags": [
-        "LLM",
-        "model_release"
+        "business",
+        "openai",
+        "market_sentiment"
       ]
     },
     {
-      "headline": "OpenAI Hé Lộ Tầm Nhìn GPT-6 và Giao Diện AI Thông Minh Cho Mọi Người",
-      "why": "Định hướng này cho thấy tương lai của AI sẽ tập trung vào giao diện người dùng trực quan và khả năng tiếp cận rộng rãi, các nhà quản lý sản phẩm nên cân nhắc chiến lược phát triển UI/UX dựa trên AI.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "headline": "Ngành công nghiệp đang bỏ lỡ DeepSeek 4.1 Flash mạnh mẽ và hiệu quả chi phí?",
+      "why": "Nhắc nhở các team về việc có những mô hình mạnh mẽ, hiệu quả chi phí có thể bị bỏ qua, mở rộng lựa chọn cho production và tối ưu ngân sách.",
+      "source": "Hacker News",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
       "tags": [
-        "future_of_ai",
-        "UI/UX"
+        "llm",
+        "efficiency",
+        "model_choice"
       ]
     },
     {
-      "headline": "Meta và Microsoft Hạn Chế Nhân Viên Sử Dụng Claude AI",
-      "why": "Quyết định này nhấn mạnh tầm quan trọng của chính sách bảo mật dữ liệu và quản lý rủi ro khi sử dụng AI của bên thứ ba trong môi trường doanh nghiệp, đặc biệt với các dữ liệu nhạy cảm.",
-      "source": "RSWebSols",
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "headline": "OpenAI rút lại ba kết quả nghiên cứu toán học",
+      "why": "Gây nghi ngờ về độ tin cậy của nghiên cứu AI, nhắc nhở các team cần kiểm chứng kỹ lưỡng các tuyên bố về hiệu suất mô hình trước khi áp dụng.",
+      "source": "Hacker News",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
       "tags": [
-        "enterprise_ai",
-        "security",
-        "policy"
+        "research",
+        "ethics",
+        "credibility"
       ]
     },
     {
-      "headline": "Mistral AI Ra Mắt Mistral Large 4, Đối Thủ Của Các Hệ Thống Mở Hàng Đầu Trung Quốc",
-      "why": "Sự cạnh tranh trong các mô hình AI mã nguồn mở ngày càng gay gắt, mang lại nhiều lựa chọn mạnh mẽ hơn cho các team phát triển muốn tùy chỉnh và triển khai AI nội bộ với hiệu suất cao.",
+      "headline": "Phát hiện hành tinh mới nhờ Claude Code: AI hỗ trợ khám phá khoa học",
+      "why": "Minh họa tiềm năng của AI coding agent trong việc tăng tốc khám phá và phân tích dữ liệu phức tạp, ứng dụng cho các dự án R&D và phân tích dữ liệu lớn.",
+      "source": "Reddit",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "tags": [
+        "ai_agent",
+        "research",
+        "discovery"
+      ]
+    },
+    {
+      "headline": "Siri AI của Apple ra mắt, trở thành trợ lý cá nhân thông minh và mạnh mẽ hơn",
+      "why": "Cho thấy AI đang tiến sâu hơn vào trải nghiệm người dùng phổ thông trên thiết bị, tạo ra kỳ vọng mới về trợ lý cá nhân thông minh và mở ra cơ hội tích hợp cho các nhà phát triển ứng dụng.",
+      "source": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "tags": [
+        "consumer_ai",
+        "apple",
+        "personal_assistant"
+      ]
+    },
+    {
+      "headline": "Mistral ra mắt mô hình AI mới cạnh tranh với các hệ thống mở tốt nhất từ Trung Quốc",
+      "why": "Thêm một lựa chọn mạnh mẽ cho các nhà phát triển tìm kiếm mô hình cạnh tranh với các đối thủ lớn, thúc đẩy đổi mới trong AI mở và đa dạng hóa nguồn cung cấp mô hình.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
       "tags": [
-        "LLM",
-        "open_source",
-        "model_release"
+        "llm",
+        "mistral",
+        "open_source_ai"
       ]
     },
     {
-      "headline": "Google Ra Mắt Gemini 4 Argon, Mô Hình AI Tiên Tiến Nhất Của Hãng",
-      "why": "Gemini 4 Argon với khả năng lập trình, an ninh mạng và xử lý tác vụ chuyên nghiệp được cải thiện sẽ là công cụ mạnh mẽ cho các nhà phát triển và doanh nghiệp trong việc tự động hóa và nâng cao hiệu suất công việc.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+      "headline": "Thời đại AI dễ dàng chưa bao giờ tồn tại, nhà đầu tư đang nâng cao tiêu chuẩn",
+      "why": "Cảnh báo các founder và manager về môi trường gọi vốn đang khó khăn hơn, đòi hỏi sản phẩm phải có giá trị thực, mô hình kinh doanh rõ ràng và lộ trình phát triển bền vững.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/ai-startup-investors-raising-bar-ipo-farid-leo/",
       "tags": [
-        "LLM",
-        "model_release",
-        "enterprise_ai"
-      ]
-    },
-    {
-      "headline": "Workday Tích Hợp AI Vào Google Sheets Để Phân Tích Tài Chính",
-      "why": "Việc tích hợp AI vào các công cụ bảng tính quen thuộc giúp các nhà quản lý tài chính và phân tích dữ liệu có thể tự động hóa và đưa ra quyết định nhanh hơn, giảm thời gian xử lý thủ công.",
-      "source": "Google Workspace",
-      "url": "https://workspaceupdates.googleblog.com/2026/",
-      "tags": [
-        "enterprise_ai",
-        "productivity",
-        "finance"
+        "investment",
+        "startup",
+        "market_sentiment"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Maestro: Studio AI Video, Hình Ảnh, Âm Nhạc Toàn Diện Chạy Local",
-      "summary": "Maestro là một studio AI đa năng, chạy hoàn toàn trên máy tính cá nhân, cho phép tạo video, hình ảnh và âm nhạc từ một prompt duy nhất, bao gồm chế độ đạo diễn để lên kế hoạch phim ngắn và MV.",
-      "why": "Team production có thể thử nghiệm và tạo nội dung đa phương tiện nhanh chóng, bảo mật dữ liệu vì chạy local, giảm phụ thuộc vào các dịch vụ cloud và tối ưu quy trình sáng tạo.",
-      "source": "GitHub",
-      "url": "https://github.com/Blizaine/Maestro",
+      "headline": "Higgsfield: Nền tảng tổng hợp các công cụ AI tạo video hàng đầu (Sora, Kling, Veo)",
+      "summary": "Higgsfield cung cấp một nền tảng duy nhất để truy cập và sử dụng các mô hình AI tạo video tiên tiến như Kling 3.0, Veo 3.1, Sora 2, với khả năng kiểm soát sáng tạo toàn diện.",
+      "why": "Nền tảng này giúp team production dễ dàng truy cập và sử dụng nhiều mô hình AI video hàng đầu, tối ưu quy trình làm phim/quảng cáo và thử nghiệm các phong cách khác nhau mà không cần chuyển đổi công cụ.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
       "tags": [
-        "video_gen",
-        "image_gen",
-        "music_gen",
-        "local_ai"
+        "video_generation",
+        "creative_tools",
+        "production_workflow"
       ]
     },
     {
-      "headline": "Alibaba Mở Mã Nguồn Mô Hình AI Tạo Video và Hình Ảnh Wan 2.1",
-      "summary": "Alibaba đã công khai mô hình AI Wan 2.1 của mình, cho phép cộng đồng sử dụng và phát triển tự do các công cụ tạo video và hình ảnh.",
-      "why": "Việc mở mã nguồn này giúp các nhà phát triển và team sáng tạo có thể truy cập, tùy chỉnh và tích hợp công nghệ tiên tiến của Alibaba vào các dự án của mình mà không tốn chi phí license ban đầu, thúc đẩy đổi mới sản phẩm.",
+      "headline": "Alibaba công khai mô hình AI tạo video và hình ảnh Wan 2.1",
+      "summary": "Alibaba đã công bố Wan 2.1, mô hình AI tạo video và hình ảnh của mình, dưới dạng mã nguồn mở, hứa hẹn tăng cường cạnh tranh trong lĩnh vực AI sáng tạo.",
+      "why": "Cung cấp một lựa chọn mã nguồn mở mạnh mẽ từ Alibaba cho việc tạo video/ảnh, giúp các team có ngân sách hạn chế hoặc muốn tùy biến sâu có thể triển khai và tích hợp vào quy trình sản xuất của mình.",
       "source": "The Economic Times",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-makes-ai-model-for-video-image-generation-publicly-available/articleshow/118570713.cms?from=mdr",
       "tags": [
-        "video_gen",
-        "image_gen",
+        "video_generation",
+        "image_generation",
         "open_source",
-        "model_release"
+        "alibaba"
       ]
     },
     {
-      "headline": "LTX-2.5: Mô Hình AI Tạo Video 4K 50fps Có Kiểm Soát Cho VFX",
-      "summary": "LTX-2.5 cung cấp khả năng tạo video có kiểm soát cho các đội ngũ VFX, với các LoRA điều khiển camera được huấn luyện trước và khả năng chuyển đổi video-to-video ở độ phân giải 4K, 50 khung hình/giây.",
-      "why": "Các studio VFX và team production có thể tạo pre-vis chất lượng cao và kiểm soát chặt chẽ hơn các yếu tố hình ảnh, tiết kiệm đáng kể thời gian và chi phí trong giai đoạn hậu kỳ và sản xuất.",
-      "source": "LTX",
-      "url": "https://ltx.io/solution/vfx",
+      "headline": "AI tạo video hướng tới chất lượng 4K HDR và thời lượng 2 phút",
+      "summary": "Các mô hình AI tạo video đang được lên kế hoạch hỗ trợ xuất video 10-bit HDR ở độ phân giải 4K và 1080p, cùng khả năng kéo dài video lên đến 2 phút.",
+      "why": "Báo hiệu tương lai của AI video sẽ đạt chất lượng 4K HDR và thời lượng dài hơn, mở ra khả năng sản xuất nội dung chuyên nghiệp trực tiếp từ AI, giảm đáng kể thời gian và chi phí hậu kỳ.",
+      "source": "Note",
+      "url": "https://note.com/ai_tamaki/n/nd11288da1810?hl=en",
       "tags": [
-        "video_gen",
-        "VFX",
-        "high_res",
-        "production_tool"
+        "video_generation",
+        "4k_hdr",
+        "future_tech"
       ]
     },
     {
-      "headline": "Google Ra Mắt Gemini 2.0 Flash Thử Nghiệm Với Khả Năng Tạo và Chỉnh Sửa Hình Ảnh",
-      "summary": "Google đã phát hành mô hình Gemini 2.0 Flash thử nghiệm thông qua API, có khả năng tạo và chỉnh sửa hình ảnh, mở rộng bộ công cụ AI cho các nhà phát triển.",
-      "why": "Điều này cho phép các nhà phát triển và team sáng tạo tích hợp trực tiếp khả năng tạo và chỉnh sửa hình ảnh mạnh mẽ vào ứng dụng của họ, đẩy nhanh quá trình thiết kế và sản xuất nội dung hình ảnh.",
+      "headline": "Gemini 2.0 Flash-Lite và Gemma 3-27b-it ra mắt cho nhà phát triển",
+      "summary": "Google đã ra mắt mô hình Gemini 2.0 Flash-Lite thử nghiệm với khả năng tạo và chỉnh sửa hình ảnh, cùng với Gemma 3-27b-it, một phần của dòng Gemma 3.",
+      "why": "Gemini 2.0 Flash với khả năng tạo/chỉnh sửa ảnh trực tiếp giúp các team sáng tạo tích hợp AI vào quy trình thiết kế, còn Gemma 3-27b-it cung cấp một mô hình mạnh mẽ cho các tác vụ ngôn ngữ, mở rộng công cụ cho các nhà phát triển.",
       "source": "Google AI",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
       "tags": [
-        "image_gen",
-        "image_editing",
-        "API",
-        "model_release"
+        "image_generation",
+        "llm",
+        "google_ai",
+        "developer_tools"
+      ]
+    },
+    {
+      "headline": "Grok-imagine-video-1.5 của xAI hỗ trợ tạo video đa dạng",
+      "summary": "Grok-imagine-video-1.5 của xAI hiện hỗ trợ chuyển văn bản thành video, hình ảnh thành video và video tham chiếu, bao gồm cả tùy chọn giọng nói cài đặt sẵn.",
+      "why": "Grok của xAI tham gia cuộc đua video gen với các tính năng đa dạng, cung cấp thêm công cụ mạnh mẽ cho các nhà sáng tạo nội dung, đặc biệt hữu ích cho việc chuyển đổi ý tưởng thành video nhanh chóng.",
+      "source": "xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "tags": [
+        "video_generation",
+        "xai",
+        "grok",
+        "creative_tools"
+      ]
+    },
+    {
+      "headline": "Hướng dẫn lựa chọn AI Coding Agent tốt nhất năm 2026",
+      "summary": "Một bài viết đánh giá và so sánh các AI coding agent hàng đầu năm 2026 dựa trên hiệu suất, giá cả và nguồn gốc, bao gồm Claude Code, Codex CLI và các công cụ khác.",
+      "why": "Hướng dẫn chi tiết giúp các manager và dev lead chọn đúng AI coding agent phù hợp với nhu cầu của team, tối ưu hóa hiệu suất phát triển phần mềm và giảm thời gian hoàn thành dự án.",
+      "source": "Morph",
+      "url": "https://www.morphllm.com/ai-coding-agent",
+      "tags": [
+        "ai_agent",
+        "coding_tools",
+        "developer_productivity"
       ]
     }
   ],
-  "vietnam": [],
+  "vietnam": [
+    {
+      "headline": "FPT AI Agents giành giải Giải pháp AI Agent tiên phong tại Better Choice Awards 2026",
+      "why": "Khẳng định năng lực của FPT trong lĩnh vực AI agent, đặc biệt với khả năng hỗ trợ đa ngôn ngữ (có tiếng Việt), mở ra cơ hội ứng dụng cho doanh nghiệp Việt trong việc tự động hóa và tối ưu hóa vận hành.",
+      "source": "GenK",
+      "url": "https://genk.vn/better-choice-awards-2026-fpt-ai-agents-gianh-giai-giai-phap-ai-agent-tien-phong-165261004151223392.chn"
+    }
+  ],
   "research": [
     {
-      "headline": "OpenAI Chia Sẻ Tiến Bộ Của AI Trong Lĩnh Vực Toán Học",
-      "summary": "OpenAI đang khám phá cách AI có thể hỗ trợ và thúc đẩy nghiên cứu toán học, từ việc tìm kiếm các mẫu mới đến việc xây dựng các bằng chứng phức tạp.",
-      "why": "Các nhà nghiên cứu và kỹ sư AI có thể tham khảo hướng tiếp cận này để ứng dụng AI vào các lĩnh vực khoa học cơ bản, mở rộng khả năng giải quyết vấn đề phức tạp ngoài các tác vụ thông thường.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "headline": "Từ Dấu Vết đến Thế Giới Agentic: Mô hình Ngôn ngữ Thế giới Agentic cho Mô phỏng Môi trường Tương tác",
+      "summary": "Nghiên cứu khám phá việc sử dụng các mô hình ngôn ngữ agentic để tạo ra các mô hình thế giới, đóng vai trò như môi trường tương tác để huấn luyện và đánh giá các AI agent.",
+      "why": "Nghiên cứu này cải thiện khả năng mô phỏng môi trường cho các AI agent, giúp chúng học hỏi và hoạt động hiệu quả hơn trong các tình huống phức tạp, hữu ích cho việc phát triển các agent tự động hóa và thử nghiệm các kịch bản thực tế.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.06100",
       "tags": [
-        "AI_in_science",
-        "mathematics",
-        "research_direction"
+        "ai_agent",
+        "simulation",
+        "llm_research"
       ]
     },
     {
-      "headline": "Bằng Chứng Hỗ Trợ AI Về Cách Sắp Xếp Tối Ưu 11 Hình Vuông",
-      "summary": "Một nghiên cứu đã sử dụng AI để hỗ trợ chứng minh cách sắp xếp tối ưu cho 11 hình vuông, giải quyết một bài toán hình học phức tạp.",
-      "why": "Điều này cho thấy tiềm năng của AI trong việc giải quyết các bài toán tối ưu hóa và chứng minh toán học mà con người khó có thể tự thực hiện, có thể áp dụng vào tối ưu hóa quy trình sản xuất hoặc thiết kế.",
-      "source": "GitHub",
-      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "headline": "Google ra mắt Gemini 4 Argon: Mô hình tiên phong mới cho an ninh mạng",
+      "summary": "Gemini 4 Argon là mô hình tiên phong mới nhất của Google, được xây dựng với khả năng suy luận nâng cao và giới hạn đầu ra 1 triệu token, thiết kế để giải quyết các thách thức phức tạp, đặc biệt trong phòng thủ an ninh mạng.",
+      "why": "Gemini 4 Argon là mô hình tiên phong mới từ Google với khả năng suy luận nâng cao và giới hạn 1 triệu token, đặc biệt hữu ích cho các ứng dụng an ninh mạng và xử lý dữ liệu lớn, mang lại công cụ mạnh mẽ cho các doanh nghiệp và tổ chức.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "tags": [
-        "AI_in_math",
-        "optimization",
-        "proof_generation"
-      ]
-    },
-    {
-      "headline": "Claude Sonnet 4.5: Mô Hình Tối Ưu Cho Agent, Lập Trình và Sử Dụng Máy Tính",
-      "summary": "Anthropic công bố Claude Sonnet 4.5 là mô hình tốt nhất thế giới cho các tác vụ agent, lập trình và sử dụng máy tính, với kiến thức chuyên sâu về lập trình, tài chính và an ninh mạng.",
-      "why": "Các nhà phát triển và quản lý dự án AI có thể tận dụng Sonnet 4.5 để xây dựng các agent thông minh hơn, cải thiện hiệu suất lập trình và tự động hóa các tác vụ phức tạp trong môi trường doanh nghiệp.",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/claude/sonnet",
-      "tags": [
-        "LLM",
-        "AI_agent",
-        "coding_assistant",
-        "enterprise_ai"
+        "llm",
+        "google_ai",
+        "cybersecurity",
+        "frontier_model"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Các Startup AI Tăng Cường Mua Lại Công Ty Nhỏ Để Mở Rộng Sản Phẩm",
-      "summary": "Dữ liệu Crunchbase cho thấy các startup AI phát triển nhanh đang tích cực mua lại các công ty nhỏ hơn để lấp đầy khoảng trống sản phẩm, thâm nhập thị trường mới và bổ sung đội ngũ chuyên môn.",
-      "why": "Các nhà sáng lập và quản lý cần theo dõi xu hướng M&A này để tìm kiếm cơ hội hợp tác, bán mình hoặc định vị chiến lược cạnh tranh trong một thị trường AI đang hợp nhất và phát triển nhanh chóng.",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/ma/ai-startup-acquisitions-legal-healthcare-openai/",
-      "tags": [
-        "M&A",
-        "startup_strategy",
-        "market_trend"
-      ]
-    },
-    {
-      "headline": "Tổng Cộng Hơn 769 Triệu USD Đầu Tư Vào Startup AI Trong Tháng 9/2026",
-      "summary": "Tháng 9/2026 chứng kiến 14 thông báo gọi vốn mới cho các startup AI, với tổng số tiền được công bố vượt quá 769 triệu USD, trong đó vòng Series B của VastAI là lớn nhất với 446 triệu USD.",
-      "why": "Điều này cho thấy dòng vốn đầu tư vào AI vẫn rất mạnh mẽ, tạo cơ hội cho các startup tiềm năng nhưng cũng đặt ra áp lực cạnh tranh lớn cho các nhà sáng lập trong việc chứng minh giá trị và khả năng mở rộng.",
-      "source": "Yutori",
-      "url": "https://scouts.yutori.com/68f22e10-d5fe-4e94-b1c8-9c6218cfdb2c",
+      "headline": "Startup AI Manus huy động 500 triệu USD sau khi Meta bị Trung Quốc chặn mua lại",
+      "summary": "Manus, startup AI agent từng bị Trung Quốc chặn thương vụ mua lại 2 tỷ USD bởi Meta, đã huy động thành công hơn 500 triệu USD vốn mới, đánh dấu sự trở lại mạnh mẽ.",
+      "why": "Cho thấy khả năng phục hồi và sức hút của các startup AI chất lượng cao, ngay cả khi đối mặt với rào cản pháp lý, là bài học cho các founder về giá trị cốt lõi và sự kiên trì trong gọi vốn.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/08/ai-startup-manus-raises-500-million-after-china-blocks-metas-2-billion-acquisition/",
       "tags": [
         "funding",
         "startup",
-        "investment"
+        "m_a",
+        "ai_agent"
       ]
     },
     {
-      "headline": "FieldAI, Nhà Phát Triển AI Robotics, Đang Tìm Kiếm 700 Triệu USD Vốn",
-      "summary": "FieldAI Inc., một startup phát triển mô hình AI cho robot, được cho là đang tìm kiếm khoản tài trợ 700 triệu USD.",
-      "why": "Khoản đầu tư lớn này vào AI robotics cho thấy sự quan tâm mạnh mẽ của nhà đầu tư vào các giải pháp AI vật lý, mở ra cơ hội cho các nhà quản lý sản xuất và logistics xem xét ứng dụng robot AI để tối ưu hóa vận hành.",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
+      "headline": "Vốn đầu tư startup Bắc Mỹ giảm trong Q3 khi các ông lớn AI hướng tới thị trường đại chúng",
+      "summary": "Vốn đầu tư startup ở Bắc Mỹ giảm trong quý 3, trong khi các thương vụ M&A lớn diễn ra như AMD mua World Labs và Stripe mua OpenRouter, cho thấy sự củng cố thị trường.",
+      "why": "Phản ánh xu hướng M&A và củng cố thị trường AI, các startup nhỏ hơn có thể trở thành mục tiêu mua lại của các ông lớn để lấp đầy khoảng trống sản phẩm hoặc mở rộng năng lực, ảnh hưởng đến chiến lược phát triển của các founder.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/",
       "tags": [
-        "robotics_ai",
+        "m_a",
         "funding",
-        "investment"
+        "market_consolidation"
       ]
     },
     {
-      "headline": "Rencore Ra Mắt Tính Năng Quản Trị Đa AI Cho Nền Tảng Doanh Nghiệp",
-      "summary": "Rencore, nhà cung cấp công cụ quản trị Microsoft 365 và AI, đã công bố ra mắt các khả năng quản trị đa AI trong module AI & Agents của mình.",
-      "why": "Các nhà quản lý IT và doanh nghiệp lớn có thể sử dụng công cụ này để kiểm soát, giám sát và đảm bảo tuân thủ các chính sách khi triển khai nhiều mô hình AI và agent khác nhau trong tổ chức, giảm thiểu rủi ro và tăng cường bảo mật.",
-      "source": "KuCoin",
-      "url": "https://www.kucoin.com/news/flash/rencore-launches-multi-ai-governance-feature-for-enterprise-ai-platforms",
+      "headline": "Crunchbase: Các startup AI năng động nhất đang trở thành nhà thâu tóm hàng loạt",
+      "summary": "Dữ liệu Crunchbase cho thấy các startup AI phát triển nhanh nhất đang mua lại các công ty nhỏ hơn để lấp đầy khoảng trống sản phẩm, thâm nhập thị trường mới và đưa các đội ngũ chuyên biệt về nội bộ.",
+      "why": "Cho thấy chiến lược tăng trưởng bằng cách mua lại của các startup AI lớn, gợi ý cho các founder về cách xây dựng và định vị công ty để trở thành mục tiêu hấp dẫn hoặc cân nhắc chiến lược M&A để mở rộng.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/ma/ai-startup-acquisitions-legal-healthcare-openai/",
       "tags": [
-        "enterprise_ai",
-        "governance",
-        "security"
+        "m_a",
+        "startup_strategy",
+        "growth"
+      ]
+    },
+    {
+      "headline": "Supabase huy động 150 triệu USD cho phát triển ứng dụng agentic",
+      "summary": "Supabase, nhà cung cấp nền tảng Postgres mã nguồn mở hỗ trợ AI cho các nhà phát triển ứng dụng, đã công bố khoản tài trợ 150 triệu USD mới do GIC dẫn đầu.",
+      "why": "Khoản đầu tư lớn vào nền tảng phát triển ứng dụng agentic chứng tỏ tiềm năng của AI agent trong việc tự động hóa và tăng tốc quá trình phát triển phần mềm, là tín hiệu tốt cho các nhà quản lý muốn đầu tư vào công cụ phát triển hiệu quả.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "tags": [
+        "funding",
+        "ai_agent",
+        "developer_tools",
+        "supabase"
       ]
     }
   ],
-  "society": [],
+  "society": [
+    {
+      "headline": "Báo cáo Gartner: Nhiều dự án 'AI Agentic' chỉ là đổi tên sản phẩm cũ",
+      "summary": "Một báo cáo của Gartner vào tháng 6 năm 2025 đã cáo buộc nhiều dự án được mô tả là 'AI Agentic' thực chất chỉ là việc đổi tên các sản phẩm đã phát hành trước đó.",
+      "why": "Cảnh báo về việc 'thay tên đổi họ' của các sản phẩm cũ thành 'AI agent' để tận dụng hype, giúp các nhà quản lý và đầu tư nhìn nhận đúng bản chất công nghệ và tránh những khoản đầu tư không hiệu quả vào các giải pháp thiếu đổi mới.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tags": [
+        "hype",
+        "market_analysis",
+        "ethics"
+      ]
+    }
+  ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw: AI Agent Thực Hiện Tác Vụ Trên Mọi Nền Tảng",
-      "why": "Các nhà phát triển có thể tận dụng agent này để tự động hóa các tác vụ phức tạp trên nhiều hệ điều hành, giúp tăng năng suất và giảm công sức thủ công trong quy trình làm việc.",
+      "headline": "openclaw/openclaw: AI tự động hóa đa nền tảng, thực sự làm được việc",
+      "why": "Một dự án agent AI tự động hóa đa nền tảng với lượng sao khổng lồ, tiềm năng cho các team muốn xây dựng giải pháp tự động hóa tùy chỉnh và tích hợp vào nhiều hệ điều hành/nền tảng khác nhau.",
       "source": "GitHub Trending",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "391603"
+      "stars": "391488"
     },
     {
-      "headline": "n8n-io/n8n: Nền Tảng Tự Động Hóa Workflow Với Khả Năng AI Tích Hợp",
-      "why": "Các nhà quản lý và team vận hành có thể sử dụng n8n để xây dựng các quy trình tự động hóa phức tạp, kết hợp các tác vụ thủ công với khả năng AI mà không cần viết quá nhiều code, tiết kiệm thời gian và nguồn lực.",
+      "headline": "n8n-io/n8n: Nền tảng tự động hóa workflow mã nguồn mở tích hợp AI",
+      "why": "Nền tảng tự động hóa workflow mã nguồn mở tích hợp AI, giúp các team tối ưu hóa quy trình nghiệp vụ mà không cần code nhiều, với hơn 400 tích hợp sẵn có.",
       "source": "GitHub Trending",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "206840"
+      "stars": "206738"
     },
     {
-      "headline": "Significant-Gravitas/AutoGPT: Tầm Nhìn AI Dễ Tiếp Cận Cho Mọi Người",
-      "why": "AutoGPT tiếp tục là một công cụ quan trọng cho các nhà phát triển muốn thử nghiệm và xây dựng các ứng dụng AI tự động hóa, giúp họ tập trung vào ý tưởng thay vì lo lắng về hạ tầng.",
+      "headline": "firecrawl/firecrawl: Tăng cường AI agent với dữ liệu từ web",
+      "why": "Công cụ thu thập dữ liệu web mạnh mẽ cho AI agent, cần thiết cho các ứng dụng RAG hoặc agent cần thông tin cập nhật từ internet, giúp agent có dữ liệu phong phú và chính xác hơn.",
       "source": "GitHub Trending",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "187689"
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "189645"
     },
     {
-      "headline": "f/prompts.chat: Kho Lưu Trữ Prompt ChatGPT Miễn Phí, Mã Nguồn Mở",
-      "why": "Các chuyên gia sáng tạo và quản lý nội dung có thể tìm kiếm, khám phá và đóng góp các prompt hiệu quả, giúp tối ưu hóa tương tác với các mô hình ngôn ngữ lớn và nâng cao chất lượng đầu ra.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "172318"
-    },
-    {
-      "headline": "langgenius/dify: Xây Dựng Workflow Agentic và RAG Trên Một Nền Tảng Cộng Tác",
-      "why": "Dify cung cấp một giải pháp toàn diện cho các team muốn phát triển và triển khai các ứng dụng AI agentic và RAG, giúp rút ngắn thời gian từ prototype đến production mà không cần xây dựng lại toàn bộ stack.",
+      "headline": "langgenius/dify: Xây dựng workflow Agentic và pipeline RAG",
+      "why": "Nền tảng mã nguồn mở toàn diện để xây dựng agent và RAG, giúp các team nhanh chóng triển khai từ prototype đến production với hỗ trợ đa dạng mô hình AI và công cụ.",
       "source": "GitHub Trending",
       "url": "https://github.com/langgenius/dify",
-      "stars": "158043"
+      "stars": "157937"
     },
     {
-      "headline": "open-webui/open-webui: Giao Diện AI Thân Thiện Người Dùng (Hỗ Trợ Ollama, OpenAI API)",
-      "why": "Giao diện này giúp các nhà phát triển và người dùng cuối dễ dàng tương tác với các mô hình AI cục bộ (Ollama) hoặc qua API (OpenAI), đơn giản hóa việc thử nghiệm và triển khai các ứng dụng AI.",
+      "headline": "open-webui/open-webui: Giao diện AI thân thiện người dùng",
+      "why": "Giao diện người dùng thân thiện cho các mô hình AI (hỗ trợ Ollama, OpenAI API), đặc biệt hữu ích cho việc thử nghiệm và triển khai các LLM cục bộ, giúp các dev và creative dễ dàng tương tác với AI.",
       "source": "GitHub Trending",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "154172"
+      "stars": "154068"
     }
   ],
   "model_updates": [],
   "insight": null,
   "sources_count": {
-    "raw": 186,
-    "brave": 52,
+    "raw": 185,
+    "brave": 50,
     "reddit": 0,
-    "hackernews": 7,
+    "hackernews": 4,
     "rss": 42,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 23
+    "openrouter": 25
   }
 }
