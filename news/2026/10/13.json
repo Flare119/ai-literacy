@@ -1,0 +1,385 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13T10:16:09.803715+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Meta ra mắt Muse Wonder — model AI 'frontier' đầu tiên cạnh tranh Claude/GPT",
+    "summary": "Meta công bố Muse Wonder và Muse Wonder Full, hai model AI lớn đầu tiên nhằm cạnh tranh trực tiếp với GPT/Claude. Khác Muse Spark (nhẹ, tốc độ cao), Wonder series lớn hơn, điểm benchmark cao hơn, xử lý tốt task phức tạp như coding. Đây là lần đầu Meta tham chiến phân khúc frontier model sau nhiều năm tập trung open-source.",
+    "why": "Cho manager: Meta cuối cùng cũng có model enterprise-grade cạnh tranh OpenAI/Anthropic — nếu công ty bạn đang lock-in một nhà cung cấp, đây là lúc re-evaluate để tránh vendor dependency. Cho individual: thêm lựa chọn model có nghĩa là giảm giá và tăng tính năng — theo dõi pricing war sắp tới.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+    "tags": [
+      "meta",
+      "llm",
+      "frontier-model",
+      "enterprise"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "QGIS (phần mềm GIS mã nguồn mở) cấm hoàn toàn đóng góp code từ AI",
+      "why": "Cho manager: xu hướng open-source từ chối AI code đang lan — nếu team bạn contribute OSS, cần policy rõ về AI-assisted code để tránh bị từ chối pull request.",
+      "source": "Hacker News",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "tags": [
+        "open-source",
+        "policy",
+        "code-quality"
+      ]
+    },
+    {
+      "headline": "Rich Hickey (tác giả Clojure): 'AI không phải là tool' — bài phản biện sâu",
+      "why": "Cho curious: góc nhìn skeptic từ developer kỳ cựu về việc AI thay đổi bản chất lập trình — đáng đọc để không bị cuốn vào hype mù quáng.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "tags": [
+        "philosophy",
+        "coding",
+        "skepticism"
+      ]
+    },
+    {
+      "headline": "Kevin Kelly dự đoán AI năm 2016 — review sau 10 năm: đúng/sai ở đâu",
+      "why": "Cho curious: bài kiểm chứng prediction 10 năm trước giúp hiểu đâu là hype cycle, đâu là long-term trend thật — tránh đặt cược sai hướng.",
+      "source": "taylor.town",
+      "url": "https://taylor.town/kk-ai-2026",
+      "tags": [
+        "prediction",
+        "retrospective",
+        "long-term"
+      ]
+    },
+    {
+      "headline": "Nvidia đàm phán mua lại Reflection AI (startup model mở Mỹ) để đối đầu DeepSeek",
+      "why": "Cho business: Nvidia đã rót 800 triệu USD vào Reflection (định giá 25 tỷ) — nếu thương vụ thành, đây là tín hiệu Nvidia pivot từ bán GPU sang sở hữu model, thay đổi cạnh tranh toàn ngành.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/12/nvidia-in-talks-to-acquire-open-source-ai-startup-reflection-ai-to-challenge-chinas-deepseek/",
+      "tags": [
+        "nvidia",
+        "m&a",
+        "deepseek",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Amazon đàm phán mua lại startup AI Decart với giá ~7 tỷ USD",
+      "why": "Cho business: sau AMD mua World Labs 8.2 tỷ, giờ Amazon nhắm Decart 7 tỷ — M&A AI startup đang ở mức kỷ lục, nếu bạn có startup AI nhỏ, đây là thời điểm vàng để định vị exit.",
+      "source": "Yahoo! Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-reportedly-weighs-7b-startup-171900448.html",
+      "tags": [
+        "amazon",
+        "m&a",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "AI coding agents tạo nhiều code hơn, nhưng không nhiều phần mềm hơn — nghiên cứu",
+      "why": "Cho manager: output code tăng ≠ value delivered tăng. Nếu team bạn đo productivity bằng lines of code, bạn đang đo sai chỉ số — cần shift sang đo outcome (features shipped, bugs reduced).",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "tags": [
+        "coding",
+        "productivity",
+        "metrics"
+      ]
+    },
+    {
+      "headline": "X (Twitter) ra mắt X Lift AI — tạo quảng cáo từ URL website tự động",
+      "why": "Cho business: X Lift tự động tạo ad copy/hình/targeting từ URL — SMB không có marketing team giờ có thể chạy ads ngang hàng, giảm barrier to entry, tăng cạnh tranh quảng cáo.",
+      "source": "ALM Corp",
+      "url": "https://almcorp.com/news/x-launches-ai-tool-that-builds-ads-for-you/",
+      "tags": [
+        "marketing",
+        "automation",
+        "twitter"
+      ]
+    },
+    {
+      "headline": "ChatGPT ra mắt giao diện mới 'visual-first' — tương tác bằng hình ảnh",
+      "why": "Cho individual: UI mới của ChatGPT ưu tiên visual interaction — nếu công việc bạn liên quan design/data viz, đây là cơ hội tận dụng sớm trước đối thủ.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "tags": [
+        "chatgpt",
+        "ui",
+        "visual"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe Firefly tích hợp image-to-video — chuyển ảnh thành video trong workflow",
+      "summary": "Adobe Firefly giờ có tính năng image-to-video, cho phép creative chuyển ảnh tĩnh thành video ngắn ngay trong tool thiết kế. File export sẵn sàng dùng cho B-roll, reels, presentation.",
+      "why": "Cho creative: giảm 50% thời gian handoff giữa design và motion — prototype video ngay trong Firefly thay vì chuyển sang Premiere/After Effects. Workflow nhanh hơn, ít tools hơn.",
+      "source": "Adobe",
+      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
+      "tags": [
+        "adobe",
+        "firefly",
+        "image-to-video",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Higgsfield tích hợp Kling 3.0, Veo 3.1, Sora 2 trong một platform",
+      "summary": "Higgsfield cho phép dùng nhiều AI video model (Kling, Veo, Sora, Seedance) trong cùng workspace, set camera/motion/style cho mỗi frame. Thử nghiệm miễn phí.",
+      "why": "Cho creative: thay vì subscribe riêng lẻ từng model (Kling, Veo, Sora), dùng Higgsfield để test cả 4 trong một tool — tiết kiệm chi phí và thời gian compare output.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video-generation",
+        "multi-model",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "Artlist ra mắt AI video generator tổng hợp — 'one-stop shop' cho mọi model",
+      "summary": "Artlist (nền tảng stock footage) giờ có AI video generator tích hợp nhiều model, cập nhật liên tục khi có release mới. Workflow tích hợp sẵn trong Artlist ecosystem.",
+      "why": "Cho creative: nếu bạn đã dùng Artlist cho stock footage, giờ có thể generate custom video ngay trong cùng tool — giảm số subscription và context switching.",
+      "source": "Artlist",
+      "url": "https://artlist.io/ai/video-generator",
+      "tags": [
+        "artlist",
+        "video-generation",
+        "stock-footage"
+      ]
+    }
+  ],
+  "vietnam": [
+    {
+      "headline": "FPT giành 3 giải ASOCIO về AI — duy nhất Việt Nam được vinh danh cả 3 hạng mục",
+      "why": "Cho business VN: FPT thắng AI in HR, Financial Services, Healthcare — đây là proof point Việt Nam có thể làm AI enterprise-grade. Nếu bạn đang tìm đối tác AI local, đây là case study tham khảo.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/fpt-gianh-ba-giai-thuong-asocio-ve-ai",
+      "tags": [
+        "fpt",
+        "vietnam",
+        "enterprise-ai"
+      ]
+    },
+    {
+      "headline": "FPT ra mắt AI factory 200 triệu USD — hạ tầng AI thế hệ mới",
+      "why": "Cho business VN: FPT đầu tư 200 triệu USD vào data center AI — nếu công ty bạn cần cloud AI infrastructure trong nước (compliance/latency), đây là lựa chọn mới thay vì AWS/Azure Singapore.",
+      "source": "VietnamPlus",
+      "url": "https://en.vietnamplus.vn/ai-infrastructure-for-next-generation-digital-economy-post353532.vnp",
+      "tags": [
+        "fpt",
+        "infrastructure",
+        "data-center"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "headline": "Multi-Stream Attention Residuals — cải thiện cách AI 'nhớ' qua nhiều layer",
+      "summary": "Nghiên cứu mới về cơ chế attention cho phép model truy xuất thông tin content-dependent qua chiều sâu network (depth axis), tương tự multi-head attention trên sequence axis. Giúp model 'nhớ' tốt hơn qua nhiều lớp.",
+      "why": "Cho curious: đây là cải tiến kiến trúc transformer — tương lai model có thể nhớ context dài hơn mà không tăng token cost. Theo dõi nếu muốn hiểu cách AI 'học' tốt hơn.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "tags": [
+        "research",
+        "transformer",
+        "attention"
+      ]
+    },
+    {
+      "headline": "Thinking Inertia — LLM vẫn 'suy nghĩ' khi được bảo không suy nghĩ",
+      "summary": "Nghiên cứu phát hiện LLM có 'quán tính suy nghĩ': khi bật thinking mode rồi tắt, model vẫn tiếp tục internal reasoning. Đây là hành vi chưa được quan tâm nhiều trong 'no-thinking mode'.",
+      "why": "Cho curious: AI không 'tắt suy nghĩ' ngay khi bạn yêu cầu — có thể ảnh hưởng đến cost (vì vẫn xử lý token ẩn) và output quality. Đáng theo dõi khi dùng thinking mode.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "tags": [
+        "research",
+        "llm",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "T3lescope — tái tạo 3D mesh độ phân giải tùy ý từ ảnh 2D",
+      "summary": "Model mới tái tạo 3D scene mesh chất lượng cao từ ảnh multi-view, không cần optimize từng scene riêng. Scale từ object nhỏ đến outdoor scene lớn. Dùng learned 3D prior thay vì per-scene fitting.",
+      "why": "Cho creative: tương lai scan 3D từ ảnh sẽ nhanh và chính xác hơn — hữu ích cho VFX, game asset, AR/VR production mà không cần thiết bị 3D scan đắt tiền.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.03308",
+      "tags": [
+        "research",
+        "3d-reconstruction",
+        "computer-vision"
+      ]
+    },
+    {
+      "headline": "ARCS — giảm lỗi text-to-SQL bằng cách làm rõ câu hỏi mơ hồ",
+      "summary": "Hệ thống ARCS giải quyết ambiguity trong câu hỏi text-to-SQL (vấn đề chính gây lỗi khi deploy thực tế). Phương pháp: structured disambiguation — phát hiện và làm rõ câu hỏi domain/data-specific trước khi gen SQL.",
+      "why": "Cho business: nếu công ty bạn dùng AI truy vấn database (chatbot internal data), ARCS approach giảm sai sót do hiểu nhầm câu hỏi — quan trọng khi chuyển từ demo sang production.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.09396",
+      "tags": [
+        "research",
+        "text-to-sql",
+        "enterprise"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Vốn startup Bắc Mỹ giảm Q3/2026, nhưng AI vẫn dẫn đầu với 11 thương vụ M&A >1 tỷ USD",
+      "summary": "Crunchbase: Funding Bắc Mỹ giảm Q3, nhưng AI vẫn hot với 11 startup được mua ≥1 tỷ USD (bao gồm AMD/World Labs 8.2 tỷ, Stripe/OpenRouter). 17 startup AI IPO trên sàn Mỹ/Canada.",
+      "why": "Cho founder/đầu tư: AI vẫn là sector duy nhất thu hút M&A lớn trong thời kỳ funding chậm — nếu bạn có startup AI, đây là thời điểm tốt để position cho exit hoặc tăng vòng cuối.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/",
+      "tags": [
+        "funding",
+        "m&a",
+        "exit"
+      ]
+    },
+    {
+      "headline": "Manus AI huy động 500 triệu USD sau khi Trung Quốc chặn thương vụ Meta 2 tỷ USD",
+      "summary": "Manus (AI agent startup) raise 500M+ USD ngay sau khi deal 2 tỷ với Meta bị Trung Quốc block. Valuation mới gần gấp đôi trước khi deal fail. Nhà đầu tư tin Manus độc lập có giá trị cao hơn.",
+      "why": "Cho founder: case này cho thấy regulatory block không phải tận thế — Manus rebound nhanh với giá cao hơn vì thị trường tin tiềm năng độc lập. Bài học: có plan B khi deal lớn fail.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+      "tags": [
+        "manus",
+        "funding",
+        "china",
+        "regulatory"
+      ]
+    },
+    {
+      "headline": "Waymo huy động 5 tỷ USD term loan cho mở rộng robotaxi",
+      "summary": "Waymo (Alphabet) nhận 5 tỷ USD term loan để scale robotaxi. Cùng tuần, nhiều startup AI/robotics khác cũng raise lớn — xu hướng vốn dồn vào infra/deployment thực tế thay vì R&D.",
+      "why": "Cho business: shift từ 'AI research' sang 'AI deployment at scale' — nếu startup bạn vẫn ở giai đoạn lab, investor sẽ hỏi go-to-market plan rõ hơn trước khi rót vốn.",
+      "source": "AnalyticsInsight",
+      "url": "https://www.analyticsinsight.net/startups/weekly-startup-funding-roundup-ai-robotaxis-and-consumer-brands-attract-big-money",
+      "tags": [
+        "waymo",
+        "robotaxi",
+        "funding"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Microsoft President: UK là nơi tốt nhất dẫn dắt quy định AI toàn cầu",
+      "summary": "Brad Smith (Microsoft President) kêu gọi quy định AI khẩn cấp, nói rằng sữa và máy giặt còn được giám sát nhiều hơn các công ty AI. Anh là ứng viên sáng giá để dẫn đầu AI regulation.",
+      "why": "Cho manager/founder: nếu công ty bạn deploy AI ở EU/UK, chuẩn bị cho compliance sớm — regulation đang tới nhanh hơn dự tính, và penalty sau này sẽ rất đắt.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "tags": [
+        "regulation",
+        "uk",
+        "compliance"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw — AI agent làm 'mọi thứ' trên mọi OS/platform",
+      "why": "Cho individual: OpenClaw là AI agent cross-platform (bất kỳ OS nào) — nếu bạn đang tìm agent automation không bị lock vào một hệ sinh thái, đây là lựa chọn mã nguồn mở.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "391815",
+      "tags": [
+        "agent",
+        "automation",
+        "cross-platform"
+      ]
+    },
+    {
+      "headline": "obra/superpowers — framework agentic skills cho software development",
+      "why": "Cho manager: Superpowers là framework + methodology cho dev team dùng AI agents — nếu bạn đang integrate agents vào workflow, đây là template có sẵn thay vì tự build từ đầu.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "298253",
+      "tags": [
+        "framework",
+        "agentic",
+        "development"
+      ]
+    },
+    {
+      "headline": "NousResearch/hermes-agent — agent 'lớn lên cùng bạn'",
+      "why": "Cho curious: Hermes là agent học từ cách bạn dùng — thay vì preset behavior, nó adapt theo workflow cá nhân. Thử nghiệm nếu muốn agent personalized thay vì generic.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "253182",
+      "tags": [
+        "agent",
+        "personalization",
+        "learning"
+      ]
+    },
+    {
+      "headline": "n8n-io/n8n — workflow automation với AI native, 400+ integrations",
+      "why": "Cho individual/manager: n8n là Zapier self-hosted + AI built-in — nếu công ty bạn cần workflow automation nhưng không muốn data ra khỏi infra, n8n là lựa chọn mã nguồn mở.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "207158",
+      "tags": [
+        "workflow",
+        "automation",
+        "self-hosted"
+      ]
+    },
+    {
+      "headline": "firecrawl/firecrawl — crawl web data cho AI agents/superintelligence",
+      "why": "Cho creative/developer: Firecrawl giúp AI agent scrape web data sạch — nếu bạn cần agent tự research/gather info từ web, đây là tool ETL cho 'superintelligence'.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "190898",
+      "tags": [
+        "web-scraping",
+        "agent",
+        "data"
+      ]
+    },
+    {
+      "headline": "Significant-Gravitas/AutoGPT — AI cho mọi người, tự build agent",
+      "why": "Cho curious: AutoGPT là vision 'AI dễ tiếp cận cho mọi người' — bạn có thể tự build agent mà không cần PhD. Cộng đồng lớn, nhiều template sẵn.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "187539",
+      "tags": [
+        "autogpt",
+        "agent",
+        "accessible"
+      ]
+    },
+    {
+      "headline": "langgenius/dify — build agentic workflows/RAG, deploy cloud/VPC/self-hosted",
+      "why": "Cho manager: Dify giúp team chuyển từ prototype sang production mà không rebuild stack — workspace collaborative, support cloud/on-prem. Giảm technical debt khi scale.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "158293",
+      "tags": [
+        "workflow",
+        "rag",
+        "deployment"
+      ]
+    },
+    {
+      "headline": "open-webui/open-webui — giao diện AI thân thiện (hỗ trợ Ollama, OpenAI API)",
+      "why": "Cho individual: Open WebUI là UI đẹp cho local AI (Ollama) hoặc cloud API — nếu bạn muốn ChatGPT-like interface cho model tự host, đây là lựa chọn open-source.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "155148",
+      "tags": [
+        "ui",
+        "ollama",
+        "self-hosted"
+      ]
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 177,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 41,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 15
+  }
+}
