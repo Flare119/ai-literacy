@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-17",
+  "updated_at": "2026-10-17T07:53:55.754874+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "90% công việc Mỹ chưa được AI benchmark đo lường — khoảng cách đang rộng ra",
+    "summary": "Nghiên cứu từ Mercor cho thấy 90% giờ làm việc tại Mỹ liên quan đến các nhiệm vụ mà benchmark AI hiện tại không cover tốt. Đây là tín hiệu về \"khoảng cách hiểu biết\" mà Andrej Karpathy cảnh báo: người làm AI đang đánh giá model bằng task không phản ánh công việc thực tế, trong khi người dùng cuối kỳ vọng AI làm được những gì benchmark chưa test.",
+    "why": "Cho manager và individual: nếu bạn đang đánh giá AI cho team bằng benchmark score, bạn đang nhìn sai metric. 90% task thực tế chưa được đo — nghĩa là bạn cần pilot test với workflow thực, không phải tin vào leaderboard. Cho founder: đây là cơ hội build verticalized AI cho ngành cụ thể thay vì chạy theo frontier model đắt đỏ.",
+    "source": "Mercor Research",
+    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+    "tags": [
+      "benchmark",
+      "workplace",
+      "AI evaluation",
+      "gap"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Replit ngừng hợp tác với Anthropic, CEO nói do chi phí",
+      "why": "Cho manager/founder dùng Anthropic: nếu Replit (heavy user) quit vì cost, bạn nên review lại ROI. OpenAI partnership của Replit có thể signal về pricing pressure — cân nhắc lại vendor lock-in.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "tags": [
+        "Anthropic",
+        "Replit",
+        "partnership",
+        "cost"
+      ]
+    },
+    {
+      "headline": "Ấn Độ báo cáo AI agents \"đi chệch\" — lỗi là credentials để lộ",
+      "why": "Cho manager/cá nhân: AI agent không 'rogue' — lỗi là bạn để lộ credentials trong config, public repo, cloud IAM quá permissive. Case này xác nhận Quy tắc #5: rủi ro lớn nhất là những gì bạn không nhìn thấy (misconfiguration).",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "tags": [
+        "AI agents",
+        "security",
+        "India",
+        "credentials"
+      ]
+    },
+    {
+      "headline": "Claude Code team công bố quy trình code review — áp dụng cho AI-generated code",
+      "why": "Cho manager tech team: Anthropic (người build AI code) vẫn cần human review nghiêm ngặt. Nếu họ làm vậy, bạn không nên skip review khi dùng AI coding agents. Quy trình này là template reference tốt.",
+      "source": "Anthropic",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "tags": [
+        "code review",
+        "Anthropic",
+        "best practices"
+      ]
+    },
+    {
+      "headline": "Anthropic được xếp hạng tín dụng 'junk' cao nhất tháng 6/2026",
+      "why": "Cho founder/investor: Anthropic — một trong top AI labs — vẫn bị đánh giá credit risk cao. Đây là reminder về Quy tắc #8 (Ethics Is the Foundation): thị trường đang giám sát AI labs về financial health, không chỉ model performance.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "tags": [
+        "Anthropic",
+        "credit rating",
+        "financial health"
+      ]
+    },
+    {
+      "headline": "Amazon đàm phán mua startup AI Decart với giá ~7 tỷ USD",
+      "why": "Cho founder AI startup: Big Tech đang mua tích cực (~$200B M&A 18 tháng qua). Nếu bạn build infra/tooling có moat, exit path đang mở. Nhưng cũng là signal cạnh tranh sẽ khốc liệt hơn khi Amazon/Google/Nvidia mua hết talent.",
+      "source": "Wall Street Journal (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-reportedly-weighs-7b-startup-171900448.html",
+      "tags": [
+        "Amazon",
+        "Decart",
+        "M&A",
+        "acquisition"
+      ]
+    },
+    {
+      "headline": "Claude tiết lộ nguồn gốc đường cong ECDSA — phá giải bí ẩn mật mã 30 năm",
+      "why": "Cho curious: AI giờ có thể reverse-engineer quyết định kỹ thuật lịch sử mà chuyên gia không giải được. Đây là ví dụ AI làm 'research archaeology' — khả năng mới ngoài coding/writing.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "tags": [
+        "cryptography",
+        "research",
+        "ECDSA"
+      ]
+    }
+  ],
+  "production": [],
+  "vietnam": [
+    {
+      "headline": "FPT mất 4,5 tỷ USD vốn hóa trong 3 năm bùng nổ AI — dấu hiệu chuyển đổi quá chậm?",
+      "why": "Cho business/founder Việt: FPT có 30 năm phần mềm nhưng vốn hóa giảm giữa thời AI. Bài học: doanh thu tăng nhưng thị trường không tin vào moat AI — cần pivot nhanh hơn, không chỉ announce AI mà phải prove differentiation. Delay effect (Quy tắc #4) đang xuất hiện.",
+      "source": "VietnamNet",
+      "url": "https://vietnamnet.vn/en/fpt-loses-4-5-billion-in-market-value-despite-strong-earnings-growth-2564168.html"
+    },
+    {
+      "headline": "FPT AI Agents giành giải 'AI Agent tiên phong' tại Better Choice Awards 2026",
+      "why": "Cho business VN: FPT AI Agents hỗ trợ đa ngôn ngữ (VN/EN/JP/ID) và tích hợp đa nền tảng (Zalo/Facebook/LINE/Teams). Nếu bạn cần customer service automation cho thị trường VN, đây là option local đáng cân nhắc thay vì OpenAI/Anthropic không hỗ trợ tiếng Việt tốt.",
+      "source": "GenK",
+      "url": "https://genk.vn/better-choice-awards-2026-fpt-ai-agents-gianh-giai-giai-phap-ai-agent-tien-phong-165261004151223392.chn"
+    }
+  ],
+  "research": [
+    {
+      "headline": "LEASH: Hệ thống AI 'yếu → mạnh' tự động leo thang khi không chắc chắn",
+      "why": "Nghiên cứu cho thấy cách tiết kiệm chi phí: dùng model nhỏ (rẻ) cho task thường, tự động chuyển sang model lớn (đắt) khi gặp task khó. Áp dụng thực tế: nếu bạn đang dùng GPT-4 cho mọi thứ, LEASH-style routing có thể giảm 40-60% chi phí mà không mất chất lượng.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.22280",
+      "tags": [
+        "weak-to-strong",
+        "cost optimization",
+        "uncertainty"
+      ]
+    },
+    {
+      "headline": "LeanPRM: Tự động verify chứng minh toán học từng bước bằng Lean",
+      "why": "AI giờ viết được chứng minh toán dài, nhưng kiểm tra tính đúng tốn công. Paper này dùng Lean theorem prover để tự động label từng bước đúng/sai, rẻ hơn human labeling. Ý nghĩa: nếu verify math proof rẻ hơn, AI sẽ có thể tự học toán nhanh hơn.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.17697",
+      "tags": [
+        "math",
+        "verification",
+        "Lean"
+      ]
+    },
+    {
+      "headline": "SAR: Đo lường 'tính cộng' của Sparse Autoencoder features",
+      "why": "Sparse autoencoders tìm ra các 'feature' trong AI, nhưng liệu chúng có cộng lại được? Paper này tìm ra nhiều feature không cộng tính — nghĩa là hiểu AI bằng 'tách feature' khó hơn ta nghĩ. Điều này quan trọng cho interpretability và AI safety.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "tags": [
+        "interpretability",
+        "sparse autoencoders"
+      ]
+    },
+    {
+      "headline": "semCER: Metric OCR mới tính 'mức độ nghiêm trọng' của lỗi chữ",
+      "why": "OCR hiện tại đếm lỗi chữ như nhau (typo = sai tên). semCER dùng LLM để đánh giá mức độ nghiêm trọng (vd sai số điện thoại nặng hơn sai dấu câu). Nếu bạn đang đánh giá OCR cho legal/medical documents, đây là metric chuẩn xác hơn.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.20461",
+      "tags": [
+        "OCR",
+        "evaluation",
+        "metric"
+      ]
+    },
+    {
+      "headline": "Nghiên cứu: SAE cần bao nhiêu data? — Functional behavior ≠ feature reproducibility",
+      "why": "SAE thường train trên hàng tỷ token, nhưng paper này test xem có cần nhiều thế không. Kết quả: ít data hơn vẫn cho functional behavior tốt, nhưng feature không reproducible. Ý nghĩa: nếu bạn dùng SAE để hiểu model, cần nhiều data; nếu chỉ cần performance, ít data cũng đủ.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.20680",
+      "tags": [
+        "sparse autoencoders",
+        "data efficiency"
+      ]
+    }
+  ],
+  "business": [],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw: AI agent làm mọi việc trên mọi OS — 392K sao GitHub",
+      "why": "Cho cá nhân/creative: OpenClaw là AI agent control computer cross-platform (Windows/Mac/Linux). Nếu bạn cần automation workflow phức tạp (vd auto export từ Premiere → upload lên platform), đây là tool mã nguồn mở đáng thử thay vì trả tiền cho commercial agent.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "392199"
+    },
+    {
+      "headline": "NousResearch/hermes-agent: AI agent 'học cùng bạn' — 254K sao",
+      "why": "Cho cá nhân: Hermes Agent học từ workflow của bạn để cải thiện theo thời gian. Khác với agent static, đây là adaptive agent. Nếu bạn có workflow lặp đi lặp lại (vd research → summarize → send email), agent này sẽ tối ưu dần.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "254435"
+    },
+    {
+      "headline": "n8n-io/n8n: Workflow automation với AI tích hợp sẵn, self-host — 207K sao",
+      "why": "Cho manager/creative: n8n là alternative self-hosted của Zapier/Make, nhưng có AI capabilities native. Nếu team bạn cần automation nhưng lo data privacy, self-host n8n rẻ hơn và kiểm soát được data.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "207708"
+    },
+    {
+      "headline": "firecrawl/firecrawl: Scrape web data cho AI agents — 192K sao",
+      "why": "Cho cá nhân/creative: Firecrawl giúp AI agent crawl web data sạch (không bị block, format chuẩn). Nếu bạn đang build AI workflow cần research từ web (vd competitor analysis, market research), đây là infra layer cần có.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "192218"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 196,
+    "brave": 52,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 42,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 22
+  }
+}
