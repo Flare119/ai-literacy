@@ -1,301 +1,203 @@
 {
-  "date": "2026-10-16",
-  "updated_at": "2026-10-16T07:53:45.073784+07:00",
-  "weekday": "Friday",
+  "date": "2026-10-17",
+  "updated_at": "2026-10-17T07:53:55.754874+07:00",
+  "weekday": "Saturday",
   "top_story": {
-    "headline": "Google ra mắt Gemini 4 Argon: Mô hình AI flagship cho nhà phát triển và doanh nghiệp",
-    "summary": "Google đã chính thức phát hành mô hình AI hàng đầu Gemini 4 Argon cho các nhà phát triển và doanh nghiệp trên toàn cầu. Phiên bản này nổi bật với cửa sổ ngữ cảnh lên tới 1 triệu token, tích hợp sâu vào Android Studio và các công cụ khác, nhằm cạnh tranh trực tiếp với OpenAI và Anthropic.",
-    "why": "Việc Google tung ra Gemini 4 Argon với cửa sổ ngữ cảnh 1 triệu token trực tiếp nâng cao khả năng của các AI agent và ứng dụng doanh nghiệp, giúp các manager và developer xây dựng hệ thống AI phức tạp hơn, xử lý dữ liệu lớn hơn mà không cần chia nhỏ, tối ưu hóa quy trình làm việc và ra quyết định.",
-    "source": "U.S. News",
-    "url": "https://money.usnews.com/investing/news/articles/2026-10-13/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses",
+    "headline": "90% công việc Mỹ chưa được AI benchmark đo lường — khoảng cách đang rộng ra",
+    "summary": "Nghiên cứu từ Mercor cho thấy 90% giờ làm việc tại Mỹ liên quan đến các nhiệm vụ mà benchmark AI hiện tại không cover tốt. Đây là tín hiệu về \"khoảng cách hiểu biết\" mà Andrej Karpathy cảnh báo: người làm AI đang đánh giá model bằng task không phản ánh công việc thực tế, trong khi người dùng cuối kỳ vọng AI làm được những gì benchmark chưa test.",
+    "why": "Cho manager và individual: nếu bạn đang đánh giá AI cho team bằng benchmark score, bạn đang nhìn sai metric. 90% task thực tế chưa được đo — nghĩa là bạn cần pilot test với workflow thực, không phải tin vào leaderboard. Cho founder: đây là cơ hội build verticalized AI cho ngành cụ thể thay vì chạy theo frontier model đắt đỏ.",
+    "source": "Mercor Research",
+    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
     "tags": [
-      "AI Model",
-      "Business",
-      "Development",
-      "Google"
+      "benchmark",
+      "workplace",
+      "AI evaluation",
+      "gap"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Meta giới thiệu dòng mô hình AI tiên tiến mới: Muse Wonder và Muse Wonder Full",
-      "why": "Sự ra mắt của các mô hình mới từ Meta cho thấy cuộc đua AI vẫn rất nóng, cung cấp thêm lựa chọn mạnh mẽ cho các nhà phát triển và doanh nghiệp muốn tích hợp AI tiên tiến vào sản phẩm của mình.",
-      "source": "NYTimes",
-      "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+      "headline": "Replit ngừng hợp tác với Anthropic, CEO nói do chi phí",
+      "why": "Cho manager/founder dùng Anthropic: nếu Replit (heavy user) quit vì cost, bạn nên review lại ROI. OpenAI partnership của Replit có thể signal về pricing pressure — cân nhắc lại vendor lock-in.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "tags": [
-        "AI Model",
-        "Meta",
-        "Competition"
+        "Anthropic",
+        "Replit",
+        "partnership",
+        "cost"
       ]
     },
     {
-      "headline": "Mô hình AI Trung Quốc giá rẻ đang bắt kịp Anthropic và OpenAI",
-      "why": "Sự trỗi dậy của các mô hình AI giá rẻ, hiệu quả từ Trung Quốc tạo áp lực cạnh tranh về giá và hiệu suất, buộc các nhà sản xuất và manager phải cân nhắc lựa chọn mô hình tối ưu chi phí hơn cho các dự án AI quy mô lớn.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "headline": "Ấn Độ báo cáo AI agents \"đi chệch\" — lỗi là credentials để lộ",
+      "why": "Cho manager/cá nhân: AI agent không 'rogue' — lỗi là bạn để lộ credentials trong config, public repo, cloud IAM quá permissive. Case này xác nhận Quy tắc #5: rủi ro lớn nhất là những gì bạn không nhìn thấy (misconfiguration).",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
       "tags": [
-        "AI Model",
-        "Competition",
-        "Market Trend"
+        "AI agents",
+        "security",
+        "India",
+        "credentials"
       ]
     },
     {
-      "headline": "Amazon ra mắt thiết bị đeo AI ghi lại và tóm tắt hoạt động hàng ngày",
-      "why": "Thiết bị đeo AI của Amazon mở ra xu hướng mới về AI cá nhân hóa, giúp các nhà sáng tạo và marketer hình dung các sản phẩm và dịch vụ AI tương lai có thể tích hợp vào cuộc sống hàng ngày, thu thập và tóm tắt thông tin hiệu quả hơn.",
-      "source": "Los Angeles Times",
-      "url": "https://www.latimes.com/business/story/2026-10-15/amazon-unveils-ai-wearables-that-record-summarize-your-day",
+      "headline": "Claude Code team công bố quy trình code review — áp dụng cho AI-generated code",
+      "why": "Cho manager tech team: Anthropic (người build AI code) vẫn cần human review nghiêm ngặt. Nếu họ làm vậy, bạn không nên skip review khi dùng AI coding agents. Quy trình này là template reference tốt.",
+      "source": "Anthropic",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "tags": [
-        "Wearables",
-        "Personal AI",
-        "Product Launch"
+        "code review",
+        "Anthropic",
+        "best practices"
       ]
     },
     {
-      "headline": "X (Twitter) ra mắt công cụ AI X Lift tự động tạo quảng cáo từ URL",
-      "why": "Công cụ này giúp các team marketing và creative tự động hóa việc tạo quảng cáo từ URL, tiết kiệm thời gian và nguồn lực cho việc sản xuất nội dung quảng cáo, tăng hiệu quả chiến dịch trên X (Twitter).",
-      "source": "ALM Corp",
-      "url": "https://almcorp.com/news/x-launches-ai-tool-that-builds-ads-for-you/",
+      "headline": "Anthropic được xếp hạng tín dụng 'junk' cao nhất tháng 6/2026",
+      "why": "Cho founder/investor: Anthropic — một trong top AI labs — vẫn bị đánh giá credit risk cao. Đây là reminder về Quy tắc #8 (Ethics Is the Foundation): thị trường đang giám sát AI labs về financial health, không chỉ model performance.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
       "tags": [
-        "Marketing AI",
-        "AdTech",
-        "Automation"
+        "Anthropic",
+        "credit rating",
+        "financial health"
       ]
     },
     {
-      "headline": "Krea 3: Mô hình AI hình ảnh mới tối ưu cho chỉnh sửa quy mô lớn",
-      "why": "Krea 3 tập trung vào chỉnh sửa hình ảnh ở quy mô lớn, cực kỳ hữu ích cho các creative agency và production house cần tạo ra hàng loạt biến thể hình ảnh, đảm bảo tính nhất quán và chất lượng cao cho các chiến dịch marketing hoặc dự án nghệ thuật.",
-      "source": "Hacker News",
-      "url": "https://www.krea.ai/krea-3",
-      "tags": [
-        "Image AI",
-        "Creative Tools",
-        "Production"
-      ]
-    }
-  ],
-  "production": [
-    {
-      "headline": "Adobe Firefly ra mắt tính năng AI chuyển đổi ảnh thành video miễn phí",
-      "summary": "Adobe Firefly giới thiệu công cụ AI cho phép người dùng biến ảnh tĩnh thành video ngắn, mạch lạc và có thể xuất trực tiếp để sử dụng trong các dự án khác.",
-      "why": "Tính năng này cho phép các nhà sáng tạo và production team nhanh chóng biến ảnh tĩnh thành video, rút ngắn đáng kể thời gian sản xuất nội dung video ngắn, đặc biệt hữu ích cho marketing và mạng xã hội.",
-      "source": "Adobe Firefly",
-      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
-      "tags": [
-        "Video AI",
-        "Image-to-Video",
-        "Creative Tools"
-      ]
-    },
-    {
-      "headline": "Google AI Studio nâng cấp Veo 3.1 hỗ trợ tạo video 4K",
-      "summary": "Google AI Studio đã cập nhật Veo 3.1, mô hình AI có khả năng tạo video từ văn bản, hình ảnh, video với độ phân giải lên tới 4K và tốc độ 24fps, cùng các phiên bản Lite và Fast.",
-      "why": "Veo 3.1 hỗ trợ tạo video 4K từ văn bản/ảnh/video, giúp các production house sản xuất nội dung chất lượng cao trực tiếp từ AI, giảm chi phí và thời gian cho việc quay dựng truyền thống, mở rộng khả năng sáng tạo.",
-      "source": "Google AI Studio",
-      "url": "https://aistudio.google.com/models/veo-3",
-      "tags": [
-        "Video AI",
-        "Google AI",
-        "High Resolution"
-      ]
-    },
-    {
-      "headline": "Dreamina của CapCut tích hợp Seedance 2.5 tạo phim hành động siêu thực",
-      "summary": "Nền tảng Dreamina của CapCut hiện sử dụng Seedance 2.5, cho phép người dùng biến một video tham chiếu thành phim hành động 15 giây với cảm giác bom tấn thương mại, kiểm soát chuyển động camera và khung hình.",
-      "why": "Việc tích hợp Seedance 2.5 vào Dreamina của CapCut cho phép các nhà sáng tạo tạo ra video hành động siêu thực chỉ từ video tham chiếu, giúp các team production nhanh chóng dựng pre-viz hoặc cảnh quay phức tạp với chi phí thấp.",
-      "source": "CapCut",
-      "url": "https://dreamina.capcut.com/",
-      "tags": [
-        "Video AI",
-        "Creative Tools",
-        "Film Production"
-      ]
-    },
-    {
-      "headline": "Tổng hợp các mô hình AI hình ảnh & video mới: Kandinsky 6.0, Qwen-Image-2.1-Turbo, Prism 2K",
-      "summary": "Các mô hình AI hình ảnh và video mới được ra mắt bao gồm Kandinsky 6.0 cho video, Qwen-Image-2.1-Turbo với 8 bước, Prism 2K cho video-audio, Kroma cho Krea 2 và FastH3 tối ưu cho GPU 8GB.",
-      "why": "Tổng hợp các mô hình video/ảnh AI mới nhất cung cấp cho các creative và production team nhiều lựa chọn công cụ chuyên biệt hơn, từ tạo video đa cảnh đến tối ưu hóa cho GPU dung lượng thấp, giúp đa dạng hóa phong cách và hiệu suất sản xuất.",
-      "source": "Kombitz",
-      "url": "https://www.kombitz.com/2026/10/10/ai-image-video-model-news-roundup-october-10-2026/",
-      "tags": [
-        "Image AI",
-        "Video AI",
-        "Model Updates"
-      ]
-    }
-  ],
-  "vietnam": [],
-  "research": [
-    {
-      "headline": "LFM2.5-24B-A2B: Mô hình AI 24 tỷ tham số tối ưu cho tác vụ agent trên thiết bị",
-      "summary": "LFM2.5-24B-A2B là một mô hình AI được thiết kế đặc biệt để chạy nhanh và hiệu quả trên các thiết bị, tập trung vào khả năng thực hiện các tác vụ của AI agent.",
-      "why": "Mô hình này được tối ưu cho AI agent chạy trên thiết bị, mở ra tiềm năng cho các ứng dụng AI offline, bảo mật hơn và phản hồi nhanh hơn, quan trọng cho các nhà phát triển muốn xây dựng sản phẩm AI nhúng hoặc edge computing.",
-      "source": "Hacker News",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "tags": [
-        "On-device AI",
-        "AI Agent",
-        "Model Optimization"
-      ]
-    },
-    {
-      "headline": "Gemini 4 Argon tích hợp cửa sổ ngữ cảnh 1 triệu token vào Android Studio",
-      "summary": "Mô hình Gemini 4 Argon của Google được tích hợp vào Android Studio và Antigravity với cửa sổ ngữ cảnh 1,048,576 token, thay đổi quy trình làm việc của các AI coding agent.",
-      "why": "Cửa sổ ngữ cảnh khổng lồ này cho phép AI xử lý lượng thông tin lớn hơn nhiều trong một lần, giúp các manager và developer xây dựng AI agent có khả năng hiểu và giải quyết các tác vụ phức tạp, đa bước mà không bị mất ngữ cảnh.",
-      "source": "Tech Insider",
-      "url": "https://tech-insider.org/gemini-4-argon-android-studio-coding-agents-2026/",
-      "tags": [
-        "Context Window",
-        "AI Coding",
-        "Gemini"
-      ]
-    }
-  ],
-  "business": [
-    {
-      "headline": "Amazon cân nhắc thâu tóm startup AI Decart với giá 7 tỷ USD",
-      "summary": "Amazon được cho là đang đàm phán để mua lại startup AI Decart trong một thỏa thuận trị giá khoảng 7 tỷ USD, theo The Wall Street Journal.",
-      "why": "Thương vụ M&A lớn này cho thấy các ông lớn công nghệ đang tăng tốc thâu tóm startup AI để củng cố vị thế, tạo cơ hội exit lớn cho các founder và nhà đầu tư AI, đồng thời định hình lại cục diện thị trường.",
-      "source": "Yahoo! Finance",
+      "headline": "Amazon đàm phán mua startup AI Decart với giá ~7 tỷ USD",
+      "why": "Cho founder AI startup: Big Tech đang mua tích cực (~$200B M&A 18 tháng qua). Nếu bạn build infra/tooling có moat, exit path đang mở. Nhưng cũng là signal cạnh tranh sẽ khốc liệt hơn khi Amazon/Google/Nvidia mua hết talent.",
+      "source": "Wall Street Journal (via Yahoo Finance)",
       "url": "https://finance.yahoo.com/technology/ai/articles/amazon-reportedly-weighs-7b-startup-171900448.html",
       "tags": [
+        "Amazon",
+        "Decart",
         "M&A",
-        "AI Investment",
-        "Amazon"
+        "acquisition"
       ]
     },
     {
-      "headline": "Nvidia đàm phán mua lại startup AI nguồn mở Reflection AI",
-      "summary": "Nvidia đã đầu tư 800 triệu USD vào Reflection AI và đang đàm phán để mua lại startup AI nguồn mở này, nhằm thách thức DeepSeek của Trung Quốc.",
-      "why": "Nvidia tiếp tục đầu tư mạnh vào AI nguồn mở, cho thấy tầm quan trọng của hệ sinh thái này trong chiến lược cạnh tranh, mở ra cơ hội cho các startup AI nguồn mở được đầu tư hoặc mua lại bởi các tập đoàn lớn.",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/10/12/nvidia-in-talks-to-acquire-open-source-ai-startup-reflection-ai-to-challenge-chinas-deepseek/",
+      "headline": "Claude tiết lộ nguồn gốc đường cong ECDSA — phá giải bí ẩn mật mã 30 năm",
+      "why": "Cho curious: AI giờ có thể reverse-engineer quyết định kỹ thuật lịch sử mà chuyên gia không giải được. Đây là ví dụ AI làm 'research archaeology' — khả năng mới ngoài coding/writing.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "tags": [
-        "M&A",
-        "Open Source AI",
-        "Nvidia"
-      ]
-    },
-    {
-      "headline": "Apple thâu tóm startup AI Huxe do cựu nhà phát triển NotebookLM sáng lập",
-      "summary": "Apple đã thâu tóm Huxe, một startup AI được thành lập bởi các cựu nhà phát triển của NotebookLM, sau khi startup này huy động được 4.6 triệu USD.",
-      "why": "Việc Apple thâu tóm startup AI nhỏ cho thấy chiến lược tập trung vào nhân tài và công nghệ cốt lõi, đặc biệt trong lĩnh vực AI cá nhân hóa, có thể ảnh hưởng đến hướng phát triển sản phẩm của Apple trong tương lai.",
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers/",
-      "tags": [
-        "Acqui-hire",
-        "Apple",
-        "AI Startup"
-      ]
-    },
-    {
-      "headline": "Các startup AI tiếp tục thu hút hàng trăm triệu USD vốn đầu tư",
-      "summary": "Nhiều startup AI đã công bố các vòng gọi vốn đáng kể, bao gồm một vòng Series B trị giá 55 triệu USD và Manus huy động hơn 500 triệu USD sau khi thương vụ với Meta bị hủy bỏ.",
-      "why": "Các vòng gọi vốn lớn tiếp tục đổ vào startup AI, khẳng định niềm tin của nhà đầu tư vào tiềm năng thị trường, tạo động lực cho các founder tiếp tục đổi mới và mở rộng, đồng thời cho thấy các lĩnh vực đang thu hút vốn.",
-      "source": "Business Wire, Analytics Insight",
-      "url": "https://www.businesswire.com/newsroom/subject/funding",
-      "tags": [
-        "Funding",
-        "Venture Capital",
-        "AI Startup"
-      ]
-    },
-    {
-      "headline": "AI coding agents tạo ra nhiều code hơn, nhưng không phải nhiều phần mềm hơn",
-      "summary": "Mặc dù các trợ lý AI lập trình có thể tạo ra lượng lớn code chức năng, nhưng các lập trình viên vẫn không thể tin tưởng hoàn toàn vào độ chính xác của chúng, dẫn đến việc không tăng đáng kể lượng phần mềm hoàn chỉnh.",
-      "why": "Phân tích này cảnh báo các manager và developer về rủi ro của việc phụ thuộc quá mức vào AI trong lập trình, nhấn mạnh tầm quan trọng của việc kiểm soát chất lượng và tư duy con người để đảm bảo sản phẩm cuối cùng thực sự hoạt động và có giá trị.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "tags": [
-        "AI Coding",
-        "Productivity",
-        "Software Development"
+        "cryptography",
+        "research",
+        "ECDSA"
       ]
     }
   ],
-  "society": [
+  "production": [],
+  "vietnam": [
     {
-      "headline": "Quỹ Simons đầu tư 15 triệu USD hỗ trợ nhà toán học trong kỷ nguyên AI",
-      "summary": "Quỹ Simons đã khởi động một nỗ lực trị giá 15 triệu USD nhằm giúp các nhà toán học điều hướng và thích nghi với kỷ nguyên trí tuệ nhân tạo.",
-      "why": "Khoản đầu tư này cho thấy sự quan tâm đến việc tích hợp AI vào các lĩnh vực khoa học cơ bản, giúp các nhà nghiên cứu và học giả chuẩn bị cho kỷ nguyên AI, đồng thời khám phá những ứng dụng mới của AI trong các ngành nghề truyền thống.",
-      "source": "Hacker News",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "headline": "FPT mất 4,5 tỷ USD vốn hóa trong 3 năm bùng nổ AI — dấu hiệu chuyển đổi quá chậm?",
+      "why": "Cho business/founder Việt: FPT có 30 năm phần mềm nhưng vốn hóa giảm giữa thời AI. Bài học: doanh thu tăng nhưng thị trường không tin vào moat AI — cần pivot nhanh hơn, không chỉ announce AI mà phải prove differentiation. Delay effect (Quy tắc #4) đang xuất hiện.",
+      "source": "VietnamNet",
+      "url": "https://vietnamnet.vn/en/fpt-loses-4-5-billion-in-market-value-despite-strong-earnings-growth-2564168.html"
+    },
+    {
+      "headline": "FPT AI Agents giành giải 'AI Agent tiên phong' tại Better Choice Awards 2026",
+      "why": "Cho business VN: FPT AI Agents hỗ trợ đa ngôn ngữ (VN/EN/JP/ID) và tích hợp đa nền tảng (Zalo/Facebook/LINE/Teams). Nếu bạn cần customer service automation cho thị trường VN, đây là option local đáng cân nhắc thay vì OpenAI/Anthropic không hỗ trợ tiếng Việt tốt.",
+      "source": "GenK",
+      "url": "https://genk.vn/better-choice-awards-2026-fpt-ai-agents-gianh-giai-giai-phap-ai-agent-tien-phong-165261004151223392.chn"
+    }
+  ],
+  "research": [
+    {
+      "headline": "LEASH: Hệ thống AI 'yếu → mạnh' tự động leo thang khi không chắc chắn",
+      "why": "Nghiên cứu cho thấy cách tiết kiệm chi phí: dùng model nhỏ (rẻ) cho task thường, tự động chuyển sang model lớn (đắt) khi gặp task khó. Áp dụng thực tế: nếu bạn đang dùng GPT-4 cho mọi thứ, LEASH-style routing có thể giảm 40-60% chi phí mà không mất chất lượng.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.22280",
       "tags": [
-        "AI Education",
-        "Science",
-        "Societal Impact"
+        "weak-to-strong",
+        "cost optimization",
+        "uncertainty"
       ]
     },
     {
-      "headline": "Anthropic bị cáo buộc đạo văn trong mô hình Scion",
-      "summary": "Có thêm thông tin về việc mô hình Scion của Anthropic bị cáo buộc sao chép nội dung từ Mononoke, làm dấy lên lo ngại về đạo đức và sở hữu trí tuệ trong phát triển AI.",
-      "why": "Vụ việc này nêu bật những thách thức về đạo đức và sở hữu trí tuệ trong phát triển AI, nhắc nhở các creative và manager về tầm quan trọng của việc kiểm tra nguồn gốc và tính nguyên bản của nội dung do AI tạo ra để tránh rủi ro pháp lý và uy tín.",
-      "source": "Hacker News",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "headline": "LeanPRM: Tự động verify chứng minh toán học từng bước bằng Lean",
+      "why": "AI giờ viết được chứng minh toán dài, nhưng kiểm tra tính đúng tốn công. Paper này dùng Lean theorem prover để tự động label từng bước đúng/sai, rẻ hơn human labeling. Ý nghĩa: nếu verify math proof rẻ hơn, AI sẽ có thể tự học toán nhanh hơn.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.17697",
       "tags": [
-        "AI Ethics",
-        "Plagiarism",
-        "Intellectual Property"
+        "math",
+        "verification",
+        "Lean"
       ]
     },
     {
-      "headline": "AI coding agents tạo ra nhiều code nhưng không tăng lượng phần mềm thực tế",
-      "summary": "Một phân tích chỉ ra rằng dù AI coding agents có thể sản xuất lượng lớn code, chúng không nhất thiết dẫn đến việc tạo ra nhiều phần mềm hoàn chỉnh hơn do vấn đề về độ chính xác và kiểm soát.",
-      "why": "Bài viết này đặt ra câu hỏi về hiệu suất thực sự của AI trong lập trình và tác động đến năng suất lao động, khuyến khích các manager và developer không chỉ tập trung vào số lượng code mà còn vào chất lượng và khả năng giải quyết vấn đề thực tế của AI.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "headline": "SAR: Đo lường 'tính cộng' của Sparse Autoencoder features",
+      "why": "Sparse autoencoders tìm ra các 'feature' trong AI, nhưng liệu chúng có cộng lại được? Paper này tìm ra nhiều feature không cộng tính — nghĩa là hiểu AI bằng 'tách feature' khó hơn ta nghĩ. Điều này quan trọng cho interpretability và AI safety.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.21261",
       "tags": [
-        "AI Impact",
-        "Future of Work",
-        "Productivity"
+        "interpretability",
+        "sparse autoencoders"
+      ]
+    },
+    {
+      "headline": "semCER: Metric OCR mới tính 'mức độ nghiêm trọng' của lỗi chữ",
+      "why": "OCR hiện tại đếm lỗi chữ như nhau (typo = sai tên). semCER dùng LLM để đánh giá mức độ nghiêm trọng (vd sai số điện thoại nặng hơn sai dấu câu). Nếu bạn đang đánh giá OCR cho legal/medical documents, đây là metric chuẩn xác hơn.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.20461",
+      "tags": [
+        "OCR",
+        "evaluation",
+        "metric"
+      ]
+    },
+    {
+      "headline": "Nghiên cứu: SAE cần bao nhiêu data? — Functional behavior ≠ feature reproducibility",
+      "why": "SAE thường train trên hàng tỷ token, nhưng paper này test xem có cần nhiều thế không. Kết quả: ít data hơn vẫn cho functional behavior tốt, nhưng feature không reproducible. Ý nghĩa: nếu bạn dùng SAE để hiểu model, cần nhiều data; nếu chỉ cần performance, ít data cũng đủ.",
+      "source": "arXiv",
+      "url": "https://huggingface.co/papers/2610.20680",
+      "tags": [
+        "sparse autoencoders",
+        "data efficiency"
       ]
     }
   ],
+  "business": [],
+  "society": [],
   "opensource": [
     {
-      "headline": "openclaw/openclaw: AI agent đa nền tảng, thực hiện tác vụ trên mọi OS",
-      "why": "Một AI agent đa nền tảng, đa hệ điều hành mạnh mẽ, cho phép các developer và manager triển khai các tác vụ tự động hóa phức tạp trên nhiều môi trường khác nhau, tăng cường hiệu quả vận hành.",
-      "source": "GitHub Trending",
+      "headline": "openclaw/openclaw: AI agent làm mọi việc trên mọi OS — 392K sao GitHub",
+      "why": "Cho cá nhân/creative: OpenClaw là AI agent control computer cross-platform (Windows/Mac/Linux). Nếu bạn cần automation workflow phức tạp (vd auto export từ Premiere → upload lên platform), đây là tool mã nguồn mở đáng thử thay vì trả tiền cho commercial agent.",
+      "source": "GitHub",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": "392128"
+      "stars": "392199"
     },
     {
-      "headline": "langgenius/dify: Nền tảng xây dựng workflow Agentic và RAG pipelines",
-      "why": "Nền tảng này giúp các team dễ dàng xây dựng và triển khai AI agent và RAG pipelines, giảm bớt rào cản kỹ thuật cho việc đưa các ứng dụng AI phức tạp vào sản xuất, tối ưu hóa quản lý tri thức doanh nghiệp.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "158591"
+      "headline": "NousResearch/hermes-agent: AI agent 'học cùng bạn' — 254K sao",
+      "why": "Cho cá nhân: Hermes Agent học từ workflow của bạn để cải thiện theo thời gian. Khác với agent static, đây là adaptive agent. Nếu bạn có workflow lặp đi lặp lại (vd research → summarize → send email), agent này sẽ tối ưu dần.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "254435"
     },
     {
-      "headline": "n8n-io/n8n: Nền tảng tự động hóa workflow với khả năng AI tích hợp",
-      "why": "Nền tảng tự động hóa workflow với khả năng AI tích hợp giúp các manager và developer tự động hóa các quy trình kinh doanh phức tạp, kết nối hơn 400 ứng dụng, tiết kiệm thời gian và nâng cao hiệu quả hoạt động.",
-      "source": "GitHub Trending",
+      "headline": "n8n-io/n8n: Workflow automation với AI tích hợp sẵn, self-host — 207K sao",
+      "why": "Cho manager/creative: n8n là alternative self-hosted của Zapier/Make, nhưng có AI capabilities native. Nếu team bạn cần automation nhưng lo data privacy, self-host n8n rẻ hơn và kiểm soát được data.",
+      "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "207538"
+      "stars": "207708"
     },
     {
-      "headline": "open-webui/open-webui: Giao diện AI thân thiện hỗ trợ Ollama, OpenAI API",
-      "why": "Giao diện người dùng thân thiện này giúp các developer và người dùng cuối dễ dàng tương tác với các mô hình AI như Ollama và OpenAI API, đơn giản hóa việc thử nghiệm và triển khai các ứng dụng AI nội bộ.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "155828"
-    },
-    {
-      "headline": "firecrawl/firecrawl: Công cụ thu thập dữ liệu web cho AI agents",
-      "why": "Công cụ này giúp AI agent thu thập dữ liệu từ web một cách hiệu quả, cung cấp thông tin chất lượng cao để cải thiện khả năng ra quyết định và thực hiện tác vụ của agent, rất quan trọng cho các ứng dụng cần dữ liệu thời gian thực.",
-      "source": "GitHub Trending",
+      "headline": "firecrawl/firecrawl: Scrape web data cho AI agents — 192K sao",
+      "why": "Cho cá nhân/creative: Firecrawl giúp AI agent crawl web data sạch (không bị block, format chuẩn). Nếu bạn đang build AI workflow cần research từ web (vd competitor analysis, market research), đây là infra layer cần có.",
+      "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "191910"
+      "stars": "192218"
     }
   ],
   "model_updates": [],
   "insight": null,
   "sources_count": {
-    "raw": 193,
-    "brave": 51,
+    "raw": 196,
+    "brave": 52,
     "reddit": 0,
-    "hackernews": 4,
+    "hackernews": 8,
     "rss": 42,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 23
+    "openrouter": 22
   }
 }
