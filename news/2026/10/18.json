@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-18",
+  "updated_at": "2026-10-18T07:29:55.278762+07:00",
+  "weekday": "Sunday",
+  "top_story": {
+    "headline": "Amazon đàm phán thâu tóm startup AI Decart với giá 7 tỷ USD — thương vụ M&A AI lớn nhất Q4/2026",
+    "summary": "Amazon đang đàm phán mua lại Decart, startup AI chuyên video generation và real-time rendering, với mức giá khoảng 7 tỷ USD. Nếu thành công, đây sẽ là thương vụ M&A AI lớn nhất Q4 và tín hiệu Amazon tăng tốc cạnh tranh với Google (Veo) và OpenAI (Sora) trong cuộc đua AI video.",
+    "why": "Cho business/founder: Decart định giá 7 tỷ USD cho thấy enterprise video AI đang hot — nếu bạn có startup trong lĩnh vực này, đây là timing tốt để pitch investors hoặc chuẩn bị exit. Cho creative: Amazon nắm Decart nghĩa là AWS sẽ tích hợp video generation vào infrastructure → giá render video AI có thể giảm mạnh 6-12 tháng tới, ảnh hưởng pricing model của production house.",
+    "source": "Yahoo! Finance via WSJ",
+    "url": "https://finance.yahoo.com/technology/ai/articles/amazon-reportedly-weighs-7b-startup-171900448.html",
+    "tags": [
+      "M&A",
+      "video-generation",
+      "enterprise",
+      "Amazon"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Modal Labs huy động 750 triệu USD — vòng gọi vốn AI infrastructure lớn nhất tuần",
+      "why": "Cho founder: AI infra vẫn hút vốn mạnh bất chấp thị trường hạ nhiệt — nếu startup bạn là picks-and-shovels (tools/platform cho AI builders), đây vẫn là narrative được investors ưu tiên.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Nvidia đàm phán mua lại Reflection AI (đã đổ 800 triệu USD trước đó) — đối đầu DeepSeek",
+      "why": "Cho business: Nvidia shift từ bán GPU sang sở hữu model → tín hiệu cạnh tranh model mở đang chuyển từ scrappy startups sang big tech. Nếu bạn depend vào model mở, chuẩn bị cho khả năng licensing thay đổi.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/12/nvidia-in-talks-to-acquire-open-source-ai-startup-reflection-ai-to-challenge-chinas-deepseek/",
+      "tags": [
+        "M&A",
+        "open-source",
+        "Nvidia"
+      ]
+    },
+    {
+      "headline": "Apple acqui-hire startup Huxe (founded bởi cựu NotebookLM devs) sau vòng gọi 4.6 triệu USD",
+      "why": "Cho cá nhân: Apple đang build AI note-taking in-house — nếu bạn đang dùng third-party AI note apps, chuẩn bị cho khả năng Apple Notes với AI sẽ tích hợp sâu vào ecosystem, khó thoát ra.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers/",
+      "tags": [
+        "Apple",
+        "acqui-hire",
+        "note-taking"
+      ]
+    },
+    {
+      "headline": "Meta ra Muse Spark Open — model AI chạy local trên Apple Silicon",
+      "why": "Cho cá nhân: Nếu bạn có Mac M1+ và muốn dùng AI không gửi data lên cloud, đây là lựa chọn mới từ Meta. Privacy trade-off: local = data safe, nhưng không bằng frontier models trên server.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "tags": [
+        "local-model",
+        "Meta",
+        "privacy"
+      ]
+    },
+    {
+      "headline": "Google Veo 3.1 nâng cấp lên 4K video generation trong AI Studio",
+      "why": "Cho creative: Veo 3.1 giờ ra 4K nghĩa là video AI đủ chất lượng cho broadcast/client deliverable — không còn chỉ là prototype. Nhưng processing time tăng → cần budget GPU/cloud credits.",
+      "source": "Google AI Studio",
+      "url": "https://aistudio.google.com/models/veo-3",
+      "tags": [
+        "video-generation",
+        "Google",
+        "4K"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Gemini Omni 1.1 Flash: tạo video từ bất kỳ input nào — text, image, hoặc nói chuyện",
+      "summary": "Google ra Gemini Omni 1.1 Flash, model hiểu đa phương thức để animate ảnh hoặc tạo video từ prompt tự nhiên. Tích hợp vào Gemini subscription.",
+      "why": "Cho creative: Nếu bạn đang dùng Gemini Pro, Omni 1.1 Flash giúp prototype video nhanh hơn — không cần chuyển sang Runway/Pika. Nhưng chất lượng output cần test với production work thật trước khi commit workflow.",
+      "source": "Gemini Overview",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "video-generation",
+        "multimodal",
+        "Google"
+      ]
+    },
+    {
+      "headline": "Az8 tích hợp Zumi + Oxygen: tạo video ads AI trên infinite canvas",
+      "summary": "Az8 ra tool tạo video ads, render variations, edit scene layout trực tiếp trên canvas. Targeting marketer và creative team làm ads.",
+      "why": "Cho creative/manager: Tool này giảm handoff giữa design → video → variant testing. Nếu team bạn làm ads với nhiều A/B test, đây là workflow mới đáng thử — potential giảm 30-50% thời gian iteration.",
+      "source": "MarTech",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "tags": [
+        "ads",
+        "video-generation",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Nghiên cứu: SAE features không compose additively — hành vi model phức tạp hơn ta nghĩ",
+      "summary": "Sparse Autoencoders (SAE) tạo features từ activations của model AI, nhưng nghiên cứu mới cho thấy các features này không cộng tuyến tính khi kết hợp — hành vi downstream phức tạp hơn. Paper đo 'SAE Additivity Residuals' để hiểu non-additive effects.",
+      "why": "Cho curious: Nếu bạn nghe về 'interpretability' của AI (hiểu model nghĩ gì), đây là phát hiện quan trọng — các 'concept' AI học không đơn giản như Lego blocks. Ý nghĩa thực tế: việc 'kiểm soát' AI bằng cách chỉnh sửa từng feature riêng lẻ khó hơn ta tưởng.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "tags": [
+        "interpretability",
+        "research",
+        "SAE"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "OpenClaw AI agent đạt 392,287 sao GitHub — 'làm mọi thứ trên mọi nền tảng'",
+      "summary": "OpenClaw, AI agent claim 'làm mọi thứ' trên bất kỳ OS/platform nào, viral với gần 400K sao GitHub trong tuần đầu. Marketing hook: 'The lobster way' (chưa rõ nghĩa gì). TypeScript-based.",
+      "why": "Cho manager/founder: OpenClaw viral nhanh đến mức đáng ngờ (400K sao trong vài ngày = bot farm?). Nếu bạn đang evaluate AI agents, đừng chỉ nhìn GitHub stars — test thực tế trước. Pattern này giống OpenClaw trước (cũng viral rồi lặng sau 2 tuần).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "tags": [
+        "AI-agent",
+        "viral",
+        "skepticism"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "n8n workflow automation tích hợp AI capabilities — 207K sao, fair-code model",
+      "why": "Cho manager: n8n là alternative self-hosted cho Zapier/Make, giờ có AI native. Nếu team bạn cần automation + không muốn gửi data lên cloud third-party, đây là lựa chọn đáng xem. Fair-code = free self-host, trả phí nếu dùng cloud.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "207832"
+    },
+    {
+      "headline": "Dify: platform build AI workflows/RAG — 158K sao, deploy cloud/VPC/self-hosted",
+      "why": "Cho founder/dev: Dify giúp build agentic workflows không cần code từ đầu. Nếu startup bạn cần prototype AI agent nhanh, Dify giảm time-to-market. Self-hosted option = giữ IP in-house.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "158728"
+    },
+    {
+      "headline": "LangChain: agent engineering platform — 148K sao, ecosystem lớn nhất cho LLM apps",
+      "why": "Cho dev: LangChain vẫn là de facto standard cho build LLM apps. Nếu bạn mới vào AI engineering, học LangChain trước các framework khác — job market demand cao nhất.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "147999"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] DeepSeek V4.1 Flash 1017 — snapshot mới nhất $0.15/$0.60",
+      "event": "new",
+      "summary": "DeepSeek V4.1 Flash 1017 là snapshot ngày 17/10/2026 của DeepSeek V4.1 Flash (serve dưới tên `deepseek-flash` API). Sparse MoE model.",
+      "why": "Snapshot mới nhất cho ai đang dùng DeepSeek Flash — nếu cần version cố định để reproduce, pin vào 1017.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+      "tags": [
+        "model-update",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Elorian Glimpse — model visual reasoning mới $0.60/$3.00",
+      "event": "new",
+      "summary": "Glimpse từ Elorian, model multimodal cho visual reasoning — reason trực tiếp trên ảnh và video.",
+      "why": "Cho creative: nếu bạn cần AI 'hiểu' video (không chỉ generate), Glimpse là model mới trong segment này. Giá $0.60/$3.00 competitive với GPT-4V.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/elorian/glimpse",
+      "tags": [
+        "multimodal",
+        "visual-reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Pareto 26.10 — model composite cho coding/research $0.80/$3.20",
+      "event": "new",
+      "summary": "Pareto là composite model (nhiều model kết hợp) cho research, coding, agentic workflows. Version 26.10 mới ra.",
+      "why": "Cho dev: Pareto claim 'frontier-level' nhưng giá rẻ hơn GPT-4/Claude. Nếu bạn dùng AI cho coding agents, test Pareto vs current model — có thể giảm cost 40-60%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/unbiased/pareto-26.10",
+      "tags": [
+        "coding",
+        "composite"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 thay đổi giá bất thường: prompt ↑400%, completion ↓77%",
+      "event": "price",
+      "summary": "Giá thay đổi: prompt $0.02→$0.10 (+400%), completion $1.28→$0.30 (-77%).",
+      "why": "Cảnh báo: nếu workload của bạn heavy prompt (nhiều context), cost tăng gấp 5. Nếu heavy completion (generate nhiều), giảm 77%. Check usage pattern trước khi tiếp tục dùng version này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "price-change",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Pareto Latest giảm giá mạnh: prompt ↓68%, completion ↓57%",
+      "event": "price",
+      "summary": "Giá thay đổi: prompt $2.50→$0.80 (-68%), completion $7.50→$3.20 (-57%).",
+      "why": "Pareto giờ rẻ hơn nhiều — nếu bạn đã thử và thấy đắt, re-evaluate. Giá mới competitive với mid-tier models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~unbiased/pareto-latest",
+      "tags": [
+        "price-change",
+        "Pareto"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Pro Latest: prompt ↓52%, completion ↑967% — cực bất thường",
+      "event": "price",
+      "summary": "Giá thay đổi: prompt $0.25→$0.12 (-52%), completion $0.75→$8.00 (+967%).",
+      "why": "CẢNH BÁO: completion tăng gần 10 lần — nếu bạn generate text dài với DeepSeek Pro, cost sẽ explode. Có thể là pricing error, check lại trước khi chạy production.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+      "tags": [
+        "price-change",
+        "warning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Flash Latest: prompt ↑167%, completion ↑257%",
+      "event": "price",
+      "summary": "Giá thay đổi: prompt $0.03→$0.08 (+167%), completion $0.14→$0.50 (+257%).",
+      "why": "DeepSeek Flash đang tăng giá dần — nếu bạn chọn DeepSeek vì rẻ, monitor cost hàng tuần. Có thể họ đang test pricing elasticity.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+      "tags": [
+        "price-change",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi Latest: completion giảm 42% xuống $14.00",
+      "event": "price",
+      "summary": "Giá thay đổi: prompt $0.29→$0.27 (-7%), completion $24.00→$14.00 (-42%).",
+      "why": "Kimi completion giảm mạnh — nếu bạn cần model với long context (Kimi support 200K tokens), giá giờ competitive hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+      "tags": [
+        "price-change",
+        "long-context"
+      ]
+    }
+  ],
+  "insight": "Tuần này có 2 pattern nổi bật:\n\n**1. M&A AI đang nóng trở lại — nhưng chỉ với những người có moat thực.** Amazon–Decart 7 tỷ USD, Nvidia–Reflection AI (sau khi đã đổ 800 triệu USD trước đó), Apple acqui-hire Huxe. Big tech không mua startup AI để có 'công nghệ' nữa (họ có đủ người build). Họ mua để có **talent + IP + thị phần** nhanh hơn build in-house. Nếu bạn là founder AI startup: câu hỏi không phải 'model của tôi tốt không', mà là 'tôi có gì mà Google/Amazon không thể replicate trong 6 tháng không'. Nếu câu trả lời là 'không', bạn đang ở vị thế yếu khi valuations hạ nhiệt.\n\n**2. Pricing chaos ở model Trung Quốc — tín hiệu cạnh tranh đang chuyển từ 'quality' sang 'cost'.** DeepSeek Pro completion tăng 967%, DeepSeek Flash tăng 257%, trong khi Pareto giảm 68% — đây không phải organic pricing, mà là price war. Các model Trung Quốc đang test xem market chịu được giá nào trước khi consolidation. **Implication cho bạn:** nếu production workflow depend vào model giá rẻ (DeepSeek, GLM, Kimi), chuẩn bị plan B. Giá này không bền — hoặc sẽ tăng khi họ thắng, hoặc model sẽ shut down khi thua. Diversify model usage ngay bây giờ, đừng đợi đến khi bị lock-in.\n\n**Reflection cho bạn:** Bạn đang bet vào công cụ AI nào mà nếu nó biến mất hoặc tăng giá 5 lần, workflow của bạn sẽ sụp? Nếu có — đó là single point of failure. Fix it this week.",
+  "sources_count": {
+    "raw": 154,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 34,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 17
+  }
+}
