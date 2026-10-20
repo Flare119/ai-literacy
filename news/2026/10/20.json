@@ -1,0 +1,317 @@
+{
+  "date": "2026-10-20",
+  "updated_at": "2026-10-20T08:21:19.415283+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Cohere đàm phán mua AISLE — AI lab thêm security sau làn sóng lộ credential",
+    "summary": "Cohere ký thỏa thuận mua AISLE, startup AI săn lỗ hổng phần mềm tại San Francisco, sau các sự cố agent 'đi chệch' tuần trước ở Ấn Độ và TV4 Thụy Điển. Động thái này phản ánh xu hướng AI labs bổ sung khả năng bảo mật trong bối cảnh agentic workflows ngày càng phổ biến nhưng chưa có containment chuẩn.",
+    "why": "Cho manager: nếu đang triển khai AI agents trong team, đây là tín hiệu cần audit quyền truy cập và logging ngay — mua bảo hiểm sau khi cháy nhà đắt gấp 10 lần đầu tư phòng ngừa.",
+    "source": "Value Add Pulse",
+    "url": "https://valueaddvc.com/pulse/cohere-aisle-acquisition-cybersecurity-2026",
+    "tags": [
+      "M&A",
+      "security",
+      "agentic-AI",
+      "risk-management"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Nvidia ra 3 model mở mới — chạy AI agents từ data center đến desktop",
+      "why": "Cho creative: Nemotron 3.5 Super VL có khả năng visual-language, Bolt 74B và Bolt E4B chạy local — giảm phụ thuộc cloud khi xử lý nội dung nhạy cảm hoặc offline.",
+      "source": "Yahoo! Finance",
+      "url": "https://finance.yahoo.com/technology/article/nvidia-debuts-three-new-open-ai-models-150000191.html",
+      "tags": [
+        "model-launch",
+        "edge-AI",
+        "Nvidia"
+      ]
+    },
+    {
+      "headline": "xAI ra Aurora — model tạo ảnh tích hợp Grok trên nền tảng X",
+      "why": "Cho cá nhân: Aurora autoregressive image generation trên X — giống Midjourney nhưng trong Twitter feed. Nếu đang dùng X cho marketing, đây là tool mới để test creative nhanh.",
+      "source": "xAI",
+      "url": "https://x.ai/news",
+      "tags": [
+        "image-generation",
+        "xAI",
+        "social-media"
+      ]
+    },
+    {
+      "headline": "Mistral ra Timestral — model AI chuyên xử lý chuỗi thời gian",
+      "why": "Cho business: nếu startup bạn làm fintech, logistics, IoT — Timestral tối ưu cho time-series forecasting, rẻ hơn train custom model từ đầu.",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/timestral/",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "Mistral"
+      ]
+    },
+    {
+      "headline": "Qwen Code: AI coding agent mã nguồn mở chạy trong terminal, editor, browser",
+      "why": "Cho creative/developer: alternative mã nguồn mở cho Cursor/Windsurf — chạy local, không gửi code ra cloud, phù hợp team nhạy cảm về IP.",
+      "source": "GitHub - QwenLM",
+      "url": "https://github.com/qwenLM/qwen-code",
+      "tags": [
+        "coding-agent",
+        "open-source",
+        "privacy"
+      ]
+    },
+    {
+      "headline": "Anthropic IPO có 'trust cấu trúc kỳ lạ' — WSJ điều tra trước đợt niêm yết",
+      "why": "Cho business/đầu tư: nếu bạn đang cân nhắc mua cổ phiếu Anthropic IPO, đọc bài này trước — trust structure ảnh hưởng quyền voting và governance sau khi lên sàn.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7",
+      "tags": [
+        "IPO",
+        "governance",
+        "Anthropic"
+      ]
+    },
+    {
+      "headline": "Wondershare UniConverter 18 ra mắt — AI workflow cho video conversion",
+      "why": "Cho creative: nếu đang xử lý nhiều format video (export từ nhiều tool khác nhau), UniConverter 18 tích hợp AI upscaling + batch conversion — giảm thời gian render.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/latest-news-topics/artificial-intelligence/",
+      "tags": [
+        "video-tools",
+        "workflow-automation"
+      ]
+    }
+  ],
+  "production": [],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Modal Labs huy động 750 triệu USD — vòng gọi vốn AI infrastructure lớn nhất tuần",
+      "summary": "Modal Labs (cung cấp infrastructure cho AI workloads) đóng vòng 750 triệu USD, dẫn đầu top funding tuần này. Các vòng gọi vốn AI đang giảm về số lượng nhưng tăng về quy mô — tín hiệu thị trường đang consolidate.",
+      "why": "Cho founder: nếu bạn đang build AI startup, window đang đóng dần cho seed/Series A nhỏ — investors ưu tiên đổ vốn lớn vào infrastructure plays hoặc application layer đã có traction rõ. Fundraise sớm hoặc bootstrap.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "market-signal"
+      ]
+    },
+    {
+      "headline": "Cohere ký LOI mua AISLE — bổ sung security cho AI lab trước IPO",
+      "summary": "Cohere signed letter of intent mua AISLE (startup AI săn lỗ hổng), bổ sung layer bảo mật cho model trước khi IPO. Động thái này sau các sự cố agent lộ credentials tuần trước.",
+      "why": "Cho founder: nếu bạn đang build AI product có customer data, security audit trước fundraising Series B+ là bắt buộc — investors đang yêu cầu penetration test report trong due diligence.",
+      "source": "Value Add Pulse",
+      "url": "https://valueaddvc.com/pulse/cohere-aisle-acquisition-cybersecurity-2026",
+      "tags": [
+        "M&A",
+        "security",
+        "IPO-prep"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "The Atlantic: 'Bi kịch của AI coding' — nhiều code hơn, không nhiều phần mềm hơn",
+      "summary": "Bài phân tích dài từ The Atlantic: AI agents như Claude Code tạo ra nhiều code, nhưng không tạo ra nhiều phần mềm có giá trị hơn. Automation execution không thay thế được system thinking — chỉ làm tăng technical debt nếu không hiểu kiến trúc.",
+      "why": "Cho manager: nếu đang push team dùng AI coding agents để ship nhanh, cần cân nhắc trade-off — code gen nhanh nhưng maintainability giảm. Một năm sau khi refactor, cost có thể cao gấp 3 lần so với viết chậm từ đầu.",
+      "source": "The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "tags": [
+        "coding",
+        "technical-debt",
+        "system-thinking"
+      ]
+    },
+    {
+      "headline": "Hacker News: 'Làm sao deal với việc ship code AI mà mình không hiểu?'",
+      "summary": "Thread trên HN với 300+ comments — developers thảo luận về áp lực ship AI-generated code mà không hiểu. Nhiều người báo cáo cảm giác 'mất quyền kiểm soát' và lo ngại về maintainability.",
+      "why": "Cho cá nhân: nếu bạn đang trong tình huống này, bạn không đơn độc. Pattern phổ biến: ban đầu ship nhanh, 3-6 tháng sau debug chậm gấp đôi vì không hiểu code base. Giải pháp: enforce 'review every line' policy trước khi merge.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "tags": [
+        "developer-experience",
+        "code-review",
+        "mental-health"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "openclaw: AI agent 'làm thật' — chạy bất kỳ OS, platform nào 🦞",
+      "why": "Cho creative/developer: nếu cần AI agent điều khiển desktop app (không chỉ code), openclaw là alternative mã nguồn mở cho các tool thương mại — chạy cross-platform.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "392,663"
+    },
+    {
+      "headline": "n8n: workflow automation platform với AI tích hợp — self-host hoặc cloud",
+      "why": "Cho manager: nếu đang dùng Zapier nhưng muốn control data, n8n là fair-code alternative — 400+ integrations, chạy local hoặc VPC.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "208,058"
+    },
+    {
+      "headline": "Dify: build agentic workflows + RAG pipelines với collaborative workspace",
+      "why": "Cho founder: nếu startup bạn cần RAG hoặc agent workflows mà không có data engineer, Dify giúp team prototype đến production mà không rebuild stack.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "158,939"
+    },
+    {
+      "headline": "Open WebUI: giao diện thân thiện cho Ollama, OpenAI API",
+      "why": "Cho cá nhân: nếu đang chạy Ollama local nhưng thấy CLI khó dùng, Open WebUI là ChatGPT-like interface — chạy private, không gửi data ra ngoài.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "156,205"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Inception Mercury 3 — $0.10/$0.35 per M tok",
+      "event": "new",
+      "summary": "Mercury 3 là diffusion-based language model từ Inception, phù hợp agentic workflows và real-time apps với latency thấp.",
+      "why": "Alternative mới cho agentic tasks — giá rẻ hơn Claude nhưng chưa rõ benchmark so sánh.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inception/mercury-3",
+      "tags": [
+        "model-launch",
+        "agentic"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] MiniMax M3.1 Flash (free) — $0.00/$0.00 per M tok",
+      "event": "new",
+      "summary": "MiniMax M3.1 Flash multimodal model — cải thiện đáng kể trên coding, cybersecurity, agentic tasks. Phiên bản free trên OpenRouter.",
+      "why": "Free tier cho testing — nếu đang dùng GPT-4o mini cho prototype, đáng thử MiniMax miễn phí.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m3.1-flash:free",
+      "tags": [
+        "free-tier",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] DeepSeek R1 removed",
+      "event": "deprecated",
+      "summary": "Model deepseek/deepseek-r1 không còn trên OpenRouter.",
+      "why": "Migrate sang DeepSeek V4 Flash hoặc V4.1 Flash nếu đang dùng R1.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-r1",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] WizardLM-2 8x22B removed",
+      "event": "deprecated",
+      "summary": "Model microsoft/wizardlm-2-8x22b không còn trên OpenRouter.",
+      "why": "Migrate sang Qwen hoặc Mistral nếu đang dùng WizardLM.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/microsoft/wizardlm-2-8x22b",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Llama 3.3 Euryale 70B removed",
+      "event": "deprecated",
+      "summary": "Model sao10k/l3.3-euryale-70b không còn trên OpenRouter.",
+      "why": "Migrate sang Llama 3.3 official hoặc Qwen nếu đang dùng Euryale.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/sao10k/l3.3-euryale-70b",
+      "tags": [
+        "deprecation"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.6 35B A3B giảm giá xuống $0.10/$0.95",
+      "event": "price",
+      "summary": "Prompt $0.15 → $0.10, completion $1.00 → $0.95.",
+      "why": "Giảm 33% prompt cost — nếu đang dùng model 35B tier, đáng chuyển sang Qwen3.6.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Flash Latest giảm giá xuống $0.04/$0.60",
+      "event": "price",
+      "summary": "Prompt $0.05 → $0.04.",
+      "why": "Flash tier rẻ nhất tiếp tục giảm — nếu workload không cần reasoning sâu, đây là default choice.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Kimi Latest: prompt giảm 4%, completion TĂNG 34% lên $16",
+      "event": "price",
+      "summary": "Prompt $0.25 → $0.24, completion $11.94 → $16.00.",
+      "why": "Nếu đang dùng Kimi cho long-form generation, cost tăng đáng kể — cân nhắc chuyển sang DeepSeek V4.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash 1017 TĂNG gấp đôi giá lên $0.30/$1.20",
+      "event": "price",
+      "summary": "Prompt $0.15 → $0.30, completion $0.60 → $1.20.",
+      "why": "Snapshot cũ 1017 tăng giá — migrate sang DeepSeek Flash Latest nếu không cần pin version cụ thể.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest TĂNG GẤP 3+ lần lên $0.02/$0.45",
+      "event": "price",
+      "summary": "Prompt $0.01 → $0.02, completion $0.12 → $0.45.",
+      "why": "Flash tier tăng mạnh completion — nếu workload heavy generation, cost tăng 275%. Đánh giá lại budget.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Reflection Beam 1.0 501B giảm 70% xuống $0.30/$1.00",
+      "event": "price",
+      "summary": "Prompt $1.00 → $0.30, completion $3.00 → $1.00.",
+      "why": "Model lớn nhất từ Reflection giảm mạnh — nếu cần reasoning siêu nặng và đã bỏ qua vì đắt, đây là lúc thử.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 TĂNG 193% prompt, 780% completion",
+      "event": "price",
+      "summary": "Prompt $0.15 → $0.44, completion $0.15 → $1.32.",
+      "why": "Snapshot 0731 tăng giá cực mạnh — migrate ngay sang Flash Latest nếu đang pin version này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "price-increase"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 197,
+    "brave": 51,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 42,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 25
+  }
+}
