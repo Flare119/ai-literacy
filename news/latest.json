@@ -1,305 +1,243 @@
 {
-  "date": "2026-10-24",
-  "updated_at": "2026-10-24T08:14:32.258821+07:00",
-  "weekday": "Saturday",
+  "date": "2026-10-25",
+  "updated_at": "2026-10-25T07:40:45.202521+07:00",
+  "weekday": "Sunday",
   "top_story": {
-    "headline": "Google cập nhật chính sách — có thể dùng Gmail và Google Photos cho quảng cáo AI",
-    "summary": "Google thông báo điều chỉnh Privacy Policy cho phép sử dụng dữ liệu cá nhân từ Gmail và Google Photos để train AI và target quảng cáo. Người dùng không thể opt-out nếu muốn tiếp tục dùng dịch vụ. Thay đổi có hiệu lực sau 30 ngày thông báo.",
-    "why": "Cho cá nhân: Email công việc, ảnh riêng tư của bạn có thể trở thành training data. Nếu lo ngại privacy, đây là tín hiệu migrate sang provider khác (Proton Mail, self-hosted) hoặc ít nhất review lại những gì đang store trên Google. Delay effect: dữ liệu hôm nay → model vài tháng sau → quảng cáo/AI applications vài năm sau.",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+    "headline": "AI chưa tạo ra giá trị kinh tế ngoài ngành tech — Apollo phân tích",
+    "summary": "Dữ liệu từ Apollo cho thấy sau 2 năm đầu tư hàng trăm tỷ USD, AI vẫn chưa tạo ra tăng trưởng năng suất đo được ở các ngành ngoài tech. Healthcare, manufacturing, finance — productivity gần như không đổi. Pattern này giống dotcom bubble 1990s: hype trước, payoff sau 5-10 năm.",
+    "why": "Cho manager và founder: nếu bạn đang chịu áp lực 'phải dùng AI ngay', đây là data point để chống lại FOMO. ROI AI thực tế cần thời gian dài hơn pitch deck hứa hẹn. Đầu tư có chọn lọc, đo lường chặt, đừng đuổi theo hype.",
+    "source": "Apollo via Hacker News",
+    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
     "tags": [
-      "privacy",
-      "policy",
-      "google",
-      "individual"
+      "productivity",
+      "roi",
+      "skepticism"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Dessa: model speech full-duplex 'tự nhiên nhất từ trước đến nay' từ Block",
-      "why": "Cho creative/cá nhân: Speech AI đang vượt ngưỡng uncanny valley — ứng dụng voice agent/podcast/audiobook sẽ bùng nổ. Nếu làm audio production, đây là signal chuẩn bị workflow tích hợp voice synthesis thay vì thuê voice talent cho mọi project.",
-      "source": "Block.xyz",
-      "url": "https://block.xyz/dessa",
+      "headline": "Paper mới: AI-generated text khó hiểu hơn human-written — arXiv phân tích",
+      "why": "Cho creative: nếu output AI content cảm thấy 'off', đây là lý do khoa học — AI văn phong thiếu coherence tự nhiên. Edit thủ công vẫn cần thiết, đừng publish raw AI text.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.29162",
       "tags": [
-        "audio",
-        "speech",
-        "model",
-        "creative"
+        "research",
+        "writing",
+        "ux"
       ]
     },
     {
-      "headline": "OpenAI models (GPT 6.1 Astra, Sol, Luna) lên Google Cloud trong vài tuần tới",
-      "why": "Cho manager/business: Đối tác bất ngờ sau nhiều năm cạnh tranh. Enterprise đang dùng Google Cloud infrastructure giờ có thể access OpenAI models trực tiếp — giảm vendor lock-in, dễ A/B test giữa Gemini và GPT trong cùng stack.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "headline": "OpenCode: AI coding agent open-source không lưu code — chạy local privacy-first",
+      "why": "Cho developer: alternative cho GitHub Copilot nếu lo ngại IP leak. Chạy terminal/editor/browser, data không rời máy. Phù hợp startup nhạy cảm về IP.",
+      "source": "OpenCode",
+      "url": "https://opencode.ai/",
       "tags": [
-        "openai",
-        "google-cloud",
-        "enterprise",
-        "manager"
+        "coding",
+        "privacy",
+        "opensource"
       ]
     },
     {
-      "headline": "VideoGen Model 1 ra mắt — tạo video AI đa cảnh dài 10 phút, tặng 1 triệu USD credits",
-      "why": "Cho creative/producer: Video generation giờ vượt 2-3 phút lên 10 phút multi-shot. Tool này compete trực tiếp Runway/Pika cho explainer videos/ads. Free credits $1M nghĩa là low-risk để test — nếu phù hợp workflow, có thể thay thế một phần stock footage hoặc low-budget shoots.",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384785/0/en/videogen-unveils-model-1-its-first-ai-video-generation-model-and-1-million-in-free-ai-credits.html",
+      "headline": "AI chiếm 50% tổng funding toàn cầu năm 2025 — $202.3B (+75% YoY)",
+      "why": "Cho founder: nếu không phải AI startup, bạn đang cạnh tranh 50% funding còn lại với toàn bộ ngành khác. Pitch deck cần rõ ràng hơn về differentiation và path to profitability.",
+      "source": "Fundraise Insider",
+      "url": "https://fundraiseinsider.com/blog/ai-startups/",
       "tags": [
-        "video",
-        "generation",
-        "tools",
-        "creative"
+        "funding",
+        "market"
       ]
     },
     {
-      "headline": "OpenAI ra 'Study Mode' — học tập theo từng bước với Q&A và hints",
-      "why": "Cho cá nhân/curious: ChatGPT giờ có chế độ học tập tương tác — không chỉ trả lời mà dạy từng bước. Nếu đang upskill (AI, coding, design), đây là tool miễn phí thay thế một phần online courses. Nhưng vẫn cần verify — AI có thể sai.",
-      "source": "Releasebot",
-      "url": "https://releasebot.io/updates/openai",
+      "headline": "B2C AI cần $5M ARR để raise Series A, cao hơn B2B ($3M)",
+      "why": "Cho founder AI consumer: bar cao hơn vì retention khó chứng minh. Nếu chưa đạt $5M ARR, chuẩn bị runway dài hơn hoặc pivot B2B.",
+      "source": "Waveup",
+      "url": "https://waveup.com/blog/how-to-raise-money-for-ai-startup/",
       "tags": [
-        "learning",
-        "chatgpt",
-        "individual"
-      ]
-    },
-    {
-      "headline": "9 ngân hàng Hàn Quốc + 2 mega-churches điều tra cyberattacks có dùng AI tools",
-      "why": "Cho manager/business: AI tools đang được weaponize cho cyberattacks — không chỉ phishing sophisticate hơn mà cả automated exploit discovery. Nếu công ty chưa có AI security policy (employee training về AI-powered scams, monitoring AI tool usage), đây là tín hiệu ưu tiên.",
-      "source": "NBC News",
-      "url": "https://www.nbcnews.com/artificial-intelligence",
-      "tags": [
-        "security",
-        "cyberattack",
-        "manager"
+        "funding",
+        "b2c"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Adobe Firefly thêm tính năng Image to Video — export trực tiếp vào project",
-      "summary": "Firefly giờ biến ảnh tĩnh thành video ngắn, blend frames thành clip coherent. Export trực tiếp từ Firefly vào project — B-roll, reels, presentation assets. Công cụ nằm ngay trong ecosystem Adobe.",
-      "why": "Cho creative/producer: Nếu đang dùng Adobe suite, image-to-video trong Firefly giảm handoff giữa tools — không cần export ảnh từ Photoshop sang Runway rồi import vào Premiere. Workflow gọn hơn, đặc biệt cho quick turnaround projects (social media ads, product demos).",
-      "source": "Adobe Firefly",
-      "url": "https://www.adobe.com/products/firefly/features/image-to-video.html",
+      "headline": "VideoGen Model 1 tặng $1M credits miễn phí — tạo video đa cảnh 10 phút",
+      "summary": "VideoGen vừa ra Model 1, AI video generation từ text/image, multi-shot lên đến 10 phút. Tặng $1 triệu USD credits miễn phí cho early users.",
+      "why": "Cho creative: đây là cơ hội test tool mới không mất tiền. 10 phút đa cảnh = phù hợp cho explainer video, ads dài. So với Sora/Veo giới hạn 1-2 phút single shot.",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384785/0/en/videogen-unveils-model-1-its-first-ai-video-generation-model-and-1-million-in-free-ai-credits.html",
       "tags": [
-        "adobe",
         "video",
-        "workflow",
-        "creative"
-      ]
-    },
-    {
-      "headline": "Warp terminal — open-source terminal built cho AI-assisted development",
-      "summary": "Warp là terminal tích hợp coding agent chạy được trong bất kỳ terminal nào. Hỗ trợ AI-assisted workflows: trigger agents từ issue, Slack message, hoặc command line. Open infrastructure cho cloud software factories.",
-      "why": "Cho creative/dev: Terminal không còn chỉ là CLI — giờ là interface cho AI agents code. Nếu đang dùng Cursor/Copilot nhưng muốn control terminal-level automation (CI/CD, deployment, testing), Warp là option mở và customize được.",
-      "source": "Warp",
-      "url": "https://www.warp.dev/",
-      "tags": [
-        "dev-tools",
-        "terminal",
-        "opensource",
-        "creative"
+        "tools",
+        "free"
       ]
     }
   ],
   "vietnam": [
     {
-      "headline": "FPT và NVIDIA mở rộng dataset người dùng giả lập Việt Nam lên 1 triệu records",
-      "why": "Cho business/dev Việt: Dataset synthetic Vietnamese users giúp train/test AI apps tailored cho VN market mà không vi phạm privacy. Nếu đang build chatbot/recommendation engine cho người Việt, đây là nguồn data public có thể dùng ngay — giảm cold start problem.",
+      "headline": "FPT và NVIDIA mở rộng dataset người dùng giả lập Việt Nam lên 1 triệu bản ghi",
+      "why": "Cho developer VN: dataset lớn hơn giúp train/test AI model phù hợp người Việt. Nếu bạn đang build chatbot/recommendation VN, có thể leverage data này thay vì dùng dataset Tây.",
       "source": "Vietnam.vn",
       "url": "https://www.vietnam.vn/en/fpt-va-nvidia-mo-rong-bo-du-lieu-nguoi-dung-gia-lap-viet-nam-len-1-trieu-ban-ghi"
-    },
-    {
-      "headline": "Savvycom dẫn đầu top 10 công ty AI Việt Nam 2026 — #1 AI company Hanoi",
-      "why": "Cho business/founder VN: Savvycom ranked #1 Hanoi bởi TechBehemoths về production AI delivery trong BFSI, logistics, manufacturing. Nếu đang tìm vendor triển khai AI cho enterprise (không phải R&D lab), đây là reference điểm — check case studies của họ để benchmark feasibility và timeline.",
-      "source": "Savvycom",
-      "url": "https://savvycomsoftware.com/blog/top-ai-driven-companies-in-vietnam/"
     }
   ],
   "research": [
     {
-      "headline": "MIT nghiên cứu mới giúp AI hiểu cấu trúc tinh thể 3D và dự đoán tính chất vật liệu",
-      "summary": "AI model mới từ MIT có thể phân tích cấu trúc tinh thể trong không gian 3D và suy luận về tính chất vật liệu. Trước đây AI chỉ nhìn 2D hoặc cần human-labeled data nhiều — giờ model tự học được cấu trúc atomic.",
-      "why": "Cho curious/business: Ứng dụng thực tế — tăng tốc R&D vật liệu mới (pin, chip, composite). Nếu trong manufacturing/hardware, đây là signal AI sẽ giảm thời gian từ lab đến production. Delay effect: breakthrough vật liệu hôm nay → sản phẩm consumer 3-5 năm sau.",
+      "headline": "MIT nghiên cứu: Quantum algorithm giải bài toán vật liệu 'không thể' trong vài giây",
+      "summary": "Thuật toán lượng tử mới crack được bài toán cấu trúc vật liệu quá lớn để máy tính thường xử lý. Giúp AI dự đoán tính chất vật liệu mới nhanh hơn hàng nghìn lần.",
+      "why": "Cho curious: đây là breakthrough về hardware, không phải model. Quantum + AI kết hợp = mở khóa vấn đề từng bất khả thi. Ứng dụng: pin tốt hơn, vật liệu bền hơn, drug discovery nhanh hơn.",
       "source": "MIT News",
       "url": "https://news.mit.edu/topic/artificial-intelligence2",
       "tags": [
+        "quantum",
         "materials",
-        "3d",
-        "research"
+        "breakthrough"
+      ]
+    },
+    {
+      "headline": "Nghiên cứu MIT: AI hallucination bắt nguồn từ randomness cố tình trong thuật toán đầu tiên",
+      "summary": "Kỹ sư thời kỳ đầu AI cố tình inject randomness vào model để tạo 'creativity'. Đây là gốc rễ của hiện tượng hallucination ngày nay — không phải bug mà là design choice từ thập niên 1950s.",
+      "why": "Cho curious: giải thích vì sao AI 'bịa chuyện' — không phải lỗi kỹ thuật mới mà là di sản từ cách thiết kế ban đầu. Hallucination là trade-off của creativity, không thể loại bỏ hoàn toàn.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "hallucination",
+        "history",
+        "design"
       ]
     }
   ],
   "business": [
     {
-      "headline": "66 AI startups announce funding trong 7 ngày qua — 289 trong 30 ngày, 1017 trong 90 ngày",
-      "summary": "Tính đến 19/10/2026, có 66 AI startups công bố vòng gọi vốn trong tuần trước, 289 trong tháng, và 1017 trong quý. AI là ngành lớn nhất về số lượng deals trên Recent Funding.",
-      "why": "Cho business/founder: Funding AI vẫn nóng bất chấp lo ngại bubble. Nếu đang fundraise, market vẫn có appetite — nhưng cạnh tranh cao (1017 deals/quý nghĩa là investor đang spoiled for choice). Differentiation quan trọng hơn bao giờ hết — focus vào traction/revenue, không chỉ tech.",
-      "source": "Recent Funding",
-      "url": "https://recentfunding.com/blog/ai-startup-funding/",
+      "headline": "Bezos Project Prometheus định giá $41B sau 2 vòng funding trong 11 tháng",
+      "summary": "Project Prometheus (AI lab bí ẩn của Bezos) hoàn thành Series B $12B, nâng định giá lên $41B. Trước đó raise $6.2B seed tháng 11/2025. Tốc độ này nhanh hơn cả OpenAI giai đoạn đầu.",
+      "why": "Cho founder: đây là benchmark funding velocity cực đoan. Nếu bạn có traction + brand name founder, thị trường AI 2026 vẫn sẵn sàng đổ tiền nhanh. Nhưng cũng là dấu hiệu bong bóng — định giá $41B mà chưa có product public.",
+      "source": "Tech Insider",
+      "url": "https://tech-insider.org/project-prometheus-bezos-10-billion-38-billion-valuation-2026/",
       "tags": [
         "funding",
-        "startups",
-        "business"
+        "valuation",
+        "bezos"
       ]
     },
     {
-      "headline": "DeepSeek, Mural, AuxoAI raise hàng tỷ và hàng chục triệu USD",
-      "summary": "DeepSeek reportedly thu hút ~$15 tỷ USD. Mural raised $15M Series A led by Tether. AuxoAI (enterprise AI) secured $20.7M. TravClan (travel tech AI) raised $5M.",
-      "why": "Cho business/founder: DeepSeek $15B là outlier — Chinese AI lab đang cạnh tranh funding với OpenAI/Anthropic. Mural/AuxoAI ở mức $15-20M là typical Series A cho enterprise AI SaaS. Nếu building B2B AI, đây là benchmark valuation — nhưng cần prove PMF + revenue trước khi kỳ vọng raise mức này.",
-      "source": "Analytics Insight",
-      "url": "https://www.analyticsinsight.net/news/startup-funding-deepseek-mural-auxoai-raise-billions-and-millions",
+      "headline": "AI startup funding tuần này: Tenstorrent và Flapping Airplanes dẫn đầu",
+      "summary": "Vòng lớn nhất tuần: Tenstorrent (AI processors) và Flapping Airplanes (AI lab). Round quirky nhất: Warhound raise $200M để... breeding quân khuyển elite bằng AI genetics.",
+      "why": "Cho investor: AI funding đang lan ra các vertical kỳ lạ (breeding dogs?). Signal: tiền đang tìm use case mới ngoài LLM, kể cả niche markets. Opportunity cho founder nghĩ outside the box.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
       "tags": [
         "funding",
-        "deepseek",
-        "business"
+        "vertical",
+        "quirky"
       ]
     }
   ],
-  "society": [],
+  "society": [
+    {
+      "headline": "Trung Quốc siết quy định xuất khẩu AI — cân bằng an ninh và cạnh tranh với Mỹ",
+      "summary": "Dự thảo luật mới của Trung Quốc kiểm soát chặt xuất khẩu công nghệ AI, nhưng vẫn để lỏng đủ cho các công ty cạnh tranh toàn cầu với OpenAI/Anthropic. Đây là chiến lược 'vừa bảo vệ vừa mở cửa'.",
+      "why": "Cho manager và curious: AI đang trở thành vũ khí địa chính trị. Nếu công ty bạn phụ thuộc model Trung Quốc (DeepSeek, GLM), cần plan B cho trường hợp policy thay đổi đột ngột. Delay effect: quy định hôm nay → supply chain disruption 6-12 tháng sau.",
+      "source": "NYTimes via Brave",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "policy",
+        "china",
+        "geopolitics"
+      ]
+    }
+  ],
   "opensource": [
     {
-      "headline": "openclaw/openclaw — AI agent làm việc thực trên bất kỳ OS/platform nào",
-      "why": "Cho dev/curious: OpenClaw là AI agent cross-platform thực thi tasks trên mọi OS. Nếu đang experiment với autonomous agents (không chỉ chat mà thực sự control máy tính), đây là starting point opensource. Nguy cơ: agent có quyền system-level — cần sandbox kỹ trước khi chạy production.",
-      "source": "GitHub",
-      "url": "https://github.com/openclaw/openclaw",
-      "stars": "392884"
-    },
-    {
-      "headline": "n8n-io/n8n — workflow automation platform với native AI, self-host hoặc cloud",
-      "why": "Cho manager/dev: n8n là Zapier/Make.com mã nguồn mở + AI native. 400+ integrations. Nếu lo ngại vendor lock-in hoặc cần customize workflow phức tạp (internal tools, data pipeline), n8n self-hosted là option — control data + logic hoàn toàn.",
+      "headline": "n8n: Workflow automation platform với AI capabilities — 208K stars",
+      "why": "Cho developer/manager: alternative self-host cho Zapier. Visual builder + custom code, tích hợp 400+ apps. Phù hợp team cần automation nhưng lo ngại data privacy của cloud tools.",
       "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "208414"
+      "stars": "208505"
     },
     {
-      "headline": "langgenius/dify — build Agentic workflows + RAG pipelines, deploy cloud/VPC/self-hosted",
-      "why": "Cho dev/business: Dify giúp teams move từ prototype đến production mà không rebuild stack. Nếu đang POC AI agents/RAG cho enterprise và không muốn vendor lock (OpenAI/Anthropic platform), Dify là collaborative workspace mở — deploy anywhere.",
+      "headline": "Dify: Build agentic workflows + RAG pipelines — 159K stars",
+      "why": "Cho developer: platform all-in-one để build AI agent. Self-host hoặc cloud, giúp team đi từ prototype đến production không rebuild stack. Phù hợp startup cần tốc độ.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "159379"
+      "stars": "159437"
     },
     {
-      "headline": "open-webui/open-webui — UI thân thiện cho Ollama, OpenAI API và các LLM khác",
-      "why": "Cho cá nhân/dev: Open WebUI là frontend mã nguồn mở cho mọi LLM backend (Ollama local, OpenAI API, custom models). Nếu muốn self-host ChatGPT-like interface mà control hoàn toàn data, đây là tool phổ biến nhất (156K stars). Setup đơn giản, không cần code.",
+      "headline": "Open WebUI: Giao diện AI thân thiện — support Ollama, OpenAI — 156K stars",
+      "why": "Cho individual: nếu dùng nhiều model khác nhau, Open WebUI là interface duy nhất cần mở. Self-host, privacy-first, UX tốt.",
       "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "156587"
+      "stars": "156656"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] MoonshotAI Kimi K3.1 Pro — $2/$10 per M tokens",
+      "headline": "[OpenRouter NEW] LiquidAI: LFM2.5-2.6B · $0.35/$0.50 per M tok",
       "event": "new",
-      "summary": "Kimi K3.1 Pro là flagship open-weight multimodal reasoning model của Moonshot AI, post-trained successor của Kimi K3 với 1M-token context window. Built cho long-horizon coding và 3D reasoning.",
-      "why": "Context 1M tokens = xử lý codebase lớn hoặc long documents trong 1 prompt. Giá $2 input/$10 output — rẻ hơn GPT-4 nhưng đắt hơn Claude Haiku. Test nếu cần reasoning dài (legal docs, research papers).",
+      "summary": "Model reasoning nhỏ gọn từ Liquid AI, phù hợp agent workflows, data extraction, RAG, long-context.",
+      "why": "Cheaper alternative cho tasks không cần GPT-4 scale — save cost cho batch processing.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro",
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-2.6b",
       "tags": [
-        "new",
-        "moonshot",
+        "model",
         "reasoning"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek Pro Latest giảm prompt $0.22→$0.12",
-      "event": "price",
-      "summary": "DeepSeek Pro Latest giảm input cost 45% (từ $0.22 xuống $0.12 per M tokens). Output giữ nguyên $8.",
-      "why": "DeepSeek đang aggressive về pricing để compete OpenAI/Anthropic. Nếu đang dùng GPT-4/Claude cho reasoning tasks, test DeepSeek — rẻ hơn đáng kể mà quality gần tương đương theo benchmark.",
+      "headline": "[OpenRouter DEPRECATED] OpenAI: GPT-3.5 Turbo removed",
+      "event": "deprecated",
+      "summary": "GPT-3.5 Turbo không còn trên OpenRouter.",
+      "why": "Migrate ngay nếu code còn hardcode gpt-3.5-turbo — đổi sang gpt-4o-mini hoặc DeepSeek Flash để tránh downtime.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+      "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] OpenAI: GPT-3.5 Turbo Instruct removed",
+      "event": "deprecated",
+      "summary": "GPT-3.5 Turbo Instruct không còn trên OpenRouter.",
+      "why": "Migrate users away trước khi production break.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo-instruct",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro ↓68% prompt, ↓68% completion",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro giảm giá prompt $0.65 → $0.21, completion $1.30 → $0.42.",
+      "why": "Cơ hội chuyển từ GPT-4 sang DeepSeek V4 Pro — hiệu năng tương đương nhưng giá giảm 2/3. Test ngay nếu budget tight.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
       "tags": [
         "price",
         "deepseek"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 giảm mạnh $0.44→$0.04 input, $1.32→$0.13 output",
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi Latest ↓21% prompt, ↓44% completion",
       "event": "price",
-      "summary": "DeepSeek V4 Flash 0731 giảm giá 90% input (từ $0.44 xuống $0.04) và output (từ $1.32 xuống $0.13).",
-      "why": "Flash model giờ rẻ nhất thị trường cho speed/cost ratio. Nếu cần throughput cao cho simple tasks (summarization, classification, extraction), migrate sang V4 Flash — ROI rõ ràng.",
+      "summary": "Kimi Latest giảm prompt $0.24 → $0.19, completion $16.00 → $8.94.",
+      "why": "Kimi vẫn đắt hơn DeepSeek nhưng giảm mạnh — xem xét nếu cần long-context đặc thù của Kimi.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
       "tags": [
         "price",
-        "deepseek",
-        "flash"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Qwen3.8 27B tăng giá $0.04→$0.20 input, $1.35→$2.50 output",
-      "event": "price",
-      "summary": "Qwen3.8 27B tăng giá 5x input và gần 2x output.",
-      "why": "Price hike lớn — có thể do demand cao hoặc cost infrastructure tăng. Nếu đang dùng Qwen3.8, cân nhắc migrate sang alternative (DeepSeek Flash rẻ hơn nhiều) hoặc accept cost increase nếu quality không thay thế được.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
-      "tags": [
-        "price",
-        "qwen"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash tăng $0.01→$0.15 input, $0.20→$0.50 output",
-      "event": "price",
-      "summary": "GLM 5.3 Flash tăng giá 15x input và 2.5x output.",
-      "why": "Flash model không còn 'siêu rẻ' — tăng giá đáng kể. Nếu dùng GLM cho price, giờ cần re-evaluate. DeepSeek Flash ($0.04 input) hoặc OpenAI mini có thể cost-effective hơn.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
-      "tags": [
-        "price",
-        "glm"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash 1017 giảm $0.30→$0.15 input, $1.20→$0.60 output",
-      "event": "price",
-      "summary": "DeepSeek V4.1 Flash 1017 giảm giá 50% cả input và output.",
-      "why": "DeepSeek tiếp tục giảm giá aggressive. V4.1 Flash giờ rẻ hơn V4 Flash — nếu không cần absolute latest version, dùng 1017 để tiết kiệm cost.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
-      "tags": [
-        "price",
-        "deepseek",
-        "flash"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0423 giảm $0.96→$0.65 input, $1.91→$1.30 output",
-      "event": "price",
-      "summary": "DeepSeek V4 Pro 0423 giảm ~30% cả input và output.",
-      "why": "Pro tier giảm giá — áp lực cạnh tranh với Claude Opus/GPT-4. Nếu cần reasoning heavy tasks, V4 Pro giờ cost-competitive hơn.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
-      "tags": [
-        "price",
-        "deepseek",
-        "pro"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash giảm $0.17→$0.02 input, nhưng tăng $0.66→$1.00 output",
-      "event": "price",
-      "summary": "DeepSeek V4.1 Flash giảm 88% input nhưng tăng 50% output.",
-      "why": "Trade-off: input rẻ hơn nhưng output đắt hơn. Nếu use case có input dài (long context) + output ngắn (classification, extraction), đây là win. Ngược lại (short input, long output như generation), có thể tốn hơn.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
-      "tags": [
-        "price",
-        "deepseek",
-        "flash"
+        "kimi"
       ]
     }
   ],
-  "insight": null,
+  "insight": "Tuần này có 1 tín hiệu quan trọng: **AI chưa tạo ra giá trị kinh tế đo được ngoài ngành tech**. Apollo data rõ ràng — productivity ở healthcare, manufacturing, finance gần như không đổi sau 2 năm đầu tư hàng trăm tỷ USD. Pattern này giống dotcom bubble: hype trước, payoff sau 5-10 năm.\n\nĐiều này không có nghĩa AI vô dụng. Mà có nghĩa **delay effect đang xảy ra** (Quy tắc #4 AI Mentor). Công ty áp dụng AI hôm nay sẽ thấy kết quả sau 1-3 năm, không phải quý này. Nhưng thị trường đang kỳ vọng ROI ngay lập tức — đây là mismatch nguy hiểm.\n\n**Cho cá nhân và manager:** nếu sếp bạn đòi 'AI ngay hoặc out', show họ Apollo report. ROI thực tế cần thời gian. Đầu tư có chọn lọc, đo lường chặt, đừng đuổi theo hype. **Cho founder:** nếu pitch deck hứa AI giảm 50% cost trong 6 tháng, investor ngày càng skeptical — họ đã thấy quá nhiều pitch như vậy fail. Better: hứa ít, deliver nhiều, show traction nhỏ nhưng thật.\n\n**Cho creative:** tuần này ít tin production đột phá (VideoGen Model 1 là tin duy nhất đáng chú ý). Trend này consistent với market đang chững lại sau làn sóng tool launches Q3. Thay vì chạy theo tool mới mỗi tuần, focus vào master 2-3 tools core. Skill thực > collection tools.\n\nCuối cùng, **mental health reminder** (Quy tắc #10): nếu bạn đang cảm thấy burnout vì 'phải theo kịp AI', nhớ rằng ngay cả thị trường cũng chưa ROI. Bạn không chậm. Bạn đang đúng tốc độ.",
   "sources_count": {
-    "raw": 181,
-    "brave": 49,
+    "raw": 146,
+    "brave": 47,
     "reddit": 0,
-    "hackernews": 4,
-    "rss": 41,
+    "hackernews": 3,
+    "rss": 32,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 15
+    "openrouter": 10
   }
 }
