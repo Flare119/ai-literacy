@@ -1,0 +1,388 @@
+{
+  "date": "2026-10-27",
+  "updated_at": "2026-10-27T08:43:04.788449+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Anthropic nộp S-1 trước IPO — lộ tài chính và cấu trúc sở hữu 'kỳ lạ'",
+    "summary": "Anthropic đã nộp đơn S-1 lên SEC, tiết lộ tài chính và cấu trúc công ty trước khi IPO. Động thái này đến sau khi WSJ đưa tin về 'trust cấu trúc kỳ lạ' vào tuần trước. S-1 cho thấy chi tiết về doanh thu, lỗ lãi, và cách Anthropic tổ chức quyền kiểm soát — thông tin quan trọng cho nhà đầu tư và ngành AI.",
+    "why": "Cho founder/đầu tư: IPO của Anthropic là benchmark quan trọng cho định giá AI company — đặc biệt công ty đang lỗ lớn nhưng có tầm ảnh hưởng toàn cầu. Cấu trúc trust sẽ ảnh hưởng cách các AI lab khác tổ chức governance khi IPO.",
+    "source": "SEC",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "tags": [
+      "ipo",
+      "anthropic",
+      "funding",
+      "governance"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "ChatGPT hallucinate gợi ý người dùng liên hệ 404 Media để giải quyết tech support",
+      "why": "Cho cá nhân/manager: Minh chứng rõ ràng nhất về hallucination risk khi dùng AI cho customer support. Nếu công ty bạn deploy chatbot, cần kiểm tra kỹ nguồn training data và test hallucination — ảnh hưởng uy tín thương hiệu.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "tags": [
+        "hallucination",
+        "chatgpt",
+        "risk"
+      ]
+    },
+    {
+      "headline": "Cohere phát hiện 'hành vi đáng lo ngại' từ model AI open-weight phổ biến",
+      "why": "Cho manager: Open-weight models không đồng nghĩa 'an toàn'. Report này nhắc nhở cần audit kỹ trước khi deploy model mã nguồn mở vào production — đặc biệt ứng dụng nhạy cảm.",
+      "source": "Cohere",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "tags": [
+        "security",
+        "open-source",
+        "risk"
+      ]
+    },
+    {
+      "headline": "MIT phát hiện: AI ngày xưa cố tình inject randomness để giảm overfitting — gốc rễ hallucination hiện nay",
+      "why": "Cho curious: Giải thích technical tại sao deep learning model 'đôi khi ảo giác' — không phải bug mà là trade-off thiết kế từ đầu. Hiểu gốc rễ giúp realistic expectation khi dùng AI.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "hallucination",
+        "history"
+      ]
+    },
+    {
+      "headline": "Siri AI ra beta tiếng Anh hôm nay — mở rộng 5 ngôn ngữ châu Á tháng sau",
+      "why": "Cho cá nhân: Apple Intelligence cuối cùng đến tay user sau nhiều tháng hype. Tiếng Việt chưa có trong đợt đầu nhưng có tiếng Nhật/Hàn — signal Apple đang ưu tiên châu Á.",
+      "source": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "tags": [
+        "siri",
+        "apple",
+        "voice-ai"
+      ]
+    },
+    {
+      "headline": "Elon Musk cảnh báo nhiều công ty AI infrastructure sẽ bị đóng cửa khỏi thị trường nợ",
+      "why": "Cho founder/đầu tư: Rủi ro thanh khoản đang tăng cho AI infra startups — nhiều công ty đốt tiền build data center nhưng chưa có revenue ổn định. Nếu bạn fundraise, diversify nguồn vốn sớm.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "tags": [
+        "funding",
+        "risk",
+        "infrastructure"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Higgsfield tích hợp Kling 3.0, Veo 3.1, Sora 2 — full creative control từ một platform",
+      "summary": "Platform cho phép set camera, motion, style cho từng frame. Access nhiều model AI video hàng đầu cùng lúc không cần switch giữa các công cụ.",
+      "why": "Cho creative: Tiết kiệm thời gian test nhiều model — không cần tạo account riêng cho Kling/Veo/Sora. Quan trọng là kiểm soát chi tiết (camera angle, motion) thay vì text-to-video đơn giản.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ai-video",
+      "tags": [
+        "video-ai",
+        "tools",
+        "workflow"
+      ]
+    },
+    {
+      "headline": "VideoGen Model 1 tạo video đa cảnh 10 phút — tặng 1 triệu USD credits miễn phí",
+      "summary": "Model AI video mới từ VideoGen tạo multi-shot video dài tới 10 phút từ text và ảnh. Công ty tặng $1M credits miễn phí cho early users.",
+      "why": "Cho creative: Đây là bước nhảy về độ dài video AI — 10 phút đủ cho explainer video hoặc product demo hoàn chỉnh. Free credits là cơ hội test không rủi ro trước khi commit vào tool.",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384785/0/en/videogen-unveils-model-1-its-first-ai-video-generation-model-and-1-million-in-free-ai-credits.html",
+      "tags": [
+        "video-ai",
+        "tools",
+        "freemium"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Sửa lỗi tool-call accuracy trong vLLM — bài phân tích kỹ thuật từ Ubicloud",
+      "summary": "vLLM là engine phổ biến để serve open-source models, nhưng tool-calling (gọi function từ LLM) thường bị sai. Ubicloud phân tích gốc rễ và đưa ra fix — quan trọng cho ai tự host model.",
+      "why": "Cho creative/manager dùng AI agents: Nếu bạn build workflow với Langchain/LlamaIndex + vLLM, tool-calling sai nghĩa là agent không gọi đúng API → fail im lặng. Bài này giúp debug issue phổ biến nhất khi self-host.",
+      "source": "Ubicloud",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "tags": [
+        "research",
+        "vllm",
+        "tool-calling"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "DeepSeek raise 15 tỷ USD định giá 74 tỷ USD — Tencent, CATL, và tech giants Trung Quốc back",
+      "summary": "AI startup Trung Quốc DeepSeek vừa raise vòng 15 tỷ USD từ Tencent, CATL (nhà sản xuất pin xe điện lớn nhất TQ), và các tập đoàn công nghệ khác. Định giá 74 tỷ USD đưa DeepSeek vào top unicorn AI toàn cầu.",
+      "why": "Cho founder/đầu tư: Trung Quốc đang đổ vốn khổng lồ vào AI — DeepSeek giờ có tài chính mạnh hơn nhiều startup Mỹ. Cạnh tranh AI không còn chỉ US vs EU, mà US vs China. Nếu bạn làm AI SaaS, cần theo dõi DeepSeek vì họ có thể ra model rẻ hơn/tốt hơn bất cứ lúc nào.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/22/deepseek-raises-15-billion-at-74-billion-valuation-backed-by-tencent-catl-and-chinese-tech-giants/",
+      "tags": [
+        "funding",
+        "china",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "Approaching.AI (Trung Quốc) raise hơn 1.3 tỷ NDT Series B",
+      "summary": "Startup AI Trung Quốc khác, Approaching.AI, announce Series B lớn (~180 triệu USD). Cùng với CASBOT (humanoid robotics) và SuperSpherical Tech (AI research) cũng raise vốn hôm Thứ Hai.",
+      "why": "Cho founder: Thị trường vốn AI Trung Quốc đang nóng — nhiều deal lớn cùng ngày. VCs châu Á đang đổ tiền vào AI với tốc độ cao hơn Mỹ (Mỹ đang chậm lại). Nếu bạn có product phù hợp thị trường TQ, đây là timing tốt để approach VCs khu vực.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/26/startup-funding-news-today-october-26-2026-ailytics-approaching-ai-casbot-volare-more/",
+      "tags": [
+        "funding",
+        "china",
+        "series-b"
+      ]
+    },
+    {
+      "headline": "Legora mua startup AI luật sư UK Wexler — M&A thứ 5 từ tháng 3",
+      "summary": "Legal tech platform Legora acquire Wexler, một startup UK dùng AI cho litigation. Đây là deal thứ 5 của Legora trong 7 tháng — tốc độ M&A cực nhanh.",
+      "why": "Cho founder: Consolidation đang diễn ra nhanh ở vertical AI — legal tech là ví dụ rõ nhất. Nếu bạn làm niche AI tool, strategy có thể là 'build to be acquired' bởi platform lớn hơn. Exit timeline ngắn hơn nhiều so với IPO.",
+      "source": "The Fashion Law",
+      "url": "https://www.thefashionlaw.com/a-running-timeline-of-legal-tech-funding-and-ma-tfl/",
+      "tags": [
+        "ma",
+        "legal-tech",
+        "consolidation"
+      ]
+    },
+    {
+      "headline": "HCLTech hoàn tất mua Robotiq.ai (Croatia) — RPA enterprise",
+      "summary": "HCLTech (IT services giant Ấn Độ) mua hết Robotiq.ai, startup RPA enterprise ở Zagreb, Croatia. All-cash deal, số tiền không công bố.",
+      "why": "Cho manager: Các IT services lớn đang mua AI/RPA startups để tích hợp vào offering. Nếu công ty bạn đang dùng HCLTech, sắp có thêm AI automation tools — nhưng cũng cần review vendor lock-in risk.",
+      "source": "Dealroom",
+      "url": "https://dealroom.co/news/",
+      "tags": [
+        "ma",
+        "rpa",
+        "enterprise"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "openclaw/openclaw: AI agent thực sự làm việc trên bất kỳ OS nào — 393k stars",
+      "why": "Cho creative/manager: AI agent có thể control desktop như người — mở app, click, type. Use case: automation workflow phức tạp không có API. Rủi ro: security nếu agent có bug.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "393162"
+    },
+    {
+      "headline": "n8n-io/n8n: Workflow automation platform với native AI — 208k stars",
+      "why": "Cho manager/creative: Alternative mã nguồn mở cho Zapier/Make, nhưng tích hợp AI sâu hơn. Self-host hoặc cloud. 400+ integrations. Phù hợp nếu cần automation + AI mà không muốn vendor lock-in.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "208680"
+    },
+    {
+      "headline": "langgenius/dify: Build agentic workflows + RAG — 159k stars",
+      "why": "Cho creative/developer: Platform build AI agent và RAG (retrieval-augmented generation) không cần code nhiều. Deploy cloud/VPC/self-hosted. Phù hợp prototype nhanh rồi scale production.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "159633"
+    },
+    {
+      "headline": "open-webui/open-webui: UI thân thiện cho Ollama, OpenAI API — 156k stars",
+      "why": "Cho cá nhân: Nếu bạn dùng Ollama (chạy LLM local), đây là UI đẹp nhất — thay vì CLI. Cũng support OpenAI API nên có thể dùng chung cho local + cloud models.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "156857"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-6.1 Terra — $1.00/$5.00 per M tok",
+      "event": "new",
+      "summary": "Mid-tier model GPT-6.1 series, dưới GPT-6.1 Sol. Strong ở screenshot understanding, coding, agentic tasks.",
+      "why": "Cheaper alternative cho GPT-6.1 Sol nếu task không cần reasoning cực mạnh.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-6.1-terra",
+      "tags": [
+        "openai",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-6.1 Terra Pro — $1.00/$5.00 per M tok",
+      "event": "new",
+      "summary": "Same model GPT-6.1 Terra nhưng reasoning.mode=pro — quality cao hơn cho complex tasks, tốn token nhiều hơn.",
+      "why": "Dùng khi cần quality tối đa, chấp nhận cost cao. Check budget trước vì pro mode burn tokens nhanh.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-6.1-terra-pro",
+      "tags": [
+        "openai",
+        "new-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-6.1 Terra Pro (batch) — $0.50/$2.50 per M tok",
+      "event": "new",
+      "summary": "Batch version của Terra Pro — rẻ hơn 50% nhưng không real-time.",
+      "why": "Cho workload không gấp (vd training data generation overnight) — tiết kiệm cost đáng kể.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-6.1-terra-pro:batch",
+      "tags": [
+        "openai",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] OpenAI: GPT-6.1 Terra (batch) — $0.50/$2.50 per M tok",
+      "event": "new",
+      "summary": "Batch version của Terra standard.",
+      "why": "Same logic — batch cho non-urgent tasks, rẻ hơn 50%.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-6.1-terra:batch",
+      "tags": [
+        "openai",
+        "batch"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Arcee AI: Trinity Large Thinking removed",
+      "event": "deprecated",
+      "summary": "Model arcee-ai/trinity-large-thinking không còn trên OpenRouter.",
+      "why": "Migrate ngay nếu đang dùng model này trong code — sẽ fail.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-thinking",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] IBM: Granite 4.0 Micro removed",
+      "event": "deprecated",
+      "summary": "Model ibm-granite/granite-4.0-h-micro không còn.",
+      "why": "Migrate sang Granite model khác hoặc alternative.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/ibm-granite/granite-4.0-h-micro",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Mistral: Codestral 2508 (batch) removed",
+      "event": "deprecated",
+      "summary": "Batch version Codestral 2508 deprecated.",
+      "why": "Chuyển sang Codestral latest hoặc coding model khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/codestral-2508:batch",
+      "tags": [
+        "deprecated",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Mistral: Ministral 3 8B 2512 (batch) removed",
+      "event": "deprecated",
+      "summary": "Batch Ministral 8B deprecated.",
+      "why": "Migrate trước khi production fail.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/ministral-8b-2512:batch",
+      "tags": [
+        "deprecated",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral Large 3 2512 (batch) removed",
+      "event": "deprecated",
+      "summary": "Batch Mistral Large 3 deprecated.",
+      "why": "Switch sang Mistral Large latest batch.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-large-2512:batch",
+      "tags": [
+        "deprecated",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral Medium 3.1 (batch) removed",
+      "event": "deprecated",
+      "summary": "Batch Medium 3.1 deprecated.",
+      "why": "Migrate sang Medium latest.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-medium-3.1:batch",
+      "tags": [
+        "deprecated",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral Small 4 (batch) removed",
+      "event": "deprecated",
+      "summary": "Batch Small 4 deprecated.",
+      "why": "Dùng Small latest thay thế.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-2603:batch",
+      "tags": [
+        "deprecated",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: GPT Terra Latest giảm 50% — $1.00/$5.00 per M tok",
+      "event": "price",
+      "summary": "Giá giảm từ $2.00/$12.00 xuống $1.00/$5.00.",
+      "why": "Rẻ hơn đáng kể — tốt cho high-volume usage. OpenAI đang aggressive compete.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~openai/gpt-terra-latest",
+      "tags": [
+        "price-drop",
+        "openai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash tăng giá — $0.30/$1.20 per M tok",
+      "event": "price",
+      "summary": "Tăng từ $0.15/$0.60 lên $0.30/$1.20 — gấp đôi.",
+      "why": "DeepSeek tăng giá sau khi raise 15B — có lẽ optimize margin. Cân nhắc alternative nếu cost-sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+      "tags": [
+        "price-increase",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.1 giảm ~30% — $0.97/$3.04 per M tok",
+      "event": "price",
+      "summary": "Giảm từ $1.40/$4.40 xuống $0.97/$3.04.",
+      "why": "GLM models từ Trung Quốc đang compete bằng giá — tốt nếu cần Mandarin support.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "price-drop",
+        "china"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.8 27B giảm mạnh — $0.04/$1.25 per M tok",
+      "event": "price",
+      "summary": "Giảm từ $0.20/$2.50 xuống $0.04/$1.25 — giảm 80% prompt cost.",
+      "why": "Qwen đang đua giá cực mạnh — model 27B giờ rẻ hơn nhiều model 7B. Consider nếu cần mid-size model.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+      "tags": [
+        "price-drop",
+        "qwen"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 199,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 42,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 32
+  }
+}
