@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-28",
+  "updated_at": "2026-10-28T08:54:36.473457+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "Anthropic train Claude trên sách giáo sư Stanford lấy bất hợp pháp",
+    "summary": "Stanford Daily tiết lộ Anthropic đã sử dụng sách giáo trình bị pirate từ thư viện đại học để train Claude mà không xin phép tác giả. Vụ việc xảy ra ngay trước khi Anthropic nộp S-1 IPO tuần trước, tạo rủi ro pháp lý lớn cho định giá công ty.",
+    "why": "Cho manager: nếu công ty bạn dùng AI, cần kiểm tra data provenance trong vendor contracts — rủi ro pháp lý AI training data đang leo thang và có thể làm vô hiệu hóa license. Cho founder: đây là case study về khoản nợ đạo đức che giấu — delay effect 1-3 năm khi IPO phơi bày governance holes.",
+    "source": "Stanford Daily",
+    "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+    "tags": [
+      "ethics",
+      "legal",
+      "anthropic",
+      "data-provenance"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Wikipedia cleanup AI-generated content — chiến dịch rà soát hàng loạt bài viết",
+      "why": "Cho curious: Wikipedia đang phát hiện AI spam tràn lan, tín hiệu về chất lượng content AI so với human curation — follow WikiProject AI Cleanup nếu quan tâm AI literacy.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "tags": [
+        "content-quality",
+        "wikipedia"
+      ]
+    },
+    {
+      "headline": "Cảnh sát Mỹ dùng AI pull over tài xế vì 'hành vi khả nghi'",
+      "why": "Cho cá nhân: AI surveillance ở công cộng đang mở rộng từ nhận diện khuôn mặt sang dự đoán hành vi — quan trọng hiểu quyền riêng tư và cách phản đối nếu bị sai.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "policy"
+      ]
+    },
+    {
+      "headline": "Amazon đóng cửa AI division Nova sau chuỗi thất bại kéo dài",
+      "why": "Cho business: không phải AI project nào cũng thắng — Amazon shutdown Nova sau khi burn tiền không hiệu quả, bài học về PMF và execution discipline.",
+      "source": "Futurism",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "tags": [
+        "business",
+        "failure",
+        "amazon"
+      ]
+    },
+    {
+      "headline": "Google DeepMind ra Genie — AI world model tạo cả giọng nói, không chỉ video",
+      "why": "Cho creative: Genie mở rộng từ video generation sang audio-visual synced — potential cho interactive storytelling và game prototyping, nhưng vẫn research preview.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335",
+      "tags": [
+        "multimodal",
+        "research",
+        "google"
+      ]
+    },
+    {
+      "headline": "Anthropic Claude giúp tăng tốc drug development — case study sớm",
+      "why": "Cho curious: AI không chỉ viết code — Anthropic demo Claude phân tích biological data để rút ngắn R&D pharma, nhưng vẫn ở giai đoạn early progress.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "tags": [
+        "healthcare",
+        "research",
+        "anthropic"
+      ]
+    }
+  ],
+  "production": [],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "AI startup funding đạt $5.18B trong tuần — gấp đôi tuần trước",
+      "summary": "25 rounds $20M+ giữa 18-25/10/2026, dẫn đầu bởi Tenstorrent và Flapping Airplanes. Tốc độ deploy vốn vào AI đang tăng tốc bất chấp lo ngại bong bóng.",
+      "why": "Cho business/founder: thị trường vốn AI vẫn nóng — nếu bạn có traction ($5M ARR cho B2C, $3M cho B2B theo Carta Q1 2026), đây là timing tốt để raise. Nhưng cẩn thận overfunding → pressure growth không bền vững.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-hits-5-2b-as-tenstorrent-and-flapping-airplanes-lead-week-oct-18-oct-25-2026/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "market"
+      ]
+    },
+    {
+      "headline": "AI Agent startups raise $4B Q2 2026 — SpaceX/Anysphere deal $60B chứng minh AI agents giờ là strategic asset",
+      "summary": "Funding boom AI agents Q2 2026 vượt mọi dự đoán. Deal Anysphere (Cursor) $60B từ SpaceX đánh dấu agent platforms graduated từ tool thành core infrastructure.",
+      "why": "Cho founder: nếu bạn build AI agent platform, valuation expectations đã tăng 10x so với 2025 — nhưng cũng có nghĩa competition khốc liệt và yêu cầu defensibility cao hơn (network effects, data moats).",
+      "source": "Algorithmine",
+      "url": "https://algorithmine.com/news/ai-agent-startups-funding-boom-q2-2026",
+      "tags": [
+        "agents",
+        "funding",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "60% venture dollars Q1 2026 đổ vào AI — foundational model startup median $300M valuation Series A",
+      "summary": "Carta data: AI foundational-model startups raise Series A gần $300M median valuation, so với $55M cho non-AI comparable startup. AI premium là 5.5x.",
+      "why": "Cho founder: nếu bạn pitch 'AI startup' nhưng không phải foundational model, kỳ vọng valuation sẽ thấp hơn nhiều. Cần rõ ràng về moat và không oversell AI story nếu chỉ là feature.",
+      "source": "Carta",
+      "url": "https://carta.com/learn/startups/fundraising/series-a/",
+      "tags": [
+        "valuation",
+        "series-a",
+        "market"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Gartner report cáo buộc nhiều 'agentic AI' chỉ là rebrand marketing — không thực sự agents",
+      "summary": "Báo cáo tháng 6/2025 từ Gartner phát hiện nhiều project tự nhận 'agentic AI' thực chất chỉ là automation scripts đổi tên. Wikipedia AI agent entry cũng note vấn đề này.",
+      "why": "Cho manager: khi vendor pitch 'AI agents', yêu cầu demo autonomy thực tế (goal-setting, multi-step reasoning, error recovery) — không phải chỉ if-then automation. AI washing đang nghiêm trọng.",
+      "source": "Wikipedia / Gartner",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tags": [
+        "ai-washing",
+        "agents",
+        "skepticism"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n workflow automation với native AI — 208K stars, fair-code license",
+      "why": "Cho individual/manager: n8n là alternative self-hosted cho Zapier/Make với AI integration native — nếu cần automation workflows nhạy cảm, đây là lựa chọn privacy-first.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "208811"
+    },
+    {
+      "headline": "Firecrawl — web scraping cho AI agents, 196K stars",
+      "why": "Cho creative/developer: nếu bạn build AI agents cần scrape data từ web, Firecrawl là library phổ biến nhất hiện tại — xử lý anti-bot và structure data cho LLM.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "196101"
+    },
+    {
+      "headline": "Dify — build agentic workflows + RAG pipelines, 159K stars",
+      "why": "Cho developer: Dify là platform tích hợp để build AI workflows từ prototype đến production mà không rebuild stack — alternative open-source cho Langchain + hosting.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "159738"
+    },
+    {
+      "headline": "Open WebUI — giao diện AI user-friendly cho Ollama/OpenAI, 156K stars",
+      "why": "Cho individual: nếu bạn chạy LLM local (Ollama) hoặc dùng OpenAI API, Open WebUI là frontend đẹp nhất — self-host thay vì phụ thuộc ChatGPT web.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "156981"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] PrismML Ternary Bonsai 2 9B — compact model dùng ternary weights",
+      "event": "new",
+      "summary": "Model 9B params compact từ PrismML, dùng ternary weights (2-bit packing) trên nền Qwen3.5 — efficient cho conversational AI và tool use.",
+      "why": "Giá $0.08/$0.13 per M tok — cheap alternative cho tasks không cần frontier model, phù hợp prototyping.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/prism-ml/ternary-bonsai-2-9b",
+      "tags": [
+        "new-model",
+        "compact",
+        "efficient"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] NVIDIA Nemotron 3 Super (free) bị remove",
+      "event": "deprecated",
+      "summary": "Model free tier nvidia/nemotron-3-super-120b-a12b:free không còn trên OpenRouter.",
+      "why": "Migrate users khỏi model này — có thể chuyển sang paid tier hoặc alternative model.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K3 tăng prompt +6%, giảm completion -42%",
+      "event": "price",
+      "summary": "Prompt $0.16 → $0.17, completion $20 → $11.50 per M tokens.",
+      "why": "Output token rẻ hơn gần nửa — tốt cho long-form generation tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3",
+      "tags": [
+        "price-change",
+        "kimi"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA Nemotron 3 Super giảm giá -73% prompt, -81% completion",
+      "event": "price",
+      "summary": "Prompt $0.30 → $0.08, completion $2.40 → $0.45 per M tokens.",
+      "why": "Giảm giá mạnh — competitive với các model Trung Quốc, có thể test lại nếu trước bỏ vì đắt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
+      "tags": [
+        "price-drop",
+        "nvidia"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 giảm -72% prompt, -81% completion",
+      "event": "price",
+      "summary": "Prompt $0.44 → $0.12, completion $1.32 → $0.24 per M tokens.",
+      "why": "DeepSeek aggressive price war — model này giờ rẻ nhất tier flash, áp lực lên OpenAI/Anthropic.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "price-drop",
+        "deepseek",
+        "price-war"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.1 8B Instruct giảm -60% prompt, -50% completion",
+      "event": "price",
+      "summary": "Prompt $0.05 → $0.02, completion $0.08 → $0.04 per M tokens.",
+      "why": "Llama 8B giờ cực rẻ — ideal cho high-volume simple tasks (classification, extraction).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+      "tags": [
+        "price-drop",
+        "llama"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Flash Latest completion tăng +18000%",
+      "event": "price",
+      "summary": "Completion $0.01 → $1.80 per M tokens (prompt giảm $0.03 → $0.02).",
+      "why": "NGUY HIỂM — giá output tăng vọt 180x, likely pricing error hoặc DeepSeek đổi tier model. Check trước khi deploy production.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+      "tags": [
+        "price-spike",
+        "warning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.1 tăng +44% prompt, +44% completion",
+      "event": "price",
+      "summary": "Prompt $0.97 → $1.40, completion $3.04 → $4.40 per M tokens.",
+      "why": "GLM tăng giá ngược xu hướng — có thể do demand cao hoặc reposition premium tier.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+      "tags": [
+        "price-increase",
+        "glm"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 182,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 42,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 15
+  }
+}
