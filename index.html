@@ -654,6 +654,7 @@
     <button data-section="production">🎬 Ứng dụng Production</button>
     <button data-section="ops">⚙️ AI Ops & Tools</button>
     <button class="active" data-section="news">📰 AI News</button>
+    <button data-section="eco">🌐 Eco News</button>
     <button data-section="blog">✍️ Blog</button>
 </nav>
 
@@ -3556,7 +3557,7 @@
 <!-- SECTION 6.5: AI NEWS (v6 NEW) -->
 <style>
     /* AI News tab — Linear-inspired */
-    #sec-news {
+    :is(#sec-news, #sec-eco) {
         --news-canvas: #010102;
         --news-surface: #0f1011;
         --news-surface-2: #141516;
@@ -3569,7 +3570,7 @@
         --news-ink-subtle: #8a8f98;
         --news-ink-tertiary: #62666d;
     }
-    #sec-news .news-header {
+    :is(#sec-news, #sec-eco) .news-header {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -3577,24 +3578,24 @@
         margin-bottom: 28px;
         border-bottom: 1px solid var(--news-hairline);
     }
-    #sec-news .news-header h2 {
+    :is(#sec-news, #sec-eco) .news-header h2 {
         font-size: 36px;
         font-weight: 600;
         letter-spacing: -1px;
         color: var(--news-ink);
         margin: 0 0 6px 0;
     }
-    #sec-news .news-header .meta {
+    :is(#sec-news, #sec-eco) .news-header .meta {
         font-size: 12px;
         color: var(--news-ink-subtle);
         font-family: 'SF Mono', Menlo, monospace;
         text-transform: uppercase;
         letter-spacing: 0.05em;
     }
-    #sec-news .news-section {
+    :is(#sec-news, #sec-eco) .news-section {
         margin-bottom: 36px;
     }
-    #sec-news .news-section-label {
+    :is(#sec-news, #sec-eco) .news-section-label {
         font-size: 11px;
         font-weight: 600;
         text-transform: uppercase;
@@ -3605,7 +3606,7 @@
         align-items: center;
         gap: 8px;
     }
-    #sec-news .news-section-label::before {
+    :is(#sec-news, #sec-eco) .news-section-label::before {
         content: "";
         display: inline-block;
         width: 4px;
@@ -3614,7 +3615,7 @@
         background: var(--news-accent);
     }
     /* Top story */
-    #sec-news .top-story {
+    :is(#sec-news, #sec-eco) .top-story {
         background: var(--news-surface);
         border: 1px solid var(--news-hairline);
         border-left: 3px solid var(--news-accent);
@@ -3622,7 +3623,7 @@
         padding: 28px 32px;
         position: relative;
     }
-    #sec-news .top-story .badge {
+    :is(#sec-news, #sec-eco) .top-story .badge {
         display: inline-block;
         font-size: 10px;
         font-weight: 700;
@@ -3634,7 +3635,7 @@
         border-radius: 4px;
         margin-bottom: 14px;
     }
-    #sec-news .top-story h3 {
+    :is(#sec-news, #sec-eco) .top-story h3 {
         font-size: 26px;
         font-weight: 600;
         line-height: 1.25;
@@ -3642,13 +3643,13 @@
         color: var(--news-ink);
         margin: 0 0 14px 0;
     }
-    #sec-news .top-story .summary {
+    :is(#sec-news, #sec-eco) .top-story .summary {
         font-size: 15px;
         color: var(--news-ink-muted);
         line-height: 1.6;
         margin-bottom: 14px;
     }
-    #sec-news .top-story .why {
+    :is(#sec-news, #sec-eco) .top-story .why {
         font-size: 13px;
         color: var(--news-ink-muted);
         background: rgba(94, 106, 210, 0.06);
@@ -3657,38 +3658,38 @@
         border-radius: 0 6px 6px 0;
         margin-bottom: 16px;
     }
-    #sec-news .top-story .why::before {
+    :is(#sec-news, #sec-eco) .top-story .why::before {
         content: "💡 Tại sao quan trọng: ";
         font-weight: 600;
         color: var(--news-accent);
     }
-    #sec-news .top-story .footer {
+    :is(#sec-news, #sec-eco) .top-story .footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 12px;
         flex-wrap: wrap;
     }
-    #sec-news .top-story .source {
+    :is(#sec-news, #sec-eco) .top-story .source {
         font-size: 12px;
         color: var(--news-ink-subtle);
         font-family: 'SF Mono', Menlo, monospace;
     }
-    #sec-news .top-story .read-link {
+    :is(#sec-news, #sec-eco) .top-story .read-link {
         font-size: 13px;
         color: var(--news-accent);
         text-decoration: none;
         font-weight: 500;
     }
-    #sec-news .top-story .read-link:hover {
+    :is(#sec-news, #sec-eco) .top-story .read-link:hover {
         text-decoration: underline;
     }
-    #sec-news .top-story .tags, #sec-news .news-card .tags {
+    :is(#sec-news, #sec-eco) .top-story .tags, :is(#sec-news, #sec-eco) .news-card .tags {
         display: flex;
         gap: 6px;
         flex-wrap: wrap;
     }
-    #sec-news .tag-chip {
+    :is(#sec-news, #sec-eco) .tag-chip {
         font-size: 10px;
         color: var(--news-ink-tertiary);
         border: 1px solid var(--news-hairline);
@@ -3698,12 +3699,12 @@
         text-transform: lowercase;
     }
     /* Quick hits grid */
-    #sec-news .quick-hits-grid {
+    :is(#sec-news, #sec-eco) .quick-hits-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 14px;
     }
-    #sec-news .news-card {
+    :is(#sec-news, #sec-eco) .news-card {
         background: var(--news-surface);
         border: 1px solid var(--news-hairline);
         border-radius: 10px;
@@ -3713,12 +3714,12 @@
         flex-direction: column;
         gap: 10px;
     }
-    #sec-news .news-card:hover {
+    :is(#sec-news, #sec-eco) .news-card:hover {
         background: var(--news-surface-2);
         border-color: var(--news-hairline-strong);
         transform: translateY(-2px);
     }
-    #sec-news .news-card .headline {
+    :is(#sec-news, #sec-eco) .news-card .headline {
         font-size: 14px;
         font-weight: 600;
         line-height: 1.4;
@@ -3726,20 +3727,20 @@
         text-decoration: none;
         display: block;
     }
-    #sec-news .news-card .headline:hover {
+    :is(#sec-news, #sec-eco) .news-card .headline:hover {
         color: var(--news-accent);
     }
-    #sec-news .news-card .why {
+    :is(#sec-news, #sec-eco) .news-card .why {
         font-size: 12.5px;
         color: var(--news-ink-muted);
         line-height: 1.55;
     }
-    #sec-news .news-card .summary {
+    :is(#sec-news, #sec-eco) .news-card .summary {
         font-size: 12px;
         color: var(--news-ink-subtle);
         line-height: 1.5;
     }
-    #sec-news .news-card .meta-row {
+    :is(#sec-news, #sec-eco) .news-card .meta-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3750,50 +3751,50 @@
         color: var(--news-ink-subtle);
         font-family: 'SF Mono', Menlo, monospace;
     }
-    #sec-news .news-card .source {
+    :is(#sec-news, #sec-eco) .news-card .source {
         text-transform: uppercase;
         letter-spacing: 0.05em;
     }
-    #sec-news .news-card .read-arrow {
+    :is(#sec-news, #sec-eco) .news-card .read-arrow {
         color: var(--news-accent);
         text-decoration: none;
     }
     /* Production list (denser) */
-    #sec-news .production-list .news-card {
+    :is(#sec-news, #sec-eco) .production-list .news-card {
         flex-direction: row;
         align-items: flex-start;
         gap: 16px;
     }
-    #sec-news .production-list .news-card .body {
+    :is(#sec-news, #sec-eco) .production-list .news-card .body {
         flex: 1;
         display: flex;
         flex-direction: column;
         gap: 8px;
     }
     /* Vietnam list */
-    #sec-news .vn-list {
+    :is(#sec-news, #sec-eco) .vn-list {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    #sec-news .vn-list .news-card {
+    :is(#sec-news, #sec-eco) .vn-list .news-card {
         flex-direction: row;
         align-items: center;
         padding: 14px 18px;
     }
-    #sec-news .vn-list .news-card .headline {
+    :is(#sec-news, #sec-eco) .vn-list .news-card .headline {
         font-size: 13px;
         flex: 1;
     }
     /* Insight section */
-    #sec-news .insight-block {
+    :is(#sec-news, #sec-eco) .insight-block {
         background: linear-gradient(135deg, var(--news-surface) 0%, var(--news-surface-2) 100%);
         border: 1px solid var(--news-hairline);
         border-radius: 12px;
         padding: 32px 36px;
         position: relative;
     }
-    #sec-news .insight-block::before {
+    :is(#sec-news, #sec-eco) .insight-block::before {
         content: "❝";
         position: absolute;
         top: 8px;
@@ -3804,7 +3805,7 @@
         opacity: 0.3;
         line-height: 1;
     }
-    #sec-news .insight-block .insight-text {
+    :is(#sec-news, #sec-eco) .insight-block .insight-text {
         font-size: 15px;
         line-height: 1.75;
         color: var(--news-ink-muted);
@@ -3812,11 +3813,11 @@
         margin-bottom: 16px;
         padding-left: 20px;
     }
-    #sec-news .insight-block .insight-text strong {
+    :is(#sec-news, #sec-eco) .insight-block .insight-text strong {
         color: var(--news-ink);
         font-weight: 600;
     }
-    #sec-news .insight-block .insight-byline {
+    :is(#sec-news, #sec-eco) .insight-block .insight-byline {
         font-size: 11px;
         color: var(--news-ink-subtle);
         font-family: 'SF Mono', Menlo, monospace;
@@ -3825,7 +3826,7 @@
         text-align: right;
     }
     /* Archive */
-    #sec-news .archive-bar {
+    :is(#sec-news, #sec-eco) .archive-bar {
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
@@ -3835,7 +3836,7 @@
         border: 1px solid var(--news-hairline);
         border-radius: 10px;
     }
-    #sec-news .archive-date {
+    :is(#sec-news, #sec-eco) .archive-date {
         font-size: 12px;
         color: var(--news-ink-muted);
         background: var(--news-surface-2);
@@ -3846,24 +3847,24 @@
         font-family: 'SF Mono', Menlo, monospace;
         transition: all 0.15s;
     }
-    #sec-news .archive-date:hover {
+    :is(#sec-news, #sec-eco) .archive-date:hover {
         border-color: var(--news-accent);
         color: var(--news-accent);
     }
-    #sec-news .archive-date.active {
+    :is(#sec-news, #sec-eco) .archive-date.active {
         background: var(--news-accent-soft);
         border-color: var(--news-accent);
         color: var(--news-accent);
     }
     /* Loading + error */
-    #sec-news .news-loading {
+    :is(#sec-news, #sec-eco) .news-loading {
         text-align: center;
         padding: 60px 20px;
         color: var(--news-ink-subtle);
         font-family: 'SF Mono', Menlo, monospace;
         font-size: 12px;
     }
-    #sec-news .news-error {
+    :is(#sec-news, #sec-eco) .news-error {
         text-align: center;
         padding: 40px 20px;
         color: #ff6b6b;
@@ -3872,12 +3873,12 @@
         border-radius: 8px;
     }
     @media (max-width: 768px) {
-        #sec-news .news-header { flex-direction: column; align-items: flex-start; gap: 8px; }
-        #sec-news .news-header h2 { font-size: 28px; }
-        #sec-news .top-story { padding: 22px 24px; }
-        #sec-news .top-story h3 { font-size: 22px; }
-        #sec-news .quick-hits-grid { grid-template-columns: 1fr; }
-        #sec-news .insight-block { padding: 24px; }
+        :is(#sec-news, #sec-eco) .news-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+        :is(#sec-news, #sec-eco) .news-header h2 { font-size: 28px; }
+        :is(#sec-news, #sec-eco) .top-story { padding: 22px 24px; }
+        :is(#sec-news, #sec-eco) .top-story h3 { font-size: 22px; }
+        :is(#sec-news, #sec-eco) .quick-hits-grid { grid-template-columns: 1fr; }
+        :is(#sec-news, #sec-eco) .insight-block { padding: 24px; }
     }
 </style>
 <div class="section active" id="sec-news">
@@ -4196,6 +4197,184 @@
     document.addEventListener('DOMContentLoaded', () => {
         const newsBtn = document.querySelector('nav button[data-section="news"]');
         if (newsBtn) newsBtn.addEventListener('click', initNews);
+    });
+})();
+</script>
+
+<!-- SECTION: ECO NEWS (Eco AI News — cùng format AI News, hàm/biến riêng) -->
+<style>#sec-eco .why::before, #sec-eco .top-story .why::before { content: "🇻🇳 Ý nghĩa cho DN Việt Nam: "; }</style>
+<div class="section" id="sec-eco">
+    <div class="news-header">
+        <div>
+            <h2>🌐 Eco News</h2>
+            <div class="meta" id="ecoMeta">Đang tải...</div>
+        </div>
+        <div style="font-size:11px;color:#62666d;font-family:'SF Mono',Menlo,monospace;">
+            Cập nhật Thứ Hai &amp; Thứ Năm
+        </div>
+    </div>
+
+    <div id="ecoContent">
+        <div class="news-loading">Đang tải Eco News...</div>
+    </div>
+
+    <div class="news-section">
+        <div class="news-section-label">Archive</div>
+        <div class="archive-bar" id="ecoArchiveBar">
+            <span style="color:#62666d;font-size:11px;font-family:'SF Mono',monospace;">Đang tải archive...</span>
+        </div>
+    </div>
+</div>
+
+<script>
+// Eco News loader — biến/hàm riêng, không dùng chung với AI News
+(function() {
+    let ecoCurrentDate = null;
+    const ECO_SECTION_ICONS = { global:'🌍', us:'🇺🇸', eu:'🇪🇺', cn:'🇨🇳', kr:'🇰🇷', tw:'🇹🇼', vn:'🇻🇳', ai_economy:'🤖', theory:'📚' };
+    const ECO_LABEL_ICONS = { 'HÀNH ĐỘNG':'🔴', 'THEO DÕI':'🟡' };
+
+    function ecoEsc(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    function ecoUrl(u) { return /^https?:\/\//i.test(u || '') ? u : '#'; }
+    function ecoFmtDate(s) {
+        if (!s || !/^\d{4}-\d{2}-\d{2}/.test(s)) return ecoEsc(s || '');
+        const [y, m, d] = s.slice(0, 10).split('-');
+        return `${d}/${m}/${y}`;
+    }
+    function ecoTier(it) { return it.source_tier === 'primary' ? 'Nguồn gốc' : 'Thứ cấp'; }
+    function ecoShow(it) { return !!(it && ECO_LABEL_ICONS[it.label]); }
+    function ecoMech(it) {
+        const p = [];
+        if (it.mechanism) p.push('⚙️ Cơ chế: ' + ecoEsc(it.mechanism));
+        if (it.precedent) p.push('📜 Tiền lệ: ' + ecoEsc(it.precedent));
+        return p.length ? `<div class="summary" style="font-size:12px;color:#8a8f98;">${p.join(' · ')}</div>` : '';
+    }
+    function ecoWhy(it) { return it.why ? `<div class="why">${ecoEsc(it.why)}</div>` : ''; }
+
+    function ecoDate(it) {
+        const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String((it && it.date) || ''));
+        return m ? ` · <span class="eco-date" title="Ngày đăng của nguồn">${m[3]}/${m[2]}/${m[1]}</span>` : '';
+    }
+
+    function ecoCard(it) {
+        const u = ecoEsc(ecoUrl(it.url));
+        return `<div class="news-card">
+            <a class="headline" href="${u}" target="_blank" rel="noopener">${ecoEsc(it.headline)}</a>
+            ${it.summary ? `<div class="summary">${ecoEsc(it.summary)}</div>` : ''}
+            ${ecoWhy(it)}
+            ${ecoMech(it)}
+            <div class="meta-row">
+                <span class="source">${ecoEsc(it.source || '')}${ecoDate(it)} · <span class="tag-chip">${ECO_LABEL_ICONS[it.label]} ${ecoEsc(it.label)}</span> · ${ecoTier(it)}</span>
+                ${it.url ? `<a class="read-arrow" href="${u}" target="_blank" rel="noopener">↗</a>` : ''}
+            </div>
+        </div>`;
+    }
+
+    function renderEco(data) {
+        const html = [];
+        const ts = data.top_story;
+        if (ecoShow(ts)) {
+            const u = ecoEsc(ecoUrl(ts.url));
+            html.push(`<div class="news-section">
+                <div class="news-section-label">Top story</div>
+                <div class="top-story">
+                    <div class="badge">${ECO_LABEL_ICONS[ts.label]} ${ecoEsc(ts.label)}</div>
+                    <h3>${ecoEsc(ts.headline)}</h3>
+                    ${ts.summary ? `<div class="summary">${ecoEsc(ts.summary)}</div>` : ''}
+                    ${ecoWhy(ts)}
+                    ${ecoMech(ts)}
+                    <div class="footer">
+                        <div class="source">${ecoEsc(ts.source || '')}${ecoDate(ts)} · ${ecoTier(ts)}</div>
+                        ${ts.url ? `<a class="read-link" href="${u}" target="_blank" rel="noopener">Đọc đầy đủ →</a>` : ''}
+                    </div>
+                </div>
+            </div>`);
+        }
+        if (data.quick_hits && data.quick_hits.length) {
+            html.push(`<div class="news-section">
+                <div class="news-section-label">⚡ Quick hits</div>
+                <div class="quick-hits-grid">
+                    ${data.quick_hits.map(h => `
+                        <div class="news-card">
+                            <a class="headline" href="${ecoEsc(ecoUrl(h.url))}" target="_blank" rel="noopener">${ecoEsc(h.headline)}</a>
+                            <div class="meta-row">
+                                <span class="source">${ecoEsc(h.source || '')}</span>
+                                ${h.url ? `<a class="read-arrow" href="${ecoEsc(ecoUrl(h.url))}" target="_blank" rel="noopener">↗</a>` : ''}
+                            </div>
+                        </div>`).join('')}
+                </div>
+            </div>`);
+        }
+        (data.sections || []).forEach(sec => {
+            const items = (sec.items || []).filter(ecoShow);
+            if (!items.length) return;
+            const icon = ECO_SECTION_ICONS[sec.key] || '📌';
+            const wrap = sec.key === 'vn' ? 'vn-list' : 'quick-hits-grid';
+            html.push(`<div class="news-section">
+                <div class="news-section-label">${icon} ${ecoEsc(sec.label)}</div>
+                <div class="${wrap}">${items.map(ecoCard).join('')}</div>
+            </div>`);
+        });
+        if (data.insight) {
+            const fmt = ecoEsc(data.insight).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n\n/g, '</p><p>');
+            html.push(`<div class="news-section">
+                <div class="news-section-label">💡 Insight tuần</div>
+                <div class="insight-block">
+                    <div class="insight-text"><p>${fmt}</p></div>
+                    <div class="insight-byline">— Eco AI News · AI Mentor</div>
+                </div>
+            </div>`);
+        }
+        if (!html.length) html.push('<div class="news-loading">Chưa có tin HÀNH ĐỘNG / THEO DÕI cho ngày này.</div>');
+        document.getElementById('ecoContent').innerHTML = html.join('');
+    }
+
+    async function loadEco(dateStr) {
+        const content = document.getElementById('ecoContent');
+        const meta = document.getElementById('ecoMeta');
+        content.innerHTML = '<div class="news-loading">Đang tải Eco News...</div>';
+        const url = dateStr ? `eco/${dateStr.slice(0,4)}/${dateStr.slice(5,7)}/${dateStr.slice(8,10)}.json` : 'eco/latest.json';
+        try {
+            const r = await fetch(url + '?t=' + Date.now());
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            const data = await r.json();
+            renderEco(data);
+            ecoCurrentDate = data.date;
+            meta.textContent = `Cập nhật ${ecoFmtDate(data.date)} · ${data.weekday || ''}`;
+        } catch (e) {
+            content.innerHTML = `<div class="news-error">⚠️ Không tải được Eco News: ${ecoEsc(e.message)}</div>`;
+        }
+    }
+
+    async function loadEcoArchive() {
+        const bar = document.getElementById('ecoArchiveBar');
+        try {
+            const r = await fetch('eco/archive-index.json?t=' + Date.now());
+            if (!r.ok) throw new Error('HTTP');
+            const data = await r.json();
+            const dates = (data.dates || []).slice(0, 30);
+            if (!dates.length) { bar.innerHTML = '<span style="color:#62666d;font-size:11px;">Chưa có archive.</span>'; return; }
+            bar.innerHTML = dates.map(d => `<span class="archive-date${d === ecoCurrentDate ? ' active' : ''}" data-date="${ecoEsc(d)}">${ecoFmtDate(d)}</span>`).join('');
+            bar.querySelectorAll('.archive-date').forEach(el => el.addEventListener('click', () => {
+                bar.querySelectorAll('.archive-date').forEach(x => x.classList.remove('active'));
+                el.classList.add('active');
+                loadEco(el.dataset.date);
+            }));
+        } catch (e) {
+            bar.innerHTML = '<span style="color:#62666d;font-size:11px;">Archive chưa khả dụng.</span>';
+        }
+    }
+
+    function initEco() {
+        const c = document.getElementById('ecoContent');
+        if (c.dataset.loaded) return;
+        c.dataset.loaded = '1';
+        loadEco().then(loadEcoArchive);
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelector('nav button[data-section="eco"]');
+        if (btn) btn.addEventListener('click', initEco);
     });
 })();
 </script>
