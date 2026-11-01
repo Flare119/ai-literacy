@@ -1,0 +1,338 @@
+{
+  "date": "2026-11-01",
+  "updated_at": "2026-11-01T08:39:47.518898+07:00",
+  "weekday": "Sunday",
+  "top_story": {
+    "headline": "Backdoor trong Claude Code extension chính thức trên Cursor Marketplace — lần thứ 2 trong 3 ngày",
+    "summary": "Extension 'Claude Code for VS Code' chính thức trên Cursor Marketplace bị phát hiện chứa backdoor. Đây là lần thứ 2 trong 3 ngày extension AI phổ biến bị compromise (sau vụ tương tự hôm 31/10). Kẻ tấn công có thể đánh cắp code, credentials, và thực thi lệnh từ xa. Extension đã được gỡ bỏ nhưng hàng nghìn dev có thể đã cài đặt.",
+    "why": "Cho cá nhân/manager: nếu team đang dùng AI coding extensions, kiểm tra ngay danh sách đã cài. Đây là pattern mới — kẻ tấn công target AI tools vì trust cao + quyền truy cập rộng. Thiết lập review process cho extension install, không chỉ dựa vào 'official marketplace'. Security debt AI tools đang tích lũy nhanh.",
+    "source": "Phorion Security Blog",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "tags": [
+      "security",
+      "coding-tools",
+      "cursor",
+      "anthropic"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "GPT-5.6 Sol đánh bại Factorio ở chế độ peaceful — AI agent chơi game phức tạp end-to-end",
+      "why": "Cho curious: Factorio là game strategy phức tạp với hàng nghìn quyết định phụ thuộc lẫn nhau. GPT-5.6 Sol hoàn thành toàn bộ không cần human intervention — milestone về long-horizon planning. Implication: AI agent sắp đủ khả năng xử lý workflows business phức tạp.",
+      "source": "Ryan Madden Blog",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "tags": [
+        "ai-agents",
+        "openai",
+        "gaming"
+      ]
+    },
+    {
+      "headline": "Malware mới dùng LLM để xếp hạng nạn nhân theo 'giá trị' trước khi tấn công",
+      "why": "Cho manager/security: infostealer Volta sử dụng AI đánh giá tài chính nạn nhân (phân tích browser history, files) để ưu tiên target. Crime-as-a-service đang industrialize bằng AI. Rủi ro tăng với nhân viên có quyền truy cập tài chính — cần phòng thủ nhiều lớp.",
+      "source": "Cisco Talos Intelligence",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "tags": [
+        "security",
+        "cybercrime",
+        "llm-abuse"
+      ]
+    },
+    {
+      "headline": "Anthropic chặn users nếu có bất kỳ nội dung nào liên quan đến training model lớn hơn",
+      "why": "Cho curious/cá nhân: Anthropic đang enforce policy nghiêm ngặt — chặn ngay cả hỏi về cách train model. Phản ánh lo ngại về AI proliferation + liability. Nếu bạn đang research AI, cẩn thận với prompt — có thể bị suspend account bất ngờ.",
+      "source": "Twitter/@jiahaoshao1",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "tags": [
+        "anthropic",
+        "policy",
+        "ai-safety"
+      ]
+    },
+    {
+      "headline": "Hack ChatGPT accounts bằng cách lợi dụng lỗ hổng trong tính toán token billing",
+      "why": "Cho cá nhân: Parameter.ai phát hiện gap trong token accounting của OpenAI cho phép takeover account. Đã được patch nhưng cho thấy AI platform vẫn có attack surface mới chưa được hiểu rõ. Bật 2FA cho tất cả AI tools ngay.",
+      "source": "Parameter.ai Labs",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "tags": [
+        "security",
+        "openai",
+        "account-takeover"
+      ]
+    },
+    {
+      "headline": "55% luật sư Mỹ đang dùng AI trong công việc (tăng từ 37% năm ngoái) — nhưng efficiency gain thấp hơn kỳ vọng",
+      "why": "Cho manager: adoption tăng nhanh nhưng ROI chưa rõ. Pattern: áp lực adopt AI cao, nhưng workflow integration còn thô. Nếu đang roll out AI cho team, đừng chỉ đo adoption % — đo thời gian tiết kiệm thực tế + quality output.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "tags": [
+        "adoption",
+        "legal-tech",
+        "productivity"
+      ]
+    },
+    {
+      "headline": "Google mất $500B vốn hóa sau khi AI search của chính họ làm giảm doanh thu quảng cáo",
+      "why": "Cho business/curious: Google vừa tự phá business model của mình. AI Overview giảm ad clicks → revenue down. Đây là cannibalization dilemma — innovate hoặc bị disrupted, nhưng innovate cũng tự ăn thịt mình. Bài học: không có 'safe bet' khi AI thay đổi fundamentals.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+      "tags": [
+        "google",
+        "business-model",
+        "disruption"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "TBC mischief 1: Model video AI dùng neuron sống — tạo video nhanh hơn base model 5 lần",
+      "summary": "The Biological Computing Co. ra mắt TBC mischief 1, model video AI đầu tiên sử dụng neuron sống (neuron-derived computing) để tăng tốc generation. Công nghệ này giảm latency 5x so với base model truyền thống, mở đường cho real-time video generation từ biological computing.",
+      "why": "Cho creative: nếu latency từng là bottleneck (preview render lâu), biological computing có thể thay đổi workflow. Nhưng đây còn experimental — chưa rõ độ ổn định production. Theo dõi nếu làm real-time content.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html",
+      "tags": [
+        "video-generation",
+        "biological-computing",
+        "new-tech"
+      ]
+    },
+    {
+      "headline": "Google ra Gemini 2.0 Flash thử nghiệm — model đầu tiên của Google có khả năng tạo và chỉnh sửa ảnh",
+      "summary": "Google phát hành experimental Gemini 2.0 Flash với image generation và editing capabilities. Đây là lần đầu Google tích hợp image manipulation vào Gemini, cạnh tranh trực tiếp với DALL-E 3 và Midjourney. Model có sẵn trên AI Studio và Gemini API.",
+      "why": "Cho creative: nếu đang dùng Google ecosystem (Workspace, Cloud), có thể test image generation ngay trong cùng workflow. Tiện cho prototype nhanh không cần switch tools. Nhưng vẫn experimental — chưa nên dùng production cho client work.",
+      "source": "Google AI Docs",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "tags": [
+        "google",
+        "image-generation",
+        "gemini"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Paper mới chứng minh 'Platonic Representation Hypothesis' — models học từ modality khác nhau hội tụ về cùng 1 cách hiểu thế giới",
+      "summary": "Paper từ arXiv chứng minh Platonic Representation Hypothesis: khi AI models (vision, language, audio) scale lên, chúng converge về cùng 1 internal representation của thế giới. Có nghĩa là GPT, CLIP, Whisper đang học 'cùng 1 thứ', chỉ khác cách tiếp cận. Nghiên cứu dùng JEPA (Joint Embedding Predictive Architectures) để prove.",
+      "why": "Cho curious: phát hiện này giải thích vì sao multimodal AI (như GPT-4o, Gemini) hoạt động tốt — không phải ghép nối models riêng lẻ, mà converge tự nhiên. Implication dài hạn: có thể có 'universal representation' cho mọi loại data. AGI gần hơn bạn nghĩ.",
+      "source": "HuggingFace Papers",
+      "url": "https://huggingface.co/papers/2610.39302",
+      "tags": [
+        "research",
+        "representation-learning",
+        "agi"
+      ]
+    },
+    {
+      "headline": "MIT phát hiện: Kỹ sư AI ngày xưa cố tình inject randomness để giảm overfitting — gốc rễ hallucination hiện nay",
+      "summary": "Giáo sư Benjamin Lindquist (MIT) phân tích lịch sử: early AI engineers deliberately injected randomness vào models để chống overfitting. Nhưng randomness này giờ là nguyên nhân hallucination trong LLMs — models 'tưởng tượng' thông tin không có thật vì đã được train có yếu tố ngẫu nhiên.",
+      "why": "Cho curious/manager: hallucination không phải bug ngẫu nhiên, mà là hậu quả thiết kế từ thập kỷ trước. Để fix hallucination, cần rethink kiến trúc cơ bản — không chỉ prompt engineering hay RAG. Quan trọng khi đánh giá độ tin cậy AI cho critical workflows.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "research",
+        "hallucination",
+        "ai-history"
+      ]
+    },
+    {
+      "headline": "Quantum algorithm mới giải quyết bài toán materials 'không thể' trong vài giây — vượt classical computing",
+      "summary": "Nghiên cứu mới về quantum-inspired algorithm giải quyết bài toán materials science mà classical computers không thể chạy (quá lớn). Algorithm này có thể tăng tốc drug discovery và materials engineering — 2 lĩnh vực AI đang stuck vì thiếu compute power cho simulation.",
+      "why": "Cho curious: AI + quantum là combo tiếp theo sau AI + GPU. Nếu bạn trong pharma/materials/chemistry, đây là tín hiệu sớm — simulation-heavy workflows sắp breakthrough. Nhưng vẫn early stage, chưa có production tool.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "quantum-computing",
+        "materials-science",
+        "drug-discovery"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "AI startups huy động $2.39B trong tuần 6-12/10 — TypeSafe AI dẫn đầu với $870M Series A",
+      "summary": "Tuần 6-12/10/2026 có 14 rounds funding ≥$20M, tổng $2.39B. TypeSafe AI (infrastructure cho type-safe AI development) raise $870M Series A, chiếm 36% tổng funding. Đây là dấu hiệu infrastructure layer đang được định giá cao — investors đặt cược vào 'picks and shovels' thay vì applications.",
+      "why": "Cho founder/đầu tư: nếu đang build AI app, cạnh tranh funding gay gắt với infra startups (valuation infra >> app). Nếu đang nghĩ pivot, infra/tooling có nhiều vốn hơn. Nhưng cũng có rủi ro — infra có thể bị commoditized nhanh (như GPU cloud).",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/weekly-ai-funding-typesafe-ai-hits-7-5b-manus-ai-raises-500m-oct-7-oct-12-26/",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Databricks mua MosaicML $1.3B (2023) — M&A AI lớn nhất thời điểm đó, giờ là baseline cho infra deals",
+      "summary": "Bài phân tích nhìn lại deal Databricks/MosaicML $1.3B (6/2023) — lúc đó là M&A AI infrastructure lớn nhất. Giờ valuation này là 'floor' cho infra startups có traction. Deal chứng minh cloud data platforms sẵn sàng trả premium cao cho AI training infrastructure.",
+      "why": "Cho founder: nếu build AI infra với enterprise traction, exit path rõ ràng — big tech + cloud platforms đang mua aggressive. Nhưng phải có differentiation — pure wrapper không đủ. Databricks mua MosaicML vì proprietary training stack, không chỉ vì customer base.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/sections/ai/",
+      "tags": [
+        "ma",
+        "infrastructure",
+        "exit-strategy"
+      ]
+    },
+    {
+      "headline": "Anthropic IPO S-1 confidential đã nộp SEC — có thể trở thành AI startup đầu tiên định giá $1T",
+      "summary": "Anthropic nộp S-1 confidential lên SEC ngày 1/6 (giờ Mỹ). Nếu IPO thành công với valuation dự kiến, sẽ là AI startup đầu tiên chạm $1 trillion valuation. Nhưng Bloomberg trước đó cảnh báo Anthropic có thể không đạt investment-grade rating (vì chưa profitable + burn rate cao).",
+      "why": "Cho đầu tư/founder: IPO này là litmus test cho AI bubble. Nếu Anthropic fail → funding winter cho AI startups (investors sẽ retreat). Nếu succeed → mở cửa cho wave IPO AI tiếp theo. Theo dõi sát — outcome ảnh hưởng toàn thị trường.",
+      "source": "TradingKey Analysis",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261951081-anthropic-ipo-claude-ai-tradingkey",
+      "tags": [
+        "ipo",
+        "anthropic",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "Reuters: Model AI Trung Quốc giá rẻ đang bắt kịp Anthropic và OpenAI trên sân nhà của họ",
+      "summary": "Phân tích từ Reuters chỉ ra model AI Trung Quốc (như DeepSeek, GLM) đang đạt performance gần với Claude/GPT ở nhiều benchmark, nhưng giá rẻ hơn 5-10 lần. Đây là áp lực cạnh tranh mới cho US AI companies — không chỉ về tech mà về cost structure.",
+      "why": "Cho business: nếu đang dùng OpenAI/Anthropic API cho production, cân nhắc test alternatives từ TQ (nếu không có data sensitivity). Chi phí API có thể giảm 80% mà quality chỉ drop 10-15%. Nhưng rủi ro: geopolitics + compliance (nếu serve US/EU customers).",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "competition",
+        "china-ai",
+        "pricing"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Giáo sư UC Berkeley: 'Không còn ý nghĩa chấm bài tập' sau khi sinh viên dùng AI",
+      "summary": "Giáo sư tại UC Berkeley thừa nhận không còn cách nào phát hiện sinh viên dùng AI để làm bài tập. Hệ thống giáo dục đang phải rethink assessment — từ 'test kiến thức' sang 'test tư duy'. Nhưng chưa có consensus về cách đánh giá mới.",
+      "why": "Cho curious/cá nhân: nếu bạn đang học hoặc dạy, đây là tín hiệu sớm — credential value đang shift. Degree không còn chứng minh 'bạn biết gì' mà 'bạn làm được gì khi có AI'. Focus vào skills không AI replicate được: judgment, ethics, creativity, collaboration.",
+      "source": "MIT News (education section)",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "education",
+        "assessment",
+        "future-of-work"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "morluto/rea: Reverse engineer bất kỳ thứ gì với agents — từ app behavior đến native binaries",
+      "why": "Cho dev/security: agent-based reverse engineering — AI tự động phân tích app logic, binary files, tìm vulnerabilities. Công cụ mạnh cho security research nhưng cũng có thể bị abuse (malware analysis, IP theft). Tải về để test hoặc phòng thủ.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "415K"
+    },
+    {
+      "headline": "openclaw/openclaw: AI agent điều khiển bất kỳ OS nào — 393K stars GitHub",
+      "why": "Cho dev/creative: openclaw (đã được cover tuần trước nhưng vẫn trending mạnh) — AI agent control OS-level actions. Dùng cho automation testing, workflow scripting. Cẩn thận với permissions — agent có quyền gần như root.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "393K"
+    },
+    {
+      "headline": "obra/superpowers: Agentic skills framework và methodology cho software development",
+      "why": "Cho dev/manager: framework mã nguồn mở cho team build AI agents. Đi kèm methodology (không chỉ code) — cách structure agent skills, test, deploy. Nếu team đang nghĩ 'làm sao industrialize AI agents', đây là starting point.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "310K"
+    },
+    {
+      "headline": "n8n-io/n8n: Platform workflow automation fair-code với AI capabilities native — 209K stars",
+      "why": "Cho cá nhân/manager: alternative cho Zapier/Make, nhưng self-host được + tích hợp AI native. Fair-code license (không hoàn toàn open nhưng source available). Dùng khi cần automation phức tạp + data không được đẩy ra cloud.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "209K"
+    },
+    {
+      "headline": "firecrawl/firecrawl: Supercharge AI agents với data từ web và hơn thế nữa — 197K stars",
+      "why": "Cho dev: web scraping + data extraction cho AI agents. Firecrawl handle dynamic content, JS rendering, anti-bot — những thứ traditional scraper fail. Dùng khi build RAG pipeline cần fresh web data.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "197K"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter DEPRECATED] Poolside Laguna S 2.1 và XS 2.1 (cả free và paid) bị gỡ",
+      "event": "deprecated",
+      "summary": "4 models từ Poolside (Laguna S 2.1, S 2.1 free, XS 2.1, XS 2.1 free) không còn trên OpenRouter.",
+      "why": "Migrate ngay nếu đang dùng — models này không còn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/poolside/laguna-s-2.1",
+      "tags": [
+        "model-deprecation",
+        "poolside"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash giảm 50-82% giá (prompt $0.02→$0.01, completion $0.11→$0.02)",
+      "event": "price",
+      "summary": "Z.ai GLM 5.3 Flash giảm giá mạnh — prompt token rẻ hơn 50%, completion token rẻ hơn 82%.",
+      "why": "Alternative rẻ cho lightweight tasks — test ngay nếu đang dùng GPT-3.5-turbo hoặc Claude Haiku.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+      "tags": [
+        "price-drop",
+        "z-ai",
+        "glm"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0813 prompt giảm 83% ($0.66→$0.11), completion tăng gấp đôi ($1.98→$4.00)",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro đổi pricing structure — prompt rẻ hơn nhiều, completion đắt hơn.",
+      "why": "Tốt cho use case ít output / nhiều context (như classification, extraction). Tệ cho long-form generation.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+      "tags": [
+        "price-change",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Flash Latest giảm 50-63% giá (prompt $0.02→$0.01, completion $0.19→$0.07)",
+      "event": "price",
+      "summary": "DeepSeek Flash Latest giảm mạnh cả input và output.",
+      "why": "Cheaper alternative cho high-volume tasks — cân nhắc thay GPT-4o-mini hoặc Claude Haiku.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+      "tags": [
+        "price-drop",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi Latest giảm 32% completion ($10.55→$7.15), giữ nguyên prompt",
+      "event": "price",
+      "summary": "Kimi Latest (MoonshotAI) giảm giá output nhưng input không đổi.",
+      "why": "Tốt cho long-form generation với ít context. Test nếu dùng cho content writing.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+      "tags": [
+        "price-drop",
+        "moonshotai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 4.7 tăng 11% prompt ($0.54→$0.60), 11% completion ($1.98→$2.20)",
+      "event": "price",
+      "summary": "GLM 4.7 tăng giá nhẹ cả input và output.",
+      "why": "Nếu đang dùng GLM 4.7, cân nhắc downgrade xuống GLM 5.3 Flash (rẻ hơn nhiều sau khi giảm giá).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-4.7",
+      "tags": [
+        "price-increase",
+        "z-ai"
+      ]
+    }
+  ],
+  "insight": "Tuần này có 2 pattern đáng chú ý:\n\n**Pattern 1: Security debt AI tools đang tích lũy nhanh.** Trong 3 ngày có 2 vụ backdoor trong AI coding extensions (Claude Code hôm nay, vụ khác hôm 31/10), cộng với hack ChatGPT accounts qua lỗ hổng billing, và malware dùng LLM để rank victims. Đây không phải coincidence — kẻ tấn công đã nhận ra AI tools là target giá trị cao: high trust (vì 'official'), quyền truy cập rộng (code, credentials, system), và user base lớn adopt nhanh mà chưa thiết lập security hygiene. **Cho cá nhân**: bật 2FA mọi AI tool, review danh sách extensions đã cài, không tin 'official marketplace' = an toàn. **Cho manager**: thiết lập approval process cho AI tool install (như bạn làm với software licenses), và prepare incident response plan khi tool bị compromise — vì sẽ xảy ra, không phải 'nếu'.\n\n**Pattern 2: AI commoditization đang tăng tốc — cả tech và giá.** Model Trung Quốc bắt kịp US models về performance (Reuters báo cáo), giá API từ DeepSeek/GLM giảm 50-82% tuần này (OpenRouter catalog), và Google tự phá business model của mình (AI search giảm ad revenue → mất $500B market cap). Delay effect ở đây: founders đang raise với giả định 'AI moat' sẽ không còn trong 12-18 tháng — nếu core value prop là 'wrapper around GPT-4', bạn đang chạy đua với clock. **Cho founder/business**: nếu chưa có defensible moat ngoài 'access to good model', giờ là lúc pivot về data moat (proprietary dataset), distribution moat (network effects), hoặc workflow moat (tích hợp sâu vào công việc khó thay thế). Pure tech advantage không còn đủ.\n\n**Reflection cho tuần tới**: Anthropic IPO S-1 đã nộp — đây là litmus test lớn nhất cho AI bubble 2026. Nếu fail (không đạt investment-grade rating như Bloomberg cảnh báo) → expect funding winter. Nếu succeed → wave IPO AI sẽ mở ra. Outcome ảnh hưởng mọi founder/investor AI đang raise hoặc nghĩ exit. Theo dõi sát.",
+  "sources_count": {
+    "raw": 150,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 42,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 13
+  }
+}
