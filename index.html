@@ -3786,6 +3786,17 @@
         font-size: 13px;
         flex: 1;
     }
+    /* Eco VN items carry summary/why/mechanism → stack vertically like other Eco cards */
+    #sec-eco .vn-list .news-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 18px 20px;
+    }
+    #sec-eco .vn-list .news-card .headline {
+        font-size: 14px;
+        flex: none;
+    }
+    #sec-eco .vn-list .news-card .meta-row { flex-wrap: wrap; gap: 6px; }
     /* Insight section */
     :is(#sec-news, #sec-eco) .insight-block {
         background: linear-gradient(135deg, var(--news-surface) 0%, var(--news-surface-2) 100%);
@@ -4298,6 +4309,7 @@
                     ${data.quick_hits.map(h => `
                         <div class="news-card">
                             <a class="headline" href="${ecoEsc(ecoUrl(h.url))}" target="_blank" rel="noopener">${ecoEsc(h.headline)}</a>
+                            ${h.summary ? `<div class="why">${ecoEsc(h.summary)}</div>` : ''}
                             <div class="meta-row">
                                 <span class="source">${ecoEsc(h.source || '')}</span>
                                 ${h.url ? `<a class="read-arrow" href="${ecoEsc(ecoUrl(h.url))}" target="_blank" rel="noopener">↗</a>` : ''}
