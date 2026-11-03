@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-03",
+  "updated_at": "2026-11-03T10:46:20.301816+07:00",
+  "weekday": "Tuesday",
+  "top_story": {
+    "headline": "Anthropic chi tiền dùng AI nội bộ nhiều hơn lương nhân viên",
+    "summary": "Business Insider tiết lộ Anthropic đang chi phí sử dụng Claude nội bộ (tính theo giá retail) vượt quá tổng lương nhân viên — tín hiệu về mức độ phụ thuộc AI trong vận hành. Điều này đặt câu hỏi về ROI và sustainability khi công ty chuẩn bị IPO.",
+    "why": "Cho manager: nếu công ty bạn đang scale AI adoption, đây là warning về hidden cost — chi phí inference có thể vượt headcount. Cần audit AI spending trước khi nó thành black hole ngân sách.",
+    "source": "Business Insider",
+    "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+    "tags": [
+      "business",
+      "anthropic",
+      "roi",
+      "spending"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "SEC nên chặn IPO Anthropic để bảo vệ công chúng — Tech Policy Press",
+      "why": "Góc phản biện: cấu trúc sở hữu và tài chính của Anthropic có nhiều vấn đề chưa được giải quyết. Quan trọng với investor/founder — đây là case study về transparency trước IPO.",
+      "source": "Tech Policy Press",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "tags": [
+        "business",
+        "ipo",
+        "anthropic",
+        "regulation"
+      ]
+    },
+    {
+      "headline": "Oracle huy động $20B qua cổ phiếu và trái phiếu mới cho AI infrastructure",
+      "why": "Cho business: Oracle đang đặt cược lớn vào AI buildout — tín hiệu về confidence trong enterprise AI demand. Theo dõi để đánh giá bubble risk.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "tags": [
+        "business",
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "headline": "Intel tham gia vòng gọi vốn $700M cho startup AI Hark cùng Nvidia và AMD",
+      "why": "Cho business: Hark xây AI-native hardware và foundation models — Intel pivot sang đầu tư AI infrastructure sau khi tụt hậu chip race. Cơ hội cho supply chain VN?",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-joined-700-million-001701528.html",
+      "tags": [
+        "business",
+        "funding",
+        "hardware"
+      ]
+    },
+    {
+      "headline": "Larridin raise $30M Series A để đo lường AI spending cho doanh nghiệp",
+      "why": "Cho manager: startup này giải quyết đúng pain point — nhiều công ty chi AI nhưng không biết ROI. Tool audit AI spending sẽ hot 2026-2027.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/larridin-ai-spending-measurement-series-a-30-million-2026-11",
+      "tags": [
+        "business",
+        "funding",
+        "roi"
+      ]
+    },
+    {
+      "headline": "Terry Tao: Toán học 'egoless' trong kỷ nguyên AI",
+      "why": "Cho curious: Terry Tao (Fields Medal) viết về cách AI thay đổi bản chất làm toán — từ ego-driven sang collaborative. Góc nhìn triết học đáng suy ngẫm.",
+      "source": "Terry Tao Blog",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "tags": [
+        "society",
+        "research",
+        "philosophy"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "TBC mischief 1 — model video AI dùng neuron sống ra mắt công khai",
+      "summary": "The Biological Computing Co. launch TBC mischief 1, model video AI đầu tiên dùng neuron sống để tăng tốc generation 5x so với base model. Hiện có trên Pinokio để test.",
+      "why": "Cho creative: biological computing là frontier mới — nếu stable, latency giảm 5x nghĩa là iterate video nhanh hơn đáng kể. Đáng thử nghiệm cho prototyping.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html",
+      "tags": [
+        "video",
+        "tools",
+        "biological-computing"
+      ]
+    },
+    {
+      "headline": "Maestro — AI studio 100% local cho video, image, music trên Windows",
+      "summary": "Blizaine/Maestro trên GitHub — all-in-one AI creative studio chạy hoàn toàn local. Director mode tạo music video từ 1 prompt. Dựa trên WanGP pipeline, yêu cầu Windows 10 DLSS.",
+      "why": "Cho creative: alternative local cho những ai lo về privacy hoặc cost cloud API. Phù hợp production house nhỏ muốn control toàn bộ pipeline.",
+      "source": "GitHub",
+      "url": "https://github.com/Blizaine/Maestro",
+      "tags": [
+        "video",
+        "music",
+        "tools",
+        "local"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Mistral Large 4 (ML4) — model trillion-parameter mở weights cho cybersecurity",
+      "summary": "Mistral (Pháp) release weights của Mistral Large 4, model trillion-parameter open-source target vào cybersecurity. Doanh nghiệp và chính phủ có thể tải về self-deploy.",
+      "why": "Cho manager: open-weight model cỡ này hiếm — nếu team bạn cần AI cho security audit hoặc threat detection, đây là option không phụ thuộc closed API.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "tags": [
+        "research",
+        "open-source",
+        "cybersecurity"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "ACCESS Newswire ra SPOT — 7 AI agents kiểm tra press release trước khi submit",
+      "summary": "ACCESS Newswire launch SPOT (Smart PR Optimized Tools) — hệ thống 7 AI agents tự động check lỗi, optimize SEO, verify fact cho press release trước khi phát hành.",
+      "why": "Cho business: nếu công ty bạn hay ra PR, tool này giảm manual review. Case study về multi-agent workflow thực tế — không chỉ demo.",
+      "source": "AZCentral",
+      "url": "https://www.azcentral.com/press-release/story/145086/access-newswire-launches-spot-seven-ai-agents-that-check-every-press-release-before-submission/",
+      "tags": [
+        "business",
+        "agents",
+        "pr"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Gartner report: nhiều dự án 'agentic AI' chỉ là rebranding marketing",
+      "summary": "Gartner cáo buộc nhiều vendor đang gắn nhãn 'agentic AI' cho sản phẩm cũ mà không có khả năng multi-agent thật. Warning về hype cycle và overselling.",
+      "why": "Cho manager: trước khi mua 'agentic AI solution', hỏi vendor chứng minh autonomous decision-making và inter-agent protocol. Nhiều tool chỉ là chatbot đổi tên.",
+      "source": "Wikipedia / Gartner",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tags": [
+        "society",
+        "hype",
+        "agents"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "morluto/rea — reverse engineer bất kỳ thứ gì bằng AI agents",
+      "why": "Công cụ dùng agents để reverse engineer từ app behavior xuống native binaries — hữu ích cho security audit hoặc legacy code analysis.",
+      "source": "GitHub",
+      "url": "https://github.com/morluto/rea",
+      "stars": "423500"
+    },
+    {
+      "headline": "n8n — workflow automation platform với native AI capabilities",
+      "why": "Kết hợp visual building với custom code, self-host hoặc cloud, 400+ integrations. Alternative mã nguồn mở cho Zapier/Make với AI built-in.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "209412"
+    },
+    {
+      "headline": "prompts.chat (f.k.a. Awesome ChatGPT Prompts) — share và discover prompts",
+      "why": "Community-driven prompt library, self-host được với complete privacy. Tốt cho team muốn build internal prompt collection.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "175642"
+    },
+    {
+      "headline": "langgenius/dify — build Agentic workflows và RAG pipelines",
+      "why": "Platform collaborative cho AI workflows, deploy cloud/VPC/self-host. Giúp team move từ prototype sang production không rebuild stack.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "160273"
+    },
+    {
+      "headline": "open-webui — user-friendly AI interface hỗ trợ Ollama, OpenAI API",
+      "why": "UI đơn giản cho local LLM (Ollama) hoặc cloud API — tốt cho cá nhân/team nhỏ muốn interface thống nhất cho nhiều model.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "157596"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Z.ai: GLM 5.3 FlashX Legal",
+      "event": "new",
+      "summary": "Model GLM-5.3-FlashX-Legal — variant legal-domain của GLM-5.3-FlashX, multimodal (text/image/video input). Mid-training và post-training cho legal use case.",
+      "why": "Cho business: nếu cần AI cho legal document analysis, đây là specialized model — accurate hơn general-purpose cho legal domain.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flashx-legal",
+      "tags": [
+        "legal",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Nous: Hermes 3 405B Instruct removed",
+      "event": "deprecated",
+      "summary": "Model nousresearch/hermes-3-llama-3.1-405b không còn trên OpenRouter.",
+      "why": "Migrate ngay nếu đang dùng — model này đã bị remove.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-405b",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Nous: Hermes 3 70B Instruct removed",
+      "event": "deprecated",
+      "summary": "Model nousresearch/hermes-3-llama-3.1-70b không còn trên OpenRouter.",
+      "why": "Migrate ngay nếu đang dùng — model này đã bị remove.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-70b",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B tăng giá ↑$0.04/↑$0.10",
+      "event": "price",
+      "summary": "Prompt $0.02 → $0.04, completion $0.07 → $0.10 per M tokens.",
+      "why": "Gemma 4 đắt hơn 2x — review lại cost nếu đang dùng model này cho high-volume workload.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash 0731 giảm prompt ↓$0.06, tăng completion ↑$0.30",
+      "event": "price",
+      "summary": "Prompt $0.12 → $0.06, completion $0.24 → $0.30 per M tokens.",
+      "why": "Tốt cho workload nhiều prompt ngắn, kém cho long-form generation — cân nhắc lại use case.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi Latest tăng giá mạnh ↑$0.18/↑$10.56",
+      "event": "price",
+      "summary": "Prompt $0.15 → $0.18, completion $7.15 → $10.56 per M tokens.",
+      "why": "Tăng giá 48% completion — nếu dùng Kimi cho long output, cân nhắc migrate sang model khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+      "tags": [
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta: Llama 3.3 70B Instruct tăng giá ↑$0.20/↑$0.52",
+      "event": "price",
+      "summary": "Prompt $0.10 → $0.20, completion $0.32 → $0.52 per M tokens.",
+      "why": "Llama 3.3 70B đắt hơn 2x — nếu đang dùng high-volume, xem xét downgrade về 8B hoặc switch provider.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+      "tags": [
+        "price"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI: gpt-oss-20b tăng giá ↑$0.03/↑$0.13",
+      "event": "price",
+      "summary": "Prompt $0.02 → $0.03, completion $0.09 → $0.13 per M tokens.",
+      "why": "Tăng 50% prompt, 44% completion — model này vẫn rẻ nhưng margin shrink nếu bạn đang resell.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+      "tags": [
+        "price"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 155,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 6,
+    "rss": 34,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 9
+  }
+}
