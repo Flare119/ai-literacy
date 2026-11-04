@@ -1,285 +1,401 @@
 {
-  "date": "2026-11-03",
-  "updated_at": "2026-11-03T10:46:20.301816+07:00",
-  "weekday": "Tuesday",
+  "date": "2026-11-04",
+  "updated_at": "2026-11-04T09:49:05.321209+07:00",
+  "weekday": "Wednesday",
   "top_story": {
-    "headline": "Anthropic chi tiền dùng AI nội bộ nhiều hơn lương nhân viên",
-    "summary": "Business Insider tiết lộ Anthropic đang chi phí sử dụng Claude nội bộ (tính theo giá retail) vượt quá tổng lương nhân viên — tín hiệu về mức độ phụ thuộc AI trong vận hành. Điều này đặt câu hỏi về ROI và sustainability khi công ty chuẩn bị IPO.",
-    "why": "Cho manager: nếu công ty bạn đang scale AI adoption, đây là warning về hidden cost — chi phí inference có thể vượt headcount. Cần audit AI spending trước khi nó thành black hole ngân sách.",
-    "source": "Business Insider",
-    "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+    "headline": "Google sẽ tắt Search cho trường học từ chối AI",
+    "summary": "Google thông báo sẽ ngừng cung cấp dịch vụ tìm kiếm cho các trường học từ chối triển khai công nghệ AI trong giáo dục. Động thái này buộc các tổ chức giáo dục phải lựa chọn giữa việc chấp nhận AI hoặc mất quyền truy cập công cụ tìm kiếm quan trọng nhất thế giới.",
+    "why": "Cho manager: đây là precedent nguy hiểm về 'vendor lock-in through coercion'. Nếu Google áp được chiến thuật này với schools, họ sẽ thử với enterprise. Bạn cần rà soát dependency vào single vendor ngay — đặc biệt search/cloud/workspace — trước khi bị trapped vào tương lai bắt buộc AI.",
+    "source": "New York Times",
+    "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
     "tags": [
-      "business",
-      "anthropic",
-      "roi",
-      "spending"
+      "policy",
+      "education",
+      "google",
+      "monopoly"
     ]
   },
   "quick_hits": [
     {
-      "headline": "SEC nên chặn IPO Anthropic để bảo vệ công chúng — Tech Policy Press",
-      "why": "Góc phản biện: cấu trúc sở hữu và tài chính của Anthropic có nhiều vấn đề chưa được giải quyết. Quan trọng với investor/founder — đây là case study về transparency trước IPO.",
-      "source": "Tech Policy Press",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "headline": "OpenAI lặng lẽ bật lại model training trên Codex chats",
+      "why": "Cho cá nhân: nếu bạn dùng ChatGPT Code/Codex, code của bạn có thể đang bị train lại sau khi OpenAI hứa opt-out. Check settings ngay, và cân nhắc chuyển sang Claude/Cursor nếu làm proprietary code.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50352757",
       "tags": [
-        "business",
+        "privacy",
+        "openai",
+        "coding"
+      ]
+    },
+    {
+      "headline": "Qwen 3.8 27B trên laptop có thể đọc model weights",
+      "why": "Cho creative: model 27B chạy được trên laptop thường (không cần GPU khủng) mà vẫn đủ thông minh để 'hiểu' bên trong model khác — mở cửa cho local workflows phân tích/debug AI mà không cần cloud.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "tags": [
+        "qwen",
+        "local-ai",
+        "tools"
+      ]
+    },
+    {
+      "headline": "Fujifilm tăng sản xuất băng từ 5 lần vì AI đẩy nhu cầu lưu trữ",
+      "why": "Cho manager: AI training data phình to → tape storage (rẻ, bền, offline) quay lại. Nếu công ty bạn đang all-in cloud storage cho data khổng lồ, xem xét hybrid tape để giảm chi phí dài hạn.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "tags": [
+        "infrastructure",
+        "storage"
+      ]
+    },
+    {
+      "headline": "Anthropic nộp hồ sơ IPO bí mật với SEC — định giá $1T",
+      "why": "Cho business: nếu Anthropic IPO thành công ở $1T, đây là signal rằng thị trường vẫn tin vào AI long-term. Nhưng nếu thất bại (như WeWork S-1), sẽ kéo toàn bộ AI valuation xuống. Watch closely trước khi raise tiếp.",
+      "source": "TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261951081-anthropic-ipo-claude-ai-tradingkey",
+      "tags": [
         "ipo",
         "anthropic",
-        "regulation"
+        "valuation"
       ]
     },
     {
-      "headline": "Oracle huy động $20B qua cổ phiếu và trái phiếu mới cho AI infrastructure",
-      "why": "Cho business: Oracle đang đặt cược lớn vào AI buildout — tín hiệu về confidence trong enterprise AI demand. Theo dõi để đánh giá bubble risk.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "headline": "FPT shares giảm 15% trong tháng vì áp lực từ AI",
+      "why": "Cho business: FPT — tech firm hàng đầu Việt Nam — đang tăng trưởng 2 con số nhưng giá cổ phiếu sụt vì giá trị hợp đồng IT mới chậm lại. Doanh nghiệp VN cần chuẩn bị cho mô hình dịch vụ mới khi AI làm giảm contract size truyền thống.",
+      "source": "The Investor",
+      "url": "https://theinvestor.vn/new-orders-slow-ai-continues-to-pressure-vietnams-leading-tech-firm-fpt-d20340.html",
       "tags": [
-        "business",
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "headline": "Intel tham gia vòng gọi vốn $700M cho startup AI Hark cùng Nvidia và AMD",
-      "why": "Cho business: Hark xây AI-native hardware và foundation models — Intel pivot sang đầu tư AI infrastructure sau khi tụt hậu chip race. Cơ hội cho supply chain VN?",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-joined-700-million-001701528.html",
-      "tags": [
-        "business",
-        "funding",
-        "hardware"
-      ]
-    },
-    {
-      "headline": "Larridin raise $30M Series A để đo lường AI spending cho doanh nghiệp",
-      "why": "Cho manager: startup này giải quyết đúng pain point — nhiều công ty chi AI nhưng không biết ROI. Tool audit AI spending sẽ hot 2026-2027.",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/larridin-ai-spending-measurement-series-a-30-million-2026-11",
-      "tags": [
-        "business",
-        "funding",
-        "roi"
-      ]
-    },
-    {
-      "headline": "Terry Tao: Toán học 'egoless' trong kỷ nguyên AI",
-      "why": "Cho curious: Terry Tao (Fields Medal) viết về cách AI thay đổi bản chất làm toán — từ ego-driven sang collaborative. Góc nhìn triết học đáng suy ngẫm.",
-      "source": "Terry Tao Blog",
-      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-      "tags": [
-        "society",
-        "research",
-        "philosophy"
+        "vietnam",
+        "fpt",
+        "earnings"
       ]
     }
   ],
   "production": [
     {
-      "headline": "TBC mischief 1 — model video AI dùng neuron sống ra mắt công khai",
-      "summary": "The Biological Computing Co. launch TBC mischief 1, model video AI đầu tiên dùng neuron sống để tăng tốc generation 5x so với base model. Hiện có trên Pinokio để test.",
-      "why": "Cho creative: biological computing là frontier mới — nếu stable, latency giảm 5x nghĩa là iterate video nhanh hơn đáng kể. Đáng thử nghiệm cho prototyping.",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html",
+      "headline": "Agent-Desktop — AI coding agents điều khiển nhiều cursor song song",
+      "summary": "Framework mới cho phép chạy nhiều AI agent cùng lúc, mỗi agent điều khiển 1 cursor ảo riêng. Một agent research docs trong browser, agent khác code, agent thứ ba test — tất cả song song.",
+      "why": "Cho creative: nếu bạn đang dùng Cursor/Windsurf, đây là bước tiếp theo — orchestrate nhiều agent thay vì chỉ 1. Tăng tốc workflow phức tạp (vd: research + code + test) từ tuần tự sang song song.",
+      "source": "PromptZone",
+      "url": "https://www.promptzone.com/farrah_dubois/agent-desktop-full-computer-control-for-ai-coding-agents-a5f",
       "tags": [
-        "video",
-        "tools",
-        "biological-computing"
+        "coding-agent",
+        "workflow",
+        "automation"
       ]
     },
     {
-      "headline": "Maestro — AI studio 100% local cho video, image, music trên Windows",
-      "summary": "Blizaine/Maestro trên GitHub — all-in-one AI creative studio chạy hoàn toàn local. Director mode tạo music video từ 1 prompt. Dựa trên WanGP pipeline, yêu cầu Windows 10 DLSS.",
-      "why": "Cho creative: alternative local cho những ai lo về privacy hoặc cost cloud API. Phù hợp production house nhỏ muốn control toàn bộ pipeline.",
-      "source": "GitHub",
-      "url": "https://github.com/Blizaine/Maestro",
+      "headline": "TBC mischief 1 — model video AI dùng neuron sống công khai",
+      "summary": "The Biological Computing Co. ra mắt model video AI đầu tiên dùng neuron sống (không phải silicon), tạo video nhanh hơn base model 5 lần. Đây là lần đầu tiên biological computing AI ra public.",
+      "why": "Cho creative: speed 5x nghĩa là iterate video concept nhanh hơn nhiều. Nhưng cẩn thận — tech mới, chưa battle-tested. Thử nghiệm cho prototype, chưa nên dùng production critical.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html",
       "tags": [
-        "video",
-        "music",
-        "tools",
-        "local"
+        "video-ai",
+        "biocomputing",
+        "breakthrough"
+      ]
+    },
+    {
+      "headline": "Krea — AI suite cho image, video, 3D trong 1 subscription",
+      "summary": "Krea subscription unlock 7 upscaling models (bao gồm Topaz Photo/Gigapixel) + realtime image generation từ primitives. Market leader về realtime generation cho creatives.",
+      "why": "Cho creative: thay vì subscribe riêng Topaz ($200/năm) + Midjourney ($96/năm) + tools khác, Krea consolidate trong 1 platform. Tiết kiệm chi phí và workflow nếu bạn thường xuyên upscale + generate.",
+      "source": "Krea",
+      "url": "https://www.krea.ai/",
+      "tags": [
+        "creative-tools",
+        "image-ai",
+        "subscription"
       ]
     }
   ],
-  "vietnam": [],
+  "vietnam": [
+    {
+      "headline": "Viettel/FPT/VinAI xây foundation models có tokenizer riêng cho tiếng Việt",
+      "why": "Sovereign AI mandate đẩy các tập đoàn lớn build model nội địa. Nếu công ty bạn đang dùng GPT/Claude cho Vietnamese content, theo dõi các model này — có thể rẻ hơn và hiểu tiếng Việt tốt hơn khi mature.",
+      "source": "DEV Community",
+      "url": "https://dev.to/vuhung16au/vietnam-ai-llm-daily-briefing-nov-03-2026-2loa",
+      "tags": [
+        "vietnam",
+        "sovereign-ai",
+        "llm"
+      ]
+    },
+    {
+      "headline": "Agentic AI mở đường cho marketing cá nhân hóa tại Việt Nam — Zalo OA làm cổng vào",
+      "why": "Cho business: chi phí quảng cáo Zalo là 'vé vào cửa' để có UID khách hàng. Khi khách follow OA, doanh nghiệp có thể dùng AI agent personalize messaging không tốn thêm ad cost. Mô hình mới cho retention marketing VN.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/agentic-ai-mo-ra-huong-di-moi-cho-marketing-ca-nhan-hoa-tai-viet-nam",
+      "tags": [
+        "vietnam",
+        "marketing",
+        "agentic-ai"
+      ]
+    }
+  ],
   "research": [
     {
-      "headline": "Mistral Large 4 (ML4) — model trillion-parameter mở weights cho cybersecurity",
-      "summary": "Mistral (Pháp) release weights của Mistral Large 4, model trillion-parameter open-source target vào cybersecurity. Doanh nghiệp và chính phủ có thể tải về self-deploy.",
-      "why": "Cho manager: open-weight model cỡ này hiếm — nếu team bạn cần AI cho security audit hoặc threat detection, đây là option không phụ thuộc closed API.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "headline": "IdeaTaste: LLM có cùng 'gu nghiên cứu' với con người không?",
+      "summary": "Paper đo khả năng LLM đánh giá 'ý tưởng nghiên cứu nào đáng theo đuổi' — so với judgment của nhà khoa học thật. Kết quả: LLM vẫn thiếu intuition về 'taste' — biết execute nhưng không biết chọn hướng đi.",
+      "why": "Cho curious: AI giỏi làm theo instructions, nhưng vẫn yếu về 'biết nên làm gì' — taste/judgment. Đây là lý do AI chưa thay được role strategic thinker. Kỹ năng 'chọn bài toán đúng' vẫn là lợi thế con người.",
+      "source": "HuggingFace",
+      "url": "https://huggingface.co/papers/2611.03424",
       "tags": [
         "research",
-        "open-source",
-        "cybersecurity"
+        "llm-limitations",
+        "judgment"
+      ]
+    },
+    {
+      "headline": "The Little Book of Generative AI Foundations — giải thích toán học trực quan",
+      "summary": "ArXiv paper giải thích nền tảng toán học của generative AI theo cách trực quan, không jargon. Đây là primer cho người muốn hiểu 'sâu hơn surface level' nhưng không phải toán học chuyên sâu.",
+      "why": "Cho curious: nếu bạn đã biết dùng AI nhưng muốn hiểu 'tại sao nó hoạt động', đây là điểm bắt đầu tốt. Hiểu mechanics giúp bạn prompt tốt hơn và debug khi AI sai.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "tags": [
+        "education",
+        "math",
+        "foundations"
       ]
     }
   ],
   "business": [
     {
-      "headline": "ACCESS Newswire ra SPOT — 7 AI agents kiểm tra press release trước khi submit",
-      "summary": "ACCESS Newswire launch SPOT (Smart PR Optimized Tools) — hệ thống 7 AI agents tự động check lỗi, optimize SEO, verify fact cho press release trước khi phát hành.",
-      "why": "Cho business: nếu công ty bạn hay ra PR, tool này giảm manual review. Case study về multi-agent workflow thực tế — không chỉ demo.",
-      "source": "AZCentral",
-      "url": "https://www.azcentral.com/press-release/story/145086/access-newswire-launches-spot-seven-ai-agents-that-check-every-press-release-before-submission/",
+      "headline": "Nợ AI ẩn của big tech Mỹ tăng 90% lên $3.2T trong 6 tháng",
+      "why": "Cho business: big tech đang chôn $3.2T vào AI infrastructure mà chưa thu về đủ revenue. Nếu bubble vỡ, sẽ kéo theo sụp đổ toàn ngành. Founder nên có Plan B cho kịch bản 'AI winter 2027-2028' — đừng all-in mà không cash runway.",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
       "tags": [
-        "business",
-        "agents",
-        "pr"
+        "finance",
+        "debt",
+        "bubble-risk"
+      ]
+    },
+    {
+      "headline": "Serval raise $150M Series C ở định giá $3B — coding agents cho enterprise",
+      "summary": "Serval startup tập trung vào coding agents tự động hóa enterprise workflows, vừa huy động $150M với valuation $3B. Đây là signal thị trường tin vào enterprise AI adoption dài hạn.",
+      "why": "Cho business: enterprise đang chấp nhận trả tiền cho AI agents thay thế manual workflows. Nếu công ty bạn có quy trình repetitive (data entry, report generation, code review), đây là thời điểm pilot automation trước khi competitor làm.",
+      "source": "Crunchbase",
+      "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+      "tags": [
+        "funding",
+        "enterprise",
+        "automation"
+      ]
+    },
+    {
+      "headline": "Intel tham gia vòng $700M cho AI startup Hark cùng Nvidia và AMD",
+      "summary": "Intel, Nvidia, AMD cùng đổ tiền vào Hark — startup xây hardware AI native và digital assistant foundation models. Đây là cuộc đua giữa các chip giant về hardware thế hệ kế.",
+      "why": "Cho business: khi cả 3 chip giants cùng fund một startup, đó là signal về future architecture shift. Nếu doanh nghiệp bạn đang plan infrastructure 2027-2030, theo dõi Hark — có thể là platform mới thay GPU clusters.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-joined-700-million-001701528.html",
+      "tags": [
+        "funding",
+        "hardware",
+        "chips"
+      ]
+    },
+    {
+      "headline": "Wafer — inference provider dùng non-Nvidia chips — nhận offer mua lại $200M+",
+      "summary": "Wafer, startup cung cấp AI inference không dùng Nvidia GPU, nhận được offers mua lại với valuation >$200M. Đây là tín hiệu thị trường đang tìm alternatives cho Nvidia monopoly.",
+      "why": "Cho business: chi phí inference Nvidia quá cao đang tạo cơ hội cho alternatives. Nếu startup bạn đang burn tiền vào Nvidia inference, test Wafer hoặc AMD/Intel solutions — có thể giảm 40-60% chi phí.",
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/",
+      "tags": [
+        "acquisition",
+        "inference",
+        "nvidia-alternative"
       ]
     }
   ],
   "society": [
     {
-      "headline": "Gartner report: nhiều dự án 'agentic AI' chỉ là rebranding marketing",
-      "summary": "Gartner cáo buộc nhiều vendor đang gắn nhãn 'agentic AI' cho sản phẩm cũ mà không có khả năng multi-agent thật. Warning về hype cycle và overselling.",
-      "why": "Cho manager: trước khi mua 'agentic AI solution', hỏi vendor chứng minh autonomous decision-making và inter-agent protocol. Nhiều tool chỉ là chatbot đổi tên.",
-      "source": "Wikipedia / Gartner",
-      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "headline": "Google Gemini 4 Carbon ra mắt — đánh bại Claude Opus 5.5, ít hallucinate nhất",
+      "summary": "Google vừa release Gemini 4 Carbon, model frontier mới vượt Claude Opus 5.5 trên benchmarks. Đặc biệt, Gemini 4 Carbon có tỷ lệ hallucination thấp nhất trong các model frontier hiện tại.",
+      "why": "Cho curious: cuộc đua AI model bước vào giai đoạn mới — không chỉ intelligence mà còn reliability. Gemini 4 Carbon ít hallucinate nghĩa là dùng được cho high-stakes tasks (medical, legal, finance) mà trước đây AI không đáng tin.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
       "tags": [
-        "society",
-        "hype",
-        "agents"
+        "google",
+        "gemini",
+        "frontier-model"
+      ]
+    },
+    {
+      "headline": "Mistral ra 'Le Chonk' — model Large 4 open source có thể download",
+      "summary": "Mistral AI ra mắt Mistral Large 4 (nickname 'Le Chonk'), model frontier mới mã nguồn mở, có thể download và chạy on-premise. Đây là đối trọng open-source với Gemini 4 Carbon và Claude Opus 5.5.",
+      "why": "Cho manager: open-source frontier model nghĩa là bạn có thể chạy AI 'cấp GPT-5' trên infrastructure riêng mà không phải gửi data lên cloud. Nếu công ty bạn có compliance/privacy concerns, đây là giải pháp.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/mistral-new-le-chonk-ai-model-open-source-available/",
+      "tags": [
+        "mistral",
+        "open-source",
+        "frontier-model"
       ]
     }
   ],
-  "opensource": [
-    {
-      "headline": "morluto/rea — reverse engineer bất kỳ thứ gì bằng AI agents",
-      "why": "Công cụ dùng agents để reverse engineer từ app behavior xuống native binaries — hữu ích cho security audit hoặc legacy code analysis.",
-      "source": "GitHub",
-      "url": "https://github.com/morluto/rea",
-      "stars": "423500"
-    },
-    {
-      "headline": "n8n — workflow automation platform với native AI capabilities",
-      "why": "Kết hợp visual building với custom code, self-host hoặc cloud, 400+ integrations. Alternative mã nguồn mở cho Zapier/Make với AI built-in.",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "209412"
-    },
-    {
-      "headline": "prompts.chat (f.k.a. Awesome ChatGPT Prompts) — share và discover prompts",
-      "why": "Community-driven prompt library, self-host được với complete privacy. Tốt cho team muốn build internal prompt collection.",
-      "source": "GitHub",
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "175642"
-    },
-    {
-      "headline": "langgenius/dify — build Agentic workflows và RAG pipelines",
-      "why": "Platform collaborative cho AI workflows, deploy cloud/VPC/self-host. Giúp team move từ prototype sang production không rebuild stack.",
-      "source": "GitHub",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "160273"
-    },
-    {
-      "headline": "open-webui — user-friendly AI interface hỗ trợ Ollama, OpenAI API",
-      "why": "UI đơn giản cho local LLM (Ollama) hoặc cloud API — tốt cho cá nhân/team nhỏ muốn interface thống nhất cho nhiều model.",
-      "source": "GitHub",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "157596"
-    }
-  ],
+  "opensource": [],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Z.ai: GLM 5.3 FlashX Legal",
+      "headline": "[OpenRouter NEW] Crouton Alpha",
       "event": "new",
-      "summary": "Model GLM-5.3-FlashX-Legal — variant legal-domain của GLM-5.3-FlashX, multimodal (text/image/video input). Mid-training và post-training cho legal use case.",
-      "why": "Cho business: nếu cần AI cho legal document analysis, đây là specialized model — accurate hơn general-purpose cho legal domain.",
+      "summary": "Lightweight model cho coding, agentic, multimodal workflows. Ideal cho agentic sub-tasks, tool use, document analysis trong high-volume work.",
+      "why": "Mô hình nhẹ cho repetitive agent tasks — rẻ hơn frontier models khi chạy mass parallel agents.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flashx-legal",
+      "url": "https://openrouter.ai/models/stealth/crouton-alpha",
       "tags": [
-        "legal",
-        "multimodal"
+        "new-model",
+        "agentic",
+        "lightweight"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Nous: Hermes 3 405B Instruct removed",
-      "event": "deprecated",
-      "summary": "Model nousresearch/hermes-3-llama-3.1-405b không còn trên OpenRouter.",
-      "why": "Migrate ngay nếu đang dùng — model này đã bị remove.",
+      "headline": "[OpenRouter NEW] SpaceXAI Grok 4.6 (batch) · $1.60/$4.80",
+      "event": "new",
+      "summary": "Grok 4.6 từ SpaceXAI với frontier performance trên coding, knowledge work, STEM. Batch pricing.",
+      "why": "Cheaper batch option cho high-volume coding tasks — nếu bạn không cần realtime response.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-405b",
+      "url": "https://openrouter.ai/models/x-ai/grok-4.6:batch",
       "tags": [
-        "deprecated"
+        "new-model",
+        "spacexai",
+        "batch"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Nous: Hermes 3 70B Instruct removed",
-      "event": "deprecated",
-      "summary": "Model nousresearch/hermes-3-llama-3.1-70b không còn trên OpenRouter.",
-      "why": "Migrate ngay nếu đang dùng — model này đã bị remove.",
+      "headline": "[OpenRouter NEW] SpaceXAI Grok 4.7 (batch) · $1.60/$4.80",
+      "event": "new",
+      "summary": "Grok 4.7 flagship model của SpaceXAI, thay thế 4.6. Đặc biệt mạnh về long-running software engineering tasks và verify chính mình.",
+      "why": "Grok 4.7 tự verify code nghĩa là ít lỗi hơn khi generate — quan trọng cho production code.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-70b",
+      "url": "https://openrouter.ai/models/x-ai/grok-4.7:batch",
       "tags": [
-        "deprecated"
+        "new-model",
+        "spacexai",
+        "coding"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B tăng giá ↑$0.04/↑$0.10",
+      "headline": "[OpenRouter PRICE] IBM Granite 4.2 8B ↑completion $0.15→$0.25",
       "event": "price",
-      "summary": "Prompt $0.02 → $0.04, completion $0.07 → $0.10 per M tokens.",
-      "why": "Gemma 4 đắt hơn 2x — review lại cost nếu đang dùng model này cho high-volume workload.",
+      "summary": "IBM Granite 4.2 8B tăng giá completion từ $0.15 lên $0.25 per M tokens.",
+      "why": "Tăng giá 67% — nếu đang dùng Granite cho high-volume generation, cân nhắc migrate sang alternatives.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "url": "https://openrouter.ai/models/ibm-granite/granite-4.2-8b",
       "tags": [
-        "price"
+        "price-change",
+        "ibm"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash 0731 giảm prompt ↓$0.06, tăng completion ↑$0.30",
+      "headline": "[OpenRouter PRICE] Meta Llama 3.1 70B ↑$0.40→$0.72 cả prompt và completion",
       "event": "price",
-      "summary": "Prompt $0.12 → $0.06, completion $0.24 → $0.30 per M tokens.",
-      "why": "Tốt cho workload nhiều prompt ngắn, kém cho long-form generation — cân nhắc lại use case.",
+      "summary": "Llama 3.1 70B Instruct tăng giá 80% — từ $0.40 lên $0.72 per M tokens cho cả prompt và completion.",
+      "why": "Llama 3.1 70B đang phổ biến nhưng tăng giá 80% — xem xét downgrade xuống Llama 3.3 70B (rẻ hơn, xem tin dưới).",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct",
       "tags": [
-        "price"
+        "price-change",
+        "meta",
+        "llama"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi Latest tăng giá mạnh ↑$0.18/↑$10.56",
+      "headline": "[OpenRouter PRICE] Meta Llama 3.3 70B ↓$0.20→$0.10 prompt, ↓$0.52→$0.32 completion",
       "event": "price",
-      "summary": "Prompt $0.15 → $0.18, completion $7.15 → $10.56 per M tokens.",
-      "why": "Tăng giá 48% completion — nếu dùng Kimi cho long output, cân nhắc migrate sang model khác.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
-      "tags": [
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Meta: Llama 3.3 70B Instruct tăng giá ↑$0.20/↑$0.52",
-      "event": "price",
-      "summary": "Prompt $0.10 → $0.20, completion $0.32 → $0.52 per M tokens.",
-      "why": "Llama 3.3 70B đắt hơn 2x — nếu đang dùng high-volume, xem xét downgrade về 8B hoặc switch provider.",
+      "summary": "Llama 3.3 70B giảm giá — prompt từ $0.20 xuống $0.10, completion từ $0.52 xuống $0.32.",
+      "why": "Llama 3.3 70B giờ rẻ hơn 3.1 nhiều — nếu đang dùng 3.1, migrate sang 3.3 để giảm chi phí 50-80%.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
       "tags": [
-        "price"
+        "price-change",
+        "meta",
+        "llama"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] OpenAI: gpt-oss-20b tăng giá ↑$0.03/↑$0.13",
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K3 ↑$0.19→$0.20 prompt, ↑$15→$16 completion",
       "event": "price",
-      "summary": "Prompt $0.02 → $0.03, completion $0.09 → $0.13 per M tokens.",
-      "why": "Tăng 50% prompt, 44% completion — model này vẫn rẻ nhưng margin shrink nếu bạn đang resell.",
+      "summary": "Kimi K3 tăng nhẹ giá completion từ $15 lên $16 per M tokens.",
+      "why": "Kimi K3 vốn đắt ($15/M tok completion) giờ tăng thêm — chỉ dùng khi cần long context đặc biệt.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3",
       "tags": [
-        "price"
+        "price-change",
+        "moonshotai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Flash Latest ↓completion $0.50→$0.32",
+      "event": "price",
+      "summary": "DeepSeek Flash Latest giảm giá completion từ $0.50 xuống $0.32.",
+      "why": "DeepSeek giờ rẻ hơn 36% — good alternative cho high-volume tasks không cần frontier intelligence.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+      "tags": [
+        "price-change",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI gpt-oss-120b ↓$0.15→$0.03 prompt, ↓$0.60→$0.10 completion",
+      "event": "price",
+      "summary": "OpenAI gpt-oss-120b giảm giá mạnh — prompt từ $0.15 xuống $0.03, completion từ $0.60 xuống $0.10.",
+      "why": "GPT-OSS-120B giờ rẻ 80-83% — nếu cần OpenAI ecosystem nhưng không cần GPT-5, đây là sweet spot.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "price-change",
+        "openai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash ↓completion $0.09→$0.08",
+      "event": "price",
+      "summary": "GLM 5.3 Flash giảm nhẹ completion từ $0.09 xuống $0.08.",
+      "why": "GLM Flash giờ rẻ hơn một chút — tốt cho tasks cần Chinese language processing.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+      "tags": [
+        "price-change",
+        "z-ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM Flash Latest ↓completion $0.09→$0.08",
+      "event": "price",
+      "summary": "GLM Flash Latest cũng giảm completion từ $0.09 xuống $0.08.",
+      "why": "Tương tự GLM 5.3 Flash — giảm nhẹ, dùng cho Chinese tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~z-ai/glm-flash-latest",
+      "tags": [
+        "price-change",
+        "z-ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemma 4 26B ↑$0.04→$0.07 prompt, ↑$0.10→$0.21 completion",
+      "event": "price",
+      "summary": "Gemma 4 26B tăng giá — prompt từ $0.04 lên $0.07, completion từ $0.10 lên $0.21.",
+      "why": "Gemma 4 tăng giá 75-110% — nếu đang dùng cho lightweight tasks, xem alternatives như DeepSeek Flash.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price-change",
+        "google",
+        "gemma"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 155,
-    "brave": 50,
+    "raw": 149,
+    "brave": 51,
     "reddit": 0,
-    "hackernews": 6,
-    "rss": 34,
-    "huggingface": 7,
-    "github": 10,
-    "openrouter": 9
+    "hackernews": 8,
+    "rss": 42,
+    "huggingface": 8,
+    "github": 0,
+    "openrouter": 12
   }
 }
