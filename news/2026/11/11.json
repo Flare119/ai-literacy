@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-11",
+  "updated_at": "2026-11-11T09:23:19.975238+07:00",
+  "weekday": "Wednesday",
+  "top_story": {
+    "headline": "Google Gemini 4 Carbon đánh bại Claude Opus 5.5 — ít hallucinate nhất từ trước đến nay",
+    "summary": "Google vừa công bố Gemini 4 Carbon, model AI frontier mới nhất với khả năng coding, reasoning phức tạp và agentic tasks. Benchmark cho thấy Carbon vượt trội Claude Opus 5.5 về độ chính xác và có tỷ lệ hallucination thấp nhất trong các model hiện tại. Model hỗ trợ đa phương thức (text, image, audio, video, file) và đang có sẵn trên OpenRouter với giá $2/$10 per M token.",
+    "why": "Cho manager + creative: nếu team đang dùng Claude Opus cho coding hoặc analysis tasks phức tạp, đây là thời điểm A/B test Gemini 4 Carbon — tỷ lệ hallucination thấp nghĩa là ít sai sót cần fix, tiết kiệm thời gian review. Giá tương đương Claude nhưng multimodal native mạnh hơn cho video/audio workflow.",
+    "source": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
+    "tags": [
+      "gemini",
+      "google",
+      "benchmark",
+      "coding",
+      "multimodal"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Anthropic ra Claude Fable 5.2 và Mythos 5.2 — nâng cấp coding và reasoning",
+      "why": "Cho cá nhân + creative: Fable 5.2 nhanh hơn, mạnh coding + visual understanding hơn. Nếu đang dùng Claude Code cho workflow, update lên bản mới để giảm thời gian chờ response.",
+      "source": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-launches-claude-fable-5-2-mythos-5-2-with-faster-performance-and-stronger-coding-capabilities/articleshow/135698029.cms",
+      "tags": [
+        "claude",
+        "anthropic",
+        "coding",
+        "update"
+      ]
+    },
+    {
+      "headline": "Adobe MAX 2026: Relight tool cho Photoshop, MCP support đến 2027",
+      "why": "Cho creative: Relight tool cho phép thay đổi ánh sáng ảnh AI-assisted ngay trong Photoshop. MCP (Model Context Protocol) 2027 nghĩa là Adobe sẽ tích hợp sâu AI workflows — đầu tư học Adobe AI stack bây giờ sẽ compound value.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/10/adobe-unveils-new-ai-tools-for-photoshop-premiere-and-more-with-mcp-support-coming-in-2027/",
+      "tags": [
+        "adobe",
+        "photoshop",
+        "creative",
+        "mcp"
+      ]
+    },
+    {
+      "headline": "Automattic ra Spacefast — AI app hosting cho Claude và ChatGPT",
+      "why": "Cho cá nhân + curious: nếu bạn đang dùng Claude/ChatGPT để viết code nhưng không biết deploy, Spacefast cho phép AI publish app/website trực tiếp. Giảm barrier từ prototype → production.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/330352/20261110/ai-app-hosting-automattic-launches-spacefast-so-claude-chatgpt-can-publish-apps.htm",
+      "tags": [
+        "hosting",
+        "deployment",
+        "claude",
+        "chatgpt"
+      ]
+    },
+    {
+      "headline": "AI đang tạo codebase mỏng manh — warning từ dev community",
+      "why": "Cho cá nhân + manager: code sinh bởi AI thường thiếu error handling và edge case logic. Nếu team đang accelerate với AI coding, đầu tư thời gian review + refactor — debt này delay 6-12 tháng mới nổ khi scale.",
+      "source": "Hacker News",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "tags": [
+        "technical-debt",
+        "code-quality",
+        "risk"
+      ]
+    },
+    {
+      "headline": "NYTimes: AI vừa phá vỡ 'Exponential Time Hypothesis' — giả thuyết nền tảng khoa học máy tính",
+      "why": "Cho curious: OpenAI và Anthropic cho thấy máy có thể tự cải thiện hiệu quả hơn con người tưởng. Đây là signal về khả năng AI tự học — không chỉ lý thuyết, đã bắt đầu thực tế.",
+      "source": "NYTimes",
+      "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
+      "tags": [
+        "research",
+        "self-improvement",
+        "theory"
+      ]
+    },
+    {
+      "headline": "3 AI services rò rỉ chat người khác chỉ trong tháng 10/2026",
+      "why": "Cho cá nhân + manager: nếu team dùng AI chat cho công việc nhạy cảm (strategy, finance, legal), đây là lúc audit policy. Court đã ruled Claude chats KHÔNG được privileged — gì bạn gõ đều có thể bị subpoena.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/",
+      "tags": [
+        "privacy",
+        "security",
+        "legal",
+        "risk"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe MAX: Relight tool, AI video trong Premiere, MCP support 2027",
+      "summary": "Adobe công bố loạt AI tools tại MAX 2026: Relight cho Photoshop (thay đổi ánh sáng AI-assisted), AI video editing trong Premiere, và cam kết hỗ trợ MCP (Model Context Protocol) từ 2027. MCP cho phép Adobe apps tích hợp sâu với AI agents bên ngoài, mở rộng khả năng automation.",
+      "why": "Cho creative + production: Relight giảm thời gian post-processing ánh sáng từ giờ xuống phút. MCP 2027 nghĩa là Adobe sẽ mở cửa cho AI workflows tùy chỉnh — đầu tư học Adobe AI stack bây giờ sẽ compound khi MCP ra. Nếu workflow hiện tại chưa dùng AI Adobe, đây là thời điểm pilot.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/10/adobe-unveils-new-ai-tools-for-photoshop-premiere-and-more-with-mcp-support-coming-in-2027/",
+      "tags": [
+        "adobe",
+        "photoshop",
+        "premiere",
+        "mcp",
+        "video"
+      ]
+    },
+    {
+      "headline": "Everypixel: AI Image & Video News Fall 2026 — tổng hợp cho production teams",
+      "summary": "Everypixel tổng hợp các thay đổi AI image/video từ tháng 10 đầu tháng 11/2026: Veo 3.1 preview bị retire (cần migrate model IDs), OpenAI Images 2.6 ra ngày 4/11 với tốc độ nhanh hơn, và các updates từ Midjourney, Runway. Bài viết cảnh báo production teams cần audit integrations trước khi model IDs cũ bị remove.",
+      "why": "Cho production: nếu workflow đang dùng Veo 3.1 preview API, audit ngay — model bị retire nghĩa là code sẽ break. OpenAI Images 2.6 nhanh hơn nhưng output có thể khác — test trước khi deploy cho client deliverable.",
+      "source": "Everypixel Journal",
+      "url": "https://journal.everypixel.com/ai-image-video-news-october-early-november-2026",
+      "tags": [
+        "image-generation",
+        "video",
+        "veo",
+        "openai",
+        "workflow"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "AI chiếm gần 2/3 toàn bộ venture funding toàn cầu Q3/2026",
+      "summary": "Dữ liệu Q3/2026 cho thấy AI startups nhận phần lớn venture capital, với late-stage funding đạt $105B và early-stage $40.6B. Xu hướng này đẩy các startup non-AI vào khó khăn tìm vốn, khi investor đổ tiền vào AI hype.",
+      "why": "Cho founder + business: nếu startup bạn không phải AI-native, prepare cho fundraising khó hơn. Pivot strategy: tìm góc AI integration vào sản phẩm (dù nhỏ) để tăng appeal với investor, hoặc focus bootstrap + profitability thay vì growth-at-all-costs.",
+      "source": "International Business Times",
+      "url": "https://www.ibtimes.com/ai-startups-global-venture-funding-q3-2026-3809588",
+      "tags": [
+        "funding",
+        "venture-capital",
+        "startup",
+        "market"
+      ]
+    },
+    {
+      "headline": "Shield AI định giá $28.8B sau khi mua lại Radar với $5.3B — gấp đôi định giá đầu năm",
+      "summary": "Shield AI (defense AI startup) vừa raise $1B Series H với định giá $28.8B để hỗ trợ thương vụ mua lại Radar $5.3B. Định giá này gấp đôi so với đầu 2026, phản ánh sức nóng của AI defense sector. Gói vốn bao gồm $1B structured equity từ Blackstone và $500M debt từ JPMorgan.",
+      "why": "Cho business + đầu tư: AI defense là sector đang nóng nhất 2026 sau generative AI. Định giá gấp đôi trong <1 năm cho thấy investor đang đổ tiền vào ứng dụng AI thực tế (defense, enterprise) thay vì consumer. Signal: nếu startup AI bạn có use case B2B/enterprise, đây là thời điểm tốt để raise.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/shield-ai-to-hit-28-8-billion-value-with-5-3-billion-radar-acquisition",
+      "tags": [
+        "funding",
+        "defense",
+        "valuation",
+        "m&a"
+      ]
+    },
+    {
+      "headline": "Vanta mua lại startup AI security Israel Pillar với $150M",
+      "summary": "Vanta, nền tảng quản lý security/compliance, ký thỏa thuận mua lại Pillar Security (Israel) với giá $150M. Pillar chuyên về AI security — phát hiện rủi ro AI model, data leakage, compliance. Thương vụ phản ánh nhu cầu tăng về governance AI khi doanh nghiệp adopt AI nhanh.",
+      "why": "Cho business + manager: AI security đang trở thành bắt buộc, không phải optional. Nếu công ty bạn đang deploy AI (chatbot, automation, coding assistant), audit security policy ngay — data leak AI có delay effect 6-12 tháng, khi phát hiện đã muộn.",
+      "source": "Calcalist Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkjzjkjrfl",
+      "tags": [
+        "m&a",
+        "security",
+        "compliance",
+        "israel"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "n8n — workflow automation platform với AI native, 400+ integrations",
+      "why": "Cho cá nhân + manager: nếu team cần automation workflows (marketing, sales, ops) kết hợp AI, n8n là open-source alternative cho Zapier/Make với AI agents built-in. Self-host để giữ data privacy.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "210029"
+    },
+    {
+      "headline": "Firecrawl — web scraping library cho AI agents, 'superintelligence data layer'",
+      "why": "Cho creative + developer: nếu đang build AI agent cần scrape web data (research, content gen), Firecrawl xử lý parsing phức tạp. Trending 200K stars trong vài tháng — signal về nhu cầu AI agent infrastructure.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "200567"
+    },
+    {
+      "headline": "Dify — build agentic workflows + RAG pipelines, hỗ trợ nhiều AI models",
+      "why": "Cho developer + curious: nếu bạn muốn thử build AI agent/chatbot nhưng chưa biết code từ đầu, Dify cung cấp visual workspace để xây RAG pipeline + agentic workflows. Deploy được cloud, VPC, hoặc self-hosted.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "160902"
+    },
+    {
+      "headline": "Open WebUI — giao diện AI thân thiện cho Ollama, OpenAI API",
+      "why": "Cho cá nhân: nếu đang dùng Ollama (local AI) hoặc OpenAI API mà giao diện command-line khó dùng, Open WebUI cung cấp UI đẹp, dễ dùng. Trending mạnh — 158K stars.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "158331"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Google Gemini 4 Carbon — $2/$10 per M tok",
+      "event": "new",
+      "summary": "Frontier Gemini 4 model cho coding, agentic, complex reasoning. Multimodal (text/image/audio/video/file), hỗ trợ long decode.",
+      "why": "Alternative mạnh cho Claude Opus 5.5 với hallucination thấp hơn, giá tương đương. Test cho tasks cần độ chính xác cao.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-4-carbon",
+      "tags": [
+        "gemini",
+        "google",
+        "frontier",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Baidu ERNIE 5.5 Flash Preview — $0.28/$1.13 per M tok",
+      "event": "new",
+      "summary": "ERNIE 5.5 Flash Preview với 280B params, cải thiện coding, agentic, knowledge work, deep research.",
+      "why": "Model Trung Quốc với giá rẻ hơn nhiều so với US models. Thử cho tasks không nhạy cảm.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/baidu/ernie-5.5-flash-preview",
+      "tags": [
+        "baidu",
+        "ernie",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] KT Mi:dm K 3.0 Pro — $0.20/$0.80 per M tok",
+      "event": "new",
+      "summary": "MoE reasoning model từ KT (Hàn Quốc) với 120B total, 12B active params. Hybrid Mamba + MoE + attention.",
+      "why": "Model Hàn Quốc giá rẻ cho reasoning tasks. Alternative cho Claude khi budget tight.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/kt/midm-k-3.0-pro",
+      "tags": [
+        "korea",
+        "moe",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Motif Technologies Motif 3 — $0.30/$1.20 per M tok",
+      "event": "new",
+      "summary": "MoE multilingual model (English + Korean) với 314B total, 13.2B active params.",
+      "why": "Multilingual English-Korean nếu workflow cần xử lý 2 ngôn ngữ này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/motif-technologies/motif-3",
+      "tags": [
+        "multilingual",
+        "korean",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Qwen 2.5 7B Instruct removed",
+      "event": "deprecated",
+      "summary": "Model qwen/qwen-2.5-7b-instruct không còn trên OpenRouter.",
+      "why": "Migrate code nếu đang dùng model này — sẽ break.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen-2.5-7b-instruct",
+      "tags": [
+        "qwen",
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash giảm 73% — $0.04/$0.08 per M tok",
+      "event": "price",
+      "summary": "GLM 5.3 Flash giảm giá từ $0.15/$0.50 xuống $0.04/$0.08 (prompt giảm 73%, completion giảm 84%).",
+      "why": "GLM Flash giờ rẻ hơn gần tất cả competitors — test thay thế GPT-4o mini hoặc Claude Haiku cho tasks đơn giản.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+      "tags": [
+        "glm",
+        "price-drop",
+        "budget"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 156,
+    "brave": 53,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 31,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 17
+  }
+}
