@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-13",
+  "updated_at": "2026-11-13T10:01:23.629860+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "OpenAI raise thêm $11B với định giá $1.25T — vòng gọi vốn lớn nhất lịch sử AI",
+    "summary": "OpenAI đóng vòng gọi vốn $11 tỷ USD với định giá $1.25 nghìn tỷ USD trong tuần đầu tháng 11, lớn hơn gấp đôi vòng trước (tháng 9: $6.6B @ $157B). Cùng tuần, Zipline nhận $1.5B và fal nhận $1.3B — tổng cộng gần $14B trong 7 ngày, phá kỷ lục tập trung vốn vào AI startup.",
+    "why": "Cho business/founder: Thị trường vốn AI đang tách biệt hoàn toàn với startup thường — 64% venture funding toàn cầu Q3/2026 đổ vào AI, nghĩa là nếu startup bạn không có góc AI, khả năng gọi vốn giảm 2/3. Nếu bạn đang cạnh tranh với OpenAI về talent/infra, giá thuê người và compute sẽ tiếp tục tăng 6-12 tháng tới do họ mở rộng.",
+    "source": "Beststartup US",
+    "url": "https://beststartup.us/us-startup-funding-november-2026/",
+    "tags": [
+      "funding",
+      "OpenAI",
+      "market"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "AI chiếm 64% venture funding toàn cầu Q3/2026 — startup non-AI gặp khó gọi vốn",
+      "why": "Cho founder: Nếu pitch deck không có AI component, bạn đang cạnh tranh 36% vốn còn lại với số lượng startup gấp đôi. Cân nhắc pivot hoặc integrate AI vào roadmap để tăng fundability.",
+      "source": "International Business Times",
+      "url": "https://www.ibtimes.com/ai-startups-global-venture-funding-q3-2026-3809588",
+      "tags": [
+        "funding",
+        "market"
+      ]
+    },
+    {
+      "headline": "Mercor (AI talent marketplace của 3 dropout) raise $750M @ $20B — gấp đôi giá trị sau 1 năm",
+      "why": "Cho business: AI recruiting/matching đang hot — Mercor match freelancer với employer bằng AI, định giá $20B sau 3 năm. Nếu bạn đang build marketplace/platform, AI-powered matching là leverage point để tăng valuation nhanh.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/11/11/mercor-raises-750m-at-20b-valuation-doubling-its-worth-in-just-over-a-year-with-backing-from-nvidia-salesforce/",
+      "tags": [
+        "funding",
+        "AI",
+        "marketplace"
+      ]
+    },
+    {
+      "headline": "Vanta mua startup AI security Israel Pillar Security với giá $150M",
+      "why": "Cho manager IT/security: AI security đang trở thành M&A target — nếu công ty bạn deploy AI internal, cần audit security posture ngay (data leak, prompt injection, model poisoning). Market đang consolidate, giá mua sẽ tăng.",
+      "source": "Calcali Tech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkjzjkjrfl",
+      "tags": [
+        "M&A",
+        "security",
+        "AI"
+      ]
+    },
+    {
+      "headline": "Apple ra Foundation Models framework — chạy local AI model trên Mac dễ như gọi API",
+      "why": "Cho developer: Apple chuẩn bị mở SDK cho local AI trên Mac, giống Core ML nhưng cao cấp hơn. Nếu app bạn cần AI mà không muốn gửi data lên cloud, đây là cơ hội build privacy-first alternative.",
+      "source": "Apple Developer",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "tags": [
+        "Apple",
+        "local-AI",
+        "SDK"
+      ]
+    },
+    {
+      "headline": "AI đang phá app review của Apple — synth music dev bị reject vô lý vì reviewer dùng AI",
+      "why": "Cho indie dev: Apple đang dùng AI review app submission, dẫn đến false rejection (synth app bị reject vì 'không có tính năng', khi thực tế có đầy đủ). Chuẩn bị appeal process và doc rõ ràng hơn, vì AI reviewer không hiểu context như người.",
+      "source": "Synthanatomy",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "tags": [
+        "Apple",
+        "app-review",
+        "AI-gone-wrong"
+      ]
+    },
+    {
+      "headline": "Chinese frontier AI model mang 'vân tay' GPU bị export control — công cụ forensics mới phát hiện",
+      "why": "Cho curious: Nghiên cứu mới cho thấy có thể phát hiện AI model Trung Quốc dùng GPU Nvidia bị cấm xuất khẩu bằng cách phân tích checkpoint artifacts. Implication: US export control có thể enforce chặt hơn, ảnh hưởng supply chain AI toàn cầu.",
+      "source": "Unemployment Labs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "tags": [
+        "geopolitics",
+        "GPU",
+        "export-control"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "MiniMax ra H3-Image — model ảnh open-weight nhận tới 16 reference images, tạo 4K trong 10s",
+      "summary": "MiniMax H3-Image là model ảnh open-weight đầu tiên nhận đồng thời 9 ảnh + 3 video + 3 audio làm reference trong 1 request, tạo 4K trong dưới 10 giây. ComfyUI 0.44.0 (ra 4/11) đã hỗ trợ native, workflows official sẵn.",
+      "why": "Cho creative: Đây là game-changer cho storyboard consistency — thay vì phải inpaint/ControlNet nhiều lần để giữ nhân vật/style, bạn feed 16 reference một lúc. Open-weight nghĩa là tự host không limit, giá = $0 nếu có GPU local. Test ngay trên ComfyUI.",
+      "source": "ScreenWeaver",
+      "url": "https://www.screenweaver.ai/blog/minimax-h3-image-16-reference-images",
+      "tags": [
+        "image-model",
+        "open-weight",
+        "production"
+      ]
+    },
+    {
+      "headline": "ComfyUI 0.44.0 (4/11) — release lớn nhất năm với native P-H3-Image support",
+      "summary": "ComfyUI 0.44.0 ra ngày 4/11 với native support cho P-H3-Image (bản optimized của MiniMax H3), stock nodes và official workflows. Đây là biggest release trong năm về mặt compatibility với model mới.",
+      "why": "Cho creative đang dùng ComfyUI: Update ngay để dùng H3-Image không cần custom node. Workflows official giúp skip learning curve — straight to production. Nếu chưa dùng ComfyUI, đây là timing tốt để migrate từ Automatic1111/other tools.",
+      "source": "Kombitz",
+      "url": "https://www.kombitz.com/2026/11/07/ai-image-video-model-news-roundup-november-7-2026/",
+      "tags": [
+        "ComfyUI",
+        "workflow",
+        "tools"
+      ]
+    },
+    {
+      "headline": "Veo 3.1 preview model IDs đã retired — audit integrations trước khi client deliverable lỗi",
+      "summary": "Google đã retire Veo 3.1 preview model IDs. Production teams cần audit integrations và test replacement model trước khi phụ thuộc vào client deliverable.",
+      "why": "Cho production manager: Nếu pipeline bạn gọi Veo 3.1 API, check ngay model ID còn hoạt động không. Google không guarantee backward compatibility cho preview models — một case study về rủi ro depend vào bleeding-edge API.",
+      "source": "Everypixel Journal",
+      "url": "https://journal.everypixel.com/ai-image-video-news-october-early-november-2026",
+      "tags": [
+        "video-model",
+        "API",
+        "production-risk"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "Anthropic ra Claude Fable 5.2 và Mythos 5.2 — frontier models đầu tiên sau khi Amodei kêu gọi slowdown",
+      "summary": "Anthropic release Claude Fable 5.2 và Mythos 5.2 vào 9/11, đánh dấu lần đầu công ty ra frontier model sau khi CEO Dario Amodei công khai kêu gọi ngành AI chậm lại. Fable 5.2 đạt 65 điểm Artificial Analysis — cao nhất từ trước đến nay.",
+      "why": "Cho business: Anthropic vẫn ship model mới bất chấp slowdown rhetoric — signal rằng cạnh tranh frontier AI chưa giảm tốc. Nếu bạn đang bet vào 'AI sẽ plateau', market action đang nói ngược lại. IPO buzz build-up cho thấy Anthropic chuẩn bị exit, định giá dự kiến $1.1T+.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "tags": [
+        "Anthropic",
+        "frontier-AI",
+        "IPO"
+      ]
+    },
+    {
+      "headline": "Google Gemini 4 Carbon đánh bại Claude Opus 5.5 — ít hallucinate nhất theo benchmark",
+      "summary": "Google ra Gemini 4 Carbon tuần trước, vượt Claude Opus 5.5 về intelligence ranking và đạt lowest hallucination rate trong các frontier model theo benchmark độc lập.",
+      "why": "Cho business dùng LLM API: Nếu use case bạn cần factual accuracy cao (legal, medical, finance), Gemini 4 Carbon có thể giảm error rate. Nhưng benchmark không phải thực tế — test với production data trước khi migrate, vì hallucination measure thay đổi theo domain.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
+      "tags": [
+        "Google",
+        "Gemini",
+        "benchmark"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "morluto/rea — reverse engineer app/binary bằng AI agents",
+      "why": "Tool reverse engineering tự động với AI agent — use case: phân tích competitor app behavior, audit security, migrate legacy code. 455K stars trong vài ngày, trending #1 GitHub.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "455509"
+    },
+    {
+      "headline": "openclaw/openclaw — AI agent 'really does things' cross-platform (Windows/Mac/Linux)",
+      "why": "AI agent thực thi task thực trên OS bất kỳ — không chỉ chat. 394K stars, cạnh tranh với Agent S3 và computer-use frameworks khác. Nếu build automation tool, đây là reference architecture.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "394404"
+    },
+    {
+      "headline": "n8n-io/n8n — workflow automation platform với native AI, 400+ integrations",
+      "why": "Alternative Zapier/Make.com với native AI capabilities và fair-code license (self-host free). 210K stars — nếu đang build internal automation, n8n cho phép tự host và integrate AI model local.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "210336"
+    },
+    {
+      "headline": "firecrawl/firecrawl — web scraping cho AI agents, crawl + parse structured data",
+      "why": "Library crawl web và parse thành structured data cho AI agent training/RAG. 201K stars — use case: build AI agent cần real-time web data (research, monitoring, lead gen).",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "201304"
+    },
+    {
+      "headline": "langgenius/dify — build agentic workflows + RAG với AI models, deploy cloud/VPC/self-hosted",
+      "why": "Platform build AI agent workflows visual + code, support nhiều model. 161K stars — dành cho team muốn prototype AI agent nhanh mà không rebuild stack từ đầu. Self-host option giữ data privacy.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161063"
+    },
+    {
+      "headline": "Agent S3 — open-source framework AI control computer (Linux/Mac/Windows) với multimodal",
+      "why": "Framework open-source cho AI control desktop cross-platform, dùng multimodal models + visual grounding. Alternative mở của Anthropic Computer Use. Use case: automation testing, RPA, accessibility tools.",
+      "source": "Turing Post",
+      "url": "https://www.turingpost.com/p/computer-use-ai-agents",
+      "stars": "N/A"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Apodex 1.1 Mini (free) — reasoning model cho research/forecasting",
+      "event": "new",
+      "summary": "Apodex 1.1 Mini là reasoning model miễn phí cho long-horizon research/forecasting, làm việc trực tiếp với files/data/code.",
+      "why": "Free reasoning model — test cho use case research/data analysis không tốn tiền.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/apodex/apodex-1.1-mini:free",
+      "tags": [
+        "new",
+        "free",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Google Gemini 4 Hydrogen — workhorse model cho agentic workflows",
+      "event": "new",
+      "summary": "Gemini 4 Hydrogen: high-efficiency model cho agentic workflows, coding, multi-model routing với cost/latency thấp hơn Carbon. $1.50/$7.50 per M tok.",
+      "why": "Cheaper alternative Gemini 4 Carbon cho production workflows không cần top-tier intelligence.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-4-hydrogen",
+      "tags": [
+        "new",
+        "Google",
+        "agentic"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Google Gemini 4 Hydrogen (batch) — giảm 50% giá cho batch jobs",
+      "event": "new",
+      "summary": "Batch mode của Hydrogen: $0.75/$3.75 per M tok, giảm 50% so với real-time.",
+      "why": "Nếu workflow không cần real-time, batch mode giảm phân nửa cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemini-4-hydrogen:batch",
+      "tags": [
+        "new",
+        "batch",
+        "cost-saving"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] inclusionAI Ling 3.0 Flash Fin — MoE model chuyên finance",
+      "event": "new",
+      "summary": "Ling 3.0 Flash Fin: finance-focused MoE với 5.1B active / 124B total params, $0.04/$0.12 per M tok.",
+      "why": "Specialized model cho finance use case — rẻ hơn GPT-4 nhưng tuned cho investment/analysis.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-fin",
+      "tags": [
+        "new",
+        "finance",
+        "MoE"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] inclusionAI Ling 3.0 Flash Sante — MoE model chuyên health/medicine",
+      "event": "new",
+      "summary": "Ling 3.0 Flash Sante: health/medicine MoE, 5.1B active / 124B total params, $0.04/$0.12 per M tok.",
+      "why": "Specialized model cho medical/health use case với giá rẻ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-sante",
+      "tags": [
+        "new",
+        "health",
+        "MoE"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] MoonshotAI Kimi K3.1 Pro (batch) — multimodal reasoning với 1M context",
+      "event": "new",
+      "summary": "Kimi K3.1 Pro batch: flagship open-weight multimodal reasoning model, 1M-token context, $0.70/$6.00 per M tok (batch).",
+      "why": "Long-context model cho coding/3D tasks với batch pricing — rẻ hơn 88% so với real-time ($2/$10).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro:batch",
+      "tags": [
+        "new",
+        "batch",
+        "long-context"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Particle AI Particle-1 (free) — agentic coding model dựa trên DeepSeek V4.1",
+      "event": "new",
+      "summary": "Particle-1: agentic coding model post-trained trên DeepSeek V4.1 Flash, miễn phí, cho terminal workflows/codebase changes.",
+      "why": "Free coding agent — test cho automation coding tasks không tốn tiền.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/particle-ai/particle-1:free",
+      "tags": [
+        "new",
+        "free",
+        "coding"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines Inkling 2 Small — multimodal MoE reasoning",
+      "event": "new",
+      "summary": "Inkling 2 Small: multimodal MoE reasoning, 17B active / 594B total params, $0.30/$1.00 per M tok.",
+      "why": "Compact reasoning model với pricing hợp lý — alternative GPT-4o mini cho multimodal tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small",
+      "tags": [
+        "new",
+        "MoE",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash tăng giá 15x — từ $0.02/$0.40 lên $0.30/$1.20",
+      "event": "price",
+      "summary": "DeepSeek V4.1 Flash tăng giá prompt 15x ($0.02→$0.30), completion 3x ($0.40→$1.20).",
+      "why": "Nếu đang dùng DeepSeek V4.1 Flash ở production scale, cost tăng đột ngột — migrate sang batch mode hoặc Particle-1 (free fork) để giữ budget.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+      "tags": [
+        "price",
+        "DeepSeek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Kimi K3.1 Pro giảm giá 88% prompt — từ $2.00 xuống $0.24",
+      "event": "price",
+      "summary": "Kimi K3.1 Pro giảm prompt cost 88% ($2→$0.24), completion giảm 16% ($10→$8.41).",
+      "why": "Kimi K3.1 Pro giờ rẻ hơn nhiều — nếu use case cần long context (1M tokens), đây là timing tốt để test.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro",
+      "tags": [
+        "price",
+        "cost-saving"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemini Flash Latest tăng giá 2x — $0.75/$3.75 lên $1.50/$7.50",
+      "event": "price",
+      "summary": "Gemini Flash Latest tăng giá 2x cả prompt và completion.",
+      "why": "Nếu đang dùng Gemini Flash Latest, cost tăng đột ngột — xem xét migrate sang Gemini 4 Hydrogen (cùng giá mới nhưng performance tốt hơn).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~google/gemini-flash-latest",
+      "tags": [
+        "price",
+        "Google"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 167,
+    "brave": 54,
+    "reddit": 0,
+    "hackernews": 8,
+    "rss": 34,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 22
+  }
+}
