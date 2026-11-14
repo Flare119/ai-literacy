@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-14",
+  "updated_at": "2026-11-14T09:48:08.431093+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "AI unlock Gödel's notebooks — hàng trăm định lý toán học mới được phát hiện",
+    "summary": "AI vừa giải mã 5,000+ trang ghi chú viết tay của Kurt Gödel (người chứng minh giới hạn của toán học 1931), phát hiện hàng trăm định lý đã chứng minh nhưng chưa từng công bố. Đây là lần đầu AI đọc được chữ viết tay Gabelsberger — hệ thống tốc ký Đức cổ mà chỉ còn <10 người sống biết đọc.",
+    "why": "Cho curious: đây là proof-of-concept AI có thể unlock tri thức bị 'chôn vùi' trong tài liệu cổ không số hóa được (VN có bao nhiêu sách Hán Nôm, báo cáo nghiên cứu cũ không ai đọc nổi?). Cho researcher: nếu AI đọc được Gödel, nó sẽ đọc được lab notebook của bạn.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+    "tags": [
+      "research",
+      "breakthrough",
+      "OCR"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "OpenAI giải tán robotics team — general models giờ chạy robot trực tiếp",
+      "why": "Cho manager: specialized team → generalist model = xu hướng consolidation. Nếu team bạn đang build niche AI, hỏi 'liệu GPT-6 có làm được việc này không?' trước khi hire thêm.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "tags": [
+        "OpenAI",
+        "robotics",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Google cắt Search khỏi trường học 'AI-free' — NPR điều tra lý do",
+      "why": "Cho curious: Google từ chối cung cấp Search cho trường học yêu cầu không dùng AI training data — tín hiệu Google không thể tách AI khỏi core product. Implication: bạn không thể 'opt-out' AI mà vẫn dùng internet như cũ.",
+      "source": "NPR",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "tags": [
+        "Google",
+        "education",
+        "policy"
+      ]
+    },
+    {
+      "headline": "Anthropic ra Claude Fable 5.2 & Mythos 5.2 — model đầu tiên sau lời kêu gọi 'slowdown' của CEO",
+      "why": "Cho manager: Amodei kêu gọi chậm lại tháng 10, tháng 11 vẫn ship 2 frontier models. Lesson: public statement ≠ strategy thực. Đừng tin lời nói, theo dõi action.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "tags": [
+        "Anthropic",
+        "model-release"
+      ]
+    },
+    {
+      "headline": "Google ra Gemini 4 Hydrogen — model tốc độ thay thế 3.8 Flash trong Search",
+      "why": "Cho individual: Gemini 4 Hydrogen giờ power Google Search → câu trả lời bạn nhận sẽ khác. Test lại search queries quan trọng (research, fact-checking) — accuracy có thể thay đổi.",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch",
+      "tags": [
+        "Google",
+        "Gemini",
+        "search"
+      ]
+    },
+    {
+      "headline": "Edge0 ra Edge0-145B — model open-source 145B params chạy hoàn toàn on-device",
+      "why": "Cho creative: 145B params mà chạy được trên laptop (latent-MoE chỉ active 10B/step) → render, edit video có thể làm offline không cần cloud. Privacy + zero cost inference.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/ai-news-today",
+      "tags": [
+        "Edge0",
+        "on-device",
+        "open-source"
+      ]
+    },
+    {
+      "headline": "Anthropic ra suite công cụ văn phòng trước IPO — đối đầu trực tiếp Microsoft",
+      "why": "Cho manager: Claude Sheets (clone Excel), video call assistant, data dashboard — Anthropic đang build moat bằng vertical integration, không chỉ bán API. Nếu vendor bạn chỉ có 1 product, hỏi 'roadmap 2027 là gì?'",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-unveils-office-tools-ahead-of-ipo-taking-on-microsoft",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "enterprise"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Adobe MAX 2026: Relight tool cho Photoshop, MCP support 2027, AI video native trong Premiere",
+      "summary": "Adobe công bố Relight tool (AI lighting adjustment trong Photoshop), MCP protocol support đến 2027 (tích hợp Claude/ChatGPT vào Creative Cloud), và AI video generation trực tiếp trong Premiere timeline. Firefly giờ hỗ trợ multi-modal prompting (text + sketch + reference image).",
+      "why": "Cho creative: Relight giảm 70% thời gian composite ảnh (không cần manual masking cho lighting). MCP 2027 nghĩa là workflow có thể gọi AI agent từ trong Photoshop — ví dụ 'analyze 50 ảnh này, pick 10 ảnh best composition'. Test Relight beta ngay nếu team làm product photography.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/10/adobe-unveils-new-ai-tools-for-photoshop-premiere-and-more-with-mcp-support-coming-in-2027/",
+      "tags": [
+        "Adobe",
+        "Photoshop",
+        "Premiere",
+        "MCP"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Sau 600 thí nghiệm JEPA world models — phát hiện quan trọng về AI 'hiểu' thế giới",
+      "summary": "Nghiên cứu độc lập chạy 600 experiments với JEPA (Joint-Embedding Predictive Architecture — Yann LeCun's approach) phát hiện: model học được 'world model' tốt hơn khi dùng contrastive loss thay vì reconstruction loss. Breakthrough: AI không cần 'vẽ lại' thế giới để hiểu nó.",
+      "why": "Cho curious: JEPA là cách dạy AI 'hiểu' thay vì 'ghi nhớ' — giống như bạn hiểu vật lý mà không cần nhớ từng frame video rơi tự do. Nếu approach này scale, AI sẽ cần ít data hơn nhiều để học.",
+      "source": "Haddy Alchaer Blog",
+      "url": "https://haddyalchaer.com/jepa",
+      "tags": [
+        "JEPA",
+        "world-models",
+        "research"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "SpaceX, Nvidia dẫn đầu làn sóng M&A startup AI — giao dịch venture-backed cao kỷ lục",
+      "summary": "Q3/2026 chứng kiến số lượng M&A startup AI cao nhất lịch sử, với SpaceX mua 3 startup tự động hóa sản xuất, Nvidia mua 2 chip design firms, Amazon và Stripe cũng tham gia. Đặc biệt: 40% deals là acqui-hire (mua team, không phải product).",
+      "why": "Cho founder: nếu bạn build AI startup, exit strategy giờ không chỉ là IPO. Acqui-hire bởi big tech đang là path phổ biến — nghĩa là team quality + niche expertise quan trọng hơn revenue. Build team mạnh, solve hard problem, đừng lo scale quá sớm.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/nvidia-spacex-deals-fuel-historic-boom-ai-startup-manda-2026-10",
+      "tags": [
+        "M&A",
+        "funding",
+        "strategy"
+      ]
+    },
+    {
+      "headline": "Top 10 vòng gọi vốn tuần này: Mirendil (AI for R&D) raise $1B Series A — infrastructure vẫn 'hot'",
+      "summary": "Mirendil (agentic AI cho R&D) raise $1B Series A từ Kleiner Perkins + Clearlake Capital, dẫn đầu danh sách. 7/10 deals lớn nhất tuần liên quan AI infrastructure (compute, data pipeline, dev tools) thay vì application layer.",
+      "why": "Cho founder: investor đang đổ tiền vào 'picks and shovels' (infrastructure) nhiều hơn 'gold miners' (consumer apps). Nếu build AI app, hỏi 'moat của tôi là gì khi GPT-6 ra?' — nếu không có câu trả lời, pivot sang infrastructure hoặc vertical niche.",
+      "source": "Europe Says",
+      "url": "https://www.europesays.com/3373970/",
+      "tags": [
+        "funding",
+        "infrastructure",
+        "VC"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "morluto/rea — reverse engineer bất cứ thứ gì bằng AI agents (app behavior → native binaries)",
+      "why": "Cho developer: tool mã nguồn mở dùng AI agent để reverse engineer app (từ UI behavior xuống assembly code). Use case: audit security, hiểu codebase legacy không có docs. Warning: cũng dùng được để crack software — ethical implications.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "457,818"
+    },
+    {
+      "headline": "openclaw/openclaw — 'AI that really does things' cross-platform agent framework",
+      "why": "Cho developer: framework AI agent chạy trên bất kỳ OS nào (Windows/Mac/Linux), tự động hóa task phức tạp. 394K stars trong <1 tuần — signal community đang đói agent framework production-ready.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "394,403"
+    },
+    {
+      "headline": "n8n-io/n8n — workflow automation platform với AI capabilities, self-host hoặc cloud",
+      "why": "Cho manager: alternative open-source cho Zapier/Make, giờ có native AI (gọi OpenAI/Claude trong workflow). Self-host = data không rời server. 210K stars — mature enough cho production.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "210,421"
+    },
+    {
+      "headline": "firecrawl/firecrawl — supercharge AI agents với data từ web, 'thư viện cho superintelligence'",
+      "why": "Cho developer: tool crawl web structure data cho AI agent (không chỉ scrape HTML). Support JavaScript rendering, pagination, auth — những thứ Beautiful Soup làm không được. 201K stars.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "201,590"
+    },
+    {
+      "headline": "langgenius/dify — build agentic workflows + RAG pipelines, deploy cloud/VPC/self-hosted",
+      "why": "Cho manager: low-code platform build AI agent (drag-drop workflow + code khi cần). Team từ prototype → production không cần rebuild stack. 161K stars — community lớn, nhiều template sẵn.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161,125"
+    },
+    {
+      "headline": "open-webui/open-webui — user-friendly AI interface (hỗ trợ Ollama, OpenAI API...)",
+      "why": "Cho individual: self-host ChatGPT-like UI, connect bất kỳ model nào (local Ollama hoặc API). Privacy + customization. 158K stars — stable, nhiều người dùng.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "158,595"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] inclusionAI: Ling 3.2 Flash (free) — hybrid reasoning, 1M context, 200 ảnh/request",
+      "event": "new",
+      "summary": "Model mới miễn phí từ inclusionAI, nhận text + image input, context 1M tokens, max 200 ảnh/request. Hybrid reasoning architecture.",
+      "why": "Free tier với 1M context — test cho vision tasks không tốn tiền.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash:free",
+      "tags": [
+        "new",
+        "free",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Apodex 1.1 Mini (free) removed",
+      "event": "deprecated",
+      "summary": "Model apodex/apodex-1.1-mini:free không còn trên OpenRouter.",
+      "why": "Migrate nếu đang dùng model này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/apodex/apodex-1.1-mini:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] inclusionAI: Ling 3.0 Flash Fin + Sante removed",
+      "event": "deprecated",
+      "summary": "Hai model Ling 3.0 Flash (Fin và Sante) không còn.",
+      "why": "Upgrade lên Ling 3.2 Flash mới.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-fin",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] LiquidAI: LFM2.5-2.6B (paid + free) removed",
+      "event": "deprecated",
+      "summary": "Cả 2 version LFM2.5-2.6B (paid và free) đều removed.",
+      "why": "Migrate sang model khác nếu đang dùng LiquidAI.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-2.6b",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI: Kimi K3.1 Pro tăng giá mạnh ↑$2.00/↑$10.00 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.24 → $2.00 (x8.3), completion $8.41 → $10.00 per M tokens.",
+      "why": "Giá tăng gấp 8 lần — review budget nếu đang dùng Kimi K3.1 Pro heavily.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro",
+      "tags": [
+        "price-increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V3 giảm prompt ↓$0.26, tăng completion ↑$1.03",
+      "event": "price",
+      "summary": "Prompt $0.32 → $0.26, completion $0.89 → $1.03.",
+      "why": "Mixed pricing — rẻ hơn cho short prompts, đắt hơn cho long outputs.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-chat",
+      "tags": [
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash giảm mạnh ↓$0.05/↓$0.20 — rẻ nhất phân khúc",
+      "event": "price",
+      "summary": "Prompt $0.30 → $0.05, completion $1.20 → $0.20 per M tokens.",
+      "why": "Giảm giá 80-85% — alternative rẻ cho GPT-4 class tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+      "tags": [
+        "price-decrease"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI GPT-5.6 Sol giảm giá ↓$4.00/↓$20.00",
+      "event": "price",
+      "summary": "Prompt $4.40 → $4.00, completion $22.00 → $20.00 per M tokens.",
+      "why": "GPT-5.6 rẻ hơn — competitive pressure từ DeepSeek và Claude.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-5.6-sol",
+      "tags": [
+        "price-decrease"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Ricursive Ripple 65B Preview giảm 50% giá ↓$0.10/↓$0.30",
+      "event": "price",
+      "summary": "Prompt $0.20 → $0.10, completion $0.60 → $0.30 per M tokens.",
+      "why": "65B model giờ giá ngang 7B trước đây — test cho mid-tier tasks.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/ricursiveai/ripple-65b-preview",
+      "tags": [
+        "price-decrease"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 155,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 10,
+    "rss": 34,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 17
+  }
+}
