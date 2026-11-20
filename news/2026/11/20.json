@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-20",
+  "updated_at": "2026-11-20T10:47:10.079445+07:00",
+  "weekday": "Friday",
+  "top_story": {
+    "headline": "Claude giải 2 bài toán mở về vật lý lỗ đen — AI đột phá trong nghiên cứu khoa học",
+    "summary": "Anthropic công bố Claude đã giải quyết được 2 bài toán mở trong vật lý lỗ đen — lần đầu tiên AI đóng góp trực tiếp vào nghiên cứu lý thuyết tiên tiến. Đây là milestone quan trọng cho AI reasoning, chứng minh khả năng vượt qua code/text sang lĩnh vực khoa học cơ bản.",
+    "why": "Cho curious: AI không chỉ làm chatbot hay tạo ảnh — giờ đây nó giải được bài toán khoa học mà nhà vật lý chưa giải được. Implication: AI sẽ trở thành công cụ nghiên cứu khoa học, không chỉ tự động hóa công việc văn phòng. Nếu bạn đang học/dạy STEM, cần rethink cách tiếp cận — AI giờ là partner research, không phải chỉ assistant.",
+    "source": "Anthropic Research",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "tags": [
+      "research",
+      "breakthrough",
+      "physics",
+      "reasoning"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Apple cân nhắc ra AI agent code, duyệt web, điều khiển thiết bị — có thể launch cuối 2027",
+      "why": "Cho cá nhân + manager: nếu Apple ra agent này, mọi developer/knowledge worker sẽ có coding assistant chạy local trên Mac — không leak code lên cloud. Đây là edge case quan trọng: Big Tech đang chuyển từ cloud AI sang on-device agentic. Chuẩn bị workflow cho tương lai agent chạy trên máy bạn.",
+      "source": "COINOTAG",
+      "url": "https://en.coinotag.com/apple-aapl-ai-agent-coding-web-device-control-late-2027",
+      "tags": [
+        "apple",
+        "agent",
+        "coding",
+        "on-device"
+      ]
+    },
+    {
+      "headline": "Yash Patil 23 tuổi bán startup AI Applied Compute cho Palo Alto $4.5B",
+      "why": "Cho curious + business: sinh viên Stanford dropout bán startup AI security với giá $4.5B — đây là pattern lặp lại (Zuck, Gates, Jobs). AI security đang là hot M&A target vì doanh nghiệp sợ AI leak data. Nếu bạn đang làm AI + cybersecurity → đây là market timing tốt để raise hoặc exit.",
+      "source": "JournalArta",
+      "url": "https://journalarta.com/en/2026/11/19/yash-patil-applied-compute-palo-alto-acquisition/",
+      "tags": [
+        "acquisition",
+        "security",
+        "startup"
+      ]
+    },
+    {
+      "headline": "AI funding hôm nay: $836M qua 10 deals — Payhawk, MegaRobo, Boltz chiếm 71%",
+      "why": "Cho business: funding AI đang tập trung vào fintech + robotics + infra. Nếu startup bạn không thuộc 3 nhóm này, gọi vốn khó hơn nhiều (echoes data Q3 'non-AI startup gặp khó'). Pivot messaging hoặc chờ thị trường recovery.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/",
+      "tags": [
+        "funding",
+        "fintech",
+        "robotics"
+      ]
+    },
+    {
+      "headline": "Survey: AI coding agent đang chuyển từ code completion sang agentic development",
+      "why": "Cho creative + manager: AI không chỉ autocomplete code nữa — giờ nó navigate repo, edit files, chạy test, debug. Dev junior role sẽ giảm mạnh. Reskill team senior thành reviewer/architect, đừng hire thêm junior mà chưa rõ AI sẽ làm gì.",
+      "source": "Springer Data Science & Engineering",
+      "url": "https://link.springer.com/article/10.1007/s41019-026-00371-9",
+      "tags": [
+        "coding",
+        "agent",
+        "survey"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "MiniMax H3-Image: tạo ảnh 16MP trong 6 bước — ComfyUI 0.45.0 đã hỗ trợ native",
+      "summary": "MiniMax ra H3-Image, model ảnh open-weight chấp nhận tới 16 reference images, tạo 4K trong 10 giây. ComfyUI 0.45.0 đã tích hợp sẵn — không cần extension. HyperFlow cho phép chạy H3 trên card 24GB.",
+      "why": "Cho creative: đây là tool thực tế ngay hôm nay — tạo ảnh 16MP nhanh hơn Midjourney/DALL-E mà vẫn control được style qua reference image. Nếu bạn đang làm concept art/storyboard, test H3-Image trong ComfyUI — workflow local, không tốn credit cloud.",
+      "source": "Kombitz",
+      "url": "https://www.kombitz.com/2026/11/14/ai-image-video-model-news-roundup-november-14-2026/",
+      "tags": [
+        "image-generation",
+        "open-weight",
+        "comfyui"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Claude giải 2 bài toán mở về vật lý lỗ đen",
+      "summary": "Anthropic công bố Claude giải quyết được 2 bài toán chưa có lời giải trong vật lý lỗ đen — lần đầu tiên AI đóng góp trực tiếp vào nghiên cứu lý thuyết tiên tiến, không chỉ hỗ trợ tính toán.",
+      "why": "Phát hiện này nghĩa là AI reasoning giờ đủ mạnh để làm khoa học cơ bản — không chỉ engineering. Implication: AI sẽ trở thành partner research trong mọi lĩnh vực STEM. Nếu bạn đang làm nghiên cứu, cần học cách collaborate với AI như collaborate với đồng nghiệp.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "tags": [
+        "reasoning",
+        "physics",
+        "breakthrough"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Palo Alto mua Applied Compute (Yash Patil 23 tuổi) với giá $4.5B — đặt cược AI security",
+      "summary": "Palo Alto Networks mua startup AI security Applied Compute do sinh viên Stanford 23 tuổi Yash Patil đồng sáng lập, với giá $4.5B — 1 trong những M&A AI lớn nhất 2026.",
+      "why": "M&A này signal rõ: AI security là hot market vì doanh nghiệp sợ AI agent leak data/code. Nếu bạn đang làm AI + cybersecurity (audit, compliance, infrastructure) → đây là timing tốt để raise hoặc exit. Pattern lặp lại: Vanta mua Pillar Security $150M tuần trước.",
+      "source": "JournalArta",
+      "url": "https://journalarta.com/en/2026/11/19/yash-patil-applied-compute-palo-alto-acquisition/",
+      "tags": [
+        "acquisition",
+        "security",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "AI funding 19/11: $836M qua 10 deals — Payhawk, MegaRobo, Boltz chiếm 71%",
+      "summary": "Hôm nay có ~$836M funding AI qua 10 rounds >$2M. 3 công ty (Payhawk fintech, MegaRobo robotics, Boltz infra) chiếm $590M (71% total).",
+      "why": "Funding đang tập trung vào fintech AI, robotics, infrastructure — không còn 'mọi startup AI đều raise được' như 2024-2025. Nếu startup bạn không thuộc 3 vertical này, pivot messaging hoặc chờ market recovery. Data này consistent với Q3: 64% VC funding vào AI, startup non-AI gặp khó.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/",
+      "tags": [
+        "funding",
+        "fintech",
+        "robotics",
+        "market"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "'Fuck Your AI Safeguards' — bài phản biện về guardrail AI đang bị bypass dễ dàng",
+      "why": "Bài này đáng đọc vì nó challenge narrative 'AI safety đã được'. Tác giả demo cách bypass guardrail của mọi frontier model — implication: đừng tin rằng safeguard kỹ thuật đủ, cần governance + culture. Nếu bạn deploy AI trong doanh nghiệp, guardrail chỉ là 1 layer, không phải toàn bộ strategy.",
+      "source": "Hacker News",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "tags": [
+        "safety",
+        "ethics",
+        "critique"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "morluto/rea: reverse engineer bất kỳ thứ gì bằng AI agent — từ app behavior đến binary",
+      "why": "Tool này dùng AI agent để reverse engineer app/binary — hữu ích cho security research, debugging, hoặc hiểu codebase legacy. Nếu bạn làm DevOps/security, đây là tool thực tế để analyze black-box software.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "470K"
+    },
+    {
+      "headline": "n8n-io/n8n: workflow automation platform với native AI — visual + code, self-host hoặc cloud",
+      "why": "n8n là Zapier open-source nhưng có AI native. Nếu bạn cần automation workflow (marketing, ops, data) mà không muốn bị lock vào vendor, n8n cho phép self-host + customize. 400+ integrations.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "211K"
+    },
+    {
+      "headline": "langgenius/dify: build agentic workflows, RAG pipelines — deploy cloud hoặc self-host",
+      "why": "Dify giúp build AI agent + RAG mà không cần rebuild stack từ đầu. Phù hợp cho team muốn prototype nhanh rồi production. Self-host nếu lo ngại data privacy.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161K"
+    },
+    {
+      "headline": "open-webui/open-webui: giao diện AI thân thiện — hỗ trợ Ollama, OpenAI API",
+      "why": "Nếu bạn chạy AI local (Ollama) hoặc dùng OpenAI API, Open WebUI là frontend đẹp + dễ dùng thay vì terminal. Phù hợp cho cá nhân/team nhỏ muốn self-host chat interface.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "159K"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] Mistral Pixtral Large 2502 — $2/$6 per M tokens",
+      "event": "new",
+      "summary": "Pixtral Large 2502 là phiên bản tháng 2/2025 của multimodal model lớn của Mistral — nhận text + image input (documents, charts, natural images).",
+      "why": "Multimodal model rẻ hơn GPT-4 Vision — phù hợp cho use case cần xử lý document/chart với ngân sách hạn chế.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/mistralai/pixtral-large-2502",
+      "tags": [
+        "multimodal",
+        "mistral"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Cohere North Mini Code (free) bị xóa",
+      "event": "deprecated",
+      "summary": "Model cohere/north-mini-code:free không còn trên OpenRouter.",
+      "why": "Nếu bạn đang dùng free tier Cohere cho coding, cần migrate sang model khác (vd DeepSeek V4 Flash hoặc GPT-oss-120b giá rẻ).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/cohere/north-mini-code:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Thinking Machines Inkling 2 Small (free) bị xóa",
+      "event": "deprecated",
+      "summary": "Model thinkingmachines/inkling-2-small:free không còn trên OpenRouter.",
+      "why": "Migrate nếu bạn đang dùng free tier này.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small:free",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] SpaceXAI Grok Build 0.1 bị xóa",
+      "event": "deprecated",
+      "summary": "Model x-ai/grok-build-0.1 không còn trên OpenRouter.",
+      "why": "Migrate sang Grok phiên bản mới hơn nếu đang dùng.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/x-ai/grok-build-0.1",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] OpenAI gpt-oss-120b giảm giá ↓$0.09/$0.36 per M tokens",
+      "event": "price",
+      "summary": "Prompt $0.15→$0.09, completion $0.60→$0.36.",
+      "why": "Model open-source 120B params từ OpenAI giảm giá 40% — alternative rẻ cho GPT-4 khi không cần cutting-edge.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Latest ↑$0.06/↓$0.18 per M tokens",
+      "event": "price",
+      "summary": "Prompt $0.05→$0.06, completion $0.30→$0.18.",
+      "why": "Completion giá giảm 40% — tốt cho use case output dài (content generation, coding).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "price-change"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash giảm mạnh ↓$0.04/$0.08 per M tokens",
+      "event": "price",
+      "summary": "Prompt $0.15→$0.04, completion $0.50→$0.08.",
+      "why": "Giảm 73-84% — model flash rẻ nhất cho use case Trung Quốc/tiếng Hoa.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+      "tags": [
+        "price-drop"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash (batch) giảm ↓$0.05/$0.15 per M tokens",
+      "event": "price",
+      "summary": "Prompt $0.11→$0.05, completion $0.34→$0.15.",
+      "why": "Batch mode giảm 54-56% — dùng cho workload không real-time (data processing, training).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash:batch",
+      "tags": [
+        "price-drop",
+        "batch"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 195,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 52,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 16
+  }
+}
