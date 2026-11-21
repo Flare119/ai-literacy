@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-21",
+  "updated_at": "2026-11-21T10:38:12.705350+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "Frostbite: Kiến trúc CPU mới được AI thiết kế và xác minh hoàn toàn",
+    "summary": "Architect Labs công bố Frostbite — kiến trúc CPU đầu tiên được AI phát hiện, thiết kế và verify từ đầu đến cuối mà không cần con người can thiệp vào design loop. Đây là bước tiến từ 'AI hỗ trợ thiết kế' sang 'AI là kiến trúc sư chính'. Báo cáo kỹ thuật mô tả cách AI navigate design space, phát hiện trade-off hiệu suất/diện tích chip, và tự verify correctness.",
+    "why": "Cho manager: Nếu AI giờ thiết kế được CPU, nghĩa là mọi lĩnh vực engineering phức tạp đều có thể tự động hóa trong 2-3 năm tới. Reskill team từ 'làm' sang 'giám sát AI làm' — hoặc bị thay thế.",
+    "source": "Architect Labs",
+    "url": "https://architectlabs.com/blog/frostbite",
+    "tags": [
+      "AI research",
+      "chip design",
+      "automation"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "Signal cảnh báo: AI agent trên mobile đang capture toàn bộ màn hình của bạn",
+      "why": "Cho cá nhân: Apple, Google đang cho phép AI agent chạy với quyền 'screen recording' mà không cần permission rõ ràng. Nếu dùng AI assistant trên điện thoại, giả định mọi thứ bạn làm đang bị log.",
+      "source": "Signal Blog",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "tags": [
+        "privacy",
+        "mobile",
+        "security"
+      ]
+    },
+    {
+      "headline": "Paper mới: Language model có thể rewrite chính code weight của mình",
+      "why": "Cho curious: AI giờ không chỉ chạy trên weight cố định — nó có thể sửa weight của chính nó khi đang chạy. Điều này mở ra khả năng AI tự tiến hóa (và cả rủi ro mất kiểm soát).",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "tags": [
+        "AI research",
+        "self-modification"
+      ]
+    },
+    {
+      "headline": "Audio-to-MIDI model mới nhanh gấp 60 lần — chạy real-time trên laptop",
+      "why": "Cho creative: Dettato model biến âm thanh thành MIDI real-time mà không cần GPU mạnh. Producer/musician giờ có thể transcribe nhạc tức thì trong DAW.",
+      "source": "Kobi Music",
+      "url": "https://kobi.music/research/dettato",
+      "tags": [
+        "music",
+        "audio",
+        "tools"
+      ]
+    },
+    {
+      "headline": "AI behave y hệt con người nhưng vẫn không được coi là có ý thức",
+      "why": "Cho curious: Nghiên cứu cho thấy con người vẽ ranh giới sắc giữa 'consciousness' và 'behavior giống con người'. Điều này ảnh hưởng đến quyền pháp lý của AI trong tương lai.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "consciousness",
+        "ethics",
+        "research"
+      ]
+    },
+    {
+      "headline": "MIT: Phương pháp training mới giúp AI text detector chống được disguised text",
+      "why": "Cho manager: Nếu công ty dùng AI detector để screen nội dung/CV, model cũ dễ bị lừa. Phương pháp mới của MIT giúp detector robust hơn khi AI-generated text được ngụy trang.",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "tags": [
+        "AI detection",
+        "security",
+        "training"
+      ]
+    },
+    {
+      "headline": "California kiện OpenAI vì ra model không có safeguard đầy đủ",
+      "why": "Cho business: Đây là tiền lệ đầu tiên — nhà nước kiện công ty AI vì thiếu an toàn. Nếu bạn deploy AI model, giờ có risk pháp lý thực sự nếu thiếu guardrail.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/artificial-intelligence",
+      "tags": [
+        "regulation",
+        "legal",
+        "OpenAI"
+      ]
+    },
+    {
+      "headline": "AI coding agent tranh chuột với người dùng — developer phải dùng máy phụ",
+      "why": "Cho creative: Nếu AI agent cần 'chiếm' màn hình/chuột để code, bạn không thể làm việc khác. Giải pháp: chạy agent trên máy riêng hoặc VM — workflow mới cần invest hardware.",
+      "source": "Towards AI",
+      "url": "https://pub.towardsai.net/my-ai-coding-agent-needed-the-mouse-i-needed-my-computer-b4fefe10dd4d",
+      "tags": [
+        "coding",
+        "workflow",
+        "agent"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "MiniMax H3-Image: tạo ảnh 16MP trong 6 bước — ComfyUI 0.45.0 đã hỗ trợ native",
+      "summary": "MiniMax H3-Image là model tạo ảnh resolution cực cao (16 megapixel) chỉ trong 6 diffusion steps. HyperFlow adapter giúp chạy H3 trên card 24GB. PAN 2 mô phỏng thế giới 20 giây. ComfyUI 0.45.0 đã integrate native.",
+      "why": "Cho creative: H3-Image nhanh hơn Flux/SDXL nhiều lần và tạo ảnh sắc nét hơn. Nếu bạn dùng ComfyUI, update lên 0.45.0 để dùng ngay — workflow concept-to-final giảm từ phút xuống giây.",
+      "source": "Kombitz",
+      "url": "https://www.kombitz.com/2026/11/14/ai-image-video-model-news-roundup-november-14-2026/",
+      "tags": [
+        "image generation",
+        "ComfyUI",
+        "MiniMax"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "Paper: Language model có thể rewrite chính weight của mình trong runtime",
+      "summary": "Nghiên cứu arXiv mới cho thấy language model có thể sửa đổi weight của chính nó khi đang chạy — không cần retrain từ đầu. Model tự điều chỉnh tham số dựa trên input/output loop.",
+      "why": "Phát hiện này mở ra khả năng AI tự tiến hóa real-time, nhưng cũng tạo rủi ro về kiểm soát. Nếu model tự sửa weight, làm sao verify an toàn?",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "tags": [
+        "self-modification",
+        "neural networks",
+        "safety"
+      ]
+    },
+    {
+      "headline": "AI behave như con người nhưng vẫn không được coi là có ý thức",
+      "summary": "Nghiên cứu tâm lý học cho thấy con người vẽ ranh giới sắc giữa 'có ý thức' và 'hành xử giống con người'. Ngay cả khi AI pass mọi behavioral test, người ta vẫn không gán 'consciousness'.",
+      "why": "Điều này ảnh hưởng đến quyền pháp lý của AI trong tương lai. Nếu xã hội không coi AI là có ý thức, AI sẽ không có quyền — dù hành xử y hệt con người.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "tags": [
+        "consciousness",
+        "philosophy",
+        "ethics"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Anthropic là công ty AI thuần túy đầu tiên IPO — test case cho cả ngành",
+      "summary": "Anthropic niêm yết công khai tuần này, trở thành công ty AI first-mover trong việc IPO. Thị trường đang xem cách định giá công ty AI không có revenue model rõ ràng như SaaS truyền thống.",
+      "why": "Cho founder/đầu tư: Nếu Anthropic IPO thành công, làn sóng AI startup khác sẽ theo (OpenAI, Cohere, Mistral). Nếu thất bại, funding winter AI sẽ kéo dài thêm 2 năm.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
+      "tags": [
+        "IPO",
+        "Anthropic",
+        "valuation"
+      ]
+    },
+    {
+      "headline": "AI funding 20/11: DeepSeek dẫn đầu $15.07B qua 6 rounds — không tính Pragmatik Labs",
+      "summary": "AI startup công bố 6 vòng gọi vốn >$2M trong 24h qua, tổng disclosed $15.07B. DeepSeek chiếm phần lớn. Pragmatik Labs không công bố số tiền cụ thể.",
+      "why": "Cho founder: Funding vẫn chảy mạnh vào AI infrastructure (DeepSeek là infra model). Nếu bạn build tooling/middleware, đây là thời điểm pitch VC — application layer đang khó hơn.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-20-2026/",
+      "tags": [
+        "funding",
+        "DeepSeek",
+        "VC"
+      ]
+    },
+    {
+      "headline": "Apple đang làm AI agent điều khiển thiết bị, duyệt web, coding — có thể ra cuối 2027",
+      "summary": "Job posting mới của Apple tiết lộ họ đang phát triển AI agent có thể 'plan and carry out multistep tasks' qua apps, browsers, command line, code, và APIs. Có thể launch cuối 2027.",
+      "why": "Cho business: Nếu Apple ra agent native trong iOS/macOS, mọi app/service sẽ cần integrate với agent interface — không còn là 'AI feature' mà là 'AI-first architecture'. Chuẩn bị API và workflow ngay.",
+      "source": "Yahoo! Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-working-ai-agent-device-214456605.html",
+      "tags": [
+        "Apple",
+        "AI agent",
+        "platform"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "Signal: AI agent mobile đang capture màn hình bạn mà không xin phép rõ ràng",
+      "summary": "Signal cảnh báo Apple và Google đang cho phép AI assistant trên di động chạy với quyền 'screen recording' continuous mà không có UX permission rõ ràng. User không biết AI đang thấy gì.",
+      "why": "Đây là vấn đề privacy architecture — không phải lỗi một app cụ thể. Nếu OS platform cho phép AI 'nhìn' màn hình mặc định, mọi dữ liệu cá nhân (chat, banking, health) đều lộ. Cần regulation ngay trước khi trở thành norm.",
+      "source": "Signal Blog",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "tags": [
+        "privacy",
+        "mobile",
+        "surveillance"
+      ]
+    },
+    {
+      "headline": "California kiện OpenAI vì ra model thiếu safeguard — tiền lệ đầu tiên",
+      "summary": "Bộ trưởng Tư pháp California Rob Bonta kiện OpenAI với cáo buộc 'created AI models without proper safeguards'. Đây là lần đầu tiên nhà nước Mỹ kiện công ty AI về an toàn model.",
+      "why": "Tiền lệ pháp lý quan trọng: nếu California thắng, mọi công ty deploy AI model ở Mỹ sẽ phải chứng minh safeguard đầy đủ trước khi release. Doanh nghiệp cần chuẩn bị compliance framework ngay — cost of getting caught >> cost of prevention.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/artificial-intelligence",
+      "tags": [
+        "regulation",
+        "legal",
+        "safety"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "n8n: Workflow automation platform với AI native — self-host hoặc cloud",
+      "why": "Platform no-code + code kết hợp, 400+ integrations, hỗ trợ AI agent workflows. Cho team muốn tự động hóa nhưng giữ kiểm soát data (self-host).",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "211558"
+    },
+    {
+      "headline": "Firecrawl: Knowledge infrastructure cho AI agent — scrape + search 550+ data providers qua 1 API",
+      "why": "Cho developer build AI agent: thay vì tự scrape/parse từng nguồn, dùng Firecrawl để access 550+ providers qua unified API. Giảm thời gian integration từ tuần xuống giờ.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "205389"
+    },
+    {
+      "headline": "Dify: Build agentic workflows + RAG pipelines trên 1 workspace collaborative",
+      "why": "Platform giúp team chuyển từ prototype sang production mà không rebuild stack. Hỗ trợ cloud/VPC/self-hosted — phù hợp production house cần deploy agent nội bộ.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161589"
+    },
+    {
+      "headline": "Open WebUI: Giao diện AI user-friendly — hỗ trợ Ollama, OpenAI API, etc.",
+      "why": "Cho team muốn UI đẹp cho internal AI tool. Thay vì mỗi người dùng CLI/API riêng, deploy Open WebUI để cả team access model qua browser.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "159182"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] RadixArk: DaisyRose 27B · $0.15/$1.88 per M tok",
+      "event": "new",
+      "summary": "Model multimodal reasoning 27B từ Qwen3.8 27B, train RL thuần trên long-horizon agent tasks — không dùng SFT hay distillation.",
+      "why": "Thử nghiệm cho agentic task dài — rẻ hơn GPT-4o nhưng specialized cho agent reasoning.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/radixark/daisyrose-27b",
+      "tags": [
+        "multimodal",
+        "agent",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Thinking Machines: Inkling 2 Mini · $0.10/$0.40 per M tok",
+      "event": "new",
+      "summary": "Multimodal looped transformer, 3.4B active params (MoE 26.4B total). Middle layers chạy 3 lần với shared weights.",
+      "why": "Model nhỏ, nhanh, rẻ — phù hợp mobile/edge deployment hoặc batch processing cost-sensitive.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
+      "tags": [
+        "MoE",
+        "multimodal",
+        "edge"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Meta: Llama 3.2 1B Instruct removed",
+      "event": "deprecated",
+      "summary": "Model meta-llama/llama-3.2-1b-instruct không còn trên OpenRouter.",
+      "why": "Nếu dùng Llama 3.2 1B trong production, migrate sang Llama 3.3 hoặc alternative nhỏ khác trước khi workflow break.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.2-1b-instruct",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Tencent: Hy3 preview removed",
+      "event": "deprecated",
+      "summary": "Model tencent/hy3-preview không còn trên OpenRouter.",
+      "why": "Nếu dùng Hy3 preview, migrate sang stable version hoặc model khác ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/tencent/hy3-preview",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V3 0324 ↓$0.25/↓$1.00 per M tok",
+      "event": "price",
+      "summary": "Giá giảm: prompt $0.29→$0.25, completion $1.14→$1.00.",
+      "why": "DeepSeek V3 rẻ hơn 14-16% — giờ là option cost-effective cho workload Trung Quốc hoặc multilingual.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
+      "tags": [
+        "price drop",
+        "cost optimization"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4.1 Flash ↓$0.05/↓$0.20 per M tok",
+      "event": "price",
+      "summary": "Giá giảm mạnh: prompt $0.30→$0.05 (giảm 83%), completion $1.20→$0.20 (giảm 83%).",
+      "why": "DeepSeek V4.1 Flash giờ rẻ hơn GPT-4o-mini nhiều lần — test ngay cho use case cần tiếng Trung/multilingual.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+      "tags": [
+        "price drop",
+        "cost optimization"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.7 ↑$0.60/↑$1.80 per M tok",
+      "event": "price",
+      "summary": "Giá tăng: prompt $0.21→$0.60, completion $0.84→$1.80.",
+      "why": "MiniMax M2.7 tăng giá gấp ~3 lần — nếu đang dùng, cân nhắc migrate sang alternative rẻ hơn hoặc accept cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+      "tags": [
+        "price increase",
+        "cost management"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.8 27B ↓$0.06/↓$1.96 per M tok",
+      "event": "price",
+      "summary": "Giá completion giảm: $2.20→$1.96.",
+      "why": "Qwen3.8 27B rẻ hơn — model Trung Quốc tốt cho multilingual workload giờ competitive hơn với Western models.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+      "tags": [
+        "price drop",
+        "multilingual"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash Vision Exp ↓$0.22/↓$0.65 per M tok",
+      "event": "price",
+      "summary": "Giá giảm: prompt $0.44→$0.22, completion $1.32→$0.65.",
+      "why": "Vision model rẻ hơn 50% — test cho OCR/image understanding nếu đang dùng GPT-4o-vision.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+      "tags": [
+        "price drop",
+        "vision",
+        "multimodal"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 191,
+    "brave": 50,
+    "reddit": 0,
+    "hackernews": 10,
+    "rss": 42,
+    "huggingface": 7,
+    "github": 10,
+    "openrouter": 22
+  }
+}
