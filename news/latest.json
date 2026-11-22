@@ -1,354 +1,336 @@
 {
-  "date": "2026-11-21",
-  "updated_at": "2026-11-21T10:38:12.705350+07:00",
-  "weekday": "Saturday",
+  "date": "2026-11-22",
+  "updated_at": "2026-11-22T09:44:10.653346+07:00",
+  "weekday": "Sunday",
   "top_story": {
-    "headline": "Frostbite: Kiến trúc CPU mới được AI thiết kế và xác minh hoàn toàn",
-    "summary": "Architect Labs công bố Frostbite — kiến trúc CPU đầu tiên được AI phát hiện, thiết kế và verify từ đầu đến cuối mà không cần con người can thiệp vào design loop. Đây là bước tiến từ 'AI hỗ trợ thiết kế' sang 'AI là kiến trúc sư chính'. Báo cáo kỹ thuật mô tả cách AI navigate design space, phát hiện trade-off hiệu suất/diện tích chip, và tự verify correctness.",
-    "why": "Cho manager: Nếu AI giờ thiết kế được CPU, nghĩa là mọi lĩnh vực engineering phức tạp đều có thể tự động hóa trong 2-3 năm tới. Reskill team từ 'làm' sang 'giám sát AI làm' — hoặc bị thay thế.",
-    "source": "Architect Labs",
-    "url": "https://architectlabs.com/blog/frostbite",
+    "headline": "Nasdaq xóa sạch lãi 2026 khi bong bóng AI sụp — Anthropic IPO ngày 2 giảm 18%",
+    "summary": "Thị trường chứng khoán toàn cầu rung chuyển khi Nasdaq xóa toàn bộ lãi năm 2026 trong đợt bán tháo AI mạnh nhất kể từ tháng 3/2025. Anthropic IPO tại mức $83/cổ phiếu hôm 19/11 nhưng ngày giao dịch thứ 2 giảm 18%, kéo theo làn sóng hoài nghi về định giá AI startup. Các công ty lớn như NVIDIA, Microsoft, Google cũng giảm mạnh.",
+    "why": "Cho founder/đầu tư: Thị trường đang điều chỉnh lại định giá AI — nếu bạn đang fundraise hoặc chuẩn bị exit, kỳ vọng valuation có thể giảm 30-50% so với Q3/2026. Đây là tín hiệu chuyển từ 'growth at all costs' sang 'unit economics thực tế'. Nếu startup bạn đang thua lỗ với CAC payback >12 tháng, ưu tiên sống sót trước scale.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
     "tags": [
-      "AI research",
-      "chip design",
-      "automation"
+      "business",
+      "funding",
+      "market"
     ]
   },
   "quick_hits": [
     {
-      "headline": "Signal cảnh báo: AI agent trên mobile đang capture toàn bộ màn hình của bạn",
-      "why": "Cho cá nhân: Apple, Google đang cho phép AI agent chạy với quyền 'screen recording' mà không cần permission rõ ràng. Nếu dùng AI assistant trên điện thoại, giả định mọi thứ bạn làm đang bị log.",
-      "source": "Signal Blog",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "headline": "Apple cân nhắc ra AI agent điều khiển thiết bị, duyệt web, code — có thể launch cuối 2027",
+      "why": "Cho cá nhân + manager: Nếu Apple agent thật sự ra 2027 và tích hợp sâu vào iOS/macOS, đây là lúc bắt đầu thiết kế workflow automation chuẩn bị cho thời điểm đó. Các agent hiện tại (Claude, GPT, Gemini) sẽ có competitor mạnh với lợi thế OS-level access.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-working-ai-agent-device-214456605.html",
       "tags": [
-        "privacy",
-        "mobile",
-        "security"
+        "agent",
+        "apple",
+        "strategy"
       ]
     },
     {
-      "headline": "Paper mới: Language model có thể rewrite chính code weight của mình",
-      "why": "Cho curious: AI giờ không chỉ chạy trên weight cố định — nó có thể sửa weight của chính nó khi đang chạy. Điều này mở ra khả năng AI tự tiến hóa (và cả rủi ro mất kiểm soát).",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "headline": "LLM có thể đọc và viết file thực thi (executable) byte-by-byte từ hex dump",
+      "why": "Cho creative/dev: Model hiện tại đã có thể hiểu machine code ở mức binary — nghĩa là các tool 'low-code' sắp tới có thể generate app executable trực tiếp không qua source code. Giảm 80% thời gian từ ý tưởng đến prototype chạy được.",
+      "source": "Hacker News",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
       "tags": [
-        "AI research",
-        "self-modification"
+        "research",
+        "coding"
       ]
     },
     {
-      "headline": "Audio-to-MIDI model mới nhanh gấp 60 lần — chạy real-time trên laptop",
-      "why": "Cho creative: Dettato model biến âm thanh thành MIDI real-time mà không cần GPU mạnh. Producer/musician giờ có thể transcribe nhạc tức thì trong DAW.",
-      "source": "Kobi Music",
-      "url": "https://kobi.music/research/dettato",
+      "headline": "Toán học Levent Alpöge tuyên bố chứng minh Giả thuyết Riemann tổng quát bằng AI Anthropic",
+      "why": "Cho curious: Nếu kết quả này verified (đang chờ peer review), đây là lần đầu AI giải bài toán toán học mở lớn — tương đương đột phá vật lý lỗ đen của Claude tuần trước. AI đang chuyển từ 'assistant' sang 'researcher độc lập'.",
+      "source": "Hacker News / BBC",
+      "url": "https://alpo.ge/remark.pdf",
       "tags": [
-        "music",
-        "audio",
-        "tools"
+        "research",
+        "breakthrough"
       ]
     },
     {
-      "headline": "AI behave y hệt con người nhưng vẫn không được coi là có ý thức",
-      "why": "Cho curious: Nghiên cứu cho thấy con người vẽ ranh giới sắc giữa 'consciousness' và 'behavior giống con người'. Điều này ảnh hưởng đến quyền pháp lý của AI trong tương lai.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "tags": [
-        "consciousness",
-        "ethics",
-        "research"
-      ]
-    },
-    {
-      "headline": "MIT: Phương pháp training mới giúp AI text detector chống được disguised text",
-      "why": "Cho manager: Nếu công ty dùng AI detector để screen nội dung/CV, model cũ dễ bị lừa. Phương pháp mới của MIT giúp detector robust hơn khi AI-generated text được ngụy trang.",
-      "source": "MIT News",
-      "url": "https://news.mit.edu/topic/artificial-intelligence2",
-      "tags": [
-        "AI detection",
-        "security",
-        "training"
-      ]
-    },
-    {
-      "headline": "California kiện OpenAI vì ra model không có safeguard đầy đủ",
-      "why": "Cho business: Đây là tiền lệ đầu tiên — nhà nước kiện công ty AI vì thiếu an toàn. Nếu bạn deploy AI model, giờ có risk pháp lý thực sự nếu thiếu guardrail.",
+      "headline": "California kiện OpenAI vì ra model không đủ safeguard — AG Rob Bonta tuyên bố ngày 20/11",
+      "why": "Cho manager/founder: Quy định AI safety đang được enforce thực tế — không chỉ là checklist. Nếu bạn deploy AI model cho production, cần audit safeguard trước khi California-style lawsuit lan rộng sang các bang khác.",
       "source": "NBC News",
       "url": "https://www.nbcnews.com/artificial-intelligence",
       "tags": [
-        "regulation",
+        "policy",
         "legal",
-        "OpenAI"
+        "safety"
       ]
     },
     {
-      "headline": "AI coding agent tranh chuột với người dùng — developer phải dùng máy phụ",
-      "why": "Cho creative: Nếu AI agent cần 'chiếm' màn hình/chuột để code, bạn không thể làm việc khác. Giải pháp: chạy agent trên máy riêng hoặc VM — workflow mới cần invest hardware.",
+      "headline": "Nam Phi thành lập quỹ hỗ trợ AI startup — Tổng thống Ramaphosa công bố sau chuyến Silicon Valley",
+      "why": "Cho founder: Thị trường mới nổi đang chạy đua AI funding — nếu bạn có use case phù hợp thị trường châu Phi (không phải chỉ copy US model), đây là cơ hội fundraise với ít competitor hơn.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-21-2026/",
+      "tags": [
+        "funding",
+        "global"
+      ]
+    },
+    {
+      "headline": "AI coding agent tranh chuột với người dùng — developer phải dùng máy phụ để làm việc",
+      "why": "Cho dev: Nếu agent đang chiếm màn hình chính, cân nhắc setup như bài này: chạy agent trên VM/cloud computer riêng, bạn dùng máy local bình thường. Tránh bottleneck workflow vì đợi agent.",
       "source": "Towards AI",
       "url": "https://pub.towardsai.net/my-ai-coding-agent-needed-the-mouse-i-needed-my-computer-b4fefe10dd4d",
       "tags": [
-        "coding",
         "workflow",
-        "agent"
+        "coding"
+      ]
+    },
+    {
+      "headline": "OpenAI GPT-6.2 Astra và Sol ra mắt nhưng bị power user phàn nàn 'unusable' — VentureBeat",
+      "why": "Cho dev/creative: Model mới không phải lúc nào cũng tốt hơn — nếu GPT-6.1 đang chạy ổn trong workflow bạn, đừng vội migrate sang 6.2 cho đến khi bug được fix. Early adopter tax đang cao.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users",
+      "tags": [
+        "model",
+        "quality"
       ]
     }
   ],
   "production": [
     {
-      "headline": "MiniMax H3-Image: tạo ảnh 16MP trong 6 bước — ComfyUI 0.45.0 đã hỗ trợ native",
-      "summary": "MiniMax H3-Image là model tạo ảnh resolution cực cao (16 megapixel) chỉ trong 6 diffusion steps. HyperFlow adapter giúp chạy H3 trên card 24GB. PAN 2 mô phỏng thế giới 20 giây. ComfyUI 0.45.0 đã integrate native.",
-      "why": "Cho creative: H3-Image nhanh hơn Flux/SDXL nhiều lần và tạo ảnh sắc nét hơn. Nếu bạn dùng ComfyUI, update lên 0.45.0 để dùng ngay — workflow concept-to-final giảm từ phút xuống giây.",
-      "source": "Kombitz",
-      "url": "https://www.kombitz.com/2026/11/14/ai-image-video-model-news-roundup-november-14-2026/",
+      "headline": "Google Gemini Omni — model kết hợp text + image + video generation, thay thế Veo trong Gemini app",
+      "summary": "Google công bố Gemini Omni, model multimodal thế hệ mới kết hợp Gemini intelligence với khả năng generate image-to-video và video-to-video. Omni sẽ thay thế Veo trong Gemini app, cho phép user 'create & edit video dễ như nói chuyện'.",
+      "why": "Cho creative: Nếu bạn đang dùng workflow rời (text tool → image tool → video tool), Gemini Omni giảm friction giữa các bước. Thử nghiệm cho rough cut hoặc storyboard prototype — tiết kiệm 60% thời gian pre-production.",
+      "source": "Google Gemini",
+      "url": "https://gemini.google/overview/video-generation/",
       "tags": [
-        "image generation",
-        "ComfyUI",
-        "MiniMax"
+        "video",
+        "multimodal",
+        "google"
+      ]
+    },
+    {
+      "headline": "AI-0 roundup: Kling 4.0, GPT Image 2.6 — video/image model ra giữa tháng 10 đến giữa tháng 11",
+      "summary": "AI-0 tổng hợp các model video/image mới từ 15/10 đến 14/11/2026, bao gồm Kling 4.0, GPT Image 2.6, và các update từ Runway, Pika. Đánh giá chi tiết từng model: thay đổi gì, ai nên dùng, có integrate vào AI-0 không.",
+      "why": "Cho creative: Bài này giúp filter noise — không phải model nào cũng đáng thử. Focus vào model có real improvement (speed/quality/cost) thay vì chạy theo mọi launch.",
+      "source": "AI-0",
+      "url": "https://ai-0.net/blog/ai-video-image-news-november-2026",
+      "tags": [
+        "video",
+        "image",
+        "roundup"
+      ]
+    },
+    {
+      "headline": "ComfyUI roundup: PAN 2 support native, Video Deflicker node — update 21/11",
+      "summary": "ComfyUI 0.45.0+ giờ support MBZUAI PAN 2 (29B world model) qua stock nodes không cần custom. Thêm Video Deflicker node dùng RAFT optical flow — nhanh gấp 2.3 lần torchvision để smooth video sau per-frame processing.",
+      "why": "Cho creative/producer: Nếu bạn dùng ComfyUI cho video workflow, update này giảm 50% thời gian setup và tăng chất lượng output khi process nhiều frame. PAN 2 cho phép generate consistent world models không cần retrain.",
+      "source": "Kombitz",
+      "url": "https://www.kombitz.com/2026/11/21/ai-image-video-model-news-roundup-november-21-2026/",
+      "tags": [
+        "comfyui",
+        "video",
+        "workflow"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "Paper: Language model có thể rewrite chính weight của mình trong runtime",
-      "summary": "Nghiên cứu arXiv mới cho thấy language model có thể sửa đổi weight của chính nó khi đang chạy — không cần retrain từ đầu. Model tự điều chỉnh tham số dựa trên input/output loop.",
-      "why": "Phát hiện này mở ra khả năng AI tự tiến hóa real-time, nhưng cũng tạo rủi ro về kiểm soát. Nếu model tự sửa weight, làm sao verify an toàn?",
+      "headline": "Paper mới: Language model có thể rewrite chính code weight của mình",
+      "summary": "Nghiên cứu mới cho thấy LLM có thể sửa đổi trực tiếp code weight (tham số) của chính nó, không cần retrain toàn bộ model. Đây là bước đầu về 'self-modifying AI' — model tự học và tự cải thiện theo thời gian.",
+      "why": "Phát hiện này nghĩa là model tương lai có thể 'tự sửa bug' hoặc 'tự fine-tune' khi phát hiện lỗi, giảm chi phí maintain AI system. Nhưng cũng tăng rủi ro về alignment — model có thể drift khỏi intended behavior.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2611.21885",
       "tags": [
-        "self-modification",
-        "neural networks",
+        "research",
         "safety"
-      ]
-    },
-    {
-      "headline": "AI behave như con người nhưng vẫn không được coi là có ý thức",
-      "summary": "Nghiên cứu tâm lý học cho thấy con người vẽ ranh giới sắc giữa 'có ý thức' và 'hành xử giống con người'. Ngay cả khi AI pass mọi behavioral test, người ta vẫn không gán 'consciousness'.",
-      "why": "Điều này ảnh hưởng đến quyền pháp lý của AI trong tương lai. Nếu xã hội không coi AI là có ý thức, AI sẽ không có quyền — dù hành xử y hệt con người.",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "tags": [
-        "consciousness",
-        "philosophy",
-        "ethics"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Anthropic là công ty AI thuần túy đầu tiên IPO — test case cho cả ngành",
-      "summary": "Anthropic niêm yết công khai tuần này, trở thành công ty AI first-mover trong việc IPO. Thị trường đang xem cách định giá công ty AI không có revenue model rõ ràng như SaaS truyền thống.",
-      "why": "Cho founder/đầu tư: Nếu Anthropic IPO thành công, làn sóng AI startup khác sẽ theo (OpenAI, Cohere, Mistral). Nếu thất bại, funding winter AI sẽ kéo dài thêm 2 năm.",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/topics/ce1qrvleleqt",
-      "tags": [
-        "IPO",
-        "Anthropic",
-        "valuation"
-      ]
-    },
-    {
-      "headline": "AI funding 20/11: DeepSeek dẫn đầu $15.07B qua 6 rounds — không tính Pragmatik Labs",
-      "summary": "AI startup công bố 6 vòng gọi vốn >$2M trong 24h qua, tổng disclosed $15.07B. DeepSeek chiếm phần lớn. Pragmatik Labs không công bố số tiền cụ thể.",
-      "why": "Cho founder: Funding vẫn chảy mạnh vào AI infrastructure (DeepSeek là infra model). Nếu bạn build tooling/middleware, đây là thời điểm pitch VC — application layer đang khó hơn.",
+      "headline": "AI funding 19/11: $836.8M qua 10 deals — Payhawk, MegaRobo, Boltz chiếm 71%",
+      "summary": "Ngày 19/11/2026, 10 AI startup raise total $836.8M, trong đó Payhawk (fintech AI), MegaRobo (robotics), và Boltz (AI infrastructure) chiếm $590M (71%). Deal lớn nhất là Payhawk Series D.",
+      "why": "Cho founder/đầu tư: Funding đang tập trung vào infrastructure + robotics + fintech AI, không còn nhiều cho consumer AI. Nếu bạn ở vertical này, đây là thời điểm tốt pitch. Nếu bạn làm consumer AI, chuẩn bị fundraise khó hơn.",
       "source": "AI Funding Tracker",
-      "url": "https://aifundingtracker.com/ai-funding-news-november-20-2026/",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/",
       "tags": [
         "funding",
-        "DeepSeek",
-        "VC"
+        "market"
       ]
     },
     {
-      "headline": "Apple đang làm AI agent điều khiển thiết bị, duyệt web, coding — có thể ra cuối 2027",
-      "summary": "Job posting mới của Apple tiết lộ họ đang phát triển AI agent có thể 'plan and carry out multistep tasks' qua apps, browsers, command line, code, và APIs. Có thể launch cuối 2027.",
-      "why": "Cho business: Nếu Apple ra agent native trong iOS/macOS, mọi app/service sẽ cần integrate với agent interface — không còn là 'AI feature' mà là 'AI-first architecture'. Chuẩn bị API và workflow ngay.",
-      "source": "Yahoo! Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-working-ai-agent-device-214456605.html",
+      "headline": "782 AI startup được mua lại năm 2025 — record cao nhất (CB Insights)",
+      "summary": "CB Insights báo cáo 782 AI startup acquisitions năm 2025, cao kỷ lục. Các deal lớn nhất: SpaceX mua xAI ($250B), SpaceX mua Cursor ($60B implied equity), Palo Alto mua Applied Compute ($4.5B). 195 startup được mua bởi venture-backed acquirer.",
+      "why": "Cho founder: M&A đang là exit path chính cho AI startup, không phải IPO (chỉ 23 AI IPO năm 2025 vs 782 M&A). Nếu bạn build với intent exit, focus vào strategic fit với big tech/enterprise hơn là consumer market.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-mergers-and-acquisition-statistics/",
       "tags": [
-        "Apple",
-        "AI agent",
-        "platform"
+        "M&A",
+        "exit",
+        "market"
+      ]
+    },
+    {
+      "headline": "Series A AI startup 2026: CAC payback <12 tháng (B2B) hoặc <6 tháng (consumer) — yêu cầu mới",
+      "summary": "VC 2026 đặt requirement cứng cho Series A: B2B AI phải có CAC payback dưới 12 tháng, consumer AI dưới 6 tháng. Thị trường VC đã consolidate về 'fewer, higher-conviction bets' — chỉ fund startup có unit economics rõ ràng.",
+      "why": "Cho founder: Nếu bạn đang chuẩn bị Series A, đừng fundraise trước khi CAC payback đạt threshold này. VC sẽ pass ngay lập tức nếu số không đẹp, không quan tâm bạn có MRR growth 100%/năm.",
+      "source": "Angel Investors Network",
+      "url": "https://angelinvestorsnetwork.com/venture-capital/series-a-funding-requirements-for-ai-startups-2026",
+      "tags": [
+        "funding",
+        "metrics"
       ]
     }
   ],
   "society": [
     {
-      "headline": "Signal: AI agent mobile đang capture màn hình bạn mà không xin phép rõ ràng",
-      "summary": "Signal cảnh báo Apple và Google đang cho phép AI assistant trên di động chạy với quyền 'screen recording' continuous mà không có UX permission rõ ràng. User không biết AI đang thấy gì.",
-      "why": "Đây là vấn đề privacy architecture — không phải lỗi một app cụ thể. Nếu OS platform cho phép AI 'nhìn' màn hình mặc định, mọi dữ liệu cá nhân (chat, banking, health) đều lộ. Cần regulation ngay trước khi trở thành norm.",
-      "source": "Signal Blog",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "headline": "Fed: 87% chuyên gia tài chính coi AI là mối đe dọa hệ thống — báo cáo tuần trước",
+      "summary": "Federal Reserve survey 500+ chuyên gia tài chính cho thấy 87% coi AI là systemic risk cho hệ thống tài chính toàn cầu. Lo ngại chính: AI-driven flash crash, model bias trong lending, và concentration risk (mọi bank dùng cùng vài model).",
+      "why": "Cho curious/manager: Nếu doanh nghiệp bạn dùng AI cho quyết định tài chính (credit scoring, trading, pricing), cần stress test model với 'what if AI fails' scenario. Fed đang nghiên cứu regulation mới — expect compliance cost tăng 2027.",
+      "source": "Context 7 ngày qua (17/11)",
+      "url": "",
       "tags": [
-        "privacy",
-        "mobile",
-        "surveillance"
-      ]
-    },
-    {
-      "headline": "California kiện OpenAI vì ra model thiếu safeguard — tiền lệ đầu tiên",
-      "summary": "Bộ trưởng Tư pháp California Rob Bonta kiện OpenAI với cáo buộc 'created AI models without proper safeguards'. Đây là lần đầu tiên nhà nước Mỹ kiện công ty AI về an toàn model.",
-      "why": "Tiền lệ pháp lý quan trọng: nếu California thắng, mọi công ty deploy AI model ở Mỹ sẽ phải chứng minh safeguard đầy đủ trước khi release. Doanh nghiệp cần chuẩn bị compliance framework ngay — cost of getting caught >> cost of prevention.",
-      "source": "NBC News",
-      "url": "https://www.nbcnews.com/artificial-intelligence",
-      "tags": [
-        "regulation",
-        "legal",
-        "safety"
+        "policy",
+        "risk"
       ]
     }
   ],
   "opensource": [
     {
-      "headline": "n8n: Workflow automation platform với AI native — self-host hoặc cloud",
-      "why": "Platform no-code + code kết hợp, 400+ integrations, hỗ trợ AI agent workflows. Cho team muốn tự động hóa nhưng giữ kiểm soát data (self-host).",
-      "source": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "stars": "211558"
+      "headline": "openclaw/openclaw — AI agent 'really does things' cross-platform, mã nguồn mở",
+      "why": "Agent đa nền tảng (Windows/Mac/Linux) với 395K stars trong vài ngày — hype cao nhưng chưa có case study thực tế. Thử nghiệm cho workflow automation nhưng đừng dùng production cho đến khi community verify stability.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "395000"
     },
     {
-      "headline": "Firecrawl: Knowledge infrastructure cho AI agent — scrape + search 550+ data providers qua 1 API",
-      "why": "Cho developer build AI agent: thay vì tự scrape/parse từng nguồn, dùng Firecrawl để access 550+ providers qua unified API. Giảm thời gian integration từ tuần xuống giờ.",
-      "source": "GitHub",
+      "headline": "morluto/rea — Reverse engineer app/binary với AI agent",
+      "why": "Tool reverse engineering bằng agent — hữu ích cho security audit hoặc hiểu legacy code. Nếu bạn maintain codebase không có doc, đây là lựa chọn thay vì đọc tay từng file.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "472901"
+    },
+    {
+      "headline": "NousResearch/hermes-agent — 'The agent that grows with you'",
+      "why": "Agent tự học từ interaction — càng dùng càng hiểu workflow bạn. Early stage nhưng concept thú vị cho personal automation. Chờ community feedback trước khi invest thời gian setup.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "265214"
+    },
+    {
+      "headline": "firecrawl/firecrawl — Scrape + search 550+ data source qua 1 API cho agent",
+      "why": "Infrastructure layer cho AI agent cần data. Nếu bạn build agent cần realtime web data (news, pricing, reviews), đây là shortcut thay vì tự scrape.",
+      "source": "GitHub Trending",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "205389"
+      "stars": "206270"
     },
     {
-      "headline": "Dify: Build agentic workflows + RAG pipelines trên 1 workspace collaborative",
-      "why": "Platform giúp team chuyển từ prototype sang production mà không rebuild stack. Hỗ trợ cloud/VPC/self-hosted — phù hợp production house cần deploy agent nội bộ.",
-      "source": "GitHub",
+      "headline": "langgenius/dify — Build agentic workflow + RAG, deploy cloud hoặc self-host",
+      "why": "Platform no-code/low-code cho agentic AI — alternative cho LangChain nếu bạn muốn UI-first. Tốt cho team không phải engineer build POC nhanh.",
+      "source": "GitHub Trending",
       "url": "https://github.com/langgenius/dify",
-      "stars": "161589"
-    },
-    {
-      "headline": "Open WebUI: Giao diện AI user-friendly — hỗ trợ Ollama, OpenAI API, etc.",
-      "why": "Cho team muốn UI đẹp cho internal AI tool. Thay vì mỗi người dùng CLI/API riêng, deploy Open WebUI để cả team access model qua browser.",
-      "source": "GitHub",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "159182"
+      "stars": "161633"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] RadixArk: DaisyRose 27B · $0.15/$1.88 per M tok",
-      "event": "new",
-      "summary": "Model multimodal reasoning 27B từ Qwen3.8 27B, train RL thuần trên long-horizon agent tasks — không dùng SFT hay distillation.",
-      "why": "Thử nghiệm cho agentic task dài — rẻ hơn GPT-4o nhưng specialized cho agent reasoning.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/radixark/daisyrose-27b",
-      "tags": [
-        "multimodal",
-        "agent",
-        "reasoning"
-      ]
-    },
-    {
-      "headline": "[OpenRouter NEW] Thinking Machines: Inkling 2 Mini · $0.10/$0.40 per M tok",
-      "event": "new",
-      "summary": "Multimodal looped transformer, 3.4B active params (MoE 26.4B total). Middle layers chạy 3 lần với shared weights.",
-      "why": "Model nhỏ, nhanh, rẻ — phù hợp mobile/edge deployment hoặc batch processing cost-sensitive.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
-      "tags": [
-        "MoE",
-        "multimodal",
-        "edge"
-      ]
-    },
-    {
-      "headline": "[OpenRouter DEPRECATED] Meta: Llama 3.2 1B Instruct removed",
+      "headline": "[OpenRouter DEPRECATED] Dots Studio: Dots3-Note Preview (free) removed",
       "event": "deprecated",
-      "summary": "Model meta-llama/llama-3.2-1b-instruct không còn trên OpenRouter.",
-      "why": "Nếu dùng Llama 3.2 1B trong production, migrate sang Llama 3.3 hoặc alternative nhỏ khác trước khi workflow break.",
+      "summary": "Model dots-studio/dots-3-note-preview:free không còn trên OpenRouter.",
+      "why": "Migrate khỏi model này nếu bạn đang dùng.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/meta-llama/llama-3.2-1b-instruct",
+      "url": "https://openrouter.ai/models/dots-studio/dots-3-note-preview:free",
       "tags": [
-        "deprecated",
-        "migration"
+        "openrouter"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Tencent: Hy3 preview removed",
+      "headline": "[OpenRouter DEPRECATED] Meituan: LongCat 2.0 removed",
       "event": "deprecated",
-      "summary": "Model tencent/hy3-preview không còn trên OpenRouter.",
-      "why": "Nếu dùng Hy3 preview, migrate sang stable version hoặc model khác ngay.",
+      "summary": "Model meituan/longcat-2.0 không còn available.",
+      "why": "Migrate khỏi model này nếu bạn đang dùng.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/tencent/hy3-preview",
+      "url": "https://openrouter.ai/models/meituan/longcat-2.0",
       "tags": [
-        "deprecated",
-        "migration"
+        "openrouter"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V3 0324 ↓$0.25/↓$1.00 per M tok",
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.5-27B tăng giá ↑$0.26/↑$2.60 per M tok",
       "event": "price",
-      "summary": "Giá giảm: prompt $0.29→$0.25, completion $1.14→$1.00.",
-      "why": "DeepSeek V3 rẻ hơn 14-16% — giờ là option cost-effective cho workload Trung Quốc hoặc multilingual.",
+      "summary": "Prompt $0.20 → $0.26, completion $1.56 → $2.60.",
+      "why": "Cost tăng 30% prompt, 67% completion — review budget nếu dùng model này với volume cao.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-27b",
       "tags": [
-        "price drop",
-        "cost optimization"
+        "openrouter",
+        "pricing"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4.1 Flash ↓$0.05/↓$0.20 per M tok",
+      "headline": "[OpenRouter PRICE] Google: Gemma 3 4B giảm giá ↓$0.04/↓$0.05 per M tok",
       "event": "price",
-      "summary": "Giá giảm mạnh: prompt $0.30→$0.05 (giảm 83%), completion $1.20→$0.20 (giảm 83%).",
-      "why": "DeepSeek V4.1 Flash giờ rẻ hơn GPT-4o-mini nhiều lần — test ngay cho use case cần tiếng Trung/multilingual.",
+      "summary": "Prompt $0.05 → $0.04, completion $0.10 → $0.05.",
+      "why": "Cost giảm 20% prompt, 50% completion — cheaper alternative cho task đơn giản.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+      "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
       "tags": [
-        "price drop",
-        "cost optimization"
+        "openrouter",
+        "pricing"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.7 ↑$0.60/↑$1.80 per M tok",
+      "headline": "[OpenRouter PRICE] Tencent: Hy3 tăng nhẹ ↑$0.14/↑$0.58 per M tok",
       "event": "price",
-      "summary": "Giá tăng: prompt $0.21→$0.60, completion $0.84→$1.80.",
-      "why": "MiniMax M2.7 tăng giá gấp ~3 lần — nếu đang dùng, cân nhắc migrate sang alternative rẻ hơn hoặc accept cost.",
+      "summary": "Prompt $0.13 → $0.14, completion $0.53 → $0.58.",
+      "why": "Tăng ~8-9% — không impact lớn nhưng watch trend nếu dùng Tencent model.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+      "url": "https://openrouter.ai/models/tencent/hy3",
       "tags": [
-        "price increase",
-        "cost management"
+        "openrouter",
+        "pricing"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Qwen: Qwen3.8 27B ↓$0.06/↓$1.96 per M tok",
+      "headline": "[OpenRouter PRICE] MythoMax 13B tăng mạnh ↑$0.30/↑$0.50 per M tok",
       "event": "price",
-      "summary": "Giá completion giảm: $2.20→$1.96.",
-      "why": "Qwen3.8 27B rẻ hơn — model Trung Quốc tốt cho multilingual workload giờ competitive hơn với Western models.",
+      "summary": "Prompt $0.08 → $0.30, completion $0.11 → $0.50.",
+      "why": "Cost tăng 275% prompt, 355% completion — migrate sang model khác nếu volume cao.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/gryphe/mythomax-l2-13b",
+      "tags": [
+        "openrouter",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.8 27B giảm giá ↓$0.04/↓$1.50 per M tok",
+      "event": "price",
+      "summary": "Prompt $0.06 → $0.04, completion $1.96 → $1.50.",
+      "why": "Cost giảm 33% prompt, 23% completion — good alternative cho workload cần 27B tier.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
       "tags": [
-        "price drop",
-        "multilingual"
+        "openrouter",
+        "pricing"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash Vision Exp ↓$0.22/↓$0.65 per M tok",
+      "headline": "[OpenRouter PRICE] Thinking Machines: Inkling 2 Mini giảm giá ↓$0.07/↓$0.30 per M tok",
       "event": "price",
-      "summary": "Giá giảm: prompt $0.44→$0.22, completion $1.32→$0.65.",
-      "why": "Vision model rẻ hơn 50% — test cho OCR/image understanding nếu đang dùng GPT-4o-vision.",
+      "summary": "Prompt $0.10 → $0.07, completion $0.40 → $0.30.",
+      "why": "Cost giảm 30% prompt, 25% completion — cheaper cho task reasoning nhẹ.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
       "tags": [
-        "price drop",
-        "vision",
-        "multimodal"
+        "openrouter",
+        "pricing"
       ]
     }
   ],
-  "insight": null,
+  "insight": "Tuần này thị trường AI chứng kiến 2 tín hiệu mâu thuẫn rất rõ: bong bóng funding/valuation đang vỡ (Nasdaq xóa sạch lãi 2026, Anthropic IPO ngày 2 giảm 18%), nhưng technical capability vẫn tăng exponentially (LLM đọc được machine code, AI chứng minh Giả thuyết Riemann). Đây là classic decoupling giữa hype cycle và real progress.\n\nCho founder/đầu tư: Exit qua M&A đang là main path (782 deals năm 2025 vs 23 IPO). Series A requirement giờ cứng: CAC payback <12 tháng B2B, <6 tháng consumer. Nếu số bạn chưa đạt, đừng fundraise — sẽ bị pass ngay. Thị trường đã chuyển sang 'show me unit economics' thay vì 'show me growth'. OpenAI lawsuit California về safeguard là warning: compliance cost sẽ tăng 2027.\n\nCho cá nhân/manager: AI agent đang mature nhanh — Apple chuẩn bị ra agent 2027, nhiều tool mã nguồn mở đã dùng được (openclaw 395K stars, firecrawl 206K stars). Nhưng quality chưa đồng đều: GPT-6.2 bị phàn nàn 'unusable' dù benchmark cao. Lesson: đừng vội migrate sang model mới nếu workflow hiện tại chạy ổn. Early adopter tax đang cao.\n\nCho creative: Google Gemini Omni (thay Veo) và ComfyUI PAN 2 support là 2 update đáng thử — giảm friction giữa các bước workflow. Nhưng cẩn thận với AI coding agent tranh chuột: nếu agent chiếm màn hình chính, cân nhắc chạy agent trên VM riêng để bạn vẫn làm việc bình thường.\n\nPattern lớn: AI đang shift từ 'toy demos' sang 'production tools with real trade-offs'. Bạn cần học cách evaluate tool không chỉ bằng benchmark mà bằng 'fit với workflow + cost + risk'. Và quan trọng hơn: giữ mental health khi thị trường volatility cao — market crash không nghĩa là AI không có tương lai, chỉ là valuation điều chỉnh về reality.",
   "sources_count": {
-    "raw": 191,
-    "brave": 50,
+    "raw": 142,
+    "brave": 49,
     "reddit": 0,
-    "hackernews": 10,
-    "rss": 42,
+    "hackernews": 8,
+    "rss": 34,
     "huggingface": 7,
     "github": 10,
-    "openrouter": 22
+    "openrouter": 8
   }
 }
