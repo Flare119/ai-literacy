@@ -1,118 +1,76 @@
 {
-  "date": "2026-11-24",
-  "updated_at": "2026-11-24T13:35:25.630708+07:00",
-  "weekday": "Tuesday",
+  "date": "2026-11-25",
+  "updated_at": "2026-11-25T12:09:02.578957+07:00",
+  "weekday": "Wednesday",
   "top_story": {
-    "headline": "Amazon thâu tóm công nghệ Decart AI với giá 7.5 tỷ USD — đặt cược vào chip AI tự phát triển",
-    "summary": "Amazon hoàn tất thương vụ mua công nghệ của startup AI Decart với giá 7.5 tỷ USD, nhằm tăng hiệu năng chip AI tự phát triển và cạnh tranh với Nvidia. Đây là thương vụ M&A AI lớn thứ 2 trong tuần sau Palo Alto mua Applied Compute 4.5 tỷ USD.",
-    "why": "Cho business/founder: Big Tech đang chuyển từ 'mua model' sang 'mua infrastructure' — nếu bạn build AI tooling/chip optimization, đây là exit window. Cho cá nhân/manager: Amazon đầu tư chip riêng nghĩa là cloud cost sẽ giảm trong 12-18 tháng → đánh giá lại vendor lock-in với AWS.",
-    "source": "Tech Startups",
-    "url": "https://techstartups.com/2026/11/23/amazon-acquires-decart-ais-technology-in-reported-7-5-billion-deal-to-boost-ai-chip-performance/",
+    "headline": "DeepSeek V4.1 Flash tăng giá 400% sau 1 ngày — từ $0.03 lên $0.15 per M tokens",
+    "summary": "OpenRouter catalog ngày 25/11 ghi nhận DeepSeek V4.1 Flash tăng giá đột ngột: prompt từ $0.03 → $0.15 (+400%), completion từ $0.20 → $0.60 (+200%). Hôm 24/11, model này vừa được giới thiệu giảm giá 90% xuống $0.03/$0.20. Hiện tại V4.1 Flash đắt gấp 3 lần V4 Flash Latest ($0.05/$0.30). Đây là minh chứng rõ ràng cho Quy tắc #4 AI Mentor về delay effect — pricing trong AI infra cực kỳ volatile, quyết định dựa vào giá 'ưu đãi' hôm nay có thể phá sản workflow ngày mai.",
+    "why": "Cho cá nhân + manager: nếu team bạn đang build workflow dựa vào DeepSeek giá rẻ — stop ngay và review cost assumptions. 400% tăng giá sau 1 ngày nghĩa là budget dự án có thể vỡ bất cứ lúc nào. Đây là signal cần fallback plan cho mọi AI dependency — không có model nào 'ổn định' về giá.",
+    "source": "OpenRouter Catalog",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
     "tags": [
-      "M&A",
-      "Amazon",
-      "Chip AI",
-      "Infrastructure"
+      "pricing",
+      "infrastructure",
+      "risk"
     ]
   },
   "quick_hits": [
     {
-      "headline": "6 startup AI huy động 2.23 tỷ USD tuần này — Sierra chiếm 78%",
-      "why": "Cho founder: Funding đang concentrate vào enterprise AI (Sierra) thay vì consumer. Nếu pitch B2B automation với traction → đây là thời điểm.",
-      "source": "AI Funding Tracker",
-      "url": "https://aifundingtracker.com/ai-funding-news-november-23-2026/",
+      "headline": "LLM agent làm việc cho công ty mẹ, không phải cho bạn — bài phân tích Michael Harley",
+      "why": "Cho cá nhân: khi dùng ChatGPT/Claude/Gemini, nhớ rằng model được train để serve lợi ích OpenAI/Anthropic/Google trước — không phải bạn. Quyết định quan trọng (legal, medical, tài chính) không nên 100% tin AI.",
+      "source": "Michael Harley",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
       "tags": [
-        "Funding",
-        "Enterprise AI"
+        "ethics",
+        "trust",
+        "agency"
       ]
     },
     {
-      "headline": "80% thương vụ M&A AI do công ty mua cho chính mình — không phải quỹ đầu tư",
-      "why": "Cho founder: Exit strategy nên target strategic buyer (Google, Microsoft, Adobe) hơn là PE/VC — họ trả giá cao hơn 2-3x khi cần tech ngay.",
-      "source": "Aventis Advisors",
-      "url": "https://aventis-advisors.com/ai-valuation-multiples/",
+      "headline": "GPT-6 có khả năng thiết kế protein từ bản chất (intrinsic) — OpenAI công bố",
+      "why": "Cho curious: GPT-6 không chỉ viết text mà có thể design protein (ứng dụng y học/vật liệu) mà không cần fine-tuning thêm. Đây là bằng chứng model đa năng (foundation model) đang thay thế mô hình chuyên biệt trong nhiều lĩnh vực.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
       "tags": [
-        "M&A",
-        "Valuation"
+        "research",
+        "biology",
+        "GPT-6"
       ]
     },
     {
-      "headline": "Magnific One — image model có art direction built-in, tránh 'AI look'",
-      "why": "Cho creative: Lần đầu có model cho phép control aesthetic trước khi generate — giảm iteration từ 10+ lần xuống 2-3 lần cho hero shot.",
-      "source": "AI Film History",
-      "url": "https://aifilmhistory.org/entry/magnific-one",
+      "headline": "AI model Trung Quốc giá rẻ đang bắt kịp Anthropic và OpenAI — phân tích Reuters",
+      "why": "Cho business/founder: cạnh tranh AI không còn là US vs US. Trung Quốc có model quality tương đương nhưng giá thấp hơn 5-10 lần (DeepSeek, MiniMax) — đe dọa margin của OpenAI/Anthropic. Nếu bạn đang build trên US model, cần evaluate alternative.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "Image Generation",
-        "Art Direction"
+        "competition",
+        "pricing",
+        "geopolitics"
       ]
     },
     {
-      "headline": "Kling AI ra image model 8K native — text trong ảnh lên đến 2,000 ký tự",
-      "why": "Cho creative: Nếu làm poster/ads có nhiều text (menu, bảng giá, infographic) — Kling giờ render text sắc nét hơn Midjourney/DALL·E mà không cần upscale.",
-      "source": "toolhype",
-      "url": "https://toolhype.dev/new",
+      "headline": "AI behave giống hệt con người nhưng vẫn không được coi là có ý thức — nghiên cứu ScienceDaily",
+      "why": "Cho curious: con người vẫn vạch ranh giới rõ ràng giữa 'AI thông minh' và 'con người có ý thức', dù hành vi giống hệt nhau. Điều này ảnh hưởng đến cách xã hội đối xử với AI — quyền, trách nhiệm, luật pháp.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "tags": [
-        "Image Generation",
-        "Kling AI"
-      ]
-    },
-    {
-      "headline": "DeepSeek V4.1 Flash giảm giá 90%: $0.03/$0.20 per M tokens",
-      "why": "Cho cá nhân/developer: Nếu dùng API cho chatbot/automation khối lượng lớn, migrate sang DeepSeek tiết kiệm 70-80% so với GPT-4o mini.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
-      "tags": [
-        "Pricing",
-        "API"
-      ]
-    },
-    {
-      "headline": "FPT và VNG xử lý 2 tỷ tin nhắn AI mỗi ngày qua Zalo",
-      "why": "Cho business VN: Zalo AI đã scale production — nếu build chatbot tiếng Việt cho SME, platform effect này tạo distribution channel sẵn có.",
-      "source": "Digital in Asia",
-      "url": "https://digitalinasia.com/vietnam-digital-market-overview-2026/",
-      "tags": [
-        "Vietnam",
-        "Zalo AI",
-        "Platform"
+        "consciousness",
+        "philosophy",
+        "society"
       ]
     }
   ],
   "production": [
     {
-      "headline": "MiniMax H3-Image tạo ảnh 16MP trong 6 bước — ComfyUI đã hỗ trợ native",
-      "summary": "MiniMax H3 cho phép generate ảnh 16 megapixel (tương đương 4096×4096) trong 6 diffusion steps, nhanh gấp 3-4 lần Flux/SD3. ComfyUI 0.45.0 đã tích hợp native, không cần custom node.",
-      "why": "Cho creative: Nếu làm print/billboard cần resolution cao, H3 giảm thời gian từ 2-3 phút xuống 20-30 giây. ROI rõ nếu chạy batch hàng trăm concepts.",
-      "source": "VideoGen",
-      "url": "https://videogen.io/best-ai-video-models",
+      "headline": "PenGPT — transformer AI viết tay và vẽ phác thảo như con người",
+      "summary": "PenGPT là generative model tạo chữ viết tay và bản phác thảo (sketch) realistic. Model học từ dataset bút vẽ (stroke data) thay vì pixel, tạo output giống cách con người vẽ từng nét. Có thể dùng cho animation, design, hoặc fake handwriting.",
+      "why": "Cho creative: nếu bạn làm animation/motion design cần chữ viết tay hoặc sketch realistic, PenGPT có thể thay thế rotoscoping thủ công. Nhưng cũng là công cụ deepfake handwriting — cẩn thận về ethical use.",
+      "source": "Sam Greydanus",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
       "tags": [
-        "Image Generation",
-        "ComfyUI",
-        "Workflow"
-      ]
-    },
-    {
-      "headline": "Gemini Omni thay thế Veo trong Gemini app — tạo và edit video bằng conversation",
-      "summary": "Google ra Gemini Omni, model mới kết hợp Gemini intelligence với video generation (image-to-video, video-to-video). Thay thế Veo trong Gemini app, giảm friction từ text prompt sang multi-turn editing.",
-      "why": "Cho creative: Thay vì learn Runway/Pika interface riêng, giờ edit video ngay trong tool chat quen thuộc — giảm learning curve cho team không chuyên motion.",
-      "source": "Gemini",
-      "url": "https://gemini.google/overview/video-generation/",
-      "tags": [
-        "Video Generation",
-        "Google",
-        "Gemini"
-      ]
-    },
-    {
-      "headline": "Kilo — AI coding agent open source cho VS Code, JetBrains, CLI, Cloud",
-      "summary": "Kilo là open-source AI coding agent hỗ trợ 500+ model (tự đem key hoặc dùng local model), chạy trên VS Code, JetBrains IDE, CLI, và cloud. Zero markup pricing.",
-      "why": "Cho developer/manager: Nếu team dùng nhiều IDE khác nhau (không thống nhất Cursor), Kilo cho phép standardize AI workflow mà không lock vào 1 vendor.",
-      "source": "Kilo",
-      "url": "https://kilo.ai/",
-      "tags": [
-        "Coding Agent",
-        "Open Source",
-        "IDE"
+        "generative",
+        "design",
+        "animation"
       ]
     }
   ],
@@ -120,245 +78,288 @@
   "research": [],
   "business": [
     {
-      "headline": "Palo Alto Networks mua Applied Compute 4.5 tỷ USD — đặt cược AI security infrastructure",
-      "summary": "Palo Alto Networks công bố thương vụ all-stock trị giá 4.5 tỷ USD mua startup AI Applied Compute (founder Yash Patil 23 tuổi), tăng cường khả năng AI cho cybersecurity platform.",
-      "why": "Cho founder: Startup AI security đang được định giá cao (Applied Compute 23 tháng tuổi = 4.5B). Nếu build AI security tooling, focus enterprise compliance (SOC 2, GDPR) để attract strategic buyer.",
-      "source": "NewsBytes",
-      "url": "https://www.newsbytesapp.com/news/business/palo-alto-networks-acquires-ai-start-up-applied-compute-for-4-5b/story",
-      "tags": [
-        "M&A",
-        "Security",
-        "Enterprise"
-      ]
-    },
-    {
-      "headline": "Sierra huy động 1.74 tỷ USD — chiếm 78% tổng funding AI tuần này",
-      "summary": "Trong 6 deal AI lớn tuần này (tổng 2.23 tỷ USD), Sierra — startup làm enterprise AI agent — chiếm 1.74 tỷ USD. Các deal khác: Marlowe (data center AI inference), MegaRobo, Boltz.",
-      "why": "Cho founder/đầu tư: Funding đang tập trung vào B2B automation (Sierra) và infrastructure (Marlowe). Consumer AI đang khô hạn vốn — pivot hoặc chờ wave mới.",
+      "headline": "6 startup AI huy động $2.23 tỷ tuần này — Sierra chiếm 78%",
+      "summary": "AI Funding Tracker ghi nhận 6 vòng gọi vốn AI trên $2M tuần 23/11, tổng $2.23B. Sierra (agent platform) chiếm 78%. Marlowe (AI data center dùng chip Etched/AMD) cũng trong danh sách. Funding tập trung vào infra và agentic platform.",
+      "why": "Cho founder/đầu tư: thị trường vốn AI đang tập trung vào infrastructure (chip, data center) và agentic workflow, không còn đổ tiền vào chatbot consumer nữa. Nếu startup bạn không thuộc 2 category này, khó raise.",
       "source": "AI Funding Tracker",
       "url": "https://aifundingtracker.com/ai-funding-news-november-23-2026/",
       "tags": [
-        "Funding",
-        "Enterprise AI",
-        "Market Signal"
+        "funding",
+        "startups",
+        "agentic"
+      ]
+    },
+    {
+      "headline": "Yash Patil 23 tuổi bán startup Applied Compute cho Palo Alto $4.5B — từ OpenAI intern đến exit tỷ USD",
+      "summary": "Yash Patil, founder gốc Ấn 23 tuổi, nghỉ học Stanford để làm intern OpenAI, sau đó lập Applied Compute (AI security infra). Hôm 25/11, Palo Alto Networks mua lại $4.5B all-stock. Đây là 1 trong những exit lớn nhất AI 2026.",
+      "why": "Cho founder: Applied Compute focus AI security infrastructure — một niche ít người nghĩ đến nhưng enterprise trả tiền cao (Palo Alto mua vì họ cần bảo vệ AI workload của khách hàng). Lesson: niche infra > consumer app.",
+      "source": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/us/meet-yash-patil-indian-origin-entrepreneur-who-took-leave-from-stanford-to-work-with-open-ai-started-his-own-startup-and-then-sold-it-for-4-5-billion/articleshow/136141678.cms",
+      "tags": [
+        "exit",
+        "security",
+        "founder"
       ]
     }
   ],
   "society": [],
   "opensource": [
     {
-      "headline": "n8n — workflow automation platform với AI native, self-host hoặc cloud",
-      "why": "Cho manager/developer: Nếu team cần automation phức tạp (không chỉ Zapier trigger đơn giản), n8n cho phép visual builder + custom code + 400+ integrations. Self-host = data không rời premise.",
+      "headline": "n8n — workflow automation platform với AI native, self-host hoặc cloud, 400+ integrations",
+      "why": "Cho manager: nếu team cần automation với AI (RAG, agent workflow) mà không muốn bị lock vào vendor — n8n là alternative tốt hơn Zapier/Make. Fair-code license nghĩa là bạn có thể self-host miễn phí.",
       "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "211,892"
+      "stars": "212,057"
     },
     {
-      "headline": "Firecrawl — knowledge infrastructure cho AI agent: search, scrape, 550+ data providers",
-      "why": "Cho developer: Nếu build AI agent cần realtime data (thay vì chỉ RAG static docs), Firecrawl cung cấp unified API cho 550+ nguồn thay vì tự maintain 50+ scrapers.",
+      "headline": "Firecrawl — knowledge infra cho AI agent: search, scrape, 550+ data providers qua 1 API",
+      "why": "Cho creative/developer: nếu bạn đang build AI agent cần access web data hoặc API nhiều nguồn — Firecrawl là layer aggregator giúp không phải tích hợp từng nguồn. Open source, có thể self-host.",
       "source": "GitHub",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "208,149"
+      "stars": "209,119"
     },
     {
-      "headline": "Dify — build agentic workflows & RAG pipelines, deploy cloud/VPC/self-hosted",
-      "why": "Cho team: Nếu muốn chuyển từ prototype (Colab notebook) sang production mà không rebuild stack, Dify cho phép collaborate + deploy flexible (cloud hoặc on-prem).",
+      "headline": "Dify — build agentic workflow, RAG pipeline với nhiều AI model, deploy cloud/VPC/self-host",
+      "why": "Cho manager: Dify giúp team move từ prototype sang production mà không rebuild stack. Nếu bạn đang thử nhiều model (OpenAI, Anthropic, local) và cần collaborative workspace — đây là Notion cho AI workflow.",
       "source": "GitHub",
       "url": "https://github.com/langgenius/dify",
-      "stars": "161,794"
+      "stars": "161,855"
     },
     {
-      "headline": "Open WebUI — giao diện AI thân thiện hỗ trợ Ollama, OpenAI API",
-      "why": "Cho cá nhân/team nhỏ: Nếu muốn UI chat đẹp cho local LLM (Ollama) hoặc API key riêng, Open WebUI deploy 10 phút và không phụ thuộc vendor.",
+      "headline": "Open WebUI — giao diện AI thân thiện, hỗ trợ Ollama, OpenAI API và nhiều backend khác",
+      "why": "Cho cá nhân: nếu bạn chạy local model (Ollama) hoặc muốn UI đẹp hơn ChatGPT, Open WebUI là frontend open source tốt nhất hiện tại. Self-host, không gửi data ra ngoài.",
       "source": "GitHub",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": "159,384"
+      "stars": "159,471"
     }
   ],
   "model_updates": [
     {
-      "headline": "[OpenRouter NEW] Dots Studio: Dots3-Note Preview (free)",
+      "headline": "[OpenRouter NEW] Upstage: Solar Mini 4.5 (Preview) · $0.01/$0.04 per M tok",
       "event": "new",
-      "summary": "Dots3-Note Preview — open-weight MoE model 16B active / 280B total từ Dots Studio. Nhẹ nhất trong dòng Dots 3.",
-      "why": "Free tier tốt cho experiment nhẹ, nhưng 16B active có thể không đủ cho production complex reasoning.",
+      "summary": "Solar Mini 4.5 — compact MoE model 35B total/3B active, 524K context. Giá rất rẻ ($0.01/$0.04).",
+      "why": "Alternative rẻ cho task đơn giản (summarization, classification) thay vì dùng GPT-4/Claude.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/upstage/solar-mini-4-5",
+      "tags": [
+        "new",
+        "MoE",
+        "cheap"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Upstage: Solar Pro 4 Contributor · $0.09/$0.36 per M tok",
+      "event": "new",
+      "summary": "Solar Pro 4 Contributor — same model Solar Pro 4 nhưng giá rẻ hơn, đổi lại Upstage dùng interaction data để improve model.",
+      "why": "Nếu OK với data sharing để đổi lấy giá rẻ hơn — đây là deal tốt. Nhưng không dùng cho sensitive data.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/upstage/solar-pro-4-contributor",
+      "tags": [
+        "new",
+        "data-sharing",
+        "pricing"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] Xiaomi: MiMo-V2.6-Flash-MOPD · $0.15/$0.42 per M tok",
+      "event": "new",
+      "summary": "MiMo-V2.6-Flash-MOPD — updated checkpoint của Xiaomi MiMo, MoE 309B/15B active, 1M context, multimodal. Thêm multi-teacher training.",
+      "why": "Alternative cho Gemini 4/GPT-6 nếu cần long context + multimodal với giá Trung Quốc ($0.15/$0.42).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-flash-mopd",
+      "tags": [
+        "new",
+        "multimodal",
+        "MoE"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Dots Studio: Dots3-Note Preview (free) removed",
+      "event": "deprecated",
+      "summary": "Model Dots3-Note Preview (free) đã bị xóa khỏi OpenRouter.",
+      "why": "Nếu workflow của bạn dùng Dots3-Note — migrate ngay sang alternative.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/dots-studio/dots-3-note-preview:free",
       "tags": [
-        "new",
-        "free"
+        "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] MoonshotAI: Kimi K2 0711 removed",
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral Medium 3 removed",
       "event": "deprecated",
-      "summary": "Model moonshotai/kimi-k2 không còn trên OpenRouter.",
-      "why": "Nếu đang dùng Kimi K2 0711 trong production, migrate ngay sang Kimi K2.1 hoặc alternative trước khi break.",
+      "summary": "Mistral Medium 3 không còn trên OpenRouter.",
+      "why": "Migrate sang Mistral Large hoặc alternative model khác.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2",
+      "url": "https://openrouter.ai/models/mistralai/mistral-medium-3",
       "tags": [
         "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] MoonshotAI: Kimi K2 Thinking removed",
+      "headline": "[OpenRouter DEPRECATED] Mistral: Mistral Medium 3.1 removed",
       "event": "deprecated",
-      "summary": "Model moonshotai/kimi-k2-thinking không còn trên OpenRouter.",
-      "why": "Migrate khỏi Kimi K2 Thinking trước khi service cut-off.",
+      "summary": "Mistral Medium 3.1 không còn trên OpenRouter.",
+      "why": "Migrate sang Mistral Large hoặc alternative model khác.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/moonshotai/kimi-k2-thinking",
+      "url": "https://openrouter.ai/models/mistralai/mistral-medium-3.1",
       "tags": [
         "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter DEPRECATED] Xiaomi: MiMo-V2.5-Pro removed",
+      "headline": "[OpenRouter DEPRECATED] MoonshotAI: Kimi K2 0905 removed",
       "event": "deprecated",
-      "summary": "Model xiaomi/mimo-v2.5-pro không còn trên OpenRouter.",
-      "why": "Migrate production workload khỏi MiMo V2.5 Pro.",
+      "summary": "Kimi K2 0905 không còn trên OpenRouter.",
+      "why": "Nếu dùng Kimi K2 — check phiên bản mới hoặc migrate sang alternative.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/xiaomi/mimo-v2.5-pro",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
       "tags": [
         "deprecated"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4.1 Flash giảm 90%: $0.03/$0.20",
+      "headline": "[OpenRouter DEPRECATED] Xiaomi: MiMo-V2.5 removed",
+      "event": "deprecated",
+      "summary": "MiMo-V2.5 đã bị deprecated, thay bằng V2.6-Flash-MOPD.",
+      "why": "Migrate sang V2.6-Flash-MOPD nếu đang dùng V2.5.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/xiaomi/mimo-v2.5",
+      "tags": [
+        "deprecated"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MiniMax: MiniMax M2.5 ↑$0.30/↑$1.20 per M tok",
       "event": "price",
-      "summary": "DeepSeek V4.1 Flash giảm giá từ $0.30/$1.20 xuống $0.03/$0.20 per M tokens.",
-      "why": "Nếu chạy high-volume inference, migrate sang DeepSeek V4.1 Flash tiết kiệm 85-90% chi phí so với GPT-4o mini.",
+      "summary": "MiniMax M2.5 tăng giá: prompt $0.27 → $0.30 (+11%), completion $0.95 → $1.20 (+26%).",
+      "why": "Cost tăng 26% cho completion — review budget nếu dùng MiniMax M2.5 volume lớn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+      "tags": [
+        "price",
+        "increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4.1 Flash 1017 ↑$0.15/↑$0.60 per M tok",
+      "event": "price",
+      "summary": "DeepSeek V4.1 Flash tăng giá: prompt $0.03 → $0.15 (+400%), completion $0.20 → $0.60 (+200%).",
+      "why": "400% tăng giá sau 1 ngày — nếu workflow của bạn dựa vào DeepSeek giá rẻ, budget sẽ vỡ. Cần fallback plan ngay.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
       "tags": [
         "price",
-        "savings"
+        "increase",
+        "critical"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek Pro giảm: $0.10/$5.00",
+      "headline": "[OpenRouter PRICE] inclusionAI: Ling 3.0 Flash ↓$0.02/↓$0.06 per M tok",
       "event": "price",
-      "summary": "DeepSeek Pro Latest giảm từ $0.12/$5.00 xuống $0.10/$5.00.",
-      "why": "Nhẹ — tiết kiệm 17% prompt cost nếu chạy reasoning tasks dài.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
-      "tags": [
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] DeepSeek Flash giảm: $0.03/$0.20",
-      "event": "price",
-      "summary": "DeepSeek Flash Latest giảm từ $0.04/$0.50 xuống $0.03/$0.20.",
-      "why": "Completion cost giảm 60% — tốt cho chatbot trả lời dài.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
-      "tags": [
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] NVIDIA Nemotron 3.5 Lightning giảm: $0.05/$0.20",
-      "event": "price",
-      "summary": "NVIDIA Nemotron 3.5 Lightning giảm prompt từ $0.07 xuống $0.05.",
-      "why": "Nếu dùng NVIDIA stack, model này giờ rẻ hơn 28% cho prompt-heavy workload.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
-      "tags": [
-        "price"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] inclusionAI Ling 3.0 Flash tăng: $0.06/$0.18",
-      "event": "price",
-      "summary": "Ling 3.0 Flash tăng từ $0.02/$0.06 lên $0.06/$0.18.",
-      "why": "Giá tăng gấp 3 — nếu dùng Ling cho cost optimization, cân nhắc alternative.",
+      "summary": "Ling 3.0 Flash giảm giá: prompt $0.06 → $0.02 (-67%), completion $0.18 → $0.06 (-67%).",
+      "why": "Giá giảm 67% — nếu task phù hợp với Ling 3.0 Flash, đây là thời điểm thử nghiệm.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash",
       "tags": [
         "price",
-        "increase"
+        "decrease"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] inclusionAI Ling 3.1 Flash tăng: $0.07/$0.22",
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash Vision Exp ↑$0.44/↑$1.32 per M tok",
       "event": "price",
-      "summary": "Ling 3.1 Flash tăng từ $0.06/$0.18 lên $0.07/$0.22.",
-      "why": "Nhẹ — tăng 17-22%. Monitor nếu chạy high volume.",
+      "summary": "DeepSeek V4 Flash Vision Exp tăng giá: prompt $0.22 → $0.44 (+100%), completion $0.65 → $1.32 (+103%).",
+      "why": "Vision model tăng giá gấp đôi — nếu dùng multimodal DeepSeek, cost sẽ tăng mạnh.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/inclusionai/ling-3.1-flash",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+      "tags": [
+        "price",
+        "increase",
+        "multimodal"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.6 35B A3B ↑$0.10/↑$0.89 per M tok",
+      "event": "price",
+      "summary": "Qwen3.6 35B A3B tăng giá: prompt $0.05 → $0.10 (+100%), completion $0.70 → $0.89 (+27%).",
+      "why": "Qwen tăng giá gấp đôi prompt — nếu dùng Qwen cho coding/reasoning, cost tăng đáng kể.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
       "tags": [
         "price",
         "increase"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro tăng: $1.28/$2.56",
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B ↓$0.08/↓$0.26 per M tok",
       "event": "price",
-      "summary": "DeepSeek V4 Pro 0423 tăng từ $0.90/$1.50 lên $1.28/$2.56.",
-      "why": "Completion cost tăng 70% — nếu dùng V4 Pro cho long-form generation, review ROI.",
-      "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
-      "tags": [
-        "price",
-        "increase"
-      ]
-    },
-    {
-      "headline": "[OpenRouter PRICE] Google Gemma 4 26B tăng: $0.09/$0.30",
-      "event": "price",
-      "summary": "Gemma 4 26B A4B tăng từ $0.07/$0.22 lên $0.09/$0.30.",
-      "why": "Tăng 29-36% — nếu dùng Gemma cho cost-sensitive workload, consider downgrade hoặc alternative.",
+      "summary": "Gemma 4 26B A4B giảm giá nhẹ: prompt $0.09 → $0.08 (-11%), completion $0.30 → $0.26 (-13%).",
+      "why": "Gemma 4 giảm giá 13% — alternative tốt cho task không cần flagship model.",
       "source": "OpenRouter Catalog",
       "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
       "tags": [
         "price",
-        "increase"
+        "decrease"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Meta Llama 3.1 8B tăng: $0.05/$0.08",
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4.1 Flash ↑$0.14/↑$0.42 per M tok",
       "event": "price",
-      "summary": "Llama 3.1 8B Instruct tăng từ $0.02/$0.04 lên $0.05/$0.08.",
-      "why": "Giá gấp đôi — nếu chạy high-volume với Llama 8B, migrate sang local hoặc groq.",
+      "summary": "DeepSeek V4.1 Flash tăng giá: prompt $0.05 → $0.14 (+180%), completion $0.20 → $0.42 (+110%).",
+      "why": "V4.1 Flash cũng tăng giá gấp đôi — pattern tăng giá toàn bộ dòng DeepSeek V4.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
       "tags": [
         "price",
         "increase"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] Tencent Hy3 giảm: $0.13/$0.53",
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek Flash Latest ↑$0.04/↑$0.50 per M tok",
       "event": "price",
-      "summary": "Tencent Hy3 giảm từ $0.14/$0.58 xuống $0.13/$0.53.",
-      "why": "Nhẹ — giảm 7-9%. Nếu đã dùng Hy3, không cần action.",
+      "summary": "DeepSeek Flash Latest tăng giá: prompt $0.03 → $0.04 (+33%), completion $0.20 → $0.50 (+150%).",
+      "why": "Completion cost tăng 150% — toàn bộ dòng DeepSeek đều tăng giá tuần này.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/tencent/hy3",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
       "tags": [
-        "price"
+        "price",
+        "increase"
       ]
     },
     {
-      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0813 mix: ↓$0.11/↑$4.44",
+      "headline": "[OpenRouter PRICE] Z.ai: GLM 5.3 Flash ↑$0.12/↑$0.38 per M tok",
       "event": "price",
-      "summary": "DeepSeek V4 Pro 0813 prompt giảm từ $1.32 xuống $0.11, nhưng completion tăng từ $3.96 lên $4.44.",
-      "why": "Nếu workload prompt-heavy, đây là win. Nếu completion-heavy (long output), cost tăng 12%.",
+      "summary": "GLM 5.3 Flash tăng giá: prompt $0.04 → $0.12 (+200%), completion $0.08 → $0.38 (+375%).",
+      "why": "Completion cost tăng 375% — GLM 5.3 Flash không còn rẻ nữa.",
       "source": "OpenRouter Catalog",
-      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
       "tags": [
         "price",
-        "mixed"
+        "increase"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash Latest ↑$0.05/↑$0.30 per M tok",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash Latest tăng giá: prompt $0.04 → $0.05 (+25%), completion $0.13 → $0.30 (+131%).",
+      "why": "V4 Flash Latest tăng 131% completion — toàn bộ ecosystem DeepSeek đang tăng giá đồng loạt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "price",
+        "increase"
       ]
     }
   ],
   "insight": null,
   "sources_count": {
-    "raw": 159,
-    "brave": 49,
+    "raw": 156,
+    "brave": 50,
     "reddit": 0,
-    "hackernews": 3,
+    "hackernews": 6,
     "rss": 34,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 17
+    "openrouter": 18
   }
 }
