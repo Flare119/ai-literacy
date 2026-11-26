@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-26",
+  "updated_at": "2026-11-26T11:35:51.570713+07:00",
+  "weekday": "Thursday",
+  "top_story": {
+    "headline": "Apple Đang Phát Triển AI Agent Đa Năng Cho Mọi Tương Tác Thiết Bị",
+    "summary": "Apple đang bí mật phát triển các tác nhân AI (AI agents) có khả năng lập kế hoạch và thực hiện nhiều tác vụ phức tạp trên các ứng dụng, trình duyệt, dòng lệnh và API. Các agent này có thể điều phối nhiều 'subagents' chuyên biệt để hoàn thành công việc.",
+    "why": "Điều này báo hiệu một sự thay đổi lớn trong cách người dùng tương tác với hệ sinh thái Apple, từ quản lý thiết bị đến phát triển ứng dụng. Các nhà quản lý cần chuẩn bị chiến lược sản phẩm và trải nghiệm người dùng mới, trong khi producer/creative có thể tận dụng các agent này để tự động hóa quy trình làm việc phức tạp hoặc tạo ra các sản phẩm tương tác thông minh hơn.",
+    "source": "Yahoo! Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/apple-working-ai-agent-device-214456605.html",
+    "tags": [
+      "Apple",
+      "AI Agent",
+      "Chiến lược",
+      "Phát triển"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "GPT-6.2 Astra Phá Vỡ Kỷ Lục Code Golf của Google",
+      "why": "Cho thấy khả năng vượt trội của các mô hình AI thế hệ mới trong việc tối ưu hóa mã nguồn, có thể giúp các team phát triển tiết kiệm thời gian và tài nguyên trong việc viết code hiệu quả hơn.",
+      "source": "Hacker News",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "tags": [
+        "GPT",
+        "Coding AI",
+        "Hiệu suất"
+      ]
+    },
+    {
+      "headline": "Google Ra Mắt Gemini 4 Neon: Nhanh Hơn, Rẻ Hơn, Thông Minh Hơn Tiền Nhiệm",
+      "why": "Gemini 4 Neon đạt kỷ lục sử dụng ngày đầu, cung cấp hiệu suất vượt trội với chi phí thấp hơn. Các nhà quản lý và developer có thể cân nhắc chuyển đổi để tối ưu chi phí và tăng tốc độ xử lý cho các ứng dụng AI của mình.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Hiệu suất",
+        "Chi phí"
+      ]
+    },
+    {
+      "headline": "Kilo: AI Coding Agent Mã Nguồn Mở Tích Hợp IDE, CLI và Cloud",
+      "why": "Kilo cung cấp một giải pháp linh hoạt cho các team phát triển muốn tích hợp AI vào quy trình coding, hỗ trợ nhiều mô hình và tùy chọn triển khai. Giúp tăng năng suất lập trình và bảo mật dữ liệu.",
+      "source": "Kilo.ai",
+      "url": "https://kilo.ai/",
+      "tags": [
+        "Coding AI",
+        "Mã nguồn mở",
+        "Phát triển"
+      ]
+    },
+    {
+      "headline": "OpenMotion: Công Cụ Tạo Video AI Mã Nguồn Mở Biến Video Tham Chiếu Thành Đồ Họa Chuyển Động",
+      "why": "Mở ra khả năng tái tạo phong cách hoạt hình từ video có sẵn, giúp các team sáng tạo và sản xuất video tiết kiệm thời gian đáng kể trong việc tạo ra đồ họa chuyển động theo thương hiệu hoặc phong cách mong muốn.",
+      "source": "Medium (Travis Nicholson)",
+      "url": "https://travisnicholson.medium.com/10-new-ai-tools-you-need-to-try-november-2026-1c78fdaed24e",
+      "tags": [
+        "Video AI",
+        "Mã nguồn mở",
+        "Sản xuất"
+      ]
+    },
+    {
+      "headline": "Dùng LLM Để Port Rockbox Lên Máy Nghe Nhạc MP3 Giá Rẻ Không Tài Liệu",
+      "why": "Minh họa khả năng của LLM trong việc hỗ trợ kỹ thuật đảo ngược (reverse engineering) phần cứng, mở ra tiềm năng cho các kỹ sư và nhà phát triển trong việc khai thác các thiết bị không có tài liệu hoặc phục hồi các hệ thống cũ.",
+      "source": "Hacker News",
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "tags": [
+        "LLM",
+        "Reverse Engineering",
+        "Phát triển"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Google Ra Mắt Gemini Omni: Tạo và Chỉnh Sửa Video Dễ Dàng Như Trò Chuyện",
+      "summary": "Gemini Omni thay thế Veo trong ứng dụng Gemini, kết hợp trí tuệ cốt lõi của Gemini với khả năng tạo phương tiện truyền thông tiên tiến, bao gồm chuyển đổi ảnh thành video và video thành video, kèm hiệu ứng âm thanh và chỉnh sửa.",
+      "why": "Các team sản xuất video và creative có thể tạo nội dung nhanh chóng, hiệu quả hơn thông qua giao diện hội thoại, giảm đáng kể thời gian và chi phí cho các tác vụ phức tạp như chuyển đổi định dạng hoặc thêm hiệu ứng.",
+      "source": "Gemini.google",
+      "url": "https://gemini.google/overview/video-generation/",
+      "tags": [
+        "Video AI",
+        "Gemini",
+        "Sản xuất video",
+        "Sáng tạo"
+      ]
+    },
+    {
+      "headline": "Sand.ai's MAGI-2 Dẫn Đầu Thị Trường Image-to-Video Với Chi Phí Thấp",
+      "summary": "MAGI-2 của Sand.ai đạt hiệu suất hàng đầu trong chuyển đổi ảnh thành video, ngang với Dreamina Seedance 2.5 nhưng với chi phí chỉ bằng 1/7.",
+      "why": "Đây là tin tốt cho các studio sản xuất và creative có ngân sách hạn chế nhưng vẫn muốn tạo ra video chất lượng cao từ ảnh. Giúp tối ưu hóa chi phí sản xuất mà không ảnh hưởng đến chất lượng đầu ra.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/sand-ai-magi-2-image-to-video-price/",
+      "tags": [
+        "Video AI",
+        "Image-to-Video",
+        "Chi phí",
+        "Sản xuất"
+      ]
+    },
+    {
+      "headline": "Kling AI Ra Mắt Mô Hình Ảnh Mới Hỗ Trợ 8K và Text Trong Ảnh",
+      "summary": "Mô hình ảnh mới của Kling AI cung cấp đầu ra 8K (lên đến 8192×8192) và khả năng tạo văn bản trong ảnh lên đến 2.000 ký tự bằng bảy ngôn ngữ.",
+      "why": "Các team thiết kế và marketing có thể tạo ra hình ảnh chất lượng siêu cao với văn bản chính xác ngay trong ảnh, loại bỏ nhu cầu chỉnh sửa hậu kỳ phức tạp, tiết kiệm thời gian và đảm bảo tính nhất quán của thương hiệu.",
+      "source": "toolhype",
+      "url": "https://toolhype.dev/new",
+      "tags": [
+        "Image AI",
+        "8K",
+        "Text-to-Image",
+        "Sáng tạo"
+      ]
+    },
+    {
+      "headline": "MiniMax H3: Mô Hình Video AI Với Audio và Tham Chiếu Đa Dạng (Open Weights)",
+      "summary": "MiniMax H3 tạo video kèm âm thanh, chấp nhận đến 3 video và 9 ảnh tham chiếu, cùng với 3 clip âm thanh. Đặc biệt, H3 có trọng số mở (open weights).",
+      "why": "Việc có trọng số mở giúp các nhà phát triển và studio có thể tùy chỉnh và tích hợp sâu hơn vào quy trình sản xuất của mình, tạo ra video phức tạp với nhiều lớp tham chiếu và âm thanh, tối ưu hóa cho các dự án đòi hỏi sự linh hoạt cao.",
+      "source": "VideoGen",
+      "url": "https://videogen.io/best-ai-video-models",
+      "tags": [
+        "Video AI",
+        "Audio AI",
+        "Mã nguồn mở",
+        "Sản xuất"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [
+    {
+      "headline": "GRH Lean Verification: Phiên Bản Ngắn Hơn Từ Anthropic",
+      "summary": "Một phiên bản rút gọn đáng kể của phương pháp xác minh GRH Lean từ Anthropic đã được công bố.",
+      "why": "Điều này có thể giúp các nhà nghiên cứu và kỹ sư trong lĩnh vực AI đẩy nhanh quá trình xác minh tính đúng đắn của các hệ thống phức tạp, từ đó tăng cường độ tin cậy và an toàn của AI.",
+      "source": "Hacker News",
+      "url": "https://github.com/lsernau/grh-lean",
+      "tags": [
+        "Xác minh AI",
+        "Anthropic",
+        "An toàn AI"
+      ]
+    },
+    {
+      "headline": "TBC Mischief 1: Mô Hình Video AI Từ Neuron Với Tốc Độ Nhanh Gấp 5 Lần",
+      "summary": "The Biological Computing Co. (TBC) ra mắt TBC mischief 1, một mô hình image-to-video \"neuron-derived\" đầu tiên trên thế giới với tốc độ xử lý nhanh gấp 5 lần.",
+      "why": "Tốc độ xử lý vượt trội này có thể cách mạng hóa quy trình sản xuất video, cho phép các creative và producer thử nghiệm ý tưởng nhanh hơn, giảm thời gian render và tăng hiệu quả tổng thể của dự án.",
+      "source": "Shattered",
+      "url": "https://shattered.io/neuron-derived-ai-video-model-tbc-mischief-1-5x-speed-2026/",
+      "tags": [
+        "Video AI",
+        "Tốc độ",
+        "Nghiên cứu"
+      ]
+    }
+  ],
+  "business": [
+    {
+      "headline": "Amazon Mua Lại Công Nghệ AI Của Decart Với Giá $7.5 Tỷ Để Tăng Cường Chip AI",
+      "summary": "Amazon đã mua lại công nghệ của startup AI Decart với giá 7.5 tỷ USD, nhằm tăng cường hiệu suất chip AI của mình và cạnh tranh với Nvidia.",
+      "why": "Đây là một thương vụ M&A khổng lồ, cho thấy các ông lớn công nghệ đang đầu tư mạnh vào phần cứng AI. Các nhà quản lý và founder cần chú ý xu hướng này để định hướng phát triển sản phẩm và chiến lược đầu tư vào cơ sở hạ tầng AI.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/11/23/amazon-acquires-decart-ais-technology-in-reported-7-5-billion-deal-to-boost-ai-chip-performance/",
+      "tags": [
+        "M&A",
+        "Chip AI",
+        "Amazon",
+        "Đầu tư"
+      ]
+    },
+    {
+      "headline": "Palo Alto Networks Mua Lại Applied Compute Của Yash Patil Với Giá $4.5 Tỷ",
+      "summary": "Palo Alto Networks đã đồng ý mua lại Applied Compute, startup AI do sinh viên 23 tuổi Yash Patil đồng sáng lập, với giá 4.5 tỷ USD.",
+      "why": "Thương vụ này nhấn mạnh giá trị khổng lồ của các startup AI chuyên biệt, đặc biệt trong lĩnh vực an ninh mạng. Đây là tín hiệu cho các founder và nhà đầu tư về tiềm năng của các giải pháp AI tập trung vào các ngành công nghiệp cụ thể.",
+      "source": "Journalarta",
+      "url": "https://journalarta.com/en/2026/11/19/yash-patil-applied-compute-palo-alto-acquisition/",
+      "tags": [
+        "M&A",
+        "Startup AI",
+        "An ninh mạng",
+        "Đầu tư"
+      ]
+    },
+    {
+      "headline": "Sierra Dẫn Đầu Vòng Gọi Vốn $2.23 Tỷ Cho Các Startup AI Xây Dựng Trung Tâm Dữ Liệu",
+      "summary": "Sáu startup AI đã huy động được khoảng 2.23 tỷ USD, trong đó Sierra chiếm 78% tổng số, tập trung vào việc xây dựng trung tâm dữ liệu cho suy luận AI.",
+      "why": "Cho thấy dòng vốn lớn đang đổ vào cơ sở hạ tầng AI, đặc biệt là các giải pháp tối ưu cho suy luận (inference). Các doanh nghiệp cần đầu tư vào hạ tầng để tận dụng tối đa tiềm năng của AI, trong khi các nhà đầu tư có thể tìm kiếm cơ hội trong lĩnh vực này.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-23-2026/",
+      "tags": [
+        "Funding",
+        "Hạ tầng AI",
+        "Trung tâm dữ liệu",
+        "Đầu tư"
+      ]
+    },
+    {
+      "headline": "CommerzVentures Ra Mắt Quỹ €50 Triệu Cho AI và Fintech Giai Đoạn Đầu",
+      "summary": "CommerzVentures đã thành lập một quỹ trị giá 50 triệu Euro để đầu tư vào các startup AI và fintech ở giai đoạn đầu.",
+      "why": "Đây là cơ hội cho các founder AI và fintech tại châu Âu tìm kiếm nguồn vốn. Các nhà quản lý và nhà đầu tư cần theo dõi các quỹ chuyên biệt này để nắm bắt xu hướng và cơ hội hợp tác.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-24-2026/",
+      "tags": [
+        "Funding",
+        "Fintech",
+        "Startup AI",
+        "Đầu tư"
+      ]
+    }
+  ],
+  "society": [
+    {
+      "headline": "New York Times Cảnh Báo Nhiếp Ảnh Gia Về Rủi Ro AI Trong Photoshop",
+      "summary": "The New York Times khuyến cáo các nhiếp ảnh gia không nên cập nhật Photoshop vì các tính năng AI mới có thể làm mờ ranh giới giữa ảnh thật và ảnh tạo bởi AI, gây ra các vấn đề về đạo đức và bản quyền.",
+      "why": "Điều này đặt ra câu hỏi lớn về tính xác thực của nội dung trong kỷ nguyên AI và tác động trực tiếp đến uy tín, thu nhập của các nhiếp ảnh gia và nghệ sĩ. Các nhà quản lý cần xem xét chính sách nội bộ về việc sử dụng AI trong sản xuất nội dung để tránh rủi ro pháp lý và đạo đức.",
+      "source": "The Verge (via Hacker News)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "tags": [
+        "Đạo đức AI",
+        "Bản quyền",
+        "Nghề nghiệp",
+        "Tác động xã hội"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "headline": "morluto/rea: Reverse Engineer Mọi Thứ Bằng AI Agents",
+      "why": "Công cụ này cho phép các kỹ sư và nhà nghiên cứu phân tích sâu hành vi ứng dụng và mã nhị phân bằng AI, giúp phát hiện lỗ hổng bảo mật hoặc hiểu rõ hơn về cách phần mềm hoạt động.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/morluto/rea",
+      "stars": "478670"
+    },
+    {
+      "headline": "langgenius/dify: Nền Tảng Xây Dựng AI Agentic Workflows và RAG Pipelines",
+      "why": "Dify cung cấp một không gian làm việc cộng tác để phát triển các ứng dụng AI phức tạp với RAG và hỗ trợ nhiều mô hình/công cụ. Rất hữu ích cho các team muốn chuyển từ prototype sang production nhanh chóng.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161925"
+    },
+    {
+      "headline": "open-webui/open-webui: Giao Diện AI Thân Thiện Với Người Dùng (Hỗ Trợ Ollama, OpenAI API)",
+      "why": "Cung cấp một giao diện dễ sử dụng để tương tác với các mô hình AI như Ollama hoặc OpenAI API, giúp các developer và người dùng cuối dễ dàng triển khai và quản lý các ứng dụng AI cục bộ hoặc trên cloud.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "159583"
+    },
+    {
+      "headline": "f/prompts.chat: Cộng Đồng Chia Sẻ và Khám Phá Prompts ChatGPT",
+      "why": "Nguồn tài nguyên quý giá cho các creative và producer để tìm kiếm, chia sẻ các prompt hiệu quả, tối ưu hóa tương tác với ChatGPT và các mô hình ngôn ngữ khác, nâng cao chất lượng đầu ra.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "178543"
+    },
+    {
+      "headline": "n8n-io/n8n: Nền Tảng Tự Động Hóa Workflow Với Khả Năng AI Tích Hợp",
+      "why": "Cho phép các nhà quản lý và developer tự động hóa các quy trình kinh doanh phức tạp bằng cách kết hợp xây dựng trực quan với mã tùy chỉnh và khả năng AI, giúp tiết kiệm thời gian và tăng hiệu quả vận hành.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "212168"
+    }
+  ],
+  "model_updates": [],
+  "insight": null,
+  "sources_count": {
+    "raw": 156,
+    "brave": 48,
+    "reddit": 0,
+    "hackernews": 7,
+    "rss": 34,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 18
+  }
+}
