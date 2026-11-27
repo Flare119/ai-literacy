@@ -1,275 +1,372 @@
 {
-  "date": "2026-11-26",
-  "updated_at": "2026-11-26T11:35:51.570713+07:00",
-  "weekday": "Thursday",
+  "date": "2026-11-27",
+  "updated_at": "2026-11-27T11:39:13.155580+07:00",
+  "weekday": "Friday",
   "top_story": {
-    "headline": "Apple Đang Phát Triển AI Agent Đa Năng Cho Mọi Tương Tác Thiết Bị",
-    "summary": "Apple đang bí mật phát triển các tác nhân AI (AI agents) có khả năng lập kế hoạch và thực hiện nhiều tác vụ phức tạp trên các ứng dụng, trình duyệt, dòng lệnh và API. Các agent này có thể điều phối nhiều 'subagents' chuyên biệt để hoàn thành công việc.",
-    "why": "Điều này báo hiệu một sự thay đổi lớn trong cách người dùng tương tác với hệ sinh thái Apple, từ quản lý thiết bị đến phát triển ứng dụng. Các nhà quản lý cần chuẩn bị chiến lược sản phẩm và trải nghiệm người dùng mới, trong khi producer/creative có thể tận dụng các agent này để tự động hóa quy trình làm việc phức tạp hoặc tạo ra các sản phẩm tương tác thông minh hơn.",
-    "source": "Yahoo! Finance",
-    "url": "https://finance.yahoo.com/technology/ai/articles/apple-working-ai-agent-device-214456605.html",
+    "headline": "OpenAI Giảm Giới Hạn GPT-6.2: Astra Chạm Trần 40% Nhanh Hơn, Sol 25% Nhanh Hơn",
+    "summary": "Người dùng Twitter @thsottiaux báo cáo OpenAI đã cắt giảm usage limit của GPT-6.2 đáng kể — model Astra chạm rate limit nhanh hơn 40%, model Sol nhanh hơn 25% so với trước. Điều này xảy ra chỉ vài ngày sau khi GPT-6.2 ra mắt và nhận nhiều phàn nàn 'unusable' từ power users.",
+    "why": "Cho cá nhân + manager: Nếu team bạn đang test GPT-6.2 cho production workflow, chuẩn bị fallback sang model khác hoặc tăng error handling — rate limit thắt chặt nghĩa là downtime rủi ro cao hơn trong peak hours.",
+    "source": "Twitter @thsottiaux",
+    "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
     "tags": [
-      "Apple",
-      "AI Agent",
-      "Chiến lược",
-      "Phát triển"
+      "openai",
+      "gpt-6.2",
+      "rate-limit",
+      "infrastructure"
     ]
   },
   "quick_hits": [
     {
-      "headline": "GPT-6.2 Astra Phá Vỡ Kỷ Lục Code Golf của Google",
-      "why": "Cho thấy khả năng vượt trội của các mô hình AI thế hệ mới trong việc tối ưu hóa mã nguồn, có thể giúp các team phát triển tiết kiệm thời gian và tài nguyên trong việc viết code hiệu quả hơn.",
-      "source": "Hacker News",
-      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "headline": "New York Times Cấm Phóng Viên Ảnh Cập Nhật Photoshop Vì AI Features",
+      "why": "Cho creative: NYT đang set precedent về đạo đức ảnh báo chí trong kỷ nguyên AI — nếu bạn làm editorial photography, chuẩn bị policy tương tự từ client. Transparency về AI usage sẽ trở thành yêu cầu cứng.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "tags": [
-        "GPT",
-        "Coding AI",
-        "Hiệu suất"
+        "photoshop",
+        "journalism",
+        "ethics",
+        "adobe"
       ]
     },
     {
-      "headline": "Google Ra Mắt Gemini 4 Neon: Nhanh Hơn, Rẻ Hơn, Thông Minh Hơn Tiền Nhiệm",
-      "why": "Gemini 4 Neon đạt kỷ lục sử dụng ngày đầu, cung cấp hiệu suất vượt trội với chi phí thấp hơn. Các nhà quản lý và developer có thể cân nhắc chuyển đổi để tối ưu chi phí và tăng tốc độ xử lý cho các ứng dụng AI của mình.",
-      "source": "The Decoder",
-      "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+      "headline": "Google Workspace AI Agents Dùng MCP Servers — Gmail Agent Không Thể Gửi Email",
+      "why": "Cho curious: Google ra mắt MCP (Model Context Protocol) agents nhưng Gmail agent chỉ đọc được email, không gửi — minh họa gap giữa hype 'AI agent làm mọi thứ' với thực tế security/permission constraints.",
+      "source": "TechStackups",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
       "tags": [
-        "Google",
-        "Gemini",
-        "Hiệu suất",
-        "Chi phí"
+        "google",
+        "mcp",
+        "agent",
+        "gmail"
       ]
     },
     {
-      "headline": "Kilo: AI Coding Agent Mã Nguồn Mở Tích Hợp IDE, CLI và Cloud",
-      "why": "Kilo cung cấp một giải pháp linh hoạt cho các team phát triển muốn tích hợp AI vào quy trình coding, hỗ trợ nhiều mô hình và tùy chọn triển khai. Giúp tăng năng suất lập trình và bảo mật dữ liệu.",
-      "source": "Kilo.ai",
-      "url": "https://kilo.ai/",
+      "headline": "Microsoft Nâng Cấp Copilot Windows 11 Với Hybrid Intelligence — Quản Lý File Local Bằng Natural Language",
+      "why": "Cho cá nhân: Nếu bạn dùng Windows 11, Copilot update này cho phép troubleshoot PC và quản lý file bằng lời nói tự nhiên — giảm thời gian mò Settings hoặc command line.",
+      "source": "Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/",
       "tags": [
-        "Coding AI",
-        "Mã nguồn mở",
-        "Phát triển"
+        "microsoft",
+        "copilot",
+        "windows-11",
+        "productivity"
       ]
     },
     {
-      "headline": "OpenMotion: Công Cụ Tạo Video AI Mã Nguồn Mở Biến Video Tham Chiếu Thành Đồ Họa Chuyển Động",
-      "why": "Mở ra khả năng tái tạo phong cách hoạt hình từ video có sẵn, giúp các team sáng tạo và sản xuất video tiết kiệm thời gian đáng kể trong việc tạo ra đồ họa chuyển động theo thương hiệu hoặc phong cách mong muốn.",
-      "source": "Medium (Travis Nicholson)",
-      "url": "https://travisnicholson.medium.com/10-new-ai-tools-you-need-to-try-november-2026-1c78fdaed24e",
+      "headline": "ElevenLabs Đàm Phán Huy Động Vốn Mới Với Định Giá $33 Tỷ USD",
+      "why": "Cho business: ElevenLabs (voice AI) đang tìm funding $33B valuation — tín hiệu thị trường voice synthesis/cloning vẫn hot bất chấp AI slowdown. Nếu bạn làm content voice-heavy, theo dõi pricing khi họ scale.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
       "tags": [
-        "Video AI",
-        "Mã nguồn mở",
-        "Sản xuất"
+        "elevenlabs",
+        "funding",
+        "voice-ai",
+        "valuation"
       ]
     },
     {
-      "headline": "Dùng LLM Để Port Rockbox Lên Máy Nghe Nhạc MP3 Giá Rẻ Không Tài Liệu",
-      "why": "Minh họa khả năng của LLM trong việc hỗ trợ kỹ thuật đảo ngược (reverse engineering) phần cứng, mở ra tiềm năng cho các kỹ sư và nhà phát triển trong việc khai thác các thiết bị không có tài liệu hoặc phục hồi các hệ thống cũ.",
-      "source": "Hacker News",
-      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "headline": "CommerzVentures Ra Mắt Quỹ €50 Triệu Cho AI/Fintech Early-Stage",
+      "why": "Cho founder: Nếu bạn đang build AI startup ở châu Âu (hoặc có kế hoạch expand), đây là nguồn vốn mới target early-stage — timing tốt khi nhiều quỹ Mỹ đang retreat.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-24-2026/",
       "tags": [
-        "LLM",
-        "Reverse Engineering",
-        "Phát triển"
+        "funding",
+        "europe",
+        "fintech",
+        "early-stage"
+      ]
+    },
+    {
+      "headline": "AI Startups Đối Mặt Exit Risk Từ Term Sheet Vội Vàng",
+      "why": "Cho founder: Traders Union cảnh báo founder AI đang close deals nhanh không đủ thời gian review term — dẫn đến rủi ro exit bị block hoặc dilution nặng. Delay 2-4 tuần để có lawyer review tốt hơn mất 20-40% equity sau.",
+      "source": "Traders Union",
+      "url": "https://tradersunion.com/news/business-wealth/show/4411244-ai-startups-exit-risks-financing-terms/",
+      "tags": [
+        "funding",
+        "startup",
+        "term-sheet",
+        "risk"
       ]
     }
   ],
   "production": [
     {
-      "headline": "Google Ra Mắt Gemini Omni: Tạo và Chỉnh Sửa Video Dễ Dàng Như Trò Chuyện",
-      "summary": "Gemini Omni thay thế Veo trong ứng dụng Gemini, kết hợp trí tuệ cốt lõi của Gemini với khả năng tạo phương tiện truyền thông tiên tiến, bao gồm chuyển đổi ảnh thành video và video thành video, kèm hiệu ứng âm thanh và chỉnh sửa.",
-      "why": "Các team sản xuất video và creative có thể tạo nội dung nhanh chóng, hiệu quả hơn thông qua giao diện hội thoại, giảm đáng kể thời gian và chi phí cho các tác vụ phức tạp như chuyển đổi định dạng hoặc thêm hiệu ứng.",
-      "source": "Gemini.google",
-      "url": "https://gemini.google/overview/video-generation/",
+      "headline": "Adobe Firefly Tích Hợp AI Video Generator — Text-to-Video và Image-to-Video Trong Cùng Workflow",
+      "summary": "Adobe Firefly giờ có AI video generator với 2 chế độ: Text to Video (tạo từ prompt) và Image to Video (thêm motion vào still image). Người dùng có thể tạo motion graphics, animated avatars, và environmental animation trực tiếp trong Firefly workflow.",
+      "why": "Cho creative: Nếu bạn đang dùng Adobe ecosystem, Firefly video giúp prototype animation không cần After Effects hoặc Blender — giảm 50% thời gian handoff giữa design và motion. Tuy nhiên, chất lượng chưa rõ so với Runway/Kling.",
+      "source": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
       "tags": [
-        "Video AI",
-        "Gemini",
-        "Sản xuất video",
-        "Sáng tạo"
+        "adobe",
+        "firefly",
+        "text-to-video",
+        "image-to-video",
+        "motion-graphics"
       ]
     },
     {
-      "headline": "Sand.ai's MAGI-2 Dẫn Đầu Thị Trường Image-to-Video Với Chi Phí Thấp",
-      "summary": "MAGI-2 của Sand.ai đạt hiệu suất hàng đầu trong chuyển đổi ảnh thành video, ngang với Dreamina Seedance 2.5 nhưng với chi phí chỉ bằng 1/7.",
-      "why": "Đây là tin tốt cho các studio sản xuất và creative có ngân sách hạn chế nhưng vẫn muốn tạo ra video chất lượng cao từ ảnh. Giúp tối ưu hóa chi phí sản xuất mà không ảnh hưởng đến chất lượng đầu ra.",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/sand-ai-magi-2-image-to-video-price/",
+      "headline": "TBC Mischief 1 — Image-to-Video Model Đầu Tiên Từ 'Neuron Computing' Nhanh Gấp 5 Lần",
+      "summary": "The Biological Computing Co. (TBC) ra mắt TBC mischief 1 vào 30/10/2026 — được quảng cáo là image-to-video model đầu tiên dùng 'neuron-derived architecture'. Theo PR Newswire, model nhanh gấp 5 lần competitor (không nêu tên). Chưa có third-party benchmark.",
+      "why": "Cho curious: 'Neuron computing' nghe như marketing buzzword — chưa có paper hay independent test nào verify claim 5x speed. Skepticism cao cho đến khi có public benchmark hoặc demo thực tế.",
+      "source": "Shattered",
+      "url": "https://shattered.io/neuron-derived-ai-video-model-tbc-mischief-1-5x-speed-2026/",
       "tags": [
-        "Video AI",
-        "Image-to-Video",
-        "Chi phí",
-        "Sản xuất"
-      ]
-    },
-    {
-      "headline": "Kling AI Ra Mắt Mô Hình Ảnh Mới Hỗ Trợ 8K và Text Trong Ảnh",
-      "summary": "Mô hình ảnh mới của Kling AI cung cấp đầu ra 8K (lên đến 8192×8192) và khả năng tạo văn bản trong ảnh lên đến 2.000 ký tự bằng bảy ngôn ngữ.",
-      "why": "Các team thiết kế và marketing có thể tạo ra hình ảnh chất lượng siêu cao với văn bản chính xác ngay trong ảnh, loại bỏ nhu cầu chỉnh sửa hậu kỳ phức tạp, tiết kiệm thời gian và đảm bảo tính nhất quán của thương hiệu.",
-      "source": "toolhype",
-      "url": "https://toolhype.dev/new",
-      "tags": [
-        "Image AI",
-        "8K",
-        "Text-to-Image",
-        "Sáng tạo"
-      ]
-    },
-    {
-      "headline": "MiniMax H3: Mô Hình Video AI Với Audio và Tham Chiếu Đa Dạng (Open Weights)",
-      "summary": "MiniMax H3 tạo video kèm âm thanh, chấp nhận đến 3 video và 9 ảnh tham chiếu, cùng với 3 clip âm thanh. Đặc biệt, H3 có trọng số mở (open weights).",
-      "why": "Việc có trọng số mở giúp các nhà phát triển và studio có thể tùy chỉnh và tích hợp sâu hơn vào quy trình sản xuất của mình, tạo ra video phức tạp với nhiều lớp tham chiếu và âm thanh, tối ưu hóa cho các dự án đòi hỏi sự linh hoạt cao.",
-      "source": "VideoGen",
-      "url": "https://videogen.io/best-ai-video-models",
-      "tags": [
-        "Video AI",
-        "Audio AI",
-        "Mã nguồn mở",
-        "Sản xuất"
+        "tbc",
+        "image-to-video",
+        "neuron-computing",
+        "skepticism"
       ]
     }
   ],
   "vietnam": [],
   "research": [
     {
-      "headline": "GRH Lean Verification: Phiên Bản Ngắn Hơn Từ Anthropic",
-      "summary": "Một phiên bản rút gọn đáng kể của phương pháp xác minh GRH Lean từ Anthropic đã được công bố.",
-      "why": "Điều này có thể giúp các nhà nghiên cứu và kỹ sư trong lĩnh vực AI đẩy nhanh quá trình xác minh tính đúng đắn của các hệ thống phức tạp, từ đó tăng cường độ tin cậy và an toàn của AI.",
-      "source": "Hacker News",
-      "url": "https://github.com/lsernau/grh-lean",
+      "headline": "Z.ai Ra GLM-5.4 Với Loop Transformer Architecture — Hiệu Suất Cao Hơn Không Tăng Tham Số",
+      "summary": "Công ty Trung Quốc Z.ai công bố GLM-5.4 ngày 23/11/2026 với kiến trúc Loop Transformer — thay vì chạy transformer 1 lần, model 'loop' lại nhiều lần trên cùng layer để giải quyết bài toán phức tạp. Giảm số tham số nhưng vẫn giữ hiệu suất.",
+      "why": "Cho curious: Loop Transformer giống như 'recurrent transformer' — thay vì model càng to càng thông minh, giờ model nhỏ có thể 'suy nghĩ lâu hơn' để giải quyết bài khó. Phát hiện này có thể làm giảm cost inference trong tương lai nếu architecture scale tốt.",
+      "source": "Incrypted",
+      "url": "https://incrypted.com/en/z-ai-introduced-the-glm-5-4-ai-model-with-a-new-loop-transformer-architecture/",
       "tags": [
-        "Xác minh AI",
-        "Anthropic",
-        "An toàn AI"
-      ]
-    },
-    {
-      "headline": "TBC Mischief 1: Mô Hình Video AI Từ Neuron Với Tốc Độ Nhanh Gấp 5 Lần",
-      "summary": "The Biological Computing Co. (TBC) ra mắt TBC mischief 1, một mô hình image-to-video \"neuron-derived\" đầu tiên trên thế giới với tốc độ xử lý nhanh gấp 5 lần.",
-      "why": "Tốc độ xử lý vượt trội này có thể cách mạng hóa quy trình sản xuất video, cho phép các creative và producer thử nghiệm ý tưởng nhanh hơn, giảm thời gian render và tăng hiệu quả tổng thể của dự án.",
-      "source": "Shattered",
-      "url": "https://shattered.io/neuron-derived-ai-video-model-tbc-mischief-1-5x-speed-2026/",
-      "tags": [
-        "Video AI",
-        "Tốc độ",
-        "Nghiên cứu"
+        "z-ai",
+        "glm-5.4",
+        "loop-transformer",
+        "architecture"
       ]
     }
   ],
   "business": [
     {
-      "headline": "Amazon Mua Lại Công Nghệ AI Của Decart Với Giá $7.5 Tỷ Để Tăng Cường Chip AI",
-      "summary": "Amazon đã mua lại công nghệ của startup AI Decart với giá 7.5 tỷ USD, nhằm tăng cường hiệu suất chip AI của mình và cạnh tranh với Nvidia.",
-      "why": "Đây là một thương vụ M&A khổng lồ, cho thấy các ông lớn công nghệ đang đầu tư mạnh vào phần cứng AI. Các nhà quản lý và founder cần chú ý xu hướng này để định hướng phát triển sản phẩm và chiến lược đầu tư vào cơ sở hạ tầng AI.",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/11/23/amazon-acquires-decart-ais-technology-in-reported-7-5-billion-deal-to-boost-ai-chip-performance/",
-      "tags": [
-        "M&A",
-        "Chip AI",
-        "Amazon",
-        "Đầu tư"
-      ]
-    },
-    {
-      "headline": "Palo Alto Networks Mua Lại Applied Compute Của Yash Patil Với Giá $4.5 Tỷ",
-      "summary": "Palo Alto Networks đã đồng ý mua lại Applied Compute, startup AI do sinh viên 23 tuổi Yash Patil đồng sáng lập, với giá 4.5 tỷ USD.",
-      "why": "Thương vụ này nhấn mạnh giá trị khổng lồ của các startup AI chuyên biệt, đặc biệt trong lĩnh vực an ninh mạng. Đây là tín hiệu cho các founder và nhà đầu tư về tiềm năng của các giải pháp AI tập trung vào các ngành công nghiệp cụ thể.",
-      "source": "Journalarta",
-      "url": "https://journalarta.com/en/2026/11/19/yash-patil-applied-compute-palo-alto-acquisition/",
-      "tags": [
-        "M&A",
-        "Startup AI",
-        "An ninh mạng",
-        "Đầu tư"
-      ]
-    },
-    {
-      "headline": "Sierra Dẫn Đầu Vòng Gọi Vốn $2.23 Tỷ Cho Các Startup AI Xây Dựng Trung Tâm Dữ Liệu",
-      "summary": "Sáu startup AI đã huy động được khoảng 2.23 tỷ USD, trong đó Sierra chiếm 78% tổng số, tập trung vào việc xây dựng trung tâm dữ liệu cho suy luận AI.",
-      "why": "Cho thấy dòng vốn lớn đang đổ vào cơ sở hạ tầng AI, đặc biệt là các giải pháp tối ưu cho suy luận (inference). Các doanh nghiệp cần đầu tư vào hạ tầng để tận dụng tối đa tiềm năng của AI, trong khi các nhà đầu tư có thể tìm kiếm cơ hội trong lĩnh vực này.",
+      "headline": "6 AI Startups Huy Động $2.23 Tỷ USD Tuần 23/11 — Sierra Chiếm 78%",
+      "summary": "Tuần 23/11/2026, 6 startup AI (rounds trên $2M) huy động tổng $2.23B, trong đó Sierra (AI customer service) chiếm 78% ($1.74B). Marlowe (AI datacenter với chip Etched và AMD) cũng có mặt trong danh sách.",
+      "why": "Cho business: Sierra raise $1.74B cho thấy enterprise AI customer service vẫn là hot market bất chấp slowdown. Nếu bạn đang build B2B AI, focus vào ROI rõ ràng (giảm cost support, tăng retention) thay vì 'AI for AI'.",
       "source": "AI Funding Tracker",
       "url": "https://aifundingtracker.com/ai-funding-news-november-23-2026/",
       "tags": [
-        "Funding",
-        "Hạ tầng AI",
-        "Trung tâm dữ liệu",
-        "Đầu tư"
-      ]
-    },
-    {
-      "headline": "CommerzVentures Ra Mắt Quỹ €50 Triệu Cho AI và Fintech Giai Đoạn Đầu",
-      "summary": "CommerzVentures đã thành lập một quỹ trị giá 50 triệu Euro để đầu tư vào các startup AI và fintech ở giai đoạn đầu.",
-      "why": "Đây là cơ hội cho các founder AI và fintech tại châu Âu tìm kiếm nguồn vốn. Các nhà quản lý và nhà đầu tư cần theo dõi các quỹ chuyên biệt này để nắm bắt xu hướng và cơ hội hợp tác.",
-      "source": "AI Funding Tracker",
-      "url": "https://aifundingtracker.com/ai-funding-news-november-24-2026/",
-      "tags": [
-        "Funding",
-        "Fintech",
-        "Startup AI",
-        "Đầu tư"
+        "funding",
+        "sierra",
+        "enterprise-ai",
+        "customer-service"
       ]
     }
   ],
-  "society": [
-    {
-      "headline": "New York Times Cảnh Báo Nhiếp Ảnh Gia Về Rủi Ro AI Trong Photoshop",
-      "summary": "The New York Times khuyến cáo các nhiếp ảnh gia không nên cập nhật Photoshop vì các tính năng AI mới có thể làm mờ ranh giới giữa ảnh thật và ảnh tạo bởi AI, gây ra các vấn đề về đạo đức và bản quyền.",
-      "why": "Điều này đặt ra câu hỏi lớn về tính xác thực của nội dung trong kỷ nguyên AI và tác động trực tiếp đến uy tín, thu nhập của các nhiếp ảnh gia và nghệ sĩ. Các nhà quản lý cần xem xét chính sách nội bộ về việc sử dụng AI trong sản xuất nội dung để tránh rủi ro pháp lý và đạo đức.",
-      "source": "The Verge (via Hacker News)",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "tags": [
-        "Đạo đức AI",
-        "Bản quyền",
-        "Nghề nghiệp",
-        "Tác động xã hội"
-      ]
-    }
-  ],
+  "society": [],
   "opensource": [
     {
-      "headline": "morluto/rea: Reverse Engineer Mọi Thứ Bằng AI Agents",
-      "why": "Công cụ này cho phép các kỹ sư và nhà nghiên cứu phân tích sâu hành vi ứng dụng và mã nhị phân bằng AI, giúp phát hiện lỗ hổng bảo mật hoặc hiểu rõ hơn về cách phần mềm hoạt động.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/morluto/rea",
-      "stars": "478670"
-    },
-    {
-      "headline": "langgenius/dify: Nền Tảng Xây Dựng AI Agentic Workflows và RAG Pipelines",
-      "why": "Dify cung cấp một không gian làm việc cộng tác để phát triển các ứng dụng AI phức tạp với RAG và hỗ trợ nhiều mô hình/công cụ. Rất hữu ích cho các team muốn chuyển từ prototype sang production nhanh chóng.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/langgenius/dify",
-      "stars": "161925"
-    },
-    {
-      "headline": "open-webui/open-webui: Giao Diện AI Thân Thiện Với Người Dùng (Hỗ Trợ Ollama, OpenAI API)",
-      "why": "Cung cấp một giao diện dễ sử dụng để tương tác với các mô hình AI như Ollama hoặc OpenAI API, giúp các developer và người dùng cuối dễ dàng triển khai và quản lý các ứng dụng AI cục bộ hoặc trên cloud.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "159583"
-    },
-    {
-      "headline": "f/prompts.chat: Cộng Đồng Chia Sẻ và Khám Phá Prompts ChatGPT",
-      "why": "Nguồn tài nguyên quý giá cho các creative và producer để tìm kiếm, chia sẻ các prompt hiệu quả, tối ưu hóa tương tác với ChatGPT và các mô hình ngôn ngữ khác, nâng cao chất lượng đầu ra.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "178543"
-    },
-    {
-      "headline": "n8n-io/n8n: Nền Tảng Tự Động Hóa Workflow Với Khả Năng AI Tích Hợp",
-      "why": "Cho phép các nhà quản lý và developer tự động hóa các quy trình kinh doanh phức tạp bằng cách kết hợp xây dựng trực quan với mã tùy chỉnh và khả năng AI, giúp tiết kiệm thời gian và tăng hiệu quả vận hành.",
-      "source": "GitHub Trending",
+      "headline": "n8n — Fair-Code Workflow Automation Platform Với Native AI Capabilities",
+      "why": "Cho creative + manager: n8n là Zapier/Make open-source với AI native — tự host hoặc dùng cloud, 400+ integrations. Nếu team bạn cần automation phức tạp mà không muốn vendor lock-in, đây là lựa chọn tốt.",
+      "source": "GitHub",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": "212168"
+      "stars": "212347"
+    },
+    {
+      "headline": "prompts.chat — Share, Discover, Collect Prompts From Community (Self-Host)",
+      "why": "Cho cá nhân: Nếu team bạn đang tích lũy prompt library, prompts.chat cho phép self-host với complete privacy thay vì dùng public prompt sharing sites.",
+      "source": "GitHub",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "178613"
+    },
+    {
+      "headline": "Dify — Build Agentic Workflows, RAG Pipelines Trên One Collaborative Workspace",
+      "why": "Cho manager + founder: Dify là platform xây AI agent và RAG pipeline cho team — deploy cloud, VPC, hoặc self-host. Giảm gap giữa prototype và production mà không cần rebuild stack.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "161973"
+    },
+    {
+      "headline": "AMD-Specific Fork Của llama.cpp — Tối Ưu Cho GPU AMD",
+      "why": "Cho cá nhân: Nếu bạn dùng GPU AMD (không phải NVIDIA), fork này tối ưu llama.cpp cho ROCm — chạy local LLM nhanh hơn trên hardware AMD.",
+      "source": "DevNull.land",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "stars": "N/A"
     }
   ],
-  "model_updates": [],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] inclusionAI LingSante 3.1 Air VL — Medical Vision-Language Model $0.06/$0.18",
+      "event": "new",
+      "summary": "LingSante 3.1 Air VL là medical VLM 124B total / 5.5B active MoE của inclusionAI, nhận text và tối đa 16 ảnh (scans, skin/meal photos, lab reports).",
+      "why": "Nếu bạn build medical AI app trên OpenRouter, đây là VLM mới cho use case healthcare — giá rẻ hơn GPT-4V.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/lingsante-3.1-air-vl",
+      "tags": [
+        "new",
+        "medical",
+        "vision-language",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] MoonshotAI Kimi K2 0711 — 1T Total / 32B Active MoE $0.57/$2.30",
+      "event": "new",
+      "summary": "Kimi K2 Instruct là MoE 1 trillion tham số (32B active/forward pass) của Moonshot AI, tối ưu cho reasoning và long context.",
+      "why": "Alternative cho GPT-4 nếu bạn cần MoE giá mid-tier — $0.57 input rẻ hơn nhiều model Trung Quốc khác.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2",
+      "tags": [
+        "new",
+        "moe",
+        "moonshot",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter NEW] MoonshotAI Kimi K2 0905 — September Update $0.60/$2.50",
+      "event": "new",
+      "summary": "Kimi K2 0905 là update tháng 9 của Kimi K2 0711 — cùng architecture 1T/32B MoE.",
+      "why": "Nếu đang dùng K2 0711, test 0905 xem có cải thiện quality — giá gần bằng nhau.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
+      "tags": [
+        "new",
+        "moonshot",
+        "moe"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] MoonshotAI Kimi K2.5 Tăng Giá ↑$0.60/↑$3.00",
+      "event": "price",
+      "summary": "Kimi K2.5 tăng từ $0.50/$2.50 lên $0.60/$3.00 per M tokens.",
+      "why": "Nếu workflow bạn dùng K2.5, cost tăng 20% input / 20% output — cân nhắc downgrade về K2 0905 nếu chất lượng chênh lệch không đáng kể.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
+      "tags": [
+        "price-increase",
+        "moonshot"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash Vision Exp Giảm Giá ↓$0.22/↓$0.65",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash Vision Exp giảm từ $0.44/$1.32 xuống $0.22/$0.65 — giảm 50%.",
+      "why": "Rẻ nhất trong các vision model tier này trên OpenRouter — nếu bạn cần vision + speed, test ngay.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+      "tags": [
+        "price-drop",
+        "deepseek",
+        "vision"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Muse Glimmer 30B Giảm ↓$0.30/↓$1.20",
+      "event": "price",
+      "summary": "Muse Glimmer 30B giảm từ $0.35/$1.50 xuống $0.30/$1.20.",
+      "why": "Meta model 30B giá mid-tier — nếu bạn cần alternative cho Llama 3.3 70B với budget thấp hơn, test Glimmer.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+      "tags": [
+        "price-drop",
+        "meta"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Pro 0813 Input Giảm ↓$0.10, Output Tăng ↑$5.00",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro 0813: input $0.11→$0.10, output $4.44→$5.00.",
+      "why": "Output tăng 12% — nếu workload bạn output-heavy (long generation), cost sẽ tăng. Cân nhắc Flash version nếu không cần Pro quality.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+      "tags": [
+        "price-mixed",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemma 3 4B Tăng Giá ↑$0.05/↑$0.10",
+      "event": "price",
+      "summary": "Gemma 3 4B tăng từ $0.04/$0.05 lên $0.05/$0.10.",
+      "why": "Small model giá tăng 25-100% — nếu bạn dùng Gemma 3 4B cho high-volume tasks, cost có thể gấp đôi.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+      "tags": [
+        "price-increase",
+        "google",
+        "small-model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Z.ai GLM 5.3 Flash Tăng ↑$0.15/↑$0.50",
+      "event": "price",
+      "summary": "GLM 5.3 Flash tăng từ $0.12/$0.38 lên $0.15/$0.50.",
+      "why": "GLM Flash vẫn rẻ nhưng tăng 25%/32% — monitor nếu bạn dùng high-volume.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+      "tags": [
+        "price-increase",
+        "z-ai"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google Gemma 3 27B Output Tăng ↑$0.45",
+      "event": "price",
+      "summary": "Gemma 3 27B: input giữ $0.08, output từ $0.16 lên $0.45 (tăng 181%).",
+      "why": "Output cost gần gấp 3 — nếu workflow bạn generate long text với Gemma 3 27B, migrate sang model khác hoặc giảm output length.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
+      "tags": [
+        "price-increase",
+        "google"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen3.8 27B Tăng ↑$0.06/↑$1.96",
+      "event": "price",
+      "summary": "Qwen3.8 27B tăng từ $0.04/$1.50 lên $0.06/$1.96 — input +50%, output +31%.",
+      "why": "Qwen pricing đang điều chỉnh sau wave giảm giá tháng trước — nếu bạn dùng Qwen cho production, lock pricing hoặc fallback sang DeepSeek.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+      "tags": [
+        "price-increase",
+        "qwen"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Meta Llama 3.3 70B Input Giảm ↓$0.59, Output Tăng ↑$0.79",
+      "event": "price",
+      "summary": "Llama 3.3 70B: input $0.71→$0.59, output $0.71→$0.79.",
+      "why": "Input rẻ hơn 17%, output đắt hơn 11% — nếu workload input-heavy (RAG, summarization), đây là deal tốt.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+      "tags": [
+        "price-mixed",
+        "meta",
+        "llama"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek V4 Flash 0731 Input Giảm ↓$0.05, Output Tăng ↑$0.30",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash 0731: input $0.06→$0.05, output $0.18→$0.30.",
+      "why": "Output tăng 67% — nếu bạn dùng Flash 0731 cho chatbot (output-heavy), migrate sang Flash Vision Exp (rẻ hơn sau giảm giá).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+      "tags": [
+        "price-mixed",
+        "deepseek"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek Pro Latest Input Giảm ↓$0.10, Output Tăng ↑$5.00",
+      "event": "price",
+      "summary": "DeepSeek Pro Latest (alias của V4 Pro): input $0.11→$0.10, output $4.44→$5.00.",
+      "why": "Same như V4 Pro 0813 — output cost tăng 12%. Nếu dùng Pro cho reasoning tasks, cân nhắc giảm output verbosity.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+      "tags": [
+        "price-mixed",
+        "deepseek"
+      ]
+    }
+  ],
   "insight": null,
   "sources_count": {
-    "raw": 156,
-    "brave": 48,
+    "raw": 181,
+    "brave": 49,
     "reddit": 0,
-    "hackernews": 7,
-    "rss": 34,
+    "hackernews": 10,
+    "rss": 42,
     "huggingface": 8,
     "github": 10,
-    "openrouter": 18
+    "openrouter": 14
   }
 }
