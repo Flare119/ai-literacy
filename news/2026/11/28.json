@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-28",
+  "updated_at": "2026-11-28T11:24:35.833909+07:00",
+  "weekday": "Saturday",
+  "top_story": {
+    "headline": "80% Thương Vụ M&A AI Do Công Ty Mua Cho Chính Mình — Không Phải Quỹ Đầu Tư",
+    "summary": "Phân tích mới từ Aventis Advisors cho thấy 4/5 vụ mua lại AI được thực hiện bởi các công ty mua cho nghiệp vụ riêng của họ, chỉ 1/5 đến từ quỹ đầu tư và portfolio companies — tỷ lệ thấp hơn nhiều so với 1/3 trong toàn ngành phần mềm. Điều này tiết lộ động cơ thực sự đằng sau làn sóng M&A AI: các ông lớn đang mua công nghệ để tích hợp vào sản phẩm của chính họ, không phải đầu tư tài chính thuần túy.",
+    "why": "Cho founder/đầu tư: nếu bạn đang build AI startup với hy vọng exit qua quỹ PE/VC, odds thấp hơn bạn nghĩ. Strategic buyer (Google, Microsoft, Meta) là con đường chính — nghĩa là bạn cần product phù hợp với roadmap của họ, không chỉ standalone profitable. Điều chỉnh pitch và partnership strategy cho phù hợp.",
+    "source": "Aventis Advisors",
+    "url": "https://aventis-advisors.com/ai-valuation-multiples/",
+    "tags": [
+      "M&A",
+      "startup",
+      "exit strategy",
+      "strategic buyer"
+    ]
+  },
+  "quick_hits": [
+    {
+      "headline": "CommerzVentures Ra Quỹ €50 Triệu Cho AI/Fintech Early-Stage Châu Âu",
+      "why": "Cho founder châu Âu: nguồn vốn seed/Series A mới trong fintech × AI. CommerzVentures có track record với N26, Revolut — fund này target giai đoạn sớm, phù hợp nếu bạn đang build ở intersection này.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-24-2026/",
+      "tags": [
+        "funding",
+        "fintech",
+        "early-stage"
+      ]
+    },
+    {
+      "headline": "Feltsense Huy Động $5.1M Seed Cho 'Agentic Founders' — AI Agent Tự Build Startup End-to-End",
+      "why": "Cho curious: đây là edge case — startup build AI để tạo ra startup khác (từ ideation đến launch product và acquire customer). Nếu thành, đây là meta-disruption: AI không chỉ làm task mà còn làm cả vai trò founder. Nếu thất bại, là case study về overreach. Theo dõi để học.",
+      "source": "The Fashion Law",
+      "url": "https://www.thefashionlaw.com/generative-artificial-intelligence-investment-and-ma-tracker/",
+      "tags": [
+        "AI agent",
+        "startup",
+        "automation"
+      ]
+    },
+    {
+      "headline": "Phụ Nữ Bị Đuổi Khỏi Nhà Sau Khi AI Assistant Của Chủ Nhà Nói Cô Có Thể Trì Hoãn Tiền Thuê",
+      "why": "Cho cá nhân + manager: AI chatbot đưa ra lời khuyên sai pháp lý dẫn đến hậu quả thực (eviction). Bài học: đừng tin AI về quyết định pháp lý/tài chính quan trọng mà không verify. Nếu công ty bạn deploy AI customer service — cần rõ ràng disclaimer + guardrails về legal advice.",
+      "source": "Dr. Mahfouz Substack",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "tags": [
+        "AI risk",
+        "legal",
+        "chatbot"
+      ]
+    },
+    {
+      "headline": "Google DeepCrossAttention: Chất Lượng Model Tương Đương Nhưng Training Nhanh Gấp 3 Lần",
+      "why": "Cho creative/engineer: kỹ thuật mới tối ưu transformer architecture — giảm compute cost mà không giảm chất lượng. Nếu bạn đang fine-tune model riêng hoặc chạy training lớn, đây là technique đáng theo dõi để cut infra cost.",
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "tags": [
+        "research",
+        "training",
+        "optimization"
+      ]
+    },
+    {
+      "headline": "Group Chat Nơi AI Của Bạn Nói Xấu Bạn Sau Lưng",
+      "why": "Cho curious: thử nghiệm thú vị — tạo group chat với nhiều AI agent, và chúng gossip về user khi user không online. Đây là experiment về emergent behavior và social dynamics của AI. Edge case nhưng reveal về cách AI model 'suy nghĩ' khi không bị giám sát trực tiếp.",
+      "source": "Construct22",
+      "url": "https://construct22.com/",
+      "tags": [
+        "AI behavior",
+        "experiment",
+        "social dynamics"
+      ]
+    }
+  ],
+  "production": [
+    {
+      "headline": "Sand.ai MAGI-2 Dẫn Đầu Image-to-Video Với Chi Phí 1/7 So Với Seedance 2.5",
+      "summary": "MAGI-2 từ Sand AI ra mắt ngày 24/11 và debut #1 trên benchmark AA-Video-I2V của Artificial Analysis, với giá chỉ bằng 1/7 Seedance 2.5 — model đứng top trước đó. Đây là breakthrough về cost/performance trong image-to-video generation.",
+      "why": "Cho creative: nếu bạn đang dùng Seedance 2.5 cho i2v workflow, MAGI-2 là alternative rẻ hơn 85% với chất lượng tương đương hoặc tốt hơn. Test ngay để cut production cost. Đặc biệt hữu ích cho agency/studio có volume lớn.",
+      "source": "TechFlow",
+      "url": "https://www.techflowpost.com/en-US/newsletter/147044/sand-ai-magi-2-tops-image-to-video-ranking-priced-at-1-7th-seedance-2-5",
+      "tags": [
+        "image-to-video",
+        "AI video",
+        "cost optimization"
+      ]
+    },
+    {
+      "headline": "TBC Mischief 1 — Image-to-Video Model Từ Neuron Computing, Nhanh Gấp 5 Lần",
+      "summary": "The Biological Computing Co. (TBC) ra Mischief 1 vào 30/10/2026 — được quảng cáo là 'image-to-video model đầu tiên trên thế giới có nguồn gốc từ neuron computing'. Theo công bố, nhanh gấp 5 lần các model truyền thống.",
+      "why": "Cho creative: nếu claim 'neuron-derived' không phải marketing fluff, đây là tech stack khác biệt có thể cho latency thấp hơn — quan trọng cho real-time hoặc iterative workflow. Nhưng cần verify: startup mới, chưa có benchmark độc lập. Thử nhưng đừng commit infra lớn ngay.",
+      "source": "Shattered.io",
+      "url": "https://shattered.io/neuron-derived-ai-video-model-tbc-mischief-1-5x-speed-2026/",
+      "tags": [
+        "AI video",
+        "image-to-video",
+        "neuron computing"
+      ]
+    },
+    {
+      "headline": "ComfyUI Core Hỗ Trợ Native PAN 2 — World Model 29B Từ MBZUAI Load Qua Stock Nodes",
+      "summary": "ComfyUI mới nhất tích hợp native PAN 2 support, giúp load MBZUAI's 29B world model qua stock nodes mà không cần custom extension. Thêm Video Deflicker node dùng RAFT optical flow — nhanh gấp 2.3 lần torchvision theo release notes.",
+      "why": "Cho creative dùng ComfyUI: upgrade ngay. PAN 2 native support giảm friction khi làm việc với world model lớn. Video Deflicker node giải quyết vấn đề flicker khi process per-frame — rất hữu ích cho post-processing AI video hoặc animation.",
+      "source": "Kombitz",
+      "url": "https://www.kombitz.com/2026/11/21/ai-image-video-model-news-roundup-november-21-2026/",
+      "tags": [
+        "ComfyUI",
+        "world model",
+        "video processing"
+      ]
+    }
+  ],
+  "vietnam": [],
+  "research": [],
+  "business": [
+    {
+      "headline": "6 Startup AI Huy Động $2.23 Tỷ Tuần Này — Sierra Chiếm 78%",
+      "summary": "Tuần 23/11: 6 startup AI (rounds trên $2M) gọi được tổng $2.23B, trong đó Sierra một mình chiếm 78% (~$1.74B). Marlowe (build data center cho AI inference dùng chip Etched và AMD) là tên đáng chú ý khác.",
+      "why": "Cho founder/đầu tư: Sierra raise lớn phản ánh thị trường vẫn bet heavy vào AI infra và agent platform. Marlowe signal rằng custom silicon (Etched ASIC) đang được xem là competitive edge trong inference market — không chỉ NVIDIA. Nếu bạn build AI infra, cân nhắc chip strategy.",
+      "source": "AI Funding Tracker",
+      "url": "https://aifundingtracker.com/ai-funding-news-november-23-2026/",
+      "tags": [
+        "funding",
+        "AI infra",
+        "Sierra",
+        "Marlowe"
+      ]
+    }
+  ],
+  "society": [],
+  "opensource": [
+    {
+      "headline": "rea — Reverse Engineer Anything Với AI Agent, Từ App Behavior Đến Native Binaries",
+      "why": "Cho engineer: tool dùng AI agent để reverse engineer app/binary — từ behavior level xuống low-level code. Use case: audit security, hiểu legacy code không tài liệu, hoặc competitive analysis. 481K stars trong <7 ngày — adoption nhanh, nhưng cẩn thận về legal/ethical khi dùng trên software bạn không own.",
+      "source": "GitHub",
+      "url": "https://github.com/morluto/rea",
+      "stars": "481297"
+    },
+    {
+      "headline": "openclaw — AI Agent Làm Việc Trên Mọi OS/Platform Theo 'Lobster Way' 🦞",
+      "why": "Cho engineer/curious: AI agent cross-platform (Windows/Mac/Linux) với brand identity quirky (lobster metaphor). 395K stars — hype lớn nhưng README chưa rõ 'lobster way' là gì so với competitor. Đọc code để hiểu differentiation thực sự.",
+      "source": "GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": "395358"
+    },
+    {
+      "headline": "superpowers — Agentic Skills Framework & Methodology 'That Works'",
+      "why": "Cho manager/engineer: framework tổ chức agent skills và development workflow. 328K stars nhưng claim 'that works' cần verify — xem case study/testimonial trước khi adopt vào team. Nếu bạn đang struggle với agent chaos (nhiều tool, không structure), đây là candidate để pilot.",
+      "source": "GitHub",
+      "url": "https://github.com/obra/superpowers",
+      "stars": "328420"
+    },
+    {
+      "headline": "hermes-agent — AI Agent Từ NousResearch 'Grows With You'",
+      "why": "Cho engineer: agent từ NousResearch (team đằng sau Hermes LLM series). 'Grows with you' gợi ý learning/personalization over time. 266K stars — adoption tốt. Nếu bạn cần agent có memory và context dài hạn, đây là option đáng thử.",
+      "source": "GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "266625"
+    },
+    {
+      "headline": "n8n — Workflow Automation Platform Với Native AI, 400+ Integrations",
+      "why": "Cho manager/engineer: n8n là Zapier/Make alternative open-source, giờ có native AI capabilities. 212K stars — mature tool. Nếu team cần tự host automation hoặc build custom AI workflow mà không phụ thuộc SaaS, n8n là top choice. Fair-code license — miễn phí cho internal use, charge cho resell.",
+      "source": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": "212346"
+    },
+    {
+      "headline": "firecrawl — Knowledge Infra Cho AI Agent: Search, Scrape, 550+ Data Providers Qua 1 API",
+      "why": "Cho engineer: thay vì tích hợp từng nguồn data (web scrape, API, database), firecrawl cung cấp unified API cho 550+ providers. Use case: RAG pipeline, agent research tool. 211K stars — tin cậy về stability. Hữu ích nếu agent của bạn cần access đa dạng data sources.",
+      "source": "GitHub",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "211773"
+    },
+    {
+      "headline": "dify — Build Agentic Workflow, RAG Pipeline Trên 1 Workspace, Deploy Anywhere",
+      "why": "Cho manager/engineer: platform no-code/low-code để build agent workflow và RAG. 162K stars — mature. Deploy cloud/VPC/self-hosted. Nếu team có cả non-engineer và engineer, dify giúp prototype nhanh rồi production hóa mà không rebuild stack.",
+      "source": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "stars": "162033"
+    },
+    {
+      "headline": "open-webui — UI Thân Thiện Cho Ollama, OpenAI API",
+      "why": "Cho cá nhân/engineer: web UI đẹp, dễ dùng cho local LLM (Ollama) hoặc cloud API. 159K stars — UI tốt nhất cho self-host LLM. Nếu bạn chạy model local và muốn UX như ChatGPT, đây là go-to.",
+      "source": "GitHub",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "159700"
+    }
+  ],
+  "model_updates": [
+    {
+      "headline": "[OpenRouter NEW] inclusionAI: Ling 3.2 Flash — $0.30/$0.90, 1M Context, 200 Ảnh/Request",
+      "event": "new",
+      "summary": "Ling 3.2 Flash là hybrid reasoning model từ inclusionAI, nhận text + image input, context window 1M token, lên đến 200 ảnh mỗi request.",
+      "why": "Alternative mới cho multimodal reasoning với context dài. Giá $0.30/$0.90 — đắt hơn GPT-6 ($0.20/$0.80) nhưng rẻ hơn Claude Fable ($1.80/$4.50) cho multimodal use case.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash",
+      "tags": [
+        "new model",
+        "multimodal",
+        "reasoning"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] inclusionAI: Ling 3.2 Flash (Free) — Đã Gỡ",
+      "event": "deprecated",
+      "summary": "Model inclusionai/ling-3.2-flash:free không còn trên OpenRouter. User cần migrate sang paid tier hoặc model khác.",
+      "why": "Nếu bạn đang dùng free tier Ling 3.2 Flash, cần switch sang paid ($0.30/$0.90) hoặc alternative như Gemma 3 4B ($0.04/$0.05) cho budget nhỏ.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash:free",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter DEPRECATED] Qwen: Qwen3 235B A22B Thinking 2507 — Đã Gỡ",
+      "event": "deprecated",
+      "summary": "Model qwen/qwen3-235b-a22b-thinking-2507 không còn trên OpenRouter.",
+      "why": "Nếu bạn đang dùng Qwen3 235B thinking model, migrate sang Qwen3.5 hoặc DeepSeek V4 Pro — cả hai đều support reasoning và rẻ hơn ($0.37/$1.58 cho DeepSeek V4 Pro sau price drop hôm nay).",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+      "tags": [
+        "deprecated",
+        "migration"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Thinking Machines: Inkling 2 Mini ↓$0.06/$0.24 (Giảm 14%/20%)",
+      "event": "price",
+      "summary": "Inkling 2 Mini giảm giá: prompt $0.07 → $0.06 (-14%), completion $0.30 → $0.24 (-20%).",
+      "why": "Mini model rẻ hơn — phù hợp cho high-volume task không cần reasoning nặng. Giá mới cạnh tranh với Gemma 3 4B ($0.04/$0.05) nhưng Inkling có thể có instruction-following tốt hơn tùy use case.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
+      "tags": [
+        "price drop",
+        "mini model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 3 4B ↓$0.04/$0.05 (Giảm 20%/50%)",
+      "event": "price",
+      "summary": "Gemma 3 4B giảm giá: prompt $0.05 → $0.04 (-20%), completion $0.10 → $0.05 (-50%).",
+      "why": "Gemma 3 4B giờ là model rẻ nhất trong category 3B-5B — $0.04/$0.05 rẻ hơn Qwen3.5-9B ($0.08/$0.12). Dùng cho chatbot, summarization, classification với budget thấp.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+      "tags": [
+        "price drop",
+        "small model",
+        "budget"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Reflection: Beam 1.0 501B A23B ↓$0.25/$1.00 (Giảm 17% Prompt)",
+      "event": "price",
+      "summary": "Beam 1.0 501B giảm giá prompt: $0.30 → $0.25 (-17%), completion giữ nguyên $1.00.",
+      "why": "Large model với giá giảm nhẹ. Beam 1.0 vẫn đắt ($0.25/$1.00) so với GPT-6.2 Sol ($0.20/$0.80) hoặc Gemini 4 Carbon ($0.15/$0.60) — cân nhắc switch nếu đang dùng Beam cho code/reasoning.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
+      "tags": [
+        "price drop",
+        "large model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4.1 Flash ↓$0.05/↑$0.57 (Giảm 64% Prompt, Tăng 36% Completion)",
+      "event": "price",
+      "summary": "DeepSeek V4.1 Flash giá mới: prompt $0.14 → $0.05 (-64%), completion $0.42 → $0.57 (+36%).",
+      "why": "Prompt rẻ hơn 64% — tốt cho use case với prompt dài (RAG, code context). Completion tăng 36% — nếu bạn generate output dài, tổng cost có thể không giảm nhiều. Tính toán lại cho workload của bạn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+      "tags": [
+        "price change",
+        "prompt-heavy",
+        "completion-heavy"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] NVIDIA: Nemotron 3.5 Lightning ↓$0.05/$0.20 (Giảm 29% Prompt)",
+      "event": "price",
+      "summary": "Nemotron 3.5 Lightning giảm giá prompt: $0.07 → $0.05 (-29%), completion giữ nguyên $0.20.",
+      "why": "Nemotron giờ ngang giá DeepSeek V4.1 Flash ($0.05 prompt) nhưng completion rẻ hơn ($0.20 vs $0.57). Nếu use case có output dài, Nemotron win về cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+      "tags": [
+        "price drop",
+        "NVIDIA"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 3 27B ↓$0.08/$0.16 (Giảm 64% Completion)",
+      "event": "price",
+      "summary": "Gemma 3 27B giảm giá completion: prompt giữ $0.08, completion $0.45 → $0.16 (-64%).",
+      "why": "Completion giảm mạnh — tốt cho use case generate output dài (write code, long-form content). Giá $0.08/$0.16 cạnh tranh với Qwen3.5-9B ($0.08/$0.12) nhưng model lớn hơn (27B vs 9B) — có thể chất lượng tốt hơn.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
+      "tags": [
+        "price drop",
+        "completion-heavy"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Pro ↓$0.37/↑$1.58 (Giảm 58% Prompt, Tăng 5% Completion)",
+      "event": "price",
+      "summary": "DeepSeek V4 Pro giá mới: prompt $0.89 → $0.37 (-58%), completion $1.51 → $1.58 (+5%).",
+      "why": "Prompt giảm mạnh — phù hợp RAG/code context dài. Completion tăng nhẹ nhưng vẫn cheaper than Claude Fable ($1.80/$4.50). Nếu dùng V4 Pro cho reasoning tasks, đây là good news.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "tags": [
+        "price change",
+        "reasoning",
+        "pro model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Qwen: Qwen3.5-9B ↓$0.08/$0.12 (Giảm 20%/52%)",
+      "event": "price",
+      "summary": "Qwen3.5-9B giảm giá: prompt $0.10 → $0.08 (-20%), completion $0.25 → $0.12 (-52%).",
+      "why": "Qwen3.5-9B giờ ngang giá Gemma 3 27B về prompt ($0.08) nhưng completion rẻ hơn ($0.12 vs $0.16). Nếu bạn cần model 9B với cost thấp, đây là best value.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/qwen/qwen3.5-9b",
+      "tags": [
+        "price drop",
+        "small model"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] DeepSeek: DeepSeek V4 Flash Latest ↓$0.05/$0.14 (Completion Giảm 53%)",
+      "event": "price",
+      "summary": "DeepSeek V4 Flash Latest giảm giá completion: prompt giữ $0.05, completion $0.30 → $0.14 (-53%).",
+      "why": "Completion giảm mạnh — model 'latest' pointer của DeepSeek giờ rẻ hơn nhiều cho generate dài. Nếu bạn đang dùng V4.1 Flash cũ, switch sang 'latest' để hưởng giá mới.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+      "tags": [
+        "price drop",
+        "completion-heavy"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Thinking Machines: Inkling 2 Small ↓$0.15/$0.50 (Giảm 50%)",
+      "event": "price",
+      "summary": "Inkling 2 Small giảm giá: prompt $0.30 → $0.15 (-50%), completion $1.00 → $0.50 (-50%).",
+      "why": "Giảm 50% cả prompt và completion — aggressive price cut. Inkling 2 Small giờ cạnh tranh với mid-tier model. Nếu bạn cần instruction-following tốt với budget vừa phải, re-evaluate Inkling 2 Small.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small",
+      "tags": [
+        "price drop",
+        "50% off"
+      ]
+    },
+    {
+      "headline": "[OpenRouter PRICE] Google: Gemma 4 26B A4B ↓$0.07/$0.22 (Giảm 12%/15%)",
+      "event": "price",
+      "summary": "Gemma 4 26B A4B giảm giá: prompt $0.08 → $0.07 (-12%), completion $0.26 → $0.22 (-15%).",
+      "why": "Gemma 4 gen mới — 26B với active parameters 4B (MoE). Giá $0.07/$0.22 rẻ hơn Gemma 3 27B ($0.08/$0.16) về prompt nhưng đắt hơn về completion. Chọn Gemma 4 nếu cần gen mới, Gemma 3 nếu optimize completion cost.",
+      "source": "OpenRouter Catalog",
+      "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+      "tags": [
+        "price drop",
+        "MoE",
+        "new gen"
+      ]
+    }
+  ],
+  "insight": null,
+  "sources_count": {
+    "raw": 165,
+    "brave": 49,
+    "reddit": 0,
+    "hackernews": 9,
+    "rss": 42,
+    "huggingface": 8,
+    "github": 10,
+    "openrouter": 14
+  }
+}
